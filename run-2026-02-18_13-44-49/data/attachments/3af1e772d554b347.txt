@@ -1,0 +1,56 @@
+[STEP] 2026-02-18T13:42:17.689Z - Login to Provider Portal
+[STEP] 2026-02-18T13:42:18.261Z - Attempting to login to provider portal
+[STEP] 2026-02-18T13:42:18.261Z - Navigating to provider portal login page
+[INFO] 2026-02-18T13:42:19.496Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-18T13:42:19.642Z - Login attempt completed
+[STEP] 2026-02-18T13:42:22.181Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-18T13:42:22.182Z - Opening CCM Library
+[INFO] 2026-02-18T13:42:22.262Z - Successfully opened CCM Library
+[STEP] 2026-02-18T13:42:22.262Z - Opening Care Plan section
+[INFO] 2026-02-18T13:42:22.424Z - Successfully opened Care Plan section
+[STEP] 2026-02-18T13:42:22.424Z - Test: View Only mode
+[STEP] 2026-02-18T13:42:22.424Z - Creating minimal care plan: ViewOnly Plan 1771422142424
+[STEP] 2026-02-18T13:42:22.424Z - Clicking Create Care Plan button
+[INFO] 2026-02-18T13:42:24.636Z - Create Care Plan form opened
+[STEP] 2026-02-18T13:42:24.636Z - Selecting diagnosis code: A001
+[INFO] 2026-02-18T13:42:27.317Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-18T13:42:27.317Z - Filling care plan name: ViewOnly Plan 1771422142424
+[INFO] 2026-02-18T13:42:27.342Z - Care plan name filled: ViewOnly Plan 1771422142424
+[STEP] 2026-02-18T13:42:27.342Z - Selecting section: Overview
+[INFO] 2026-02-18T13:42:27.710Z - Section 'Overview' selected
+[STEP] 2026-02-18T13:42:27.710Z - Selecting section: Long Term Goals
+[INFO] 2026-02-18T13:42:28.073Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-18T13:42:28.073Z - Clicking Next button
+[INFO] 2026-02-18T13:42:30.135Z - Next button clicked
+[STEP] 2026-02-18T13:42:30.135Z - Filling Overview section
+[INFO] 2026-02-18T13:42:30.154Z - Care Plan header filled
+[INFO] 2026-02-18T13:42:30.177Z - Care Plan footer filled
+[STEP] 2026-02-18T13:42:30.177Z - Clicking Next button
+[INFO] 2026-02-18T13:42:32.278Z - Next button clicked
+[STEP] 2026-02-18T13:42:32.278Z - Filling goal section - Title: View Goal, Type: Free Text
+[INFO] 2026-02-18T13:42:32.297Z - Section note filled
+[INFO] 2026-02-18T13:42:32.321Z - Goal title filled: View Goal
+[INFO] 2026-02-18T13:42:33.951Z - Goal type selected: Free Text
+[STEP] 2026-02-18T13:42:33.951Z - Clicking Finish button
+[INFO] 2026-02-18T13:42:36.028Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-18T13:42:36.028Z - Minimal care plan 'ViewOnly Plan 1771422142424' created
+[STEP] 2026-02-18T13:42:36.028Z - Verifying care plan 'ViewOnly Plan 1771422142424' is visible in the list
+[STEP] 2026-02-18T13:42:36.028Z - Searching for care plan: ViewOnly Plan 1771422142424
+[INFO] 2026-02-18T13:42:36.575Z - Search completed for care plan: ViewOnly Plan 1771422142424
+[INFO] 2026-02-18T13:42:37.446Z - Care plan 'ViewOnly Plan 1771422142424' is visible in the list
+[INFO] 2026-02-18T13:42:37.446Z - Care plan 'ViewOnly Plan 1771422142424' created for viewing
+[STEP] 2026-02-18T13:42:37.446Z - Clicking View Only for: ViewOnly Plan 1771422142424
+[STEP] 2026-02-18T13:42:37.446Z - Searching for care plan: ViewOnly Plan 1771422142424
+[INFO] 2026-02-18T13:42:37.965Z - Search completed for care plan: ViewOnly Plan 1771422142424
+[STEP] 2026-02-18T13:42:37.965Z - Opening action menu for: ViewOnly Plan 1771422142424
+[INFO] 2026-02-18T13:42:39.019Z - Action menu opened
+[INFO] 2026-02-18T13:42:42.051Z - Preview Care Plan page opened
+[INFO] 2026-02-18T13:42:42.054Z - Preview Care Plan page opened
+[INFO] 2026-02-18T13:42:42.057Z - Preview shows correct care plan name
+[INFO] 2026-02-18T13:42:42.060Z - Header content displayed in preview
+[INFO] 2026-02-18T13:42:42.063Z - Footer content displayed in preview
+[INFO] 2026-02-18T13:42:42.066Z - Section name displayed in preview
+[INFO] 2026-02-18T13:42:42.069Z - Section note content displayed in preview
+[STEP] 2026-02-18T13:42:42.069Z - Clicking Cancel button
+[INFO] 2026-02-18T13:42:43.096Z - Cancel button clicked
+[INFO] 2026-02-18T13:42:43.099Z - View Only mode test completed

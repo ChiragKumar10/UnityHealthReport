@@ -1,0 +1,53 @@
+[ERROR] 2026-02-18T13:35:04.625Z - Specific patient row checkbox not found, trying generic first checkbox as per script
+[ERROR] 2026-02-18T13:35:19.628Z - Failed to select patient: Automation, Test
+locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//input[@aria-label=\'introduction checkbox\'])[1]')
+
+    at WeekInteractionPage.selectPatient (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:79:94)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/week-interaction.spec.ts:40:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 79,
+      column: 94,
+      function: 'WeekInteractionPage.selectPatient'
+    },
+    category: 'pw:api',
+    title: "Click locator('xpath=(//input[@aria-label=\\'introduction checkbox\\'])[1]')",
+    apiName: 'locator.click',
+    params: {
+      selector: "(//input[@aria-label='introduction checkbox'])[1]",
+      strict: true,
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@57',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@57',
+      _title: "Click locator('xpath=(//input[@aria-label=\\'introduction checkbox\\'])[1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771421719628,
+    error: {
+      message: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('xpath=(//input[@aria-label=\\'introduction checkbox\\'])[1]')\x1B[22m\n",
+      stack: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('xpath=(//input[@aria-label=\\'introduction checkbox\\'])[1]')\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.selectPatient (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:79:94)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/week-interaction.spec.ts:40:9',
+      cause: undefined
+    }
+  }
+}

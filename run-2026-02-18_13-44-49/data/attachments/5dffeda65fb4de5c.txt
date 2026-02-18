@@ -1,0 +1,69 @@
+[STEP] 2026-02-18T13:43:37.243Z - Login to Provider Portal
+[STEP] 2026-02-18T13:43:37.812Z - Attempting to login to provider portal
+[STEP] 2026-02-18T13:43:37.812Z - Navigating to provider portal login page
+[INFO] 2026-02-18T13:43:39.047Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-18T13:43:39.191Z - Login attempt completed
+[STEP] 2026-02-18T13:43:42.087Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-18T13:43:42.087Z - Opening CCM Library
+[INFO] 2026-02-18T13:43:42.146Z - Successfully opened CCM Library
+[STEP] 2026-02-18T13:43:42.146Z - Opening Care Plan section
+[INFO] 2026-02-18T13:43:42.301Z - Successfully opened Care Plan section
+[STEP] 2026-02-18T13:43:42.301Z - Test: Save as Draft from edit mode
+[STEP] 2026-02-18T13:43:42.301Z - Creating minimal care plan: DraftEdit Plan 1771422222301
+[STEP] 2026-02-18T13:43:42.301Z - Clicking Create Care Plan button
+[INFO] 2026-02-18T13:43:44.399Z - Create Care Plan form opened
+[STEP] 2026-02-18T13:43:44.399Z - Selecting diagnosis code: A001
+[INFO] 2026-02-18T13:43:48.414Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-18T13:43:48.414Z - Filling care plan name: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:43:48.448Z - Care plan name filled: DraftEdit Plan 1771422222301
+[STEP] 2026-02-18T13:43:48.448Z - Selecting section: Overview
+[INFO] 2026-02-18T13:43:48.824Z - Section 'Overview' selected
+[STEP] 2026-02-18T13:43:48.824Z - Selecting section: Long Term Goals
+[INFO] 2026-02-18T13:43:49.188Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-18T13:43:49.188Z - Clicking Next button
+[INFO] 2026-02-18T13:43:51.261Z - Next button clicked
+[STEP] 2026-02-18T13:43:51.261Z - Filling Overview section
+[INFO] 2026-02-18T13:43:51.281Z - Care Plan header filled
+[INFO] 2026-02-18T13:43:51.304Z - Care Plan footer filled
+[STEP] 2026-02-18T13:43:51.304Z - Clicking Next button
+[INFO] 2026-02-18T13:43:53.397Z - Next button clicked
+[STEP] 2026-02-18T13:43:53.397Z - Filling goal section - Title: Draft Edit Goal, Type: Free Text
+[INFO] 2026-02-18T13:43:53.414Z - Section note filled
+[INFO] 2026-02-18T13:43:53.441Z - Goal title filled: Draft Edit Goal
+[INFO] 2026-02-18T13:43:55.068Z - Goal type selected: Free Text
+[STEP] 2026-02-18T13:43:55.068Z - Clicking Finish button
+[INFO] 2026-02-18T13:43:57.140Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-18T13:43:57.141Z - Minimal care plan 'DraftEdit Plan 1771422222301' created
+[STEP] 2026-02-18T13:43:57.141Z - Verifying care plan 'DraftEdit Plan 1771422222301' is visible in the list
+[STEP] 2026-02-18T13:43:57.141Z - Searching for care plan: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:43:57.684Z - Search completed for care plan: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:43:58.550Z - Care plan 'DraftEdit Plan 1771422222301' is visible in the list
+[INFO] 2026-02-18T13:43:58.550Z - Care plan 'DraftEdit Plan 1771422222301' created
+[STEP] 2026-02-18T13:43:58.550Z - Clicking Edit for: DraftEdit Plan 1771422222301
+[STEP] 2026-02-18T13:43:58.551Z - Searching for care plan: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:43:59.068Z - Search completed for care plan: DraftEdit Plan 1771422222301
+[STEP] 2026-02-18T13:43:59.068Z - Opening action menu for: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:44:00.111Z - Action menu opened
+[INFO] 2026-02-18T13:44:02.164Z - Edit form opened
+[INFO] 2026-02-18T13:44:02.164Z - Edit mode opened (Step 1)
+[STEP] 2026-02-18T13:44:02.164Z - Filling care plan name: DraftEdit Updated 1771422222301
+[INFO] 2026-02-18T13:44:02.184Z - Care plan name filled: DraftEdit Updated 1771422222301
+[STEP] 2026-02-18T13:44:02.184Z - Clicking Next button
+[INFO] 2026-02-18T13:44:04.241Z - Next button clicked
+[INFO] 2026-02-18T13:44:04.246Z - Save as Draft button visible in edit mode
+[STEP] 2026-02-18T13:44:04.246Z - Clicking Save as Draft button
+[INFO] 2026-02-18T13:44:06.290Z - Save as Draft clicked
+[INFO] 2026-02-18T13:44:06.290Z - Saved as draft from edit mode
+[STEP] 2026-02-18T13:44:06.290Z - Verifying care plan 'DraftEdit Updated 1771422222301' is visible in the list
+[STEP] 2026-02-18T13:44:06.290Z - Searching for care plan: DraftEdit Updated 1771422222301
+[INFO] 2026-02-18T13:44:06.812Z - Search completed for care plan: DraftEdit Updated 1771422222301
+[INFO] 2026-02-18T13:44:07.675Z - Care plan 'DraftEdit Updated 1771422222301' is visible in the list
+[INFO] 2026-02-18T13:44:07.675Z - Draft-saved plan 'DraftEdit Updated 1771422222301' found in list
+[INFO] 2026-02-18T13:44:07.678Z - Draft status verified after save from edit mode
+[STEP] 2026-02-18T13:44:07.678Z - Verifying care plan 'DraftEdit Plan 1771422222301' is NOT in the list
+[STEP] 2026-02-18T13:44:07.678Z - Clearing search box
+[INFO] 2026-02-18T13:44:08.199Z - Search cleared
+[STEP] 2026-02-18T13:44:08.199Z - Searching for care plan: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:44:08.729Z - Search completed for care plan: DraftEdit Plan 1771422222301
+[INFO] 2026-02-18T13:44:08.733Z - Care plan 'DraftEdit Plan 1771422222301' is not in the list
+[INFO] 2026-02-18T13:44:08.733Z - Save as Draft from edit mode test completed

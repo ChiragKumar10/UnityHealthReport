@@ -1,0 +1,55 @@
+[STEP] 2026-02-18T13:39:18.491Z - Login to Provider Portal
+[STEP] 2026-02-18T13:39:18.969Z - Attempting to login to provider portal
+[STEP] 2026-02-18T13:39:18.969Z - Navigating to provider portal login page
+[INFO] 2026-02-18T13:39:20.226Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-18T13:39:20.367Z - Login attempt completed
+[STEP] 2026-02-18T13:39:22.873Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-18T13:39:22.874Z - Opening CCM Library
+[INFO] 2026-02-18T13:39:22.941Z - Successfully opened CCM Library
+[STEP] 2026-02-18T13:39:22.941Z - Opening Care Plan section
+[INFO] 2026-02-18T13:39:23.112Z - Successfully opened Care Plan section
+[STEP] 2026-02-18T13:39:23.112Z - Test: Delete cancellation
+[STEP] 2026-02-18T13:39:23.112Z - Creating minimal care plan: Cancel Delete 1771421963112
+[STEP] 2026-02-18T13:39:23.112Z - Clicking Create Care Plan button
+[INFO] 2026-02-18T13:39:25.212Z - Create Care Plan form opened
+[STEP] 2026-02-18T13:39:25.212Z - Selecting diagnosis code: A001
+[INFO] 2026-02-18T13:39:27.893Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-18T13:39:27.893Z - Filling care plan name: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:27.920Z - Care plan name filled: Cancel Delete 1771421963112
+[STEP] 2026-02-18T13:39:27.920Z - Selecting section: Overview
+[INFO] 2026-02-18T13:39:28.299Z - Section 'Overview' selected
+[STEP] 2026-02-18T13:39:28.299Z - Selecting section: Long Term Goals
+[INFO] 2026-02-18T13:39:28.670Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-18T13:39:28.670Z - Clicking Next button
+[INFO] 2026-02-18T13:39:30.733Z - Next button clicked
+[STEP] 2026-02-18T13:39:30.733Z - Filling Overview section
+[INFO] 2026-02-18T13:39:30.751Z - Care Plan header filled
+[INFO] 2026-02-18T13:39:30.772Z - Care Plan footer filled
+[STEP] 2026-02-18T13:39:30.772Z - Clicking Next button
+[INFO] 2026-02-18T13:39:32.858Z - Next button clicked
+[STEP] 2026-02-18T13:39:32.858Z - Filling goal section - Title: Cancel Goal, Type: Free Text
+[INFO] 2026-02-18T13:39:32.875Z - Section note filled
+[INFO] 2026-02-18T13:39:32.896Z - Goal title filled: Cancel Goal
+[INFO] 2026-02-18T13:39:34.546Z - Goal type selected: Free Text
+[STEP] 2026-02-18T13:39:34.546Z - Clicking Finish button
+[INFO] 2026-02-18T13:39:36.617Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-18T13:39:36.617Z - Minimal care plan 'Cancel Delete 1771421963112' created
+[STEP] 2026-02-18T13:39:36.617Z - Verifying care plan 'Cancel Delete 1771421963112' is visible in the list
+[STEP] 2026-02-18T13:39:36.617Z - Searching for care plan: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:37.171Z - Search completed for care plan: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:37.177Z - Care plan 'Cancel Delete 1771421963112' is visible in the list
+[STEP] 2026-02-18T13:39:37.177Z - Clicking Delete for: Cancel Delete 1771421963112
+[STEP] 2026-02-18T13:39:37.177Z - Searching for care plan: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:37.700Z - Search completed for care plan: Cancel Delete 1771421963112
+[STEP] 2026-02-18T13:39:37.700Z - Opening action menu for: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:38.822Z - Action menu opened
+[INFO] 2026-02-18T13:39:39.867Z - Delete dialog opened
+[INFO] 2026-02-18T13:39:39.873Z - Delete dialog displayed
+[STEP] 2026-02-18T13:39:39.873Z - Cancelling delete
+[INFO] 2026-02-18T13:39:40.902Z - Delete cancelled
+[INFO] 2026-02-18T13:39:40.902Z - Deletion cancelled
+[STEP] 2026-02-18T13:39:40.902Z - Verifying care plan 'Cancel Delete 1771421963112' is visible in the list
+[STEP] 2026-02-18T13:39:40.902Z - Searching for care plan: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:41.420Z - Search completed for care plan: Cancel Delete 1771421963112
+[INFO] 2026-02-18T13:39:41.424Z - Care plan 'Cancel Delete 1771421963112' is visible in the list
+[INFO] 2026-02-18T13:39:41.424Z - Delete cancellation test completed

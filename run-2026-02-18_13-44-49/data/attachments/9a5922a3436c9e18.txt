@@ -1,0 +1,54 @@
+[ERROR] 2026-02-18T13:35:19.765Z - Failed to select patient: Automation
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//div[contains(normalize-space(.), \'Automation\')]').first() to be visible
+
+    at PatientChartPage.selectPatientByName (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts:111:38)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:65:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts',
+      line: 111,
+      column: 38,
+      function: 'PatientChartPage.selectPatientByName'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//div[contains(normalize-space(.), \\'Automation\\')]').first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//div[contains(normalize-space(.), 'Automation')] >> nth=0",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@59',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@59',
+      _title: "Wait for selector locator('//div[contains(normalize-space(.), \\'Automation\\')]').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771421719764,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//div[contains(normalize-space(.), \\'Automation\\')]').first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//div[contains(normalize-space(.), \\'Automation\\')]').first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at PatientChartPage.selectPatientByName (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts:111:38)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:65:9',
+      cause: undefined
+    }
+  }
+}
