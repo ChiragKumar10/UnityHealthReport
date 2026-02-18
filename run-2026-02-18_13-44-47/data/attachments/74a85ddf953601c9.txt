@@ -1,0 +1,63 @@
+[STEP] 2026-02-18T13:42:52.273Z - Login to Provider Portal
+[STEP] 2026-02-18T13:42:55.367Z - Attempting to login to provider portal
+[STEP] 2026-02-18T13:42:55.367Z - Navigating to provider portal login page
+[INFO] 2026-02-18T13:42:56.670Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-18T13:42:56.794Z - Login attempt completed
+[STEP] 2026-02-18T13:42:59.659Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-18T13:42:59.659Z - Opening CCM Library
+[INFO] 2026-02-18T13:42:59.723Z - Successfully opened CCM Library
+[STEP] 2026-02-18T13:42:59.723Z - Opening Care Plan section
+[INFO] 2026-02-18T13:42:59.877Z - Successfully opened Care Plan section
+[STEP] 2026-02-18T13:42:59.877Z - Test: Duplicate care plan name
+[STEP] 2026-02-18T13:42:59.877Z - Creating minimal care plan: Duplicate Plan 1771422179877
+[STEP] 2026-02-18T13:42:59.877Z - Clicking Create Care Plan button
+[INFO] 2026-02-18T13:43:01.997Z - Create Care Plan form opened
+[STEP] 2026-02-18T13:43:01.997Z - Selecting diagnosis code: A001
+[INFO] 2026-02-18T13:43:04.634Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-18T13:43:04.634Z - Filling care plan name: Duplicate Plan 1771422179877
+[INFO] 2026-02-18T13:43:04.655Z - Care plan name filled: Duplicate Plan 1771422179877
+[STEP] 2026-02-18T13:43:04.656Z - Selecting section: Overview
+[INFO] 2026-02-18T13:43:05.011Z - Section 'Overview' selected
+[STEP] 2026-02-18T13:43:05.011Z - Selecting section: Long Term Goals
+[INFO] 2026-02-18T13:43:05.375Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-18T13:43:05.375Z - Clicking Next button
+[INFO] 2026-02-18T13:43:07.435Z - Next button clicked
+[STEP] 2026-02-18T13:43:07.435Z - Filling Overview section
+[INFO] 2026-02-18T13:43:07.451Z - Care Plan header filled
+[INFO] 2026-02-18T13:43:07.469Z - Care Plan footer filled
+[STEP] 2026-02-18T13:43:07.469Z - Clicking Next button
+[INFO] 2026-02-18T13:43:09.547Z - Next button clicked
+[STEP] 2026-02-18T13:43:09.547Z - Filling goal section - Title: Duplicate Goal, Type: Free Text
+[INFO] 2026-02-18T13:43:09.564Z - Section note filled
+[INFO] 2026-02-18T13:43:09.582Z - Goal title filled: Duplicate Goal
+[INFO] 2026-02-18T13:43:11.234Z - Goal type selected: Free Text
+[STEP] 2026-02-18T13:43:11.234Z - Clicking Finish button
+[INFO] 2026-02-18T13:43:13.313Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-18T13:43:13.313Z - Minimal care plan 'Duplicate Plan 1771422179877' created
+[STEP] 2026-02-18T13:43:13.313Z - Verifying care plan 'Duplicate Plan 1771422179877' is visible in the list
+[STEP] 2026-02-18T13:43:13.313Z - Searching for care plan: Duplicate Plan 1771422179877
+[INFO] 2026-02-18T13:43:13.855Z - Search completed for care plan: Duplicate Plan 1771422179877
+[INFO] 2026-02-18T13:43:14.719Z - Care plan 'Duplicate Plan 1771422179877' is visible in the list
+[INFO] 2026-02-18T13:43:14.719Z - Care plan 'Duplicate Plan 1771422179877' created
+[STEP] 2026-02-18T13:43:14.719Z - Clicking Create Care Plan button
+[INFO] 2026-02-18T13:43:16.781Z - Create Care Plan form opened
+[STEP] 2026-02-18T13:43:16.781Z - Selecting diagnosis code: A001
+[INFO] 2026-02-18T13:43:19.446Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-18T13:43:19.446Z - Filling care plan name: Duplicate Plan 1771422179877
+[INFO] 2026-02-18T13:43:19.464Z - Care plan name filled: Duplicate Plan 1771422179877
+[STEP] 2026-02-18T13:43:19.464Z - Selecting section: Overview
+[INFO] 2026-02-18T13:43:19.802Z - Section 'Overview' selected
+[STEP] 2026-02-18T13:43:19.802Z - Clicking Next button
+[INFO] 2026-02-18T13:43:21.841Z - Next button clicked
+[INFO] 2026-02-18T13:43:21.844Z - Stayed on Step 1 with duplicate name
+[STEP] 2026-02-18T13:43:21.844Z - Waiting for toast message containing: Care Plan name already exists
+[INFO] 2026-02-18T13:43:21.848Z - Toast message found: Care Plan name already exists
+[INFO] 2026-02-18T13:43:21.848Z - Duplicate name toast error verified
+[STEP] 2026-02-18T13:43:21.848Z - Clicking Cancel button
+[INFO] 2026-02-18T13:43:22.923Z - Cancel button clicked
+[STEP] 2026-02-18T13:43:22.923Z - Verifying care plan 'Duplicate Plan 1771422179877' is visible in the list
+[STEP] 2026-02-18T13:43:22.924Z - Searching for care plan: Duplicate Plan 1771422179877
+[INFO] 2026-02-18T13:43:23.440Z - Search completed for care plan: Duplicate Plan 1771422179877
+[INFO] 2026-02-18T13:43:23.444Z - Care plan 'Duplicate Plan 1771422179877' is visible in the list
+[INFO] 2026-02-18T13:43:23.444Z - Only original care plan exists - no duplicate was created
+[INFO] 2026-02-18T13:43:23.444Z - Duplicate care plan name test completed

@@ -1,0 +1,69 @@
+[STEP] 2026-02-18T13:38:01.807Z - Login to Provider Portal
+[STEP] 2026-02-18T13:38:02.347Z - Attempting to login to provider portal
+[STEP] 2026-02-18T13:38:02.347Z - Navigating to provider portal login page
+[INFO] 2026-02-18T13:38:03.649Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-18T13:38:03.772Z - Login attempt completed
+[STEP] 2026-02-18T13:38:06.661Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-18T13:38:06.661Z - Opening CCM Library
+[INFO] 2026-02-18T13:38:06.745Z - Successfully opened CCM Library
+[STEP] 2026-02-18T13:38:06.745Z - Opening Care Plan section
+[INFO] 2026-02-18T13:38:06.886Z - Successfully opened Care Plan section
+[STEP] 2026-02-18T13:38:06.886Z - Test: Edit care plan workflow
+[STEP] 2026-02-18T13:38:06.886Z - Creating minimal care plan: Edit Original 1771421886886
+[STEP] 2026-02-18T13:38:06.887Z - Clicking Create Care Plan button
+[INFO] 2026-02-18T13:38:08.980Z - Create Care Plan form opened
+[STEP] 2026-02-18T13:38:08.980Z - Selecting diagnosis code: A001
+[INFO] 2026-02-18T13:38:11.641Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-18T13:38:11.641Z - Filling care plan name: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:11.661Z - Care plan name filled: Edit Original 1771421886886
+[STEP] 2026-02-18T13:38:11.661Z - Selecting section: Overview
+[INFO] 2026-02-18T13:38:12.025Z - Section 'Overview' selected
+[STEP] 2026-02-18T13:38:12.025Z - Selecting section: Long Term Goals
+[INFO] 2026-02-18T13:38:12.388Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-18T13:38:12.388Z - Clicking Next button
+[INFO] 2026-02-18T13:38:14.444Z - Next button clicked
+[STEP] 2026-02-18T13:38:14.444Z - Filling Overview section
+[INFO] 2026-02-18T13:38:14.467Z - Care Plan header filled
+[INFO] 2026-02-18T13:38:14.494Z - Care Plan footer filled
+[STEP] 2026-02-18T13:38:14.494Z - Clicking Next button
+[INFO] 2026-02-18T13:38:16.574Z - Next button clicked
+[STEP] 2026-02-18T13:38:16.574Z - Filling goal section - Title: Original Goal, Type: Free Text
+[INFO] 2026-02-18T13:38:16.593Z - Section note filled
+[INFO] 2026-02-18T13:38:16.613Z - Goal title filled: Original Goal
+[INFO] 2026-02-18T13:38:18.230Z - Goal type selected: Free Text
+[STEP] 2026-02-18T13:38:18.230Z - Clicking Finish button
+[INFO] 2026-02-18T13:38:20.308Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-18T13:38:20.308Z - Minimal care plan 'Edit Original 1771421886886' created
+[STEP] 2026-02-18T13:38:20.308Z - Verifying care plan 'Edit Original 1771421886886' is visible in the list
+[STEP] 2026-02-18T13:38:20.308Z - Searching for care plan: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:20.847Z - Search completed for care plan: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:21.717Z - Care plan 'Edit Original 1771421886886' is visible in the list
+[INFO] 2026-02-18T13:38:21.717Z - Original care plan 'Edit Original 1771421886886' created
+[STEP] 2026-02-18T13:38:21.717Z - Editing care plan from 'Edit Original 1771421886886' to 'Edited Plan 1771421886886'
+[STEP] 2026-02-18T13:38:21.718Z - Clicking Edit for: Edit Original 1771421886886
+[STEP] 2026-02-18T13:38:21.718Z - Searching for care plan: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:22.236Z - Search completed for care plan: Edit Original 1771421886886
+[STEP] 2026-02-18T13:38:22.236Z - Opening action menu for: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:23.282Z - Action menu opened
+[INFO] 2026-02-18T13:38:25.333Z - Edit form opened
+[STEP] 2026-02-18T13:38:25.374Z - Clicking Next button
+[INFO] 2026-02-18T13:38:27.426Z - Next button clicked
+[STEP] 2026-02-18T13:38:27.429Z - Clicking Next button
+[INFO] 2026-02-18T13:38:29.483Z - Next button clicked
+[STEP] 2026-02-18T13:38:29.486Z - Clicking Finish button
+[INFO] 2026-02-18T13:38:31.558Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-18T13:38:31.558Z - Care plan updated from 'Edit Original 1771421886886' to 'Edited Plan 1771421886886'
+[INFO] 2026-02-18T13:38:31.558Z - Care plan edited
+[INFO] 2026-02-18T13:38:31.561Z - Back on list page after edit
+[STEP] 2026-02-18T13:38:31.561Z - Verifying care plan 'Edited Plan 1771421886886' is visible in the list
+[STEP] 2026-02-18T13:38:31.561Z - Searching for care plan: Edited Plan 1771421886886
+[INFO] 2026-02-18T13:38:32.082Z - Search completed for care plan: Edited Plan 1771421886886
+[INFO] 2026-02-18T13:38:32.944Z - Care plan 'Edited Plan 1771421886886' is visible in the list
+[INFO] 2026-02-18T13:38:32.944Z - Edited care plan 'Edited Plan 1771421886886' verified in list
+[STEP] 2026-02-18T13:38:32.944Z - Verifying care plan 'Edit Original 1771421886886' is NOT in the list
+[STEP] 2026-02-18T13:38:32.945Z - Clearing search box
+[INFO] 2026-02-18T13:38:33.459Z - Search cleared
+[STEP] 2026-02-18T13:38:33.459Z - Searching for care plan: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:33.981Z - Search completed for care plan: Edit Original 1771421886886
+[INFO] 2026-02-18T13:38:33.985Z - Care plan 'Edit Original 1771421886886' is not in the list
+[INFO] 2026-02-18T13:38:33.985Z - Edit workflow test completed
