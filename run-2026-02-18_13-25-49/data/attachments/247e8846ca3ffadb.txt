@@ -1,0 +1,84 @@
+[ERROR] 2026-02-18T13:23:48.033Z - Failed to navigate to provider portal login page
+page.waitForLoadState: Timeout 30000ms exceeded.
+    at ProviderLoginPage.navigateToLogin (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)
+    at ProviderLoginPage.login (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/favorite-service.spec.ts:24:5 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts',
+      line: 20,
+      column: 29,
+      function: 'ProviderLoginPage.navigateToLogin'
+    },
+    category: 'pw:api',
+    title: 'Wait for load state "networkidle"',
+    apiName: 'page.waitForLoadState',
+    params: { info: [Object] },
+    group: undefined,
+    stepId: 'pw:api@39',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@39',
+      _title: 'Wait for load state "networkidle"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771421028033,
+    error: {
+      message: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.',
+      stack: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.\n' +
+        '    at ProviderLoginPage.navigateToLogin (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)\n' +
+        '    at ProviderLoginPage.login (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/favorite-service.spec.ts:24:5',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-02-18T13:23:48.037Z - Failed to  login to provider portal
+page.waitForLoadState: Timeout 30000ms exceeded.
+    at ProviderLoginPage.navigateToLogin (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)
+    at ProviderLoginPage.login (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/favorite-service.spec.ts:24:5 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts',
+      line: 20,
+      column: 29,
+      function: 'ProviderLoginPage.navigateToLogin'
+    },
+    category: 'pw:api',
+    title: 'Wait for load state "networkidle"',
+    apiName: 'page.waitForLoadState',
+    params: { info: [Object] },
+    group: undefined,
+    stepId: 'pw:api@39',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@39',
+      _title: 'Wait for load state "networkidle"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771421028033,
+    error: {
+      message: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.',
+      stack: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.\n' +
+        '    at ProviderLoginPage.navigateToLogin (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)\n' +
+        '    at ProviderLoginPage.login (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/favorite-service.spec.ts:24:5',
+      cause: undefined
+    }
+  }
+}
