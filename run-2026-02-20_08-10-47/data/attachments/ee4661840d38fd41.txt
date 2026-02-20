@@ -1,0 +1,60 @@
+[STEP] 2026-02-20T08:03:40.179Z - Login to Provider Portal
+[STEP] 2026-02-20T08:03:40.522Z - Attempting to login to provider portal
+[STEP] 2026-02-20T08:03:40.522Z - Navigating to provider portal login page
+[INFO] 2026-02-20T08:03:41.914Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T08:03:42.041Z - Login attempt completed
+[STEP] 2026-02-20T08:03:44.829Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-20T08:03:44.829Z - Opening CCM Library
+[INFO] 2026-02-20T08:03:44.883Z - Successfully opened CCM Library
+[STEP] 2026-02-20T08:03:44.883Z - Opening Care Plan section
+[INFO] 2026-02-20T08:03:45.023Z - Successfully opened Care Plan section
+[STEP] 2026-02-20T08:03:45.024Z - Test: Delete with confirmation
+[STEP] 2026-02-20T08:03:45.024Z - Creating minimal care plan: Delete Plan 1771574625024
+[STEP] 2026-02-20T08:03:45.024Z - Clicking Create Care Plan button
+[INFO] 2026-02-20T08:03:47.164Z - Create Care Plan form opened
+[STEP] 2026-02-20T08:03:47.164Z - Selecting diagnosis code: A001
+[INFO] 2026-02-20T08:03:49.815Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-20T08:03:49.815Z - Filling care plan name: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:03:49.841Z - Care plan name filled: Delete Plan 1771574625024
+[STEP] 2026-02-20T08:03:49.841Z - Selecting section: Overview
+[INFO] 2026-02-20T08:03:50.206Z - Section 'Overview' selected
+[STEP] 2026-02-20T08:03:50.207Z - Selecting section: Long Term Goals
+[INFO] 2026-02-20T08:03:50.572Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-20T08:03:50.572Z - Clicking Next button
+[INFO] 2026-02-20T08:03:52.630Z - Next button clicked
+[STEP] 2026-02-20T08:03:52.630Z - Filling Overview section
+[INFO] 2026-02-20T08:03:52.646Z - Care Plan header filled
+[INFO] 2026-02-20T08:03:52.664Z - Care Plan footer filled
+[STEP] 2026-02-20T08:03:52.664Z - Clicking Next button
+[INFO] 2026-02-20T08:03:54.749Z - Next button clicked
+[STEP] 2026-02-20T08:03:54.749Z - Filling goal section - Title: Delete Goal, Type: Free Text
+[INFO] 2026-02-20T08:03:54.765Z - Section note filled
+[INFO] 2026-02-20T08:03:54.785Z - Goal title filled: Delete Goal
+[INFO] 2026-02-20T08:03:56.423Z - Goal type selected: Free Text
+[STEP] 2026-02-20T08:03:56.423Z - Clicking Finish button
+[INFO] 2026-02-20T08:03:58.495Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-20T08:03:58.495Z - Minimal care plan 'Delete Plan 1771574625024' created
+[STEP] 2026-02-20T08:03:58.495Z - Verifying care plan 'Delete Plan 1771574625024' is visible in the list
+[STEP] 2026-02-20T08:03:58.495Z - Searching for care plan: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:03:59.032Z - Search completed for care plan: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:03:59.898Z - Care plan 'Delete Plan 1771574625024' is visible in the list
+[INFO] 2026-02-20T08:03:59.898Z - Care plan 'Delete Plan 1771574625024' created for deletion
+[STEP] 2026-02-20T08:03:59.898Z - Clicking Delete for: Delete Plan 1771574625024
+[STEP] 2026-02-20T08:03:59.899Z - Searching for care plan: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:04:00.413Z - Search completed for care plan: Delete Plan 1771574625024
+[STEP] 2026-02-20T08:04:00.413Z - Opening action menu for: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:04:01.465Z - Action menu opened
+[INFO] 2026-02-20T08:04:02.504Z - Delete dialog opened
+[INFO] 2026-02-20T08:04:02.511Z - Delete confirmation message: Are you sure you want to delete Delete Plan 1771574625024 Care Plan?
+[STEP] 2026-02-20T08:04:02.511Z - Confirming delete
+[STEP] 2026-02-20T08:04:04.543Z - Clearing search box
+[INFO] 2026-02-20T08:04:05.060Z - Search cleared
+[INFO] 2026-02-20T08:04:05.061Z - Delete confirmed
+[INFO] 2026-02-20T08:04:05.061Z - Deletion confirmed
+[STEP] 2026-02-20T08:04:05.061Z - Verifying care plan 'Delete Plan 1771574625024' is NOT in the list
+[STEP] 2026-02-20T08:04:05.061Z - Clearing search box
+[INFO] 2026-02-20T08:04:05.568Z - Search cleared
+[STEP] 2026-02-20T08:04:05.568Z - Searching for care plan: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:04:06.447Z - Search completed for care plan: Delete Plan 1771574625024
+[INFO] 2026-02-20T08:04:06.456Z - Care plan 'Delete Plan 1771574625024' is not in the list
+[INFO] 2026-02-20T08:04:06.456Z - Delete with confirmation test completed
