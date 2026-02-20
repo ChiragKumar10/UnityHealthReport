@@ -1,0 +1,33 @@
+[STEP] 2026-02-20T07:48:32.648Z - Login to Provider Portal
+[STEP] 2026-02-20T07:48:33.016Z - Attempting to login to provider portal
+[STEP] 2026-02-20T07:48:33.016Z - Navigating to provider portal login page
+[INFO] 2026-02-20T07:48:34.173Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T07:48:34.308Z - Login attempt completed
+[STEP] 2026-02-20T07:48:37.146Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-20T07:48:37.146Z - Opening CCM Library
+[INFO] 2026-02-20T07:48:37.205Z - Successfully opened CCM Library
+[STEP] 2026-02-20T07:48:37.206Z - Opening Care Plan section
+[INFO] 2026-02-20T07:48:37.354Z - Successfully opened Care Plan section
+[STEP] 2026-02-20T07:48:37.354Z - Test: Duplicate care plan name
+[STEP] 2026-02-20T07:48:37.354Z - Clicking Create Care Plan button
+[INFO] 2026-02-20T07:48:39.560Z - Create Care Plan form opened
+[STEP] 2026-02-20T07:48:39.560Z - Selecting diagnosis code: A001
+[INFO] 2026-02-20T07:48:42.200Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-20T07:48:42.200Z - Filling care plan name: Shared Plan 1771573303777
+[INFO] 2026-02-20T07:48:42.224Z - Care plan name filled: Shared Plan 1771573303777
+[STEP] 2026-02-20T07:48:42.224Z - Selecting section: Overview
+[INFO] 2026-02-20T07:48:42.594Z - Section 'Overview' selected
+[STEP] 2026-02-20T07:48:42.594Z - Clicking Next button
+[INFO] 2026-02-20T07:48:44.644Z - Next button clicked
+[INFO] 2026-02-20T07:48:44.647Z - Stayed on Step 1 with duplicate name
+[STEP] 2026-02-20T07:48:44.647Z - Waiting for toast message containing: Care Plan name already exists
+[INFO] 2026-02-20T07:48:44.652Z - Toast message found: Care Plan name already exists
+[INFO] 2026-02-20T07:48:44.652Z - Duplicate name toast error verified
+[STEP] 2026-02-20T07:48:44.652Z - Clicking Cancel button
+[INFO] 2026-02-20T07:48:45.807Z - Cancel button clicked
+[STEP] 2026-02-20T07:48:45.807Z - Verifying care plan 'Shared Plan 1771573303777' is visible in the list
+[STEP] 2026-02-20T07:48:45.807Z - Searching for care plan: Shared Plan 1771573303777
+[INFO] 2026-02-20T07:48:46.348Z - Search completed for care plan: Shared Plan 1771573303777
+[INFO] 2026-02-20T07:48:47.215Z - Care plan 'Shared Plan 1771573303777' is visible in the list
+[INFO] 2026-02-20T07:48:47.215Z - Only original care plan exists - no duplicate was created
+[INFO] 2026-02-20T07:48:47.215Z - Duplicate care plan name test completed

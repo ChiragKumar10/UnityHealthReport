@@ -1,0 +1,47 @@
+[STEP] 2026-02-20T07:41:54.159Z - Login to Provider Portal
+[STEP] 2026-02-20T07:41:54.772Z - Attempting to login to provider portal
+[STEP] 2026-02-20T07:41:54.772Z - Navigating to provider portal login page
+[INFO] 2026-02-20T07:41:56.028Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T07:41:56.182Z - Login attempt completed
+[STEP] 2026-02-20T07:41:59.023Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-20T07:41:59.023Z - Opening RPM Library
+[INFO] 2026-02-20T07:41:59.090Z - Successfully opened RTM Library
+[STEP] 2026-02-20T07:41:59.091Z - Opening Assessment section
+[INFO] 2026-02-20T07:41:59.343Z - Successfully opened Assessment section
+[STEP] 2026-02-20T07:41:59.345Z - Test: Complete E2E assessment creation
+[STEP] 2026-02-20T07:41:59.345Z - Creating assessment: E2E Assessment 1771573319345
+[STEP] 2026-02-20T07:41:59.345Z - Clicking Add Assessment button
+[INFO] 2026-02-20T07:42:00.442Z - Add Assessment form opened
+[STEP] 2026-02-20T07:42:00.442Z - Filling assessment title: E2E Assessment 1771573319345
+[INFO] 2026-02-20T07:42:00.456Z - Assessment title filled: E2E Assessment 1771573319345
+[STEP] 2026-02-20T07:42:00.456Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-20T07:42:01.152Z - Assessment type selected: SURVEY
+[STEP] 2026-02-20T07:42:01.153Z - Selecting frequency: DAILY
+[INFO] 2026-02-20T07:42:01.833Z - Frequency selected: DAILY
+[STEP] 2026-02-20T07:42:01.834Z - Clicking Next button
+[INFO] 2026-02-20T07:42:02.918Z - Next button clicked
+[STEP] 2026-02-20T07:42:02.918Z - Adding question 1: Single Select Question (SINGLE_SELECT)
+[INFO] 2026-02-20T07:42:05.008Z - 4 options added
+[INFO] 2026-02-20T07:42:05.008Z - Question 1 added: Single Select Question (SINGLE_SELECT)
+[STEP] 2026-02-20T07:42:05.008Z - Adding question 2: Multi Select Question (MULTI_SELECT)
+[INFO] 2026-02-20T07:42:07.359Z - 3 options added
+[INFO] 2026-02-20T07:42:07.359Z - Question 2 added: Multi Select Question (MULTI_SELECT)
+[STEP] 2026-02-20T07:42:07.359Z - Adding question 3: Free Text Question (FREE_TEXT)
+[INFO] 2026-02-20T07:42:08.911Z - Question 3 added: Free Text Question (FREE_TEXT)
+[STEP] 2026-02-20T07:42:08.911Z - Adding question 4: Rating with Note Question (RATING_NOTE)
+[INFO] 2026-02-20T07:42:10.438Z - Question 4 added: Rating with Note Question (RATING_NOTE)
+[STEP] 2026-02-20T07:42:10.438Z - Adding question 5: File Upload with Note Question (FILE_UPLOAD_WITH_NOTE)
+[INFO] 2026-02-20T07:42:11.998Z - Question 5 added: File Upload with Note Question (FILE_UPLOAD_WITH_NOTE)
+[STEP] 2026-02-20T07:42:11.998Z - Adding question 6: Signature Question (SIGNATURE)
+[INFO] 2026-02-20T07:42:13.608Z - Question 6 added: Signature Question (SIGNATURE)
+[STEP] 2026-02-20T07:42:13.608Z - Clicking Next button
+[INFO] 2026-02-20T07:42:14.678Z - Next button clicked
+[STEP] 2026-02-20T07:42:14.678Z - Clicking Finish button
+[INFO] 2026-02-20T07:42:15.717Z - Finish button clicked
+[INFO] 2026-02-20T07:42:15.717Z - Assessment 'E2E Assessment 1771573319345' created successfully
+[INFO] 2026-02-20T07:42:15.717Z - Assessment 'E2E Assessment 1771573319345' created with all question types
+[STEP] 2026-02-20T07:42:15.717Z - Verifying assessment 'E2E Assessment 1771573319345' is visible in the list
+[STEP] 2026-02-20T07:42:15.717Z - Searching for assessment: E2E Assessment 1771573319345
+[INFO] 2026-02-20T07:42:16.443Z - Search completed for assessment: E2E Assessment 1771573319345
+[INFO] 2026-02-20T07:42:16.450Z - Assessment 'E2E Assessment 1771573319345' is visible in the list
+[INFO] 2026-02-20T07:42:16.450Z - E2E assessment creation test completed

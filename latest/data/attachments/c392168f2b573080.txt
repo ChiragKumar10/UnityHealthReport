@@ -1,0 +1,60 @@
+[STEP] 2026-02-20T07:45:38.544Z - Login to Provider Portal
+[STEP] 2026-02-20T07:45:38.945Z - Attempting to login to provider portal
+[STEP] 2026-02-20T07:45:38.945Z - Navigating to provider portal login page
+[INFO] 2026-02-20T07:45:40.117Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T07:45:40.250Z - Login attempt completed
+[STEP] 2026-02-20T07:45:42.744Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-20T07:45:42.744Z - Opening RPM Library
+[INFO] 2026-02-20T07:45:42.819Z - Successfully opened RTM Library
+[STEP] 2026-02-20T07:45:42.819Z - Opening Assessment section
+[INFO] 2026-02-20T07:45:42.946Z - Successfully opened Assessment section
+[STEP] 2026-02-20T07:45:42.947Z - Test: List metadata verification
+[STEP] 2026-02-20T07:45:42.947Z - Creating assessment: Survey Meta 1771573542947
+[STEP] 2026-02-20T07:45:42.947Z - Clicking Add Assessment button
+[INFO] 2026-02-20T07:45:44.072Z - Add Assessment form opened
+[STEP] 2026-02-20T07:45:44.072Z - Filling assessment title: Survey Meta 1771573542947
+[INFO] 2026-02-20T07:45:44.083Z - Assessment title filled: Survey Meta 1771573542947
+[STEP] 2026-02-20T07:45:44.083Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-20T07:45:44.778Z - Assessment type selected: SURVEY
+[STEP] 2026-02-20T07:45:44.778Z - Selecting frequency: DAILY
+[INFO] 2026-02-20T07:45:45.455Z - Frequency selected: DAILY
+[STEP] 2026-02-20T07:45:45.455Z - Clicking Next button
+[INFO] 2026-02-20T07:45:46.534Z - Next button clicked
+[STEP] 2026-02-20T07:45:46.534Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-20T07:45:47.476Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-20T07:45:47.476Z - Clicking Next button
+[INFO] 2026-02-20T07:45:48.508Z - Next button clicked
+[STEP] 2026-02-20T07:45:48.508Z - Clicking Finish button
+[INFO] 2026-02-20T07:45:49.538Z - Finish button clicked
+[INFO] 2026-02-20T07:45:49.538Z - Assessment 'Survey Meta 1771573542947' created successfully
+[STEP] 2026-02-20T07:45:49.539Z - Verifying list metadata for: Survey Meta 1771573542947
+[STEP] 2026-02-20T07:45:49.539Z - Searching for assessment: Survey Meta 1771573542947
+[INFO] 2026-02-20T07:45:50.161Z - Search completed for assessment: Survey Meta 1771573542947
+[INFO] 2026-02-20T07:45:50.168Z - Assessment type 'SURVEY' visible in list row
+[INFO] 2026-02-20T07:45:50.171Z - Created by 'PROVIDER' visible in list row
+[INFO] 2026-02-20T07:45:50.171Z - SURVEY metadata verified for 'Survey Meta 1771573542947'
+[STEP] 2026-02-20T07:45:50.171Z - Creating assessment: QNA Meta 1771573542947
+[STEP] 2026-02-20T07:45:50.171Z - Clicking Add Assessment button
+[INFO] 2026-02-20T07:45:51.265Z - Add Assessment form opened
+[STEP] 2026-02-20T07:45:51.265Z - Filling assessment title: QNA Meta 1771573542947
+[INFO] 2026-02-20T07:45:51.275Z - Assessment title filled: QNA Meta 1771573542947
+[STEP] 2026-02-20T07:45:51.275Z - Selecting assessment type: QNA
+[INFO] 2026-02-20T07:45:51.973Z - Assessment type selected: QNA
+[STEP] 2026-02-20T07:45:51.973Z - Selecting frequency: DAILY
+[INFO] 2026-02-20T07:45:52.656Z - Frequency selected: DAILY
+[STEP] 2026-02-20T07:45:52.656Z - Clicking Next button
+[INFO] 2026-02-20T07:45:53.708Z - Next button clicked
+[STEP] 2026-02-20T07:45:53.708Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-20T07:45:54.626Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-20T07:45:54.626Z - Clicking Next button
+[INFO] 2026-02-20T07:45:55.656Z - Next button clicked
+[STEP] 2026-02-20T07:45:55.656Z - Clicking Finish button
+[INFO] 2026-02-20T07:45:56.688Z - Finish button clicked
+[INFO] 2026-02-20T07:45:56.688Z - Assessment 'QNA Meta 1771573542947' created successfully
+[STEP] 2026-02-20T07:45:56.688Z - Verifying list metadata for: QNA Meta 1771573542947
+[STEP] 2026-02-20T07:45:56.688Z - Searching for assessment: QNA Meta 1771573542947
+[INFO] 2026-02-20T07:45:57.291Z - Search completed for assessment: QNA Meta 1771573542947
+[INFO] 2026-02-20T07:45:57.297Z - Assessment type 'Q&A' visible in list row
+[INFO] 2026-02-20T07:45:57.300Z - Created by 'PROVIDER' visible in list row
+[INFO] 2026-02-20T07:45:57.300Z - QNA metadata verified for 'QNA Meta 1771573542947'
+[INFO] 2026-02-20T07:45:57.300Z - List metadata verification test completed

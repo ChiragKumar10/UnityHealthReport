@@ -1,0 +1,60 @@
+[STEP] 2026-02-20T07:42:16.583Z - Login to Provider Portal
+[STEP] 2026-02-20T07:42:16.936Z - Attempting to login to provider portal
+[STEP] 2026-02-20T07:42:16.936Z - Navigating to provider portal login page
+[INFO] 2026-02-20T07:42:18.174Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T07:42:18.310Z - Login attempt completed
+[STEP] 2026-02-20T07:42:21.210Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-20T07:42:21.211Z - Opening RPM Library
+[INFO] 2026-02-20T07:42:21.269Z - Successfully opened RTM Library
+[STEP] 2026-02-20T07:42:21.274Z - Opening Assessment section
+[INFO] 2026-02-20T07:42:21.380Z - Successfully opened Assessment section
+[STEP] 2026-02-20T07:42:21.381Z - Test: All question types validation
+[STEP] 2026-02-20T07:42:21.381Z - Creating assessment: All Types 1771573341381
+[STEP] 2026-02-20T07:42:21.381Z - Clicking Add Assessment button
+[INFO] 2026-02-20T07:42:22.513Z - Add Assessment form opened
+[STEP] 2026-02-20T07:42:22.513Z - Filling assessment title: All Types 1771573341381
+[INFO] 2026-02-20T07:42:22.526Z - Assessment title filled: All Types 1771573341381
+[STEP] 2026-02-20T07:42:22.526Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-20T07:42:23.217Z - Assessment type selected: SURVEY
+[STEP] 2026-02-20T07:42:23.217Z - Selecting frequency: DAILY
+[INFO] 2026-02-20T07:42:23.895Z - Frequency selected: DAILY
+[STEP] 2026-02-20T07:42:23.895Z - Clicking Next button
+[INFO] 2026-02-20T07:42:24.975Z - Next button clicked
+[STEP] 2026-02-20T07:42:24.975Z - Adding question 1: Pick one answer (SINGLE_SELECT)
+[INFO] 2026-02-20T07:42:26.693Z - 3 options added
+[INFO] 2026-02-20T07:42:26.693Z - Question 1 added: Pick one answer (SINGLE_SELECT)
+[STEP] 2026-02-20T07:42:26.693Z - Adding question 2: Pick multiple answers (MULTI_SELECT)
+[INFO] 2026-02-20T07:42:29.047Z - 3 options added
+[INFO] 2026-02-20T07:42:29.047Z - Question 2 added: Pick multiple answers (MULTI_SELECT)
+[STEP] 2026-02-20T07:42:29.048Z - Adding question 3: Enter free text answer (FREE_TEXT)
+[INFO] 2026-02-20T07:42:30.593Z - Question 3 added: Enter free text answer (FREE_TEXT)
+[STEP] 2026-02-20T07:42:30.593Z - Adding question 4: Rate your experience (RATING_NOTE)
+[INFO] 2026-02-20T07:42:32.108Z - Question 4 added: Rate your experience (RATING_NOTE)
+[STEP] 2026-02-20T07:42:32.108Z - Adding question 5: Upload a file (FILE_UPLOAD_WITH_NOTE)
+[INFO] 2026-02-20T07:42:33.661Z - Question 5 added: Upload a file (FILE_UPLOAD_WITH_NOTE)
+[STEP] 2026-02-20T07:42:33.661Z - Adding question 6: Provide your signature (SIGNATURE)
+[INFO] 2026-02-20T07:42:35.225Z - Question 6 added: Provide your signature (SIGNATURE)
+[STEP] 2026-02-20T07:42:35.225Z - Clicking Next button
+[INFO] 2026-02-20T07:42:36.293Z - Next button clicked
+[STEP] 2026-02-20T07:42:36.293Z - Clicking Finish button
+[INFO] 2026-02-20T07:42:37.314Z - Finish button clicked
+[INFO] 2026-02-20T07:42:37.314Z - Assessment 'All Types 1771573341381' created successfully
+[STEP] 2026-02-20T07:42:37.314Z - Verifying assessment 'All Types 1771573341381' is visible in the list
+[STEP] 2026-02-20T07:42:37.314Z - Searching for assessment: All Types 1771573341381
+[INFO] 2026-02-20T07:42:37.929Z - Search completed for assessment: All Types 1771573341381
+[INFO] 2026-02-20T07:42:37.933Z - Assessment 'All Types 1771573341381' is visible in the list
+[STEP] 2026-02-20T07:42:37.933Z - Viewing assessment: All Types 1771573341381
+[INFO] 2026-02-20T07:42:37.987Z - Action button clicked
+[INFO] 2026-02-20T07:42:38.246Z - View button clicked
+[INFO] 2026-02-20T07:42:38.249Z - Assessment 'All Types 1771573341381' opened in view mode
+[STEP] 2026-02-20T07:42:38.249Z - Verifying assessment view content
+[INFO] 2026-02-20T07:42:38.613Z - ✓ Verified: Pick one answer
+[INFO] 2026-02-20T07:42:38.617Z - ✓ Verified: Pick multiple answers
+[INFO] 2026-02-20T07:42:38.621Z - ✓ Verified: Enter free text answer
+[INFO] 2026-02-20T07:42:38.624Z - ✓ Verified: Rate your experience
+[INFO] 2026-02-20T07:42:38.628Z - ✓ Verified: Upload a file
+[INFO] 2026-02-20T07:42:38.631Z - ✓ Verified: Provide your signature
+[INFO] 2026-02-20T07:42:38.631Z - All assessment content verified
+[STEP] 2026-02-20T07:42:38.631Z - Closing view assessment modal
+[INFO] 2026-02-20T07:42:38.673Z - View assessment modal closed
+[INFO] 2026-02-20T07:42:38.673Z - All question types validation test completed

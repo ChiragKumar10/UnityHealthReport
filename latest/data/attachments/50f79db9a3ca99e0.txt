@@ -1,0 +1,42 @@
+[STEP] 2026-02-20T07:46:22.564Z - Login to Provider Portal
+[STEP] 2026-02-20T07:46:22.924Z - Attempting to login to provider portal
+[STEP] 2026-02-20T07:46:22.924Z - Navigating to provider portal login page
+[INFO] 2026-02-20T07:46:24.084Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T07:46:24.213Z - Login attempt completed
+[STEP] 2026-02-20T07:46:27.049Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-20T07:46:27.049Z - Opening CCM Library
+[INFO] 2026-02-20T07:46:27.144Z - Successfully opened CCM Library
+[STEP] 2026-02-20T07:46:27.144Z - Opening Care Plan section
+[INFO] 2026-02-20T07:46:27.297Z - Successfully opened Care Plan section
+[STEP] 2026-02-20T07:46:27.297Z - Test: Section checklist filtering
+[STEP] 2026-02-20T07:46:27.298Z - Clicking Create Care Plan button
+[INFO] 2026-02-20T07:46:29.504Z - Create Care Plan form opened
+[STEP] 2026-02-20T07:46:29.504Z - Selecting diagnosis code: A001
+[INFO] 2026-02-20T07:46:33.458Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-20T07:46:33.458Z - Filling care plan name: Filter Plan 1771573587297
+[INFO] 2026-02-20T07:46:33.483Z - Care plan name filled: Filter Plan 1771573587297
+[STEP] 2026-02-20T07:46:33.483Z - Selecting section: Overview
+[INFO] 2026-02-20T07:46:33.848Z - Section 'Overview' selected
+[STEP] 2026-02-20T07:46:33.848Z - Selecting section: Long Term Goals
+[INFO] 2026-02-20T07:46:34.211Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-20T07:46:34.211Z - Clicking Next button
+[INFO] 2026-02-20T07:46:36.264Z - Next button clicked
+[INFO] 2026-02-20T07:46:36.267Z - Step 2 is Overview - correct
+[STEP] 2026-02-20T07:46:36.267Z - Filling Overview section
+[INFO] 2026-02-20T07:46:36.282Z - Care Plan header filled
+[INFO] 2026-02-20T07:46:36.299Z - Care Plan footer filled
+[STEP] 2026-02-20T07:46:36.299Z - Clicking Next button
+[INFO] 2026-02-20T07:46:38.364Z - Next button clicked
+[INFO] 2026-02-20T07:46:38.367Z - Step 3 is section detail page - correct
+[INFO] 2026-02-20T07:46:38.369Z - Finish button visible on last section - only selected sections shown
+[STEP] 2026-02-20T07:46:38.369Z - Filling goal section - Title: Filter Goal, Type: Free Text
+[INFO] 2026-02-20T07:46:38.384Z - Section note filled
+[INFO] 2026-02-20T07:46:38.403Z - Goal title filled: Filter Goal
+[INFO] 2026-02-20T07:46:40.017Z - Goal type selected: Free Text
+[STEP] 2026-02-20T07:46:40.017Z - Clicking Finish button
+[INFO] 2026-02-20T07:46:42.101Z - Finish button clicked - Care plan saved
+[STEP] 2026-02-20T07:46:42.101Z - Verifying care plan 'Filter Plan 1771573587297' is visible in the list
+[STEP] 2026-02-20T07:46:42.101Z - Searching for care plan: Filter Plan 1771573587297
+[INFO] 2026-02-20T07:46:42.641Z - Search completed for care plan: Filter Plan 1771573587297
+[INFO] 2026-02-20T07:46:43.510Z - Care plan 'Filter Plan 1771573587297' is visible in the list
+[INFO] 2026-02-20T07:46:43.510Z - Section checklist filtering test completed

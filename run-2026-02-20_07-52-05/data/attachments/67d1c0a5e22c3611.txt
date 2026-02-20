@@ -1,0 +1,28 @@
+[STEP] 2026-02-20T07:42:40.721Z - Attempting to login to provider portal
+[STEP] 2026-02-20T07:42:40.721Z - Navigating to provider portal login page
+[INFO] 2026-02-20T07:42:42.131Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T07:42:42.264Z - Login attempt completed
+[STEP] 2026-02-20T07:42:45.165Z - Starting Week Interaction Test
+[STEP] 2026-02-20T07:42:45.165Z - Navigating to RTM tab
+[INFO] 2026-02-20T07:42:45.266Z - Successfully navigated to RTM tab
+[STEP] 2026-02-20T07:42:45.266Z - Selecting Week 3
+[INFO] 2026-02-20T07:42:45.393Z - Successfully selected Week 3
+[STEP] 2026-02-20T07:42:45.396Z - Selecting patient: Automation, Test
+[INFO] 2026-02-20T07:42:45.706Z - Successfully selected patient: Automation, Test
+[STEP] 2026-02-20T07:42:45.707Z - Selecting Text Message action
+[INFO] 2026-02-20T07:42:46.060Z - Selected Text Message action
+[STEP] 2026-02-20T07:42:46.060Z - Sending bulk message. Template: Bulk Outreach Template, Log As: Communication with Patient
+[INFO] 2026-02-20T07:42:46.422Z - Bulk message sent successfully
+[STEP] 2026-02-20T07:42:46.422Z - Verifying message log for Automation, Test
+[INFO] 2026-02-20T07:42:46.422Z - Clicking on patient name: Automation, Test to open patient details
+[INFO] 2026-02-20T07:42:47.394Z - Patient details opened successfully
+[INFO] 2026-02-20T07:42:47.397Z - Waiting for patient details page to load
+[INFO] 2026-02-20T07:42:47.397Z - Locating latest text message element
+[INFO] 2026-02-20T07:42:54.417Z - Latest text message element is visible
+[INFO] 2026-02-20T07:42:54.417Z - Retrieving text content from the latest message
+[INFO] 2026-02-20T07:42:54.420Z - Retrieved message content: Automated message sent via Playwright test.7921
+[INFO] 2026-02-20T07:42:54.420Z - Expected automated note: Automated message sent via Playwright test.7921
+[STEP] 2026-02-20T07:42:54.420Z - Verifying message content matches the automated note
+[INFO] 2026-02-20T07:42:54.421Z - Message verification successful. Found expected note: Automated message sent via Playwright test.7921
+[INFO] 2026-02-20T07:42:54.421Z - Message log verified successfully for patient: Automation, Test
+[INFO] 2026-02-20T07:42:54.421Z - Week Interaction Test completed successfully
