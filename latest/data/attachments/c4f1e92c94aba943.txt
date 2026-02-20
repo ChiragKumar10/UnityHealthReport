@@ -1,0 +1,45 @@
+[STEP] 2026-02-20T09:13:14.580Z - Starting Template CRUD Flow Test
+[STEP] 2026-02-20T09:13:14.581Z - Step 1: Login to Provider Portal
+[STEP] 2026-02-20T09:13:15.069Z - Attempting to login to provider portal
+[STEP] 2026-02-20T09:13:15.069Z - Navigating to provider portal login page
+[INFO] 2026-02-20T09:13:16.439Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T09:13:16.616Z - Login attempt completed
+[INFO] 2026-02-20T09:13:19.579Z - Successfully logged in to Provider Portal
+[STEP] 2026-02-20T09:13:19.579Z - Step 2: Open RPM Library
+[STEP] 2026-02-20T09:13:19.579Z - Opening RPM Library
+[INFO] 2026-02-20T09:13:19.662Z - Successfully opened RPM Library
+[INFO] 2026-02-20T09:13:19.662Z - RPM Library opened successfully
+[STEP] 2026-02-20T09:13:19.662Z - Step 3: Add Template
+[STEP] 2026-02-20T09:13:19.662Z - Adding template: Template 1771578794248
+[INFO] 2026-02-20T09:13:20.535Z - Add Template button clicked
+[INFO] 2026-02-20T09:13:20.547Z - Template name filled: Template 1771578794248
+[INFO] 2026-02-20T09:13:20.560Z - Template content filled
+[INFO] 2026-02-20T09:13:20.609Z - Template 'Template 1771578794248' added successfully
+[INFO] 2026-02-20T09:13:20.609Z - Template added successfully
+[STEP] 2026-02-20T09:13:20.610Z - Searching for template: Template 1771578794248
+[INFO] 2026-02-20T09:13:21.906Z - Search completed for template: Template 1771578794248
+[INFO] 2026-02-20T09:13:22.272Z - Verified template 'Template 1771578794248' is visible
+[INFO] 2026-02-20T09:13:22.275Z - Action button for template is visible
+[STEP] 2026-02-20T09:13:22.275Z - Step 4: Edit Template
+[STEP] 2026-02-20T09:13:22.276Z - Editing template from 'Template 1771578794248' to 'Edited Template 1771578794248'
+[INFO] 2026-02-20T09:13:22.279Z - Action button found for template: Template 1771578794248
+[INFO] 2026-02-20T09:13:22.337Z - Action button clicked
+[INFO] 2026-02-20T09:13:22.608Z - Edit button clicked
+[INFO] 2026-02-20T09:13:22.629Z - Template name updated to: Edited Template 1771578794248
+[INFO] 2026-02-20T09:13:22.668Z - Template updated successfully from 'Template 1771578794248' to 'Edited Template 1771578794248'
+[INFO] 2026-02-20T09:13:22.668Z - Template edited successfully
+[STEP] 2026-02-20T09:13:22.668Z - Searching for template: Edited Template 1771578794248
+[INFO] 2026-02-20T09:13:23.875Z - Search completed for template: Edited Template 1771578794248
+[INFO] 2026-02-20T09:13:24.236Z - Verified edited template 'Edited Template 1771578794248' is visible
+[STEP] 2026-02-20T09:13:24.236Z - Step 5: Delete Template
+[STEP] 2026-02-20T09:13:24.237Z - Deleting template: Edited Template 1771578794248
+[INFO] 2026-02-20T09:13:24.240Z - Action button found for template: Edited Template 1771578794248
+[INFO] 2026-02-20T09:13:24.286Z - Action button clicked
+[INFO] 2026-02-20T09:13:24.557Z - Delete button clicked
+[INFO] 2026-02-20T09:13:24.562Z - Delete confirmation popup appeared
+[INFO] 2026-02-20T09:13:24.599Z - Confirmed deletion in popup
+[INFO] 2026-02-20T09:13:24.799Z - Deletion confirmed by success message
+[INFO] 2026-02-20T09:13:24.799Z - Template 'Edited Template 1771578794248' deleted successfully
+[INFO] 2026-02-20T09:13:24.799Z - Template deleted successfully
+[INFO] 2026-02-20T09:13:24.926Z - Verified template 'Edited Template 1771578794248' is no longer visible
+[INFO] 2026-02-20T09:13:24.926Z - Template CRUD Flow Test completed successfully
