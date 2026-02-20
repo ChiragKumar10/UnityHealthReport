@@ -1,0 +1,52 @@
+[ERROR] 2026-02-20T11:00:45.709Z - Failed to verify Reviewed status
+page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//h6[text()=\'Reviewed\'] | //h5[text()=\'Reviewed\'] | //h4[text()=\'Reviewed\']') to be visible
+
+    at ProviderWorkListPage.verifyReviewedStatus (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:309:29)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:89:28 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts',
+      line: 309,
+      column: 29,
+      function: 'ProviderWorkListPage.verifyReviewedStatus'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//h6[text()=\\'Reviewed\\'] | //h5[text()=\\'Reviewed\\'] | //h4[text()=\\'Reviewed\\']')",
+    apiName: 'page.waitForSelector',
+    params: {
+      selector: "//h6[text()='Reviewed'] | //h5[text()='Reviewed'] | //h4[text()='Reviewed']",
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@113',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@113',
+      _title: "Wait for selector locator('//h6[text()=\\'Reviewed\\'] | //h5[text()=\\'Reviewed\\'] | //h4[text()=\\'Reviewed\\']')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771585245708,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//h6[text()=\\'Reviewed\\'] | //h5[text()=\\'Reviewed\\'] | //h4[text()=\\'Reviewed\\']') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//h6[text()=\\'Reviewed\\'] | //h5[text()=\\'Reviewed\\'] | //h4[text()=\\'Reviewed\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at ProviderWorkListPage.verifyReviewedStatus (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:309:29)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:89:28',
+      cause: undefined
+    }
+  }
+}

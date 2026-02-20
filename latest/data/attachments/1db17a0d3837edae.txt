@@ -1,0 +1,61 @@
+[STEP] 2026-02-20T11:01:53.931Z - Login to Provider Portal
+[STEP] 2026-02-20T11:01:54.296Z - Attempting to login to provider portal
+[STEP] 2026-02-20T11:01:54.296Z - Navigating to provider portal login page
+[INFO] 2026-02-20T11:01:55.503Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T11:01:55.647Z - Login attempt completed
+[STEP] 2026-02-20T11:01:58.127Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-20T11:01:58.127Z - Opening RPM Library
+[INFO] 2026-02-20T11:01:58.197Z - Successfully opened RTM Library
+[STEP] 2026-02-20T11:01:58.198Z - Opening Assessment section
+[INFO] 2026-02-20T11:01:58.331Z - Successfully opened Assessment section
+[STEP] 2026-02-20T11:01:58.332Z - Test: Edit assessment workflow
+[STEP] 2026-02-20T11:01:58.332Z - Creating assessment: Edit Original 1771585318332
+[STEP] 2026-02-20T11:01:58.332Z - Clicking Add Assessment button
+[INFO] 2026-02-20T11:01:59.431Z - Add Assessment form opened
+[STEP] 2026-02-20T11:01:59.431Z - Filling assessment title: Edit Original 1771585318332
+[INFO] 2026-02-20T11:01:59.445Z - Assessment title filled: Edit Original 1771585318332
+[STEP] 2026-02-20T11:01:59.445Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-20T11:02:00.155Z - Assessment type selected: SURVEY
+[STEP] 2026-02-20T11:02:00.155Z - Selecting frequency: DAILY
+[INFO] 2026-02-20T11:02:00.834Z - Frequency selected: DAILY
+[STEP] 2026-02-20T11:02:00.834Z - Clicking Next button
+[INFO] 2026-02-20T11:02:01.913Z - Next button clicked
+[STEP] 2026-02-20T11:02:01.913Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-20T11:02:02.855Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-20T11:02:02.855Z - Clicking Next button
+[INFO] 2026-02-20T11:02:03.886Z - Next button clicked
+[STEP] 2026-02-20T11:02:03.886Z - Clicking Finish button
+[INFO] 2026-02-20T11:02:04.917Z - Finish button clicked
+[INFO] 2026-02-20T11:02:04.917Z - Assessment 'Edit Original 1771585318332' created successfully
+[STEP] 2026-02-20T11:02:04.917Z - Verifying assessment 'Edit Original 1771585318332' is visible in the list
+[STEP] 2026-02-20T11:02:04.917Z - Searching for assessment: Edit Original 1771585318332
+[INFO] 2026-02-20T11:02:05.537Z - Search completed for assessment: Edit Original 1771585318332
+[INFO] 2026-02-20T11:02:05.541Z - Assessment 'Edit Original 1771585318332' is visible in the list
+[INFO] 2026-02-20T11:02:05.541Z - Original assessment 'Edit Original 1771585318332' created
+[STEP] 2026-02-20T11:02:05.541Z - Editing assessment: Edit Original 1771585318332 → Edited Assessment 1771585318332
+[STEP] 2026-02-20T11:02:05.541Z - Clicking Edit for: Edit Original 1771585318332
+[STEP] 2026-02-20T11:02:05.541Z - Searching for assessment: Edit Original 1771585318332
+[INFO] 2026-02-20T11:02:06.057Z - Search completed for assessment: Edit Original 1771585318332
+[STEP] 2026-02-20T11:02:06.057Z - Opening action menu for: Edit Original 1771585318332
+[INFO] 2026-02-20T11:02:07.129Z - Action menu opened
+[INFO] 2026-02-20T11:02:09.188Z - Edit form opened
+[STEP] 2026-02-20T11:02:09.216Z - Clicking Next button
+[INFO] 2026-02-20T11:02:10.285Z - Next button clicked
+[STEP] 2026-02-20T11:02:10.289Z - Clicking Next button
+[INFO] 2026-02-20T11:02:11.315Z - Next button clicked
+[STEP] 2026-02-20T11:02:11.317Z - Clicking Finish button
+[INFO] 2026-02-20T11:02:12.347Z - Finish button clicked
+[INFO] 2026-02-20T11:02:12.347Z - Assessment updated: Edit Original 1771585318332 → Edited Assessment 1771585318332
+[INFO] 2026-02-20T11:02:12.347Z - Assessment edited
+[STEP] 2026-02-20T11:02:12.347Z - Verifying assessment 'Edited Assessment 1771585318332' is visible in the list
+[STEP] 2026-02-20T11:02:12.347Z - Searching for assessment: Edited Assessment 1771585318332
+[INFO] 2026-02-20T11:02:12.946Z - Search completed for assessment: Edited Assessment 1771585318332
+[INFO] 2026-02-20T11:02:12.949Z - Assessment 'Edited Assessment 1771585318332' is visible in the list
+[INFO] 2026-02-20T11:02:12.949Z - Edited assessment 'Edited Assessment 1771585318332' verified in list
+[STEP] 2026-02-20T11:02:12.949Z - Verifying assessment 'Edit Original 1771585318332' is NOT in the list
+[STEP] 2026-02-20T11:02:12.949Z - Clearing search box
+[INFO] 2026-02-20T11:02:13.516Z - Search cleared
+[STEP] 2026-02-20T11:02:13.516Z - Searching for assessment: Edit Original 1771585318332
+[INFO] 2026-02-20T11:02:14.133Z - Search completed for assessment: Edit Original 1771585318332
+[INFO] 2026-02-20T11:02:14.136Z - Assessment 'Edit Original 1771585318332' is not in the list
+[INFO] 2026-02-20T11:02:14.136Z - Edit workflow test completed

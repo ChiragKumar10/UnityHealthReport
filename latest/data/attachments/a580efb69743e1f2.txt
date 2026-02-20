@@ -1,0 +1,26 @@
+[STEP] 2026-02-20T11:00:19.555Z - Login to Provider Portal
+[STEP] 2026-02-20T11:00:19.971Z - Attempting to login to provider portal
+[STEP] 2026-02-20T11:00:19.971Z - Navigating to provider portal login page
+[INFO] 2026-02-20T11:00:21.099Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T11:00:21.226Z - Login attempt completed
+[STEP] 2026-02-20T11:00:24.109Z - Test: Template cancellation during creation
+[STEP] 2026-02-20T11:00:24.109Z - Opening RPM Library
+[INFO] 2026-02-20T11:00:24.210Z - Successfully opened RPM Library
+[STEP] 2026-02-20T11:00:24.215Z - Clicking Add Template button
+[INFO] 2026-02-20T11:00:25.498Z - Add Template form opened
+[STEP] 2026-02-20T11:00:25.498Z - Filling template name: Cancel Create 1771585224109
+[INFO] 2026-02-20T11:00:25.513Z - Template name filled: Cancel Create 1771585224109
+[STEP] 2026-02-20T11:00:25.513Z - Filling template content
+[INFO] 2026-02-20T11:00:25.534Z - Template content filled
+[INFO] 2026-02-20T11:00:25.534Z - Template form filled
+[STEP] 2026-02-20T11:00:25.534Z - Clicking Cancel button
+[INFO] 2026-02-20T11:00:26.680Z - Cancel button clicked
+[INFO] 2026-02-20T11:00:26.681Z - Cancel button clicked
+[INFO] 2026-02-20T11:00:26.687Z - Template form closed after cancel
+[STEP] 2026-02-20T11:00:26.687Z - Verifying template 'Cancel Create 1771585224109' is NOT in the list
+[STEP] 2026-02-20T11:00:26.688Z - Clearing search box
+[INFO] 2026-02-20T11:00:27.205Z - Search cleared
+[STEP] 2026-02-20T11:00:27.205Z - Searching for template: Cancel Create 1771585224109
+[INFO] 2026-02-20T11:00:28.251Z - Search completed for template: Cancel Create 1771585224109
+[INFO] 2026-02-20T11:00:28.254Z - Template 'Cancel Create 1771585224109' is not in the list
+[INFO] 2026-02-20T11:00:28.254Z - Template cancellation during creation test completed
