@@ -1,0 +1,59 @@
+[STEP] 2026-02-20T11:02:27.153Z - Login to Provider Portal
+[STEP] 2026-02-20T11:02:27.519Z - Attempting to login to provider portal
+[STEP] 2026-02-20T11:02:27.519Z - Navigating to provider portal login page
+[INFO] 2026-02-20T11:02:28.675Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-20T11:02:28.792Z - Login attempt completed
+[STEP] 2026-02-20T11:02:31.617Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-20T11:02:31.617Z - Opening RPM Library
+[INFO] 2026-02-20T11:02:31.693Z - Successfully opened RTM Library
+[STEP] 2026-02-20T11:02:31.695Z - Opening Assessment section
+[INFO] 2026-02-20T11:02:31.884Z - Successfully opened Assessment section
+[STEP] 2026-02-20T11:02:31.884Z - Test: Edit cancellation
+[STEP] 2026-02-20T11:02:31.885Z - Creating assessment: Cancel Edit 1771585351884
+[STEP] 2026-02-20T11:02:31.885Z - Clicking Add Assessment button
+[INFO] 2026-02-20T11:02:32.984Z - Add Assessment form opened
+[STEP] 2026-02-20T11:02:32.984Z - Filling assessment title: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:32.995Z - Assessment title filled: Cancel Edit 1771585351884
+[STEP] 2026-02-20T11:02:32.996Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-20T11:02:33.684Z - Assessment type selected: SURVEY
+[STEP] 2026-02-20T11:02:33.684Z - Selecting frequency: DAILY
+[INFO] 2026-02-20T11:02:34.363Z - Frequency selected: DAILY
+[STEP] 2026-02-20T11:02:34.363Z - Clicking Next button
+[INFO] 2026-02-20T11:02:35.437Z - Next button clicked
+[STEP] 2026-02-20T11:02:35.437Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-20T11:02:36.373Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-20T11:02:36.374Z - Clicking Next button
+[INFO] 2026-02-20T11:02:37.398Z - Next button clicked
+[STEP] 2026-02-20T11:02:37.398Z - Clicking Finish button
+[INFO] 2026-02-20T11:02:38.431Z - Finish button clicked
+[INFO] 2026-02-20T11:02:38.431Z - Assessment 'Cancel Edit 1771585351884' created successfully
+[STEP] 2026-02-20T11:02:38.431Z - Verifying assessment 'Cancel Edit 1771585351884' is visible in the list
+[STEP] 2026-02-20T11:02:38.431Z - Searching for assessment: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:39.053Z - Search completed for assessment: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:39.057Z - Assessment 'Cancel Edit 1771585351884' is visible in the list
+[INFO] 2026-02-20T11:02:39.057Z - Assessment 'Cancel Edit 1771585351884' created
+[STEP] 2026-02-20T11:02:39.057Z - Clicking Edit for: Cancel Edit 1771585351884
+[STEP] 2026-02-20T11:02:39.057Z - Searching for assessment: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:39.573Z - Search completed for assessment: Cancel Edit 1771585351884
+[STEP] 2026-02-20T11:02:39.573Z - Opening action menu for: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:40.643Z - Action menu opened
+[INFO] 2026-02-20T11:02:42.699Z - Edit form opened
+[STEP] 2026-02-20T11:02:42.699Z - Filling assessment title: Changed Name Should Not Save
+[INFO] 2026-02-20T11:02:42.710Z - Assessment title filled: Changed Name Should Not Save
+[STEP] 2026-02-20T11:02:42.710Z - Clicking Cancel button
+[INFO] 2026-02-20T11:02:43.770Z - Cancel button clicked
+[STEP] 2026-02-20T11:02:43.771Z - Confirming cancel in dialog
+[INFO] 2026-02-20T11:02:44.817Z - Cancel confirmed via dialog
+[INFO] 2026-02-20T11:02:44.817Z - Edit cancelled via confirmation dialog
+[STEP] 2026-02-20T11:02:44.817Z - Verifying assessment 'Cancel Edit 1771585351884' is visible in the list
+[STEP] 2026-02-20T11:02:44.817Z - Searching for assessment: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:45.334Z - Search completed for assessment: Cancel Edit 1771585351884
+[INFO] 2026-02-20T11:02:45.337Z - Assessment 'Cancel Edit 1771585351884' is visible in the list
+[INFO] 2026-02-20T11:02:45.337Z - Original assessment still present after cancel
+[STEP] 2026-02-20T11:02:45.337Z - Verifying assessment 'Changed Name Should Not Save' is NOT in the list
+[STEP] 2026-02-20T11:02:45.337Z - Clearing search box
+[INFO] 2026-02-20T11:02:45.854Z - Search cleared
+[STEP] 2026-02-20T11:02:45.854Z - Searching for assessment: Changed Name Should Not Save
+[INFO] 2026-02-20T11:02:46.444Z - Search completed for assessment: Changed Name Should Not Save
+[INFO] 2026-02-20T11:02:46.447Z - Assessment 'Changed Name Should Not Save' is not in the list
+[INFO] 2026-02-20T11:02:46.447Z - Edit cancellation test completed

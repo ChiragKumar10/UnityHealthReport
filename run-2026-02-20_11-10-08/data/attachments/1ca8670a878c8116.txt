@@ -1,0 +1,56 @@
+[ERROR] 2026-02-20T11:00:39.242Z - Failed to select vital with value: 366
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('text=Value366').first() to be visible
+
+    at ProviderWorkListPage.selectVitalByValue (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:188:32)
+    at ProviderWorkListPage.reviewVital (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:256:20)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:86:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts',
+      line: 188,
+      column: 32,
+      function: 'ProviderWorkListPage.selectVitalByValue'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('text=Value366').first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'text=Value366 >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@100',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@100',
+      _title: "Wait for selector locator('text=Value366').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771585239242,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Value366').first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('text=Value366').first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at ProviderWorkListPage.selectVitalByValue (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:188:32)\n' +
+        '    at ProviderWorkListPage.reviewVital (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:256:20)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:86:9',
+      cause: undefined
+    }
+  }
+}
