@@ -1,0 +1,48 @@
+[STEP] 2026-02-24T12:28:37.804Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-02-24T12:28:38.198Z - Attempting to login to provider portal
+[STEP] 2026-02-24T12:28:38.198Z - Navigating to provider portal login page
+[INFO] 2026-02-24T12:28:39.481Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-24T12:28:39.599Z - Login attempt completed
+[STEP] 2026-02-24T12:28:42.498Z - Test: E2E Delete Unity User
+[STEP] 2026-02-24T12:28:42.498Z - Navigating to Settings page
+[INFO] 2026-02-24T12:28:43.565Z - Navigated to Settings page
+[STEP] 2026-02-24T12:28:43.565Z - Clicking Unity Users tab
+[INFO] 2026-02-24T12:28:44.722Z - Unity Users tab clicked
+[STEP] 2026-02-24T12:28:44.722Z - Adding Unity User: Autofirstwuropz Autolastwuropz
+[STEP] 2026-02-24T12:28:44.722Z - Clicking Add Unity User button
+[INFO] 2026-02-24T12:28:45.900Z - Add Unity User form opened
+[STEP] 2026-02-24T12:28:45.900Z - Filling Unity User form for: Autofirstwuropz Autolastwuropz
+[STEP] 2026-02-24T12:28:45.900Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-02-24T12:28:46.823Z - Selected: Care Coordinators
+[STEP] 2026-02-24T12:28:46.904Z - Selecting dropdown option: Male
+[INFO] 2026-02-24T12:28:47.839Z - Selected: Male
+[INFO] 2026-02-24T12:28:47.982Z - Form filled for: Autofirstwuropz Autolastwuropz
+[STEP] 2026-02-24T12:28:47.983Z - Clicking Save button
+[INFO] 2026-02-24T12:28:50.094Z - Save button clicked
+[INFO] 2026-02-24T12:28:50.098Z - Unity User 'Autofirstwuropz Autolastwuropz' added — form closed
+[STEP] 2026-02-24T12:28:50.098Z - Verifying user 'Autofirstwuropz Autolastwuropz' is visible in the list
+[STEP] 2026-02-24T12:28:50.099Z - Searching for user: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:51.131Z - Search completed for: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:51.251Z - User 'Autofirstwuropz Autolastwuropz' is visible in the list
+[INFO] 2026-02-24T12:28:51.251Z - User created for delete test
+[STEP] 2026-02-24T12:28:51.251Z - Deleting Unity User: Autofirstwuropz Autolastwuropz
+[STEP] 2026-02-24T12:28:51.252Z - Clicking Delete for: Autofirstwuropz Autolastwuropz
+[STEP] 2026-02-24T12:28:51.252Z - Opening action menu for: Autofirstwuropz Autolastwuropz
+[STEP] 2026-02-24T12:28:51.252Z - Searching for user: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:52.265Z - Search completed for: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:53.288Z - Action menu opened
+[INFO] 2026-02-24T12:28:54.302Z - Delete clicked from menu
+[INFO] 2026-02-24T12:28:54.305Z - No confirmation dialog — user deleted directly
+[STEP] 2026-02-24T12:28:55.307Z - Clearing search box
+[INFO] 2026-02-24T12:28:55.823Z - Search cleared
+[INFO] 2026-02-24T12:28:55.824Z - Unity User 'Autofirstwuropz Autolastwuropz' deleted
+[STEP] 2026-02-24T12:28:55.824Z - Verifying user 'Autofirstwuropz Autolastwuropz' is NOT in the list
+[STEP] 2026-02-24T12:28:55.824Z - Clearing search box
+[INFO] 2026-02-24T12:28:56.333Z - Search cleared
+[STEP] 2026-02-24T12:28:56.333Z - Searching for user: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:57.433Z - Search completed for: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:57.442Z - User 'Autofirstwuropz Autolastwuropz' is not in the list
+[INFO] 2026-02-24T12:28:57.442Z - User removed from list
+[STEP] 2026-02-24T12:28:57.442Z - Searching for user: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:58.455Z - Search completed for: Autofirstwuropz Autolastwuropz
+[INFO] 2026-02-24T12:28:58.458Z - E2E Delete Unity User verified

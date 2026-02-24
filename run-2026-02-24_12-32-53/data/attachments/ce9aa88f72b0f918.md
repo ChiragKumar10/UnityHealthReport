@@ -1,0 +1,137 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e13]:
+          - img [ref=e15]
+          - combobox "Search Patient Name, DOB (MM-DD-YYYY), Phone" [ref=e17]
+          - button "Open" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+          - group
+        - button "New Patient" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - paragraph [ref=e25]: New Patient
+        - button [ref=e27] [cursor=pointer]:
+          - img [ref=e29]
+  - generic [ref=e31]:
+    - list [ref=e33]:
+      - listitem [ref=e34] [cursor=pointer]:
+        - img [ref=e36]
+        - generic [ref=e39]: Work List
+      - listitem [ref=e40] [cursor=pointer]:
+        - img [ref=e42]
+        - generic [ref=e45]: Enrollments
+      - listitem [ref=e46] [cursor=pointer]:
+        - img [ref=e48]
+        - generic [ref=e51]: Alerts
+      - listitem [ref=e52] [cursor=pointer]:
+        - img [ref=e54]
+        - generic [ref=e57]:
+          - text: Tasks
+          - generic [ref=e58]: "0"
+      - listitem [ref=e59] [cursor=pointer]:
+        - img [ref=e61]
+        - generic [ref=e64]: Billing
+      - listitem [ref=e65] [cursor=pointer]:
+        - img [ref=e67]
+        - generic [ref=e70]: Document Library
+      - listitem [ref=e71] [cursor=pointer]:
+        - img [ref=e73]
+        - generic [ref=e76]: RPM Library
+      - listitem [ref=e77] [cursor=pointer]:
+        - img [ref=e79]
+        - generic [ref=e82]: RTM Library
+      - listitem [ref=e83] [cursor=pointer]:
+        - img [ref=e85]
+        - generic [ref=e88]: CCM Library
+      - listitem [ref=e89] [cursor=pointer]:
+        - img [ref=e91]
+        - generic [ref=e94]: PCM Library
+      - listitem [ref=e95] [cursor=pointer]:
+        - img [ref=e97]
+        - generic [ref=e100]: Training Library
+      - listitem [ref=e101] [cursor=pointer]:
+        - img [ref=e103]
+        - generic [ref=e106]: Communications
+      - listitem [ref=e107] [cursor=pointer]:
+        - img [ref=e109]
+        - generic [ref=e112]: Settings
+      - listitem [ref=e113] [cursor=pointer]:
+        - img [ref=e115]
+        - generic [ref=e117]: Logout
+    - generic [ref=e118]:
+      - paragraph [ref=e119]: chirag kumar
+      - paragraph [ref=e120]: chirag.kumar@thinkitive.com
+      - generic [ref=e121]:
+        - img [ref=e122]
+        - paragraph
+    - listitem [ref=e125] [cursor=pointer]:
+      - img [ref=e127]
+  - main [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e133]:
+        - tablist [ref=e136]:
+          - tab "Templates" [selected] [ref=e137] [cursor=pointer]
+          - tab "Assessment" [ref=e138] [cursor=pointer]
+        - generic [ref=e140]:
+          - generic [ref=e143]:
+            - img [ref=e145]
+            - textbox "Type here to search" [ref=e147]
+            - group
+          - button "Add Templates" [ref=e148] [cursor=pointer]:
+            - img [ref=e149]
+            - text: Add Templates
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic "NO" [ref=e156]
+          - generic "TITLE" [ref=e158]
+          - generic "DESCRIPTION" [ref=e160]
+          - generic "CREATED DATE & TIME" [ref=e162]
+          - generic "ACTION" [ref=e164]
+        - generic [ref=e165]:
+          - generic "01" [ref=e167] [cursor=pointer]
+          - generic "Test" [ref=e169] [cursor=pointer]
+          - generic "Hello plase sign your consent" [ref=e171] [cursor=pointer]
+          - generic "10-06-2025, 04:48 PM" [ref=e173] [cursor=pointer]
+          - img [ref=e178] [cursor=pointer]
+        - generic [ref=e180]:
+          - generic "02" [ref=e182] [cursor=pointer]
+          - generic "Reach Out Template" [ref=e184] [cursor=pointer]
+          - generic "This is Reach out Template." [ref=e186] [cursor=pointer]
+          - generic "02-09-2025, 11:53 AM" [ref=e188] [cursor=pointer]
+          - img [ref=e193] [cursor=pointer]
+        - generic [ref=e195]:
+          - generic "03" [ref=e197] [cursor=pointer]
+          - generic "Media Template" [ref=e199] [cursor=pointer]
+          - generic "This is media template." [ref=e201] [cursor=pointer]
+          - generic "02-09-2025, 11:54 AM" [ref=e203] [cursor=pointer]
+          - img [ref=e208] [cursor=pointer]
+        - generic [ref=e210]:
+          - generic "04" [ref=e212] [cursor=pointer]
+          - generic "SMS testing template" [ref=e214] [cursor=pointer]
+          - generic "https://apex.stage.unityhealth360.com/auth/set-password/be8a0ad3-d574-4d18-912c-3d9d419baccf/a892c3a5-6099-438b-a093-5b4ab3a78e84?category=PATIENT" [ref=e216] [cursor=pointer]: https://apex.stage.unityhealth360.com/auth/set-pas...
+          - generic "02-13-2025, 08:08 PM" [ref=e218] [cursor=pointer]
+          - img [ref=e223] [cursor=pointer]
+        - generic [ref=e225]:
+          - generic "05" [ref=e227] [cursor=pointer]
+          - generic "Long text message" [ref=e229] [cursor=pointer]
+          - generic [ref=e231] [cursor=pointer]: 👋 Hello my name is I am reaching out to introd...
+          - generic "03-24-2025, 04:29 PM" [ref=e233] [cursor=pointer]
+          - img [ref=e238] [cursor=pointer]
+        - generic [ref=e240]:
+          - generic "06" [ref=e242] [cursor=pointer]
+          - generic "MISSED TEMPLATE" [ref=e244] [cursor=pointer]
+          - generic "TEST" [ref=e246] [cursor=pointer]
+          - generic "12-19-2025, 05:38 PM" [ref=e248] [cursor=pointer]
+          - img [ref=e253] [cursor=pointer]
+        - generic [ref=e255]:
+          - generic "07" [ref=e257] [cursor=pointer]
+          - generic "POM Playwright Template" [ref=e259] [cursor=pointer]
+          - generic "This template is created using Playwright POM framework." [ref=e261] [cursor=pointer]: This template is created using Playwright POM fram...
+          - generic "01-05-2026, 07:07 PM" [ref=e263] [cursor=pointer]
+          - img [ref=e268] [cursor=pointer]
+```

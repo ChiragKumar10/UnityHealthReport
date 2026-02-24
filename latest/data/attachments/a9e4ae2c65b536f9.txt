@@ -1,0 +1,189 @@
+[STEP] 2026-02-24T12:29:11.720Z - Login to Provider Portal
+[STEP] 2026-02-24T12:29:12.059Z - Attempting to login to provider portal
+[STEP] 2026-02-24T12:29:12.059Z - Navigating to provider portal login page
+[INFO] 2026-02-24T12:29:13.202Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-24T12:29:13.329Z - Login attempt completed
+[STEP] 2026-02-24T12:29:15.784Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-24T12:29:15.784Z - Opening RPM Library
+[INFO] 2026-02-24T12:29:15.842Z - Successfully opened RTM Library
+[STEP] 2026-02-24T12:29:15.842Z - Opening Assessment section
+[INFO] 2026-02-24T12:29:16.003Z - Successfully opened Assessment section
+[STEP] 2026-02-24T12:29:16.004Z - Test: List metadata verification
+[STEP] 2026-02-24T12:29:16.004Z - Creating assessment: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:29:16.004Z - Clicking Add Assessment button
+[INFO] 2026-02-24T12:29:17.102Z - Add Assessment form opened
+[STEP] 2026-02-24T12:29:17.102Z - Filling assessment title: Survey Meta 1771936156004
+[INFO] 2026-02-24T12:29:17.113Z - Assessment title filled: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:29:17.113Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-24T12:29:17.803Z - Assessment type selected: SURVEY
+[STEP] 2026-02-24T12:29:17.803Z - Selecting frequency: DAILY
+[INFO] 2026-02-24T12:29:18.484Z - Frequency selected: DAILY
+[STEP] 2026-02-24T12:29:18.484Z - Clicking Next button
+[INFO] 2026-02-24T12:29:19.561Z - Next button clicked
+[STEP] 2026-02-24T12:29:19.561Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-24T12:29:20.504Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-24T12:29:20.505Z - Clicking Next button
+[INFO] 2026-02-24T12:29:21.535Z - Next button clicked
+[STEP] 2026-02-24T12:29:21.535Z - Clicking Finish button
+[INFO] 2026-02-24T12:29:22.568Z - Finish button clicked
+[INFO] 2026-02-24T12:29:22.569Z - Assessment 'Survey Meta 1771936156004' created successfully
+[STEP] 2026-02-24T12:29:22.569Z - Verifying list metadata for: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:29:22.569Z - Searching for assessment: Survey Meta 1771936156004
+[INFO] 2026-02-24T12:29:23.202Z - Search completed for assessment: Survey Meta 1771936156004
+[INFO] 2026-02-24T12:29:23.208Z - Assessment type 'SURVEY' visible in list row
+[INFO] 2026-02-24T12:29:23.211Z - Created by 'PROVIDER' visible in list row
+[INFO] 2026-02-24T12:29:23.211Z - SURVEY metadata verified for 'Survey Meta 1771936156004'
+[STEP] 2026-02-24T12:29:23.211Z - Creating assessment: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:29:23.211Z - Clicking Add Assessment button
+[INFO] 2026-02-24T12:29:24.302Z - Add Assessment form opened
+[STEP] 2026-02-24T12:29:24.302Z - Filling assessment title: QNA Meta 1771936156004
+[INFO] 2026-02-24T12:29:24.312Z - Assessment title filled: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:29:24.312Z - Selecting assessment type: QNA
+[INFO] 2026-02-24T12:29:25.000Z - Assessment type selected: QNA
+[STEP] 2026-02-24T12:29:25.000Z - Selecting frequency: DAILY
+[INFO] 2026-02-24T12:29:25.687Z - Frequency selected: DAILY
+[STEP] 2026-02-24T12:29:25.688Z - Clicking Next button
+[INFO] 2026-02-24T12:29:26.735Z - Next button clicked
+[STEP] 2026-02-24T12:29:26.735Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-24T12:29:27.655Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-24T12:29:27.655Z - Clicking Next button
+[INFO] 2026-02-24T12:29:28.682Z - Next button clicked
+[STEP] 2026-02-24T12:29:28.682Z - Clicking Finish button
+[INFO] 2026-02-24T12:29:29.717Z - Finish button clicked
+[INFO] 2026-02-24T12:29:29.717Z - Assessment 'QNA Meta 1771936156004' created successfully
+[STEP] 2026-02-24T12:29:29.717Z - Verifying list metadata for: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:29:29.717Z - Searching for assessment: QNA Meta 1771936156004
+[INFO] 2026-02-24T12:29:30.277Z - Search completed for assessment: QNA Meta 1771936156004
+[INFO] 2026-02-24T12:29:30.283Z - Assessment type 'Q&A' visible in list row
+[INFO] 2026-02-24T12:29:30.286Z - Created by 'PROVIDER' visible in list row
+[INFO] 2026-02-24T12:29:30.286Z - QNA metadata verified for 'QNA Meta 1771936156004'
+[INFO] 2026-02-24T12:29:30.286Z - List metadata verification test completed
+[STEP] 2026-02-24T12:29:30.384Z - afterAll: Cleanup - deleting all created assessments
+[STEP] 2026-02-24T12:29:30.830Z - Attempting to login to provider portal
+[STEP] 2026-02-24T12:29:30.830Z - Navigating to provider portal login page
+[INFO] 2026-02-24T12:29:31.976Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-24T12:29:32.112Z - Login attempt completed
+[STEP] 2026-02-24T12:29:34.612Z - Opening RPM Library
+[INFO] 2026-02-24T12:29:34.670Z - Successfully opened RTM Library
+[STEP] 2026-02-24T12:29:34.670Z - Opening Assessment section
+[INFO] 2026-02-24T12:29:34.833Z - Successfully opened Assessment section
+[STEP] 2026-02-24T12:29:34.833Z - Searching for assessment: QNA Assessment 1771936095645
+[INFO] 2026-02-24T12:29:35.399Z - Search completed for assessment: QNA Assessment 1771936095645
+[STEP] 2026-02-24T12:29:35.402Z - Deleting assessment: QNA Assessment 1771936095645
+[STEP] 2026-02-24T12:29:35.402Z - Clicking Delete for: QNA Assessment 1771936095645
+[STEP] 2026-02-24T12:29:35.402Z - Searching for assessment: QNA Assessment 1771936095645
+[INFO] 2026-02-24T12:29:35.916Z - Search completed for assessment: QNA Assessment 1771936095645
+[STEP] 2026-02-24T12:29:35.916Z - Opening action menu for: QNA Assessment 1771936095645
+[INFO] 2026-02-24T12:29:36.983Z - Action menu opened
+[INFO] 2026-02-24T12:29:38.009Z - Delete dialog opened
+[STEP] 2026-02-24T12:29:38.010Z - Confirming delete
+[STEP] 2026-02-24T12:29:40.040Z - Clearing search box
+[INFO] 2026-02-24T12:29:40.564Z - Search cleared
+[INFO] 2026-02-24T12:29:40.564Z - Delete confirmed
+[INFO] 2026-02-24T12:29:40.564Z - Assessment 'QNA Assessment 1771936095645' deleted
+[INFO] 2026-02-24T12:29:40.564Z - afterAll: Deleted 'QNA Assessment 1771936095645'
+[STEP] 2026-02-24T12:29:40.564Z - Clearing search box
+[INFO] 2026-02-24T12:29:41.073Z - Search cleared
+[STEP] 2026-02-24T12:29:41.073Z - Searching for assessment: SURVEY Assessment 1771936095645
+[INFO] 2026-02-24T12:29:41.659Z - Search completed for assessment: SURVEY Assessment 1771936095645
+[STEP] 2026-02-24T12:29:41.662Z - Deleting assessment: SURVEY Assessment 1771936095645
+[STEP] 2026-02-24T12:29:41.662Z - Clicking Delete for: SURVEY Assessment 1771936095645
+[STEP] 2026-02-24T12:29:41.662Z - Searching for assessment: SURVEY Assessment 1771936095645
+[INFO] 2026-02-24T12:29:42.176Z - Search completed for assessment: SURVEY Assessment 1771936095645
+[STEP] 2026-02-24T12:29:42.177Z - Opening action menu for: SURVEY Assessment 1771936095645
+[INFO] 2026-02-24T12:29:43.217Z - Action menu opened
+[INFO] 2026-02-24T12:29:44.255Z - Delete dialog opened
+[STEP] 2026-02-24T12:29:44.255Z - Confirming delete
+[STEP] 2026-02-24T12:29:46.286Z - Clearing search box
+[INFO] 2026-02-24T12:29:46.806Z - Search cleared
+[INFO] 2026-02-24T12:29:46.806Z - Delete confirmed
+[INFO] 2026-02-24T12:29:46.806Z - Assessment 'SURVEY Assessment 1771936095645' deleted
+[INFO] 2026-02-24T12:29:46.806Z - afterAll: Deleted 'SURVEY Assessment 1771936095645'
+[STEP] 2026-02-24T12:29:46.806Z - Clearing search box
+[INFO] 2026-02-24T12:29:47.317Z - Search cleared
+[STEP] 2026-02-24T12:29:47.317Z - Searching for assessment: SearchA 1771936114515
+[INFO] 2026-02-24T12:29:47.912Z - Search completed for assessment: SearchA 1771936114515
+[STEP] 2026-02-24T12:29:47.915Z - Deleting assessment: SearchA 1771936114515
+[STEP] 2026-02-24T12:29:47.915Z - Clicking Delete for: SearchA 1771936114515
+[STEP] 2026-02-24T12:29:47.916Z - Searching for assessment: SearchA 1771936114515
+[INFO] 2026-02-24T12:29:48.434Z - Search completed for assessment: SearchA 1771936114515
+[STEP] 2026-02-24T12:29:48.434Z - Opening action menu for: SearchA 1771936114515
+[INFO] 2026-02-24T12:29:49.485Z - Action menu opened
+[INFO] 2026-02-24T12:29:50.520Z - Delete dialog opened
+[STEP] 2026-02-24T12:29:50.520Z - Confirming delete
+[STEP] 2026-02-24T12:29:52.571Z - Clearing search box
+[INFO] 2026-02-24T12:29:53.090Z - Search cleared
+[INFO] 2026-02-24T12:29:53.090Z - Delete confirmed
+[INFO] 2026-02-24T12:29:53.090Z - Assessment 'SearchA 1771936114515' deleted
+[INFO] 2026-02-24T12:29:53.090Z - afterAll: Deleted 'SearchA 1771936114515'
+[STEP] 2026-02-24T12:29:53.090Z - Clearing search box
+[INFO] 2026-02-24T12:29:53.599Z - Search cleared
+[STEP] 2026-02-24T12:29:53.599Z - Searching for assessment: SearchB 1771936114515
+[INFO] 2026-02-24T12:29:54.193Z - Search completed for assessment: SearchB 1771936114515
+[STEP] 2026-02-24T12:29:54.196Z - Deleting assessment: SearchB 1771936114515
+[STEP] 2026-02-24T12:29:54.196Z - Clicking Delete for: SearchB 1771936114515
+[STEP] 2026-02-24T12:29:54.196Z - Searching for assessment: SearchB 1771936114515
+[INFO] 2026-02-24T12:29:54.711Z - Search completed for assessment: SearchB 1771936114515
+[STEP] 2026-02-24T12:29:54.711Z - Opening action menu for: SearchB 1771936114515
+[INFO] 2026-02-24T12:29:55.750Z - Action menu opened
+[INFO] 2026-02-24T12:29:56.787Z - Delete dialog opened
+[STEP] 2026-02-24T12:29:56.787Z - Confirming delete
+[STEP] 2026-02-24T12:29:58.817Z - Clearing search box
+[INFO] 2026-02-24T12:29:59.335Z - Search cleared
+[INFO] 2026-02-24T12:29:59.336Z - Delete confirmed
+[INFO] 2026-02-24T12:29:59.336Z - Assessment 'SearchB 1771936114515' deleted
+[INFO] 2026-02-24T12:29:59.336Z - afterAll: Deleted 'SearchB 1771936114515'
+[STEP] 2026-02-24T12:29:59.336Z - Clearing search box
+[INFO] 2026-02-24T12:29:59.846Z - Search cleared
+[STEP] 2026-02-24T12:29:59.847Z - Searching for assessment: Preserved 1771936134394
+[INFO] 2026-02-24T12:30:00.440Z - Search completed for assessment: Preserved 1771936134394
+[STEP] 2026-02-24T12:30:00.445Z - Deleting assessment: Preserved 1771936134394
+[STEP] 2026-02-24T12:30:00.445Z - Clicking Delete for: Preserved 1771936134394
+[STEP] 2026-02-24T12:30:00.445Z - Searching for assessment: Preserved 1771936134394
+[INFO] 2026-02-24T12:30:00.966Z - Search completed for assessment: Preserved 1771936134394
+[STEP] 2026-02-24T12:30:00.966Z - Opening action menu for: Preserved 1771936134394
+[INFO] 2026-02-24T12:30:02.039Z - Action menu opened
+[INFO] 2026-02-24T12:30:03.069Z - Delete dialog opened
+[STEP] 2026-02-24T12:30:03.069Z - Confirming delete
+[STEP] 2026-02-24T12:30:05.119Z - Clearing search box
+[INFO] 2026-02-24T12:30:05.646Z - Search cleared
+[INFO] 2026-02-24T12:30:05.646Z - Delete confirmed
+[INFO] 2026-02-24T12:30:05.646Z - Assessment 'Preserved 1771936134394' deleted
+[INFO] 2026-02-24T12:30:05.646Z - afterAll: Deleted 'Preserved 1771936134394'
+[STEP] 2026-02-24T12:30:05.646Z - Clearing search box
+[INFO] 2026-02-24T12:30:06.160Z - Search cleared
+[STEP] 2026-02-24T12:30:06.160Z - Searching for assessment: Survey Meta 1771936156004
+[INFO] 2026-02-24T12:30:06.766Z - Search completed for assessment: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:30:06.769Z - Deleting assessment: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:30:06.769Z - Clicking Delete for: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:30:06.769Z - Searching for assessment: Survey Meta 1771936156004
+[INFO] 2026-02-24T12:30:07.292Z - Search completed for assessment: Survey Meta 1771936156004
+[STEP] 2026-02-24T12:30:07.292Z - Opening action menu for: Survey Meta 1771936156004
+[INFO] 2026-02-24T12:30:08.343Z - Action menu opened
+[INFO] 2026-02-24T12:30:09.366Z - Delete dialog opened
+[STEP] 2026-02-24T12:30:09.366Z - Confirming delete
+[STEP] 2026-02-24T12:30:11.401Z - Clearing search box
+[INFO] 2026-02-24T12:30:12.027Z - Search cleared
+[INFO] 2026-02-24T12:30:12.027Z - Delete confirmed
+[INFO] 2026-02-24T12:30:12.027Z - Assessment 'Survey Meta 1771936156004' deleted
+[INFO] 2026-02-24T12:30:12.027Z - afterAll: Deleted 'Survey Meta 1771936156004'
+[STEP] 2026-02-24T12:30:12.027Z - Clearing search box
+[INFO] 2026-02-24T12:30:12.537Z - Search cleared
+[STEP] 2026-02-24T12:30:12.538Z - Searching for assessment: QNA Meta 1771936156004
+[INFO] 2026-02-24T12:30:13.112Z - Search completed for assessment: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:30:13.116Z - Deleting assessment: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:30:13.116Z - Clicking Delete for: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:30:13.116Z - Searching for assessment: QNA Meta 1771936156004
+[INFO] 2026-02-24T12:30:13.633Z - Search completed for assessment: QNA Meta 1771936156004
+[STEP] 2026-02-24T12:30:13.633Z - Opening action menu for: QNA Meta 1771936156004
+[INFO] 2026-02-24T12:30:14.667Z - Action menu opened
+[INFO] 2026-02-24T12:30:15.700Z - Delete dialog opened
+[STEP] 2026-02-24T12:30:15.700Z - Confirming delete
+[STEP] 2026-02-24T12:30:17.733Z - Clearing search box
+[INFO] 2026-02-24T12:30:18.249Z - Search cleared
+[INFO] 2026-02-24T12:30:18.249Z - Delete confirmed
+[INFO] 2026-02-24T12:30:18.249Z - Assessment 'QNA Meta 1771936156004' deleted
+[INFO] 2026-02-24T12:30:18.249Z - afterAll: Deleted 'QNA Meta 1771936156004'
+[STEP] 2026-02-24T12:30:18.249Z - Clearing search box
+[INFO] 2026-02-24T12:30:18.758Z - Search cleared
+[INFO] 2026-02-24T12:30:18.758Z - afterAll: Cleanup completed. Processed 7 assessments.

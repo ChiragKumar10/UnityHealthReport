@@ -1,0 +1,51 @@
+[STEP] 2026-02-24T12:27:13.095Z - Login to Provider Portal
+[STEP] 2026-02-24T12:27:13.986Z - Attempting to login to provider portal
+[STEP] 2026-02-24T12:27:13.986Z - Navigating to provider portal login page
+[INFO] 2026-02-24T12:27:15.162Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-24T12:27:15.323Z - Login attempt completed
+[STEP] 2026-02-24T12:27:17.832Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-24T12:27:17.832Z - Opening RPM Library
+[INFO] 2026-02-24T12:27:17.898Z - Successfully opened RTM Library
+[STEP] 2026-02-24T12:27:17.898Z - Opening Assessment section
+[INFO] 2026-02-24T12:27:18.080Z - Successfully opened Assessment section
+[STEP] 2026-02-24T12:27:18.081Z - Test: View assessment details
+[STEP] 2026-02-24T12:27:18.081Z - Creating assessment: View Details 1771936038081
+[STEP] 2026-02-24T12:27:18.081Z - Clicking Add Assessment button
+[INFO] 2026-02-24T12:27:19.174Z - Add Assessment form opened
+[STEP] 2026-02-24T12:27:19.174Z - Filling assessment title: View Details 1771936038081
+[INFO] 2026-02-24T12:27:19.185Z - Assessment title filled: View Details 1771936038081
+[STEP] 2026-02-24T12:27:19.185Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-24T12:27:19.893Z - Assessment type selected: SURVEY
+[STEP] 2026-02-24T12:27:19.893Z - Selecting frequency: DAILY
+[INFO] 2026-02-24T12:27:20.573Z - Frequency selected: DAILY
+[STEP] 2026-02-24T12:27:20.574Z - Clicking Next button
+[INFO] 2026-02-24T12:27:21.649Z - Next button clicked
+[STEP] 2026-02-24T12:27:21.650Z - Adding question 1: Which framework do you prefer? (SINGLE_SELECT)
+[INFO] 2026-02-24T12:27:23.764Z - 4 options added
+[INFO] 2026-02-24T12:27:23.764Z - Question 1 added: Which framework do you prefer? (SINGLE_SELECT)
+[STEP] 2026-02-24T12:27:23.764Z - Adding question 2: Describe your experience (FREE_TEXT)
+[INFO] 2026-02-24T12:27:25.288Z - Question 2 added: Describe your experience (FREE_TEXT)
+[STEP] 2026-02-24T12:27:25.288Z - Clicking Next button
+[INFO] 2026-02-24T12:27:26.332Z - Next button clicked
+[STEP] 2026-02-24T12:27:26.332Z - Clicking Finish button
+[INFO] 2026-02-24T12:27:27.358Z - Finish button clicked
+[INFO] 2026-02-24T12:27:27.358Z - Assessment 'View Details 1771936038081' created successfully
+[STEP] 2026-02-24T12:27:27.358Z - Verifying assessment 'View Details 1771936038081' is visible in the list
+[STEP] 2026-02-24T12:27:27.358Z - Searching for assessment: View Details 1771936038081
+[INFO] 2026-02-24T12:27:27.990Z - Search completed for assessment: View Details 1771936038081
+[INFO] 2026-02-24T12:27:27.998Z - Assessment 'View Details 1771936038081' is visible in the list
+[STEP] 2026-02-24T12:27:27.998Z - Viewing assessment: View Details 1771936038081
+[INFO] 2026-02-24T12:27:28.043Z - Action button clicked
+[INFO] 2026-02-24T12:27:28.307Z - View button clicked
+[INFO] 2026-02-24T12:27:28.314Z - Assessment 'View Details 1771936038081' opened in view mode
+[STEP] 2026-02-24T12:27:28.314Z - Verifying assessment view content
+[INFO] 2026-02-24T12:27:28.425Z - ✓ Verified: Which framework do you prefer?
+[INFO] 2026-02-24T12:27:28.429Z - ✓ Verified: React
+[INFO] 2026-02-24T12:27:28.432Z - ✓ Verified: Angular
+[INFO] 2026-02-24T12:27:28.435Z - ✓ Verified: Vue
+[INFO] 2026-02-24T12:27:28.439Z - ✓ Verified: Svelte
+[INFO] 2026-02-24T12:27:28.443Z - ✓ Verified: Describe your experience
+[INFO] 2026-02-24T12:27:28.443Z - All assessment content verified
+[STEP] 2026-02-24T12:27:28.444Z - Closing view assessment modal
+[INFO] 2026-02-24T12:27:28.500Z - View assessment modal closed
+[INFO] 2026-02-24T12:27:28.500Z - View details test completed
