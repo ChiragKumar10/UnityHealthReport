@@ -1,0 +1,86 @@
+[STEP] 2026-02-25T14:31:23.855Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-02-25T14:31:23.856Z - Logging in to Provider Portal
+[STEP] 2026-02-25T14:31:23.857Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:31:23.857Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:31:25.399Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:31:25.560Z - Login attempt completed
+[STEP] 2026-02-25T14:31:28.042Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-02-25T14:31:28.042Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:31:30.111Z - Navigated to Enrollment section
+[STEP] 2026-02-25T14:31:33.114Z - Applying status filter: Closed
+[INFO] 2026-02-25T14:31:39.261Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-02-25T14:31:41.390Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:31:43.455Z - Navigated to Enrollment section
+[STEP] 2026-02-25T14:31:44.458Z - Adding new enrollment
+[INFO] 2026-02-25T14:31:50.770Z - Found 7 patients matching 'u'
+[INFO] 2026-02-25T14:31:52.247Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Schumm, Gregg  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:31:58.153Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T14:32:13.234Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T14:32:17.383Z - Found 3 patients matching 'v'
+New patient selected: Turcotte, Steven 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Turcotte, Steven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:32:21.374Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-25T14:32:21.386Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Turcotte, Steven
+  Program: Remote Patient Monitoring (RPM)
+  Provider: sarvesh test
+  Care Manager: Autofirstgkqydt Autolastgkqydt
+[INFO] 2026-02-25T14:32:21.386Z - Enrollment form submitted successfully
+Enrollment created: Turcotte, Steven | Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:32:21.504Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:32:23.664Z - Navigated to Enrollment section
+[STEP] 2026-02-25T14:32:25.668Z - Applying status filter: New
+[INFO] 2026-02-25T14:32:31.836Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-02-25T14:32:52.766Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:32:54.824Z - Navigated to Enrollment section
+[STEP] 2026-02-25T14:32:56.826Z - Applying status filter: Active
+[INFO] 2026-02-25T14:33:03.006Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-02-25T14:33:15.976Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:33:18.040Z - Navigated to Enrollment section
+[STEP] 2026-02-25T14:33:20.042Z - Applying status filter: Closed
+[INFO] 2026-02-25T14:33:26.217Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Turcotte, Steven ===
+[STEP] 2026-02-25T14:33:46.574Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:33:48.654Z - Navigated to Enrollment section
+[STEP] 2026-02-25T14:33:50.656Z - Applying status filter: New
+[INFO] 2026-02-25T14:33:56.839Z - Status filter 'New' applied successfully
+Row: 01Turcotte, StevenRPM02-25-2026newS0710-+2Autofirstgtbrpz AutolastgtbrpzDayton Nolan
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Turcotte, Steven982-844-652202-25-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Turcotte, Steven
+Program: RPM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-02-25T14:34:12.814Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

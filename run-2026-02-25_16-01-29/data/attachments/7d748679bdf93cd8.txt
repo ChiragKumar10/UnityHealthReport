@@ -1,0 +1,68 @@
+[STEP] 2026-02-25T14:27:01.701Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-02-25T14:27:01.701Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-25T14:27:01.701Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:27:01.701Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:27:03.440Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:27:03.580Z - Login attempt completed
+[STEP] 2026-02-25T14:27:06.547Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:27:08.588Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-02-25T14:27:08.589Z - Adding new enrollment
+[INFO] 2026-02-25T14:27:14.953Z - Found 14 patients matching 'o'
+[INFO] 2026-02-25T14:27:16.404Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Automation, Test  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:27:22.288Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T14:27:22.297Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-25T14:27:26.987Z - Found 19 patients matching 'r'
+New patient selected: Balistreri, Krista 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Balistreri, Krista  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:27:30.735Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-25T14:27:30.744Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Balistreri, Krista
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Seth Ondricka
+  Care Manager: Autofirstglakpz Editedglakpz
+[INFO] 2026-02-25T14:27:30.744Z - Enrollment form submitted successfully
+Selected patient: Balistreri, Krista
+[STEP] 2026-02-25T14:27:30.744Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-25T14:27:30.754Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:27:33.755Z - Retrieving enrollment list data
+[INFO] 2026-02-25T14:27:34.218Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Balistreri, Krista
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-02-25T14:27:34.220Z - Verifying patient in Worklist NEW section
+✓ Patient "Balistreri, Krista" found in Worklist > RPM > NEW section
+[INFO] 2026-02-25T14:27:54.766Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-02-25T14:27:54.767Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

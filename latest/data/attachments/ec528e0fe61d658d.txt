@@ -1,0 +1,20 @@
+[STEP] 2026-02-25T14:29:56.365Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-02-25T14:29:56.365Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:29:56.365Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:29:58.037Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:29:58.171Z - Login attempt completed
+[STEP] 2026-02-25T14:30:01.138Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:30:03.178Z - Navigated to Enrollment section
+[INFO] 2026-02-25T14:30:03.178Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-02-25T14:30:03.179Z - Test 5: Verify combined Date + Status filter
+[INFO] 2026-02-25T14:30:03.179Z - Generated random date range: 01-14-2026 to 02-14-2026
+[INFO] 2026-02-25T14:30:03.179Z - Selected random status: New
+[INFO] 2026-02-25T14:30:03.179Z - Applying combined filters - Date: 01-14-2026 to 02-14-2026, Status: New
+[STEP] 2026-02-25T14:30:03.179Z - Applying date filter: 01-14-2026 to 02-14-2026
+[INFO] 2026-02-25T14:30:09.308Z - Date filter applied successfully
+[STEP] 2026-02-25T14:30:09.309Z - Applying status filter: New
+[INFO] 2026-02-25T14:30:15.407Z - Status filter 'New' applied successfully
+[STEP] 2026-02-25T14:30:15.407Z - Retrieving filtered enrollment results
+[INFO] 2026-02-25T14:30:27.410Z - No enrollment records found after applying filter
+No Record found for filters - Date: 01-14-2026 to 02-14-2026, Status: New
+Test completed - No records found for the selected filters

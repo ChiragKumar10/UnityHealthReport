@@ -1,0 +1,22 @@
+[STEP] 2026-02-25T14:30:27.512Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-02-25T14:30:27.512Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:30:27.512Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:30:29.258Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:30:29.389Z - Login attempt completed
+[STEP] 2026-02-25T14:30:32.346Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:30:34.379Z - Navigated to Enrollment section
+[INFO] 2026-02-25T14:30:34.379Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-02-25T14:30:34.379Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-02-25T14:30:34.380Z - Selected random status: New
+[INFO] 2026-02-25T14:30:34.380Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-02-25T14:30:34.380Z - Applying combined filters - Status: New, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T14:30:34.380Z - Applying status filter: New
+[INFO] 2026-02-25T14:30:40.527Z - Status filter 'New' applied successfully
+[STEP] 2026-02-25T14:30:40.527Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-02-25T14:30:46.676Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-02-25T14:30:46.676Z - Retrieving filtered enrollment results
+[INFO] 2026-02-25T14:30:48.912Z - Retrieved 12 filtered enrollment records
+Record 1 Verified: Balistreri, Krista - RPM - new
+Record 2 Verified: Schowalter, Marshall - RPM - new
+Record 3 Verified: Mraz, Kaci - RPM - new
+[INFO] 2026-02-25T14:30:48.922Z - Combined Status + Program filter verification completed - 3 records verified

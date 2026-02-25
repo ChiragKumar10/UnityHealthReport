@@ -1,0 +1,49 @@
+[STEP] 2026-02-25T14:30:53.151Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-02-25T14:30:53.561Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:30:53.561Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:30:54.789Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:30:54.911Z - Login attempt completed
+[STEP] 2026-02-25T14:30:57.874Z - Test: Verify deleted provider login restriction
+[STEP] 2026-02-25T14:30:57.874Z - Navigating to Settings page
+[INFO] 2026-02-25T14:30:58.940Z - Navigated to Settings page
+[STEP] 2026-02-25T14:30:58.940Z - Clicking Unity Users tab
+[INFO] 2026-02-25T14:31:00.101Z - Unity Users tab clicked
+[STEP] 2026-02-25T14:31:00.102Z - Adding Unity User: Autofirstqpvrmh Autolastqpvrmh
+[STEP] 2026-02-25T14:31:00.102Z - Clicking Add Unity User button
+[INFO] 2026-02-25T14:31:01.287Z - Add Unity User form opened
+[STEP] 2026-02-25T14:31:01.287Z - Filling Unity User form for: Autofirstqpvrmh Autolastqpvrmh
+[STEP] 2026-02-25T14:31:01.287Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-02-25T14:31:02.236Z - Selected: Care Coordinators
+[STEP] 2026-02-25T14:31:02.315Z - Selecting dropdown option: Male
+[INFO] 2026-02-25T14:31:03.251Z - Selected: Male
+[INFO] 2026-02-25T14:31:03.403Z - Form filled for: Autofirstqpvrmh Autolastqpvrmh
+[STEP] 2026-02-25T14:31:03.403Z - Clicking Save button
+[INFO] 2026-02-25T14:31:05.519Z - Save button clicked
+[INFO] 2026-02-25T14:31:05.525Z - Unity User 'Autofirstqpvrmh Autolastqpvrmh' added — form closed
+[STEP] 2026-02-25T14:31:05.525Z - Verifying user 'Autofirstqpvrmh Autolastqpvrmh' is visible in the list
+[STEP] 2026-02-25T14:31:05.525Z - Searching for user: Autofirstqpvrmh Autolastqpvrmh
+[INFO] 2026-02-25T14:31:06.563Z - Search completed for: Autofirstqpvrmh Autolastqpvrmh
+[INFO] 2026-02-25T14:31:06.677Z - User 'Autofirstqpvrmh Autolastqpvrmh' is visible in the list
+[INFO] 2026-02-25T14:31:06.677Z - User created for delete login test
+[STEP] 2026-02-25T14:31:06.677Z - Deleting Unity User: Autofirstqpvrmh Autolastqpvrmh
+[STEP] 2026-02-25T14:31:06.677Z - Clicking Delete for: Autofirstqpvrmh Autolastqpvrmh
+[STEP] 2026-02-25T14:31:06.677Z - Opening action menu for: Autofirstqpvrmh Autolastqpvrmh
+[STEP] 2026-02-25T14:31:06.677Z - Searching for user: Autofirstqpvrmh Autolastqpvrmh
+[INFO] 2026-02-25T14:31:07.690Z - Search completed for: Autofirstqpvrmh Autolastqpvrmh
+[INFO] 2026-02-25T14:31:08.715Z - Action menu opened
+[INFO] 2026-02-25T14:31:09.731Z - Delete clicked from menu
+[INFO] 2026-02-25T14:31:09.735Z - No confirmation dialog — user deleted directly
+[STEP] 2026-02-25T14:31:10.738Z - Clearing search box
+[INFO] 2026-02-25T14:31:11.256Z - Search cleared
+[INFO] 2026-02-25T14:31:11.256Z - Unity User 'Autofirstqpvrmh Autolastqpvrmh' deleted
+[STEP] 2026-02-25T14:31:11.256Z - Verifying user 'Autofirstqpvrmh Autolastqpvrmh' is NOT in the list
+[STEP] 2026-02-25T14:31:11.256Z - Clearing search box
+[INFO] 2026-02-25T14:31:11.766Z - Search cleared
+[STEP] 2026-02-25T14:31:11.766Z - Searching for user: Autofirstqpvrmh Autolastqpvrmh
+[INFO] 2026-02-25T14:31:12.933Z - Search completed for: Autofirstqpvrmh Autolastqpvrmh
+[INFO] 2026-02-25T14:31:12.947Z - User 'Autofirstqpvrmh Autolastqpvrmh' is not in the list
+[INFO] 2026-02-25T14:31:12.947Z - User deleted
+[STEP] 2026-02-25T14:31:12.947Z - Attempting login with username: autouser1772029857874
+[INFO] 2026-02-25T14:31:17.580Z - Login failed — error: No error text found
+[INFO] 2026-02-25T14:31:17.748Z - Deleted user login blocked — success: false
+[INFO] 2026-02-25T14:31:17.751Z - Deleted provider login restriction verified. Error: 

@@ -1,0 +1,157 @@
+[STEP] 2026-02-25T14:28:39.277Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-02-25T14:28:39.278Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-25T14:28:39.278Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:28:39.278Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:28:40.726Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:28:40.860Z - Login attempt completed
+[STEP] 2026-02-25T14:28:43.810Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:28:45.927Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-02-25T14:28:48.930Z - Adding new enrollment
+[INFO] 2026-02-25T14:28:55.207Z - Found 20 patients matching 'i'
+[INFO] 2026-02-25T14:28:56.636Z - Selected random program: Principal Care Management (PCM)
+
+Enrollment attempt 1/5
+Patient: GoodwinLedner, Luella  | Program: Principal Care Management (PCM)
+[STEP] 2026-02-25T14:29:02.508Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T14:29:17.546Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T14:29:21.660Z - Found 5 patients matching 'z'
+New patient selected: Zemlak, Marsha 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 2/5
+Patient: Zemlak, Marsha  | Program: Principal Care Management (PCM)
+[STEP] 2026-02-25T14:29:25.434Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T14:29:40.470Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T14:29:44.569Z - Found 6 patients matching 'u'
+New patient selected: Russel, Viola 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 3/5
+Patient: Russel, Viola  | Program: Principal Care Management (PCM)
+[STEP] 2026-02-25T14:29:48.565Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T14:29:48.573Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-25T14:29:53.164Z - No patients found for 'f', trying again (1/10)
+[INFO] 2026-02-25T14:29:55.211Z - Found 11 patients matching 'k'
+New patient selected: Mante, Katherine 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 4/5
+Patient: Mante, Katherine  | Program: Principal Care Management (PCM)
+[STEP] 2026-02-25T14:29:58.946Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T14:29:58.956Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-25T14:30:03.549Z - No patients found for 'f', trying again (1/10)
+[INFO] 2026-02-25T14:30:05.603Z - Found 5 patients matching 'z'
+New patient selected: Mraz, Kaci 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 5/5
+Patient: Mraz, Kaci  | Program: Principal Care Management (PCM)
+[STEP] 2026-02-25T14:30:09.339Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T14:30:09.347Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬───────────────────┐
+│ (index) │ Values            │
+├─────────┼───────────────────┤
+│ Name    │ 'Steven Turcotte' │
+│ DOB     │ 'August 2022 5'   │
+│ Phone   │ '9828446522'      │
+└─────────┴───────────────────┘
+[STEP] 2026-02-25T14:30:11.491Z - Creating patient: Steven Turcotte
+[INFO] 2026-02-25T14:30:16.537Z - Patient Steven Turcotte created successfully
+✓ New patient created: Steven Turcotte
+[STEP] 2026-02-25T14:30:16.573Z - Creating enrollment
+[INFO] 2026-02-25T14:30:18.702Z - Patient enrolled in Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-02-25T14:30:18.702Z - Provider: Dayton Nolan
+[INFO] 2026-02-25T14:30:18.702Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Remote Therapeutic Monitoring (RTM) program
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Turcotte, Steven
+Program: Remote Therapeutic Monitoring (RTM)
+Provider: Auto-selected
+Care Manager: Auto-selected
+[STEP] 2026-02-25T14:30:20.704Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:30:22.745Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Remote Therapeutic Monitoring (RTM)"
+Extracted program short: "RTM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "RTM"
+✓ Program tab "RTM" found
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Turcotte
+Total rows in NEW section: 2
+Row 0: NAMECONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: Turcotte, Steven982-844-652202-25-2026SelfPay
+✓ Patient found in NEW section at row 2 (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 2
+[STEP] 2026-02-25T14:30:48.326Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:30:50.380Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Turcotte
+Total rows in ACTIVE section: 2
+Row 0: NAMEDOBENROLLED DATECARE MANAGERPROVIDERINSURANCE NAMETYPE OF MOBILEDOCUMENT SIGNEDHEALTH CONNECTACTION
+Row 1: Turcotte, Steven08-05-202202-25-2026Annamae QuitzonDayton NolanSelfPay-
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===

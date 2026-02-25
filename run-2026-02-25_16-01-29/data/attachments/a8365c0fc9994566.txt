@@ -1,0 +1,64 @@
+[STEP] 2026-02-25T14:27:14.897Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-02-25T14:27:14.897Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-25T14:27:14.897Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:27:14.897Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:27:16.441Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:27:16.564Z - Login attempt completed
+[STEP] 2026-02-25T14:27:19.050Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:27:21.088Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 4
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Champlin, Timothy
+Program: RPM
+Care Manager: Autofirstgaguqg Autolastgaguqg
+Provider: sarvesh test
+Service Type Short: RPM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Found checked ICD at index 1: (A0104) - Typhoid arthritis
+Total checked ICDs: 1
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: (A0104) - Typhoid arthritis
+Initial Care Manager: Autofirstgaguqg Autolastgaguqg
+Initial Provider: sarvesh test
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstgaguqg Autolastgaguqgsarvesh testE511-Beriberi+202-25-2026-02-25-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: RPM
+Checking for Provider: sarvesh
+Checking for Care Manager: Autofirstgaguqg
+Checking for ICD: A0104
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-02-25T14:28:00.039Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:28:02.094Z - Navigated to Enrollment section
+Unchecked initial ICD: (A0104) - Typhoid arthritis
+Checked new ICD: (A010) - Typhoid fever
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: Seth Ondricka
+Updated Care Manager: Autofirstgkqydt Autolastgkqydt
+Updated ICD Code: (A010) - Typhoid fever
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstgkqydt AutolastgkqydtSeth OndrickaA010-Typhoid fever+202-25-2026-02-25-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: RPM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

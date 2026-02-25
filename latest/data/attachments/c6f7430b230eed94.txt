@@ -1,0 +1,14 @@
+[STEP] 2026-02-25T14:31:26.265Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-02-25T14:31:26.266Z - Logging in and navigating to enrollment form
+[STEP] 2026-02-25T14:31:26.266Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:31:26.266Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:31:27.957Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:31:28.087Z - Login attempt completed
+[STEP] 2026-02-25T14:31:31.128Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:31:33.159Z - Navigated to Enrollment section
+✓ Found 11 patients matching 'k'
+✓ Patient search returned 11 results
+✓ Selected patient: Krajcik, Willie 
+✓ Phone auto-filled: 922-645-0626
+✓ DOB auto-filled: 05-25-2023
+[INFO] 2026-02-25T14:31:44.544Z - Patient search and auto-fill verification completed successfully

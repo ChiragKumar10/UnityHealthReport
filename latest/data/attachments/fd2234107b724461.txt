@@ -1,0 +1,21 @@
+[STEP] 2026-02-25T14:29:35.157Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-02-25T14:29:35.157Z - Attempting to login to provider portal
+[STEP] 2026-02-25T14:29:35.157Z - Navigating to provider portal login page
+[INFO] 2026-02-25T14:29:36.828Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T14:29:36.956Z - Login attempt completed
+[STEP] 2026-02-25T14:29:39.915Z - Navigating to Enrollment section
+[INFO] 2026-02-25T14:29:41.948Z - Navigated to Enrollment section
+[INFO] 2026-02-25T14:29:41.948Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-02-25T14:29:41.948Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-02-25T14:29:41.948Z - Generated random date range: 02-13-2026 to 02-21-2026
+[INFO] 2026-02-25T14:29:41.948Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-02-25T14:29:41.948Z - Applying combined filters - Date: 02-13-2026 to 02-21-2026, Program: Chronic Care Management (CCM)
+[STEP] 2026-02-25T14:29:41.949Z - Applying date filter: 02-13-2026 to 02-21-2026
+[INFO] 2026-02-25T14:29:48.095Z - Date filter applied successfully
+[STEP] 2026-02-25T14:29:48.095Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-02-25T14:29:54.220Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-02-25T14:29:54.220Z - Retrieving filtered enrollment results
+[INFO] 2026-02-25T14:29:56.251Z - Retrieved 2 filtered enrollment records
+Record 1 Verified: Automation, Test - CCM - 02-18-2026
+Record 2 Verified: Zemlak, Marsha - CCM - 02-17-2026
+[INFO] 2026-02-25T14:29:56.254Z - Combined Date + Program filter verification completed - 2 records verified
