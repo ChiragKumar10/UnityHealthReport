@@ -1,0 +1,28 @@
+[STEP] 2026-02-25T11:40:40.226Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-02-25T11:40:40.804Z - Attempting to login to provider portal
+[STEP] 2026-02-25T11:40:40.804Z - Navigating to provider portal login page
+[INFO] 2026-02-25T11:40:42.161Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T11:40:42.295Z - Login attempt completed
+[STEP] 2026-02-25T11:40:45.314Z - Test: Verify cancel Add Unity User
+[STEP] 2026-02-25T11:40:45.314Z - Navigating to Settings page
+[INFO] 2026-02-25T11:40:46.412Z - Navigated to Settings page
+[STEP] 2026-02-25T11:40:46.412Z - Clicking Unity Users tab
+[INFO] 2026-02-25T11:40:47.573Z - Unity Users tab clicked
+[STEP] 2026-02-25T11:40:47.573Z - Clicking Add Unity User button
+[INFO] 2026-02-25T11:40:48.779Z - Add Unity User form opened
+[STEP] 2026-02-25T11:40:48.779Z - Filling Unity User form for: Autofirstcancel Autolastcancel
+[STEP] 2026-02-25T11:40:48.779Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-02-25T11:40:49.726Z - Selected: Care Coordinators
+[STEP] 2026-02-25T11:40:49.887Z - Selecting dropdown option: Male
+[INFO] 2026-02-25T11:40:50.816Z - Selected: Male
+[INFO] 2026-02-25T11:40:50.969Z - Form filled for: Autofirstcancel Autolastcancel
+[STEP] 2026-02-25T11:40:50.970Z - Clicking Cancel button
+[INFO] 2026-02-25T11:40:52.167Z - Cancel button clicked
+[INFO] 2026-02-25T11:40:52.174Z - Form closed after cancel
+[STEP] 2026-02-25T11:40:52.175Z - Verifying user 'Autofirstcancel Autolastcancel' is NOT in the list
+[STEP] 2026-02-25T11:40:52.175Z - Clearing search box
+[INFO] 2026-02-25T11:40:52.686Z - Search cleared
+[STEP] 2026-02-25T11:40:52.686Z - Searching for user: Autofirstcancel Autolastcancel
+[INFO] 2026-02-25T11:40:53.735Z - Search completed for: Autofirstcancel Autolastcancel
+[INFO] 2026-02-25T11:40:53.739Z - User 'Autofirstcancel Autolastcancel' is not in the list
+[INFO] 2026-02-25T11:40:53.739Z - Cancel Add Unity User verified

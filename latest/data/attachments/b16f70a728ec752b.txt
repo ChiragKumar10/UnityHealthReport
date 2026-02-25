@@ -1,0 +1,14 @@
+[STEP] 2026-02-25T12:31:36.371Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-02-25T12:31:36.372Z - Logging in and navigating to enrollment form
+[STEP] 2026-02-25T12:31:36.372Z - Attempting to login to provider portal
+[STEP] 2026-02-25T12:31:36.372Z - Navigating to provider portal login page
+[INFO] 2026-02-25T12:31:38.026Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T12:31:38.146Z - Login attempt completed
+[STEP] 2026-02-25T12:31:41.026Z - Navigating to Enrollment section
+[INFO] 2026-02-25T12:31:43.052Z - Navigated to Enrollment section
+✓ Found 16 patients matching 'h'
+✓ Patient search returned 16 results
+✓ Selected patient: Hoppe, Ottis 
+✓ Phone auto-filled: 730-966-2807
+✓ DOB auto-filled: 09-12-2022
+[INFO] 2026-02-25T12:31:54.411Z - Patient search and auto-fill verification completed successfully

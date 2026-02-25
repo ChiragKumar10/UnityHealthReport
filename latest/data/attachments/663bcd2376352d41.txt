@@ -1,0 +1,116 @@
+[STEP] 2026-02-25T11:47:07.598Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-02-25T11:47:07.598Z - Logging in to Provider Portal
+[STEP] 2026-02-25T11:47:07.598Z - Attempting to login to provider portal
+[STEP] 2026-02-25T11:47:07.598Z - Navigating to provider portal login page
+[INFO] 2026-02-25T11:47:09.067Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T11:47:09.199Z - Login attempt completed
+[STEP] 2026-02-25T11:47:11.638Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:47:13.691Z - Navigated to Enrollment section
+[STEP] 2026-02-25T11:47:16.695Z - Applying status filter: Closed
+[INFO] 2026-02-25T11:47:22.837Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-02-25T11:47:24.955Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:47:27.011Z - Navigated to Enrollment section
+[STEP] 2026-02-25T11:47:28.012Z - Adding new enrollment
+[INFO] 2026-02-25T11:47:34.255Z - Found 15 patients matching 's'
+[INFO] 2026-02-25T11:47:35.467Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Mante, Stewart  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T11:47:41.257Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T11:47:41.266Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-25T11:47:45.865Z - Found 5 patients matching 'g'
+New patient selected: GoodwinLedner, Luella 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: GoodwinLedner, Luella  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T11:47:49.607Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T11:48:04.712Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T11:48:08.874Z - Found 4 patients matching 'j'
+New patient selected: BreitenbergJaskolski, Homer 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T11:48:12.875Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T11:48:12.884Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-25T11:48:17.473Z - Found 19 patients matching 'i'
+New patient selected: Champlin, Timothy 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Champlin, Timothy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T11:48:21.219Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-25T11:48:21.229Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Champlin, Timothy
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstatjlcy Autolastatjlcy
+[INFO] 2026-02-25T11:48:21.229Z - Enrollment form submitted successfully
+Enrollment created: Champlin, Timothy | Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T11:48:21.345Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:48:23.469Z - Navigated to Enrollment section
+[STEP] 2026-02-25T11:48:25.470Z - Applying status filter: New
+[INFO] 2026-02-25T11:48:31.628Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-02-25T11:48:52.566Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:48:54.620Z - Navigated to Enrollment section
+[STEP] 2026-02-25T11:48:56.621Z - Applying status filter: Active
+[INFO] 2026-02-25T11:49:02.804Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-02-25T11:49:15.759Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:49:17.822Z - Navigated to Enrollment section
+[STEP] 2026-02-25T11:49:19.823Z - Applying status filter: Closed
+[INFO] 2026-02-25T11:49:25.973Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Champlin, Timothy ===
+Activate Enrollment confirmed
+[STEP] 2026-02-25T11:49:36.201Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:49:38.253Z - Navigated to Enrollment section
+[STEP] 2026-02-25T11:49:40.254Z - Applying status filter: Active
+[INFO] 2026-02-25T11:49:46.426Z - Status filter 'Active' applied successfully
+Row: 01Champlin, TimothyRPM02-25-2026activeA001-Chole...+1Autofirstatjlcy AutolastatjlcyDayton Nolan
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Champlin, Timothy05-23-202302-25-2026Autofirstatjlcy AutolastatjlcyDayton NolanSelfPay-
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Champlin, Timothy
+Program: RPM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-02-25T11:50:02.357Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

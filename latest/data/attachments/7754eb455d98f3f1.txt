@@ -1,0 +1,35 @@
+[STEP] 2026-02-25T11:40:04.769Z - Test 2: Verify complete modify enrollment workflow - ICD, Care Manager, Provider, Insurance
+[INFO] 2026-02-25T11:40:04.769Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-25T11:40:04.769Z - Attempting to login to provider portal
+[STEP] 2026-02-25T11:40:04.769Z - Navigating to provider portal login page
+[INFO] 2026-02-25T11:40:06.243Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T11:40:06.367Z - Login attempt completed
+[STEP] 2026-02-25T11:40:08.814Z - Navigating to Enrollment section
+[INFO] 2026-02-25T11:40:10.844Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: GoodwinLedner, Luella
+Program: PCM
+Initial ICD Codes: S0710-+1
+Care Manager: Autofirstgzfddz Autolastgzfddz
+Provider: Seth Ondricka
+
+=== CAPTURING INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstgzfddz Autolastgzfddz
+Initial Provider: Seth Ondricka
+
+=== UPDATED ENROLLMENT ===
+Updated ICD Code: (A010) - Typhoid fever
+Updated Care Manager: Autofirstatjlcy Autolastatjlcy
+Updated Provider: Dayton Nolan
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== ENROLLMENT LIST VALIDATION ===
+⚠️  LIMITATION: Multiple ICDs present - cannot verify specific ICD in truncated display
+✓ ICD update completed in form
+✓ Care Manager and Provider updated successfully

@@ -1,0 +1,311 @@
+[STEP] 2026-02-25T11:53:55.107Z - Login to Provider Portal
+[STEP] 2026-02-25T11:53:55.447Z - Attempting to login to provider portal
+[STEP] 2026-02-25T11:53:55.447Z - Navigating to provider portal login page
+[INFO] 2026-02-25T11:53:56.841Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T11:53:56.969Z - Login attempt completed
+[STEP] 2026-02-25T11:53:59.879Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-02-25T11:53:59.879Z - Opening CCM Library
+[INFO] 2026-02-25T11:53:59.940Z - Successfully opened CCM Library
+[STEP] 2026-02-25T11:53:59.941Z - Opening Care Plan section
+[INFO] 2026-02-25T11:54:00.100Z - Successfully opened Care Plan section
+[STEP] 2026-02-25T11:54:00.100Z - Test: Save as Draft from edit mode
+[STEP] 2026-02-25T11:54:00.100Z - Creating minimal care plan: DraftEdit Plan 1772020440100
+[STEP] 2026-02-25T11:54:00.101Z - Clicking Create Care Plan button
+[INFO] 2026-02-25T11:54:02.195Z - Create Care Plan form opened
+[STEP] 2026-02-25T11:54:02.195Z - Selecting diagnosis code: A001
+[INFO] 2026-02-25T11:54:04.844Z - Diagnosis code 'A001' selected
+[STEP] 2026-02-25T11:54:04.844Z - Filling care plan name: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:04.871Z - Care plan name filled: DraftEdit Plan 1772020440100
+[STEP] 2026-02-25T11:54:04.871Z - Selecting section: Overview
+[INFO] 2026-02-25T11:54:05.252Z - Section 'Overview' selected
+[STEP] 2026-02-25T11:54:05.252Z - Selecting section: Long Term Goals
+[INFO] 2026-02-25T11:54:05.617Z - Section 'Long Term Goals' selected
+[STEP] 2026-02-25T11:54:05.617Z - Clicking Next button
+[INFO] 2026-02-25T11:54:07.671Z - Next button clicked
+[STEP] 2026-02-25T11:54:07.671Z - Filling Overview section
+[INFO] 2026-02-25T11:54:07.690Z - Care Plan header filled
+[INFO] 2026-02-25T11:54:07.706Z - Care Plan footer filled
+[STEP] 2026-02-25T11:54:07.706Z - Clicking Next button
+[INFO] 2026-02-25T11:54:09.791Z - Next button clicked
+[STEP] 2026-02-25T11:54:09.791Z - Filling goal section - Title: Draft Edit Goal, Type: Free Text
+[INFO] 2026-02-25T11:54:09.808Z - Section note filled
+[INFO] 2026-02-25T11:54:09.830Z - Goal title filled: Draft Edit Goal
+[INFO] 2026-02-25T11:54:11.463Z - Goal type selected: Free Text
+[STEP] 2026-02-25T11:54:11.463Z - Clicking Finish button
+[INFO] 2026-02-25T11:54:13.539Z - Finish button clicked - Care plan saved
+[INFO] 2026-02-25T11:54:13.539Z - Minimal care plan 'DraftEdit Plan 1772020440100' created
+[STEP] 2026-02-25T11:54:13.539Z - Verifying care plan 'DraftEdit Plan 1772020440100' is visible in the list
+[STEP] 2026-02-25T11:54:13.539Z - Searching for care plan: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:14.083Z - Search completed for care plan: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:14.952Z - Care plan 'DraftEdit Plan 1772020440100' is visible in the list
+[INFO] 2026-02-25T11:54:14.952Z - Care plan 'DraftEdit Plan 1772020440100' created
+[STEP] 2026-02-25T11:54:14.953Z - Clicking Edit for: DraftEdit Plan 1772020440100
+[STEP] 2026-02-25T11:54:14.953Z - Searching for care plan: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:15.467Z - Search completed for care plan: DraftEdit Plan 1772020440100
+[STEP] 2026-02-25T11:54:15.467Z - Opening action menu for: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:16.510Z - Action menu opened
+[INFO] 2026-02-25T11:54:18.559Z - Edit form opened
+[INFO] 2026-02-25T11:54:18.559Z - Edit mode opened (Step 1)
+[STEP] 2026-02-25T11:54:18.559Z - Filling care plan name: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:54:18.580Z - Care plan name filled: DraftEdit Updated 1772020440100
+[STEP] 2026-02-25T11:54:18.580Z - Clicking Next button
+[INFO] 2026-02-25T11:54:20.640Z - Next button clicked
+[INFO] 2026-02-25T11:54:20.643Z - Save as Draft button visible in edit mode
+[STEP] 2026-02-25T11:54:20.643Z - Clicking Save as Draft button
+[INFO] 2026-02-25T11:54:22.691Z - Save as Draft clicked
+[INFO] 2026-02-25T11:54:22.691Z - Saved as draft from edit mode
+[STEP] 2026-02-25T11:54:22.691Z - Verifying care plan 'DraftEdit Updated 1772020440100' is visible in the list
+[STEP] 2026-02-25T11:54:22.691Z - Searching for care plan: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:54:23.213Z - Search completed for care plan: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:54:24.076Z - Care plan 'DraftEdit Updated 1772020440100' is visible in the list
+[INFO] 2026-02-25T11:54:24.076Z - Draft-saved plan 'DraftEdit Updated 1772020440100' found in list
+[INFO] 2026-02-25T11:54:24.080Z - Draft status verified after save from edit mode
+[STEP] 2026-02-25T11:54:24.080Z - Verifying care plan 'DraftEdit Plan 1772020440100' is NOT in the list
+[STEP] 2026-02-25T11:54:24.080Z - Clearing search box
+[INFO] 2026-02-25T11:54:24.592Z - Search cleared
+[STEP] 2026-02-25T11:54:24.592Z - Searching for care plan: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:25.115Z - Search completed for care plan: DraftEdit Plan 1772020440100
+[INFO] 2026-02-25T11:54:25.119Z - Care plan 'DraftEdit Plan 1772020440100' is not in the list
+[INFO] 2026-02-25T11:54:25.119Z - Save as Draft from edit mode test completed
+[STEP] 2026-02-25T11:54:25.225Z - afterAll: Cleanup - deleting all created care plans
+[STEP] 2026-02-25T11:54:25.595Z - Attempting to login to provider portal
+[STEP] 2026-02-25T11:54:25.595Z - Navigating to provider portal login page
+[INFO] 2026-02-25T11:54:27.021Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T11:54:27.151Z - Login attempt completed
+[STEP] 2026-02-25T11:54:30.210Z - Opening CCM Library
+[INFO] 2026-02-25T11:54:30.276Z - Successfully opened CCM Library
+[STEP] 2026-02-25T11:54:30.279Z - Opening Care Plan section
+[INFO] 2026-02-25T11:54:30.450Z - Successfully opened Care Plan section
+[STEP] 2026-02-25T11:54:30.450Z - Searching for care plan: Shared Plan 1772020003935
+[INFO] 2026-02-25T11:54:31.169Z - Search completed for care plan: Shared Plan 1772020003935
+[STEP] 2026-02-25T11:54:31.984Z - Deleting care plan: Shared Plan 1772020003935
+[STEP] 2026-02-25T11:54:31.985Z - Clicking Delete for: Shared Plan 1772020003935
+[STEP] 2026-02-25T11:54:31.985Z - Searching for care plan: Shared Plan 1772020003935
+[INFO] 2026-02-25T11:54:32.501Z - Search completed for care plan: Shared Plan 1772020003935
+[STEP] 2026-02-25T11:54:32.501Z - Opening action menu for: Shared Plan 1772020003935
+[INFO] 2026-02-25T11:54:33.545Z - Action menu opened
+[INFO] 2026-02-25T11:54:34.584Z - Delete dialog opened
+[STEP] 2026-02-25T11:54:34.584Z - Confirming delete
+[STEP] 2026-02-25T11:54:36.606Z - Clearing search box
+[INFO] 2026-02-25T11:54:37.127Z - Search cleared
+[INFO] 2026-02-25T11:54:37.127Z - Delete confirmed
+[INFO] 2026-02-25T11:54:37.127Z - Care plan 'Shared Plan 1772020003935' deleted
+[INFO] 2026-02-25T11:54:37.127Z - afterAll: Deleted 'Shared Plan 1772020003935'
+[STEP] 2026-02-25T11:54:37.127Z - Clearing search box
+[INFO] 2026-02-25T11:54:37.635Z - Search cleared
+[STEP] 2026-02-25T11:54:37.636Z - Searching for care plan: E2E Care Plan 1772020029736
+[INFO] 2026-02-25T11:54:38.478Z - Search completed for care plan: E2E Care Plan 1772020029736
+[STEP] 2026-02-25T11:54:39.271Z - Deleting care plan: E2E Care Plan 1772020029736
+[STEP] 2026-02-25T11:54:39.271Z - Clicking Delete for: E2E Care Plan 1772020029736
+[STEP] 2026-02-25T11:54:39.271Z - Searching for care plan: E2E Care Plan 1772020029736
+[INFO] 2026-02-25T11:54:39.785Z - Search completed for care plan: E2E Care Plan 1772020029736
+[STEP] 2026-02-25T11:54:39.785Z - Opening action menu for: E2E Care Plan 1772020029736
+[INFO] 2026-02-25T11:54:40.806Z - Action menu opened
+[INFO] 2026-02-25T11:54:41.849Z - Delete dialog opened
+[STEP] 2026-02-25T11:54:41.849Z - Confirming delete
+[STEP] 2026-02-25T11:54:43.869Z - Clearing search box
+[INFO] 2026-02-25T11:54:44.385Z - Search cleared
+[INFO] 2026-02-25T11:54:44.385Z - Delete confirmed
+[INFO] 2026-02-25T11:54:44.385Z - Care plan 'E2E Care Plan 1772020029736' deleted
+[INFO] 2026-02-25T11:54:44.385Z - afterAll: Deleted 'E2E Care Plan 1772020029736'
+[STEP] 2026-02-25T11:54:44.385Z - Clearing search box
+[INFO] 2026-02-25T11:54:44.892Z - Search cleared
+[STEP] 2026-02-25T11:54:44.892Z - Searching for care plan: All Types Plan 1772020099436
+[INFO] 2026-02-25T11:54:45.729Z - Search completed for care plan: All Types Plan 1772020099436
+[STEP] 2026-02-25T11:54:45.734Z - Deleting care plan: All Types Plan 1772020099436
+[STEP] 2026-02-25T11:54:45.734Z - Clicking Delete for: All Types Plan 1772020099436
+[STEP] 2026-02-25T11:54:45.734Z - Searching for care plan: All Types Plan 1772020099436
+[INFO] 2026-02-25T11:54:46.253Z - Search completed for care plan: All Types Plan 1772020099436
+[STEP] 2026-02-25T11:54:46.253Z - Opening action menu for: All Types Plan 1772020099436
+[INFO] 2026-02-25T11:54:47.290Z - Action menu opened
+[INFO] 2026-02-25T11:54:48.325Z - Delete dialog opened
+[STEP] 2026-02-25T11:54:48.325Z - Confirming delete
+[STEP] 2026-02-25T11:54:50.353Z - Clearing search box
+[INFO] 2026-02-25T11:54:50.869Z - Search cleared
+[INFO] 2026-02-25T11:54:50.869Z - Delete confirmed
+[INFO] 2026-02-25T11:54:50.869Z - Care plan 'All Types Plan 1772020099436' deleted
+[INFO] 2026-02-25T11:54:50.869Z - afterAll: Deleted 'All Types Plan 1772020099436'
+[STEP] 2026-02-25T11:54:50.869Z - Clearing search box
+[INFO] 2026-02-25T11:54:51.378Z - Search cleared
+[STEP] 2026-02-25T11:54:51.378Z - Searching for care plan: Draft Plan 1772020150132
+[INFO] 2026-02-25T11:54:52.214Z - Search completed for care plan: Draft Plan 1772020150132
+[STEP] 2026-02-25T11:54:53.009Z - Deleting care plan: Draft Plan 1772020150132
+[STEP] 2026-02-25T11:54:53.009Z - Clicking Delete for: Draft Plan 1772020150132
+[STEP] 2026-02-25T11:54:53.009Z - Searching for care plan: Draft Plan 1772020150132
+[INFO] 2026-02-25T11:54:53.523Z - Search completed for care plan: Draft Plan 1772020150132
+[STEP] 2026-02-25T11:54:53.523Z - Opening action menu for: Draft Plan 1772020150132
+[INFO] 2026-02-25T11:54:54.572Z - Action menu opened
+[INFO] 2026-02-25T11:54:55.589Z - Delete dialog opened
+[STEP] 2026-02-25T11:54:55.589Z - Confirming delete
+[STEP] 2026-02-25T11:54:57.620Z - Clearing search box
+[INFO] 2026-02-25T11:54:58.137Z - Search cleared
+[INFO] 2026-02-25T11:54:58.137Z - Delete confirmed
+[INFO] 2026-02-25T11:54:58.137Z - Care plan 'Draft Plan 1772020150132' deleted
+[INFO] 2026-02-25T11:54:58.137Z - afterAll: Deleted 'Draft Plan 1772020150132'
+[STEP] 2026-02-25T11:54:58.137Z - Clearing search box
+[INFO] 2026-02-25T11:54:58.646Z - Search cleared
+[STEP] 2026-02-25T11:54:58.646Z - Searching for care plan: Edited Plan 1772020174593
+[INFO] 2026-02-25T11:54:59.432Z - Search completed for care plan: Edited Plan 1772020174593
+[STEP] 2026-02-25T11:55:00.231Z - Deleting care plan: Edited Plan 1772020174593
+[STEP] 2026-02-25T11:55:00.231Z - Clicking Delete for: Edited Plan 1772020174593
+[STEP] 2026-02-25T11:55:00.231Z - Searching for care plan: Edited Plan 1772020174593
+[INFO] 2026-02-25T11:55:00.747Z - Search completed for care plan: Edited Plan 1772020174593
+[STEP] 2026-02-25T11:55:00.747Z - Opening action menu for: Edited Plan 1772020174593
+[INFO] 2026-02-25T11:55:01.789Z - Action menu opened
+[INFO] 2026-02-25T11:55:02.827Z - Delete dialog opened
+[STEP] 2026-02-25T11:55:02.827Z - Confirming delete
+[STEP] 2026-02-25T11:55:04.852Z - Clearing search box
+[INFO] 2026-02-25T11:55:05.370Z - Search cleared
+[INFO] 2026-02-25T11:55:05.370Z - Delete confirmed
+[INFO] 2026-02-25T11:55:05.370Z - Care plan 'Edited Plan 1772020174593' deleted
+[INFO] 2026-02-25T11:55:05.370Z - afterAll: Deleted 'Edited Plan 1772020174593'
+[STEP] 2026-02-25T11:55:05.371Z - Clearing search box
+[INFO] 2026-02-25T11:55:05.878Z - Search cleared
+[STEP] 2026-02-25T11:55:05.878Z - Searching for care plan: Delete Plan 1772020206958
+[INFO] 2026-02-25T11:55:06.669Z - Search completed for care plan: Delete Plan 1772020206958
+[INFO] 2026-02-25T11:55:09.672Z - afterAll: Skipped 'Delete Plan 1772020206958' (not found or already deleted)
+[STEP] 2026-02-25T11:55:09.672Z - Clearing search box
+[INFO] 2026-02-25T11:55:10.199Z - Search cleared
+[STEP] 2026-02-25T11:55:10.199Z - Searching for care plan: Multi-Q Plan 1772020243780
+[INFO] 2026-02-25T11:55:10.718Z - Search completed for care plan: Multi-Q Plan 1772020243780
+[STEP] 2026-02-25T11:55:11.528Z - Deleting care plan: Multi-Q Plan 1772020243780
+[STEP] 2026-02-25T11:55:11.529Z - Clicking Delete for: Multi-Q Plan 1772020243780
+[STEP] 2026-02-25T11:55:11.529Z - Searching for care plan: Multi-Q Plan 1772020243780
+[INFO] 2026-02-25T11:55:12.043Z - Search completed for care plan: Multi-Q Plan 1772020243780
+[STEP] 2026-02-25T11:55:12.044Z - Opening action menu for: Multi-Q Plan 1772020243780
+[INFO] 2026-02-25T11:55:13.072Z - Action menu opened
+[INFO] 2026-02-25T11:55:14.107Z - Delete dialog opened
+[STEP] 2026-02-25T11:55:14.107Z - Confirming delete
+[STEP] 2026-02-25T11:55:16.136Z - Clearing search box
+[INFO] 2026-02-25T11:55:16.653Z - Search cleared
+[INFO] 2026-02-25T11:55:16.653Z - Delete confirmed
+[INFO] 2026-02-25T11:55:16.653Z - Care plan 'Multi-Q Plan 1772020243780' deleted
+[INFO] 2026-02-25T11:55:16.653Z - afterAll: Deleted 'Multi-Q Plan 1772020243780'
+[STEP] 2026-02-25T11:55:16.653Z - Clearing search box
+[INFO] 2026-02-25T11:55:17.161Z - Search cleared
+[STEP] 2026-02-25T11:55:17.161Z - Searching for care plan: Filter Plan 1772020289200
+[INFO] 2026-02-25T11:55:17.970Z - Search completed for care plan: Filter Plan 1772020289200
+[STEP] 2026-02-25T11:55:18.781Z - Deleting care plan: Filter Plan 1772020289200
+[STEP] 2026-02-25T11:55:18.781Z - Clicking Delete for: Filter Plan 1772020289200
+[STEP] 2026-02-25T11:55:18.781Z - Searching for care plan: Filter Plan 1772020289200
+[INFO] 2026-02-25T11:55:19.297Z - Search completed for care plan: Filter Plan 1772020289200
+[STEP] 2026-02-25T11:55:19.297Z - Opening action menu for: Filter Plan 1772020289200
+[INFO] 2026-02-25T11:55:20.339Z - Action menu opened
+[INFO] 2026-02-25T11:55:21.374Z - Delete dialog opened
+[STEP] 2026-02-25T11:55:21.374Z - Confirming delete
+[STEP] 2026-02-25T11:55:23.402Z - Clearing search box
+[INFO] 2026-02-25T11:55:23.918Z - Search cleared
+[INFO] 2026-02-25T11:55:23.918Z - Delete confirmed
+[INFO] 2026-02-25T11:55:23.918Z - Care plan 'Filter Plan 1772020289200' deleted
+[INFO] 2026-02-25T11:55:23.918Z - afterAll: Deleted 'Filter Plan 1772020289200'
+[STEP] 2026-02-25T11:55:23.918Z - Clearing search box
+[INFO] 2026-02-25T11:55:24.426Z - Search cleared
+[STEP] 2026-02-25T11:55:24.426Z - Searching for care plan: SearchB 1772020311041
+[INFO] 2026-02-25T11:55:25.295Z - Search completed for care plan: SearchB 1772020311041
+[STEP] 2026-02-25T11:55:26.090Z - Deleting care plan: SearchB 1772020311041
+[STEP] 2026-02-25T11:55:26.090Z - Clicking Delete for: SearchB 1772020311041
+[STEP] 2026-02-25T11:55:26.090Z - Searching for care plan: SearchB 1772020311041
+[INFO] 2026-02-25T11:55:26.604Z - Search completed for care plan: SearchB 1772020311041
+[STEP] 2026-02-25T11:55:26.604Z - Opening action menu for: SearchB 1772020311041
+[INFO] 2026-02-25T11:55:27.656Z - Action menu opened
+[INFO] 2026-02-25T11:55:28.690Z - Delete dialog opened
+[STEP] 2026-02-25T11:55:28.690Z - Confirming delete
+[STEP] 2026-02-25T11:55:30.718Z - Clearing search box
+[INFO] 2026-02-25T11:55:31.234Z - Search cleared
+[INFO] 2026-02-25T11:55:31.234Z - Delete confirmed
+[INFO] 2026-02-25T11:55:31.234Z - Care plan 'SearchB 1772020311041' deleted
+[INFO] 2026-02-25T11:55:31.234Z - afterAll: Deleted 'SearchB 1772020311041'
+[STEP] 2026-02-25T11:55:31.234Z - Clearing search box
+[INFO] 2026-02-25T11:55:31.742Z - Search cleared
+[STEP] 2026-02-25T11:55:31.742Z - Searching for care plan: Archive Plan 1772020357839
+[INFO] 2026-02-25T11:55:32.562Z - Search completed for care plan: Archive Plan 1772020357839
+[INFO] 2026-02-25T11:55:35.565Z - afterAll: Skipped 'Archive Plan 1772020357839' (not found or already deleted)
+[STEP] 2026-02-25T11:55:35.565Z - Clearing search box
+[INFO] 2026-02-25T11:55:36.083Z - Search cleared
+[STEP] 2026-02-25T11:55:36.083Z - Searching for care plan: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:55:36.602Z - Search completed for care plan: DraftEdit Updated 1772020440100
+[STEP] 2026-02-25T11:55:37.393Z - Deleting care plan: DraftEdit Updated 1772020440100
+[STEP] 2026-02-25T11:55:37.393Z - Clicking Delete for: DraftEdit Updated 1772020440100
+[STEP] 2026-02-25T11:55:37.393Z - Searching for care plan: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:55:37.910Z - Search completed for care plan: DraftEdit Updated 1772020440100
+[STEP] 2026-02-25T11:55:37.910Z - Opening action menu for: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:55:38.955Z - Action menu opened
+[INFO] 2026-02-25T11:55:39.988Z - Delete dialog opened
+[STEP] 2026-02-25T11:55:39.988Z - Confirming delete
+[STEP] 2026-02-25T11:55:42.058Z - Clearing search box
+[INFO] 2026-02-25T11:55:42.573Z - Search cleared
+[INFO] 2026-02-25T11:55:42.573Z - Delete confirmed
+[INFO] 2026-02-25T11:55:42.573Z - Care plan 'DraftEdit Updated 1772020440100' deleted
+[INFO] 2026-02-25T11:55:42.573Z - afterAll: Deleted 'DraftEdit Updated 1772020440100'
+[STEP] 2026-02-25T11:55:42.573Z - Clearing search box
+[INFO] 2026-02-25T11:55:43.086Z - Search cleared
+[STEP] 2026-02-25T11:55:43.086Z - Toggling Show Archived checkbox
+[INFO] 2026-02-25T11:55:45.339Z - Show Archived toggled
+[STEP] 2026-02-25T11:55:45.339Z - Searching for care plan: Shared Plan 1772020003935
+[INFO] 2026-02-25T11:55:45.873Z - Search completed for care plan: Shared Plan 1772020003935
+[INFO] 2026-02-25T11:55:48.875Z - afterAll: Skipped archived 'Shared Plan 1772020003935'
+[STEP] 2026-02-25T11:55:48.875Z - Clearing search box
+[INFO] 2026-02-25T11:55:49.422Z - Search cleared
+[STEP] 2026-02-25T11:55:49.422Z - Searching for care plan: E2E Care Plan 1772020029736
+[INFO] 2026-02-25T11:55:49.941Z - Search completed for care plan: E2E Care Plan 1772020029736
+[INFO] 2026-02-25T11:55:52.943Z - afterAll: Skipped archived 'E2E Care Plan 1772020029736'
+[STEP] 2026-02-25T11:55:52.943Z - Clearing search box
+[INFO] 2026-02-25T11:55:53.463Z - Search cleared
+[STEP] 2026-02-25T11:55:53.463Z - Searching for care plan: All Types Plan 1772020099436
+[INFO] 2026-02-25T11:55:53.984Z - Search completed for care plan: All Types Plan 1772020099436
+[INFO] 2026-02-25T11:55:56.985Z - afterAll: Skipped archived 'All Types Plan 1772020099436'
+[STEP] 2026-02-25T11:55:56.985Z - Clearing search box
+[INFO] 2026-02-25T11:55:57.503Z - Search cleared
+[STEP] 2026-02-25T11:55:57.503Z - Searching for care plan: Draft Plan 1772020150132
+[INFO] 2026-02-25T11:55:58.023Z - Search completed for care plan: Draft Plan 1772020150132
+[INFO] 2026-02-25T11:56:01.024Z - afterAll: Skipped archived 'Draft Plan 1772020150132'
+[STEP] 2026-02-25T11:56:01.024Z - Clearing search box
+[INFO] 2026-02-25T11:56:01.541Z - Search cleared
+[STEP] 2026-02-25T11:56:01.541Z - Searching for care plan: Edited Plan 1772020174593
+[INFO] 2026-02-25T11:56:02.060Z - Search completed for care plan: Edited Plan 1772020174593
+[INFO] 2026-02-25T11:56:05.062Z - afterAll: Skipped archived 'Edited Plan 1772020174593'
+[STEP] 2026-02-25T11:56:05.062Z - Clearing search box
+[INFO] 2026-02-25T11:56:05.583Z - Search cleared
+[STEP] 2026-02-25T11:56:05.583Z - Searching for care plan: Delete Plan 1772020206958
+[INFO] 2026-02-25T11:56:06.101Z - Search completed for care plan: Delete Plan 1772020206958
+[INFO] 2026-02-25T11:56:09.104Z - afterAll: Skipped archived 'Delete Plan 1772020206958'
+[STEP] 2026-02-25T11:56:09.104Z - Clearing search box
+[INFO] 2026-02-25T11:56:09.622Z - Search cleared
+[STEP] 2026-02-25T11:56:09.622Z - Searching for care plan: Multi-Q Plan 1772020243780
+[INFO] 2026-02-25T11:56:10.139Z - Search completed for care plan: Multi-Q Plan 1772020243780
+[INFO] 2026-02-25T11:56:13.141Z - afterAll: Skipped archived 'Multi-Q Plan 1772020243780'
+[STEP] 2026-02-25T11:56:13.142Z - Clearing search box
+[INFO] 2026-02-25T11:56:13.659Z - Search cleared
+[STEP] 2026-02-25T11:56:13.659Z - Searching for care plan: Filter Plan 1772020289200
+[INFO] 2026-02-25T11:56:14.180Z - Search completed for care plan: Filter Plan 1772020289200
+[INFO] 2026-02-25T11:56:17.182Z - afterAll: Skipped archived 'Filter Plan 1772020289200'
+[STEP] 2026-02-25T11:56:17.182Z - Clearing search box
+[INFO] 2026-02-25T11:56:17.700Z - Search cleared
+[STEP] 2026-02-25T11:56:17.700Z - Searching for care plan: SearchB 1772020311041
+[INFO] 2026-02-25T11:56:18.219Z - Search completed for care plan: SearchB 1772020311041
+[INFO] 2026-02-25T11:56:21.221Z - afterAll: Skipped archived 'SearchB 1772020311041'
+[STEP] 2026-02-25T11:56:21.221Z - Clearing search box
+[INFO] 2026-02-25T11:56:21.740Z - Search cleared
+[STEP] 2026-02-25T11:56:21.740Z - Searching for care plan: Archive Plan 1772020357839
+[INFO] 2026-02-25T11:56:22.260Z - Search completed for care plan: Archive Plan 1772020357839
+[STEP] 2026-02-25T11:56:23.049Z - Deleting care plan: Archive Plan 1772020357839
+[STEP] 2026-02-25T11:56:23.049Z - Clicking Delete for: Archive Plan 1772020357839
+[STEP] 2026-02-25T11:56:23.049Z - Searching for care plan: Archive Plan 1772020357839
+[INFO] 2026-02-25T11:56:23.564Z - Search completed for care plan: Archive Plan 1772020357839
+[STEP] 2026-02-25T11:56:23.564Z - Opening action menu for: Archive Plan 1772020357839
+[INFO] 2026-02-25T11:56:24.622Z - Action menu opened
+[INFO] 2026-02-25T11:56:25.653Z - Delete dialog opened
+[STEP] 2026-02-25T11:56:25.653Z - Confirming delete
+[STEP] 2026-02-25T11:56:27.682Z - Clearing search box
+[INFO] 2026-02-25T11:56:28.197Z - Search cleared
+[INFO] 2026-02-25T11:56:28.197Z - Delete confirmed
+[INFO] 2026-02-25T11:56:28.197Z - Care plan 'Archive Plan 1772020357839' deleted
+[INFO] 2026-02-25T11:56:28.197Z - afterAll: Deleted archived 'Archive Plan 1772020357839'
+[STEP] 2026-02-25T11:56:28.197Z - Clearing search box
+[INFO] 2026-02-25T11:56:28.708Z - Search cleared
+[STEP] 2026-02-25T11:56:28.708Z - Searching for care plan: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:56:29.516Z - Search completed for care plan: DraftEdit Updated 1772020440100
+[INFO] 2026-02-25T11:56:32.519Z - afterAll: Skipped archived 'DraftEdit Updated 1772020440100'
+[STEP] 2026-02-25T11:56:32.519Z - Clearing search box
+[INFO] 2026-02-25T11:56:33.038Z - Search cleared
+[INFO] 2026-02-25T11:56:33.038Z - afterAll: Cleanup completed. Processed 11 care plans.

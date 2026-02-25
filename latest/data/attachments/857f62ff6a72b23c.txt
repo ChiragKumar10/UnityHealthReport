@@ -1,0 +1,23 @@
+[STEP] 2026-02-25T12:30:59.371Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-02-25T12:30:59.371Z - Attempting to login to provider portal
+[STEP] 2026-02-25T12:30:59.371Z - Navigating to provider portal login page
+[INFO] 2026-02-25T12:31:00.863Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T12:31:00.981Z - Login attempt completed
+[STEP] 2026-02-25T12:31:03.890Z - Navigating to Enrollment section
+[INFO] 2026-02-25T12:31:05.920Z - Navigated to Enrollment section
+[INFO] 2026-02-25T12:31:05.920Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-02-25T12:31:05.921Z - Test 7: Verify combined Date + Status + Program filter
+[INFO] 2026-02-25T12:31:05.921Z - Generated random date range: 12-03-2025 to 01-21-2026
+[INFO] 2026-02-25T12:31:05.921Z - Selected random status: Active
+[INFO] 2026-02-25T12:31:05.921Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-02-25T12:31:05.921Z - Applying combined filters - Date: 12-03-2025 to 01-21-2026, Status: Active, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:31:05.921Z - Applying date filter: 12-03-2025 to 01-21-2026
+[INFO] 2026-02-25T12:31:12.054Z - Date filter applied successfully
+[STEP] 2026-02-25T12:31:12.055Z - Applying status filter: Active
+[INFO] 2026-02-25T12:31:18.157Z - Status filter 'Active' applied successfully
+[STEP] 2026-02-25T12:31:18.157Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-02-25T12:31:24.249Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-02-25T12:31:24.250Z - Retrieving filtered enrollment results
+[INFO] 2026-02-25T12:31:36.254Z - No enrollment records found after applying filter
+No Record found for filters - Date: 12-03-2025 to 01-21-2026, Status: Active, Program: RPM
+Test completed - No records found for the selected filters

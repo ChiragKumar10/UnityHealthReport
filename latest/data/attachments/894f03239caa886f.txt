@@ -1,0 +1,129 @@
+[STEP] 2026-02-25T12:25:53.015Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-02-25T12:25:53.015Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-25T12:25:53.015Z - Attempting to login to provider portal
+[STEP] 2026-02-25T12:25:53.015Z - Navigating to provider portal login page
+[INFO] 2026-02-25T12:25:54.538Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-25T12:25:54.678Z - Login attempt completed
+[STEP] 2026-02-25T12:25:57.155Z - Navigating to Enrollment section
+[INFO] 2026-02-25T12:25:59.185Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-02-25T12:25:59.185Z - Adding new enrollment
+[INFO] 2026-02-25T12:26:05.515Z - Found 4 patients matching 'j'
+[INFO] 2026-02-25T12:26:06.976Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Krajcik, Willie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:26:12.779Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T12:26:27.828Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T12:26:31.922Z - Found 20 patients matching 'a'
+New patient selected: Watsica, Billie 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Watsica, Billie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:26:35.686Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T12:26:50.716Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T12:26:54.826Z - Found 20 patients matching 'a'
+New patient selected: Watsica, Billie 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Watsica, Billie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:26:58.567Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T12:27:13.594Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T12:27:17.705Z - Found 12 patients matching 'c'
+New patient selected: Schumm, Gregg 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Schumm, Gregg  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:27:21.449Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-25T12:27:36.479Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-25T12:27:40.585Z - Found 17 patients matching 'r'
+New patient selected: BreitenbergJaskolski, Homer 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:27:44.328Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-25T12:27:44.336Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬───────────────────┐
+│ (index) │ Values            │
+├─────────┼───────────────────┤
+│ Name    │ 'Katie Reichert'  │
+│ DOB     │ 'February 2024 3' │
+│ Phone   │ '6556138532'      │
+└─────────┴───────────────────┘
+[STEP] 2026-02-25T12:27:46.462Z - Creating patient: Katie Reichert
+[INFO] 2026-02-25T12:27:51.593Z - Patient Katie Reichert created successfully
+✓ New patient created: Katie Reichert
+[STEP] 2026-02-25T12:27:51.611Z - Creating enrollment
+[INFO] 2026-02-25T12:27:53.377Z - Patient enrolled in Chronic Care Management (CCM)
+[INFO] 2026-02-25T12:27:53.377Z - Provider: Dayton Nolan
+[INFO] 2026-02-25T12:27:53.377Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Chronic Care Management (CCM) program
+Selected patient: Reichert, Katie
+[STEP] 2026-02-25T12:27:55.377Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-25T12:27:55.389Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-02-25T12:27:58.390Z - Retrieving enrollment list data
+[INFO] 2026-02-25T12:27:58.869Z - Retrieved 25 enrollment records
+Patient not found in enrollment list.
