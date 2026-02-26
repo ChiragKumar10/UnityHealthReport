@@ -1,0 +1,64 @@
+[STEP] 2026-02-26T08:19:34.606Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-02-26T08:19:34.607Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-26T08:19:34.607Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:19:34.607Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:19:36.471Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:19:36.608Z - Login attempt completed
+[STEP] 2026-02-26T08:19:39.554Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:19:41.671Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 2
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Schamberger, Nicolas
+Program: RPM
+Care Manager: Autofirstahftmh Autolastahftmh
+Provider: Seth Ondricka
+Service Type Short: RPM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Found checked ICD at index 0: (A001) - Cholera due to Vibrio cholerae 01, biovar eltor
+Total checked ICDs: 2
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: (A001) - Cholera due to Vibrio cholerae 01, biovar eltor
+Initial Care Manager: Autofirstahftmh Autolastahftmh
+Initial Provider: Seth Ondricka
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstahftmh AutolastahftmhSeth OndrickaA001-Chole...+202-25-2026-02-26-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: RPM
+Checking for Provider: Seth
+Checking for Care Manager: Autofirstahftmh
+Checking for ICD: A001
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-02-26T08:20:20.611Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:20:22.662Z - Navigated to Enrollment section
+Unchecked initial ICD: (A001) - Cholera due to Vibrio cholerae 01, biovar eltor
+Checked new ICD: (A0109) - Typhoid fever with other complications
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: sarvesh test
+Updated Care Manager: Autofirstfdjscy Autolastfdjscy
+Updated ICD Code: (A0109) - Typhoid fever with other complications
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstfdjscy Autolastfdjscysarvesh testG4736-Slee...+202-25-2026-02-26-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: RPM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

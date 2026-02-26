@@ -1,0 +1,65 @@
+[STEP] 2026-02-26T08:17:04.687Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-02-26T08:17:04.687Z - Logging in and navigating to enrollment form
+[STEP] 2026-02-26T08:17:04.687Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:17:04.687Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:17:06.182Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:17:06.315Z - Login attempt completed
+[STEP] 2026-02-26T08:17:08.793Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:17:10.824Z - Navigated to Enrollment section
+✓ Provider selected
+✓ Primary Care Manager assigned
+✓ Selected 2 secondary care managers (max allowed: 3)
+✓ Selected 3 diagnoses
+  1. (A111) - Condition123 - Test Condition123
+  2. (S0710) - TESTINGQA
+  3. (A001) - Cholera due to Vibrio cholerae 01, biovar eltor
+✓ Multiple diagnoses selection validated
+
+--- Enrollment Attempt 1/5 ---
+✓ Found 2 patients matching 'p'
+✓ Service type selected
+[STEP] 2026-02-26T08:17:38.179Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:17:53.228Z - Enrollment result: UNKNOWN
+⚠ Unknown result - Attempt 1/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 2/5 ---
+✓ Found 7 patients matching 'u'
+✓ Service type selected
+[STEP] 2026-02-26T08:18:03.608Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:18:18.644Z - Enrollment result: UNKNOWN
+⚠ Unknown result - Attempt 2/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 3/5 ---
+⚠ No patients found for 'q', trying again (1/10)
+✓ Found 8 patients matching 'b'
+✓ Service type selected
+[STEP] 2026-02-26T08:18:31.051Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-26T08:18:31.062Z - Enrollment result: SUCCESS
+✓ Enrollment added successfully
+✓ Diagnoses displayed in enrollment list: A001-Chole...+2
+[INFO] 2026-02-26T08:18:33.069Z - Care Manager and multi-diagnoses selection verified successfully

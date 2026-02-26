@@ -1,0 +1,60 @@
+[STEP] 2026-02-26T08:19:50.360Z - Login to Provider Portal
+[STEP] 2026-02-26T08:19:50.774Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:19:50.774Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:19:52.188Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:19:52.326Z - Login attempt completed
+[STEP] 2026-02-26T08:19:55.348Z - Navigate to RTM Library > Assessment
+[STEP] 2026-02-26T08:19:55.348Z - Opening RPM Library
+[INFO] 2026-02-26T08:19:55.426Z - Successfully opened RTM Library
+[STEP] 2026-02-26T08:19:55.426Z - Opening Assessment section
+[INFO] 2026-02-26T08:19:55.552Z - Successfully opened Assessment section
+[STEP] 2026-02-26T08:19:55.554Z - Test: Search functionality
+[STEP] 2026-02-26T08:19:55.554Z - Creating assessment: SearchA 1772093995554
+[STEP] 2026-02-26T08:19:55.554Z - Clicking Add Assessment button
+[INFO] 2026-02-26T08:19:56.681Z - Add Assessment form opened
+[STEP] 2026-02-26T08:19:56.681Z - Filling assessment title: SearchA 1772093995554
+[INFO] 2026-02-26T08:19:56.692Z - Assessment title filled: SearchA 1772093995554
+[STEP] 2026-02-26T08:19:56.692Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-26T08:19:57.390Z - Assessment type selected: SURVEY
+[STEP] 2026-02-26T08:19:57.391Z - Selecting frequency: DAILY
+[INFO] 2026-02-26T08:19:58.066Z - Frequency selected: DAILY
+[STEP] 2026-02-26T08:19:58.066Z - Clicking Next button
+[INFO] 2026-02-26T08:19:59.148Z - Next button clicked
+[STEP] 2026-02-26T08:19:59.148Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-26T08:20:00.092Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-26T08:20:00.092Z - Clicking Next button
+[INFO] 2026-02-26T08:20:01.137Z - Next button clicked
+[STEP] 2026-02-26T08:20:01.137Z - Clicking Finish button
+[INFO] 2026-02-26T08:20:02.164Z - Finish button clicked
+[INFO] 2026-02-26T08:20:02.165Z - Assessment 'SearchA 1772093995554' created successfully
+[STEP] 2026-02-26T08:20:02.165Z - Creating assessment: SearchB 1772093995554
+[STEP] 2026-02-26T08:20:02.165Z - Clicking Add Assessment button
+[INFO] 2026-02-26T08:20:03.280Z - Add Assessment form opened
+[STEP] 2026-02-26T08:20:03.281Z - Filling assessment title: SearchB 1772093995554
+[INFO] 2026-02-26T08:20:03.291Z - Assessment title filled: SearchB 1772093995554
+[STEP] 2026-02-26T08:20:03.291Z - Selecting assessment type: SURVEY
+[INFO] 2026-02-26T08:20:03.984Z - Assessment type selected: SURVEY
+[STEP] 2026-02-26T08:20:03.984Z - Selecting frequency: DAILY
+[INFO] 2026-02-26T08:20:04.665Z - Frequency selected: DAILY
+[STEP] 2026-02-26T08:20:04.665Z - Clicking Next button
+[INFO] 2026-02-26T08:20:05.717Z - Next button clicked
+[STEP] 2026-02-26T08:20:05.717Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-02-26T08:20:06.651Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-02-26T08:20:06.651Z - Clicking Next button
+[INFO] 2026-02-26T08:20:07.681Z - Next button clicked
+[STEP] 2026-02-26T08:20:07.681Z - Clicking Finish button
+[INFO] 2026-02-26T08:20:08.714Z - Finish button clicked
+[INFO] 2026-02-26T08:20:08.714Z - Assessment 'SearchB 1772093995554' created successfully
+[INFO] 2026-02-26T08:20:08.714Z - Created 'SearchA 1772093995554' and 'SearchB 1772093995554'
+[STEP] 2026-02-26T08:20:08.714Z - Searching for assessment: SearchA 1772093995554
+[INFO] 2026-02-26T08:20:09.441Z - Search completed for assessment: SearchA 1772093995554
+[INFO] 2026-02-26T08:20:09.445Z - Search for 'SearchA 1772093995554' returned correct result
+[STEP] 2026-02-26T08:20:09.445Z - Searching for assessment: SearchB 1772093995554
+[INFO] 2026-02-26T08:20:10.154Z - Search completed for assessment: SearchB 1772093995554
+[INFO] 2026-02-26T08:20:10.159Z - Search for 'SearchB 1772093995554' returned correct result
+[STEP] 2026-02-26T08:20:10.159Z - Searching for assessment: NonExistent1772093995554
+[INFO] 2026-02-26T08:20:10.864Z - Search completed for assessment: NonExistent1772093995554
+[INFO] 2026-02-26T08:20:10.867Z - Search for non-existent assessment returned no results
+[STEP] 2026-02-26T08:20:10.867Z - Clearing search box
+[INFO] 2026-02-26T08:20:11.384Z - Search cleared
+[INFO] 2026-02-26T08:20:11.384Z - Search functionality test completed

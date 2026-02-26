@@ -1,0 +1,47 @@
+[STEP] 2026-02-26T08:18:57.673Z - Login to Provider Portal
+[STEP] 2026-02-26T08:18:58.038Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:18:58.039Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:18:59.204Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:18:59.358Z - Login attempt completed
+[STEP] 2026-02-26T08:19:01.854Z - Test: Template content max length
+[STEP] 2026-02-26T08:19:01.854Z - Opening RPM Library
+[INFO] 2026-02-26T08:19:01.921Z - Successfully opened RPM Library
+[STEP] 2026-02-26T08:19:01.921Z - Clicking Add Template button
+[INFO] 2026-02-26T08:19:03.077Z - Add Template form opened
+[STEP] 2026-02-26T08:19:03.078Z - Filling template name: Long Content 1772093941854
+[INFO] 2026-02-26T08:19:03.089Z - Template name filled: Long Content 1772093941854
+[STEP] 2026-02-26T08:19:03.090Z - Filling template content
+[INFO] 2026-02-26T08:19:03.110Z - Template content filled
+[STEP] 2026-02-26T08:19:03.110Z - Clicking Save button
+[INFO] 2026-02-26T08:19:04.176Z - Save button clicked
+[STEP] 2026-02-26T08:19:06.183Z - Verifying template 'Long Content 1772093941854' is visible in the list
+[STEP] 2026-02-26T08:19:06.183Z - Searching for template: Long Content 1772093941854
+[INFO] 2026-02-26T08:19:07.220Z - Search completed for template: Long Content 1772093941854
+[INFO] 2026-02-26T08:19:07.330Z - Template 'Long Content 1772093941854' is visible in the list
+[INFO] 2026-02-26T08:19:07.330Z - Long content template was saved successfully and verified in list
+[INFO] 2026-02-26T08:19:07.330Z - Template content max length test completed
+[STEP] 2026-02-26T08:19:07.458Z - afterAll: Cleanup - deleting all created templates
+[STEP] 2026-02-26T08:19:07.808Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:19:07.808Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:19:08.961Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:19:09.107Z - Login attempt completed
+[STEP] 2026-02-26T08:19:12.121Z - Opening RPM Library
+[INFO] 2026-02-26T08:19:12.191Z - Successfully opened RPM Library
+[STEP] 2026-02-26T08:19:12.191Z - Searching for template: Long Content 1772093941854
+[INFO] 2026-02-26T08:19:13.276Z - Search completed for template: Long Content 1772093941854
+[STEP] 2026-02-26T08:19:13.376Z - Deleting template: Long Content 1772093941854
+[STEP] 2026-02-26T08:19:13.376Z - Searching for template: Long Content 1772093941854
+[INFO] 2026-02-26T08:19:14.388Z - Search completed for template: Long Content 1772093941854
+[STEP] 2026-02-26T08:19:14.388Z - Opening action menu for: Long Content 1772093941854
+[INFO] 2026-02-26T08:19:15.431Z - Action menu opened
+[INFO] 2026-02-26T08:19:15.468Z - Delete button clicked
+[INFO] 2026-02-26T08:19:15.473Z - Delete confirmation popup appeared
+[INFO] 2026-02-26T08:19:15.511Z - Confirmed deletion in popup
+[INFO] 2026-02-26T08:19:15.638Z - Deletion confirmed by success message
+[STEP] 2026-02-26T08:19:15.638Z - Clearing search box
+[INFO] 2026-02-26T08:19:16.159Z - Search cleared
+[INFO] 2026-02-26T08:19:16.160Z - Template 'Long Content 1772093941854' deleted successfully
+[INFO] 2026-02-26T08:19:16.160Z - afterAll: Deleted 'Long Content 1772093941854'
+[STEP] 2026-02-26T08:19:16.160Z - Clearing search box
+[INFO] 2026-02-26T08:19:16.670Z - Search cleared
+[INFO] 2026-02-26T08:19:16.670Z - afterAll: Cleanup completed. Processed 1 templates.

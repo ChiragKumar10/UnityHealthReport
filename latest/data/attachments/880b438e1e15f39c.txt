@@ -1,0 +1,22 @@
+[STEP] 2026-02-26T08:23:35.900Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-02-26T08:23:35.900Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:23:35.900Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:23:37.525Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:23:37.664Z - Login attempt completed
+[STEP] 2026-02-26T08:23:40.697Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:23:42.770Z - Navigated to Enrollment section
+[INFO] 2026-02-26T08:23:42.771Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-02-26T08:23:42.771Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-02-26T08:23:42.771Z - Selected random status: Active
+[INFO] 2026-02-26T08:23:42.771Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-02-26T08:23:42.771Z - Applying combined filters - Status: Active, Program: Chronic Care Management (CCM)
+[STEP] 2026-02-26T08:23:42.771Z - Applying status filter: Active
+[INFO] 2026-02-26T08:23:48.905Z - Status filter 'Active' applied successfully
+[STEP] 2026-02-26T08:23:48.905Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-02-26T08:23:55.046Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-02-26T08:23:55.046Z - Retrieving filtered enrollment results
+[INFO] 2026-02-26T08:23:57.131Z - Retrieved 6 filtered enrollment records
+Record 1 Verified: Bernhard, Cedric - CCM - active
+Record 2 Verified: Shanahan, Tim - CCM - active
+Record 3 Verified: Johns, Muriel - CCM - active
+[INFO] 2026-02-26T08:23:57.135Z - Combined Status + Program filter verification completed - 3 records verified

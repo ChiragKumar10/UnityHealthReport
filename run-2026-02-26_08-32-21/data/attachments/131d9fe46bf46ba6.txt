@@ -1,0 +1,125 @@
+[STEP] 2026-02-26T08:19:23.406Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-02-26T08:19:23.407Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-26T08:19:23.407Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:19:23.407Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:19:24.924Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:19:25.057Z - Login attempt completed
+[STEP] 2026-02-26T08:19:28.093Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:19:30.215Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-02-26T08:19:30.216Z - Adding new enrollment
+[INFO] 2026-02-26T08:19:36.681Z - Found 8 patients matching 'b'
+[INFO] 2026-02-26T08:19:38.120Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:19:43.975Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-26T08:19:43.989Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-26T08:19:48.687Z - No patients found for 'x', trying again (1/10)
+[INFO] 2026-02-26T08:19:50.748Z - Found 18 patients matching 's'
+New patient selected: Yost, Aron 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Yost, Aron  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:19:54.726Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-26T08:19:54.736Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-26T08:19:59.335Z - Found 12 patients matching 'k'
+New patient selected: Zemlak, Marsha 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Zemlak, Marsha  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:20:03.277Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:20:18.316Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-26T08:20:22.413Z - Found 16 patients matching 'l'
+New patient selected: Balistreri, Krista 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Balistreri, Krista  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:20:26.174Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-26T08:20:26.186Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-26T08:20:30.779Z - Found 6 patients matching 'd'
+New patient selected: Stark, Rod 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Stark, Rod  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:20:34.489Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:20:49.523Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬────────────────────┐
+│ (index) │ Values             │
+├─────────┼────────────────────┤
+│ Name    │ 'Roxane Kemmer'    │
+│ DOB     │ 'February 2024 21' │
+│ Phone   │ '6142473175'       │
+└─────────┴────────────────────┘
+[STEP] 2026-02-26T08:20:51.624Z - Creating patient: Roxane Kemmer
+[INFO] 2026-02-26T08:20:56.696Z - Patient Roxane Kemmer created successfully
+✓ New patient created: Roxane Kemmer
+[STEP] 2026-02-26T08:20:56.700Z - Creating enrollment
+[INFO] 2026-02-26T08:20:58.458Z - Patient enrolled in Principal Care Management (PCM)
+[INFO] 2026-02-26T08:20:58.458Z - Provider: Dayton Nolan
+[INFO] 2026-02-26T08:20:58.458Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Principal Care Management (PCM) program
+Selected patient: Kemmer, Roxane
+[STEP] 2026-02-26T08:21:00.459Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-26T08:21:00.473Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:21:03.475Z - Retrieving enrollment list data
+[INFO] 2026-02-26T08:21:04.038Z - Retrieved 25 enrollment records
+Patient not found in enrollment list.

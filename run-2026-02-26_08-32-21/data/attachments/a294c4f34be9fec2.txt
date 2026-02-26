@@ -1,0 +1,153 @@
+[STEP] 2026-02-26T08:22:42.707Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-02-26T08:22:42.707Z - Logging in to Provider Portal
+[STEP] 2026-02-26T08:22:42.707Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:22:42.707Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:22:44.178Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:22:44.350Z - Login attempt completed
+[STEP] 2026-02-26T08:22:47.352Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-02-26T08:22:47.352Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:22:49.373Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:22:52.375Z - Applying status filter: Closed
+[INFO] 2026-02-26T08:22:58.525Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-02-26T08:23:00.648Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:23:02.708Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:23:03.708Z - Adding new enrollment
+[INFO] 2026-02-26T08:23:09.993Z - Found 16 patients matching 'l'
+[INFO] 2026-02-26T08:23:11.433Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Zemlak, Haven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:23:17.275Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:23:32.327Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-26T08:23:36.461Z - Found 8 patients matching 'b'
+New patient selected: Hodkiewicz, Billy 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Hodkiewicz, Billy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:23:40.441Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:23:55.476Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-26T08:23:59.586Z - Found 19 patients matching 'o'
+New patient selected: Johns, Muriel 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Johns, Muriel  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:24:03.587Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-26T08:24:03.599Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-26T08:24:08.279Z - No patients found for 'f', trying again (1/10)
+[INFO] 2026-02-26T08:24:10.328Z - Found 7 patients matching 'g'
+New patient selected: Schamberger, Nicolas 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Schamberger, Nicolas  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:24:14.087Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-26T08:24:29.150Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-26T08:24:33.264Z - Found 18 patients matching 's'
+New patient selected: Yost, Aron 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Yost, Aron  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-26T08:24:37.253Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-26T08:24:37.263Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬─────────────────────┐
+│ (index) │ Values              │
+├─────────┼─────────────────────┤
+│ Name    │ 'Emil Jacobson'     │
+│ DOB     │ 'September 2023 23' │
+│ Phone   │ '8655344845'        │
+└─────────┴─────────────────────┘
+[STEP] 2026-02-26T08:24:39.429Z - Creating patient: Emil Jacobson
+[INFO] 2026-02-26T08:24:44.562Z - Patient Emil Jacobson created successfully
+✓ New patient created: Emil Jacobson
+[STEP] 2026-02-26T08:24:44.594Z - Creating enrollment
+[INFO] 2026-02-26T08:24:46.617Z - Patient enrolled in Principal Care Management (PCM)
+[INFO] 2026-02-26T08:24:46.617Z - Provider: Dayton Nolan
+[INFO] 2026-02-26T08:24:46.617Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Principal Care Management (PCM) program
+Enrollment created: Jacobson, Emil | Principal Care Management (PCM)
+[STEP] 2026-02-26T08:24:48.781Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:24:50.939Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:24:52.940Z - Applying status filter: New
+[INFO] 2026-02-26T08:24:59.144Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-02-26T08:25:20.153Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:25:22.211Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:25:24.213Z - Applying status filter: Active
+[INFO] 2026-02-26T08:25:30.401Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-02-26T08:25:43.406Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:25:45.501Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:25:47.503Z - Applying status filter: Closed
+[INFO] 2026-02-26T08:25:53.659Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Jacobson, Emil ===
+[STEP] 2026-02-26T08:26:14.090Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:26:16.170Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:26:18.172Z - Applying status filter: New
+[INFO] 2026-02-26T08:26:24.344Z - Status filter 'New' applied successfully
+Row: 01Jacobson, EmilPCM02-26-2026newA001-Chole...+2Autofirstdxnqqg Autolastdxnqqgsarvesh test
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Jacobson, Emil865-534-484502-26-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Jacobson, Emil
+Program: PCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-02-26T08:26:40.292Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

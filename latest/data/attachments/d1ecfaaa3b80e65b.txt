@@ -1,0 +1,83 @@
+[STEP] 2026-02-26T08:26:40.434Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-02-26T08:26:40.434Z - Logging in to Provider Portal
+[STEP] 2026-02-26T08:26:40.434Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:26:40.434Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:26:41.906Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:26:42.040Z - Login attempt completed
+[STEP] 2026-02-26T08:26:45.059Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:26:47.098Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:26:50.099Z - Applying status filter: Closed
+[INFO] 2026-02-26T08:26:56.247Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-02-26T08:26:58.373Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:27:00.450Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:27:01.452Z - Adding new enrollment
+[INFO] 2026-02-26T08:27:07.718Z - Found 6 patients matching 'z'
+[INFO] 2026-02-26T08:27:09.141Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Zemlak, Marsha  | Program: Chronic Care Management (CCM)
+[STEP] 2026-02-26T08:27:14.893Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-26T08:27:14.903Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-26T08:27:19.520Z - Found 3 patients matching 'v'
+New patient selected: Turcotte, Steven 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Turcotte, Steven  | Program: Chronic Care Management (CCM)
+[STEP] 2026-02-26T08:27:23.279Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-26T08:27:23.295Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Turcotte, Steven
+  Program: Chronic Care Management (CCM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstdikpmh Autolastdikpmh
+[INFO] 2026-02-26T08:27:23.295Z - Enrollment form submitted successfully
+Enrollment created: Turcotte, Steven | Chronic Care Management (CCM)
+[STEP] 2026-02-26T08:27:23.414Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:27:25.554Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:27:27.556Z - Applying status filter: New
+[INFO] 2026-02-26T08:27:33.757Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-02-26T08:27:54.696Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:27:56.746Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:27:58.746Z - Applying status filter: Active
+[INFO] 2026-02-26T08:28:04.913Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-02-26T08:28:17.879Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:28:19.928Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:28:21.929Z - Applying status filter: Closed
+[INFO] 2026-02-26T08:28:28.096Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Turcotte, Steven ===
+Activate Enrollment confirmed
+[STEP] 2026-02-26T08:28:38.344Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:28:40.410Z - Navigated to Enrollment section
+[STEP] 2026-02-26T08:28:42.413Z - Applying status filter: Active
+[INFO] 2026-02-26T08:28:48.574Z - Status filter 'Active' applied successfully
+Row: 01Turcotte, StevenCCM02-26-2026activeA001-Chole...+1Autofirstdikpmh AutolastdikpmhDayton Nolan
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Turcotte, Steven08-05-202202-26-2026Autofirstdikpmh AutolastdikpmhDayton NolanSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Turcotte, Steven
+Program: CCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-02-26T08:29:04.507Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

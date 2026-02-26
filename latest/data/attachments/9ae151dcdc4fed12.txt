@@ -1,0 +1,14 @@
+[STEP] 2026-02-26T08:16:13.126Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-02-26T08:16:13.128Z - Logging in and navigating to enrollment form
+[STEP] 2026-02-26T08:16:13.128Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:16:13.128Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:16:14.892Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:16:15.140Z - Login attempt completed
+[STEP] 2026-02-26T08:16:18.409Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:16:20.485Z - Navigated to Enrollment section
+✓ Found 19 patients matching 'n'
+✓ Patient search returned 19 results
+✓ Selected patient: Mante, Katherine 
+✓ Phone auto-filled: 622-624-0056
+✓ DOB auto-filled: 04-01-2023
+[INFO] 2026-02-26T08:16:31.906Z - Patient search and auto-fill verification completed successfully

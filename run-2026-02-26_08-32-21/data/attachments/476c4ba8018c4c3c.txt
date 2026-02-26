@@ -1,0 +1,30 @@
+[STEP] 2026-02-26T08:21:04.257Z - Step 1: Login to Provider Portal
+[STEP] 2026-02-26T08:21:04.258Z - Attempting to login to provider portal
+[STEP] 2026-02-26T08:21:04.258Z - Navigating to provider portal login page
+[INFO] 2026-02-26T08:21:05.769Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-26T08:21:05.899Z - Login attempt completed
+[INFO] 2026-02-26T08:21:08.864Z - Successfully logged in to Provider Portal
+[STEP] 2026-02-26T08:21:08.864Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-02-26T08:21:08.864Z - Navigating to Enrollment section
+[INFO] 2026-02-26T08:21:10.900Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Schamberger, Nicolas
+Program: RPM
+Status: active
+[INFO] 2026-02-26T08:21:13.955Z - Found active enrollment for patient: Schamberger, Nicolas, Program: RPM
+[STEP] 2026-02-26T08:21:13.955Z - Step 3: Open Close Enrollment form
+[INFO] 2026-02-26T08:21:18.132Z - Close Enrollment form opened successfully
+[STEP] 2026-02-26T08:21:18.132Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-02-26T08:21:22.249Z - Termination details filled successfully
+[STEP] 2026-02-26T08:21:22.249Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-02-26T08:21:24.324Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-02-26T08:21:24.324Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Schamberger, Nicolas
+Row text: 04Schamberger, NicolasRPM02-25-2026activeG4736-Slee...+2Autofirstfdjscy Autolastfdjscysarvesh test
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-02-26T08:21:24.331Z - Enrollment status verified - remains ACTIVE as expected (not terminated)
