@@ -1,0 +1,40 @@
+[STEP] 2026-02-27T08:36:41.934Z - Login to Provider Portal
+[STEP] 2026-02-27T08:36:42.305Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:36:42.305Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:36:43.709Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:36:43.853Z - Login attempt completed
+[STEP] 2026-02-27T08:36:46.951Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-02-27T08:36:46.951Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-02-27T08:36:46.951Z - Dismissing any open drawer
+[INFO] 2026-02-27T08:36:47.464Z - No drawer backdrop in DOM
+[INFO] 2026-02-27T08:36:47.974Z - Successfully on Care Team Work List
+[STEP] 2026-02-27T08:36:47.974Z - Selecting program tab: RTM
+[INFO] 2026-02-27T08:36:49.043Z - Successfully selected RTM tab
+[STEP] 2026-02-27T08:36:49.043Z - Clicking monitoring category: Data
+[STEP] 2026-02-27T08:36:50.176Z - Clearing status filter
+[INFO] 2026-02-27T08:36:50.182Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-02-27T08:36:50.725Z - MUI Menu options: 3
+[INFO] 2026-02-27T08:36:50.729Z -   Option [0]: "Clear Selection"
+[INFO] 2026-02-27T08:36:51.797Z - Status filter cleared
+[INFO] 2026-02-27T08:36:51.797Z - Switched to Data monitoring view
+[STEP] 2026-02-27T08:36:51.797Z - Test: Review vitals from Action button
+[STEP] 2026-02-27T08:36:51.797Z - Getting first available patient from list
+[INFO] 2026-02-27T08:36:51.808Z - First available patient: "Automation, Test"
+[STEP] 2026-02-27T08:36:51.808Z - Getting visible row count
+[INFO] 2026-02-27T08:36:52.812Z - Visible row count: 1
+[STEP] 2026-02-27T08:36:52.814Z - Reviewing vital from action menu for: Automation, Test
+[STEP] 2026-02-27T08:36:52.814Z - Selecting action "Review" for: Automation, Test
+[STEP] 2026-02-27T08:36:52.814Z - Opening action menu for: Automation, Test
+[INFO] 2026-02-27T08:36:53.888Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-02-27T08:36:54.962Z - Action "Review" selected for: Automation, Test
+[INFO] 2026-02-27T08:36:54.977Z - Filled review note
+[INFO] 2026-02-27T08:36:57.090Z - Dialog closed after Review click: false
+[INFO] 2026-02-27T08:36:57.100Z - Backdrop still visible — checking for time log dialog
+[STEP] 2026-02-27T08:36:57.100Z - Handling messaging / time log dialog
+[INFO] 2026-02-27T08:36:58.111Z - No recognizable dialog found — may have auto-completed
+[INFO] 2026-02-27T08:36:58.111Z - Vital reviewed from action menu for: Automation, Test
+[STEP] 2026-02-27T08:36:58.111Z - Verifying Reviewed status
+[INFO] 2026-02-27T08:37:08.114Z - Reviewed status not found
+[STEP] 2026-02-27T08:37:08.117Z - Getting status for patient: Automation, Test
+[INFO] 2026-02-27T08:37:08.133Z - Patient "Automation, Test" status: Unreviewed
+[INFO] 2026-02-27T08:37:08.133Z - Patient already has status: Unreviewed

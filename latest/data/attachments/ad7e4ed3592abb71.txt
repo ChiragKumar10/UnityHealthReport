@@ -1,0 +1,68 @@
+[STEP] 2026-02-27T08:46:45.305Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-02-27T08:46:45.305Z - Logging in to Provider Portal
+[STEP] 2026-02-27T08:46:45.305Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:46:45.305Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:46:46.883Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:46:47.017Z - Login attempt completed
+[STEP] 2026-02-27T08:46:49.443Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:46:51.477Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:46:54.478Z - Applying status filter: Closed
+[INFO] 2026-02-27T08:47:00.625Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-02-27T08:47:02.743Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:47:04.811Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:47:05.813Z - Adding new enrollment
+[INFO] 2026-02-27T08:47:12.084Z - Found 1 patients matching 'x'
+[INFO] 2026-02-27T08:47:13.534Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Kemmer, Roxane  | Program: Chronic Care Management (CCM)
+[STEP] 2026-02-27T08:47:19.371Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-27T08:47:19.382Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Kemmer, Roxane
+  Program: Chronic Care Management (CCM)
+  Provider: Seth Ondricka
+  Care Manager: Autofirstcrgmpz Autolastcrgmpz
+[INFO] 2026-02-27T08:47:19.382Z - Enrollment form submitted successfully
+Enrollment created: Kemmer, Roxane | Chronic Care Management (CCM)
+[STEP] 2026-02-27T08:47:19.491Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:47:21.626Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:47:23.630Z - Applying status filter: New
+[INFO] 2026-02-27T08:47:29.773Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-02-27T08:47:50.661Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:47:52.723Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:47:54.723Z - Applying status filter: Active
+[INFO] 2026-02-27T08:48:00.890Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-02-27T08:48:13.819Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:48:15.890Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:48:17.891Z - Applying status filter: Closed
+[INFO] 2026-02-27T08:48:24.041Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Kemmer, Roxane ===
+Activate Enrollment confirmed
+[STEP] 2026-02-27T08:48:34.274Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:48:36.348Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:48:38.349Z - Applying status filter: Active
+[INFO] 2026-02-27T08:48:44.540Z - Status filter 'Active' applied successfully
+Row: 01Kemmer, RoxaneCCM02-27-2026activeA001-Chole...+1Autofirstcrgmpz AutolastcrgmpzSeth Ondricka
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Kemmer, Roxane02-21-202402-27-2026Autofirstcrgmpz AutolastcrgmpzSeth OndrickaSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Kemmer, Roxane
+Program: CCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-02-27T08:49:00.500Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

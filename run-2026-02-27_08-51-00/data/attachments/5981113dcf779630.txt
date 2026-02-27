@@ -1,0 +1,83 @@
+[STEP] 2026-02-27T08:44:10.498Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-02-27T08:44:10.499Z - Logging in to Provider Portal
+[STEP] 2026-02-27T08:44:10.499Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:44:10.499Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:44:12.096Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:44:12.274Z - Login attempt completed
+[STEP] 2026-02-27T08:44:15.229Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-02-27T08:44:15.229Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:44:17.280Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:44:20.281Z - Applying status filter: Closed
+[INFO] 2026-02-27T08:44:26.433Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-02-27T08:44:28.560Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:44:30.634Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:44:31.634Z - Adding new enrollment
+[INFO] 2026-02-27T08:44:37.922Z - Found 20 patients matching 'a'
+[INFO] 2026-02-27T08:44:39.386Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Mraz, Kaci  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-02-27T08:44:45.265Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-27T08:44:45.277Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-27T08:44:49.896Z - Found 6 patients matching 'y'
+New patient selected: Bode, Dayne 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Bode, Dayne  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-02-27T08:44:53.861Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-27T08:44:53.873Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Bode, Dayne
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstdfmpdt Autolastdfmpdt
+[INFO] 2026-02-27T08:44:53.874Z - Enrollment form submitted successfully
+Enrollment created: Bode, Dayne | Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-02-27T08:44:53.999Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:44:56.129Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:44:58.130Z - Applying status filter: New
+[INFO] 2026-02-27T08:45:04.291Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-02-27T08:45:25.206Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:45:27.262Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:45:29.263Z - Applying status filter: Active
+[INFO] 2026-02-27T08:45:35.431Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-02-27T08:45:48.380Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:45:50.460Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:45:52.461Z - Applying status filter: Closed
+[INFO] 2026-02-27T08:45:58.621Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Bode, Dayne ===
+[STEP] 2026-02-27T08:46:18.952Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:46:21.012Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:46:23.014Z - Applying status filter: New
+[INFO] 2026-02-27T08:46:29.170Z - Status filter 'New' applied successfully
+Row: 01Bode, DayneRTM02-27-2026newA014-Parat...+2Autofirstclhfet AutolastclhfetDayton Nolan
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Bode, Dayne761-891-533502-27-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Bode, Dayne
+Program: RTM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-02-27T08:46:45.161Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

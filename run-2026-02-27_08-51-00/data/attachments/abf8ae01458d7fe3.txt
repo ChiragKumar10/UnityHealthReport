@@ -1,0 +1,42 @@
+[STEP] 2026-02-27T08:36:10.721Z - Login to Provider Portal
+[STEP] 2026-02-27T08:36:11.072Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:36:11.072Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:36:12.480Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:36:12.604Z - Login attempt completed
+[STEP] 2026-02-27T08:36:15.591Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-02-27T08:36:15.592Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-02-27T08:36:15.592Z - Dismissing any open drawer
+[INFO] 2026-02-27T08:36:16.097Z - No drawer backdrop in DOM
+[INFO] 2026-02-27T08:36:16.604Z - Successfully on Care Team Work List
+[STEP] 2026-02-27T08:36:16.604Z - Selecting program tab: RTM
+[INFO] 2026-02-27T08:36:17.673Z - Successfully selected RTM tab
+[STEP] 2026-02-27T08:36:17.673Z - Clicking monitoring category: Data
+[STEP] 2026-02-27T08:36:18.804Z - Clearing status filter
+[INFO] 2026-02-27T08:36:18.811Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-02-27T08:36:19.358Z - MUI Menu options: 3
+[INFO] 2026-02-27T08:36:19.362Z -   Option [0]: "Clear Selection"
+[INFO] 2026-02-27T08:36:20.440Z - Status filter cleared
+[INFO] 2026-02-27T08:36:20.440Z - Switched to Data monitoring view
+[STEP] 2026-02-27T08:36:20.440Z - Test: Review vitals from Readings
+[STEP] 2026-02-27T08:36:20.441Z - Getting first available patient from list
+[INFO] 2026-02-27T08:36:20.451Z - First available patient: "Automation, Test"
+[STEP] 2026-02-27T08:36:20.451Z - Getting visible row count
+[INFO] 2026-02-27T08:36:21.455Z - Visible row count: 1
+[STEP] 2026-02-27T08:36:21.456Z - Clicking Number of Readings for: Automation, Test
+[INFO] 2026-02-27T08:36:22.540Z - Opened readings for: Automation, Test
+[STEP] 2026-02-27T08:36:22.540Z - Reviewing vital from readings page
+[INFO] 2026-02-27T08:36:22.572Z - No Review button — vital may already be reviewed
+[STEP] 2026-02-27T08:36:22.572Z - Verifying Reviewed status
+[INFO] 2026-02-27T08:36:32.574Z - Reviewed status not found
+[INFO] 2026-02-27T08:36:32.574Z - Individual review status not visible — checking reviewed count
+[STEP] 2026-02-27T08:36:32.574Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-02-27T08:36:32.574Z - Dismissing any open drawer
+[INFO] 2026-02-27T08:36:33.077Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-02-27T08:36:35.622Z - Drawer still open — navigating to base URL to reset
+[INFO] 2026-02-27T08:36:40.248Z - Drawer dismiss completed
+[INFO] 2026-02-27T08:36:40.767Z - Successfully on Care Team Work List
+[STEP] 2026-02-27T08:36:40.767Z - Selecting program tab: RTM
+[INFO] 2026-02-27T08:36:41.810Z - Successfully selected RTM tab
+[STEP] 2026-02-27T08:36:41.811Z - Getting count for Data
+[INFO] 2026-02-27T08:36:41.816Z - Data count: 1
+[INFO] 2026-02-27T08:36:41.816Z - Data reviewed count: 1

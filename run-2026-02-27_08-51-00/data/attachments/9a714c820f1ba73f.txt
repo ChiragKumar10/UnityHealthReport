@@ -1,0 +1,30 @@
+[STEP] 2026-02-27T08:33:11.921Z - Step 1: Login to Provider Portal
+[STEP] 2026-02-27T08:33:11.921Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:33:11.921Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:33:13.385Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:33:13.550Z - Login attempt completed
+[INFO] 2026-02-27T08:33:16.055Z - Successfully logged in to Provider Portal
+[STEP] 2026-02-27T08:33:16.055Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-02-27T08:33:16.055Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:33:18.110Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Turcotte, Steven
+Program: CCM
+Status: active
+[INFO] 2026-02-27T08:33:21.137Z - Found active enrollment for patient: Turcotte, Steven, Program: CCM
+[STEP] 2026-02-27T08:33:21.137Z - Step 3: Open Close Enrollment form
+[INFO] 2026-02-27T08:33:25.286Z - Close Enrollment form opened successfully
+[STEP] 2026-02-27T08:33:25.286Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-02-27T08:33:29.408Z - Termination details filled successfully
+[STEP] 2026-02-27T08:33:29.408Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-02-27T08:33:31.500Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-02-27T08:33:31.500Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Turcotte, Steven
+Row text: 02Turcotte, StevenCCM02-26-2026activeA001-Chole...+1Autofirstdikpmh AutolastdikpmhDayton Nolan
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-02-27T08:33:31.506Z - Enrollment status verified - remains ACTIVE as expected (not terminated)

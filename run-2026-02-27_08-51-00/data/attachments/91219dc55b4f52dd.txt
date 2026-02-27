@@ -1,0 +1,14 @@
+[STEP] 2026-02-27T08:36:19.534Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-02-27T08:36:19.534Z - Logging in and navigating to enrollment form
+[STEP] 2026-02-27T08:36:19.534Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:36:19.534Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:36:21.102Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:36:21.227Z - Login attempt completed
+[STEP] 2026-02-27T08:36:23.672Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:36:25.703Z - Navigated to Enrollment section
+✓ Found 10 patients matching 'b'
+✓ Patient search returned 10 results
+✓ Selected patient: Hodkiewicz, Billy 
+✓ Phone auto-filled: 744-209-1512
+✓ DOB auto-filled: 05-22-2023
+[INFO] 2026-02-27T08:36:37.070Z - Patient search and auto-fill verification completed successfully

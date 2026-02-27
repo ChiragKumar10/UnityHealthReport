@@ -1,0 +1,64 @@
+[STEP] 2026-02-27T08:40:31.448Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-02-27T08:40:31.450Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-27T08:40:31.450Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:40:31.451Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:40:33.170Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:40:33.319Z - Login attempt completed
+[STEP] 2026-02-27T08:40:35.806Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:40:37.867Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 4
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Turcotte, Steven
+Program: CCM
+Care Manager: Autofirstdikpmh Autolastdikpmh
+Provider: Dayton Nolan
+Service Type Short: CCM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Found checked ICD at index 1: (A020) - Salmonella enteritis
+Total checked ICDs: 1
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: (A020) - Salmonella enteritis
+Initial Care Manager: Autofirstdikpmh Autolastdikpmh
+Initial Provider: Dayton Nolan
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 4
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAutofirstdikpmh AutolastdikpmhDayton NolanA020-Salmo...+102-26-2026-02-27-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: CCM
+Checking for Provider: Dayton
+Checking for Care Manager: Autofirstdikpmh
+Checking for ICD: A020
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-02-27T08:41:16.958Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:41:19.011Z - Navigated to Enrollment section
+Unchecked initial ICD: (A020) - Salmonella enteritis
+Checked new ICD: (A009) - Cholera, unspecified
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: sarvesh test
+Updated Care Manager: Annamae Quitzon
+Updated ICD Code: (A009) - Cholera, unspecified
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 4
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAnnamae Quitzonsarvesh testA009-Chole...+102-26-2026-02-27-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: CCM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

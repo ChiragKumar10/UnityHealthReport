@@ -1,0 +1,39 @@
+[STEP] 2026-02-27T08:38:21.474Z - Login to Provider Portal
+[STEP] 2026-02-27T08:38:21.827Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:38:21.827Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:38:23.232Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:38:23.367Z - Login attempt completed
+[STEP] 2026-02-27T08:38:26.397Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-02-27T08:38:26.397Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-02-27T08:38:26.397Z - Dismissing any open drawer
+[INFO] 2026-02-27T08:38:26.905Z - No drawer backdrop in DOM
+[INFO] 2026-02-27T08:38:27.414Z - Successfully on Care Team Work List
+[STEP] 2026-02-27T08:38:27.414Z - Selecting program tab: RTM
+[INFO] 2026-02-27T08:38:28.489Z - Successfully selected RTM tab
+[STEP] 2026-02-27T08:38:28.489Z - Clicking monitoring category: Data
+[STEP] 2026-02-27T08:38:29.628Z - Clearing status filter
+[INFO] 2026-02-27T08:38:29.635Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-02-27T08:38:30.205Z - MUI Menu options: 3
+[INFO] 2026-02-27T08:38:30.208Z -   Option [0]: "Clear Selection"
+[INFO] 2026-02-27T08:38:31.286Z - Status filter cleared
+[INFO] 2026-02-27T08:38:31.286Z - Switched to Data monitoring view
+[STEP] 2026-02-27T08:38:31.287Z - Test: Send Text message from Data section
+[STEP] 2026-02-27T08:38:31.287Z - Getting first available patient from list
+[INFO] 2026-02-27T08:38:31.301Z - First available patient: "Automation, Test"
+[STEP] 2026-02-27T08:38:31.301Z - Getting visible row count
+[INFO] 2026-02-27T08:38:32.306Z - Visible row count: 1
+[STEP] 2026-02-27T08:38:32.309Z - Sending text message to: Automation, Test
+[STEP] 2026-02-27T08:38:32.309Z - Selecting action "Text Message" for: Automation, Test
+[STEP] 2026-02-27T08:38:32.309Z - Opening action menu for: Automation, Test
+[INFO] 2026-02-27T08:38:33.396Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-02-27T08:38:34.516Z - Action "Text Message" selected for: Automation, Test
+[STEP] 2026-02-27T08:38:34.517Z - Handling messaging / time log dialog
+[INFO] 2026-02-27T08:38:35.523Z - Detected SEND MESSAGE dialog
+[INFO] 2026-02-27T08:38:36.599Z - Message sent via SEND dialog
+[INFO] 2026-02-27T08:38:36.601Z - TIME LOG follow-up dialog detected — filling and saving
+[STEP] 2026-02-27T08:38:36.602Z - Filling TIME LOG dialog
+[INFO] 2026-02-27T08:38:38.847Z - TIME LOG dialog saved
+[STEP] 2026-02-27T08:38:38.847Z - Closing all overlays
+[INFO] 2026-02-27T08:38:40.909Z - All overlays closed
+[INFO] 2026-02-27T08:38:40.910Z - Text message sent to: Automation, Test
+[INFO] 2026-02-27T08:38:40.910Z - Text message sent from Data section

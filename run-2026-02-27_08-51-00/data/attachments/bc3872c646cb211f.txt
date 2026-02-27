@@ -1,0 +1,49 @@
+[STEP] 2026-02-27T08:36:48.709Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-02-27T08:36:49.112Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:36:49.112Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:36:50.478Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:36:50.613Z - Login attempt completed
+[STEP] 2026-02-27T08:36:53.629Z - Test: Verify deleted provider login restriction
+[STEP] 2026-02-27T08:36:53.629Z - Navigating to Settings page
+[INFO] 2026-02-27T08:36:54.711Z - Navigated to Settings page
+[STEP] 2026-02-27T08:36:54.711Z - Clicking Unity Users tab
+[INFO] 2026-02-27T08:36:55.860Z - Unity Users tab clicked
+[STEP] 2026-02-27T08:36:55.861Z - Adding Unity User: Autofirstdnsigu Autolastdnsigu
+[STEP] 2026-02-27T08:36:55.861Z - Clicking Add Unity User button
+[INFO] 2026-02-27T08:36:57.056Z - Add Unity User form opened
+[STEP] 2026-02-27T08:36:57.057Z - Filling Unity User form for: Autofirstdnsigu Autolastdnsigu
+[STEP] 2026-02-27T08:36:57.057Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-02-27T08:36:58.006Z - Selected: Care Coordinators
+[STEP] 2026-02-27T08:36:58.085Z - Selecting dropdown option: Male
+[INFO] 2026-02-27T08:36:59.018Z - Selected: Male
+[INFO] 2026-02-27T08:36:59.179Z - Form filled for: Autofirstdnsigu Autolastdnsigu
+[STEP] 2026-02-27T08:36:59.179Z - Clicking Save button
+[INFO] 2026-02-27T08:37:01.291Z - Save button clicked
+[INFO] 2026-02-27T08:37:01.296Z - Unity User 'Autofirstdnsigu Autolastdnsigu' added — form closed
+[STEP] 2026-02-27T08:37:01.296Z - Verifying user 'Autofirstdnsigu Autolastdnsigu' is visible in the list
+[STEP] 2026-02-27T08:37:01.296Z - Searching for user: Autofirstdnsigu Autolastdnsigu
+[INFO] 2026-02-27T08:37:02.338Z - Search completed for: Autofirstdnsigu Autolastdnsigu
+[INFO] 2026-02-27T08:37:02.695Z - User 'Autofirstdnsigu Autolastdnsigu' is visible in the list
+[INFO] 2026-02-27T08:37:02.695Z - User created for delete login test
+[STEP] 2026-02-27T08:37:02.695Z - Deleting Unity User: Autofirstdnsigu Autolastdnsigu
+[STEP] 2026-02-27T08:37:02.695Z - Clicking Delete for: Autofirstdnsigu Autolastdnsigu
+[STEP] 2026-02-27T08:37:02.695Z - Opening action menu for: Autofirstdnsigu Autolastdnsigu
+[STEP] 2026-02-27T08:37:02.695Z - Searching for user: Autofirstdnsigu Autolastdnsigu
+[INFO] 2026-02-27T08:37:03.708Z - Search completed for: Autofirstdnsigu Autolastdnsigu
+[INFO] 2026-02-27T08:37:04.728Z - Action menu opened
+[INFO] 2026-02-27T08:37:05.748Z - Delete clicked from menu
+[INFO] 2026-02-27T08:37:05.751Z - No confirmation dialog — user deleted directly
+[STEP] 2026-02-27T08:37:06.752Z - Clearing search box
+[INFO] 2026-02-27T08:37:07.266Z - Search cleared
+[INFO] 2026-02-27T08:37:07.266Z - Unity User 'Autofirstdnsigu Autolastdnsigu' deleted
+[STEP] 2026-02-27T08:37:07.266Z - Verifying user 'Autofirstdnsigu Autolastdnsigu' is NOT in the list
+[STEP] 2026-02-27T08:37:07.267Z - Clearing search box
+[INFO] 2026-02-27T08:37:07.775Z - Search cleared
+[STEP] 2026-02-27T08:37:07.775Z - Searching for user: Autofirstdnsigu Autolastdnsigu
+[INFO] 2026-02-27T08:37:08.908Z - Search completed for: Autofirstdnsigu Autolastdnsigu
+[INFO] 2026-02-27T08:37:08.911Z - User 'Autofirstdnsigu Autolastdnsigu' is not in the list
+[INFO] 2026-02-27T08:37:08.911Z - User deleted
+[STEP] 2026-02-27T08:37:08.911Z - Attempting login with username: autouser1772181413629
+[INFO] 2026-02-27T08:37:13.764Z - Login failed — error: No error text found
+[INFO] 2026-02-27T08:37:13.930Z - Deleted user login blocked — success: false
+[INFO] 2026-02-27T08:37:13.931Z - Deleted provider login restriction verified. Error: 

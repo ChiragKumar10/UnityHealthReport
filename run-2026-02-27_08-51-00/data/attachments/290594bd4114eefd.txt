@@ -1,0 +1,22 @@
+[STEP] 2026-02-27T08:35:21.578Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-02-27T08:35:21.579Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:35:21.579Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:35:23.051Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:35:23.212Z - Login attempt completed
+[STEP] 2026-02-27T08:35:26.228Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:35:28.252Z - Navigated to Enrollment section
+[INFO] 2026-02-27T08:35:28.252Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-02-27T08:35:28.253Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-02-27T08:35:28.253Z - Selected random status: Active
+[INFO] 2026-02-27T08:35:28.253Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-02-27T08:35:28.253Z - Applying combined filters - Status: Active, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-02-27T08:35:28.253Z - Applying status filter: Active
+[INFO] 2026-02-27T08:35:34.397Z - Status filter 'Active' applied successfully
+[STEP] 2026-02-27T08:35:34.397Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-02-27T08:35:40.543Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-02-27T08:35:40.543Z - Retrieving filtered enrollment results
+[INFO] 2026-02-27T08:35:42.787Z - Retrieved 13 filtered enrollment records
+Record 1 Verified: Schamberger, Nicolas - RPM - active
+Record 2 Verified: Champlin, Timothy - RPM - active
+Record 3 Verified: GoodwinLedner, Luella - RPM - active
+[INFO] 2026-02-27T08:35:42.798Z - Combined Status + Program filter verification completed - 3 records verified

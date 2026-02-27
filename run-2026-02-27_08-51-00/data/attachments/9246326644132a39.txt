@@ -1,0 +1,130 @@
+[STEP] 2026-02-27T08:41:56.149Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-02-27T08:41:56.150Z - Logging in and navigating to Enrollment section
+[STEP] 2026-02-27T08:41:56.150Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:41:56.150Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:41:57.612Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:41:57.746Z - Login attempt completed
+[STEP] 2026-02-27T08:42:00.215Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:42:02.289Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-02-27T08:42:05.290Z - Adding new enrollment
+[INFO] 2026-02-27T08:42:11.586Z - Found 7 patients matching 'u'
+[INFO] 2026-02-27T08:42:13.030Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Johns, Muriel  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-02-27T08:42:18.831Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-02-27T08:42:18.838Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-02-27T08:42:23.441Z - Found 20 patients matching 'o'
+New patient selected: GoodwinLedner, Luella 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: GoodwinLedner, Luella  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-02-27T08:42:27.418Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-02-27T08:42:42.454Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-02-27T08:42:46.555Z - Found 19 patients matching 't'
+New patient selected: Reichert, Katie 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: Reichert, Katie  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-02-27T08:42:50.311Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-02-27T08:42:50.323Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Reichert, Katie
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-02-27T08:42:50.323Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Reichert, Katie
+Program: Remote Therapeutic Monitoring (RTM)
+Provider: Dayton Nolan
+Care Manager: Autofirstbchvfu Autolastbchvfu
+[STEP] 2026-02-27T08:42:50.324Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:42:52.367Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Remote Therapeutic Monitoring (RTM)"
+Extracted program short: "RTM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "RTM"
+✓ Program tab "RTM" found
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Reichert
+Total rows in NEW section: 2
+Row 0: NAMECONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: Reichert, Katie655-613-853202-25-2026Other
+✓ Patient found in NEW section at row 2 (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 2
+[STEP] 2026-02-27T08:43:17.881Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:43:19.938Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Reichert
+Total rows in ACTIVE section: 2
+Row 0: NAMEDOBENROLLED DATECARE MANAGERPROVIDERINSURANCE NAMETYPE OF MOBILEDOCUMENT SIGNEDHEALTH CONNECTACTION
+Row 1: Reichert, Katie02-03-202402-27-2026Autofirstbchvfu AutolastbchvfuDayton NolanOther-
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===
+✓ Patient Name: Reichert - Displayed
+✓ Provider: Dayton Nolan - Displayed
+✓ Care Manager: Autofirstbchvfu Autolastbchvfu - Displayed
+Total rows in NEW section after move: 2
+Row 0: NAMECONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: No data found.
+
+=== WORKLIST NEW SECTION VALIDATION (AFTER MOVE TO ACTIVE) ===
+✓ Patient NOT found in NEW section
+
+=== ATTEMPT 1/3: Checking enrollment list status ===
+[STEP] 2026-02-27T08:43:57.087Z - Navigating to Enrollment section
+[INFO] 2026-02-27T08:43:59.150Z - Navigated to Enrollment section
+[STEP] 2026-02-27T08:44:01.153Z - Applying status filter: Active
+[INFO] 2026-02-27T08:44:07.323Z - Status filter 'Active' applied successfully
+Enrollment row text: 01Reichert, KatieRTM02-27-2026activeA111-Test ...+1Autofirstbchvfu AutolastbchvfuDayton Nolan
+✓ Status is ACTIVE (attempt 1)
+
+=== ENROLLMENT LIST STATUS VALIDATION ===
+Final enrollment row text: 01Reichert, KatieRTM02-27-2026activeA111-Test ...+1Autofirstbchvfu AutolastbchvfuDayton Nolan
+✓ Enrollment status is ACTIVE
+✓ Status change validated successfully in all sections
+[INFO] 2026-02-27T08:44:10.334Z - Status change workflow completed successfully - Status changed from NEW to ACTIVE and reflected in Worklist and Enrollment List

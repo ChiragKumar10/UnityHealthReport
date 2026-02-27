@@ -1,0 +1,52 @@
+[STEP] 2026-02-27T08:36:59.799Z - Login to Provider Portal
+[STEP] 2026-02-27T08:37:00.206Z - Attempting to login to provider portal
+[STEP] 2026-02-27T08:37:00.206Z - Navigating to provider portal login page
+[INFO] 2026-02-27T08:37:01.549Z - Successfully navigated to provider portal login page
+[INFO] 2026-02-27T08:37:01.680Z - Login attempt completed
+[STEP] 2026-02-27T08:37:04.712Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-02-27T08:37:04.713Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-02-27T08:37:04.713Z - Dismissing any open drawer
+[INFO] 2026-02-27T08:37:05.220Z - No drawer backdrop in DOM
+[INFO] 2026-02-27T08:37:05.728Z - Successfully on Care Team Work List
+[STEP] 2026-02-27T08:37:05.728Z - Selecting program tab: RTM
+[INFO] 2026-02-27T08:37:06.794Z - Successfully selected RTM tab
+[STEP] 2026-02-27T08:37:06.795Z - Clicking monitoring category: Alerts
+[STEP] 2026-02-27T08:37:07.896Z - Setting date filter to today
+[INFO] 2026-02-27T08:37:07.902Z - Changing date from "02-26-2026" to "02-27-2026"
+[INFO] 2026-02-27T08:37:08.981Z - Date filter set to: 02-27-2026
+[INFO] 2026-02-27T08:37:08.982Z - Switched to Alerts monitoring view
+[STEP] 2026-02-27T08:37:08.982Z - Test: Verify resolved in Patient 360
+[STEP] 2026-02-27T08:37:08.982Z - Getting first available patient from list
+[INFO] 2026-02-27T08:37:08.985Z - No patients in list
+[INFO] 2026-02-27T08:37:08.985Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-02-27T08:37:08.985Z - Setting alert status filter to: Resolved
+[INFO] 2026-02-27T08:37:09.029Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-02-27T08:37:10.597Z - Alert status filter set to: Resolved
+[STEP] 2026-02-27T08:37:10.598Z - Getting first available patient from list
+[INFO] 2026-02-27T08:37:10.607Z - First available patient: "Automation, Test"
+[STEP] 2026-02-27T08:37:10.607Z - Getting visible row count
+[INFO] 2026-02-27T08:37:11.611Z - Visible row count: 1
+[STEP] 2026-02-27T08:37:11.612Z - Getting visible row count
+[INFO] 2026-02-27T08:37:12.615Z - Visible row count: 1
+[STEP] 2026-02-27T08:37:12.615Z - Clicking Number of Alerts for: Automation, Test
+[INFO] 2026-02-27T08:37:13.648Z - Clicked alert area for: Automation, Test
+[STEP] 2026-02-27T08:37:13.648Z - Resolving alert from alerts detail page
+[INFO] 2026-02-27T08:37:14.702Z - No Resolve option — alert may already be resolved
+[STEP] 2026-02-27T08:37:14.702Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-02-27T08:37:14.702Z - Dismissing any open drawer
+[INFO] 2026-02-27T08:37:15.206Z - No drawer backdrop in DOM
+[INFO] 2026-02-27T08:37:15.711Z - Successfully on Care Team Work List
+[STEP] 2026-02-27T08:37:15.711Z - Selecting program tab: RTM
+[INFO] 2026-02-27T08:37:16.750Z - Successfully selected RTM tab
+[STEP] 2026-02-27T08:37:16.750Z - Clicking monitoring category: Alerts
+[STEP] 2026-02-27T08:37:17.813Z - Setting date filter to today
+[INFO] 2026-02-27T08:37:17.818Z - Date filter already set to today: 02-27-2026
+[INFO] 2026-02-27T08:37:17.818Z - Switched to Alerts monitoring view
+[STEP] 2026-02-27T08:37:17.818Z - Getting visible row count
+[INFO] 2026-02-27T08:37:18.822Z - Visible row count: 0
+[STEP] 2026-02-27T08:37:18.822Z - Setting alert status filter to: Resolved
+[INFO] 2026-02-27T08:37:18.887Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-02-27T08:37:20.466Z - Alert status filter set to: Resolved
+[STEP] 2026-02-27T08:37:20.466Z - Verifying resolved status in Patient 360 for: Automation, Test
+[INFO] 2026-02-27T08:37:20.503Z - Resolved alert in Patient 360: true
+[INFO] 2026-02-27T08:37:20.504Z - Resolved status visible in Patient 360 Alerts section
