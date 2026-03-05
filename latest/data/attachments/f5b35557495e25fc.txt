@@ -1,0 +1,42 @@
+[STEP] 2026-03-05T15:00:27.362Z - Login to Provider Portal
+[STEP] 2026-03-05T15:00:27.718Z - Attempting to login to provider portal
+[STEP] 2026-03-05T15:00:27.718Z - Navigating to provider portal login page
+[INFO] 2026-03-05T15:00:29.112Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T15:00:29.234Z - Login attempt completed
+[STEP] 2026-03-05T15:00:32.228Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T15:00:32.228Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T15:00:32.228Z - Dismissing any open drawer
+[INFO] 2026-03-05T15:00:32.733Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T15:00:33.239Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T15:00:33.240Z - Selecting program tab: RTM
+[INFO] 2026-03-05T15:00:34.303Z - Successfully selected RTM tab
+[STEP] 2026-03-05T15:00:34.303Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T15:00:35.443Z - Setting date filter to today
+[INFO] 2026-03-05T15:00:35.450Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T15:00:36.552Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T15:00:36.553Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T15:00:36.553Z - Test: Resolve alert from Alerts page
+[STEP] 2026-03-05T15:00:36.553Z - Getting first available patient from list
+[INFO] 2026-03-05T15:00:36.558Z - No patients in list
+[INFO] 2026-03-05T15:00:36.558Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T15:00:36.558Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T15:00:36.603Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T15:00:38.212Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T15:00:38.213Z - Getting first available patient from list
+[INFO] 2026-03-05T15:00:38.226Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T15:00:38.226Z - Getting visible row count
+[INFO] 2026-03-05T15:00:39.229Z - Visible row count: 1
+[STEP] 2026-03-05T15:00:39.231Z - Clicking Number of Alerts for: Automation, Test
+[INFO] 2026-03-05T15:00:40.270Z - Clicked alert area for: Automation, Test
+[STEP] 2026-03-05T15:00:40.270Z - Resolving alert from alerts detail page
+[INFO] 2026-03-05T15:00:41.333Z - No Resolve option — alert may already be resolved
+[INFO] 2026-03-05T15:00:41.333Z - Alert resolution attempted from Number of Alerts page
+[STEP] 2026-03-05T15:00:41.333Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T15:00:41.333Z - Dismissing any open drawer
+[INFO] 2026-03-05T15:00:41.837Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T15:00:42.342Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T15:00:42.342Z - Selecting program tab: RTM
+[INFO] 2026-03-05T15:00:43.404Z - Successfully selected RTM tab
+[STEP] 2026-03-05T15:00:43.404Z - Getting count for Alerts
+[INFO] 2026-03-05T15:00:43.410Z - Alerts count: 1
+[INFO] 2026-03-05T15:00:43.410Z - Alert count after resolution: 1

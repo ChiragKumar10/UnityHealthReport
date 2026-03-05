@@ -1,0 +1,30 @@
+[STEP] 2026-03-05T14:58:10.829Z - Navigating to provider portal…
+[STEP] 2026-03-05T14:58:11.371Z - Logging in…
+[STEP] 2026-03-05T14:58:11.371Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:58:11.371Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:58:12.534Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:58:12.672Z - Login attempt completed
+[STEP] 2026-03-05T14:58:15.743Z - 1. Get the current favorite service
+[STEP] 2026-03-05T14:58:15.743Z - Retrieving current favorite service
+[INFO] 2026-03-05T14:58:15.757Z - Favorite service detected: CCM
+[INFO] 2026-03-05T14:58:15.757Z - Current favorite is: CCM
+[STEP] 2026-03-05T14:58:15.757Z - 2. Removing favorite: CCM
+[STEP] 2026-03-05T14:58:15.757Z - Toggling favorite for service: CCM
+[STEP] 2026-03-05T14:58:17.212Z - 3. Assigning new favorite: RPM
+[STEP] 2026-03-05T14:58:17.213Z - Toggling favorite for service: RPM
+[STEP] 2026-03-05T14:58:18.662Z - Retrieving current favorite service
+[INFO] 2026-03-05T14:58:18.672Z - Favorite service detected: RPM
+[INFO] 2026-03-05T14:58:18.672Z - Favorite after change (before logout): RPM
+[STEP] 2026-03-05T14:58:18.672Z - 4. Logging out…
+[STEP] 2026-03-05T14:58:18.673Z - Logging out from provider portal
+[INFO] 2026-03-05T14:58:20.013Z - Logout completed
+[STEP] 2026-03-05T14:58:20.014Z - 5. Logging in again to verify persistence…
+[STEP] 2026-03-05T14:58:20.014Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:58:20.014Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:58:21.155Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:58:21.266Z - Login attempt completed
+[STEP] 2026-03-05T14:58:24.590Z - 6. Checking saved favorite after re-login…
+[STEP] 2026-03-05T14:58:24.590Z - Retrieving current favorite service
+[INFO] 2026-03-05T14:58:24.603Z - Favorite service detected: RPM
+[INFO] 2026-03-05T14:58:24.603Z - Favorite after login: RPM
+[INFO] 2026-03-05T14:58:24.605Z - Favorite service persisted successfully!

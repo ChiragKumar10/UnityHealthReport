@@ -1,0 +1,26 @@
+[STEP] 2026-03-05T15:05:28.571Z - Login to Provider Portal
+[STEP] 2026-03-05T15:05:28.926Z - Attempting to login to provider portal
+[STEP] 2026-03-05T15:05:28.926Z - Navigating to provider portal login page
+[INFO] 2026-03-05T15:05:30.338Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T15:05:30.472Z - Login attempt completed
+[STEP] 2026-03-05T15:05:33.475Z - Test: Verify Edit Profile auto-populates all fields
+[STEP] 2026-03-05T15:05:33.475Z - Navigating to Settings page
+[INFO] 2026-03-05T15:05:34.558Z - Navigated to Settings page
+[STEP] 2026-03-05T15:05:34.558Z - Clicking Edit Profile button
+[INFO] 2026-03-05T15:05:35.742Z - Edit Profile form opened
+[STEP] 2026-03-05T15:05:35.742Z - Getting edit form value for: firstName
+[INFO] 2026-03-05T15:05:35.748Z - Edit form field 'firstName' value: chirag
+[INFO] 2026-03-05T15:05:35.749Z - First Name auto-populated: chirag
+[STEP] 2026-03-05T15:05:35.749Z - Getting edit form value for: lastName
+[INFO] 2026-03-05T15:05:35.754Z - Edit form field 'lastName' value: kumar
+[INFO] 2026-03-05T15:05:35.754Z - Last Name auto-populated: kumar
+[STEP] 2026-03-05T15:05:35.754Z - Getting edit form value for: email
+[INFO] 2026-03-05T15:05:35.761Z - Edit form field 'email' value: chirag.kumar@thinkitive.com
+[INFO] 2026-03-05T15:05:35.761Z - Email auto-populated: chirag.kumar@thinkitive.com
+[STEP] 2026-03-05T15:05:35.761Z - Getting edit form value for: username
+[INFO] 2026-03-05T15:05:35.767Z - Edit form field 'username' value: chirag123
+[INFO] 2026-03-05T15:05:35.768Z - Username auto-populated: chirag123
+[INFO] 2026-03-05T15:05:35.768Z - 4 out of 4 mandatory fields are auto-populated
+[STEP] 2026-03-05T15:05:35.768Z - Clicking Cancel on Edit Profile form
+[INFO] 2026-03-05T15:05:36.830Z - Edit Profile cancelled
+[INFO] 2026-03-05T15:05:36.830Z - Edit Profile auto-populate test completed

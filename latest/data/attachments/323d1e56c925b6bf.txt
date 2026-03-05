@@ -1,0 +1,22 @@
+[STEP] 2026-03-05T14:59:24.745Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-05T14:59:24.745Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:59:24.745Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:59:26.255Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:59:26.396Z - Login attempt completed
+[STEP] 2026-03-05T14:59:28.959Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:59:30.996Z - Navigated to Enrollment section
+[INFO] 2026-03-05T14:59:30.996Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-05T14:59:30.997Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-03-05T14:59:30.997Z - Selected random status: New
+[INFO] 2026-03-05T14:59:30.997Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-03-05T14:59:30.997Z - Applying combined filters - Status: New, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T14:59:30.998Z - Applying status filter: New
+[INFO] 2026-03-05T14:59:37.180Z - Status filter 'New' applied successfully
+[STEP] 2026-03-05T14:59:37.180Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-03-05T14:59:43.346Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-03-05T14:59:43.346Z - Retrieving filtered enrollment results
+[INFO] 2026-03-05T14:59:45.690Z - Retrieved 21 filtered enrollment records
+Record 1 Verified: DAmore, Simon - RPM - new
+Record 2 Verified: Goodwin, Delia - RPM - new
+Record 3 Verified: Jacobson, Emil - RPM - new
+[INFO] 2026-03-05T14:59:45.696Z - Combined Status + Program filter verification completed - 3 records verified

@@ -1,0 +1,116 @@
+[STEP] 2026-03-05T15:11:06.988Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-03-05T15:11:06.988Z - Logging in to Provider Portal
+[STEP] 2026-03-05T15:11:06.988Z - Attempting to login to provider portal
+[STEP] 2026-03-05T15:11:06.988Z - Navigating to provider portal login page
+[INFO] 2026-03-05T15:11:08.609Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T15:11:08.735Z - Login attempt completed
+[STEP] 2026-03-05T15:11:11.305Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:11:13.357Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:11:16.358Z - Applying status filter: Closed
+[INFO] 2026-03-05T15:11:22.506Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T15:11:24.658Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:11:26.734Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:11:27.734Z - Adding new enrollment
+[INFO] 2026-03-05T15:11:34.010Z - Found 12 patients matching 'd'
+[INFO] 2026-03-05T15:11:35.475Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Hodkiewicz, Billy  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T15:11:41.252Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T15:11:41.263Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T15:11:45.946Z - Found 28 patients matching 'e'
+New patient selected: Mante, Stewart 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Mante, Stewart  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T15:11:49.954Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T15:11:49.963Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T15:11:54.564Z - Found 1 patients matching 'x'
+New patient selected: Kemmer, Roxane 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 3/5
+Patient: Kemmer, Roxane  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T15:11:58.324Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T15:12:13.380Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T15:12:17.488Z - Found 27 patients matching 'a'
+New patient selected: Russel, Viola 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 4/5
+Patient: Russel, Viola  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T15:12:21.496Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T15:12:21.504Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Russel, Viola
+  Program: Chronic Care Management (CCM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-03-05T15:12:21.505Z - Enrollment form submitted successfully
+Enrollment created: Russel, Viola | Chronic Care Management (CCM)
+[STEP] 2026-03-05T15:12:21.657Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:12:23.797Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:12:25.801Z - Applying status filter: New
+[INFO] 2026-03-05T15:12:31.985Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T15:12:52.973Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:12:55.020Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:12:57.022Z - Applying status filter: Active
+[INFO] 2026-03-05T15:13:03.199Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T15:13:16.217Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:13:18.270Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:13:20.272Z - Applying status filter: Closed
+[INFO] 2026-03-05T15:13:26.442Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Russel, Viola ===
+Activate Enrollment confirmed
+[STEP] 2026-03-05T15:13:36.713Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:13:38.770Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:13:40.771Z - Applying status filter: Active
+[INFO] 2026-03-05T15:13:46.939Z - Status filter 'Active' applied successfully
+Row: 01Russel, ViolaCCM03-05-2026activeY41491-Aut...+1Autofirstbchvfu AutolastbchvfuDayton Nolan
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Russel, Viola11-29-202303-05-2026Autofirstbchvfu AutolastbchvfuDayton NolanSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Russel, Viola
+Program: CCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-03-05T15:14:02.910Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

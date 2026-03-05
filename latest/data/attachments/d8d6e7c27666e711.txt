@@ -1,0 +1,62 @@
+[STEP] 2026-03-05T15:04:15.945Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-03-05T15:04:15.946Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-05T15:04:15.946Z - Attempting to login to provider portal
+[STEP] 2026-03-05T15:04:15.947Z - Navigating to provider portal login page
+[INFO] 2026-03-05T15:04:17.519Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T15:04:17.650Z - Login attempt completed
+[STEP] 2026-03-05T15:04:20.824Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:04:22.856Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Kemmer, Roxane
+Program: CCM
+Care Manager: Annamae Quitzon
+Provider: Dayton Nolan
+Service Type Short: CCM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Annamae Quitzon
+Initial Provider: Dayton Nolan
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 5
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAnnamae QuitzonDayton NolanA001-Chole...+202-27-2026-03-05-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: CCM
+Checking for Provider: Dayton
+Checking for Care Manager: Annamae
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-03-05T15:05:01.940Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:05:04.030Z - Navigated to Enrollment section
+Checked new ICD: (M666) - Condition-d41d3bo4-1772621409407 - Automated test description - in7zu6wuz1
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: Seth Ondricka
+Updated Care Manager: Autofirstajvtcz Editedajvtcz
+Updated ICD Code: (M666) - Condition-d41d3bo4-1772621409407 - Automated test description - in7zu6wuz1
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 5
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAutofirstajvtcz EditedajvtczSeth OndrickaA001-Chole...+302-27-2026-03-05-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: CCM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

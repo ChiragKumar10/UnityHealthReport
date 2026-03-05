@@ -1,0 +1,14 @@
+[STEP] 2026-03-05T15:00:22.503Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-03-05T15:00:22.503Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-05T15:00:22.504Z - Attempting to login to provider portal
+[STEP] 2026-03-05T15:00:22.504Z - Navigating to provider portal login page
+[INFO] 2026-03-05T15:00:24.204Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T15:00:24.326Z - Login attempt completed
+[STEP] 2026-03-05T15:00:27.327Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:00:29.381Z - Navigated to Enrollment section
+✓ Found 9 patients matching 'y'
+✓ Patient search returned 9 results
+✓ Selected patient: Bode, Dayne 
+✓ Phone auto-filled: 761-891-5335
+✓ DOB auto-filled: 05-30-2023
+[INFO] 2026-03-05T15:00:40.824Z - Patient search and auto-fill verification completed successfully

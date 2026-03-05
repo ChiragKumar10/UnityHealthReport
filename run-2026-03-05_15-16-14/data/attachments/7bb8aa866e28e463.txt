@@ -1,0 +1,30 @@
+[STEP] 2026-03-05T14:56:55.946Z - Step 1: Login to Provider Portal
+[STEP] 2026-03-05T14:56:55.946Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:56:55.946Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:56:57.525Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:56:57.657Z - Login attempt completed
+[INFO] 2026-03-05T14:57:00.770Z - Successfully logged in to Provider Portal
+[STEP] 2026-03-05T14:57:00.770Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-03-05T14:57:00.770Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:57:02.828Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Lemke, Jettie
+Program: RTM
+Status: active
+[INFO] 2026-03-05T14:57:05.857Z - Found active enrollment for patient: Lemke, Jettie, Program: RTM
+[STEP] 2026-03-05T14:57:05.857Z - Step 3: Open Close Enrollment form
+[INFO] 2026-03-05T14:57:10.019Z - Close Enrollment form opened successfully
+[STEP] 2026-03-05T14:57:10.019Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-03-05T14:57:14.160Z - Termination details filled successfully
+[STEP] 2026-03-05T14:57:14.160Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-03-05T14:57:16.254Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-03-05T14:57:16.254Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Lemke, Jettie
+Row text: 02Lemke, JettieRTM03-05-2026activeX89734-Aut...+1Annamae QuitzonDayton Nolan
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-03-05T14:57:16.262Z - Enrollment status verified - remains ACTIVE as expected (not terminated)

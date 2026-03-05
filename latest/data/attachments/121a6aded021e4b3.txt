@@ -1,0 +1,150 @@
+[STEP] 2026-03-05T15:07:23.972Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-03-05T15:07:23.972Z - Logging in to Provider Portal
+[STEP] 2026-03-05T15:07:23.972Z - Attempting to login to provider portal
+[STEP] 2026-03-05T15:07:23.972Z - Navigating to provider portal login page
+[INFO] 2026-03-05T15:07:25.553Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T15:07:25.729Z - Login attempt completed
+[STEP] 2026-03-05T15:07:28.849Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-03-05T15:07:28.849Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:07:30.883Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:07:33.884Z - Applying status filter: Closed
+[INFO] 2026-03-05T15:07:40.031Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T15:07:42.182Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:07:44.250Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:07:45.252Z - Adding new enrollment
+[INFO] 2026-03-05T15:07:51.540Z - Found 20 patients matching 'r'
+[INFO] 2026-03-05T15:07:53.042Z - Selected random program: Principal Care Management (PCM)
+
+Enrollment attempt 1/5
+Patient: Reichert, Katie  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T15:07:58.878Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T15:08:13.933Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T15:08:18.055Z - Found 3 patients matching 'v'
+New patient selected: Zemlak, Haven 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 2/5
+Patient: Zemlak, Haven  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T15:08:22.055Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T15:08:22.065Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T15:08:26.669Z - Found 6 patients matching 'z'
+New patient selected: Zemlak, Marsha 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 3/5
+Patient: Zemlak, Marsha  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T15:08:30.659Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T15:08:45.693Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T15:08:49.871Z - No patients found for 'q', trying again (1/10)
+[INFO] 2026-03-05T15:08:51.959Z - Found 10 patients matching 'b'
+New patient selected: Bernhard, Cedric 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 4/5
+Patient: Bernhard, Cedric  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T15:08:55.945Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T15:08:55.954Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T15:09:00.553Z - Found 11 patients matching 'd'
+New patient selected: Hodkiewicz, Billy 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 5/5
+Patient: Hodkiewicz, Billy  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T15:09:04.265Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T15:09:04.273Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬────────────────────┐
+│ (index) │ Values             │
+├─────────┼────────────────────┤
+│ Name    │ 'Rosendo Turner'   │
+│ DOB     │ 'February 2024 20' │
+│ Phone   │ '6264906333'       │
+└─────────┴────────────────────┘
+[STEP] 2026-03-05T15:09:06.412Z - Creating patient: Rosendo Turner
+[INFO] 2026-03-05T15:09:11.570Z - Patient Rosendo Turner created successfully
+✓ New patient created: Rosendo Turner
+[STEP] 2026-03-05T15:09:11.576Z - Creating enrollment
+[INFO] 2026-03-05T15:09:13.780Z - Patient enrolled in Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-03-05T15:09:13.780Z - Provider: Dayton Nolan
+[INFO] 2026-03-05T15:09:13.780Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Remote Therapeutic Monitoring (RTM) program
+Enrollment created: Turner, Rosendo | Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T15:09:15.931Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:09:18.084Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:09:20.092Z - Applying status filter: New
+[INFO] 2026-03-05T15:09:26.267Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T15:09:47.298Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:09:49.361Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:09:51.361Z - Applying status filter: Active
+[INFO] 2026-03-05T15:09:57.573Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T15:10:10.589Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:10:12.647Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:10:14.648Z - Applying status filter: Closed
+[INFO] 2026-03-05T15:10:20.796Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Turner, Rosendo ===
+[STEP] 2026-03-05T15:10:40.660Z - Navigating to Enrollment section
+[INFO] 2026-03-05T15:10:42.729Z - Navigated to Enrollment section
+[STEP] 2026-03-05T15:10:44.732Z - Applying status filter: New
+[INFO] 2026-03-05T15:10:50.898Z - Status filter 'New' applied successfully
+Row: 01Turner, RosendoRTM03-05-2026newD10954-Aut...+1Autofirstdqhvln Autolastdqhvlnsarvesh test
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Turner, Rosendo626-490-633303-05-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Turner, Rosendo
+Program: RTM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-03-05T15:11:06.869Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status
