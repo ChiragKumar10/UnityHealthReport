@@ -1,0 +1,143 @@
+[STEP] 2026-03-05T12:49:34.162Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-03-05T12:49:34.162Z - Logging in to Provider Portal
+[STEP] 2026-03-05T12:49:34.162Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:49:34.162Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:49:35.748Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:49:35.886Z - Login attempt completed
+[STEP] 2026-03-05T12:49:39.029Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-03-05T12:49:39.029Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:49:41.060Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:49:44.062Z - Applying status filter: Closed
+[INFO] 2026-03-05T12:49:50.252Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T12:49:52.390Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:49:54.477Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:49:55.479Z - Adding new enrollment
+[INFO] 2026-03-05T12:50:01.778Z - Found 20 patients matching 's'
+[INFO] 2026-03-05T12:50:03.216Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Mante, Stewart  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:50:08.936Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:50:08.945Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:50:13.560Z - Found 24 patients matching 'a'
+New patient selected: Mante, Stewart 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Mante, Stewart  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:50:17.545Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:50:17.554Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:50:22.171Z - Found 20 patients matching 's'
+New patient selected: Schowalter, Marshall 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Schowalter, Marshall  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:50:26.157Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:50:26.167Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:50:30.762Z - Found 6 patients matching 'z'
+New patient selected: Kunze, Tatyana 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Kunze, Tatyana  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:50:34.755Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:50:34.765Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:50:39.378Z - Found 7 patients matching 'd'
+New patient selected: Bode, Dayne 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Bode, Dayne  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:50:43.132Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:50:43.142Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬─────────────────┐
+│ (index) │ Values          │
+├─────────┼─────────────────┤
+│ Name    │ 'Kathlyn Nader' │
+│ DOB     │ 'July 2023 20'  │
+│ Phone   │ '9263544065'    │
+└─────────┴─────────────────┘
+[STEP] 2026-03-05T12:50:45.301Z - Creating patient: Kathlyn Nader
+[INFO] 2026-03-05T12:50:50.517Z - Patient Kathlyn Nader created successfully
+✓ New patient created: Kathlyn Nader
+[STEP] 2026-03-05T12:50:50.542Z - Creating enrollment
+[INFO] 2026-03-05T12:50:52.693Z - Patient enrolled in Chronic Care Management (CCM)
+[INFO] 2026-03-05T12:50:52.693Z - Provider: Dayton Nolan
+[INFO] 2026-03-05T12:50:52.693Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Chronic Care Management (CCM) program
+Enrollment created: Nader, Kathlyn | Chronic Care Management (CCM)
+[STEP] 2026-03-05T12:50:54.828Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:50:56.978Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:50:58.979Z - Applying status filter: New
+[INFO] 2026-03-05T12:51:05.156Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T12:51:26.058Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:51:28.123Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:51:30.124Z - Applying status filter: Active
+[INFO] 2026-03-05T12:51:36.302Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T12:51:49.288Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:51:51.368Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:51:53.370Z - Applying status filter: Closed
+[INFO] 2026-03-05T12:51:59.562Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Nader, Kathlyn ===
+[STEP] 2026-03-05T12:52:19.498Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:52:21.578Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:52:23.581Z - Applying status filter: New
+[INFO] 2026-03-05T12:52:29.776Z - Status filter 'New' applied successfully
+Row: 01Nader, KathlynCCM03-05-2026newN525-Autom...+1Autofirstefyvky AutolastefyvkySeth Ondricka
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Nader, Kathlyn926-354-406503-05-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Nader, Kathlyn
+Program: CCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-03-05T12:52:45.760Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

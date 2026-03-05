@@ -1,0 +1,68 @@
+[STEP] 2026-03-05T12:44:15.282Z - Login to Provider Portal
+[STEP] 2026-03-05T12:44:15.651Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:44:15.651Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:44:17.025Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:44:17.161Z - Login attempt completed
+[STEP] 2026-03-05T12:44:20.250Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T12:44:20.250Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T12:44:20.250Z - Dismissing any open drawer
+[INFO] 2026-03-05T12:44:20.756Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T12:44:21.263Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T12:44:21.263Z - Selecting program tab: RTM
+[INFO] 2026-03-05T12:44:22.346Z - Successfully selected RTM tab
+[STEP] 2026-03-05T12:44:22.346Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T12:44:23.449Z - Setting date filter to today
+[INFO] 2026-03-05T12:44:23.456Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T12:44:24.538Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T12:44:24.538Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T12:44:24.539Z - Test: Resolved alerts green color
+[STEP] 2026-03-05T12:44:24.539Z - Getting first available patient from list
+[INFO] 2026-03-05T12:44:24.542Z - No patients in list
+[INFO] 2026-03-05T12:44:24.542Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T12:44:24.542Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T12:44:24.581Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T12:44:26.165Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T12:44:26.165Z - Getting first available patient from list
+[INFO] 2026-03-05T12:44:26.175Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T12:44:26.175Z - Getting visible row count
+[INFO] 2026-03-05T12:44:27.178Z - Visible row count: 1
+[STEP] 2026-03-05T12:44:27.181Z - Getting visible row count
+[INFO] 2026-03-05T12:44:28.184Z - Visible row count: 1
+[STEP] 2026-03-05T12:44:28.185Z - Clicking Number of Alerts for: Automation, Test
+[INFO] 2026-03-05T12:44:29.212Z - Clicked alert area for: Automation, Test
+[STEP] 2026-03-05T12:44:29.212Z - Resolving alert from alerts detail page
+[INFO] 2026-03-05T12:44:30.259Z - No Resolve option — alert may already be resolved
+[STEP] 2026-03-05T12:44:30.259Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T12:44:30.259Z - Dismissing any open drawer
+[INFO] 2026-03-05T12:44:30.763Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T12:44:31.268Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T12:44:31.268Z - Selecting program tab: RTM
+[INFO] 2026-03-05T12:44:32.298Z - Successfully selected RTM tab
+[STEP] 2026-03-05T12:44:32.298Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T12:44:33.358Z - Setting date filter to today
+[INFO] 2026-03-05T12:44:33.364Z - Date filter already set to today: 03-05-2026
+[INFO] 2026-03-05T12:44:33.364Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T12:44:33.364Z - Getting visible row count
+[INFO] 2026-03-05T12:44:34.368Z - Visible row count: 0
+[STEP] 2026-03-05T12:44:34.368Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T12:44:34.396Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T12:44:35.980Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T12:44:35.980Z - Opening Active Alerts modal for: Automation, Test
+[INFO] 2026-03-05T12:44:37.055Z - Active Alerts modal opened for: Automation, Test
+[STEP] 2026-03-05T12:44:37.055Z - Checking Resolved alert green color in Active Alerts modal
+[INFO] 2026-03-05T12:44:37.059Z - Found 11 status h6 elements:
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(76, 175, 80), rgb=(76,175,80), isGreen=true
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z -   "Resolved" → color=rgb(167, 10, 91), rgb=(167,10,91), isGreen=false
+[INFO] 2026-03-05T12:44:37.059Z - Resolved alert found with green color
+[INFO] 2026-03-05T12:44:37.060Z - Resolved alerts display in green color
+[STEP] 2026-03-05T12:44:37.060Z - Closing Active Alerts modal
+[INFO] 2026-03-05T12:44:37.635Z - Active Alerts modal closed

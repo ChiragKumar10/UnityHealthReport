@@ -1,0 +1,35 @@
+[STEP] 2026-03-05T12:41:49.198Z - Login to Provider Portal
+[STEP] 2026-03-05T12:41:49.575Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:41:49.575Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:41:50.919Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:41:51.050Z - Login attempt completed
+[STEP] 2026-03-05T12:41:54.138Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T12:41:54.138Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T12:41:54.138Z - Dismissing any open drawer
+[INFO] 2026-03-05T12:41:54.644Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T12:41:55.153Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T12:41:55.153Z - Selecting program tab: RTM
+[INFO] 2026-03-05T12:41:56.238Z - Successfully selected RTM tab
+[STEP] 2026-03-05T12:41:56.238Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T12:41:57.397Z - Setting date filter to today
+[INFO] 2026-03-05T12:41:57.403Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T12:41:58.474Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T12:41:58.475Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T12:41:58.475Z - Test: Send App chat from Alerts section
+[STEP] 2026-03-05T12:41:58.475Z - Getting first available patient from list
+[INFO] 2026-03-05T12:41:58.485Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T12:41:58.486Z - Sending app chat to: Automation, Test
+[STEP] 2026-03-05T12:41:58.486Z - Selecting action "App Chat" for: Automation, Test
+[STEP] 2026-03-05T12:41:58.486Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-05T12:41:59.565Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-03-05T12:42:00.685Z - Action "App Chat" selected for: Automation, Test
+[STEP] 2026-03-05T12:42:00.685Z - Handling messaging / time log dialog
+[INFO] 2026-03-05T12:42:01.692Z - Detected SEND MESSAGE dialog
+[INFO] 2026-03-05T12:42:02.790Z - Message sent via SEND dialog
+[INFO] 2026-03-05T12:42:02.794Z - TIME LOG follow-up dialog detected — filling and saving
+[STEP] 2026-03-05T12:42:02.794Z - Filling TIME LOG dialog
+[INFO] 2026-03-05T12:42:05.035Z - TIME LOG dialog saved
+[STEP] 2026-03-05T12:42:05.035Z - Closing all overlays
+[INFO] 2026-03-05T12:42:07.098Z - All overlays closed
+[INFO] 2026-03-05T12:42:07.098Z - App chat sent to: Automation, Test
+[INFO] 2026-03-05T12:42:07.098Z - App chat sent from Alerts section

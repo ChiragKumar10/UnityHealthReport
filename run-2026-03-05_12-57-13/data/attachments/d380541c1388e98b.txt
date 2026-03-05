@@ -1,0 +1,53 @@
+[STEP] 2026-03-05T12:44:58.550Z - Login to Provider Portal
+[STEP] 2026-03-05T12:44:58.917Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:44:58.917Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:45:00.208Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:45:00.343Z - Login attempt completed
+[STEP] 2026-03-05T12:45:03.391Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T12:45:03.391Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T12:45:03.391Z - Dismissing any open drawer
+[INFO] 2026-03-05T12:45:03.898Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T12:45:04.405Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T12:45:04.405Z - Selecting program tab: RTM
+[INFO] 2026-03-05T12:45:05.466Z - Successfully selected RTM tab
+[STEP] 2026-03-05T12:45:05.466Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T12:45:06.593Z - Setting date filter to today
+[INFO] 2026-03-05T12:45:06.599Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T12:45:07.693Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T12:45:07.693Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T12:45:07.694Z - Test: View Resolved Note
+[STEP] 2026-03-05T12:45:07.694Z - Getting first available patient from list
+[INFO] 2026-03-05T12:45:07.697Z - No patients in list
+[INFO] 2026-03-05T12:45:07.697Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T12:45:07.697Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T12:45:07.742Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T12:45:09.324Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T12:45:09.324Z - Getting first available patient from list
+[INFO] 2026-03-05T12:45:09.333Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T12:45:09.333Z - Getting visible row count
+[INFO] 2026-03-05T12:45:10.337Z - Visible row count: 1
+[STEP] 2026-03-05T12:45:10.340Z - Getting visible row count
+[INFO] 2026-03-05T12:45:11.345Z - Visible row count: 1
+[STEP] 2026-03-05T12:45:11.345Z - Clicking Number of Alerts for: Automation, Test
+[INFO] 2026-03-05T12:45:12.377Z - Clicked alert area for: Automation, Test
+[STEP] 2026-03-05T12:45:12.377Z - Resolving alert from alerts detail page
+[INFO] 2026-03-05T12:45:13.423Z - No Resolve option — alert may already be resolved
+[STEP] 2026-03-05T12:45:13.423Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T12:45:13.423Z - Dismissing any open drawer
+[INFO] 2026-03-05T12:45:13.927Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T12:45:14.432Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T12:45:14.432Z - Selecting program tab: RTM
+[INFO] 2026-03-05T12:45:15.460Z - Successfully selected RTM tab
+[STEP] 2026-03-05T12:45:15.460Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T12:45:16.528Z - Setting date filter to today
+[INFO] 2026-03-05T12:45:16.533Z - Date filter already set to today: 03-05-2026
+[INFO] 2026-03-05T12:45:16.533Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T12:45:16.533Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T12:45:16.561Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T12:45:18.142Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T12:45:18.142Z - Looking for View Resolved Note on current page
+[INFO] 2026-03-05T12:45:18.145Z - Alert entries on current page: 1
+[INFO] 2026-03-05T12:45:20.284Z - Resolved note content: Work ListEnrollmentsAlertsTasks0BillingDocument LibraryRPM LibraryRTM LibraryCCM LibraryPCM LibraryT...
+[INFO] 2026-03-05T12:45:20.285Z - Resolved note: Work ListEnrollmentsAlertsTasks0BillingDocument LibraryRPM LibraryRTM LibraryCCM...
+[STEP] 2026-03-05T12:45:20.285Z - Closing dialog
+[INFO] 2026-03-05T12:45:20.816Z - Dialog closed

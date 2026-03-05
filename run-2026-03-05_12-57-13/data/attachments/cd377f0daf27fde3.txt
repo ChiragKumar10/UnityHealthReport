@@ -1,0 +1,14 @@
+[STEP] 2026-03-05T12:43:57.042Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-03-05T12:43:57.042Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-05T12:43:57.042Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:43:57.042Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:43:58.759Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:43:58.899Z - Login attempt completed
+[STEP] 2026-03-05T12:44:02.006Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:44:04.056Z - Navigated to Enrollment section
+✓ Found 7 patients matching 'g'
+✓ Patient search returned 7 results
+✓ Selected patient: Schamberger, Nicolas 
+✓ Phone auto-filled: 931-541-6910
+✓ DOB auto-filled: 05-17-2022
+[INFO] 2026-03-05T12:44:15.448Z - Patient search and auto-fill verification completed successfully

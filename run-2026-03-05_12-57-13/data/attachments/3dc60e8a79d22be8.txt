@@ -1,0 +1,51 @@
+[STEP] 2026-03-05T12:40:21.382Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T12:40:21.783Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:40:21.783Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:40:23.028Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:40:23.150Z - Login attempt completed
+[STEP] 2026-03-05T12:40:26.139Z - Test: E2E Edit Unity User
+[STEP] 2026-03-05T12:40:26.139Z - Navigating to Settings page
+[INFO] 2026-03-05T12:40:27.224Z - Navigated to Settings page
+[STEP] 2026-03-05T12:40:27.224Z - Clicking Unity Users tab
+[INFO] 2026-03-05T12:40:28.387Z - Unity Users tab clicked
+[STEP] 2026-03-05T12:40:28.387Z - Adding Unity User: Autofirsthowscn Autolasthowscn
+[STEP] 2026-03-05T12:40:28.387Z - Clicking Add Unity User button
+[INFO] 2026-03-05T12:40:29.569Z - Add Unity User form opened
+[STEP] 2026-03-05T12:40:29.570Z - Filling Unity User form for: Autofirsthowscn Autolasthowscn
+[STEP] 2026-03-05T12:40:29.570Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T12:40:30.490Z - Selected: Care Coordinators
+[STEP] 2026-03-05T12:40:30.566Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T12:40:31.488Z - Selected: Male
+[INFO] 2026-03-05T12:40:31.639Z - Form filled for: Autofirsthowscn Autolasthowscn
+[STEP] 2026-03-05T12:40:31.639Z - Clicking Save button
+[INFO] 2026-03-05T12:40:33.757Z - Save button clicked
+[INFO] 2026-03-05T12:40:33.762Z - Unity User 'Autofirsthowscn Autolasthowscn' added — form closed
+[STEP] 2026-03-05T12:40:33.762Z - Verifying user 'Autofirsthowscn Autolasthowscn' is visible in the list
+[STEP] 2026-03-05T12:40:33.762Z - Searching for user: Autofirsthowscn Autolasthowscn
+[INFO] 2026-03-05T12:40:34.795Z - Search completed for: Autofirsthowscn Autolasthowscn
+[INFO] 2026-03-05T12:40:34.911Z - User 'Autofirsthowscn Autolasthowscn' is visible in the list
+[INFO] 2026-03-05T12:40:34.911Z - User created for edit test
+[STEP] 2026-03-05T12:40:34.911Z - Editing Unity User: Autofirsthowscn Autolasthowscn
+[STEP] 2026-03-05T12:40:34.911Z - Clicking Edit for: Autofirsthowscn Autolasthowscn
+[STEP] 2026-03-05T12:40:34.911Z - Opening action menu for: Autofirsthowscn Autolasthowscn
+[STEP] 2026-03-05T12:40:34.911Z - Searching for user: Autofirsthowscn Autolasthowscn
+[INFO] 2026-03-05T12:40:35.927Z - Search completed for: Autofirsthowscn Autolasthowscn
+[INFO] 2026-03-05T12:40:36.953Z - Action menu opened
+[INFO] 2026-03-05T12:40:38.036Z - Edit form opened from menu
+[STEP] 2026-03-05T12:40:38.036Z - Filling edit form field 'lastName' with: Editedhowscn
+[INFO] 2026-03-05T12:40:38.106Z - Edit form field 'lastName' filled
+[STEP] 2026-03-05T12:40:38.106Z - Clicking Save button
+[INFO] 2026-03-05T12:40:40.203Z - Save button clicked
+[INFO] 2026-03-05T12:40:40.203Z - Unity User 'Autofirsthowscn Autolasthowscn' edited successfully
+[STEP] 2026-03-05T12:40:40.203Z - Verifying user 'Autofirsthowscn Editedhowscn' is visible in the list
+[STEP] 2026-03-05T12:40:40.203Z - Searching for user: Autofirsthowscn Editedhowscn
+[INFO] 2026-03-05T12:40:41.222Z - Search completed for: Autofirsthowscn Editedhowscn
+[INFO] 2026-03-05T12:40:41.327Z - User 'Autofirsthowscn Editedhowscn' is visible in the list
+[INFO] 2026-03-05T12:40:41.327Z - Edited user visible in list
+[STEP] 2026-03-05T12:40:41.327Z - Verifying user 'Autofirsthowscn Autolasthowscn' is NOT in the list
+[STEP] 2026-03-05T12:40:41.327Z - Clearing search box
+[INFO] 2026-03-05T12:40:41.843Z - Search cleared
+[STEP] 2026-03-05T12:40:41.843Z - Searching for user: Autofirsthowscn Autolasthowscn
+[INFO] 2026-03-05T12:40:42.861Z - Search completed for: Autofirsthowscn Autolasthowscn
+[INFO] 2026-03-05T12:40:42.869Z - User 'Autofirsthowscn Autolasthowscn' is not in the list
+[INFO] 2026-03-05T12:40:42.869Z - E2E Edit Unity User verified

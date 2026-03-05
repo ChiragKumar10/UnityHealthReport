@@ -1,0 +1,30 @@
+[STEP] 2026-03-05T12:40:24.374Z - Step 1: Login to Provider Portal
+[STEP] 2026-03-05T12:40:24.374Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:40:24.374Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:40:26.031Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:40:26.157Z - Login attempt completed
+[INFO] 2026-03-05T12:40:29.164Z - Successfully logged in to Provider Portal
+[STEP] 2026-03-05T12:40:29.164Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-03-05T12:40:29.164Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:40:31.199Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Blick, Cameron
+Program: RPM
+Status: active
+[INFO] 2026-03-05T12:40:34.228Z - Found active enrollment for patient: Blick, Cameron, Program: RPM
+[STEP] 2026-03-05T12:40:34.228Z - Step 3: Open Close Enrollment form
+[INFO] 2026-03-05T12:40:38.411Z - Close Enrollment form opened successfully
+[STEP] 2026-03-05T12:40:38.411Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-03-05T12:40:42.546Z - Termination details filled successfully
+[STEP] 2026-03-05T12:40:42.546Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-03-05T12:40:44.633Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-03-05T12:40:44.633Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Blick, Cameron
+Row text: 02Blick, CameronRPM03-05-2026activeY41491-Aut...+1Autofirstbchvfu AutolastbchvfuDayton Nolan
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-03-05T12:40:44.640Z - Enrollment status verified - remains ACTIVE as expected (not terminated)

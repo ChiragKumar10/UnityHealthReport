@@ -1,0 +1,49 @@
+[STEP] 2026-03-05T12:41:00.974Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T12:41:01.389Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:41:01.389Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:41:02.647Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:41:02.784Z - Login attempt completed
+[STEP] 2026-03-05T12:41:05.754Z - Test: Verify cancel Edit Unity User
+[STEP] 2026-03-05T12:41:05.754Z - Navigating to Settings page
+[INFO] 2026-03-05T12:41:06.841Z - Navigated to Settings page
+[STEP] 2026-03-05T12:41:06.841Z - Clicking Unity Users tab
+[INFO] 2026-03-05T12:41:08.005Z - Unity Users tab clicked
+[STEP] 2026-03-05T12:41:08.005Z - Adding Unity User: Autofirstyddvcn Autolastyddvcn
+[STEP] 2026-03-05T12:41:08.005Z - Clicking Add Unity User button
+[INFO] 2026-03-05T12:41:09.192Z - Add Unity User form opened
+[STEP] 2026-03-05T12:41:09.192Z - Filling Unity User form for: Autofirstyddvcn Autolastyddvcn
+[STEP] 2026-03-05T12:41:09.192Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T12:41:10.139Z - Selected: Care Coordinators
+[STEP] 2026-03-05T12:41:10.212Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T12:41:11.135Z - Selected: Male
+[INFO] 2026-03-05T12:41:11.287Z - Form filled for: Autofirstyddvcn Autolastyddvcn
+[STEP] 2026-03-05T12:41:11.287Z - Clicking Save button
+[INFO] 2026-03-05T12:41:13.407Z - Save button clicked
+[INFO] 2026-03-05T12:41:13.412Z - Unity User 'Autofirstyddvcn Autolastyddvcn' added — form closed
+[STEP] 2026-03-05T12:41:13.412Z - Verifying user 'Autofirstyddvcn Autolastyddvcn' is visible in the list
+[STEP] 2026-03-05T12:41:13.413Z - Searching for user: Autofirstyddvcn Autolastyddvcn
+[INFO] 2026-03-05T12:41:14.450Z - Search completed for: Autofirstyddvcn Autolastyddvcn
+[INFO] 2026-03-05T12:41:14.558Z - User 'Autofirstyddvcn Autolastyddvcn' is visible in the list
+[STEP] 2026-03-05T12:41:14.558Z - Cancelling edit for user: Autofirstyddvcn Autolastyddvcn
+[STEP] 2026-03-05T12:41:14.558Z - Clicking Edit for: Autofirstyddvcn Autolastyddvcn
+[STEP] 2026-03-05T12:41:14.558Z - Opening action menu for: Autofirstyddvcn Autolastyddvcn
+[STEP] 2026-03-05T12:41:14.558Z - Searching for user: Autofirstyddvcn Autolastyddvcn
+[INFO] 2026-03-05T12:41:15.571Z - Search completed for: Autofirstyddvcn Autolastyddvcn
+[INFO] 2026-03-05T12:41:16.590Z - Action menu opened
+[INFO] 2026-03-05T12:41:17.696Z - Edit form opened from menu
+[STEP] 2026-03-05T12:41:17.696Z - Filling edit form field 'lastName' with: ShouldNotSave
+[INFO] 2026-03-05T12:41:17.774Z - Edit form field 'lastName' filled
+[STEP] 2026-03-05T12:41:17.775Z - Clicking Cancel button
+[INFO] 2026-03-05T12:41:18.874Z - Cancel button clicked
+[INFO] 2026-03-05T12:41:18.874Z - Edit cancelled
+[STEP] 2026-03-05T12:41:18.874Z - Verifying user 'Autofirstyddvcn Autolastyddvcn' is visible in the list
+[STEP] 2026-03-05T12:41:18.874Z - Searching for user: Autofirstyddvcn Autolastyddvcn
+[INFO] 2026-03-05T12:41:19.888Z - Search completed for: Autofirstyddvcn Autolastyddvcn
+[INFO] 2026-03-05T12:41:19.891Z - User 'Autofirstyddvcn Autolastyddvcn' is visible in the list
+[STEP] 2026-03-05T12:41:19.891Z - Verifying user 'Autofirstyddvcn ShouldNotSave' is NOT in the list
+[STEP] 2026-03-05T12:41:19.891Z - Clearing search box
+[INFO] 2026-03-05T12:41:20.406Z - Search cleared
+[STEP] 2026-03-05T12:41:20.406Z - Searching for user: Autofirstyddvcn ShouldNotSave
+[INFO] 2026-03-05T12:41:21.442Z - Search completed for: Autofirstyddvcn ShouldNotSave
+[INFO] 2026-03-05T12:41:21.446Z - User 'Autofirstyddvcn ShouldNotSave' is not in the list
+[INFO] 2026-03-05T12:41:21.446Z - Cancel Edit Unity User verified

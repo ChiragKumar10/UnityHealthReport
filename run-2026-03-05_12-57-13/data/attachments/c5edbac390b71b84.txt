@@ -1,0 +1,41 @@
+[STEP] 2026-03-05T12:41:21.561Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T12:41:22.053Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:41:22.053Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:41:23.352Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:41:23.481Z - Login attempt completed
+[STEP] 2026-03-05T12:41:26.495Z - Test: Verify mandatory field validations on Edit
+[STEP] 2026-03-05T12:41:26.495Z - Navigating to Settings page
+[INFO] 2026-03-05T12:41:27.570Z - Navigated to Settings page
+[STEP] 2026-03-05T12:41:27.570Z - Clicking Unity Users tab
+[INFO] 2026-03-05T12:41:28.731Z - Unity Users tab clicked
+[STEP] 2026-03-05T12:41:28.731Z - Adding Unity User: Autofirstrvhwcn Autolastrvhwcn
+[STEP] 2026-03-05T12:41:28.731Z - Clicking Add Unity User button
+[INFO] 2026-03-05T12:41:29.910Z - Add Unity User form opened
+[STEP] 2026-03-05T12:41:29.910Z - Filling Unity User form for: Autofirstrvhwcn Autolastrvhwcn
+[STEP] 2026-03-05T12:41:29.910Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T12:41:30.832Z - Selected: Care Coordinators
+[STEP] 2026-03-05T12:41:30.905Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T12:41:31.838Z - Selected: Male
+[INFO] 2026-03-05T12:41:32.062Z - Form filled for: Autofirstrvhwcn Autolastrvhwcn
+[STEP] 2026-03-05T12:41:32.062Z - Clicking Save button
+[INFO] 2026-03-05T12:41:34.172Z - Save button clicked
+[INFO] 2026-03-05T12:41:34.177Z - Unity User 'Autofirstrvhwcn Autolastrvhwcn' added — form closed
+[STEP] 2026-03-05T12:41:34.177Z - Verifying user 'Autofirstrvhwcn Autolastrvhwcn' is visible in the list
+[STEP] 2026-03-05T12:41:34.177Z - Searching for user: Autofirstrvhwcn Autolastrvhwcn
+[INFO] 2026-03-05T12:41:35.212Z - Search completed for: Autofirstrvhwcn Autolastrvhwcn
+[INFO] 2026-03-05T12:41:35.329Z - User 'Autofirstrvhwcn Autolastrvhwcn' is visible in the list
+[STEP] 2026-03-05T12:41:35.329Z - Clicking Edit for: Autofirstrvhwcn Autolastrvhwcn
+[STEP] 2026-03-05T12:41:35.329Z - Opening action menu for: Autofirstrvhwcn Autolastrvhwcn
+[STEP] 2026-03-05T12:41:35.330Z - Searching for user: Autofirstrvhwcn Autolastrvhwcn
+[INFO] 2026-03-05T12:41:36.342Z - Search completed for: Autofirstrvhwcn Autolastrvhwcn
+[INFO] 2026-03-05T12:41:37.365Z - Action menu opened
+[INFO] 2026-03-05T12:41:38.453Z - Edit form opened from menu
+[STEP] 2026-03-05T12:41:38.453Z - Clearing form field: firstName
+[INFO] 2026-03-05T12:41:39.004Z - Form field 'firstName' cleared
+[STEP] 2026-03-05T12:41:39.004Z - Clicking Save button
+[INFO] 2026-03-05T12:41:41.082Z - Save button clicked
+[INFO] 2026-03-05T12:41:42.088Z - Validation prevented save with empty First Name
+[INFO] 2026-03-05T12:41:42.591Z - Validation error visible: true
+[INFO] 2026-03-05T12:41:42.592Z - Mandatory field validations on Edit verified
+[STEP] 2026-03-05T12:41:42.592Z - Clicking Cancel button
+[INFO] 2026-03-05T12:41:43.664Z - Cancel button clicked
