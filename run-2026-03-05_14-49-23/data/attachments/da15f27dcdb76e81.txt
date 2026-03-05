@@ -1,0 +1,35 @@
+[STEP] 2026-03-05T14:36:42.880Z - Test 2: Verify complete modify enrollment workflow - ICD, Care Manager, Provider, Insurance
+[INFO] 2026-03-05T14:36:42.880Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-05T14:36:42.880Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:36:42.881Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:36:44.329Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:36:44.468Z - Login attempt completed
+[STEP] 2026-03-05T14:36:47.558Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:36:49.593Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 4
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Hilpert, Kennedi
+Program: CCM
+Initial ICD Codes: Y41491-Aut...+1
+Care Manager: Autofirstbchvfu Autolastbchvfu
+Provider: Seth Ondricka
+
+=== CAPTURING INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstbchvfu Autolastbchvfu
+Initial Provider: Seth Ondricka
+
+=== UPDATED ENROLLMENT ===
+Updated ICD Code: (X89734) - Condition-p5rpqcn4-1772623429245 - Automated test description - j791h9glnz
+Updated Care Manager: Autofirstatjlcy Autolastatjlcy
+Updated Provider: Dayton Nolan
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== ENROLLMENT LIST VALIDATION ===
+⚠️  LIMITATION: Multiple ICDs present - cannot verify specific ICD in truncated display
+✓ ICD update completed in form
+✓ Care Manager and Provider updated successfully

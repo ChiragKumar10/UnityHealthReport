@@ -1,0 +1,47 @@
+[STEP] 2026-03-05T14:33:23.376Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T14:33:23.840Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:33:23.840Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:33:25.051Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:33:25.206Z - Login attempt completed
+[STEP] 2026-03-05T14:33:28.235Z - Test: Verify delete removes user from list
+[STEP] 2026-03-05T14:33:28.235Z - Navigating to Settings page
+[INFO] 2026-03-05T14:33:29.321Z - Navigated to Settings page
+[STEP] 2026-03-05T14:33:29.321Z - Clicking Unity Users tab
+[INFO] 2026-03-05T14:33:30.513Z - Unity Users tab clicked
+[STEP] 2026-03-05T14:33:30.513Z - Adding Unity User: Autofirstdgtorn Autolastdgtorn
+[STEP] 2026-03-05T14:33:30.513Z - Clicking Add Unity User button
+[INFO] 2026-03-05T14:33:31.698Z - Add Unity User form opened
+[STEP] 2026-03-05T14:33:31.698Z - Filling Unity User form for: Autofirstdgtorn Autolastdgtorn
+[STEP] 2026-03-05T14:33:31.698Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T14:33:32.652Z - Selected: Care Coordinators
+[STEP] 2026-03-05T14:33:32.750Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T14:33:33.684Z - Selected: Male
+[INFO] 2026-03-05T14:33:33.863Z - Form filled for: Autofirstdgtorn Autolastdgtorn
+[STEP] 2026-03-05T14:33:33.864Z - Clicking Save button
+[INFO] 2026-03-05T14:33:35.986Z - Save button clicked
+[INFO] 2026-03-05T14:33:35.992Z - Unity User 'Autofirstdgtorn Autolastdgtorn' added — form closed
+[STEP] 2026-03-05T14:33:35.992Z - Verifying user 'Autofirstdgtorn Autolastdgtorn' is visible in the list
+[STEP] 2026-03-05T14:33:35.992Z - Searching for user: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:37.031Z - Search completed for: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:37.147Z - User 'Autofirstdgtorn Autolastdgtorn' is visible in the list
+[STEP] 2026-03-05T14:33:37.147Z - Deleting Unity User: Autofirstdgtorn Autolastdgtorn
+[STEP] 2026-03-05T14:33:37.147Z - Clicking Delete for: Autofirstdgtorn Autolastdgtorn
+[STEP] 2026-03-05T14:33:37.147Z - Opening action menu for: Autofirstdgtorn Autolastdgtorn
+[STEP] 2026-03-05T14:33:37.148Z - Searching for user: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:38.163Z - Search completed for: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:39.189Z - Action menu opened
+[INFO] 2026-03-05T14:33:40.213Z - Delete clicked from menu
+[INFO] 2026-03-05T14:33:40.216Z - No confirmation dialog — user deleted directly
+[STEP] 2026-03-05T14:33:41.218Z - Clearing search box
+[INFO] 2026-03-05T14:33:41.737Z - Search cleared
+[INFO] 2026-03-05T14:33:41.737Z - Unity User 'Autofirstdgtorn Autolastdgtorn' deleted
+[STEP] 2026-03-05T14:33:41.737Z - Verifying user 'Autofirstdgtorn Autolastdgtorn' is NOT in the list
+[STEP] 2026-03-05T14:33:41.738Z - Clearing search box
+[INFO] 2026-03-05T14:33:42.247Z - Search cleared
+[STEP] 2026-03-05T14:33:42.247Z - Searching for user: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:43.352Z - Search completed for: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:43.371Z - User 'Autofirstdgtorn Autolastdgtorn' is not in the list
+[INFO] 2026-03-05T14:33:43.371Z - User removed from list after delete
+[STEP] 2026-03-05T14:33:43.371Z - Searching for user: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:44.388Z - Search completed for: Autofirstdgtorn Autolastdgtorn
+[INFO] 2026-03-05T14:33:44.391Z - Delete action verified — user no longer in system

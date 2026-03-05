@@ -1,0 +1,148 @@
+[STEP] 2026-03-05T14:43:57.868Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-03-05T14:43:57.869Z - Logging in to Provider Portal
+[STEP] 2026-03-05T14:43:57.869Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:43:57.869Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:43:59.313Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:43:59.452Z - Login attempt completed
+[STEP] 2026-03-05T14:44:01.907Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:44:03.959Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:44:06.962Z - Applying status filter: Closed
+[INFO] 2026-03-05T14:44:13.104Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T14:44:15.241Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:44:17.325Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:44:18.325Z - Adding new enrollment
+[INFO] 2026-03-05T14:44:24.604Z - Found 20 patients matching 's'
+[INFO] 2026-03-05T14:44:26.051Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Shanahan, Tim  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:44:31.826Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T14:44:31.836Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T14:44:36.474Z - Found 20 patients matching 's'
+New patient selected: Hoppe, Ottis 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Hoppe, Ottis  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:44:40.245Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T14:44:40.256Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T14:44:44.858Z - No patients found for 'f', trying again (1/10)
+[INFO] 2026-03-05T14:44:46.915Z - Found 3 patients matching 'v'
+New patient selected: Turcotte, Steven 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: Turcotte, Steven  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:44:50.653Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T14:45:05.703Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T14:45:09.808Z - Found 10 patients matching 'w'
+New patient selected: Ritchie, Winston 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 4/5
+Patient: Ritchie, Winston  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:45:13.553Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T14:45:13.563Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T14:45:18.164Z - No patients found for 'q', trying again (1/10)
+[INFO] 2026-03-05T14:45:20.211Z - Found 6 patients matching 'z'
+New patient selected: Zemlak, Marsha 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 5/5
+Patient: Zemlak, Marsha  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:45:24.152Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T14:45:24.160Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬───────────────────┐
+│ (index) │ Values            │
+├─────────┼───────────────────┤
+│ Name    │ 'Jettie Lemke'    │
+│ DOB     │ 'February 2024 2' │
+│ Phone   │ '6721165754'      │
+└─────────┴───────────────────┘
+[STEP] 2026-03-05T14:45:26.302Z - Creating patient: Jettie Lemke
+[INFO] 2026-03-05T14:45:31.397Z - Patient Jettie Lemke created successfully
+✓ New patient created: Jettie Lemke
+[STEP] 2026-03-05T14:45:31.417Z - Creating enrollment
+[INFO] 2026-03-05T14:45:33.204Z - Patient enrolled in Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-03-05T14:45:33.204Z - Provider: Dayton Nolan
+[INFO] 2026-03-05T14:45:33.204Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Remote Therapeutic Monitoring (RTM) program
+Enrollment created: Lemke, Jettie | Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:45:35.322Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:45:37.454Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:45:39.454Z - Applying status filter: New
+[INFO] 2026-03-05T14:45:45.626Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T14:46:06.601Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:46:08.652Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:46:10.652Z - Applying status filter: Active
+[INFO] 2026-03-05T14:46:16.822Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T14:46:29.785Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:46:31.835Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:46:33.835Z - Applying status filter: Closed
+[INFO] 2026-03-05T14:46:39.994Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Lemke, Jettie ===
+Activate Enrollment confirmed
+[STEP] 2026-03-05T14:46:50.248Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:46:52.301Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:46:54.303Z - Applying status filter: Active
+[INFO] 2026-03-05T14:47:00.510Z - Status filter 'Active' applied successfully
+Row: 01Lemke, JettieRTM03-05-2026activeX89734-Aut...+1Annamae QuitzonDayton Nolan
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Lemke, Jettie02-02-202403-05-2026Annamae QuitzonDayton NolanSelfPay-
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Lemke, Jettie
+Program: RTM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-03-05T14:47:16.513Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

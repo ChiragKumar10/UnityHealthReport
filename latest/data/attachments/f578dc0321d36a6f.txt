@@ -1,0 +1,14 @@
+[STEP] 2026-03-05T14:34:32.382Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-03-05T14:34:32.382Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-05T14:34:32.382Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:34:32.382Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:34:35.252Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:34:35.395Z - Login attempt completed
+[STEP] 2026-03-05T14:34:38.415Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:34:40.446Z - Navigated to Enrollment section
+✓ Found 19 patients matching 'm'
+✓ Patient search returned 19 results
+✓ Selected patient: Champlin, Timothy 
+✓ Phone auto-filled: 617-001-6490
+✓ DOB auto-filled: 05-23-2023
+[INFO] 2026-03-05T14:34:51.846Z - Patient search and auto-fill verification completed successfully

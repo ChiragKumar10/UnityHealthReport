@@ -1,0 +1,33 @@
+[STEP] 2026-03-05T14:31:27.178Z - Login to Provider Portal
+[STEP] 2026-03-05T14:31:27.675Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:31:27.675Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:31:29.035Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:31:29.171Z - Login attempt completed
+[STEP] 2026-03-05T14:31:32.335Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T14:31:32.335Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T14:31:32.335Z - Dismissing any open drawer
+[INFO] 2026-03-05T14:31:32.847Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T14:31:33.374Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T14:31:33.374Z - Selecting program tab: RTM
+[INFO] 2026-03-05T14:31:34.442Z - Successfully selected RTM tab
+[STEP] 2026-03-05T14:31:34.442Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T14:31:35.594Z - Setting date filter to today
+[INFO] 2026-03-05T14:31:35.601Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T14:31:36.682Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T14:31:36.682Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T14:31:36.682Z - Test: Unresolved alerts red color
+[STEP] 2026-03-05T14:31:36.683Z - Getting first available patient from list
+[INFO] 2026-03-05T14:31:36.687Z - No patients in list
+[INFO] 2026-03-05T14:31:36.687Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T14:31:36.687Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T14:31:36.740Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T14:31:38.325Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T14:31:38.325Z - Getting first available patient from list
+[INFO] 2026-03-05T14:31:38.336Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T14:31:38.336Z - Getting visible row count
+[INFO] 2026-03-05T14:31:39.340Z - Visible row count: 1
+[STEP] 2026-03-05T14:31:39.342Z - Checking if unresolved alerts are red
+[INFO] 2026-03-05T14:31:39.344Z - Unresolved alert: found=false, isRed=false, color=, rgb=(0,0,0)
+[STEP] 2026-03-05T14:31:39.344Z - Checking if resolved alerts are green
+[INFO] 2026-03-05T14:31:39.346Z - Resolved alert: found=true, isGreen=true, color=rgb(76, 175, 80), rgb=(76,175,80)
+[INFO] 2026-03-05T14:31:39.347Z - All alerts are resolved — green color verified instead

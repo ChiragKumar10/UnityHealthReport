@@ -1,0 +1,120 @@
+[STEP] 2026-03-05T14:40:36.142Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-03-05T14:40:36.142Z - Logging in to Provider Portal
+[STEP] 2026-03-05T14:40:36.142Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:40:36.142Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:40:37.587Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:40:37.725Z - Login attempt completed
+[STEP] 2026-03-05T14:40:40.733Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-03-05T14:40:40.733Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:40:42.768Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:40:45.768Z - Applying status filter: Closed
+[INFO] 2026-03-05T14:40:51.918Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T14:40:54.036Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:40:56.101Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:40:57.103Z - Adding new enrollment
+[INFO] 2026-03-05T14:41:03.451Z - Found 16 patients matching 'k'
+[INFO] 2026-03-05T14:41:04.914Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Hodkiewicz, Billy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T14:41:10.652Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T14:41:25.697Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T14:41:29.822Z - Found 22 patients matching 't'
+New patient selected: Champlin, Timothy 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Champlin, Timothy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T14:41:33.579Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T14:41:48.610Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T14:41:52.719Z - No patients found for 'q', trying again (1/10)
+[INFO] 2026-03-05T14:41:54.776Z - Found 22 patients matching 'l'
+New patient selected: Jacobson, Emil 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Jacobson, Emil  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T14:41:58.577Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T14:41:58.586Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T14:42:03.179Z - Found 7 patients matching 'g'
+New patient selected: Goodwin, Delia 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Goodwin, Delia  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T14:42:06.927Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T14:42:06.937Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Goodwin, Delia
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Dayton Nolan
+  Care Manager: Annamae Quitzon
+[INFO] 2026-03-05T14:42:06.937Z - Enrollment form submitted successfully
+Enrollment created: Goodwin, Delia | Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T14:42:07.053Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:42:09.172Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:42:11.176Z - Applying status filter: New
+[INFO] 2026-03-05T14:42:17.330Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T14:42:38.270Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:42:40.327Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:42:42.327Z - Applying status filter: Active
+[INFO] 2026-03-05T14:42:48.530Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T14:43:01.510Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:43:03.610Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:43:05.610Z - Applying status filter: Closed
+[INFO] 2026-03-05T14:43:11.786Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Goodwin, Delia ===
+[STEP] 2026-03-05T14:43:31.572Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:43:33.625Z - Navigated to Enrollment section
+[STEP] 2026-03-05T14:43:35.628Z - Applying status filter: New
+[INFO] 2026-03-05T14:43:41.780Z - Status filter 'New' applied successfully
+Row: 01Goodwin, DeliaRPM03-05-2026newL05159-Aut...+1Autofirstahftmh AutolastahftmhDayton Nolan
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Goodwin, Delia961-769-017102-25-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Goodwin, Delia
+Program: RPM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-03-05T14:43:57.724Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

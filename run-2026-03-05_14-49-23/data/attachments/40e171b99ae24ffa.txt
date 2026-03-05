@@ -1,0 +1,22 @@
+[STEP] 2026-03-05T14:33:34.734Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-05T14:33:34.734Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:33:34.734Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:33:36.375Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:33:36.514Z - Login attempt completed
+[STEP] 2026-03-05T14:33:39.023Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:33:41.058Z - Navigated to Enrollment section
+[INFO] 2026-03-05T14:33:41.058Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-05T14:33:41.059Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-03-05T14:33:41.059Z - Selected random status: Active
+[INFO] 2026-03-05T14:33:41.059Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-03-05T14:33:41.059Z - Applying combined filters - Status: Active, Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T14:33:41.059Z - Applying status filter: Active
+[INFO] 2026-03-05T14:33:47.215Z - Status filter 'Active' applied successfully
+[STEP] 2026-03-05T14:33:47.215Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-03-05T14:33:53.351Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-03-05T14:33:53.351Z - Retrieving filtered enrollment results
+[INFO] 2026-03-05T14:33:55.606Z - Retrieved 13 filtered enrollment records
+Record 1 Verified: Reichert, Katie - RTM - active
+Record 2 Verified: Kemmer, Roxane - RTM - active
+Record 3 Verified: Turcotte, Steven - RTM - active
+[INFO] 2026-03-05T14:33:55.613Z - Combined Status + Program filter verification completed - 3 records verified

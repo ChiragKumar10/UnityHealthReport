@@ -1,0 +1,43 @@
+[STEP] 2026-03-05T14:32:19.844Z - Login to Provider Portal
+[STEP] 2026-03-05T14:32:20.237Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:32:20.237Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:32:21.593Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:32:21.735Z - Login attempt completed
+[STEP] 2026-03-05T14:32:24.724Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T14:32:24.724Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T14:32:24.724Z - Dismissing any open drawer
+[INFO] 2026-03-05T14:32:25.232Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T14:32:25.740Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T14:32:25.740Z - Selecting program tab: RTM
+[INFO] 2026-03-05T14:32:26.806Z - Successfully selected RTM tab
+[STEP] 2026-03-05T14:32:26.806Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T14:32:27.945Z - Setting date filter to today
+[INFO] 2026-03-05T14:32:27.951Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T14:32:29.023Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T14:32:29.023Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T14:32:29.023Z - Test: Send Text message from Alerts section
+[STEP] 2026-03-05T14:32:29.023Z - Getting first available patient from list
+[INFO] 2026-03-05T14:32:29.027Z - No patients in list
+[INFO] 2026-03-05T14:32:29.027Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T14:32:29.027Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T14:32:29.070Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T14:32:30.653Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T14:32:30.653Z - Getting first available patient from list
+[INFO] 2026-03-05T14:32:30.664Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T14:32:30.664Z - Getting visible row count
+[INFO] 2026-03-05T14:32:31.667Z - Visible row count: 1
+[STEP] 2026-03-05T14:32:31.670Z - Sending text message to: Automation, Test
+[STEP] 2026-03-05T14:32:31.670Z - Selecting action "Text Message" for: Automation, Test
+[STEP] 2026-03-05T14:32:31.670Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-05T14:32:32.744Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-03-05T14:32:33.850Z - Action "Text Message" selected for: Automation, Test
+[STEP] 2026-03-05T14:32:33.850Z - Handling messaging / time log dialog
+[INFO] 2026-03-05T14:32:34.856Z - Detected SEND MESSAGE dialog
+[INFO] 2026-03-05T14:32:35.938Z - Message sent via SEND dialog
+[INFO] 2026-03-05T14:32:35.941Z - TIME LOG follow-up dialog detected — filling and saving
+[STEP] 2026-03-05T14:32:35.941Z - Filling TIME LOG dialog
+[INFO] 2026-03-05T14:32:38.170Z - TIME LOG dialog saved
+[STEP] 2026-03-05T14:32:38.170Z - Closing all overlays
+[INFO] 2026-03-05T14:32:40.230Z - All overlays closed
+[INFO] 2026-03-05T14:32:40.230Z - Text message sent to: Automation, Test
+[INFO] 2026-03-05T14:32:40.230Z - Text message sent from Alerts section

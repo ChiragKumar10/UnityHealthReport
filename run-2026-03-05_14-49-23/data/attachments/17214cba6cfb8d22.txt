@@ -1,0 +1,29 @@
+[STEP] 2026-03-05T14:33:57.562Z - Login to Provider Portal
+[STEP] 2026-03-05T14:33:57.922Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:33:57.922Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:33:59.122Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:33:59.268Z - Login attempt completed
+[STEP] 2026-03-05T14:34:01.782Z - Navigate to RTM > Week 1
+[STEP] 2026-03-05T14:34:01.782Z - Navigating to RTM tab
+[INFO] 2026-03-05T14:34:01.902Z - Successfully navigated to RTM tab
+[STEP] 2026-03-05T14:34:01.902Z - Selecting Week 1
+[INFO] 2026-03-05T14:34:03.054Z - Successfully selected Week 1
+[STEP] 2026-03-05T14:34:03.054Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-03-05T14:34:03.059Z - Patient "Automation, Test" found in interaction list
+[STEP] 2026-03-05T14:34:03.060Z - Test: Update EHR Chart activity — Week 1
+[STEP] 2026-03-05T14:34:03.060Z - Verifying "Update EHR Chart" completed for: Automation, Test
+[INFO] 2026-03-05T14:34:08.106Z - "Update EHR Chart" for "Automation, Test" is not completed
+[STEP] 2026-03-05T14:34:08.107Z - Getting total time logged for: Automation, Test
+[INFO] 2026-03-05T14:34:08.155Z - Total time logged for "Automation, Test": 45:00
+[STEP] 2026-03-05T14:34:08.155Z - Performing activity workflow: Update EHR Chart for Automation, Test
+[STEP] 2026-03-05T14:34:08.155Z - Clicking "Update EHR Chart" checkbox for patient: Automation, Test
+[INFO] 2026-03-05T14:34:09.319Z - "Update EHR Chart" checkbox clicked for: Automation, Test
+[INFO] 2026-03-05T14:34:10.779Z - Activity workflow completed: Update EHR Chart for Automation, Test
+[STEP] 2026-03-05T14:34:10.779Z - Verifying "Update EHR Chart" completed for: Automation, Test
+[INFO] 2026-03-05T14:34:10.836Z - "Update EHR Chart" for "Automation, Test" is completed
+[INFO] 2026-03-05T14:34:10.837Z - Update EHR Chart activity completed
+[STEP] 2026-03-05T14:34:10.837Z - Getting total time logged for: Automation, Test
+[INFO] 2026-03-05T14:34:10.880Z - Total time logged for "Automation, Test": 50:00
+[STEP] 2026-03-05T14:34:10.880Z - Verifying time incremented: 45:00 -> 50:00
+[INFO] 2026-03-05T14:34:10.881Z - Time incremented: true (45:00 → 50:00)
+[INFO] 2026-03-05T14:34:10.881Z - Update EHR Chart completed. Time: 45:00 → 50:00

@@ -1,0 +1,22 @@
+[ERROR] 2026-03-05T14:33:41.029Z - Failed to upload attachment
+Error: ENOENT: no such file or directory, stat '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/fixtures/test-attachment.txt'
+    at Object.stat (node:internal/fs/promises:1026:18)
+    at resolvePathsAndDirectoryForInputFiles (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright-core/lib/client/elementHandle.js:213:18)
+    at convertInputFiles (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright-core/lib/client/elementHandle.js:232:42)
+    at Frame.setInputFiles (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright-core/lib/client/frame.js:348:23)
+    at Locator.setInputFiles (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright-core/lib/client/locator.js:265:12)
+    at WeekInteractionPage.uploadAttachment (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:1015:13)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-bulk.spec.ts:106:9
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:322:9
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/testInfo.js:311:11
+    at TimeoutManager.withRunnable (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:320:7
+    at WorkerMain._runTest (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:295:5)
+    at WorkerMain.runTestGroup (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:199:11)
+    at process.<anonymous> (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/common/process.js:65:22) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/fixtures/test-attachment.txt'
+}

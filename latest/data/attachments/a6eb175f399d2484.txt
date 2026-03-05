@@ -1,0 +1,20 @@
+[STEP] 2026-03-05T14:32:33.652Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-05T14:32:33.653Z - Attempting to login to provider portal
+[STEP] 2026-03-05T14:32:33.653Z - Navigating to provider portal login page
+[INFO] 2026-03-05T14:32:35.094Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T14:32:35.227Z - Login attempt completed
+[STEP] 2026-03-05T14:32:37.804Z - Navigating to Enrollment section
+[INFO] 2026-03-05T14:32:39.835Z - Navigated to Enrollment section
+[INFO] 2026-03-05T14:32:39.836Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-05T14:32:39.836Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-03-05T14:32:39.836Z - Generated random date range: 12-08-2025 to 12-12-2025
+[INFO] 2026-03-05T14:32:39.836Z - Selected random program: Principal Care Management (PCM)
+[INFO] 2026-03-05T14:32:39.836Z - Applying combined filters - Date: 12-08-2025 to 12-12-2025, Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T14:32:39.836Z - Applying date filter: 12-08-2025 to 12-12-2025
+[INFO] 2026-03-05T14:32:45.970Z - Date filter applied successfully
+[STEP] 2026-03-05T14:32:45.970Z - Applying program filter: Principal Care Management (PCM)
+[INFO] 2026-03-05T14:32:52.066Z - Program filter 'Principal Care Management (PCM)' applied successfully
+[STEP] 2026-03-05T14:32:52.066Z - Retrieving filtered enrollment results
+[INFO] 2026-03-05T14:33:04.070Z - No enrollment records found after applying filter
+No Record found for filters - Date: 12-08-2025 to 12-12-2025, Program: PCM
+Test completed - No records found for the selected filters
