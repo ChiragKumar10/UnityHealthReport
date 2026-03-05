@@ -1,0 +1,35 @@
+[STEP] 2026-03-05T13:54:49.867Z - Test 2: Verify complete modify enrollment workflow - ICD, Care Manager, Provider, Insurance
+[INFO] 2026-03-05T13:54:49.868Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-05T13:54:49.868Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:54:49.868Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:54:51.373Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:54:51.554Z - Login attempt completed
+[STEP] 2026-03-05T13:54:54.590Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:54:56.627Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 4
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Trantow, Darren
+Program: PCM
+Initial ICD Codes: Y41491-Aut...+1
+Care Manager: Autofirstdkywzm Editeddkywzm
+Provider: sarvesh test
+
+=== CAPTURING INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstdkywzm Editeddkywzm
+Initial Provider: sarvesh test
+
+=== UPDATED ENROLLMENT ===
+Updated ICD Code: (D10954) - Condition-7ju3tu3i-1772626144103 - Automated test description - bv4xfd97uf5
+Updated Care Manager: Autofirstcdxxfu Editedcdxxfu
+Updated Provider: Dayton Nolan
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== ENROLLMENT LIST VALIDATION ===
+⚠️  LIMITATION: Multiple ICDs present - cannot verify specific ICD in truncated display
+✓ ICD update completed in form
+✓ Care Manager and Provider updated successfully

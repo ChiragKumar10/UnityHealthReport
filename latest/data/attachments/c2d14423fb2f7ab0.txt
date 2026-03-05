@@ -1,0 +1,43 @@
+[STEP] 2026-03-05T13:51:14.589Z - Login to Provider Portal
+[STEP] 2026-03-05T13:51:14.983Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:51:14.983Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:51:16.186Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:51:16.313Z - Login attempt completed
+[STEP] 2026-03-05T13:51:19.384Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T13:51:19.384Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T13:51:19.384Z - Dismissing any open drawer
+[INFO] 2026-03-05T13:51:19.890Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T13:51:20.396Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T13:51:20.396Z - Selecting program tab: RTM
+[INFO] 2026-03-05T13:51:21.471Z - Successfully selected RTM tab
+[STEP] 2026-03-05T13:51:21.471Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T13:51:22.580Z - Setting date filter to today
+[INFO] 2026-03-05T13:51:22.586Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T13:51:23.672Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T13:51:23.672Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T13:51:23.673Z - Test: Send App chat from Alerts section
+[STEP] 2026-03-05T13:51:23.673Z - Getting first available patient from list
+[INFO] 2026-03-05T13:51:23.676Z - No patients in list
+[INFO] 2026-03-05T13:51:23.676Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T13:51:23.676Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T13:51:23.714Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T13:51:25.305Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T13:51:25.305Z - Getting first available patient from list
+[INFO] 2026-03-05T13:51:25.316Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T13:51:25.316Z - Getting visible row count
+[INFO] 2026-03-05T13:51:26.321Z - Visible row count: 1
+[STEP] 2026-03-05T13:51:26.323Z - Sending app chat to: Automation, Test
+[STEP] 2026-03-05T13:51:26.323Z - Selecting action "App Chat" for: Automation, Test
+[STEP] 2026-03-05T13:51:26.323Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-05T13:51:27.390Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-03-05T13:51:28.500Z - Action "App Chat" selected for: Automation, Test
+[STEP] 2026-03-05T13:51:28.500Z - Handling messaging / time log dialog
+[INFO] 2026-03-05T13:51:29.506Z - Detected SEND MESSAGE dialog
+[INFO] 2026-03-05T13:51:30.583Z - Message sent via SEND dialog
+[INFO] 2026-03-05T13:51:30.586Z - TIME LOG follow-up dialog detected — filling and saving
+[STEP] 2026-03-05T13:51:30.586Z - Filling TIME LOG dialog
+[INFO] 2026-03-05T13:51:32.812Z - TIME LOG dialog saved
+[STEP] 2026-03-05T13:51:32.812Z - Closing all overlays
+[INFO] 2026-03-05T13:51:34.871Z - All overlays closed
+[INFO] 2026-03-05T13:51:34.871Z - App chat sent to: Automation, Test
+[INFO] 2026-03-05T13:51:34.871Z - App chat sent from Alerts section

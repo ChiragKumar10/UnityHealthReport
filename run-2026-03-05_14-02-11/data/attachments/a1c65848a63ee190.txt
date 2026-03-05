@@ -1,0 +1,53 @@
+[STEP] 2026-03-05T13:49:42.156Z - Login to Provider Portal
+[STEP] 2026-03-05T13:49:42.518Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:49:42.518Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:49:43.940Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:49:44.080Z - Login attempt completed
+[STEP] 2026-03-05T13:49:47.002Z - Navigate to RTM Library > Assessment
+[STEP] 2026-03-05T13:49:47.002Z - Opening RPM Library
+[INFO] 2026-03-05T13:49:47.113Z - Successfully opened RTM Library
+[STEP] 2026-03-05T13:49:47.113Z - Opening Assessment section
+[INFO] 2026-03-05T13:49:47.246Z - Successfully opened Assessment section
+[STEP] 2026-03-05T13:49:47.247Z - Test: Delete assessment
+[STEP] 2026-03-05T13:49:47.247Z - Creating assessment: Delete Test 1772718587247
+[STEP] 2026-03-05T13:49:47.247Z - Clicking Add Assessment button
+[INFO] 2026-03-05T13:49:48.350Z - Add Assessment form opened
+[STEP] 2026-03-05T13:49:48.350Z - Filling assessment title: Delete Test 1772718587247
+[INFO] 2026-03-05T13:49:48.362Z - Assessment title filled: Delete Test 1772718587247
+[STEP] 2026-03-05T13:49:48.362Z - Selecting assessment type: SURVEY
+[INFO] 2026-03-05T13:49:49.088Z - Assessment type selected: SURVEY
+[STEP] 2026-03-05T13:49:49.088Z - Selecting frequency: DAILY
+[INFO] 2026-03-05T13:49:49.768Z - Frequency selected: DAILY
+[STEP] 2026-03-05T13:49:49.768Z - Clicking Next button
+[INFO] 2026-03-05T13:49:50.850Z - Next button clicked
+[STEP] 2026-03-05T13:49:50.851Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-03-05T13:49:51.791Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-03-05T13:49:51.791Z - Clicking Next button
+[INFO] 2026-03-05T13:49:52.821Z - Next button clicked
+[STEP] 2026-03-05T13:49:52.821Z - Clicking Finish button
+[INFO] 2026-03-05T13:49:53.853Z - Finish button clicked
+[INFO] 2026-03-05T13:49:53.853Z - Assessment 'Delete Test 1772718587247' created successfully
+[STEP] 2026-03-05T13:49:53.853Z - Verifying assessment 'Delete Test 1772718587247' is visible in the list
+[STEP] 2026-03-05T13:49:53.853Z - Searching for assessment: Delete Test 1772718587247
+[INFO] 2026-03-05T13:49:54.613Z - Search completed for assessment: Delete Test 1772718587247
+[INFO] 2026-03-05T13:49:54.617Z - Assessment 'Delete Test 1772718587247' is visible in the list
+[INFO] 2026-03-05T13:49:54.617Z - Assessment 'Delete Test 1772718587247' created for deletion
+[STEP] 2026-03-05T13:49:54.619Z - Clicking Delete for: Delete Test 1772718587247
+[STEP] 2026-03-05T13:49:54.619Z - Searching for assessment: Delete Test 1772718587247
+[INFO] 2026-03-05T13:49:55.135Z - Search completed for assessment: Delete Test 1772718587247
+[STEP] 2026-03-05T13:49:55.135Z - Opening action menu for: Delete Test 1772718587247
+[INFO] 2026-03-05T13:49:56.202Z - Action menu opened
+[INFO] 2026-03-05T13:49:57.241Z - Delete dialog opened
+[INFO] 2026-03-05T13:49:57.248Z - Delete confirmation: Are you sure you want to delete "Delete Test 1772718587247" Assessment?
+[STEP] 2026-03-05T13:49:57.248Z - Confirming delete
+[STEP] 2026-03-05T13:49:59.270Z - Clearing search box
+[INFO] 2026-03-05T13:49:59.790Z - Search cleared
+[INFO] 2026-03-05T13:49:59.791Z - Delete confirmed
+[INFO] 2026-03-05T13:49:59.791Z - Deletion confirmed
+[STEP] 2026-03-05T13:49:59.791Z - Verifying assessment 'Delete Test 1772718587247' is NOT in the list
+[STEP] 2026-03-05T13:49:59.791Z - Clearing search box
+[INFO] 2026-03-05T13:50:00.300Z - Search cleared
+[STEP] 2026-03-05T13:50:00.300Z - Searching for assessment: Delete Test 1772718587247
+[INFO] 2026-03-05T13:50:01.019Z - Search completed for assessment: Delete Test 1772718587247
+[INFO] 2026-03-05T13:50:01.023Z - Assessment 'Delete Test 1772718587247' is not in the list
+[INFO] 2026-03-05T13:50:01.023Z - Delete functionality test completed

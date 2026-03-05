@@ -1,0 +1,22 @@
+[STEP] 2026-03-05T13:51:03.064Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-05T13:51:03.064Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:51:03.064Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:51:04.573Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:51:04.713Z - Login attempt completed
+[STEP] 2026-03-05T13:51:07.667Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:51:09.720Z - Navigated to Enrollment section
+[INFO] 2026-03-05T13:51:09.720Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-05T13:51:09.720Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-03-05T13:51:09.720Z - Generated random date range: 02-08-2026 to 03-03-2026
+[INFO] 2026-03-05T13:51:09.720Z - Selected random program: Principal Care Management (PCM)
+[INFO] 2026-03-05T13:51:09.720Z - Applying combined filters - Date: 02-08-2026 to 03-03-2026, Program: Principal Care Management (PCM)
+[STEP] 2026-03-05T13:51:09.721Z - Applying date filter: 02-08-2026 to 03-03-2026
+[INFO] 2026-03-05T13:51:15.859Z - Date filter applied successfully
+[STEP] 2026-03-05T13:51:15.859Z - Applying program filter: Principal Care Management (PCM)
+[INFO] 2026-03-05T13:51:22.021Z - Program filter 'Principal Care Management (PCM)' applied successfully
+[STEP] 2026-03-05T13:51:22.021Z - Retrieving filtered enrollment results
+[INFO] 2026-03-05T13:51:24.547Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Champlin, Timothy - PCM - 02-25-2026
+Record 2 Verified: Kunze, Tatyana - PCM - 02-27-2026
+Record 3 Verified: Jacobson, Emil - PCM - 02-26-2026
+[INFO] 2026-03-05T13:51:24.551Z - Combined Date + Program filter verification completed - 3 records verified

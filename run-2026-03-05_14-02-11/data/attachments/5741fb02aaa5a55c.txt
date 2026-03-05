@@ -1,0 +1,37 @@
+[STEP] 2026-03-05T13:50:15.000Z - Login to Provider Portal
+[STEP] 2026-03-05T13:50:15.365Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:50:15.365Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:50:16.567Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:50:16.699Z - Login attempt completed
+[STEP] 2026-03-05T13:50:19.189Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T13:50:19.189Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T13:50:19.189Z - Dismissing any open drawer
+[INFO] 2026-03-05T13:50:19.696Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T13:50:20.207Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T13:50:20.208Z - Selecting program tab: RTM
+[INFO] 2026-03-05T13:50:21.330Z - Successfully selected RTM tab
+[STEP] 2026-03-05T13:50:21.330Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T13:50:22.466Z - Setting date filter to today
+[INFO] 2026-03-05T13:50:22.475Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T13:50:23.596Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T13:50:23.596Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T13:50:23.597Z - Test: Search in Alerts list
+[STEP] 2026-03-05T13:50:23.597Z - Getting first available patient from list
+[INFO] 2026-03-05T13:50:23.601Z - No patients in list
+[INFO] 2026-03-05T13:50:23.601Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T13:50:23.601Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T13:50:23.658Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T13:50:25.270Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T13:50:25.270Z - Getting first available patient from list
+[INFO] 2026-03-05T13:50:25.283Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T13:50:25.284Z - Getting visible row count
+[INFO] 2026-03-05T13:50:26.288Z - Visible row count: 1
+[STEP] 2026-03-05T13:50:26.290Z - Searching for patient: Automation
+[INFO] 2026-03-05T13:50:27.339Z - Search completed for: Automation
+[STEP] 2026-03-05T13:50:27.339Z - Checking if patient "Automation, Test" is in the list
+[INFO] 2026-03-05T13:50:27.347Z - Patient "Automation, Test" found in list
+[INFO] 2026-03-05T13:50:27.348Z - Patient found via search: "Automation"
+[STEP] 2026-03-05T13:50:27.348Z - Clearing search input
+[INFO] 2026-03-05T13:50:27.879Z - Search cleared
+[STEP] 2026-03-05T13:50:27.879Z - Getting visible row count
+[INFO] 2026-03-05T13:50:28.884Z - Visible row count: 1

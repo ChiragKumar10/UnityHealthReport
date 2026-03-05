@@ -1,0 +1,86 @@
+[STEP] 2026-03-05T13:57:27.084Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-03-05T13:57:27.085Z - Logging in to Provider Portal
+[STEP] 2026-03-05T13:57:27.086Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:57:27.086Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:57:28.585Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:57:28.731Z - Login attempt completed
+[STEP] 2026-03-05T13:57:31.218Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:57:33.270Z - Navigated to Enrollment section
+[STEP] 2026-03-05T13:57:36.278Z - Applying status filter: Closed
+[INFO] 2026-03-05T13:57:42.454Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T13:57:44.586Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:57:46.673Z - Navigated to Enrollment section
+[STEP] 2026-03-05T13:57:47.676Z - Adding new enrollment
+[INFO] 2026-03-05T13:57:54.018Z - Found 20 patients matching 'e'
+[INFO] 2026-03-05T13:57:55.491Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Crist, Hassie  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T13:58:01.449Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T13:58:16.500Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T13:58:20.619Z - Found 9 patients matching 'd'
+New patient selected: Hilpert, Kennedi 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Hilpert, Kennedi  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T13:58:24.589Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T13:58:24.600Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Hilpert, Kennedi
+  Program: Chronic Care Management (CCM)
+  Provider: Seth Ondricka
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-03-05T13:58:24.600Z - Enrollment form submitted successfully
+Enrollment created: Hilpert, Kennedi | Chronic Care Management (CCM)
+[STEP] 2026-03-05T13:58:24.725Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:58:26.857Z - Navigated to Enrollment section
+[STEP] 2026-03-05T13:58:28.860Z - Applying status filter: New
+[INFO] 2026-03-05T13:58:35.030Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T13:58:55.978Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:58:58.034Z - Navigated to Enrollment section
+[STEP] 2026-03-05T13:59:00.035Z - Applying status filter: Active
+[INFO] 2026-03-05T13:59:06.204Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T13:59:19.177Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:59:21.234Z - Navigated to Enrollment section
+[STEP] 2026-03-05T13:59:23.235Z - Applying status filter: Closed
+[INFO] 2026-03-05T13:59:29.415Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Hilpert, Kennedi ===
+Activate Enrollment confirmed
+[STEP] 2026-03-05T13:59:39.668Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:59:41.733Z - Navigated to Enrollment section
+[STEP] 2026-03-05T13:59:43.734Z - Applying status filter: Active
+[INFO] 2026-03-05T13:59:49.925Z - Status filter 'Active' applied successfully
+Row: 01Hilpert, KennediCCM03-05-2026activeY41491-Aut...+1Autofirstbchvfu AutolastbchvfuSeth Ondricka
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Hilpert, Kennedi06-04-202203-05-2026Autofirstbchvfu AutolastbchvfuSeth OndrickaSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Hilpert, Kennedi
+Program: CCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-03-05T14:00:05.864Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

@@ -1,0 +1,50 @@
+[STEP] 2026-03-05T13:52:14.346Z - Login to Provider Portal
+[STEP] 2026-03-05T13:52:14.704Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:52:14.704Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:52:15.902Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:52:16.028Z - Login attempt completed
+[STEP] 2026-03-05T13:52:19.071Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-05T13:52:19.071Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T13:52:19.071Z - Dismissing any open drawer
+[INFO] 2026-03-05T13:52:19.577Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T13:52:20.093Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T13:52:20.093Z - Selecting program tab: RTM
+[INFO] 2026-03-05T13:52:21.149Z - Successfully selected RTM tab
+[STEP] 2026-03-05T13:52:21.149Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-05T13:52:22.277Z - Setting date filter to today
+[INFO] 2026-03-05T13:52:22.284Z - Changing date from "03-04-2026" to "03-05-2026"
+[INFO] 2026-03-05T13:52:23.371Z - Date filter set to: 03-05-2026
+[INFO] 2026-03-05T13:52:23.371Z - Switched to Alerts monitoring view
+[STEP] 2026-03-05T13:52:23.372Z - Test: Verify monitoring accessible after escalation
+[STEP] 2026-03-05T13:52:23.372Z - Getting first available patient from list
+[INFO] 2026-03-05T13:52:23.374Z - No patients in list
+[INFO] 2026-03-05T13:52:23.374Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-05T13:52:23.375Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-05T13:52:23.416Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-05T13:52:24.993Z - Alert status filter set to: Resolved
+[STEP] 2026-03-05T13:52:24.993Z - Getting first available patient from list
+[INFO] 2026-03-05T13:52:25.003Z - First available patient: "Automation, Test"
+[STEP] 2026-03-05T13:52:25.003Z - Getting visible row count
+[INFO] 2026-03-05T13:52:26.006Z - Visible row count: 1
+[STEP] 2026-03-05T13:52:26.007Z - Escalating alert for "Automation, Test" via action
+[STEP] 2026-03-05T13:52:26.008Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-05T13:52:27.073Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-03-05T13:52:28.146Z - Escalate button clicked, checking for dialog...
+[INFO] 2026-03-05T13:52:28.149Z - Escalation note input visible: true
+[INFO] 2026-03-05T13:52:28.164Z - Escalation note entered
+[INFO] 2026-03-05T13:52:28.169Z - Add button visible: true
+[INFO] 2026-03-05T13:52:30.226Z - Add button clicked
+[INFO] 2026-03-05T13:52:30.241Z - Escalation drawer still open — dismissing
+[STEP] 2026-03-05T13:52:30.241Z - Dismissing any open drawer
+[INFO] 2026-03-05T13:52:30.745Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-03-05T13:52:33.302Z - Drawer closed via Cancel button
+[INFO] 2026-03-05T13:52:33.302Z - Alert escalated for "Automation, Test" via action
+[STEP] 2026-03-05T13:52:33.302Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-05T13:52:33.302Z - Dismissing any open drawer
+[INFO] 2026-03-05T13:52:33.805Z - No drawer backdrop in DOM
+[INFO] 2026-03-05T13:52:34.309Z - Successfully on Care Team Work List
+[STEP] 2026-03-05T13:52:34.309Z - Selecting program tab: RTM
+[INFO] 2026-03-05T13:52:35.345Z - Successfully selected RTM tab
+[STEP] 2026-03-05T13:52:35.346Z - Getting count for Alerts
+[INFO] 2026-03-05T13:52:35.353Z - Alerts count: 1
+[INFO] 2026-03-05T13:52:35.353Z - Alert count after escalation: 1

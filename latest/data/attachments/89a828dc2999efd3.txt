@@ -1,0 +1,42 @@
+[STEP] 2026-03-05T13:57:22.226Z - Login to Provider Portal
+[STEP] 2026-03-05T13:57:22.590Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:57:22.590Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:57:23.799Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:57:23.934Z - Login attempt completed
+[STEP] 2026-03-05T13:57:27.053Z - Test: E2E Edit Profile
+[STEP] 2026-03-05T13:57:27.053Z - Navigating to Settings page
+[INFO] 2026-03-05T13:57:28.140Z - Navigated to Settings page
+[STEP] 2026-03-05T13:57:28.141Z - Clicking Edit Profile button
+[INFO] 2026-03-05T13:57:29.324Z - Edit Profile form opened
+[STEP] 2026-03-05T13:57:29.325Z - Capturing original profile values from edit form
+[STEP] 2026-03-05T13:57:29.325Z - Getting edit form value for: bio
+[INFO] 2026-03-05T13:57:29.333Z - Edit form field 'bio' value: 
+[STEP] 2026-03-05T13:57:29.333Z - Getting edit form value for: yearOfExperience
+[INFO] 2026-03-05T13:57:29.338Z - Edit form field 'yearOfExperience' value: 
+[INFO] 2026-03-05T13:57:29.338Z - Captured original values: {"bio":"","yearOfExperience":""}
+[INFO] 2026-03-05T13:57:29.338Z - Original values captured: {"bio":"","yearOfExperience":""}
+[STEP] 2026-03-05T13:57:29.338Z - Getting edit form value for: firstName
+[INFO] 2026-03-05T13:57:29.343Z - Edit form field 'firstName' value: chirag
+[INFO] 2026-03-05T13:57:29.344Z - First Name auto-populated: chirag
+[STEP] 2026-03-05T13:57:29.345Z - Filling edit form field 'bio' with: Automation Bio 1772719047053
+[INFO] 2026-03-05T13:57:29.404Z - Edit form field 'bio' filled
+[STEP] 2026-03-05T13:57:29.405Z - Filling edit form field 'yearOfExperience' with: 5
+[INFO] 2026-03-05T13:57:29.423Z - Edit form field 'yearOfExperience' filled
+[STEP] 2026-03-05T13:57:29.424Z - Clicking Save on Edit Profile form
+[INFO] 2026-03-05T13:57:30.504Z - Edit Profile saved
+[INFO] 2026-03-05T13:57:30.504Z - Profile updated
+[STEP] 2026-03-05T13:57:32.506Z - Getting value for field: Bio
+[INFO] 2026-03-05T13:57:32.513Z - Field 'Bio' value: Automation Bio 1772719047053
+[INFO] 2026-03-05T13:57:32.514Z - Bio updated to: Automation Bio 1772719047053
+[STEP] 2026-03-05T13:57:32.514Z - Restoring original profile values
+[STEP] 2026-03-05T13:57:32.514Z - Restoring original profile values
+[STEP] 2026-03-05T13:57:32.514Z - Clicking Edit Profile button
+[INFO] 2026-03-05T13:57:33.721Z - Edit Profile form opened
+[STEP] 2026-03-05T13:57:33.721Z - Filling edit form field 'bio' with: 
+[INFO] 2026-03-05T13:57:33.773Z - Edit form field 'bio' filled
+[STEP] 2026-03-05T13:57:33.773Z - Filling edit form field 'yearOfExperience' with: 
+[INFO] 2026-03-05T13:57:33.797Z - Edit form field 'yearOfExperience' filled
+[STEP] 2026-03-05T13:57:33.797Z - Clicking Save on Edit Profile form
+[INFO] 2026-03-05T13:57:34.868Z - Edit Profile saved
+[INFO] 2026-03-05T13:57:34.868Z - Profile values restored
+[INFO] 2026-03-05T13:57:34.868Z - E2E Edit Profile test completed

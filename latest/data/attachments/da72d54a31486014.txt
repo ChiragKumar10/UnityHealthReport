@@ -1,0 +1,44 @@
+[STEP] 2026-03-05T13:54:24.956Z - Test 1: Verify update enrollment - ICD code changes
+[INFO] 2026-03-05T13:54:24.958Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-05T13:54:24.958Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:54:24.958Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:54:26.476Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:54:26.624Z - Login attempt completed
+[STEP] 2026-03-05T13:54:29.158Z - Navigating to Enrollment section
+[INFO] 2026-03-05T13:54:31.213Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 4
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Trantow, Darren
+Program: PCM
+Initial ICD Codes: Y41491-Aut...+1
+
+=== UPDATE ENROLLMENT - MODIFYING ICD CODES ===
+ICD Codes Currently Selected: 
+
+================================================================================
+⚠️  KNOWN APPLICATION BUG - TEST SKIPPED
+================================================================================
+
+Bug Description:
+  When opening the ICD dropdown in Update Enrollment form, checkboxes for
+  already-selected ICDs are NOT marked as checked, even though those ICDs
+  are assigned to the enrollment.
+
+Expected Behavior:
+  ICDs assigned to enrollment should show as checked in the dropdown
+
+Actual Behavior:
+  Enrollment list shows: Y41491-Aut...+1
+  Update form shows: No checked ICDs (0 selected)
+
+Impact:
+  Cannot test ICD update functionality until this bug is fixed
+
+Action:
+  SKIPPING this test - will re-enable when application bug is resolved
+================================================================================
+

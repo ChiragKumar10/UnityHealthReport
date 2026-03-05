@@ -1,0 +1,51 @@
+[STEP] 2026-03-05T13:50:21.659Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T13:50:22.025Z - Attempting to login to provider portal
+[STEP] 2026-03-05T13:50:22.025Z - Navigating to provider portal login page
+[INFO] 2026-03-05T13:50:23.229Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T13:50:23.361Z - Login attempt completed
+[STEP] 2026-03-05T13:50:25.875Z - Test: E2E Edit Unity User
+[STEP] 2026-03-05T13:50:25.876Z - Navigating to Settings page
+[INFO] 2026-03-05T13:50:26.942Z - Navigated to Settings page
+[STEP] 2026-03-05T13:50:26.942Z - Clicking Unity Users tab
+[INFO] 2026-03-05T13:50:28.101Z - Unity Users tab clicked
+[STEP] 2026-03-05T13:50:28.101Z - Adding Unity User: Autofirstpevxln Autolastpevxln
+[STEP] 2026-03-05T13:50:28.101Z - Clicking Add Unity User button
+[INFO] 2026-03-05T13:50:29.283Z - Add Unity User form opened
+[STEP] 2026-03-05T13:50:29.283Z - Filling Unity User form for: Autofirstpevxln Autolastpevxln
+[STEP] 2026-03-05T13:50:29.283Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T13:50:30.235Z - Selected: Care Coordinators
+[STEP] 2026-03-05T13:50:30.320Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T13:50:31.270Z - Selected: Male
+[INFO] 2026-03-05T13:50:31.433Z - Form filled for: Autofirstpevxln Autolastpevxln
+[STEP] 2026-03-05T13:50:31.433Z - Clicking Save button
+[INFO] 2026-03-05T13:50:33.555Z - Save button clicked
+[INFO] 2026-03-05T13:50:33.560Z - Unity User 'Autofirstpevxln Autolastpevxln' added — form closed
+[STEP] 2026-03-05T13:50:33.560Z - Verifying user 'Autofirstpevxln Autolastpevxln' is visible in the list
+[STEP] 2026-03-05T13:50:33.560Z - Searching for user: Autofirstpevxln Autolastpevxln
+[INFO] 2026-03-05T13:50:34.598Z - Search completed for: Autofirstpevxln Autolastpevxln
+[INFO] 2026-03-05T13:50:34.723Z - User 'Autofirstpevxln Autolastpevxln' is visible in the list
+[INFO] 2026-03-05T13:50:34.723Z - User created for edit test
+[STEP] 2026-03-05T13:50:34.723Z - Editing Unity User: Autofirstpevxln Autolastpevxln
+[STEP] 2026-03-05T13:50:34.723Z - Clicking Edit for: Autofirstpevxln Autolastpevxln
+[STEP] 2026-03-05T13:50:34.723Z - Opening action menu for: Autofirstpevxln Autolastpevxln
+[STEP] 2026-03-05T13:50:34.723Z - Searching for user: Autofirstpevxln Autolastpevxln
+[INFO] 2026-03-05T13:50:35.739Z - Search completed for: Autofirstpevxln Autolastpevxln
+[INFO] 2026-03-05T13:50:36.766Z - Action menu opened
+[INFO] 2026-03-05T13:50:37.865Z - Edit form opened from menu
+[STEP] 2026-03-05T13:50:37.866Z - Filling edit form field 'lastName' with: Editedpevxln
+[INFO] 2026-03-05T13:50:37.947Z - Edit form field 'lastName' filled
+[STEP] 2026-03-05T13:50:37.947Z - Clicking Save button
+[INFO] 2026-03-05T13:50:40.045Z - Save button clicked
+[INFO] 2026-03-05T13:50:40.045Z - Unity User 'Autofirstpevxln Autolastpevxln' edited successfully
+[STEP] 2026-03-05T13:50:40.045Z - Verifying user 'Autofirstpevxln Editedpevxln' is visible in the list
+[STEP] 2026-03-05T13:50:40.045Z - Searching for user: Autofirstpevxln Editedpevxln
+[INFO] 2026-03-05T13:50:41.065Z - Search completed for: Autofirstpevxln Editedpevxln
+[INFO] 2026-03-05T13:50:41.172Z - User 'Autofirstpevxln Editedpevxln' is visible in the list
+[INFO] 2026-03-05T13:50:41.172Z - Edited user visible in list
+[STEP] 2026-03-05T13:50:41.172Z - Verifying user 'Autofirstpevxln Autolastpevxln' is NOT in the list
+[STEP] 2026-03-05T13:50:41.173Z - Clearing search box
+[INFO] 2026-03-05T13:50:41.690Z - Search cleared
+[STEP] 2026-03-05T13:50:41.691Z - Searching for user: Autofirstpevxln Autolastpevxln
+[INFO] 2026-03-05T13:50:42.712Z - Search completed for: Autofirstpevxln Autolastpevxln
+[INFO] 2026-03-05T13:50:42.716Z - User 'Autofirstpevxln Autolastpevxln' is not in the list
+[INFO] 2026-03-05T13:50:42.716Z - E2E Edit Unity User verified
