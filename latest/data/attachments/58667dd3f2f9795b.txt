@@ -1,0 +1,33 @@
+[STEP] 2026-03-05T12:17:04.740Z - Login to Provider Portal
+[STEP] 2026-03-05T12:17:05.102Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:17:05.102Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:17:06.252Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:17:06.386Z - Login attempt completed
+[STEP] 2026-03-05T12:17:09.362Z - Navigating to Alerts page
+[INFO] 2026-03-05T12:17:10.438Z - Navigated to Alerts page
+[STEP] 2026-03-05T12:17:10.439Z - Test: Filter by Active status
+[STEP] 2026-03-05T12:17:10.439Z - Selecting status filter: Active
+[INFO] 2026-03-05T12:17:12.506Z - Status filter set to: Active
+[STEP] 2026-03-05T12:17:12.506Z - Getting alert row count
+[INFO] 2026-03-05T12:17:13.510Z - Alert row count: 8
+[STEP] 2026-03-05T12:17:13.510Z - Verifying all rows have status: Not Resolved
+[STEP] 2026-03-05T12:17:13.510Z - Getting alert row count
+[INFO] 2026-03-05T12:17:14.513Z - Alert row count: 8
+[STEP] 2026-03-05T12:17:14.513Z - Getting cell text at row 1, column 8
+[INFO] 2026-03-05T12:17:14.520Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.520Z - Getting cell text at row 2, column 8
+[INFO] 2026-03-05T12:17:14.529Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.529Z - Getting cell text at row 3, column 8
+[INFO] 2026-03-05T12:17:14.535Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.535Z - Getting cell text at row 4, column 8
+[INFO] 2026-03-05T12:17:14.541Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.542Z - Getting cell text at row 5, column 8
+[INFO] 2026-03-05T12:17:14.547Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.548Z - Getting cell text at row 6, column 8
+[INFO] 2026-03-05T12:17:14.553Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.553Z - Getting cell text at row 7, column 8
+[INFO] 2026-03-05T12:17:14.559Z - Cell text: Not Resolved
+[STEP] 2026-03-05T12:17:14.559Z - Getting cell text at row 8, column 8
+[INFO] 2026-03-05T12:17:14.564Z - Cell text: Not Resolved
+[INFO] 2026-03-05T12:17:14.564Z - All 8 rows have status: Not Resolved
+[INFO] 2026-03-05T12:17:14.565Z - Active filter shows only Not Resolved alerts

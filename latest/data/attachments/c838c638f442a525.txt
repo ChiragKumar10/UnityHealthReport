@@ -1,0 +1,70 @@
+[STEP] 2026-03-05T12:24:09.544Z - Login to Provider Portal
+[STEP] 2026-03-05T12:24:09.955Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:24:09.955Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:24:11.115Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:24:11.264Z - Login attempt completed
+[STEP] 2026-03-05T12:24:14.212Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-03-05T12:24:14.212Z - Opening CCM Library
+[INFO] 2026-03-05T12:24:15.279Z - Successfully opened CCM Library
+[STEP] 2026-03-05T12:24:15.279Z - Opening Care Plan section
+[INFO] 2026-03-05T12:24:16.316Z - Successfully opened Care Plan section
+[STEP] 2026-03-05T12:24:16.317Z - Test: Archive workflow
+[STEP] 2026-03-05T12:24:16.317Z - Creating minimal care plan: Archive Plan 1772713456317
+[STEP] 2026-03-05T12:24:16.317Z - Clicking Create Care Plan button
+[INFO] 2026-03-05T12:24:18.443Z - Create Care Plan form opened
+[STEP] 2026-03-05T12:24:18.443Z - Selecting diagnosis code: A001
+[INFO] 2026-03-05T12:24:22.892Z - Diagnosis code 'A001' selected
+[STEP] 2026-03-05T12:24:22.892Z - Filling care plan name: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:22.917Z - Care plan name filled: Archive Plan 1772713456317
+[STEP] 2026-03-05T12:24:22.917Z - Selecting section: Overview
+[INFO] 2026-03-05T12:24:23.281Z - Section 'Overview' selected
+[STEP] 2026-03-05T12:24:23.281Z - Selecting section: Long Term Goals
+[INFO] 2026-03-05T12:24:23.645Z - Section 'Long Term Goals' selected
+[STEP] 2026-03-05T12:24:23.645Z - Clicking Next button
+[INFO] 2026-03-05T12:24:25.699Z - Next button clicked
+[STEP] 2026-03-05T12:24:25.699Z - Filling Overview section
+[INFO] 2026-03-05T12:24:25.717Z - Care Plan header filled
+[INFO] 2026-03-05T12:24:25.737Z - Care Plan footer filled
+[STEP] 2026-03-05T12:24:25.737Z - Clicking Next button
+[INFO] 2026-03-05T12:24:27.818Z - Next button clicked
+[STEP] 2026-03-05T12:24:27.818Z - Filling goal section - Title: Archive Goal, Type: Free Text
+[INFO] 2026-03-05T12:24:27.834Z - Section note filled
+[INFO] 2026-03-05T12:24:27.857Z - Goal title filled: Archive Goal
+[INFO] 2026-03-05T12:24:29.496Z - Goal type selected: Free Text
+[STEP] 2026-03-05T12:24:29.496Z - Clicking Finish button
+[INFO] 2026-03-05T12:24:31.567Z - Finish button clicked - Care plan saved
+[INFO] 2026-03-05T12:24:31.567Z - Minimal care plan 'Archive Plan 1772713456317' created
+[STEP] 2026-03-05T12:24:31.567Z - Verifying care plan 'Archive Plan 1772713456317' is visible in the list
+[STEP] 2026-03-05T12:24:31.567Z - Searching for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:32.108Z - Search completed for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:32.114Z - Care plan 'Archive Plan 1772713456317' is visible in the list
+[INFO] 2026-03-05T12:24:32.114Z - Care plan 'Archive Plan 1772713456317' created for archiving
+[STEP] 2026-03-05T12:24:32.114Z - Clicking Archive for: Archive Plan 1772713456317
+[STEP] 2026-03-05T12:24:32.114Z - Searching for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:32.631Z - Search completed for care plan: Archive Plan 1772713456317
+[STEP] 2026-03-05T12:24:32.631Z - Opening action menu for: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:33.752Z - Action menu opened
+[STEP] 2026-03-05T12:24:35.785Z - Clearing search box
+[INFO] 2026-03-05T12:24:36.302Z - Search cleared
+[INFO] 2026-03-05T12:24:36.302Z - Care plan 'Archive Plan 1772713456317' archived
+[STEP] 2026-03-05T12:24:36.302Z - Waiting for toast message containing: CarePlan Archive Successful
+[INFO] 2026-03-05T12:24:36.309Z - Toast message found: CarePlan Archive Successful
+[INFO] 2026-03-05T12:24:36.309Z - Archive toast verified
+[STEP] 2026-03-05T12:24:36.309Z - Verifying care plan 'Archive Plan 1772713456317' is NOT in the list
+[STEP] 2026-03-05T12:24:36.309Z - Clearing search box
+[INFO] 2026-03-05T12:24:36.817Z - Search cleared
+[STEP] 2026-03-05T12:24:36.817Z - Searching for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:37.502Z - Search completed for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:37.508Z - Care plan 'Archive Plan 1772713456317' is not in the list
+[INFO] 2026-03-05T12:24:37.508Z - Archived plan not visible in default list
+[STEP] 2026-03-05T12:24:37.508Z - Toggling Show Archived checkbox
+[INFO] 2026-03-05T12:24:39.572Z - Show Archived toggled
+[INFO] 2026-03-05T12:24:39.572Z - Show Archived toggled ON
+[STEP] 2026-03-05T12:24:39.572Z - Searching for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:40.091Z - Search completed for care plan: Archive Plan 1772713456317
+[INFO] 2026-03-05T12:24:40.096Z - Archived plan visible with Show Archived ON
+[STEP] 2026-03-05T12:24:40.096Z - Clearing search box
+[INFO] 2026-03-05T12:24:40.613Z - Search cleared
+[STEP] 2026-03-05T12:24:40.613Z - Toggling Show Archived checkbox
+[INFO] 2026-03-05T12:24:42.658Z - Show Archived toggled
+[INFO] 2026-03-05T12:24:42.659Z - Archive workflow test completed

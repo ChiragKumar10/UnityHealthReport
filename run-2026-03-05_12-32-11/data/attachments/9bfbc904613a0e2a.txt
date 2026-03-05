@@ -1,0 +1,48 @@
+[STEP] 2026-03-05T12:20:04.211Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T12:20:04.606Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:20:04.606Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:20:05.753Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:20:05.885Z - Login attempt completed
+[STEP] 2026-03-05T12:20:08.820Z - Test: E2E Delete Unity User
+[STEP] 2026-03-05T12:20:08.820Z - Navigating to Settings page
+[INFO] 2026-03-05T12:20:09.916Z - Navigated to Settings page
+[STEP] 2026-03-05T12:20:09.916Z - Clicking Unity Users tab
+[INFO] 2026-03-05T12:20:11.081Z - Unity Users tab clicked
+[STEP] 2026-03-05T12:20:11.081Z - Adding Unity User: Autofirstiupban Autolastiupban
+[STEP] 2026-03-05T12:20:11.081Z - Clicking Add Unity User button
+[INFO] 2026-03-05T12:20:12.291Z - Add Unity User form opened
+[STEP] 2026-03-05T12:20:12.292Z - Filling Unity User form for: Autofirstiupban Autolastiupban
+[STEP] 2026-03-05T12:20:12.292Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T12:20:13.246Z - Selected: Care Coordinators
+[STEP] 2026-03-05T12:20:13.334Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T12:20:14.274Z - Selected: Male
+[INFO] 2026-03-05T12:20:14.439Z - Form filled for: Autofirstiupban Autolastiupban
+[STEP] 2026-03-05T12:20:14.440Z - Clicking Save button
+[INFO] 2026-03-05T12:20:16.569Z - Save button clicked
+[INFO] 2026-03-05T12:20:16.575Z - Unity User 'Autofirstiupban Autolastiupban' added — form closed
+[STEP] 2026-03-05T12:20:16.575Z - Verifying user 'Autofirstiupban Autolastiupban' is visible in the list
+[STEP] 2026-03-05T12:20:16.575Z - Searching for user: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:17.617Z - Search completed for: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:17.730Z - User 'Autofirstiupban Autolastiupban' is visible in the list
+[INFO] 2026-03-05T12:20:17.730Z - User created for delete test
+[STEP] 2026-03-05T12:20:17.730Z - Deleting Unity User: Autofirstiupban Autolastiupban
+[STEP] 2026-03-05T12:20:17.731Z - Clicking Delete for: Autofirstiupban Autolastiupban
+[STEP] 2026-03-05T12:20:17.731Z - Opening action menu for: Autofirstiupban Autolastiupban
+[STEP] 2026-03-05T12:20:17.731Z - Searching for user: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:18.746Z - Search completed for: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:19.772Z - Action menu opened
+[INFO] 2026-03-05T12:20:20.804Z - Delete clicked from menu
+[INFO] 2026-03-05T12:20:20.806Z - No confirmation dialog — user deleted directly
+[STEP] 2026-03-05T12:20:21.808Z - Clearing search box
+[INFO] 2026-03-05T12:20:22.325Z - Search cleared
+[INFO] 2026-03-05T12:20:22.325Z - Unity User 'Autofirstiupban Autolastiupban' deleted
+[STEP] 2026-03-05T12:20:22.325Z - Verifying user 'Autofirstiupban Autolastiupban' is NOT in the list
+[STEP] 2026-03-05T12:20:22.325Z - Clearing search box
+[INFO] 2026-03-05T12:20:22.836Z - Search cleared
+[STEP] 2026-03-05T12:20:22.836Z - Searching for user: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:23.944Z - Search completed for: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:23.952Z - User 'Autofirstiupban Autolastiupban' is not in the list
+[INFO] 2026-03-05T12:20:23.952Z - User removed from list
+[STEP] 2026-03-05T12:20:23.952Z - Searching for user: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:24.965Z - Search completed for: Autofirstiupban Autolastiupban
+[INFO] 2026-03-05T12:20:24.968Z - E2E Delete Unity User verified

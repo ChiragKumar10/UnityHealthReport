@@ -1,0 +1,52 @@
+[STEP] 2026-03-05T12:20:22.740Z - Login to Provider Portal
+[STEP] 2026-03-05T12:20:23.119Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:20:23.119Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:20:24.363Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:20:24.490Z - Login attempt completed
+[STEP] 2026-03-05T12:20:26.999Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-03-05T12:20:26.999Z - Opening CCM Library
+[INFO] 2026-03-05T12:20:28.071Z - Successfully opened CCM Library
+[STEP] 2026-03-05T12:20:28.071Z - Opening Care Plan section
+[INFO] 2026-03-05T12:20:29.109Z - Successfully opened Care Plan section
+[STEP] 2026-03-05T12:20:29.110Z - Test: Draft save and resume
+[STEP] 2026-03-05T12:20:29.110Z - Clicking Create Care Plan button
+[INFO] 2026-03-05T12:20:31.227Z - Create Care Plan form opened
+[STEP] 2026-03-05T12:20:31.227Z - Selecting diagnosis code: A001
+[INFO] 2026-03-05T12:20:35.650Z - Diagnosis code 'A001' selected
+[STEP] 2026-03-05T12:20:35.650Z - Filling care plan name: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:35.672Z - Care plan name filled: Draft Plan 1772713229110
+[STEP] 2026-03-05T12:20:35.672Z - Selecting section: Overview
+[INFO] 2026-03-05T12:20:36.035Z - Section 'Overview' selected
+[STEP] 2026-03-05T12:20:36.035Z - Selecting section: Short Term Goals
+[INFO] 2026-03-05T12:20:36.386Z - Section 'Short Term Goals' selected
+[STEP] 2026-03-05T12:20:36.386Z - Clicking Next button
+[INFO] 2026-03-05T12:20:38.441Z - Next button clicked
+[STEP] 2026-03-05T12:20:38.441Z - Filling Overview section
+[INFO] 2026-03-05T12:20:38.459Z - Care Plan header filled
+[INFO] 2026-03-05T12:20:38.477Z - Care Plan footer filled
+[STEP] 2026-03-05T12:20:38.477Z - Clicking Save as Draft button
+[INFO] 2026-03-05T12:20:40.527Z - Save as Draft clicked
+[INFO] 2026-03-05T12:20:40.527Z - Care plan saved as draft
+[STEP] 2026-03-05T12:20:40.527Z - Verifying care plan 'Draft Plan 1772713229110' is visible in the list
+[STEP] 2026-03-05T12:20:40.527Z - Searching for care plan: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:41.071Z - Search completed for care plan: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:41.940Z - Care plan 'Draft Plan 1772713229110' is visible in the list
+[INFO] 2026-03-05T12:20:41.940Z - Draft care plan found in list
+[INFO] 2026-03-05T12:20:41.944Z - Draft status verified
+[STEP] 2026-03-05T12:20:41.944Z - Clicking Edit for: Draft Plan 1772713229110
+[STEP] 2026-03-05T12:20:41.944Z - Searching for care plan: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:42.459Z - Search completed for care plan: Draft Plan 1772713229110
+[STEP] 2026-03-05T12:20:42.459Z - Opening action menu for: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:43.520Z - Action menu opened
+[INFO] 2026-03-05T12:20:45.569Z - Edit form opened
+[INFO] 2026-03-05T12:20:45.569Z - Draft care plan reopened for editing
+[INFO] 2026-03-05T12:20:45.572Z - Draft data persisted: name = 'Draft Plan 1772713229110'
+[STEP] 2026-03-05T12:20:45.572Z - Clicking Next button
+[INFO] 2026-03-05T12:20:47.637Z - Next button clicked
+[STEP] 2026-03-05T12:20:47.637Z - Clicking Finish button
+[INFO] 2026-03-05T12:20:49.709Z - Finish button clicked - Care plan saved
+[STEP] 2026-03-05T12:20:49.709Z - Verifying care plan 'Draft Plan 1772713229110' is visible in the list
+[STEP] 2026-03-05T12:20:49.709Z - Searching for care plan: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:50.229Z - Search completed for care plan: Draft Plan 1772713229110
+[INFO] 2026-03-05T12:20:50.233Z - Care plan 'Draft Plan 1772713229110' is visible in the list
+[INFO] 2026-03-05T12:20:50.233Z - Draft save and resume test completed

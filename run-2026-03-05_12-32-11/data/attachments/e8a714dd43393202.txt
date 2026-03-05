@@ -1,0 +1,101 @@
+[STEP] 2026-03-05T12:27:12.638Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-03-05T12:27:12.639Z - Logging in to Provider Portal
+[STEP] 2026-03-05T12:27:12.639Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:27:12.639Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:27:14.359Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:27:14.499Z - Login attempt completed
+[STEP] 2026-03-05T12:27:17.533Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:27:19.573Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:27:22.576Z - Applying status filter: Closed
+[INFO] 2026-03-05T12:27:28.753Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T12:27:30.925Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:27:33.005Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:27:34.014Z - Adding new enrollment
+[INFO] 2026-03-05T12:27:40.276Z - Found 25 patients matching 'r'
+[INFO] 2026-03-05T12:27:41.700Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Russel, Viola  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:27:47.455Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:27:47.467Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:27:52.184Z - Found 10 patients matching 'w'
+New patient selected: Watsica, Billie 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Watsica, Billie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:27:56.179Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T12:28:11.230Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T12:28:15.349Z - Found 23 patients matching 'o'
+New patient selected: Blick, Cameron 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Blick, Cameron  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:28:19.372Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T12:28:19.383Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Blick, Cameron
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-03-05T12:28:19.383Z - Enrollment form submitted successfully
+Enrollment created: Blick, Cameron | Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:28:19.614Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:28:21.761Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:28:23.762Z - Applying status filter: New
+[INFO] 2026-03-05T12:28:29.915Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T12:28:51.003Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:28:53.086Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:28:55.093Z - Applying status filter: Active
+[INFO] 2026-03-05T12:29:01.256Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T12:29:14.379Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:29:16.436Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:29:18.438Z - Applying status filter: Closed
+[INFO] 2026-03-05T12:29:24.606Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Blick, Cameron ===
+Activate Enrollment confirmed
+[STEP] 2026-03-05T12:29:34.899Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:29:36.971Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:29:38.974Z - Applying status filter: Active
+[INFO] 2026-03-05T12:29:45.131Z - Status filter 'Active' applied successfully
+Row: 01Blick, CameronRPM03-05-2026activeY41491-Aut...+1Autofirstbchvfu AutolastbchvfuDayton Nolan
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Blick, Cameron07-20-202203-05-2026Autofirstbchvfu AutolastbchvfuDayton NolanSelfPay-
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Blick, Cameron
+Program: RPM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-03-05T12:30:01.181Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

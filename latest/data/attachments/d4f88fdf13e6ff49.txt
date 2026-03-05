@@ -1,0 +1,23 @@
+[STEP] 2026-03-05T12:15:05.452Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-05T12:15:05.453Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:15:05.453Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:15:07.234Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:15:07.396Z - Login attempt completed
+[STEP] 2026-03-05T12:15:10.400Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:15:12.453Z - Navigated to Enrollment section
+[INFO] 2026-03-05T12:15:12.453Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-05T12:15:12.454Z - Test 7: Verify combined Date + Status + Program filter
+[INFO] 2026-03-05T12:15:12.455Z - Generated random date range: 12-19-2025 to 02-23-2026
+[INFO] 2026-03-05T12:15:12.455Z - Selected random status: New
+[INFO] 2026-03-05T12:15:12.455Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-03-05T12:15:12.455Z - Applying combined filters - Date: 12-19-2025 to 02-23-2026, Status: New, Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-05T12:15:12.455Z - Applying date filter: 12-19-2025 to 02-23-2026
+[INFO] 2026-03-05T12:15:18.617Z - Date filter applied successfully
+[STEP] 2026-03-05T12:15:18.617Z - Applying status filter: New
+[INFO] 2026-03-05T12:15:24.753Z - Status filter 'New' applied successfully
+[STEP] 2026-03-05T12:15:24.753Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-03-05T12:15:30.844Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-03-05T12:15:30.845Z - Retrieving filtered enrollment results
+[INFO] 2026-03-05T12:15:42.852Z - No enrollment records found after applying filter
+No Record found for filters - Date: 12-19-2025 to 02-23-2026, Status: New, Program: RTM
+Test completed - No records found for the selected filters

@@ -1,0 +1,37 @@
+[STEP] 2026-03-05T12:20:46.428Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-05T12:20:46.822Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:20:46.823Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:20:47.981Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:20:48.117Z - Login attempt completed
+[STEP] 2026-03-05T12:20:50.711Z - Test: Verify deactivate user
+[STEP] 2026-03-05T12:20:50.711Z - Navigating to Settings page
+[INFO] 2026-03-05T12:20:51.789Z - Navigated to Settings page
+[STEP] 2026-03-05T12:20:51.789Z - Clicking Unity Users tab
+[INFO] 2026-03-05T12:20:52.954Z - Unity Users tab clicked
+[STEP] 2026-03-05T12:20:52.954Z - Adding Unity User: Autofirstntzdan Autolastntzdan
+[STEP] 2026-03-05T12:20:52.954Z - Clicking Add Unity User button
+[INFO] 2026-03-05T12:20:54.157Z - Add Unity User form opened
+[STEP] 2026-03-05T12:20:54.157Z - Filling Unity User form for: Autofirstntzdan Autolastntzdan
+[STEP] 2026-03-05T12:20:54.157Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-05T12:20:55.127Z - Selected: Care Coordinators
+[STEP] 2026-03-05T12:20:55.212Z - Selecting dropdown option: Male
+[INFO] 2026-03-05T12:20:56.156Z - Selected: Male
+[INFO] 2026-03-05T12:20:56.320Z - Form filled for: Autofirstntzdan Autolastntzdan
+[STEP] 2026-03-05T12:20:56.320Z - Clicking Save button
+[INFO] 2026-03-05T12:20:58.450Z - Save button clicked
+[INFO] 2026-03-05T12:20:58.456Z - Unity User 'Autofirstntzdan Autolastntzdan' added — form closed
+[STEP] 2026-03-05T12:20:58.456Z - Verifying user 'Autofirstntzdan Autolastntzdan' is visible in the list
+[STEP] 2026-03-05T12:20:58.456Z - Searching for user: Autofirstntzdan Autolastntzdan
+[INFO] 2026-03-05T12:20:59.498Z - Search completed for: Autofirstntzdan Autolastntzdan
+[INFO] 2026-03-05T12:20:59.613Z - User 'Autofirstntzdan Autolastntzdan' is visible in the list
+[STEP] 2026-03-05T12:20:59.613Z - Searching for user: Autofirstntzdan Autolastntzdan
+[INFO] 2026-03-05T12:21:00.629Z - Search completed for: Autofirstntzdan Autolastntzdan
+[STEP] 2026-03-05T12:21:00.629Z - Getting status for: Autofirstntzdan Autolastntzdan
+[INFO] 2026-03-05T12:21:01.633Z - User 'Autofirstntzdan Autolastntzdan' status: Active
+[INFO] 2026-03-05T12:21:01.634Z - Initial status is Active
+[STEP] 2026-03-05T12:21:01.634Z - Toggling status for: Autofirstntzdan Autolastntzdan
+[INFO] 2026-03-05T12:21:03.669Z - Status toggled for: Autofirstntzdan Autolastntzdan
+[STEP] 2026-03-05T12:21:03.669Z - Getting status for: Autofirstntzdan Autolastntzdan
+[INFO] 2026-03-05T12:21:04.674Z - User 'Autofirstntzdan Autolastntzdan' status: Inactive
+[INFO] 2026-03-05T12:21:04.674Z - Status changed to Inactive
+[INFO] 2026-03-05T12:21:04.678Z - Deactivate user verified

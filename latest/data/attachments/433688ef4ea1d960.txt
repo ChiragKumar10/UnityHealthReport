@@ -1,0 +1,153 @@
+[STEP] 2026-03-05T12:23:16.120Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-03-05T12:23:16.120Z - Logging in to Provider Portal
+[STEP] 2026-03-05T12:23:16.120Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:23:16.121Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:23:17.858Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:23:18.043Z - Login attempt completed
+[STEP] 2026-03-05T12:23:21.159Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-03-05T12:23:21.159Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:23:23.232Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:23:26.234Z - Applying status filter: Closed
+[INFO] 2026-03-05T12:23:32.380Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-05T12:23:34.562Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:23:36.649Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:23:37.650Z - Adding new enrollment
+[INFO] 2026-03-05T12:23:43.932Z - Found 20 patients matching 'a'
+[INFO] 2026-03-05T12:23:45.358Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Zemlak, Haven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:23:51.092Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T12:24:06.141Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T12:24:10.272Z - Found 3 patients matching 'v'
+New patient selected: Turcotte, Steven 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Turcotte, Steven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:24:14.298Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:24:14.306Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:24:18.982Z - Found 19 patients matching 'h'
+New patient selected: Harris, Courtney 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Harris, Courtney  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:24:22.932Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:24:22.941Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:24:27.546Z - Found 19 patients matching 'h'
+New patient selected: Champlin, Timothy 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Champlin, Timothy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:24:31.544Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T12:24:46.576Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-05T12:24:50.684Z - Found 18 patients matching 'l'
+New patient selected: Zemlak, Haven 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Zemlak, Haven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:24:54.676Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T12:25:09.707Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬─────────────────┐
+│ (index) │ Values          │
+├─────────┼─────────────────┤
+│ Name    │ 'Shane Waelchi' │
+│ DOB     │ 'April 2022 1'  │
+│ Phone   │ '8146197428'    │
+└─────────┴─────────────────┘
+[STEP] 2026-03-05T12:25:11.796Z - Creating patient: Shane Waelchi
+[INFO] 2026-03-05T12:25:16.900Z - Patient Shane Waelchi created successfully
+✓ New patient created: Shane Waelchi
+[STEP] 2026-03-05T12:25:16.905Z - Creating enrollment
+[INFO] 2026-03-05T12:25:19.067Z - Patient enrolled in Chronic Care Management (CCM)
+[INFO] 2026-03-05T12:25:19.067Z - Provider: Dayton Nolan
+[INFO] 2026-03-05T12:25:19.067Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Chronic Care Management (CCM) program
+Enrollment created: Waelchi, Shane | Chronic Care Management (CCM)
+[STEP] 2026-03-05T12:25:21.236Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:25:23.385Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:25:25.385Z - Applying status filter: New
+[INFO] 2026-03-05T12:25:31.554Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-05T12:25:52.626Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:25:54.675Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:25:56.677Z - Applying status filter: Active
+[INFO] 2026-03-05T12:26:02.845Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-05T12:26:15.931Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:26:17.994Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:26:19.995Z - Applying status filter: Closed
+[INFO] 2026-03-05T12:26:26.196Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Waelchi, Shane ===
+[STEP] 2026-03-05T12:26:46.142Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:26:48.216Z - Navigated to Enrollment section
+[STEP] 2026-03-05T12:26:50.223Z - Applying status filter: New
+[INFO] 2026-03-05T12:26:56.398Z - Status filter 'New' applied successfully
+Row: 01Waelchi, ShaneCCM03-05-2026newS0710-+1Autofirstajvtcz EditedajvtczSeth Ondricka
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Waelchi, Shane814-619-742803-05-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Waelchi, Shane
+Program: CCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-03-05T12:27:12.490Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

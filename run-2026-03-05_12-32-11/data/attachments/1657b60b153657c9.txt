@@ -1,0 +1,53 @@
+[STEP] 2026-03-05T12:13:27.484Z - Login to Provider Portal
+[STEP] 2026-03-05T12:13:27.876Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:13:27.876Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:13:29.036Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:13:29.174Z - Login attempt completed
+[STEP] 2026-03-05T12:13:31.679Z - Navigate to RTM Library > Assessment
+[STEP] 2026-03-05T12:13:31.679Z - Opening RPM Library
+[INFO] 2026-03-05T12:13:31.753Z - Successfully opened RTM Library
+[STEP] 2026-03-05T12:13:31.753Z - Opening Assessment section
+[INFO] 2026-03-05T12:13:31.965Z - Successfully opened Assessment section
+[STEP] 2026-03-05T12:13:31.966Z - Test: Assessment assignment to patient
+[STEP] 2026-03-05T12:13:31.969Z - Creating assessment: Assign Test 1772712811966
+[STEP] 2026-03-05T12:13:31.969Z - Clicking Add Assessment button
+[INFO] 2026-03-05T12:13:33.104Z - Add Assessment form opened
+[STEP] 2026-03-05T12:13:33.104Z - Filling assessment title: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:33.115Z - Assessment title filled: Assign Test 1772712811966
+[STEP] 2026-03-05T12:13:33.115Z - Selecting assessment type: SURVEY
+[INFO] 2026-03-05T12:13:33.816Z - Assessment type selected: SURVEY
+[STEP] 2026-03-05T12:13:33.816Z - Selecting frequency: DAILY
+[INFO] 2026-03-05T12:13:34.495Z - Frequency selected: DAILY
+[STEP] 2026-03-05T12:13:34.495Z - Clicking Next button
+[INFO] 2026-03-05T12:13:35.575Z - Next button clicked
+[STEP] 2026-03-05T12:13:35.575Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-03-05T12:13:36.518Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-03-05T12:13:36.518Z - Clicking Next button
+[INFO] 2026-03-05T12:13:37.548Z - Next button clicked
+[STEP] 2026-03-05T12:13:37.548Z - Clicking Finish button
+[INFO] 2026-03-05T12:13:38.583Z - Finish button clicked
+[INFO] 2026-03-05T12:13:38.583Z - Assessment 'Assign Test 1772712811966' created successfully
+[STEP] 2026-03-05T12:13:38.583Z - Verifying assessment 'Assign Test 1772712811966' is visible in the list
+[STEP] 2026-03-05T12:13:38.583Z - Searching for assessment: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:39.169Z - Search completed for assessment: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:39.173Z - Assessment 'Assign Test 1772712811966' is visible in the list
+[INFO] 2026-03-05T12:13:39.173Z - Assessment 'Assign Test 1772712811966' created
+[STEP] 2026-03-05T12:13:39.173Z - Assigning assessment: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:39.178Z - Action button found for assessment: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:39.222Z - Action button clicked
+[INFO] 2026-03-05T12:13:39.492Z - Assign button clicked
+[INFO] 2026-03-05T12:13:39.770Z - Patient dropdown clicked
+[INFO] 2026-03-05T12:13:39.771Z - Searching for patient by first name: Automation (from 'Automation, Test')
+[INFO] 2026-03-05T12:13:39.922Z - Patient checkbox selected
+[INFO] 2026-03-05T12:13:39.969Z - Assign to patient button clicked
+[INFO] 2026-03-05T12:13:39.969Z - Assessment 'Assign Test 1772712811966' assigned successfully
+[INFO] 2026-03-05T12:13:40.327Z - Assessment assigned to patient
+[STEP] 2026-03-05T12:13:40.327Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-03-05T12:13:43.020Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-03-05T12:13:43.021Z - Navigating to Assessment tab
+[INFO] 2026-03-05T12:13:43.115Z - Successfully navigated to Assessment tab
+[STEP] 2026-03-05T12:13:43.115Z - Opening current month assessment folder
+[INFO] 2026-03-05T12:13:43.228Z - Opened assessment folder: March 2026
+[STEP] 2026-03-05T12:13:43.229Z - Verifying assigned assessment is present: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:44.283Z - Assigned assessment found in patient chart: Assign Test 1772712811966
+[INFO] 2026-03-05T12:13:44.283Z - Assignment verification test completed

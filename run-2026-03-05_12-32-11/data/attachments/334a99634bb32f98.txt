@@ -1,0 +1,69 @@
+[STEP] 2026-03-05T12:13:53.321Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-03-05T12:13:53.321Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-05T12:13:53.321Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:13:53.321Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:13:55.161Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:13:55.303Z - Login attempt completed
+[STEP] 2026-03-05T12:13:58.257Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:14:00.295Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-03-05T12:14:00.295Z - Adding new enrollment
+[INFO] 2026-03-05T12:14:06.640Z - No patients found for 'f', trying again (1/10)
+[INFO] 2026-03-05T12:14:08.698Z - Found 7 patients matching 'd'
+[INFO] 2026-03-05T12:14:10.167Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Bode, Dayne  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:14:15.906Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:14:15.920Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-05T12:14:20.643Z - Found 6 patients matching 'z'
+New patient selected: Green, Chaz 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Green, Chaz  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:14:24.624Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T12:14:24.636Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Green, Chaz
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Seth Ondricka
+  Care Manager: Autofirstefyvky Autolastefyvky
+[INFO] 2026-03-05T12:14:24.636Z - Enrollment form submitted successfully
+Selected patient: Green, Chaz
+[STEP] 2026-03-05T12:14:24.636Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T12:14:24.650Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:14:27.652Z - Retrieving enrollment list data
+[INFO] 2026-03-05T12:14:28.096Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Green, Chaz
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-03-05T12:14:28.098Z - Verifying patient in Worklist NEW section
+✓ Patient "Green, Chaz" found in Worklist > RPM > NEW section
+[INFO] 2026-03-05T12:14:48.654Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-03-05T12:14:48.655Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

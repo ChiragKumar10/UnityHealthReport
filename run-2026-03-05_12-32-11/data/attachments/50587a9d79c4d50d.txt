@@ -1,0 +1,63 @@
+[STEP] 2026-03-05T12:19:39.326Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-03-05T12:19:39.326Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-05T12:19:39.326Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:19:39.326Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:19:41.092Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:19:41.234Z - Login attempt completed
+[STEP] 2026-03-05T12:19:44.143Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:19:46.175Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Champlin, Timothy
+Program: RPM
+Care Manager: Autofirstahftmh Autolastahftmh
+Provider: Dayton Nolan
+Service Type Short: RPM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Found checked ICD at index 1: (A0109) - Typhoid fever with other complications
+Total checked ICDs: 1
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: (A0109) - Typhoid fever with other complications
+Initial Care Manager: Autofirstahftmh Autolastahftmh
+Initial Provider: Dayton Nolan
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstahftmh AutolastahftmhDayton NolanA010-Typhoid fever+302-25-2026-03-05-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: RPM
+Checking for Provider: Dayton
+Checking for Care Manager: Autofirstahftmh
+Checking for ICD: A0109
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-03-05T12:20:25.318Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:20:27.462Z - Navigated to Enrollment section
+Checked new ICD: (L05159) - Condition-epls3o2k-1772623000933 - Automated test description - lee1g2xnj4
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: sarvesh test
+Updated Care Manager: Autofirstbchvfu Autolastbchvfu
+Updated ICD Code: (L05159) - Condition-epls3o2k-1772623000933 - Automated test description - lee1g2xnj4
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstbchvfu Autolastbchvfusarvesh testA010-Typhoid fever+402-25-2026-03-05-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: RPM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

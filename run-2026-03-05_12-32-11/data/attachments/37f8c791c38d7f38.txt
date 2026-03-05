@@ -1,0 +1,44 @@
+[STEP] 2026-03-05T12:13:44.423Z - Login to Provider Portal
+[STEP] 2026-03-05T12:13:44.980Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:13:44.980Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:13:46.162Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:13:46.306Z - Login attempt completed
+[STEP] 2026-03-05T12:13:49.300Z - Navigate to RTM Library > Assessment
+[STEP] 2026-03-05T12:13:49.300Z - Opening RPM Library
+[INFO] 2026-03-05T12:13:49.363Z - Successfully opened RTM Library
+[STEP] 2026-03-05T12:13:49.363Z - Opening Assessment section
+[INFO] 2026-03-05T12:13:49.543Z - Successfully opened Assessment section
+[STEP] 2026-03-05T12:13:49.543Z - Test: Assessment display in provider portal
+[STEP] 2026-03-05T12:13:49.543Z - Creating assessment: Display Test 1772712829543
+[STEP] 2026-03-05T12:13:49.543Z - Clicking Add Assessment button
+[INFO] 2026-03-05T12:13:50.696Z - Add Assessment form opened
+[STEP] 2026-03-05T12:13:50.696Z - Filling assessment title: Display Test 1772712829543
+[INFO] 2026-03-05T12:13:50.708Z - Assessment title filled: Display Test 1772712829543
+[STEP] 2026-03-05T12:13:50.708Z - Selecting assessment type: SURVEY
+[INFO] 2026-03-05T12:13:51.400Z - Assessment type selected: SURVEY
+[STEP] 2026-03-05T12:13:51.400Z - Selecting frequency: DAILY
+[INFO] 2026-03-05T12:13:52.077Z - Frequency selected: DAILY
+[STEP] 2026-03-05T12:13:52.077Z - Clicking Next button
+[INFO] 2026-03-05T12:13:53.159Z - Next button clicked
+[STEP] 2026-03-05T12:13:53.160Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-03-05T12:13:54.098Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-03-05T12:13:54.098Z - Clicking Next button
+[INFO] 2026-03-05T12:13:55.129Z - Next button clicked
+[STEP] 2026-03-05T12:13:55.129Z - Clicking Finish button
+[INFO] 2026-03-05T12:13:56.161Z - Finish button clicked
+[INFO] 2026-03-05T12:13:56.161Z - Assessment 'Display Test 1772712829543' created successfully
+[STEP] 2026-03-05T12:13:56.161Z - Verifying assessment 'Display Test 1772712829543' is visible in the list
+[STEP] 2026-03-05T12:13:56.161Z - Searching for assessment: Display Test 1772712829543
+[INFO] 2026-03-05T12:13:56.787Z - Search completed for assessment: Display Test 1772712829543
+[INFO] 2026-03-05T12:13:56.791Z - Assessment 'Display Test 1772712829543' is visible in the list
+[INFO] 2026-03-05T12:13:56.792Z - Assessment 'Display Test 1772712829543' is displayed in provider portal library
+[STEP] 2026-03-05T12:13:56.792Z - Viewing assessment: Display Test 1772712829543
+[INFO] 2026-03-05T12:13:56.860Z - Action button clicked
+[INFO] 2026-03-05T12:13:57.130Z - View button clicked
+[INFO] 2026-03-05T12:13:57.136Z - Assessment 'Display Test 1772712829543' opened in view mode
+[STEP] 2026-03-05T12:13:57.136Z - Verifying assessment view content
+[INFO] 2026-03-05T12:13:57.247Z - ✓ Verified: Default question for automation test
+[INFO] 2026-03-05T12:13:57.247Z - All assessment content verified
+[STEP] 2026-03-05T12:13:57.247Z - Closing view assessment modal
+[INFO] 2026-03-05T12:13:57.286Z - View assessment modal closed
+[INFO] 2026-03-05T12:13:57.286Z - Provider portal display test completed

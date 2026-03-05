@@ -1,0 +1,108 @@
+[STEP] 2026-03-05T12:16:36.487Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-03-05T12:16:36.487Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-05T12:16:36.487Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:16:36.487Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:16:38.235Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:16:38.374Z - Login attempt completed
+[STEP] 2026-03-05T12:16:41.367Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:16:43.397Z - Navigated to Enrollment section
+✓ Provider selected
+✓ Primary Care Manager assigned
+✓ Selected 2 secondary care managers (max allowed: 3)
+✓ Selected 3 diagnoses
+  1. (Y41491) - Condition-d8miloir-1772631645929 - Automated test description - qecc8dj65wn
+  2. (D10954) - Condition-7ju3tu3i-1772626144103 - Automated test description - bv4xfd97uf5
+  3. (X89734) - Condition-p5rpqcn4-1772623429245 - Automated test description - j791h9glnz
+✓ Multiple diagnoses selection validated
+
+--- Enrollment Attempt 1/5 ---
+✓ Found 20 patients matching 's'
+✓ Service type selected
+[STEP] 2026-03-05T12:17:10.689Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-05T12:17:25.728Z - Enrollment result: UNKNOWN
+⚠ Unknown result - Attempt 1/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 2/5 ---
+✓ Found 22 patients matching 'n'
+✓ Service type selected
+[STEP] 2026-03-05T12:17:36.128Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:17:36.138Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 2/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 3/5 ---
+✓ Found 7 patients matching 'y'
+✓ Service type selected
+[STEP] 2026-03-05T12:17:48.531Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:17:48.539Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 3/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 4/5 ---
+✓ Found 7 patients matching 'y'
+✓ Service type selected
+[STEP] 2026-03-05T12:18:00.897Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:18:00.906Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 4/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 5/5 ---
+✓ Found 19 patients matching 'c'
+✓ Service type selected
+[STEP] 2026-03-05T12:18:13.378Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-05T12:18:13.388Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 5/5
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+[STEP] 2026-03-05T12:18:15.535Z - Adding new enrollment
+[INFO] 2026-03-05T12:18:21.747Z - Found 7 patients matching 'g'
+[INFO] 2026-03-05T12:18:23.191Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: GoodwinLedner, Luella  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-05T12:18:29.015Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-05T12:18:29.027Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: GoodwinLedner, Luella
+  Program: Chronic Care Management (CCM)
+  Provider: sarvesh test
+  Care Manager: Autofirstdfmpdt Autolastdfmpdt
+[INFO] 2026-03-05T12:18:29.027Z - Enrollment form submitted successfully
+✓ New patient enrolled successfully in Chronic Care Management (CCM)
+[INFO] 2026-03-05T12:18:29.028Z - Care Manager and multi-diagnoses test completed using new patient - enrolled in Chronic Care Management (CCM)

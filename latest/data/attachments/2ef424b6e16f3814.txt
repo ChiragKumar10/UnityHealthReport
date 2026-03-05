@@ -1,0 +1,15 @@
+[STEP] 2026-03-05T12:15:43.042Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-03-05T12:15:43.043Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-05T12:15:43.043Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:15:43.043Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:15:44.733Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:15:44.894Z - Login attempt completed
+[STEP] 2026-03-05T12:15:47.783Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:15:49.818Z - Navigated to Enrollment section
+⚠ No patients found for 'q', trying again (1/10)
+✓ Found 10 patients matching 'b'
+✓ Patient search returned 10 results
+✓ Selected patient: Balistreri, Krista 
+✓ Phone auto-filled: 662-736-1981
+✓ DOB auto-filled: 12-19-2022
+[INFO] 2026-03-05T12:16:03.260Z - Patient search and auto-fill verification completed successfully

@@ -1,0 +1,22 @@
+[STEP] 2026-03-05T12:13:54.263Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-05T12:13:54.263Z - Attempting to login to provider portal
+[STEP] 2026-03-05T12:13:54.264Z - Navigating to provider portal login page
+[INFO] 2026-03-05T12:13:56.084Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-05T12:13:56.216Z - Login attempt completed
+[STEP] 2026-03-05T12:13:59.194Z - Navigating to Enrollment section
+[INFO] 2026-03-05T12:14:01.219Z - Navigated to Enrollment section
+[INFO] 2026-03-05T12:14:01.219Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-05T12:14:01.219Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-03-05T12:14:01.219Z - Generated random date range: 01-09-2026 to 02-25-2026
+[INFO] 2026-03-05T12:14:01.219Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-03-05T12:14:01.219Z - Applying combined filters - Date: 01-09-2026 to 02-25-2026, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-05T12:14:01.220Z - Applying date filter: 01-09-2026 to 02-25-2026
+[INFO] 2026-03-05T12:14:07.389Z - Date filter applied successfully
+[STEP] 2026-03-05T12:14:07.390Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-03-05T12:14:13.565Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-03-05T12:14:13.565Z - Retrieving filtered enrollment results
+[INFO] 2026-03-05T12:14:16.010Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Schamberger, Nicolas - RPM - 02-25-2026
+Record 2 Verified: Turcotte, Steven - RPM - 02-25-2026
+Record 3 Verified: Champlin, Timothy - RPM - 02-25-2026
+[INFO] 2026-03-05T12:14:16.016Z - Combined Date + Program filter verification completed - 3 records verified
