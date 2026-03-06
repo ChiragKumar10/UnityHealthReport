@@ -1,0 +1,44 @@
+[STEP] 2026-03-06T06:43:43.458Z - Test 1: Verify update enrollment - ICD code changes
+[INFO] 2026-03-06T06:43:43.460Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-06T06:43:43.460Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:43:43.460Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:43:44.987Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:43:45.140Z - Login attempt completed
+[STEP] 2026-03-06T06:43:48.171Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:43:50.209Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 2
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Torphy, Gunnar
+Program: RPM
+Initial ICD Codes: X89734-Aut...+1
+
+=== UPDATE ENROLLMENT - MODIFYING ICD CODES ===
+ICD Codes Currently Selected: 
+
+================================================================================
+⚠️  KNOWN APPLICATION BUG - TEST SKIPPED
+================================================================================
+
+Bug Description:
+  When opening the ICD dropdown in Update Enrollment form, checkboxes for
+  already-selected ICDs are NOT marked as checked, even though those ICDs
+  are assigned to the enrollment.
+
+Expected Behavior:
+  ICDs assigned to enrollment should show as checked in the dropdown
+
+Actual Behavior:
+  Enrollment list shows: X89734-Aut...+1
+  Update form shows: No checked ICDs (0 selected)
+
+Impact:
+  Cannot test ICD update functionality until this bug is fixed
+
+Action:
+  SKIPPING this test - will re-enable when application bug is resolved
+================================================================================
+

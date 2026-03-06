@@ -1,0 +1,62 @@
+[STEP] 2026-03-06T06:44:45.805Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-03-06T06:44:45.805Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-06T06:44:45.805Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:44:45.805Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:44:47.405Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:44:47.548Z - Login attempt completed
+[STEP] 2026-03-06T06:44:50.075Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:44:52.105Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Torphy, Gunnar
+Program: RPM
+Care Manager: Autofirstdqhvln Autolastdqhvln
+Provider: Seth Ondricka
+Service Type Short: RPM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstdqhvln Autolastdqhvln
+Initial Provider: Seth Ondricka
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstdqhvln AutolastdqhvlnSeth OndrickaA001-Chole...+203-06-2026-03-06-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: RPM
+Checking for Provider: Seth
+Checking for Care Manager: Autofirstdqhvln
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-03-06T06:45:31.105Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:45:33.162Z - Navigated to Enrollment section
+Checked new ICD: (L05159) - Condition-epls3o2k-1772623000933 - Automated test description - lee1g2xnj4
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: sarvesh test
+Updated Care Manager: Autofirstbrkxdt Autolastbrkxdt
+Updated ICD Code: (L05159) - Condition-epls3o2k-1772623000933 - Automated test description - lee1g2xnj4
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: RPMAutofirstbrkxdt Autolastbrkxdtsarvesh testA001-Chole...+303-06-2026-03-06-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: RPM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

@@ -1,0 +1,136 @@
+[STEP] 2026-03-06T06:44:59.029Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-03-06T06:44:59.029Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-06T06:44:59.029Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:44:59.029Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:45:00.687Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:45:00.857Z - Login attempt completed
+[STEP] 2026-03-06T06:45:03.918Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:45:05.950Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-03-06T06:45:05.951Z - Adding new enrollment
+[INFO] 2026-03-06T06:45:12.297Z - Found 17 patients matching 'k'
+[INFO] 2026-03-06T06:45:13.791Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Zemlak, Haven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:45:19.540Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-06T06:45:34.579Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-06T06:45:38.696Z - Found 12 patients matching 'u'
+New patient selected: Kunze, Tatyana 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Kunze, Tatyana  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:45:42.679Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:45:42.688Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:45:47.377Z - No patients found for 'q', trying again (1/10)
+[INFO] 2026-03-06T06:45:49.426Z - Found 26 patients matching 'n'
+New patient selected: Turcotte, Steven 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Turcotte, Steven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:45:53.179Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:45:53.187Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:45:57.781Z - Found 26 patients matching 'n'
+New patient selected: Turcotte, Steven 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Turcotte, Steven  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:46:01.545Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:46:01.554Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:46:06.157Z - Found 8 patients matching 'j'
+New patient selected: Jacobi, Tommy 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Jacobi, Tommy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:46:10.127Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-06T06:46:25.160Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬───────────────────┐
+│ (index) │ Values            │
+├─────────┼───────────────────┤
+│ Name    │ 'Arnold Murray'   │
+│ DOB     │ 'October 2022 17' │
+│ Phone   │ '8594459815'      │
+└─────────┴───────────────────┘
+[STEP] 2026-03-06T06:46:27.256Z - Creating patient: Arnold Murray
+[INFO] 2026-03-06T06:46:32.309Z - Patient Arnold Murray created successfully
+✓ New patient created: Arnold Murray
+[STEP] 2026-03-06T06:46:32.345Z - Creating enrollment
+[INFO] 2026-03-06T06:46:34.475Z - Patient enrolled in Principal Care Management (PCM)
+[INFO] 2026-03-06T06:46:34.475Z - Provider: Dayton Nolan
+[INFO] 2026-03-06T06:46:34.475Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Principal Care Management (PCM) program
+Selected patient: Murray, Arnold
+[STEP] 2026-03-06T06:46:36.476Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-06T06:46:36.487Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:46:39.488Z - Retrieving enrollment list data
+[INFO] 2026-03-06T06:46:39.931Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Murray, Toby
+  Program: RTM
+  Status: new
+Note: Patient enrolled in RTM, verifying in Worklist
+[STEP] 2026-03-06T06:46:39.932Z - Verifying patient in Worklist NEW section
+
+⚠️  Worklist verification skipped (search box not found)
+✓ Enrollment was successful and verified in enrollment list
+[INFO] 2026-03-06T06:47:05.212Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in Enrollment List

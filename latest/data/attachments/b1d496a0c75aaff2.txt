@@ -1,0 +1,30 @@
+[STEP] 2026-03-06T06:45:55.257Z - Login to Provider Portal
+[STEP] 2026-03-06T06:45:55.645Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:45:55.645Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:45:56.860Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:45:57.012Z - Login attempt completed
+[STEP] 2026-03-06T06:45:59.562Z - Navigating to Alerts page
+[INFO] 2026-03-06T06:46:00.654Z - Navigated to Alerts page
+[STEP] 2026-03-06T06:46:00.655Z - Test: Verify escalation success message
+[STEP] 2026-03-06T06:46:00.655Z - Getting first available alert
+[STEP] 2026-03-06T06:46:00.655Z - Getting alert row count
+[INFO] 2026-03-06T06:46:01.661Z - Alert row count: 3
+[STEP] 2026-03-06T06:46:01.661Z - Getting first patient name
+[STEP] 2026-03-06T06:46:01.661Z - Getting cell text at row 1, column 1
+[INFO] 2026-03-06T06:46:01.669Z - Cell text: Automation, Test
+[INFO] 2026-03-06T06:46:01.669Z - First patient name: Automation, Test
+[STEP] 2026-03-06T06:46:01.670Z - Getting alert row count
+[INFO] 2026-03-06T06:46:02.673Z - Alert row count: 3
+[STEP] 2026-03-06T06:46:02.673Z - Opening action menu for row 1
+[INFO] 2026-03-06T06:46:03.201Z - Action menu opened for row 1
+[STEP] 2026-03-06T06:46:03.201Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-03-06T06:46:03.777Z - Escalate to Provider clicked
+[STEP] 2026-03-06T06:46:03.777Z - Filling escalation form and submitting
+[INFO] 2026-03-06T06:46:06.403Z - Provider selected from autocomplete
+[INFO] 2026-03-06T06:46:06.426Z - Escalation note filled
+[INFO] 2026-03-06T06:46:07.500Z - Escalation form submitted
+[STEP] 2026-03-06T06:46:07.500Z - Checking if toast is visible
+[INFO] 2026-03-06T06:46:07.506Z - Toast message is visible
+[INFO] 2026-03-06T06:46:07.507Z - Escalation success message verified
+[STEP] 2026-03-06T06:46:07.507Z - Dismissing drawer/overlay
+[INFO] 2026-03-06T06:46:11.831Z - Page reloaded to clear overlays

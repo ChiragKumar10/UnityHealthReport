@@ -1,0 +1,60 @@
+[ERROR] 2026-03-06T06:42:08.966Z - Failed to select Text Message action
+locator.click: Error: strict mode violation: getByRole('combobox', { name: 'Select', exact: true }) resolved to 2 elements:
+    1) <input type="text" role="combobox" autocomplete="off" id="tags-standard" spellcheck="false" aria-invalid="false" placeholder="Select" aria-expanded="false" autocapitalize="none" value="All Provider " aria-autocomplete="list" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-1kff8lc"/> aka getByRole('combobox', { name: 'Select' }).first()
+    2) <input type="text" role="combobox" autocomplete="off" id="tags-standard" spellcheck="false" aria-invalid="false" placeholder="Select" aria-expanded="false" autocapitalize="none" value="chirag kumar " aria-autocomplete="list" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-1kff8lc"/> aka getByRole('combobox', { name: 'Select' }).nth(1)
+
+Call log:
+  - waiting for getByRole('combobox', { name: 'Select', exact: true })
+
+    at WeekInteractionPage.selectTextMessageAction (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:127:34)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/week-interaction.spec.ts:44:35 {
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 127,
+      column: 34,
+      function: 'WeekInteractionPage.selectTextMessageAction'
+    },
+    category: 'pw:api',
+    title: "Click getByRole('combobox', { name: 'Select', exact: true })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=combobox[name="Select"s]',
+      strict: true,
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@61',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@61',
+      _title: "Click getByRole('combobox', { name: 'Select', exact: true })",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1772779328966,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByRole('combobox', { name: 'Select', exact: true }) resolved to 2 elements:\n" +
+        `    1) <input type="text" role="combobox" autocomplete="off" id="tags-standard" spellcheck="false" aria-invalid="false" placeholder="Select" aria-expanded="false" autocapitalize="none" value="All Provider " aria-autocomplete="list" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-1kff8lc"/> aka getByRole('combobox', { name: 'Select' }).first()\n` +
+        `    2) <input type="text" role="combobox" autocomplete="off" id="tags-standard" spellcheck="false" aria-invalid="false" placeholder="Select" aria-expanded="false" autocapitalize="none" value="chirag kumar " aria-autocomplete="list" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-1kff8lc"/> aka getByRole('combobox', { name: 'Select' }).nth(1)\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('combobox', { name: 'Select', exact: true })\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByRole('combobox', { name: 'Select', exact: true }) resolved to 2 elements:\n" +
+        `    1) <input type="text" role="combobox" autocomplete="off" id="tags-standard" spellcheck="false" aria-invalid="false" placeholder="Select" aria-expanded="false" autocapitalize="none" value="All Provider " aria-autocomplete="list" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-1kff8lc"/> aka getByRole('combobox', { name: 'Select' }).first()\n` +
+        `    2) <input type="text" role="combobox" autocomplete="off" id="tags-standard" spellcheck="false" aria-invalid="false" placeholder="Select" aria-expanded="false" autocapitalize="none" value="chirag kumar " aria-autocomplete="list" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-1kff8lc"/> aka getByRole('combobox', { name: 'Select' }).nth(1)\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('combobox', { name: 'Select', exact: true })\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.selectTextMessageAction (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:127:34)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/week-interaction.spec.ts:44:35',
+      cause: undefined
+    }
+  }
+}

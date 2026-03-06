@@ -1,0 +1,59 @@
+[STEP] 2026-03-06T06:46:25.233Z - Login to Provider Portal
+[STEP] 2026-03-06T06:46:25.601Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:46:25.601Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:46:26.952Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:46:27.072Z - Login attempt completed
+[STEP] 2026-03-06T06:46:30.149Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-06T06:46:30.149Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-06T06:46:30.149Z - Dismissing any open drawer
+[INFO] 2026-03-06T06:46:30.657Z - No drawer backdrop in DOM
+[INFO] 2026-03-06T06:46:31.164Z - Successfully on Care Team Work List
+[STEP] 2026-03-06T06:46:31.164Z - Selecting program tab: RTM
+[INFO] 2026-03-06T06:46:32.235Z - Successfully selected RTM tab
+[STEP] 2026-03-06T06:46:32.235Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-06T06:46:33.385Z - Setting date filter to today
+[INFO] 2026-03-06T06:46:33.391Z - Changing date from "03-05-2026" to "03-06-2026"
+[INFO] 2026-03-06T06:46:34.458Z - Date filter set to: 03-06-2026
+[INFO] 2026-03-06T06:46:34.458Z - Switched to Alerts monitoring view
+[STEP] 2026-03-06T06:46:34.458Z - Test: Verify escalation in Patient 360
+[STEP] 2026-03-06T06:46:34.458Z - Getting first available patient from list
+[INFO] 2026-03-06T06:46:34.462Z - No patients in list
+[INFO] 2026-03-06T06:46:34.462Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-03-06T06:46:34.462Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-06T06:46:34.505Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-06T06:46:36.058Z - Alert status filter set to: Resolved
+[STEP] 2026-03-06T06:46:36.058Z - Getting first available patient from list
+[INFO] 2026-03-06T06:46:36.068Z - First available patient: "Automation, Test"
+[STEP] 2026-03-06T06:46:36.068Z - Getting visible row count
+[INFO] 2026-03-06T06:46:37.073Z - Visible row count: 1
+[STEP] 2026-03-06T06:46:37.074Z - Escalating alert for "Automation, Test" via action
+[STEP] 2026-03-06T06:46:37.074Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-06T06:46:38.147Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-03-06T06:46:39.214Z - Escalate button clicked, checking for dialog...
+[INFO] 2026-03-06T06:46:39.218Z - Escalation note input visible: true
+[INFO] 2026-03-06T06:46:39.235Z - Escalation note entered
+[INFO] 2026-03-06T06:46:39.241Z - Add button visible: true
+[INFO] 2026-03-06T06:46:41.290Z - Add button clicked
+[INFO] 2026-03-06T06:46:41.304Z - Escalation drawer still open — dismissing
+[STEP] 2026-03-06T06:46:41.304Z - Dismissing any open drawer
+[INFO] 2026-03-06T06:46:41.808Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-03-06T06:46:44.361Z - Drawer closed via Cancel button
+[INFO] 2026-03-06T06:46:44.361Z - Alert escalated for "Automation, Test" via action
+[STEP] 2026-03-06T06:46:44.361Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-06T06:46:44.361Z - Dismissing any open drawer
+[INFO] 2026-03-06T06:46:44.865Z - No drawer backdrop in DOM
+[INFO] 2026-03-06T06:46:45.369Z - Successfully on Care Team Work List
+[STEP] 2026-03-06T06:46:45.369Z - Selecting program tab: RTM
+[INFO] 2026-03-06T06:46:46.406Z - Successfully selected RTM tab
+[STEP] 2026-03-06T06:46:46.407Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-06T06:46:47.461Z - Setting date filter to today
+[INFO] 2026-03-06T06:46:47.467Z - Date filter already set to today: 03-06-2026
+[INFO] 2026-03-06T06:46:47.467Z - Switched to Alerts monitoring view
+[STEP] 2026-03-06T06:46:47.467Z - Getting visible row count
+[INFO] 2026-03-06T06:46:48.470Z - Visible row count: 0
+[STEP] 2026-03-06T06:46:48.470Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-06T06:46:48.491Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-06T06:46:50.073Z - Alert status filter set to: Resolved
+[STEP] 2026-03-06T06:46:50.074Z - Verifying escalation in Patient 360 for: Automation, Test
+[INFO] 2026-03-06T06:46:55.178Z - Escalation text found in Patient Chart Monitoring
+[INFO] 2026-03-06T06:46:55.179Z - Escalation visible in Patient 360

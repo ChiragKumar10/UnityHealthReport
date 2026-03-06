@@ -1,0 +1,22 @@
+[STEP] 2026-03-06T06:40:45.130Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-06T06:40:45.130Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:40:45.130Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:40:46.888Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:40:47.059Z - Login attempt completed
+[STEP] 2026-03-06T06:40:49.519Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:40:51.564Z - Navigated to Enrollment section
+[INFO] 2026-03-06T06:40:51.564Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-06T06:40:51.565Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-03-06T06:40:51.565Z - Selected random status: Active
+[INFO] 2026-03-06T06:40:51.565Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-03-06T06:40:51.565Z - Applying combined filters - Status: Active, Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:40:51.565Z - Applying status filter: Active
+[INFO] 2026-03-06T06:40:57.717Z - Status filter 'Active' applied successfully
+[STEP] 2026-03-06T06:40:57.717Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-03-06T06:41:03.858Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-03-06T06:41:03.858Z - Retrieving filtered enrollment results
+[INFO] 2026-03-06T06:41:06.102Z - Retrieved 12 filtered enrollment records
+Record 1 Verified: Russel, Viola - CCM - active
+Record 2 Verified: Watsica, Billie - CCM - active
+Record 3 Verified: Kemmer, Roxane - CCM - active
+[INFO] 2026-03-06T06:41:06.107Z - Combined Status + Program filter verification completed - 3 records verified

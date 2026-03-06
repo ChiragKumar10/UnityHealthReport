@@ -1,0 +1,51 @@
+[STEP] 2026-03-06T06:40:49.485Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-06T06:40:49.849Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:40:49.849Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:40:50.995Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:40:51.134Z - Login attempt completed
+[STEP] 2026-03-06T06:40:54.110Z - Test: E2E Edit Unity User
+[STEP] 2026-03-06T06:40:54.110Z - Navigating to Settings page
+[INFO] 2026-03-06T06:40:55.195Z - Navigated to Settings page
+[STEP] 2026-03-06T06:40:55.195Z - Clicking Unity Users tab
+[INFO] 2026-03-06T06:40:56.355Z - Unity Users tab clicked
+[STEP] 2026-03-06T06:40:56.356Z - Adding Unity User: Autofirstuxhpos Autolastuxhpos
+[STEP] 2026-03-06T06:40:56.356Z - Clicking Add Unity User button
+[INFO] 2026-03-06T06:40:57.555Z - Add Unity User form opened
+[STEP] 2026-03-06T06:40:57.555Z - Filling Unity User form for: Autofirstuxhpos Autolastuxhpos
+[STEP] 2026-03-06T06:40:57.555Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-06T06:40:58.523Z - Selected: Care Coordinators
+[STEP] 2026-03-06T06:40:58.609Z - Selecting dropdown option: Male
+[INFO] 2026-03-06T06:40:59.537Z - Selected: Male
+[INFO] 2026-03-06T06:40:59.695Z - Form filled for: Autofirstuxhpos Autolastuxhpos
+[STEP] 2026-03-06T06:40:59.695Z - Clicking Save button
+[INFO] 2026-03-06T06:41:01.813Z - Save button clicked
+[INFO] 2026-03-06T06:41:01.818Z - Unity User 'Autofirstuxhpos Autolastuxhpos' added — form closed
+[STEP] 2026-03-06T06:41:01.818Z - Verifying user 'Autofirstuxhpos Autolastuxhpos' is visible in the list
+[STEP] 2026-03-06T06:41:01.818Z - Searching for user: Autofirstuxhpos Autolastuxhpos
+[INFO] 2026-03-06T06:41:02.859Z - Search completed for: Autofirstuxhpos Autolastuxhpos
+[INFO] 2026-03-06T06:41:02.980Z - User 'Autofirstuxhpos Autolastuxhpos' is visible in the list
+[INFO] 2026-03-06T06:41:02.980Z - User created for edit test
+[STEP] 2026-03-06T06:41:02.981Z - Editing Unity User: Autofirstuxhpos Autolastuxhpos
+[STEP] 2026-03-06T06:41:02.981Z - Clicking Edit for: Autofirstuxhpos Autolastuxhpos
+[STEP] 2026-03-06T06:41:02.981Z - Opening action menu for: Autofirstuxhpos Autolastuxhpos
+[STEP] 2026-03-06T06:41:02.981Z - Searching for user: Autofirstuxhpos Autolastuxhpos
+[INFO] 2026-03-06T06:41:03.998Z - Search completed for: Autofirstuxhpos Autolastuxhpos
+[INFO] 2026-03-06T06:41:05.025Z - Action menu opened
+[INFO] 2026-03-06T06:41:06.122Z - Edit form opened from menu
+[STEP] 2026-03-06T06:41:06.122Z - Filling edit form field 'lastName' with: Editeduxhpos
+[INFO] 2026-03-06T06:41:06.199Z - Edit form field 'lastName' filled
+[STEP] 2026-03-06T06:41:06.199Z - Clicking Save button
+[INFO] 2026-03-06T06:41:08.286Z - Save button clicked
+[INFO] 2026-03-06T06:41:08.287Z - Unity User 'Autofirstuxhpos Autolastuxhpos' edited successfully
+[STEP] 2026-03-06T06:41:08.287Z - Verifying user 'Autofirstuxhpos Editeduxhpos' is visible in the list
+[STEP] 2026-03-06T06:41:08.287Z - Searching for user: Autofirstuxhpos Editeduxhpos
+[INFO] 2026-03-06T06:41:09.306Z - Search completed for: Autofirstuxhpos Editeduxhpos
+[INFO] 2026-03-06T06:41:09.413Z - User 'Autofirstuxhpos Editeduxhpos' is visible in the list
+[INFO] 2026-03-06T06:41:09.413Z - Edited user visible in list
+[STEP] 2026-03-06T06:41:09.413Z - Verifying user 'Autofirstuxhpos Autolastuxhpos' is NOT in the list
+[STEP] 2026-03-06T06:41:09.413Z - Clearing search box
+[INFO] 2026-03-06T06:41:09.931Z - Search cleared
+[STEP] 2026-03-06T06:41:09.931Z - Searching for user: Autofirstuxhpos Autolastuxhpos
+[INFO] 2026-03-06T06:41:10.950Z - Search completed for: Autofirstuxhpos Autolastuxhpos
+[INFO] 2026-03-06T06:41:10.956Z - User 'Autofirstuxhpos Autolastuxhpos' is not in the list
+[INFO] 2026-03-06T06:41:10.956Z - E2E Edit Unity User verified

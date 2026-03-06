@@ -1,0 +1,16 @@
+[STEP] 2026-03-06T06:42:00.608Z - Test: Verify Add Insurance functionality in enrollment form
+[INFO] 2026-03-06T06:42:00.608Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-06T06:42:00.608Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:42:00.608Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:42:02.205Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:42:02.339Z - Login attempt completed
+[STEP] 2026-03-06T06:42:05.172Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:42:07.197Z - Navigated to Enrollment section
+⚠ No patients found for 'f', trying again (1/10)
+⚠ No patients found for 'f', trying again (2/10)
+✓ Found 20 patients matching 'c'
+✓ Insurance form opened
+✓ Selected insurance: Other
+✓ Insurance saved
+✓ Insurance "Other" found in dropdown
+[INFO] 2026-03-06T06:42:37.407Z - Add Insurance functionality verified successfully

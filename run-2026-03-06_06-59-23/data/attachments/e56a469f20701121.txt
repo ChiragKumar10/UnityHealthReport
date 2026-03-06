@@ -1,0 +1,36 @@
+[STEP] 2026-03-06T06:39:20.898Z - Login to Provider Portal
+[STEP] 2026-03-06T06:39:21.235Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:39:21.235Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:39:22.401Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:39:22.530Z - Login attempt completed
+[STEP] 2026-03-06T06:39:25.030Z - Navigate to RTM
+[STEP] 2026-03-06T06:39:25.030Z - Navigating to RTM tab
+[INFO] 2026-03-06T06:39:25.144Z - Successfully navigated to RTM tab
+[STEP] 2026-03-06T06:39:25.144Z - Selecting Week 1
+[INFO] 2026-03-06T06:39:26.298Z - Successfully selected Week 1
+[STEP] 2026-03-06T06:39:26.299Z - Test: Bulk App Chat with attachment — Week 1
+[STEP] 2026-03-06T06:39:26.299Z - Selecting patient: Automation, Test
+[INFO] 2026-03-06T06:39:26.348Z - Successfully selected patient: Automation, Test
+[STEP] 2026-03-06T06:39:26.348Z - Selecting App Chat from Send dropdown
+[STEP] 2026-03-06T06:39:26.348Z - Opening Send dropdown
+[INFO] 2026-03-06T06:39:26.905Z - Send dropdown opened
+[INFO] 2026-03-06T06:39:28.017Z - App Chat selected from Send dropdown
+[STEP] 2026-03-06T06:39:28.017Z - Uploading attachment: /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/fixtures/test-attachment.txt
+[INFO] 2026-03-06T06:39:29.037Z - Attachment uploaded
+[STEP] 2026-03-06T06:39:29.037Z - Handling bulk send dialog
+[STEP] 2026-03-06T06:39:29.037Z - Detecting and handling action dialog
+[INFO] 2026-03-06T06:39:31.047Z - Detected SEND MESSAGE dialog (first)
+[STEP] 2026-03-06T06:39:31.047Z - Handling SEND MESSAGE dialog
+[INFO] 2026-03-06T06:39:33.766Z - SEND MESSAGE dialog completed
+[INFO] 2026-03-06T06:39:35.272Z - Second dialog (TIME LOG) appeared after SEND MESSAGE
+[STEP] 2026-03-06T06:39:35.272Z - Handling TIME LOG dialog
+[INFO] 2026-03-06T06:39:38.493Z - TIME LOG dialog saved
+[INFO] 2026-03-06T06:39:38.493Z - Bulk send dialog handled
+[INFO] 2026-03-06T06:39:38.493Z - Bulk App Chat with attachment sent
+[STEP] 2026-03-06T06:39:40.352Z - Navigating to RTM tab
+[INFO] 2026-03-06T06:39:40.455Z - Successfully navigated to RTM tab
+[STEP] 2026-03-06T06:39:40.455Z - Selecting Week 1
+[INFO] 2026-03-06T06:39:41.544Z - Successfully selected Week 1
+[STEP] 2026-03-06T06:39:41.544Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-03-06T06:39:41.550Z - Patient "Automation, Test" found in interaction list
+[INFO] 2026-03-06T06:39:41.551Z - Patient still in list after bulk App Chat with attachment

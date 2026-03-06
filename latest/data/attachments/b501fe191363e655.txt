@@ -1,0 +1,56 @@
+[STEP] 2026-03-06T06:45:36.944Z - Login to Provider Portal
+[STEP] 2026-03-06T06:45:37.323Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:45:37.323Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:45:38.494Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:45:38.623Z - Login attempt completed
+[STEP] 2026-03-06T06:45:41.102Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-03-06T06:45:41.102Z - Opening CCM Library
+[INFO] 2026-03-06T06:45:42.177Z - Successfully opened CCM Library
+[STEP] 2026-03-06T06:45:42.177Z - Opening Care Plan section
+[INFO] 2026-03-06T06:45:43.225Z - Successfully opened Care Plan section
+[STEP] 2026-03-06T06:45:43.226Z - Test: Cancel during creation
+[STEP] 2026-03-06T06:45:43.226Z - Clicking Create Care Plan button
+[INFO] 2026-03-06T06:45:45.360Z - Create Care Plan form opened
+[STEP] 2026-03-06T06:45:45.360Z - Selecting diagnosis code: A001
+[INFO] 2026-03-06T06:45:49.796Z - Diagnosis code 'A001' selected
+[STEP] 2026-03-06T06:45:49.796Z - Filling care plan name: CancelStep1 1772779543226
+[INFO] 2026-03-06T06:45:49.819Z - Care plan name filled: CancelStep1 1772779543226
+[STEP] 2026-03-06T06:45:49.819Z - Selecting section: Overview
+[INFO] 2026-03-06T06:45:50.185Z - Section 'Overview' selected
+[STEP] 2026-03-06T06:45:50.185Z - Clicking Cancel button
+[INFO] 2026-03-06T06:45:51.284Z - Cancel button clicked
+[INFO] 2026-03-06T06:45:51.287Z - Back on list after cancel from Step 1
+[STEP] 2026-03-06T06:45:51.287Z - Verifying care plan 'CancelStep1 1772779543226' is NOT in the list
+[STEP] 2026-03-06T06:45:51.287Z - Clearing search box
+[INFO] 2026-03-06T06:45:51.799Z - Search cleared
+[STEP] 2026-03-06T06:45:51.799Z - Searching for care plan: CancelStep1 1772779543226
+[INFO] 2026-03-06T06:45:52.344Z - Search completed for care plan: CancelStep1 1772779543226
+[INFO] 2026-03-06T06:45:52.349Z - Care plan 'CancelStep1 1772779543226' is not in the list
+[INFO] 2026-03-06T06:45:52.349Z - Step 1 cancelled plan not saved
+[STEP] 2026-03-06T06:45:52.349Z - Clicking Create Care Plan button
+[INFO] 2026-03-06T06:45:54.443Z - Create Care Plan form opened
+[STEP] 2026-03-06T06:45:54.443Z - Selecting diagnosis code: A001
+[INFO] 2026-03-06T06:45:57.077Z - Diagnosis code 'A001' selected
+[STEP] 2026-03-06T06:45:57.077Z - Filling care plan name: CancelStep2 1772779552349
+[INFO] 2026-03-06T06:45:57.096Z - Care plan name filled: CancelStep2 1772779552349
+[STEP] 2026-03-06T06:45:57.096Z - Selecting section: Overview
+[INFO] 2026-03-06T06:45:57.448Z - Section 'Overview' selected
+[STEP] 2026-03-06T06:45:57.448Z - Clicking Next button
+[INFO] 2026-03-06T06:45:59.492Z - Next button clicked
+[STEP] 2026-03-06T06:45:59.492Z - Filling Overview section
+[INFO] 2026-03-06T06:45:59.507Z - Care Plan header filled
+[INFO] 2026-03-06T06:45:59.524Z - Care Plan footer filled
+[STEP] 2026-03-06T06:45:59.524Z - Clicking Cancel button
+[INFO] 2026-03-06T06:46:00.572Z - Cancel button clicked
+[INFO] 2026-03-06T06:46:00.575Z - Cancel Confirmation dialog appeared
+[INFO] 2026-03-06T06:46:00.580Z - Cancel confirmation message: Are you sure you want to cancel the Care Plan?
+[STEP] 2026-03-06T06:46:00.580Z - Confirming cancel dialog (clicking Yes)
+[INFO] 2026-03-06T06:46:02.642Z - Cancel confirmed
+[INFO] 2026-03-06T06:46:02.644Z - Back on list after confirming cancel from Step 2
+[STEP] 2026-03-06T06:46:02.644Z - Verifying care plan 'CancelStep2 1772779552349' is NOT in the list
+[STEP] 2026-03-06T06:46:02.644Z - Clearing search box
+[INFO] 2026-03-06T06:46:03.159Z - Search cleared
+[STEP] 2026-03-06T06:46:03.159Z - Searching for care plan: CancelStep2 1772779552349
+[INFO] 2026-03-06T06:46:03.682Z - Search completed for care plan: CancelStep2 1772779552349
+[INFO] 2026-03-06T06:46:03.686Z - Care plan 'CancelStep2 1772779552349' is not in the list
+[INFO] 2026-03-06T06:46:03.686Z - Cancel during creation test completed

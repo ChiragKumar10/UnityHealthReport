@@ -1,0 +1,31 @@
+[STEP] 2026-03-06T06:43:03.134Z - Login to Provider Portal
+[STEP] 2026-03-06T06:43:03.544Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:43:03.544Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:43:04.760Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:43:04.904Z - Login attempt completed
+[STEP] 2026-03-06T06:43:07.451Z - Navigating to Alerts page
+[INFO] 2026-03-06T06:43:08.545Z - Navigated to Alerts page
+[STEP] 2026-03-06T06:43:08.546Z - Test: Filter by Active status
+[STEP] 2026-03-06T06:43:08.546Z - Selecting status filter: Active
+[INFO] 2026-03-06T06:43:10.604Z - Status filter set to: Active
+[STEP] 2026-03-06T06:43:10.604Z - Getting alert row count
+[INFO] 2026-03-06T06:43:11.608Z - Alert row count: 7
+[STEP] 2026-03-06T06:43:11.608Z - Verifying all rows have status: Not Resolved
+[STEP] 2026-03-06T06:43:11.608Z - Getting alert row count
+[INFO] 2026-03-06T06:43:12.613Z - Alert row count: 7
+[STEP] 2026-03-06T06:43:12.613Z - Getting cell text at row 1, column 8
+[INFO] 2026-03-06T06:43:12.622Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:43:12.622Z - Getting cell text at row 2, column 8
+[INFO] 2026-03-06T06:43:12.629Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:43:12.630Z - Getting cell text at row 3, column 8
+[INFO] 2026-03-06T06:43:12.635Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:43:12.636Z - Getting cell text at row 4, column 8
+[INFO] 2026-03-06T06:43:12.641Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:43:12.641Z - Getting cell text at row 5, column 8
+[INFO] 2026-03-06T06:43:12.647Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:43:12.647Z - Getting cell text at row 6, column 8
+[INFO] 2026-03-06T06:43:12.654Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:43:12.654Z - Getting cell text at row 7, column 8
+[INFO] 2026-03-06T06:43:12.661Z - Cell text: Not Resolved
+[INFO] 2026-03-06T06:43:12.661Z - All 7 rows have status: Not Resolved
+[INFO] 2026-03-06T06:43:12.662Z - Active filter shows only Not Resolved alerts

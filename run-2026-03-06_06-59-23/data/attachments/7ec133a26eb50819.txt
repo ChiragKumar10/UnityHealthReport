@@ -1,0 +1,120 @@
+[STEP] 2026-03-06T06:42:10.527Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:42:10.529Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:42:11.708Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:42:11.868Z - Login attempt completed
+[STEP] 2026-03-06T06:42:14.389Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-03-06T06:42:14.390Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:42:16.438Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:42:16.438Z - Adding new enrollment
+[INFO] 2026-03-06T06:42:22.831Z - Found 1 patients matching 'x'
+[INFO] 2026-03-06T06:42:24.277Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Kemmer, Roxane  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-06T06:42:30.203Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-06T06:42:45.245Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-06T06:42:49.355Z - Found 21 patients matching 'e'
+New patient selected: Mante, Stewart 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Mante, Stewart  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-06T06:42:53.352Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:42:53.361Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:42:58.041Z - Found 20 patients matching 'c'
+New patient selected: Turcotte, Steven 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: Turcotte, Steven  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-06T06:43:01.805Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-06T06:43:16.843Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-06T06:43:20.946Z - Found 8 patients matching 'j'
+New patient selected: BreitenbergJaskolski, Homer 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 4/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-06T06:43:24.935Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-06T06:43:39.967Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-06T06:43:44.087Z - Found 20 patients matching 'h'
+New patient selected: Mante, Katherine 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 5/5
+Patient: Mante, Katherine  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-03-06T06:43:48.085Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:43:48.096Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬─────────────────────┐
+│ (index) │ Values              │
+├─────────┼─────────────────────┤
+│ Name    │ 'Rosalyn Bailey'    │
+│ DOB     │ 'September 2023 15' │
+│ Phone   │ '6911182542'        │
+└─────────┴─────────────────────┘
+[STEP] 2026-03-06T06:43:50.231Z - Creating patient: Rosalyn Bailey
+[INFO] 2026-03-06T06:43:55.347Z - Patient Rosalyn Bailey created successfully
+✓ New patient created: Rosalyn Bailey
+[STEP] 2026-03-06T06:43:55.375Z - Creating enrollment
+[INFO] 2026-03-06T06:43:57.331Z - Patient enrolled in Chronic Care Management (CCM)
+[INFO] 2026-03-06T06:43:57.331Z - Provider: Dayton Nolan
+[INFO] 2026-03-06T06:43:57.331Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Chronic Care Management (CCM) program
+[INFO] 2026-03-06T06:43:59.332Z - Enrolled: Bailey, Rosalyn in Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:43:59.333Z - Verifying patient in Worklist NEW section
+✓ Patient "Bailey, Rosalyn" found in Worklist > CCM > NEW section
+[INFO] 2026-03-06T06:44:19.944Z - Patient verified in Worklist > CCM > NEW section
+[INFO] 2026-03-06T06:44:19.945Z - Patient verified in Work List > RTM > New section
+[STEP] 2026-03-06T06:44:23.979Z - Navigating to RTM tab
+[INFO] 2026-03-06T06:44:24.146Z - Successfully navigated to RTM tab
+[STEP] 2026-03-06T06:44:24.146Z - Selecting Week 1
+[INFO] 2026-03-06T06:44:25.337Z - Successfully selected Week 1

@@ -1,0 +1,37 @@
+[STEP] 2026-03-06T06:42:54.005Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-06T06:42:54.546Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:42:54.546Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:42:55.755Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:42:55.897Z - Login attempt completed
+[STEP] 2026-03-06T06:42:58.984Z - Test: Verify deactivate user
+[STEP] 2026-03-06T06:42:58.984Z - Navigating to Settings page
+[INFO] 2026-03-06T06:43:00.072Z - Navigated to Settings page
+[STEP] 2026-03-06T06:43:00.072Z - Clicking Unity Users tab
+[INFO] 2026-03-06T06:43:01.232Z - Unity Users tab clicked
+[STEP] 2026-03-06T06:43:01.233Z - Adding Unity User: Autofirstqqkwos Autolastqqkwos
+[STEP] 2026-03-06T06:43:01.233Z - Clicking Add Unity User button
+[INFO] 2026-03-06T06:43:02.429Z - Add Unity User form opened
+[STEP] 2026-03-06T06:43:02.429Z - Filling Unity User form for: Autofirstqqkwos Autolastqqkwos
+[STEP] 2026-03-06T06:43:02.429Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-06T06:43:03.387Z - Selected: Care Coordinators
+[STEP] 2026-03-06T06:43:03.478Z - Selecting dropdown option: Male
+[INFO] 2026-03-06T06:43:04.420Z - Selected: Male
+[INFO] 2026-03-06T06:43:04.598Z - Form filled for: Autofirstqqkwos Autolastqqkwos
+[STEP] 2026-03-06T06:43:04.598Z - Clicking Save button
+[INFO] 2026-03-06T06:43:06.728Z - Save button clicked
+[INFO] 2026-03-06T06:43:06.733Z - Unity User 'Autofirstqqkwos Autolastqqkwos' added — form closed
+[STEP] 2026-03-06T06:43:06.733Z - Verifying user 'Autofirstqqkwos Autolastqqkwos' is visible in the list
+[STEP] 2026-03-06T06:43:06.733Z - Searching for user: Autofirstqqkwos Autolastqqkwos
+[INFO] 2026-03-06T06:43:07.775Z - Search completed for: Autofirstqqkwos Autolastqqkwos
+[INFO] 2026-03-06T06:43:07.898Z - User 'Autofirstqqkwos Autolastqqkwos' is visible in the list
+[STEP] 2026-03-06T06:43:07.898Z - Searching for user: Autofirstqqkwos Autolastqqkwos
+[INFO] 2026-03-06T06:43:08.911Z - Search completed for: Autofirstqqkwos Autolastqqkwos
+[STEP] 2026-03-06T06:43:08.911Z - Getting status for: Autofirstqqkwos Autolastqqkwos
+[INFO] 2026-03-06T06:43:09.917Z - User 'Autofirstqqkwos Autolastqqkwos' status: Active
+[INFO] 2026-03-06T06:43:09.918Z - Initial status is Active
+[STEP] 2026-03-06T06:43:09.918Z - Toggling status for: Autofirstqqkwos Autolastqqkwos
+[INFO] 2026-03-06T06:43:11.943Z - Status toggled for: Autofirstqqkwos Autolastqqkwos
+[STEP] 2026-03-06T06:43:11.943Z - Getting status for: Autofirstqqkwos Autolastqqkwos
+[INFO] 2026-03-06T06:43:12.948Z - User 'Autofirstqqkwos Autolastqqkwos' status: Inactive
+[INFO] 2026-03-06T06:43:12.949Z - Status changed to Inactive
+[INFO] 2026-03-06T06:43:12.952Z - Deactivate user verified

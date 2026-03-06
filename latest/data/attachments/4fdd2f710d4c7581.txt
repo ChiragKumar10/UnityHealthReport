@@ -1,0 +1,27 @@
+[STEP] 2026-03-06T06:49:07.833Z - Login to Provider Portal
+[STEP] 2026-03-06T06:49:08.218Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:49:08.218Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:49:09.430Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:49:09.574Z - Login attempt completed
+[STEP] 2026-03-06T06:49:12.739Z - Test: View Resolved Note displays the resolution note
+[STEP] 2026-03-06T06:49:12.739Z - Navigating to Alerts page
+[INFO] 2026-03-06T06:49:13.900Z - Navigated to Alerts page
+[STEP] 2026-03-06T06:49:13.900Z - Selecting status filter: All
+[INFO] 2026-03-06T06:49:15.984Z - Status filter set to: All
+[STEP] 2026-03-06T06:49:15.984Z - Finding first resolved row
+[STEP] 2026-03-06T06:49:15.984Z - Getting alert row count
+[INFO] 2026-03-06T06:49:16.989Z - Alert row count: 25
+[STEP] 2026-03-06T06:49:16.989Z - Getting cell text at row 1, column 8
+[INFO] 2026-03-06T06:49:17.000Z - Cell text: Not Resolved
+[STEP] 2026-03-06T06:49:17.001Z - Getting cell text at row 2, column 8
+[INFO] 2026-03-06T06:49:17.009Z - Cell text: Resolved
+[INFO] 2026-03-06T06:49:17.009Z - First resolved row found at index: 2
+[STEP] 2026-03-06T06:49:17.009Z - Opening action menu for row 2
+[INFO] 2026-03-06T06:49:17.574Z - Action menu opened for row 2
+[STEP] 2026-03-06T06:49:17.574Z - Clicking View Resolved Note from action menu
+[INFO] 2026-03-06T06:49:18.679Z - View Resolved Note clicked
+[STEP] 2026-03-06T06:49:18.679Z - Getting resolved note text
+[INFO] 2026-03-06T06:49:19.186Z - Resolved note text (textarea): Resolved from Alerts page - cross-feature test
+[INFO] 2026-03-06T06:49:19.187Z - Resolved note displayed: Resolved from Alerts page - cross-feature test
+[STEP] 2026-03-06T06:49:19.187Z - Dismissing resolved note dialog
+[INFO] 2026-03-06T06:49:19.696Z - Resolved note dialog dismissed

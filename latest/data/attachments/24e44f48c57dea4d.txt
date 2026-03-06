@@ -1,0 +1,56 @@
+[STEP] 2026-03-06T06:42:37.569Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-03-06T06:42:37.569Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-06T06:42:37.569Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:42:37.569Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:42:39.088Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:42:39.222Z - Login attempt completed
+[STEP] 2026-03-06T06:42:41.705Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:42:43.744Z - Navigated to Enrollment section
+✓ Provider selected
+✓ Primary Care Manager assigned
+✓ Selected 2 secondary care managers (max allowed: 3)
+✓ Selected 3 diagnoses
+  1. (Y41491) - Condition-d8miloir-1772631645929 - Automated test description - qecc8dj65wn
+  2. (D10954) - Condition-7ju3tu3i-1772626144103 - Automated test description - bv4xfd97uf5
+  3. (X89734) - Condition-p5rpqcn4-1772623429245 - Automated test description - j791h9glnz
+✓ Multiple diagnoses selection validated
+
+--- Enrollment Attempt 1/5 ---
+✓ Found 12 patients matching 'd'
+✓ Service type selected
+[STEP] 2026-03-06T06:43:11.036Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:43:11.043Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 1/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 2/5 ---
+✓ Found 6 patients matching 'z'
+✓ Service type selected
+[STEP] 2026-03-06T06:43:23.419Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:43:23.426Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 2/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 3/5 ---
+✓ Found 22 patients matching 'i'
+✓ Service type selected
+[STEP] 2026-03-06T06:43:35.790Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-06T06:43:35.800Z - Enrollment result: SUCCESS
+✓ Enrollment added successfully
+✓ Diagnoses displayed in enrollment list: Y41491-Aut...+2
+[INFO] 2026-03-06T06:43:37.806Z - Care Manager and multi-diagnoses selection verified successfully

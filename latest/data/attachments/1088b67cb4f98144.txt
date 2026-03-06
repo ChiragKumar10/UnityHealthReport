@@ -1,0 +1,34 @@
+[STEP] 2026-03-06T06:47:01.061Z - Login to Provider Portal
+[STEP] 2026-03-06T06:47:01.449Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:47:01.449Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:47:02.687Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:47:02.826Z - Login attempt completed
+[STEP] 2026-03-06T06:47:06.022Z - Test: E2E - Create Heart Rate alert and verify on Alerts page
+[STEP] 2026-03-06T06:47:06.022Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-03-06T06:47:08.970Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-03-06T06:47:08.970Z - Navigating to Vitals tab
+[INFO] 2026-03-06T06:47:09.171Z - Successfully navigated to Vitals tab
+[STEP] 2026-03-06T06:47:09.172Z - Adding vital: Heart Rate with value 1024
+[STEP] 2026-03-06T06:47:09.173Z - Clicking Add Vital button
+[INFO] 2026-03-06T06:47:09.316Z - Add Vital form opened
+[STEP] 2026-03-06T06:47:09.316Z - Selecting vital type: Heart Rate
+[INFO] 2026-03-06T06:47:10.206Z - Successfully selected vital type: Heart Rate
+[STEP] 2026-03-06T06:47:10.206Z - Entering vital value: 1024
+[INFO] 2026-03-06T06:47:15.235Z - Successfully entered vital value: 1024
+[STEP] 2026-03-06T06:47:15.235Z - Saving vital
+[INFO] 2026-03-06T06:47:15.310Z - Successfully saved vital
+[INFO] 2026-03-06T06:47:15.310Z - Successfully added vital: Heart Rate with value 1024
+[INFO] 2026-03-06T06:47:15.310Z - Heart Rate vital added with value: 1024
+[STEP] 2026-03-06T06:47:15.310Z - Navigating to Alerts page
+[INFO] 2026-03-06T06:47:16.674Z - Navigated to Alerts page
+[STEP] 2026-03-06T06:47:16.674Z - Verifying alert exists for patient: Automation, Test
+[STEP] 2026-03-06T06:47:16.674Z - Clearing search
+[INFO] 2026-03-06T06:47:18.197Z - Search cleared
+[STEP] 2026-03-06T06:47:18.197Z - Searching alerts for: Automation
+[INFO] 2026-03-06T06:47:19.746Z - Search completed for: Automation
+[STEP] 2026-03-06T06:47:19.746Z - Getting alert row count
+[INFO] 2026-03-06T06:47:20.750Z - Alert row count: 3
+[STEP] 2026-03-06T06:47:20.750Z - Getting cell text at row 1, column 2
+[INFO] 2026-03-06T06:47:20.757Z - Cell text: Heart Rate
+[INFO] 2026-03-06T06:47:20.757Z - Alert type "Heart Rate" found for patient: Automation, Test
+[INFO] 2026-03-06T06:47:20.758Z - Heart Rate alert verified on Alerts page

@@ -1,0 +1,23 @@
+[STEP] 2026-03-06T06:41:06.255Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-03-06T06:41:06.255Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:41:06.256Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:41:07.773Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:41:07.908Z - Login attempt completed
+[STEP] 2026-03-06T06:41:10.366Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:41:12.396Z - Navigated to Enrollment section
+[INFO] 2026-03-06T06:41:12.396Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-03-06T06:41:12.397Z - Test 7: Verify combined Date + Status + Program filter
+[INFO] 2026-03-06T06:41:12.397Z - Generated random date range: 12-12-2025 to 01-05-2026
+[INFO] 2026-03-06T06:41:12.397Z - Selected random status: New
+[INFO] 2026-03-06T06:41:12.397Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-03-06T06:41:12.397Z - Applying combined filters - Date: 12-12-2025 to 01-05-2026, Status: New, Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:41:12.398Z - Applying date filter: 12-12-2025 to 01-05-2026
+[INFO] 2026-03-06T06:41:18.541Z - Date filter applied successfully
+[STEP] 2026-03-06T06:41:18.541Z - Applying status filter: New
+[INFO] 2026-03-06T06:41:24.631Z - Status filter 'New' applied successfully
+[STEP] 2026-03-06T06:41:24.631Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-03-06T06:41:30.720Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-03-06T06:41:30.720Z - Retrieving filtered enrollment results
+[INFO] 2026-03-06T06:41:42.723Z - No enrollment records found after applying filter
+No Record found for filters - Date: 12-12-2025 to 01-05-2026, Status: New, Program: CCM
+Test completed - No records found for the selected filters
