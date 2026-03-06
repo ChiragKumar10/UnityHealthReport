@@ -1,0 +1,39 @@
+[STEP] 2026-03-06T06:25:19.451Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-06T06:25:19.806Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:25:19.806Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:25:21.219Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:25:21.354Z - Login attempt completed
+[STEP] 2026-03-06T06:25:24.500Z - Test: Verify reactivate user
+[STEP] 2026-03-06T06:25:24.501Z - Navigating to Settings page
+[INFO] 2026-03-06T06:25:25.595Z - Navigated to Settings page
+[STEP] 2026-03-06T06:25:25.595Z - Clicking Unity Users tab
+[INFO] 2026-03-06T06:25:26.742Z - Unity Users tab clicked
+[STEP] 2026-03-06T06:25:26.742Z - Adding Unity User: Autofirstotkoms Autolastotkoms
+[STEP] 2026-03-06T06:25:26.742Z - Clicking Add Unity User button
+[INFO] 2026-03-06T06:25:27.940Z - Add Unity User form opened
+[STEP] 2026-03-06T06:25:27.941Z - Filling Unity User form for: Autofirstotkoms Autolastotkoms
+[STEP] 2026-03-06T06:25:27.941Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-06T06:25:28.894Z - Selected: Care Coordinators
+[STEP] 2026-03-06T06:25:28.977Z - Selecting dropdown option: Male
+[INFO] 2026-03-06T06:25:29.918Z - Selected: Male
+[INFO] 2026-03-06T06:25:30.072Z - Form filled for: Autofirstotkoms Autolastotkoms
+[STEP] 2026-03-06T06:25:30.072Z - Clicking Save button
+[INFO] 2026-03-06T06:25:32.180Z - Save button clicked
+[INFO] 2026-03-06T06:25:32.185Z - Unity User 'Autofirstotkoms Autolastotkoms' added — form closed
+[STEP] 2026-03-06T06:25:32.185Z - Verifying user 'Autofirstotkoms Autolastotkoms' is visible in the list
+[STEP] 2026-03-06T06:25:32.185Z - Searching for user: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:33.230Z - Search completed for: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:33.596Z - User 'Autofirstotkoms Autolastotkoms' is visible in the list
+[STEP] 2026-03-06T06:25:33.596Z - Searching for user: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:34.609Z - Search completed for: Autofirstotkoms Autolastotkoms
+[STEP] 2026-03-06T06:25:34.609Z - Toggling status for: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:36.626Z - Status toggled for: Autofirstotkoms Autolastotkoms
+[STEP] 2026-03-06T06:25:36.626Z - Getting status for: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:37.631Z - User 'Autofirstotkoms Autolastotkoms' status: Inactive
+[INFO] 2026-03-06T06:25:37.632Z - User deactivated
+[STEP] 2026-03-06T06:25:37.632Z - Toggling status for: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:39.669Z - Status toggled for: Autofirstotkoms Autolastotkoms
+[STEP] 2026-03-06T06:25:39.669Z - Getting status for: Autofirstotkoms Autolastotkoms
+[INFO] 2026-03-06T06:25:40.674Z - User 'Autofirstotkoms Autolastotkoms' status: Active
+[INFO] 2026-03-06T06:25:40.675Z - Status changed back to Active
+[INFO] 2026-03-06T06:25:40.677Z - Reactivate user verified

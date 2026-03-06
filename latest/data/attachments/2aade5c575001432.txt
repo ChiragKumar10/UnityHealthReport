@@ -1,0 +1,33 @@
+[STEP] 2026-03-06T06:25:37.110Z - Login to Provider Portal
+[STEP] 2026-03-06T06:25:37.522Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:25:37.522Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:25:38.897Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:25:39.031Z - Login attempt completed
+[STEP] 2026-03-06T06:25:42.155Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-03-06T06:25:42.156Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-06T06:25:42.156Z - Dismissing any open drawer
+[INFO] 2026-03-06T06:25:42.662Z - No drawer backdrop in DOM
+[INFO] 2026-03-06T06:25:43.169Z - Successfully on Care Team Work List
+[STEP] 2026-03-06T06:25:43.170Z - Selecting program tab: RTM
+[INFO] 2026-03-06T06:25:44.239Z - Successfully selected RTM tab
+[STEP] 2026-03-06T06:25:44.239Z - Clicking monitoring category: Data
+[STEP] 2026-03-06T06:25:45.399Z - Clearing status filter
+[INFO] 2026-03-06T06:25:45.406Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-03-06T06:25:45.952Z - MUI Menu options: 3
+[INFO] 2026-03-06T06:25:45.958Z -   Option [0]: "Clear Selection"
+[INFO] 2026-03-06T06:25:47.032Z - Status filter cleared
+[INFO] 2026-03-06T06:25:47.033Z - Switched to Data monitoring view
+[STEP] 2026-03-06T06:25:47.033Z - Test: View Review Note
+[STEP] 2026-03-06T06:25:47.033Z - Getting first available patient from list
+[INFO] 2026-03-06T06:25:47.043Z - First available patient: "Automation, Test"
+[STEP] 2026-03-06T06:25:47.044Z - Getting visible row count
+[INFO] 2026-03-06T06:25:48.047Z - Visible row count: 1
+[STEP] 2026-03-06T06:25:48.048Z - Viewing review note for: Automation, Test
+[STEP] 2026-03-06T06:25:48.048Z - Selecting action "View Review Note" for: Automation, Test
+[STEP] 2026-03-06T06:25:48.049Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-06T06:25:49.131Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-03-06T06:25:50.198Z - Action "View Review Note" selected for: Automation, Test
+[INFO] 2026-03-06T06:25:51.210Z - Review note content: Work ListEnrollmentsAlertsTasks0BillingDocument LibraryRPM LibraryRTM LibraryCCM LibraryPCM LibraryT...
+[INFO] 2026-03-06T06:25:51.211Z - Review note: Work ListEnrollmentsAlertsTasks0BillingDocument LibraryRPM LibraryRTM LibraryCCM...
+[STEP] 2026-03-06T06:25:51.211Z - Closing dialog
+[INFO] 2026-03-06T06:25:51.713Z - Dialog closed

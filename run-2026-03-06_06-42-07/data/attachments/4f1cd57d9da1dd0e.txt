@@ -1,0 +1,45 @@
+[STEP] 2026-03-06T06:22:07.596Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-06T06:22:07.969Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:22:07.969Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:22:09.367Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:22:09.498Z - Login attempt completed
+[STEP] 2026-03-06T06:22:12.391Z - Test: Verify duplicate username/email handling
+[STEP] 2026-03-06T06:22:12.391Z - Navigating to Settings page
+[INFO] 2026-03-06T06:22:13.511Z - Navigated to Settings page
+[STEP] 2026-03-06T06:22:13.512Z - Clicking Unity Users tab
+[INFO] 2026-03-06T06:22:14.669Z - Unity Users tab clicked
+[STEP] 2026-03-06T06:22:14.669Z - Adding Unity User: Autofirsttomdms Autolasttomdms
+[STEP] 2026-03-06T06:22:14.669Z - Clicking Add Unity User button
+[INFO] 2026-03-06T06:22:15.856Z - Add Unity User form opened
+[STEP] 2026-03-06T06:22:15.856Z - Filling Unity User form for: Autofirsttomdms Autolasttomdms
+[STEP] 2026-03-06T06:22:15.856Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-06T06:22:16.804Z - Selected: Care Coordinators
+[STEP] 2026-03-06T06:22:16.888Z - Selecting dropdown option: Male
+[INFO] 2026-03-06T06:22:17.818Z - Selected: Male
+[INFO] 2026-03-06T06:22:17.982Z - Form filled for: Autofirsttomdms Autolasttomdms
+[STEP] 2026-03-06T06:22:17.983Z - Clicking Save button
+[INFO] 2026-03-06T06:22:20.112Z - Save button clicked
+[INFO] 2026-03-06T06:22:20.118Z - Unity User 'Autofirsttomdms Autolasttomdms' added — form closed
+[STEP] 2026-03-06T06:22:20.118Z - Verifying user 'Autofirsttomdms Autolasttomdms' is visible in the list
+[STEP] 2026-03-06T06:22:20.118Z - Searching for user: Autofirsttomdms Autolasttomdms
+[INFO] 2026-03-06T06:22:21.157Z - Search completed for: Autofirsttomdms Autolasttomdms
+[INFO] 2026-03-06T06:22:21.526Z - User 'Autofirsttomdms Autolasttomdms' is visible in the list
+[INFO] 2026-03-06T06:22:21.526Z - First user created
+[STEP] 2026-03-06T06:22:21.526Z - Clicking Add Unity User button
+[INFO] 2026-03-06T06:22:22.686Z - Add Unity User form opened
+[STEP] 2026-03-06T06:22:22.686Z - Filling Unity User form for: Dup1772778141526 User1772778141526
+[STEP] 2026-03-06T06:22:22.686Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-06T06:22:23.598Z - Selected: Care Coordinators
+[STEP] 2026-03-06T06:22:23.677Z - Selecting dropdown option: Male
+[INFO] 2026-03-06T06:22:24.598Z - Selected: Male
+[INFO] 2026-03-06T06:22:24.727Z - Form filled for: Dup1772778141526 User1772778141526
+[STEP] 2026-03-06T06:22:24.727Z - Clicking Save button
+[INFO] 2026-03-06T06:22:26.817Z - Save button clicked
+[INFO] 2026-03-06T06:22:28.823Z - Duplicate rejected — form stayed open
+[STEP] 2026-03-06T06:22:28.823Z - Clicking Cancel button
+[INFO] 2026-03-06T06:22:29.900Z - Cancel button clicked
+[STEP] 2026-03-06T06:22:29.900Z - Verifying user 'Autofirsttomdms Autolasttomdms' is visible in the list
+[STEP] 2026-03-06T06:22:29.900Z - Searching for user: Autofirsttomdms Autolasttomdms
+[INFO] 2026-03-06T06:22:30.914Z - Search completed for: Autofirsttomdms Autolasttomdms
+[INFO] 2026-03-06T06:22:30.918Z - User 'Autofirsttomdms Autolasttomdms' is visible in the list
+[INFO] 2026-03-06T06:22:30.918Z - Duplicate handling verified

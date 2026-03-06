@@ -1,0 +1,53 @@
+[STEP] 2026-03-06T06:21:02.308Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-03-06T06:21:02.308Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-06T06:21:02.308Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:21:02.308Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:21:03.980Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:21:04.107Z - Login attempt completed
+[STEP] 2026-03-06T06:21:07.226Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:21:09.268Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-03-06T06:21:09.271Z - Adding new enrollment
+[INFO] 2026-03-06T06:21:15.626Z - Found 12 patients matching 'd'
+[INFO] 2026-03-06T06:21:17.081Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Hilpert, Kennedi  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:21:22.936Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-06T06:21:22.954Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Hilpert, Kennedi
+  Program: Remote Patient Monitoring (RPM)
+  Provider: sarvesh test
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-03-06T06:21:22.955Z - Enrollment form submitted successfully
+Selected patient: Hilpert, Kennedi
+[STEP] 2026-03-06T06:21:22.955Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-06T06:21:22.965Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-03-06T06:21:25.965Z - Retrieving enrollment list data
+[INFO] 2026-03-06T06:21:26.428Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Hilpert, Kennedi
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-03-06T06:21:26.431Z - Verifying patient in Worklist NEW section
+✓ Patient "Hilpert, Kennedi" found in Worklist > RPM > NEW section
+[INFO] 2026-03-06T06:21:47.021Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-03-06T06:21:47.022Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

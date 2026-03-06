@@ -1,0 +1,26 @@
+[ERROR] 2026-03-06T06:25:26.280Z - Failed to click "Exercise Program" checkbox for: Automation, Test
+Error: Column header "Exercise Program" not found in interaction table
+    at WeekInteractionPage.clickActivityCheckbox (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:436:23)
+    at WeekInteractionPage.performActivityWorkflow (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:487:13)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:164:9
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:322:9
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/testInfo.js:311:11
+    at TimeoutManager.withRunnable (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:320:7
+    at WorkerMain._runTest (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:295:5)
+    at WorkerMain.runTestGroup (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:199:11)
+    at process.<anonymous> (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/common/process.js:65:22)
+[ERROR] 2026-03-06T06:25:26.283Z - Failed activity workflow "Exercise Program" for: Automation, Test
+Error: Column header "Exercise Program" not found in interaction table
+    at WeekInteractionPage.clickActivityCheckbox (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:436:23)
+    at WeekInteractionPage.performActivityWorkflow (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:487:13)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:164:9
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:322:9
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/testInfo.js:311:11
+    at TimeoutManager.withRunnable (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:320:7
+    at WorkerMain._runTest (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:295:5)
+    at WorkerMain.runTestGroup (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/worker/workerMain.js:199:11)
+    at process.<anonymous> (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/node_modules/playwright/lib/common/process.js:65:22)

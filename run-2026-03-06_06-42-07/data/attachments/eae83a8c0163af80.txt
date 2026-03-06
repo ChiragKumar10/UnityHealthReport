@@ -1,0 +1,142 @@
+[STEP] 2026-03-06T06:31:15.975Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-03-06T06:31:15.975Z - Logging in and navigating to Enrollment section
+[STEP] 2026-03-06T06:31:15.975Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:31:15.976Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:31:17.640Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:31:17.780Z - Login attempt completed
+[STEP] 2026-03-06T06:31:20.949Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:31:22.973Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-03-06T06:31:25.975Z - Adding new enrollment
+[INFO] 2026-03-06T06:31:32.235Z - Found 20 patients matching 'i'
+[INFO] 2026-03-06T06:31:33.700Z - Selected random program: Principal Care Management (PCM)
+
+Enrollment attempt 1/5
+Patient: Bernhard, Cedric  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-06T06:31:39.399Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:31:39.408Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:31:44.086Z - Found 6 patients matching 'z'
+New patient selected: Green, Chaz 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 2/5
+Patient: Green, Chaz  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-06T06:31:48.080Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:31:48.087Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:31:52.694Z - Found 1 patients matching 'x'
+New patient selected: Kemmer, Roxane 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 3/5
+Patient: Kemmer, Roxane  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-06T06:31:56.652Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:31:56.660Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:32:01.325Z - Found 10 patients matching 'u'
+New patient selected: Lemke, Juana 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 4/5
+Patient: Lemke, Juana  | Program: Principal Care Management (PCM)
+[STEP] 2026-03-06T06:32:05.037Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-06T06:32:05.049Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Lemke, Juana
+  Program: Principal Care Management (PCM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstcdxxfu Editedcdxxfu
+[INFO] 2026-03-06T06:32:05.049Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Lemke, Juana
+Program: Principal Care Management (PCM)
+Provider: Dayton Nolan
+Care Manager: Autofirstcdxxfu Editedcdxxfu
+[STEP] 2026-03-06T06:32:05.049Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:32:07.102Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Principal Care Management (PCM)"
+Extracted program short: "PCM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "PCM"
+✓ Program tab "PCM" found
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Lemke
+Total rows in NEW section: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSEDUCATIONACTION
+Row 1: Lemke, Juana866-334-113603-05-2026SelfPay
+✓ Patient found in NEW section at row 2 (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 2
+[STEP] 2026-03-06T06:32:32.678Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:32:34.706Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Lemke
+Total rows in ACTIVE section: 2
+Row 0: NAME ▲DOBENROLLED DATECARE MANAGERPROVIDERINSURANCE NAMETYPE OF MOBILEDOCUMENT SIGNEDACTION
+Row 1: Lemke, Juana12-17-202203-06-2026Autofirstcdxxfu EditedcdxxfuDayton NolanSelfPay
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===
+✓ Patient Name: Lemke - Displayed
+✓ Provider: Dayton Nolan - Displayed
+✓ Care Manager: Autofirstcdxxfu Editedcdxxfu - Displayed
+Total rows in NEW section after move: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSEDUCATIONACTION
+Row 1: No data found.
+
+=== WORKLIST NEW SECTION VALIDATION (AFTER MOVE TO ACTIVE) ===
+✓ Patient NOT found in NEW section
+
+=== ATTEMPT 1/3: Checking enrollment list status ===
+[STEP] 2026-03-06T06:33:12.073Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:33:14.151Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:33:16.151Z - Applying status filter: Active
+[INFO] 2026-03-06T06:33:22.318Z - Status filter 'Active' applied successfully
+Enrollment row text: 01Lemke, JuanaPCM03-06-2026activeY41491-Aut...+1Autofirstcdxxfu EditedcdxxfuDayton Nolan
+✓ Status is ACTIVE (attempt 1)
+
+=== ENROLLMENT LIST STATUS VALIDATION ===
+Final enrollment row text: 01Lemke, JuanaPCM03-06-2026activeY41491-Aut...+1Autofirstcdxxfu EditedcdxxfuDayton Nolan
+✓ Enrollment status is ACTIVE
+✓ Status change validated successfully in all sections
+[INFO] 2026-03-06T06:33:25.329Z - Status change workflow completed successfully - Status changed from NEW to ACTIVE and reflected in Worklist and Enrollment List

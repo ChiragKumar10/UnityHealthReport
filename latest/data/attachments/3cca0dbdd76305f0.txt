@@ -1,0 +1,29 @@
+[STEP] 2026-03-06T06:25:44.788Z - Login to Provider Portal
+[STEP] 2026-03-06T06:25:45.204Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:25:45.204Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:25:46.556Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:25:46.686Z - Login attempt completed
+[STEP] 2026-03-06T06:25:49.872Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-03-06T06:25:49.872Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-06T06:25:49.872Z - Dismissing any open drawer
+[INFO] 2026-03-06T06:25:50.383Z - No drawer backdrop in DOM
+[INFO] 2026-03-06T06:25:50.889Z - Successfully on Care Team Work List
+[STEP] 2026-03-06T06:25:50.890Z - Selecting program tab: RTM
+[INFO] 2026-03-06T06:25:51.964Z - Successfully selected RTM tab
+[STEP] 2026-03-06T06:25:51.964Z - Clicking monitoring category: Alerts
+[STEP] 2026-03-06T06:25:53.054Z - Setting date filter to today
+[INFO] 2026-03-06T06:25:53.059Z - Changing date from "03-05-2026" to "03-06-2026"
+[INFO] 2026-03-06T06:25:54.153Z - Date filter set to: 03-06-2026
+[INFO] 2026-03-06T06:25:54.153Z - Switched to Alerts monitoring view
+[STEP] 2026-03-06T06:25:54.154Z - Test: Resolve alert from Action button
+[STEP] 2026-03-06T06:25:54.154Z - Getting visible row count
+[INFO] 2026-03-06T06:25:55.157Z - Visible row count: 0
+[INFO] 2026-03-06T06:25:55.158Z - No unresolved alerts — verifying resolved count instead
+[STEP] 2026-03-06T06:25:55.158Z - Setting alert status filter to: Resolved
+[INFO] 2026-03-06T06:25:55.204Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-03-06T06:25:56.773Z - Alert status filter set to: Resolved
+[STEP] 2026-03-06T06:25:56.773Z - Getting visible row count
+[INFO] 2026-03-06T06:25:57.777Z - Visible row count: 1
+[INFO] 2026-03-06T06:25:57.778Z - Resolved patients: 1
+[STEP] 2026-03-06T06:25:57.778Z - Getting count for Alerts
+[INFO] 2026-03-06T06:25:57.784Z - Alerts count: 1

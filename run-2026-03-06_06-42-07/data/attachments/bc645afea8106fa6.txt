@@ -1,0 +1,14 @@
+[STEP] 2026-03-06T06:25:21.055Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-03-06T06:25:21.055Z - Logging in and navigating to enrollment form
+[STEP] 2026-03-06T06:25:21.055Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:25:21.055Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:25:22.830Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:25:22.960Z - Login attempt completed
+[STEP] 2026-03-06T06:25:25.983Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:25:28.053Z - Navigated to Enrollment section
+✓ Found 11 patients matching 'w'
+✓ Patient search returned 11 results
+✓ Selected patient: Ritchie, Winston 
+✓ Phone auto-filled: 644-017-8865
+✓ DOB auto-filled: 05-02-2023
+[INFO] 2026-03-06T06:25:39.403Z - Patient search and auto-fill verification completed successfully

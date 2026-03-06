@@ -1,0 +1,131 @@
+[STEP] 2026-03-06T06:33:25.550Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-03-06T06:33:25.550Z - Logging in to Provider Portal
+[STEP] 2026-03-06T06:33:25.550Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:33:25.550Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:33:27.218Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:33:27.393Z - Login attempt completed
+[STEP] 2026-03-06T06:33:30.570Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-03-06T06:33:30.570Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:33:32.599Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:33:35.600Z - Applying status filter: Closed
+[INFO] 2026-03-06T06:33:41.759Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-03-06T06:33:43.962Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:33:46.029Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:33:47.030Z - Adding new enrollment
+[INFO] 2026-03-06T06:33:53.280Z - Found 20 patients matching 'i'
+[INFO] 2026-03-06T06:33:54.710Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Ritchie, Winston  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:34:00.526Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-03-06T06:34:15.573Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-03-06T06:34:19.680Z - Found 20 patients matching 'c'
+New patient selected: Schumm, Gregg 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Schumm, Gregg  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:34:23.620Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:34:23.628Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:34:28.314Z - Found 29 patients matching 'e'
+New patient selected: Reichert, Katie 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 3/5
+Patient: Reichert, Katie  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:34:32.287Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:34:32.294Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:34:36.984Z - Found 6 patients matching 'z'
+New patient selected: Hodkiewicz, Billy 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 4/5
+Patient: Hodkiewicz, Billy  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:34:40.915Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-03-06T06:34:40.923Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-03-06T06:34:45.585Z - Found 25 patients matching 'r'
+New patient selected: Blick, Cameron 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 5/5
+Patient: Blick, Cameron  | Program: Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:34:49.294Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-03-06T06:34:49.305Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Blick, Cameron
+  Program: Chronic Care Management (CCM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstbligrn Autolastbligrn
+[INFO] 2026-03-06T06:34:49.305Z - Enrollment form submitted successfully
+Enrollment created: Blick, Cameron | Chronic Care Management (CCM)
+[STEP] 2026-03-06T06:34:49.564Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:34:51.704Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:34:53.707Z - Applying status filter: New
+[INFO] 2026-03-06T06:34:59.851Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-03-06T06:35:20.963Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:35:23.012Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:35:25.012Z - Applying status filter: Active
+[INFO] 2026-03-06T06:35:31.184Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-03-06T06:35:44.204Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:35:46.262Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:35:48.263Z - Applying status filter: Closed
+[INFO] 2026-03-06T06:35:54.413Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Blick, Cameron ===
+[STEP] 2026-03-06T06:36:14.339Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:36:16.394Z - Navigated to Enrollment section
+[STEP] 2026-03-06T06:36:18.395Z - Applying status filter: New
+[INFO] 2026-03-06T06:36:24.549Z - Status filter 'New' applied successfully
+Row: 01Blick, CameronCCM03-06-2026newP40061-Aut...+1Autofirstatjlcy Autolastatjlcysarvesh test
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Blick, Cameron922-779-016502-25-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Blick, Cameron
+Program: CCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-03-06T06:36:40.572Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

@@ -1,0 +1,30 @@
+[STEP] 2026-03-06T06:21:47.152Z - Step 1: Login to Provider Portal
+[STEP] 2026-03-06T06:21:47.153Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:21:47.153Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:21:48.960Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:21:49.087Z - Login attempt completed
+[INFO] 2026-03-06T06:21:52.228Z - Successfully logged in to Provider Portal
+[STEP] 2026-03-06T06:21:52.228Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-03-06T06:21:52.228Z - Navigating to Enrollment section
+[INFO] 2026-03-06T06:21:54.276Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Russel, Viola
+Program: CCM
+Status: active
+[INFO] 2026-03-06T06:21:57.318Z - Found active enrollment for patient: Russel, Viola, Program: CCM
+[STEP] 2026-03-06T06:21:57.318Z - Step 3: Open Close Enrollment form
+[INFO] 2026-03-06T06:22:01.464Z - Close Enrollment form opened successfully
+[STEP] 2026-03-06T06:22:01.464Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-03-06T06:22:05.589Z - Termination details filled successfully
+[STEP] 2026-03-06T06:22:05.589Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-03-06T06:22:07.679Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-03-06T06:22:07.679Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Russel, Viola
+Row text: 02Russel, ViolaCCM03-05-2026activeY41491-Aut...+1Autofirstbchvfu AutolastbchvfuDayton Nolan
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-03-06T06:22:07.686Z - Enrollment status verified - remains ACTIVE as expected (not terminated)

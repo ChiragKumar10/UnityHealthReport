@@ -1,0 +1,31 @@
+[STEP] 2026-03-06T06:25:19.992Z - Login to Provider Portal
+[STEP] 2026-03-06T06:25:20.360Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:25:20.360Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:25:21.704Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:25:21.833Z - Login attempt completed
+[STEP] 2026-03-06T06:25:25.050Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-03-06T06:25:25.050Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-03-06T06:25:25.050Z - Dismissing any open drawer
+[INFO] 2026-03-06T06:25:25.573Z - No drawer backdrop in DOM
+[INFO] 2026-03-06T06:25:26.097Z - Successfully on Care Team Work List
+[STEP] 2026-03-06T06:25:26.097Z - Selecting program tab: RTM
+[INFO] 2026-03-06T06:25:27.149Z - Successfully selected RTM tab
+[STEP] 2026-03-06T06:25:27.149Z - Clicking monitoring category: Data
+[STEP] 2026-03-06T06:25:28.247Z - Clearing status filter
+[INFO] 2026-03-06T06:25:28.255Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-03-06T06:25:28.803Z - MUI Menu options: 3
+[INFO] 2026-03-06T06:25:28.806Z -   Option [0]: "Clear Selection"
+[INFO] 2026-03-06T06:25:29.891Z - Status filter cleared
+[INFO] 2026-03-06T06:25:29.891Z - Switched to Data monitoring view
+[STEP] 2026-03-06T06:25:29.891Z - Test: Review vitals from Action button
+[STEP] 2026-03-06T06:25:29.891Z - Getting first available patient from list
+[INFO] 2026-03-06T06:25:29.902Z - First available patient: "Automation, Test"
+[STEP] 2026-03-06T06:25:29.902Z - Getting visible row count
+[INFO] 2026-03-06T06:25:30.906Z - Visible row count: 1
+[STEP] 2026-03-06T06:25:30.907Z - Reviewing vital from action menu for: Automation, Test
+[STEP] 2026-03-06T06:25:30.907Z - Selecting action "Review" for: Automation, Test
+[STEP] 2026-03-06T06:25:30.907Z - Opening action menu for: Automation, Test
+[INFO] 2026-03-06T06:25:31.979Z - Action menu clicked for: Automation, Test (attempt 1)
+[STEP] 2026-03-06T06:25:36.986Z - Getting status for patient: Automation, Test
+[INFO] 2026-03-06T06:25:36.999Z - Patient "Automation, Test" status: Reviewed
+[INFO] 2026-03-06T06:25:36.999Z - Patient already has status: Reviewed

@@ -1,0 +1,47 @@
+[STEP] 2026-03-06T06:24:39.053Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-03-06T06:24:39.417Z - Attempting to login to provider portal
+[STEP] 2026-03-06T06:24:39.417Z - Navigating to provider portal login page
+[INFO] 2026-03-06T06:24:40.840Z - Successfully navigated to provider portal login page
+[INFO] 2026-03-06T06:24:40.972Z - Login attempt completed
+[STEP] 2026-03-06T06:24:43.911Z - Test: Verify delete removes user from list
+[STEP] 2026-03-06T06:24:43.911Z - Navigating to Settings page
+[INFO] 2026-03-06T06:24:45.000Z - Navigated to Settings page
+[STEP] 2026-03-06T06:24:45.000Z - Clicking Unity Users tab
+[INFO] 2026-03-06T06:24:46.170Z - Unity Users tab clicked
+[STEP] 2026-03-06T06:24:46.170Z - Adding Unity User: Autofirstlscmms Autolastlscmms
+[STEP] 2026-03-06T06:24:46.170Z - Clicking Add Unity User button
+[INFO] 2026-03-06T06:24:47.359Z - Add Unity User form opened
+[STEP] 2026-03-06T06:24:47.359Z - Filling Unity User form for: Autofirstlscmms Autolastlscmms
+[STEP] 2026-03-06T06:24:47.359Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-03-06T06:24:48.312Z - Selected: Care Coordinators
+[STEP] 2026-03-06T06:24:48.400Z - Selecting dropdown option: Male
+[INFO] 2026-03-06T06:24:49.328Z - Selected: Male
+[INFO] 2026-03-06T06:24:49.491Z - Form filled for: Autofirstlscmms Autolastlscmms
+[STEP] 2026-03-06T06:24:49.491Z - Clicking Save button
+[INFO] 2026-03-06T06:24:51.618Z - Save button clicked
+[INFO] 2026-03-06T06:24:51.623Z - Unity User 'Autofirstlscmms Autolastlscmms' added — form closed
+[STEP] 2026-03-06T06:24:51.624Z - Verifying user 'Autofirstlscmms Autolastlscmms' is visible in the list
+[STEP] 2026-03-06T06:24:51.624Z - Searching for user: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:24:52.664Z - Search completed for: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:24:53.025Z - User 'Autofirstlscmms Autolastlscmms' is visible in the list
+[STEP] 2026-03-06T06:24:53.025Z - Deleting Unity User: Autofirstlscmms Autolastlscmms
+[STEP] 2026-03-06T06:24:53.025Z - Clicking Delete for: Autofirstlscmms Autolastlscmms
+[STEP] 2026-03-06T06:24:53.025Z - Opening action menu for: Autofirstlscmms Autolastlscmms
+[STEP] 2026-03-06T06:24:53.025Z - Searching for user: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:24:54.039Z - Search completed for: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:24:55.061Z - Action menu opened
+[INFO] 2026-03-06T06:24:56.092Z - Delete clicked from menu
+[INFO] 2026-03-06T06:24:56.095Z - No confirmation dialog — user deleted directly
+[STEP] 2026-03-06T06:24:57.097Z - Clearing search box
+[INFO] 2026-03-06T06:24:57.612Z - Search cleared
+[INFO] 2026-03-06T06:24:57.612Z - Unity User 'Autofirstlscmms Autolastlscmms' deleted
+[STEP] 2026-03-06T06:24:57.612Z - Verifying user 'Autofirstlscmms Autolastlscmms' is NOT in the list
+[STEP] 2026-03-06T06:24:57.612Z - Clearing search box
+[INFO] 2026-03-06T06:24:58.122Z - Search cleared
+[STEP] 2026-03-06T06:24:58.122Z - Searching for user: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:24:59.261Z - Search completed for: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:24:59.264Z - User 'Autofirstlscmms Autolastlscmms' is not in the list
+[INFO] 2026-03-06T06:24:59.264Z - User removed from list after delete
+[STEP] 2026-03-06T06:24:59.264Z - Searching for user: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:25:00.277Z - Search completed for: Autofirstlscmms Autolastlscmms
+[INFO] 2026-03-06T06:25:00.280Z - Delete action verified — user no longer in system
