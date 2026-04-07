@@ -1,0 +1,165 @@
+[STEP] 2026-04-07T15:00:14.260Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-04-07T15:00:14.260Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-07T15:00:14.260Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:00:14.260Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:00:15.975Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:00:16.100Z - Login attempt completed
+[STEP] 2026-04-07T15:00:19.123Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:00:21.289Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-04-07T15:00:21.289Z - Adding new enrollment
+[INFO] 2026-04-07T15:00:27.707Z - Found 20 patients matching 'h'
+[INFO] 2026-04-07T15:00:29.125Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Zemlak, Marsha  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:00:34.952Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:00:49.992Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:00:54.109Z - Found 25 patients matching 'a'
+New patient selected: Dare, Percy 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Dare, Percy  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:00:58.105Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:01:13.171Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:01:17.335Z - Found 2 patients matching 'q'
+New patient selected: DuBuque, Lucile 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: DuBuque, Lucile  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:01:21.303Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:01:36.334Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:01:40.443Z - Found 23 patients matching 'i'
+New patient selected: Johns, Muriel 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Johns, Muriel  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:01:44.455Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:01:59.485Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:02:03.597Z - Found 20 patients matching 's'
+New patient selected: Ritchie, Winston 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Ritchie, Winston  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:02:07.302Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:02:22.337Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬────────────────┐
+│ (index) │ Values         │
+├─────────┼────────────────┤
+│ Name    │ 'Violet Lynch' │
+│ DOB     │ 'June 2023 18' │
+│ Phone   │ '8513334240'   │
+└─────────┴────────────────┘
+[STEP] 2026-04-07T15:02:24.431Z - Creating patient: Violet Lynch
+[INFO] 2026-04-07T15:02:29.515Z - Patient Violet Lynch created successfully
+✓ New patient created: Violet Lynch
+[STEP] 2026-04-07T15:02:29.518Z - Creating enrollment
+[INFO] 2026-04-07T15:02:31.434Z - Patient enrolled in Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-04-07T15:02:31.434Z - Provider: Dayton Nolan
+[INFO] 2026-04-07T15:02:31.434Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Remote Therapeutic Monitoring (RTM) program
+Selected patient: Lynch, Violet
+[STEP] 2026-04-07T15:02:33.438Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:02:48.468Z - Enrollment result: UNKNOWN
+⚠️  Unknown enrollment result for Remote Patient Monitoring (RPM)
+
+--- Attempt 2/4: Trying program "Remote Therapeutic Monitoring (RTM)" ---
+Changing program type in the same enrollment form...
+Selected new program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T15:02:52.614Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:03:07.654Z - Enrollment result: UNKNOWN
+⚠️  Unknown enrollment result for Remote Therapeutic Monitoring (RTM)
+
+--- Attempt 3/4: Trying program "Chronic Care Management (CCM)" ---
+Changing program type in the same enrollment form...
+Selected new program: Chronic Care Management (CCM)
+[STEP] 2026-04-07T15:03:11.834Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-07T15:03:11.844Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Chronic Care Management (CCM)
+[STEP] 2026-04-07T15:03:14.845Z - Retrieving enrollment list data
+[INFO] 2026-04-07T15:03:15.390Z - Retrieved 25 enrollment records
+Patient not found in enrollment list.

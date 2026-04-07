@@ -1,0 +1,54 @@
+[ERROR] 2026-04-07T14:53:32.233Z - Failed to send bulk message
+locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for getByRole('option', { name: 'Communication with Patient' })
+
+    at WeekInteractionPage.fillAndSendMessageForm (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:207:62)
+    at WeekInteractionPage.sendBulkMessage (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:144:13)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-bulk.spec.ts:51:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 207,
+      column: 62,
+      function: 'WeekInteractionPage.fillAndSendMessageForm'
+    },
+    category: 'pw:api',
+    title: "Click getByRole('option', { name: 'Communication with Patient' })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=option[name="Communication with Patient"i]',
+      strict: true,
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@76',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@76',
+      _title: "Click getByRole('option', { name: 'Communication with Patient' })",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775573612233,
+    error: {
+      message: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('option', { name: 'Communication with Patient' })\x1B[22m\n",
+      stack: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('option', { name: 'Communication with Patient' })\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.fillAndSendMessageForm (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:207:62)\n' +
+        '    at WeekInteractionPage.sendBulkMessage (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:144:13)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-bulk.spec.ts:51:9',
+      cause: undefined
+    }
+  }
+}

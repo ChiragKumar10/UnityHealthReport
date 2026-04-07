@@ -1,0 +1,78 @@
+[STEP] 2026-04-07T14:58:06.630Z - beforeAll: Adding abnormal Pain Scale vital to trigger RTM alert
+[STEP] 2026-04-07T14:58:07.063Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:58:07.064Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:58:08.483Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:58:08.644Z - Login attempt completed
+[STEP] 2026-04-07T14:58:11.723Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-07T14:58:14.290Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-07T14:58:14.290Z - Navigating to Vitals tab
+[INFO] 2026-04-07T14:58:14.452Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-07T14:58:14.452Z - Adding vital: Pain Scale with value 11
+[STEP] 2026-04-07T14:58:14.452Z - Clicking Add Vital button
+[INFO] 2026-04-07T14:58:14.585Z - Add Vital form opened
+[STEP] 2026-04-07T14:58:14.585Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-07T14:58:15.472Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-07T14:58:15.472Z - Entering vital value: 11
+[INFO] 2026-04-07T14:58:20.505Z - Successfully entered vital value: 11
+[STEP] 2026-04-07T14:58:20.505Z - Saving vital
+[INFO] 2026-04-07T14:58:20.578Z - Successfully saved vital
+[INFO] 2026-04-07T14:58:20.578Z - Successfully added vital: Pain Scale with value 11
+[INFO] 2026-04-07T14:58:20.579Z - beforeAll: Abnormal Pain Scale (11) added — waiting for alert processing
+[STEP] 2026-04-07T14:58:50.582Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:58:50.582Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:58:51.120Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-07T14:58:53.716Z - Drawer closed via Cancel button
+[INFO] 2026-04-07T14:58:53.719Z - Not on Care Team Work List — clicking sidebar Work List
+[INFO] 2026-04-07T14:58:55.300Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:58:55.301Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:58:56.421Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:58:56.421Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:58:57.555Z - Setting date filter to today
+[INFO] 2026-04-07T14:58:57.576Z - Changing date from "04-06-2026" to "04-07-2026"
+[INFO] 2026-04-07T14:58:58.698Z - Date filter set to: 04-07-2026
+[INFO] 2026-04-07T14:58:58.698Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:58:58.698Z - Getting visible row count
+[INFO] 2026-04-07T14:58:59.732Z - Visible row count: 0
+[INFO] 2026-04-07T14:58:59.732Z - beforeAll: Alert verification — row count: 0
+[INFO] 2026-04-07T14:58:59.733Z - beforeAll: Alert not yet visible — waiting another 30 seconds
+[STEP] 2026-04-07T14:59:29.734Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:59:29.734Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:59:30.240Z - No drawer backdrop in DOM
+[INFO] 2026-04-07T14:59:30.745Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:59:30.745Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:59:31.776Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:59:31.777Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:59:32.825Z - Setting date filter to today
+[INFO] 2026-04-07T14:59:32.832Z - Date filter already set to today: 04-07-2026
+[INFO] 2026-04-07T14:59:32.832Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:59:32.832Z - Getting visible row count
+[INFO] 2026-04-07T14:59:33.838Z - Visible row count: 0
+[INFO] 2026-04-07T14:59:33.838Z - beforeAll: Retry alert verification — row count: 0
+[STEP] 2026-04-07T14:59:33.967Z - Login to Provider Portal
+[STEP] 2026-04-07T14:59:34.360Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:59:34.360Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:59:35.787Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:59:35.937Z - Login attempt completed
+[STEP] 2026-04-07T14:59:38.844Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-07T14:59:38.844Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:59:38.844Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:59:39.354Z - No drawer backdrop in DOM
+[INFO] 2026-04-07T14:59:39.866Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:59:39.867Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:59:41.009Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:59:41.009Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:59:42.329Z - Setting date filter to today
+[INFO] 2026-04-07T14:59:42.348Z - Changing date from "04-06-2026" to "04-07-2026"
+[INFO] 2026-04-07T14:59:43.471Z - Date filter set to: 04-07-2026
+[INFO] 2026-04-07T14:59:43.471Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:59:43.471Z - Test: Unresolved alerts red color
+[STEP] 2026-04-07T14:59:43.472Z - Getting first available patient from list
+[INFO] 2026-04-07T14:59:43.477Z - No patients in list
+[INFO] 2026-04-07T14:59:43.477Z - No unresolved patients — switching to Resolved filter
+[STEP] 2026-04-07T14:59:43.477Z - Setting alert status filter to: Resolved
+[INFO] 2026-04-07T14:59:43.538Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-04-07T14:59:45.139Z - Alert status filter set to: Resolved
+[STEP] 2026-04-07T14:59:45.139Z - Getting first available patient from list
+[INFO] 2026-04-07T14:59:45.142Z - No patients in list
+[STEP] 2026-04-07T14:59:45.142Z - Getting visible row count
+[INFO] 2026-04-07T14:59:46.146Z - Visible row count: 0

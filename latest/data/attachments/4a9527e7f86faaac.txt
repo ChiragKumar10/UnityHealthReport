@@ -1,0 +1,37 @@
+[STEP] 2026-04-07T14:57:43.801Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-07T14:57:44.283Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:57:44.283Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:57:45.636Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:57:45.770Z - Login attempt completed
+[STEP] 2026-04-07T14:57:48.759Z - Test: Verify deactivate user
+[STEP] 2026-04-07T14:57:48.759Z - Navigating to Settings page
+[INFO] 2026-04-07T14:57:49.857Z - Navigated to Settings page
+[STEP] 2026-04-07T14:57:49.857Z - Clicking Unity Users tab
+[INFO] 2026-04-07T14:57:51.025Z - Unity Users tab clicked
+[STEP] 2026-04-07T14:57:51.026Z - Adding Unity User: Autofirstpgbbut Autolastpgbbut
+[STEP] 2026-04-07T14:57:51.026Z - Clicking Add Unity User button
+[INFO] 2026-04-07T14:57:52.205Z - Add Unity User form opened
+[STEP] 2026-04-07T14:57:52.206Z - Filling Unity User form for: Autofirstpgbbut Autolastpgbbut
+[STEP] 2026-04-07T14:57:52.206Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-07T14:57:53.153Z - Selected: Care Coordinators
+[STEP] 2026-04-07T14:57:53.241Z - Selecting dropdown option: Male
+[INFO] 2026-04-07T14:57:54.166Z - Selected: Male
+[INFO] 2026-04-07T14:57:54.330Z - Form filled for: Autofirstpgbbut Autolastpgbbut
+[STEP] 2026-04-07T14:57:54.330Z - Clicking Save button
+[INFO] 2026-04-07T14:57:56.441Z - Save button clicked
+[INFO] 2026-04-07T14:57:56.447Z - Unity User 'Autofirstpgbbut Autolastpgbbut' added — form closed
+[STEP] 2026-04-07T14:57:56.447Z - Verifying user 'Autofirstpgbbut Autolastpgbbut' is visible in the list
+[STEP] 2026-04-07T14:57:56.447Z - Searching for user: Autofirstpgbbut Autolastpgbbut
+[INFO] 2026-04-07T14:57:57.481Z - Search completed for: Autofirstpgbbut Autolastpgbbut
+[INFO] 2026-04-07T14:57:57.848Z - User 'Autofirstpgbbut Autolastpgbbut' is visible in the list
+[STEP] 2026-04-07T14:57:57.849Z - Searching for user: Autofirstpgbbut Autolastpgbbut
+[INFO] 2026-04-07T14:57:58.859Z - Search completed for: Autofirstpgbbut Autolastpgbbut
+[STEP] 2026-04-07T14:57:58.859Z - Getting status for: Autofirstpgbbut Autolastpgbbut
+[INFO] 2026-04-07T14:57:59.863Z - User 'Autofirstpgbbut Autolastpgbbut' status: Active
+[INFO] 2026-04-07T14:57:59.864Z - Initial status is Active
+[STEP] 2026-04-07T14:57:59.864Z - Toggling status for: Autofirstpgbbut Autolastpgbbut
+[INFO] 2026-04-07T14:58:01.895Z - Status toggled for: Autofirstpgbbut Autolastpgbbut
+[STEP] 2026-04-07T14:58:01.895Z - Getting status for: Autofirstpgbbut Autolastpgbbut
+[INFO] 2026-04-07T14:58:02.899Z - User 'Autofirstpgbbut Autolastpgbbut' status: Inactive
+[INFO] 2026-04-07T14:58:02.900Z - Status changed to Inactive
+[INFO] 2026-04-07T14:58:02.903Z - Deactivate user verified

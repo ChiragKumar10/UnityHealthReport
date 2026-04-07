@@ -1,0 +1,29 @@
+[STEP] 2026-04-07T15:04:54.586Z - Login to Provider Portal
+[STEP] 2026-04-07T15:04:54.983Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:04:54.983Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:04:56.149Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:04:56.295Z - Login attempt completed
+[STEP] 2026-04-07T15:04:59.155Z - Test: Mandatory field validation
+[STEP] 2026-04-07T15:04:59.155Z - Opening RPM Library
+[INFO] 2026-04-07T15:04:59.254Z - Successfully opened RPM Library
+[STEP] 2026-04-07T15:04:59.254Z - Clicking Add Template button
+[INFO] 2026-04-07T15:05:00.462Z - Add Template form opened
+[STEP] 2026-04-07T15:05:00.462Z - Attempting to save template without required fields
+[STEP] 2026-04-07T15:05:00.462Z - Clicking Save button
+[INFO] 2026-04-07T15:05:01.518Z - Save button clicked
+[INFO] 2026-04-07T15:05:02.522Z - Form still visible after save attempt: true
+[INFO] 2026-04-07T15:05:02.523Z - Validation prevented save with empty fields - form still open
+[STEP] 2026-04-07T15:05:02.523Z - Clicking Cancel button
+[INFO] 2026-04-07T15:05:03.576Z - Cancel button clicked
+[STEP] 2026-04-07T15:05:03.576Z - Clicking Add Template button
+[INFO] 2026-04-07T15:05:04.643Z - Add Template form opened
+[STEP] 2026-04-07T15:05:04.643Z - Filling template name: Validation Test 1775574304643
+[INFO] 2026-04-07T15:05:04.656Z - Template name filled: Validation Test 1775574304643
+[STEP] 2026-04-07T15:05:04.656Z - Attempting to save template without required fields
+[STEP] 2026-04-07T15:05:04.656Z - Clicking Save button
+[INFO] 2026-04-07T15:05:05.700Z - Save button clicked
+[INFO] 2026-04-07T15:05:06.704Z - Form still visible after save attempt: true
+[INFO] 2026-04-07T15:05:06.705Z - Validation prevented save with partial fields - form still open
+[STEP] 2026-04-07T15:05:06.705Z - Clicking Cancel button
+[INFO] 2026-04-07T15:05:07.743Z - Cancel button clicked
+[INFO] 2026-04-07T15:05:07.743Z - Mandatory field validation test completed

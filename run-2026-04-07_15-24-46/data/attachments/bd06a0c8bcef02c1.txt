@@ -1,0 +1,97 @@
+[STEP] 2026-04-07T14:55:32.767Z - beforeAll: Adding abnormal Pain Scale vital to trigger RTM alert
+[STEP] 2026-04-07T14:55:33.138Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:55:33.138Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:55:34.554Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:55:34.683Z - Login attempt completed
+[STEP] 2026-04-07T14:55:37.628Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-07T14:55:41.050Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-07T14:55:41.051Z - Navigating to Vitals tab
+[INFO] 2026-04-07T14:55:41.202Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-07T14:55:41.203Z - Adding vital: Pain Scale with value 11
+[STEP] 2026-04-07T14:55:41.203Z - Clicking Add Vital button
+[INFO] 2026-04-07T14:55:41.340Z - Add Vital form opened
+[STEP] 2026-04-07T14:55:41.340Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-07T14:55:42.247Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-07T14:55:42.247Z - Entering vital value: 11
+[INFO] 2026-04-07T14:55:47.292Z - Successfully entered vital value: 11
+[STEP] 2026-04-07T14:55:47.292Z - Saving vital
+[INFO] 2026-04-07T14:55:47.384Z - Successfully saved vital
+[INFO] 2026-04-07T14:55:47.385Z - Successfully added vital: Pain Scale with value 11
+[INFO] 2026-04-07T14:55:47.385Z - beforeAll: Abnormal Pain Scale (11) added — waiting for alert processing
+[STEP] 2026-04-07T14:56:17.387Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:56:17.388Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:56:17.896Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-07T14:56:20.540Z - Drawer closed via Cancel button
+[INFO] 2026-04-07T14:56:20.545Z - Not on Care Team Work List — clicking sidebar Work List
+[INFO] 2026-04-07T14:56:22.150Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:56:22.150Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:56:23.262Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:56:23.262Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:56:24.422Z - Setting date filter to today
+[INFO] 2026-04-07T14:56:24.429Z - Changing date from "04-06-2026" to "04-07-2026"
+[INFO] 2026-04-07T14:56:25.530Z - Date filter set to: 04-07-2026
+[INFO] 2026-04-07T14:56:25.530Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:56:25.530Z - Getting visible row count
+[INFO] 2026-04-07T14:56:26.536Z - Visible row count: 0
+[INFO] 2026-04-07T14:56:26.536Z - beforeAll: Alert verification — row count: 0
+[INFO] 2026-04-07T14:56:26.536Z - beforeAll: Alert not yet visible — waiting another 30 seconds
+[STEP] 2026-04-07T14:56:56.537Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:56:56.537Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:56:57.045Z - No drawer backdrop in DOM
+[INFO] 2026-04-07T14:56:57.552Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:56:57.552Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:56:58.583Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:56:58.584Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:56:59.629Z - Setting date filter to today
+[INFO] 2026-04-07T14:56:59.636Z - Date filter already set to today: 04-07-2026
+[INFO] 2026-04-07T14:56:59.636Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:56:59.636Z - Getting visible row count
+[INFO] 2026-04-07T14:57:00.641Z - Visible row count: 0
+[INFO] 2026-04-07T14:57:00.641Z - beforeAll: Retry alert verification — row count: 0
+[STEP] 2026-04-07T14:57:00.780Z - Login to Provider Portal
+[STEP] 2026-04-07T14:57:01.191Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:57:01.191Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:57:02.609Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:57:02.778Z - Login attempt completed
+[STEP] 2026-04-07T14:57:05.779Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-07T14:57:05.779Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:57:05.779Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:57:06.305Z - No drawer backdrop in DOM
+[INFO] 2026-04-07T14:57:06.839Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:57:06.839Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:57:07.973Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:57:07.973Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:57:09.156Z - Setting date filter to today
+[INFO] 2026-04-07T14:57:09.163Z - Changing date from "04-06-2026" to "04-07-2026"
+[INFO] 2026-04-07T14:57:10.278Z - Date filter set to: 04-07-2026
+[INFO] 2026-04-07T14:57:10.278Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:57:10.279Z - Test: Complete alert resolution workflow
+[STEP] 2026-04-07T14:57:10.279Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-07T14:57:12.680Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-07T14:57:12.680Z - Navigating to Vitals tab
+[INFO] 2026-04-07T14:57:12.831Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-07T14:57:12.832Z - Adding vital: Pain Scale with value 11
+[STEP] 2026-04-07T14:57:12.832Z - Clicking Add Vital button
+[INFO] 2026-04-07T14:57:12.949Z - Add Vital form opened
+[STEP] 2026-04-07T14:57:12.949Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-07T14:57:13.822Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-07T14:57:13.823Z - Entering vital value: 11
+[INFO] 2026-04-07T14:57:18.853Z - Successfully entered vital value: 11
+[STEP] 2026-04-07T14:57:18.854Z - Saving vital
+[INFO] 2026-04-07T14:57:18.923Z - Successfully saved vital
+[INFO] 2026-04-07T14:57:18.923Z - Successfully added vital: Pain Scale with value 11
+[INFO] 2026-04-07T14:57:18.923Z - Abnormal Pain Scale (11) added — waiting for alert processing
+[STEP] 2026-04-07T14:57:48.925Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-07T14:57:48.925Z - Dismissing any open drawer
+[INFO] 2026-04-07T14:57:49.429Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-07T14:57:52.014Z - Drawer closed via Cancel button
+[INFO] 2026-04-07T14:57:52.018Z - Not on Care Team Work List — clicking sidebar Work List
+[INFO] 2026-04-07T14:57:53.580Z - Successfully on Care Team Work List
+[STEP] 2026-04-07T14:57:53.580Z - Selecting program tab: RTM
+[INFO] 2026-04-07T14:57:54.610Z - Successfully selected RTM tab
+[STEP] 2026-04-07T14:57:54.610Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-07T14:57:55.656Z - Setting date filter to today
+[INFO] 2026-04-07T14:57:55.662Z - Date filter already set to today: 04-07-2026
+[INFO] 2026-04-07T14:57:55.662Z - Switched to Alerts monitoring view
+[STEP] 2026-04-07T14:57:55.662Z - Checking if patient "Automation, Test" is in the list
+[INFO] 2026-04-07T14:58:05.664Z - Patient "Automation, Test" not found in list

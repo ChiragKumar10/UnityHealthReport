@@ -1,0 +1,48 @@
+[STEP] 2026-04-07T14:57:01.086Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-07T14:57:01.496Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:57:01.496Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:57:02.853Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:57:02.988Z - Login attempt completed
+[STEP] 2026-04-07T14:57:06.003Z - Test: E2E Delete Unity User
+[STEP] 2026-04-07T14:57:06.003Z - Navigating to Settings page
+[INFO] 2026-04-07T14:57:07.101Z - Navigated to Settings page
+[STEP] 2026-04-07T14:57:07.101Z - Clicking Unity Users tab
+[INFO] 2026-04-07T14:57:08.263Z - Unity Users tab clicked
+[STEP] 2026-04-07T14:57:08.263Z - Adding Unity User: Autofirstdaqytt Autolastdaqytt
+[STEP] 2026-04-07T14:57:08.263Z - Clicking Add Unity User button
+[INFO] 2026-04-07T14:57:09.433Z - Add Unity User form opened
+[STEP] 2026-04-07T14:57:09.433Z - Filling Unity User form for: Autofirstdaqytt Autolastdaqytt
+[STEP] 2026-04-07T14:57:09.433Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-07T14:57:10.377Z - Selected: Care Coordinators
+[STEP] 2026-04-07T14:57:10.476Z - Selecting dropdown option: Male
+[INFO] 2026-04-07T14:57:11.407Z - Selected: Male
+[INFO] 2026-04-07T14:57:11.557Z - Form filled for: Autofirstdaqytt Autolastdaqytt
+[STEP] 2026-04-07T14:57:11.559Z - Clicking Save button
+[INFO] 2026-04-07T14:57:13.675Z - Save button clicked
+[INFO] 2026-04-07T14:57:13.680Z - Unity User 'Autofirstdaqytt Autolastdaqytt' added — form closed
+[STEP] 2026-04-07T14:57:13.680Z - Verifying user 'Autofirstdaqytt Autolastdaqytt' is visible in the list
+[STEP] 2026-04-07T14:57:13.680Z - Searching for user: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:14.722Z - Search completed for: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:15.081Z - User 'Autofirstdaqytt Autolastdaqytt' is visible in the list
+[INFO] 2026-04-07T14:57:15.081Z - User created for delete test
+[STEP] 2026-04-07T14:57:15.082Z - Deleting Unity User: Autofirstdaqytt Autolastdaqytt
+[STEP] 2026-04-07T14:57:15.082Z - Clicking Delete for: Autofirstdaqytt Autolastdaqytt
+[STEP] 2026-04-07T14:57:15.082Z - Opening action menu for: Autofirstdaqytt Autolastdaqytt
+[STEP] 2026-04-07T14:57:15.082Z - Searching for user: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:16.095Z - Search completed for: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:17.119Z - Action menu opened
+[INFO] 2026-04-07T14:57:18.140Z - Delete clicked from menu
+[INFO] 2026-04-07T14:57:18.143Z - No confirmation dialog — user deleted directly
+[STEP] 2026-04-07T14:57:19.144Z - Clearing search box
+[INFO] 2026-04-07T14:57:19.662Z - Search cleared
+[INFO] 2026-04-07T14:57:19.662Z - Unity User 'Autofirstdaqytt Autolastdaqytt' deleted
+[STEP] 2026-04-07T14:57:19.662Z - Verifying user 'Autofirstdaqytt Autolastdaqytt' is NOT in the list
+[STEP] 2026-04-07T14:57:19.662Z - Clearing search box
+[INFO] 2026-04-07T14:57:20.174Z - Search cleared
+[STEP] 2026-04-07T14:57:20.174Z - Searching for user: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:21.275Z - Search completed for: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:21.279Z - User 'Autofirstdaqytt Autolastdaqytt' is not in the list
+[INFO] 2026-04-07T14:57:21.279Z - User removed from list
+[STEP] 2026-04-07T14:57:21.279Z - Searching for user: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:22.290Z - Search completed for: Autofirstdaqytt Autolastdaqytt
+[INFO] 2026-04-07T14:57:22.293Z - E2E Delete Unity User verified

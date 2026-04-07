@@ -1,0 +1,25 @@
+[STEP] 2026-04-07T14:56:13.835Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-07T14:56:13.835Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:56:13.835Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:56:15.525Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:56:15.650Z - Login attempt completed
+[STEP] 2026-04-07T14:56:18.667Z - Navigating to Enrollment section
+[INFO] 2026-04-07T14:56:20.871Z - Navigated to Enrollment section
+[INFO] 2026-04-07T14:56:20.871Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-07T14:56:20.872Z - Test 7: Verify combined Date + Status + Program filter
+[INFO] 2026-04-07T14:56:20.872Z - Generated random date range: 02-23-2026 to 03-04-2026
+[INFO] 2026-04-07T14:56:20.872Z - Selected random status: New
+[INFO] 2026-04-07T14:56:20.873Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-04-07T14:56:20.873Z - Applying combined filters - Date: 02-23-2026 to 03-04-2026, Status: New, Program: Chronic Care Management (CCM)
+[STEP] 2026-04-07T14:56:20.873Z - Applying date filter: 02-23-2026 to 03-04-2026
+[INFO] 2026-04-07T14:56:27.006Z - Date filter applied successfully
+[STEP] 2026-04-07T14:56:27.006Z - Applying status filter: New
+[INFO] 2026-04-07T14:56:33.129Z - Status filter 'New' applied successfully
+[STEP] 2026-04-07T14:56:33.129Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-04-07T14:56:39.242Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-04-07T14:56:39.242Z - Retrieving filtered enrollment results
+[INFO] 2026-04-07T14:56:41.534Z - Retrieved 15 filtered enrollment records
+Record 1 Verified: Zemlak, Haven - CCM - new - 02-24-2026
+Record 2 Verified: Schumm, Gregg - CCM - new - 02-24-2026
+Record 3 Verified: Trantow, Darren - CCM - new - 02-25-2026
+[INFO] 2026-04-07T14:56:41.545Z - Combined Date + Status + Program filter verification completed - 3 records verified

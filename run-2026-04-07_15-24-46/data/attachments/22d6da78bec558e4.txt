@@ -1,0 +1,22 @@
+[STEP] 2026-04-07T15:04:16.702Z - Login to Provider Portal
+[STEP] 2026-04-07T15:04:17.102Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:04:17.102Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:04:18.286Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:04:18.445Z - Login attempt completed
+[STEP] 2026-04-07T15:04:21.324Z - Test: Escalate alert and verify in Patient 360 Escalation section
+[STEP] 2026-04-07T15:04:21.324Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-07T15:04:23.878Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-07T15:04:23.879Z - Navigating to Vitals tab
+[INFO] 2026-04-07T15:04:24.026Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-07T15:04:24.028Z - Adding vital: Pain Scale with value 485
+[STEP] 2026-04-07T15:04:24.028Z - Clicking Add Vital button
+[INFO] 2026-04-07T15:04:24.228Z - Add Vital form opened
+[STEP] 2026-04-07T15:04:24.228Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-07T15:04:25.080Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-07T15:04:25.081Z - Entering vital value: 485
+[INFO] 2026-04-07T15:04:30.115Z - Successfully entered vital value: 485
+[STEP] 2026-04-07T15:04:30.115Z - Saving vital
+[INFO] 2026-04-07T15:04:30.172Z - Successfully saved vital
+[INFO] 2026-04-07T15:04:30.172Z - Successfully added vital: Pain Scale with value 485
+[INFO] 2026-04-07T15:04:30.172Z - Pain Scale vital added with value: 485
+[STEP] 2026-04-07T15:04:30.173Z - Navigating to Alerts page

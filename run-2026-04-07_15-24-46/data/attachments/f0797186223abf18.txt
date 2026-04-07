@@ -1,0 +1,137 @@
+[STEP] 2026-04-07T15:05:34.081Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-04-07T15:05:34.082Z - Logging in to Provider Portal
+[STEP] 2026-04-07T15:05:34.083Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:05:34.083Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:05:35.820Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:05:35.961Z - Login attempt completed
+[STEP] 2026-04-07T15:05:38.940Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-04-07T15:05:38.941Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:05:41.237Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:05:44.240Z - Applying status filter: Closed
+[INFO] 2026-04-07T15:05:50.384Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-07T15:05:52.791Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:05:54.862Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:05:55.864Z - Adding new enrollment
+[INFO] 2026-04-07T15:06:02.186Z - Found 18 patients matching 'e'
+[INFO] 2026-04-07T15:06:03.639Z - Selected random program: Principal Care Management (PCM)
+
+Enrollment attempt 1/5
+Patient: Crist, Hassie  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-07T15:06:09.402Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:06:24.448Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:06:28.573Z - Found 20 patients matching 'w'
+New patient selected: GoodwinLedner, Luella 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 2/5
+Patient: GoodwinLedner, Luella  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-07T15:06:32.547Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:06:47.595Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:06:51.755Z - Found 25 patients matching 't'
+New patient selected: Murphy, Bethany 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 3/5
+Patient: Murphy, Bethany  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-07T15:06:55.712Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:07:10.743Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:07:14.864Z - Found 20 patients matching 'y'
+New patient selected: Schroeder, Yolanda 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 4/5
+Patient: Schroeder, Yolanda  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-07T15:07:18.578Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:07:33.612Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:07:37.715Z - Found 10 patients matching 'v'
+New patient selected: Zemlak, Haven 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 5/5
+Patient: Zemlak, Haven  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-07T15:07:41.660Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:07:56.693Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬─────────────────────┐
+│ (index) │ Values              │
+├─────────┼─────────────────────┤
+│ Name    │ 'Bertrand Homenick' │
+│ DOB     │ 'August 2023 11'    │
+│ Phone   │ '9468172476'        │
+└─────────┴─────────────────────┘
+[STEP] 2026-04-07T15:07:58.810Z - Creating patient: Bertrand Homenick
+[INFO] 2026-04-07T15:08:03.968Z - Patient Bertrand Homenick created successfully
+✓ New patient created: Bertrand Homenick
+[STEP] 2026-04-07T15:08:03.973Z - Creating enrollment
+[INFO] 2026-04-07T15:08:06.079Z - Patient enrolled in Chronic Care Management (CCM)
+[INFO] 2026-04-07T15:08:06.079Z - Provider: Dayton Nolan
+[INFO] 2026-04-07T15:08:06.079Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Chronic Care Management (CCM) program
+Enrollment created: Homenick, Bertrand | Chronic Care Management (CCM)
+[STEP] 2026-04-07T15:08:08.507Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:08:10.675Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:08:12.682Z - Applying status filter: New
+[INFO] 2026-04-07T15:08:18.855Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-07T15:08:40.443Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:08:42.495Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:08:44.496Z - Applying status filter: Active
+[INFO] 2026-04-07T15:08:50.651Z - Status filter 'Active' applied successfully

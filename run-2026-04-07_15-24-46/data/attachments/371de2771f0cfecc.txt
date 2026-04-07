@@ -1,0 +1,136 @@
+[STEP] 2026-04-07T15:09:08.764Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-04-07T15:09:08.765Z - Logging in to Provider Portal
+[STEP] 2026-04-07T15:09:08.765Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:09:08.765Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:09:10.580Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:09:10.737Z - Login attempt completed
+[STEP] 2026-04-07T15:09:13.830Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:09:15.998Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:09:19.001Z - Applying status filter: Closed
+[INFO] 2026-04-07T15:09:25.155Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-07T15:09:27.507Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:09:29.590Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:09:30.591Z - Adding new enrollment
+[INFO] 2026-04-07T15:09:36.879Z - Found 20 patients matching 'k'
+[INFO] 2026-04-07T15:09:38.325Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Krajcik, Willie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:09:44.190Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:09:59.236Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:10:03.364Z - Found 1 patients matching 'x'
+New patient selected: Kemmer, Roxane 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Kemmer, Roxane  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:10:07.088Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:10:22.129Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:10:26.285Z - Found 20 patients matching 'k'
+New patient selected: Lemke, Juana 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Lemke, Juana  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:10:30.269Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:10:45.298Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:10:49.395Z - Found 20 patients matching 'b'
+New patient selected: BreitenbergJaskolski, Homer 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:10:53.121Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:11:08.151Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T15:11:12.261Z - Found 30 patients matching 'o'
+New patient selected: Becker, Simeon 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Becker, Simeon  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-07T15:11:15.969Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T15:11:30.999Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬───────────────────┐
+│ (index) │ Values            │
+├─────────┼───────────────────┤
+│ Name    │ 'Victor Tremblay' │
+│ DOB     │ 'June 2022 28'    │
+│ Phone   │ '8923329780'      │
+└─────────┴───────────────────┘
+[STEP] 2026-04-07T15:11:33.096Z - Creating patient: Victor Tremblay
+[INFO] 2026-04-07T15:11:38.157Z - Patient Victor Tremblay created successfully
+✓ New patient created: Victor Tremblay
+[STEP] 2026-04-07T15:11:38.160Z - Creating enrollment
+[INFO] 2026-04-07T15:11:40.252Z - Patient enrolled in Principal Care Management (PCM)
+[INFO] 2026-04-07T15:11:40.253Z - Provider: Dayton Nolan
+[INFO] 2026-04-07T15:11:40.253Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Principal Care Management (PCM) program
+Enrollment created: Tremblay, Victor | Principal Care Management (PCM)
+[STEP] 2026-04-07T15:11:42.666Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:11:44.823Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:11:46.824Z - Applying status filter: New
+[INFO] 2026-04-07T15:11:52.979Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-07T15:12:14.457Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:12:16.520Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:12:18.520Z - Applying status filter: Active
+[INFO] 2026-04-07T15:12:24.672Z - Status filter 'Active' applied successfully

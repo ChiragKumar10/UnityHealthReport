@@ -1,0 +1,120 @@
+[STEP] 2026-04-07T14:57:05.619Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:57:05.620Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:57:07.037Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:57:07.196Z - Login attempt completed
+[STEP] 2026-04-07T14:57:10.101Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-04-07T14:57:10.103Z - Navigating to Enrollment section
+[INFO] 2026-04-07T14:57:12.190Z - Navigated to Enrollment section
+[STEP] 2026-04-07T14:57:12.193Z - Adding new enrollment
+[INFO] 2026-04-07T14:57:18.767Z - Found 20 patients matching 'e'
+[INFO] 2026-04-07T14:57:20.191Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Mante, Stewart  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T14:57:25.917Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T14:57:40.964Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T14:57:45.086Z - Found 12 patients matching 'z'
+New patient selected: Green, Chaz 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Green, Chaz  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T14:57:49.082Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T14:58:04.115Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T14:58:08.226Z - Found 21 patients matching 'm'
+New patient selected: Zemlak, Haven 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: Zemlak, Haven  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T14:58:12.212Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T14:58:27.298Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T14:58:31.415Z - Found 22 patients matching 'd'
+New patient selected: Turner, Rosendo 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 4/5
+Patient: Turner, Rosendo  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T14:58:35.143Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T14:58:50.174Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-07T14:58:54.294Z - Found 22 patients matching 'y'
+New patient selected: Murray, Toby 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 5/5
+Patient: Murray, Toby  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T14:58:58.025Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-07T14:59:13.059Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬──────────────────┐
+│ (index) │ Values           │
+├─────────┼──────────────────┤
+│ Name    │ 'Michele Mayert' │
+│ DOB     │ 'March 2023 7'   │
+│ Phone   │ '7218616597'     │
+└─────────┴──────────────────┘
+[STEP] 2026-04-07T14:59:15.190Z - Creating patient: Michele Mayert
+[INFO] 2026-04-07T14:59:20.281Z - Patient Michele Mayert created successfully
+✓ New patient created: Michele Mayert
+[STEP] 2026-04-07T14:59:20.303Z - Creating enrollment
+[INFO] 2026-04-07T14:59:22.239Z - Patient enrolled in Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-04-07T14:59:22.239Z - Provider: Dayton Nolan
+[INFO] 2026-04-07T14:59:22.239Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Remote Therapeutic Monitoring (RTM) program
+[INFO] 2026-04-07T14:59:24.242Z - Enrolled: Mayert, Michele in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-07T14:59:24.242Z - Verifying patient in Worklist NEW section

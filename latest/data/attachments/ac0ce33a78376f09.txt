@@ -1,0 +1,142 @@
+[ERROR] 2026-04-07T15:02:24.766Z - Failed to navigate to Alerts page
+locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//span[text()="Alerts"])[1]').first()
+    - locator resolved to <span class="MuiTypography-root MuiTypography-title2 css-euplni">Alerts</span>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div aria-hidden="true" class="MuiBackdrop-root css-et06st">…</div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div aria-hidden="true" class="MuiBackdrop-root css-et06st">…</div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y"></div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events
+  27 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y"></div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+    at AlertsPage.navigateToAlerts (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/alerts/alerts.page.ts:59:69)
+    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/alerts/alerts.spec.ts:795:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/alerts/alerts.page.ts',
+      line: 59,
+      column: 69,
+      function: 'AlertsPage.navigateToAlerts'
+    },
+    category: 'pw:api',
+    title: `Click locator('xpath=(//span[text()="Alerts"])[1]').first()`,
+    apiName: 'locator.click',
+    params: {
+      selector: '(//span[text()="Alerts"])[1] >> nth=0',
+      strict: true,
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@80',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@80',
+      _title: `Click locator('xpath=(//span[text()="Alerts"])[1]').first()`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1775574144765,
+    error: {
+      message: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('xpath=(//span[text()="Alerts"])[1]').first()\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <span class="MuiTypography-root MuiTypography-title2 css-euplni">Alerts</span>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m      - done scrolling\x1B[22m\n' +
+        '\x1B[2m      - <div aria-hidden="true" class="MuiBackdrop-root css-et06st">…</div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m    - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m    - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m    - done scrolling\x1B[22m\n' +
+        '\x1B[2m    - <div aria-hidden="true" class="MuiBackdrop-root css-et06st">…</div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m  2 × retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m      - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m      - done scrolling\x1B[22m\n' +
+        '\x1B[2m      - <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y"></div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m  27 × retrying click action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\x1B[2m       - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m       - done scrolling\x1B[22m\n' +
+        '\x1B[2m       - <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y"></div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m  - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 500ms\x1B[22m\n',
+      stack: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('xpath=(//span[text()="Alerts"])[1]').first()\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <span class="MuiTypography-root MuiTypography-title2 css-euplni">Alerts</span>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m      - done scrolling\x1B[22m\n' +
+        '\x1B[2m      - <div aria-hidden="true" class="MuiBackdrop-root css-et06st">…</div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m    - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m    - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m    - done scrolling\x1B[22m\n' +
+        '\x1B[2m    - <div aria-hidden="true" class="MuiBackdrop-root css-et06st">…</div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m  2 × retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m      - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m      - done scrolling\x1B[22m\n' +
+        '\x1B[2m      - <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y"></div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m  27 × retrying click action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\x1B[2m       - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - element is visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - scrolling into view if needed\x1B[22m\n' +
+        '\x1B[2m       - done scrolling\x1B[22m\n' +
+        '\x1B[2m       - <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y"></div> from <div role="presentation" class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-faf8l4">…</div> subtree intercepts pointer events\x1B[22m\n' +
+        '\x1B[2m  - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at AlertsPage.navigateToAlerts (/home/runner/work/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/alerts/alerts.page.ts:59:69)\n' +
+        '    at /home/runner/work/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/alerts/alerts.spec.ts:795:9',
+      cause: undefined
+    }
+  }
+}

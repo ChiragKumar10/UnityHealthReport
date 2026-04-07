@@ -1,0 +1,825 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e7]:
+          - img "Logo" [ref=e9]
+          - generic [ref=e10]:
+            - generic [ref=e13]:
+              - img [ref=e15]
+              - combobox "Search Patient Name, DOB (MM-DD-YYYY), Phone" [ref=e17]
+              - button "Open" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+              - group
+            - button "New Patient" [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - paragraph [ref=e25]: New Patient
+            - button [ref=e27] [cursor=pointer]:
+              - img [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e33]:
+          - listitem [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e39]: Work List
+          - listitem [ref=e40] [cursor=pointer]:
+            - img [ref=e42]
+            - generic [ref=e45]: Enrollments
+          - listitem [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Alerts
+          - listitem [ref=e52] [cursor=pointer]:
+            - img [ref=e54]
+            - generic [ref=e57]:
+              - text: Tasks
+              - generic [ref=e58]: "0"
+          - listitem [ref=e59] [cursor=pointer]:
+            - img [ref=e61]
+            - generic [ref=e64]: Billing
+          - listitem [ref=e65] [cursor=pointer]:
+            - img [ref=e67]
+            - generic [ref=e70]: Document Library
+          - listitem [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e76]: RPM Library
+          - listitem [ref=e77] [cursor=pointer]:
+            - img [ref=e79]
+            - generic [ref=e82]: RTM Library
+          - listitem [ref=e83] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e88]: CCM Library
+          - listitem [ref=e89] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e94]: PCM Library
+          - listitem [ref=e95] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: Training Library
+          - listitem [ref=e101] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: Communications
+          - listitem [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - generic [ref=e112]: Settings
+          - listitem [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: Logout
+        - listitem [ref=e122] [cursor=pointer]:
+          - img [ref=e124]
+      - main [ref=e126]:
+        - generic [ref=e128] [cursor=pointer]:
+          - img [ref=e129]
+          - heading "Care Team Work List" [level=6] [ref=e131]
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic:
+              - generic:
+                - tablist
+          - generic [ref=e136]:
+            - tablist "program tabs" [ref=e139]:
+              - tab "RPM" [selected] [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]:
+                  - generic [ref=e142]: RPM
+                  - button [ref=e143]:
+                    - img [ref=e144]
+              - tab "RTM" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - generic [ref=e148]: RTM
+                  - button [ref=e149]:
+                    - img [ref=e150]
+              - tab "CCM" [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: CCM
+                  - button [ref=e155]:
+                    - img [ref=e156]
+              - tab "PCM" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: PCM
+                  - button [ref=e161]:
+                    - img [ref=e162]
+            - generic [ref=e165]:
+              - generic [ref=e167]:
+                - paragraph [ref=e169]: Enrollments
+                - table "simple table" [ref=e171]:
+                  - rowgroup [ref=e172]:
+                    - row "New 40" [ref=e173]:
+                      - cell "New" [ref=e174]:
+                        - paragraph [ref=e175] [cursor=pointer]: New
+                      - cell "40" [ref=e176]:
+                        - paragraph [ref=e177] [cursor=pointer]: "40"
+                    - row "Active 19" [ref=e178]:
+                      - cell "Active" [ref=e179]:
+                        - paragraph [ref=e180] [cursor=pointer]: Active
+                      - cell "19" [ref=e181]:
+                        - paragraph [ref=e182] [cursor=pointer]: "19"
+                    - row "Closed 0" [ref=e183]:
+                      - cell "Closed" [ref=e184]:
+                        - paragraph [ref=e185] [cursor=pointer]: Closed
+                      - cell "0" [ref=e186]:
+                        - paragraph [ref=e187] [cursor=pointer]: "0"
+              - generic [ref=e189]:
+                - paragraph [ref=e191]: Monitoring
+                - table "simple table" [ref=e193]:
+                  - rowgroup [ref=e194]:
+                    - row "0 Alerts 0 Resolved 0 Not Resolved" [ref=e195]:
+                      - cell "0 Alerts" [ref=e196]:
+                        - paragraph [ref=e197] [cursor=pointer]: 0 Alerts
+                      - cell "0 Resolved" [ref=e198]:
+                        - paragraph [ref=e199] [cursor=pointer]: 0 Resolved
+                      - cell "0 Not Resolved" [ref=e200]:
+                        - paragraph [ref=e201] [cursor=pointer]: 0 Not Resolved
+                    - row "19 No Data 0 Complete 19 Not Complete" [ref=e202]:
+                      - cell "19 No Data" [ref=e203]:
+                        - paragraph [ref=e204] [cursor=pointer]: 19 No Data
+                      - cell "0 Complete" [ref=e205]:
+                        - paragraph [ref=e206] [cursor=pointer]: 0 Complete
+                      - cell "19 Not Complete" [ref=e207]:
+                        - paragraph [ref=e208] [cursor=pointer]: 19 Not Complete
+                    - row "0 Data 0 Reviewed 0 Unreviewed" [ref=e209]:
+                      - cell "0 Data" [ref=e210]:
+                        - paragraph [ref=e211] [cursor=pointer]: 0 Data
+                      - cell "0 Reviewed" [ref=e212]:
+                        - paragraph [ref=e213] [cursor=pointer]: 0 Reviewed
+                      - cell "0 Unreviewed" [ref=e214]:
+                        - paragraph [ref=e215] [cursor=pointer]: 0 Unreviewed
+              - generic [ref=e217]:
+                - paragraph [ref=e219]: Interaction
+                - table "simple table" [ref=e221]:
+                  - rowgroup [ref=e222]:
+                    - row "Week 1 19" [ref=e223]:
+                      - cell "Week 1" [ref=e224]:
+                        - paragraph [ref=e225] [cursor=pointer]: Week 1
+                      - cell "19" [ref=e226]:
+                        - paragraph [ref=e227] [cursor=pointer]: "19"
+                    - row "Week 2 0" [ref=e228]:
+                      - cell "Week 2" [ref=e229]:
+                        - paragraph [ref=e230] [cursor=pointer]: Week 2
+                      - cell "0" [ref=e231]:
+                        - paragraph [ref=e232] [cursor=pointer]: "0"
+                    - row "Week 3 0" [ref=e233]:
+                      - cell "Week 3" [ref=e234]:
+                        - paragraph [ref=e235] [cursor=pointer]: Week 3
+                      - cell "0" [ref=e236]:
+                        - paragraph [ref=e237] [cursor=pointer]: "0"
+                    - row "Week 4 0" [ref=e238]:
+                      - cell "Week 4" [ref=e239]:
+                        - paragraph [ref=e240] [cursor=pointer]: Week 4
+                      - cell "0" [ref=e241]:
+                        - paragraph [ref=e242] [cursor=pointer]: "0"
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - heading "ENROLLMENTS (NEW-RPM)" [level=5] [ref=e248]
+                - generic [ref=e249]:
+                  - generic [ref=e254]:
+                    - combobox "Insurance" [ref=e255]
+                    - button "Open" [ref=e257] [cursor=pointer]:
+                      - img [ref=e258]
+                    - group
+                  - generic [ref=e261] [cursor=pointer]:
+                    - generic [ref=e262]:
+                      - checkbox "SelfPay" [ref=e263]
+                      - img [ref=e264]
+                    - generic [ref=e266]: SelfPay
+                  - generic [ref=e267]:
+                    - generic [ref=e270]:
+                      - img [ref=e272]
+                      - textbox "Type here to search" [ref=e274]
+                      - group
+                    - generic [ref=e279]:
+                      - combobox "Select" [ref=e280]: All Provider
+                      - button "Open" [ref=e282] [cursor=pointer]:
+                        - img [ref=e283]
+                      - group
+                    - generic [ref=e289]:
+                      - combobox "Select" [ref=e290]: All Care Manager
+                      - button "Open" [ref=e292] [cursor=pointer]:
+                        - img [ref=e293]
+                      - group
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - generic [ref=e300] [cursor=pointer]:
+                    - checkbox "select all rows" [ref=e301]
+                    - img [ref=e302]
+                  - generic "NAME" [ref=e305] [cursor=pointer]: NAME ▲
+                  - generic "CONTACT NUMBER" [ref=e307]
+                  - generic "DATE ADDED" [ref=e309]
+                  - generic "INSURANCE NAME" [ref=e311]
+                  - generic "CONSENT" [ref=e313]
+                  - generic "INSURANCE" [ref=e315]
+                  - generic "CONDITIONS" [ref=e317]
+                  - generic "INTRODUCTION" [ref=e319]
+                  - generic "EDUCATION" [ref=e321]
+                  - generic "ACTION" [ref=e323]
+                - generic [ref=e324]:
+                  - generic [ref=e326] [cursor=pointer]:
+                    - checkbox [ref=e327]
+                    - img [ref=e328]
+                  - generic [ref=e331] [cursor=pointer]: Russel, Viola
+                  - generic "777-718-7125" [ref=e333] [cursor=pointer]
+                  - generic "02-24-2026" [ref=e335] [cursor=pointer]
+                  - generic "SelfPay" [ref=e337] [cursor=pointer]
+                  - generic [ref=e340] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e341]
+                    - img [ref=e342]
+                  - generic [ref=e346] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e347]
+                    - img [ref=e348]
+                  - generic [ref=e352] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e353]
+                    - img [ref=e354]
+                  - generic [ref=e358] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e359]
+                    - img [ref=e360]
+                  - generic [ref=e364] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e365]
+                    - img [ref=e366]
+                  - img [ref=e372] [cursor=pointer]
+                - generic [ref=e374]:
+                  - generic [ref=e376] [cursor=pointer]:
+                    - checkbox [ref=e377]
+                    - img [ref=e378]
+                  - generic [ref=e381] [cursor=pointer]: Harris, Courtney
+                  - generic "758-468-6998" [ref=e383] [cursor=pointer]
+                  - generic "03-05-2026" [ref=e385] [cursor=pointer]
+                  - generic "SelfPay" [ref=e387] [cursor=pointer]
+                  - generic [ref=e390] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e391]
+                    - img [ref=e392]
+                  - generic [ref=e396] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e397]
+                    - img [ref=e398]
+                  - generic [ref=e402] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e403]
+                    - img [ref=e404]
+                  - generic [ref=e408] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e409]
+                    - img [ref=e410]
+                  - generic [ref=e414] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e415]
+                    - img [ref=e416]
+                  - img [ref=e422] [cursor=pointer]
+                - generic [ref=e424]:
+                  - generic [ref=e426] [cursor=pointer]:
+                    - checkbox [ref=e427]
+                    - img [ref=e428]
+                  - generic [ref=e431] [cursor=pointer]: Bailey, Rosalyn
+                  - generic "691-118-2542" [ref=e433] [cursor=pointer]
+                  - generic "03-06-2026" [ref=e435] [cursor=pointer]
+                  - generic "SelfPay" [ref=e437] [cursor=pointer]
+                  - generic [ref=e440] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e441]
+                    - img [ref=e442]
+                  - generic [ref=e446] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e447]
+                    - img [ref=e448]
+                  - generic [ref=e452] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e453]
+                    - img [ref=e454]
+                  - generic [ref=e458] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e459]
+                    - img [ref=e460]
+                  - generic [ref=e464] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e465]
+                    - img [ref=e466]
+                  - img [ref=e472] [cursor=pointer]
+                - generic [ref=e474]:
+                  - generic [ref=e476] [cursor=pointer]:
+                    - checkbox [ref=e477]
+                    - img [ref=e478]
+                  - generic [ref=e481] [cursor=pointer]: Jacobson, Emil
+                  - generic "865-534-4845" [ref=e483] [cursor=pointer]
+                  - generic "02-26-2026" [ref=e485] [cursor=pointer]
+                  - generic "Other" [ref=e487] [cursor=pointer]
+                  - generic [ref=e490] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e491]
+                    - img [ref=e492]
+                  - generic [ref=e496] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e497]
+                    - img [ref=e498]
+                  - generic [ref=e502] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e503]
+                    - img [ref=e504]
+                  - generic [ref=e508] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e509]
+                    - img [ref=e510]
+                  - generic [ref=e514] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e515]
+                    - img [ref=e516]
+                  - img [ref=e522] [cursor=pointer]
+                - generic [ref=e524]:
+                  - generic [ref=e526] [cursor=pointer]:
+                    - checkbox [ref=e527]
+                    - img [ref=e528]
+                  - generic [ref=e531] [cursor=pointer]: Balistreri, Krista
+                  - generic "662-736-1981" [ref=e533] [cursor=pointer]
+                  - generic "02-25-2026" [ref=e535] [cursor=pointer]
+                  - generic "SelfPay" [ref=e537] [cursor=pointer]
+                  - generic [ref=e540] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e541]
+                    - img [ref=e542]
+                  - generic [ref=e546] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e547]
+                    - img [ref=e548]
+                  - generic [ref=e552] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e553]
+                    - img [ref=e554]
+                  - generic [ref=e558] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e559]
+                    - img [ref=e560]
+                  - generic [ref=e564] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e565]
+                    - img [ref=e566]
+                  - img [ref=e572] [cursor=pointer]
+                - generic [ref=e574]:
+                  - generic [ref=e576] [cursor=pointer]:
+                    - checkbox [ref=e577]
+                    - img [ref=e578]
+                  - generic [ref=e581] [cursor=pointer]: Christiansen, Skylar
+                  - generic "627-459-8800" [ref=e583] [cursor=pointer]
+                  - generic "03-23-2026" [ref=e585] [cursor=pointer]
+                  - generic "SelfPay" [ref=e587] [cursor=pointer]
+                  - generic [ref=e590] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e591]
+                    - img [ref=e592]
+                  - generic [ref=e596] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e597]
+                    - img [ref=e598]
+                  - generic [ref=e602] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e603]
+                    - img [ref=e604]
+                  - generic [ref=e608] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e609]
+                    - img [ref=e610]
+                  - generic [ref=e614] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e615]
+                    - img [ref=e616]
+                  - img [ref=e622] [cursor=pointer]
+                - generic [ref=e624]:
+                  - generic [ref=e626] [cursor=pointer]:
+                    - checkbox [ref=e627]
+                    - img [ref=e628]
+                  - generic [ref=e631] [cursor=pointer]: Automation, Test
+                  - generic "982-339-4753" [ref=e633] [cursor=pointer]
+                  - generic "12-01-2025" [ref=e635] [cursor=pointer]
+                  - generic "Other" [ref=e637] [cursor=pointer]
+                  - generic [ref=e640] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e641]
+                    - img [ref=e642]
+                  - generic [ref=e646] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e647]
+                    - img [ref=e648]
+                  - generic [ref=e652] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e653]
+                    - img [ref=e654]
+                  - generic [ref=e658] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e659]
+                    - img [ref=e660]
+                  - generic [ref=e664] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e665]
+                    - img [ref=e666]
+                  - img [ref=e672] [cursor=pointer]
+                - generic [ref=e674]:
+                  - generic [ref=e676] [cursor=pointer]:
+                    - checkbox [ref=e677]
+                    - img [ref=e678]
+                  - generic [ref=e681] [cursor=pointer]: Lemke, Jettie
+                  - generic "672-116-5754" [ref=e683] [cursor=pointer]
+                  - generic "03-05-2026" [ref=e685] [cursor=pointer]
+                  - generic "SelfPay" [ref=e687] [cursor=pointer]
+                  - generic [ref=e690] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e691]
+                    - img [ref=e692]
+                  - generic [ref=e696] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e697]
+                    - img [ref=e698]
+                  - generic [ref=e702] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e703]
+                    - img [ref=e704]
+                  - generic [ref=e708] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e709]
+                    - img [ref=e710]
+                  - generic [ref=e714] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e715]
+                    - img [ref=e716]
+                  - img [ref=e722] [cursor=pointer]
+                - generic [ref=e724]:
+                  - generic [ref=e726] [cursor=pointer]:
+                    - checkbox [ref=e727]
+                    - img [ref=e728]
+                  - generic [ref=e731] [cursor=pointer]: Green, Chaz
+                  - generic "931-121-5953" [ref=e733] [cursor=pointer]
+                  - generic "02-26-2026" [ref=e735] [cursor=pointer]
+                  - generic "SelfPay" [ref=e737] [cursor=pointer]
+                  - generic [ref=e740] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e741]
+                    - img [ref=e742]
+                  - generic [ref=e746] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e747]
+                    - img [ref=e748]
+                  - generic [ref=e752] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e753]
+                    - img [ref=e754]
+                  - generic [ref=e758] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e759]
+                    - img [ref=e760]
+                  - generic [ref=e764] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e765]
+                    - img [ref=e766]
+                  - img [ref=e772] [cursor=pointer]
+                - generic [ref=e774]:
+                  - generic [ref=e776] [cursor=pointer]:
+                    - checkbox [ref=e777]
+                    - img [ref=e778]
+                  - generic [ref=e781] [cursor=pointer]: DuBuque, Lucile
+                  - generic "968-755-1822" [ref=e783] [cursor=pointer]
+                  - generic "03-08-2026" [ref=e785] [cursor=pointer]
+                  - generic "Other" [ref=e787] [cursor=pointer]
+                  - generic [ref=e790] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e791]
+                    - img [ref=e792]
+                  - generic [ref=e796] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e797]
+                    - img [ref=e798]
+                  - generic [ref=e802] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e803]
+                    - img [ref=e804]
+                  - generic [ref=e808] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e809]
+                    - img [ref=e810]
+                  - generic [ref=e814] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e815]
+                    - img [ref=e816]
+                  - img [ref=e822] [cursor=pointer]
+                - generic [ref=e824]:
+                  - generic [ref=e826] [cursor=pointer]:
+                    - checkbox [ref=e827]
+                    - img [ref=e828]
+                  - generic [ref=e831] [cursor=pointer]: Kuvalis, Rogers
+                  - generic "926-071-4068" [ref=e833] [cursor=pointer]
+                  - generic "03-07-2026" [ref=e835] [cursor=pointer]
+                  - generic "SelfPay" [ref=e837] [cursor=pointer]
+                  - generic [ref=e840] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e841]
+                    - img [ref=e842]
+                  - generic [ref=e846] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e847]
+                    - img [ref=e848]
+                  - generic [ref=e852] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e853]
+                    - img [ref=e854]
+                  - generic [ref=e858] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e859]
+                    - img [ref=e860]
+                  - generic [ref=e864] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e865]
+                    - img [ref=e866]
+                  - img [ref=e872] [cursor=pointer]
+                - generic [ref=e874]:
+                  - generic [ref=e876] [cursor=pointer]:
+                    - checkbox [ref=e877]
+                    - img [ref=e878]
+                  - generic [ref=e881] [cursor=pointer]: Harris, Oscar
+                  - generic "873-281-4957" [ref=e883] [cursor=pointer]
+                  - generic "03-28-2026" [ref=e885] [cursor=pointer]
+                  - generic "SelfPay" [ref=e887] [cursor=pointer]
+                  - generic [ref=e890] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e891]
+                    - img [ref=e892]
+                  - generic [ref=e896] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e897]
+                    - img [ref=e898]
+                  - generic [ref=e902] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e903]
+                    - img [ref=e904]
+                  - generic [ref=e908] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e909]
+                    - img [ref=e910]
+                  - generic [ref=e914] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e915]
+                    - img [ref=e916]
+                  - img [ref=e922] [cursor=pointer]
+                - generic [ref=e924]:
+                  - generic [ref=e926] [cursor=pointer]:
+                    - checkbox [ref=e927]
+                    - img [ref=e928]
+                  - generic [ref=e931] [cursor=pointer]: Corwin, Jeanette
+                  - generic "997-530-8609" [ref=e933] [cursor=pointer]
+                  - generic "03-05-2026" [ref=e935] [cursor=pointer]
+                  - generic "SelfPay" [ref=e937] [cursor=pointer]
+                  - generic [ref=e940] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e941]
+                    - img [ref=e942]
+                  - generic [ref=e946] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e947]
+                    - img [ref=e948]
+                  - generic [ref=e952] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e953]
+                    - img [ref=e954]
+                  - generic [ref=e958] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e959]
+                    - img [ref=e960]
+                  - generic [ref=e964] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e965]
+                    - img [ref=e966]
+                  - img [ref=e972] [cursor=pointer]
+                - generic [ref=e974]:
+                  - generic [ref=e976] [cursor=pointer]:
+                    - checkbox [ref=e977]
+                    - img [ref=e978]
+                  - generic [ref=e981] [cursor=pointer]: OKeefe, Carla
+                  - generic "943-977-9476" [ref=e983] [cursor=pointer]
+                  - generic "03-25-2026" [ref=e985] [cursor=pointer]
+                  - generic "SelfPay" [ref=e987] [cursor=pointer]
+                  - generic [ref=e990] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e991]
+                    - img [ref=e992]
+                  - generic [ref=e996] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e997]
+                    - img [ref=e998]
+                  - generic [ref=e1002] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1003]
+                    - img [ref=e1004]
+                  - generic [ref=e1008] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1009]
+                    - img [ref=e1010]
+                  - generic [ref=e1014] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1015]
+                    - img [ref=e1016]
+                  - img [ref=e1022] [cursor=pointer]
+                - generic [ref=e1024]:
+                  - generic [ref=e1026] [cursor=pointer]:
+                    - checkbox [ref=e1027]
+                    - img [ref=e1028]
+                  - generic [ref=e1031] [cursor=pointer]: Blanda, Kelton
+                  - generic "895-060-6437" [ref=e1033] [cursor=pointer]
+                  - generic "03-22-2026" [ref=e1035] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1037] [cursor=pointer]
+                  - generic [ref=e1040] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1041]
+                    - img [ref=e1042]
+                  - generic [ref=e1046] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1047]
+                    - img [ref=e1048]
+                  - generic [ref=e1052] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1053]
+                    - img [ref=e1054]
+                  - generic [ref=e1058] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1059]
+                    - img [ref=e1060]
+                  - generic [ref=e1064] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1065]
+                    - img [ref=e1066]
+                  - img [ref=e1072] [cursor=pointer]
+                - generic [ref=e1074]:
+                  - generic [ref=e1076] [cursor=pointer]:
+                    - checkbox [ref=e1077]
+                    - img [ref=e1078]
+                  - generic [ref=e1081] [cursor=pointer]: Shanahan, Tim
+                  - generic "662-663-7400" [ref=e1083] [cursor=pointer]
+                  - generic "02-24-2026" [ref=e1085] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1087] [cursor=pointer]
+                  - generic [ref=e1090] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1091]
+                    - img [ref=e1092]
+                  - generic [ref=e1096] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1097]
+                    - img [ref=e1098]
+                  - generic [ref=e1102] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1103]
+                    - img [ref=e1104]
+                  - generic [ref=e1108] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1109]
+                    - img [ref=e1110]
+                  - generic [ref=e1114] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1115]
+                    - img [ref=e1116]
+                  - img [ref=e1122] [cursor=pointer]
+                - generic [ref=e1124]:
+                  - generic [ref=e1126] [cursor=pointer]:
+                    - checkbox [ref=e1127]
+                    - img [ref=e1128]
+                  - generic [ref=e1131] [cursor=pointer]: Murray, Toby
+                  - generic "995-156-6482" [ref=e1133] [cursor=pointer]
+                  - generic "03-06-2026" [ref=e1135] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1137] [cursor=pointer]
+                  - generic [ref=e1140] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1141]
+                    - img [ref=e1142]
+                  - generic [ref=e1146] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1147]
+                    - img [ref=e1148]
+                  - generic [ref=e1152] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1153]
+                    - img [ref=e1154]
+                  - generic [ref=e1158] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1159]
+                    - img [ref=e1160]
+                  - generic [ref=e1164] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1165]
+                    - img [ref=e1166]
+                  - img [ref=e1172] [cursor=pointer]
+                - generic [ref=e1174]:
+                  - generic [ref=e1176] [cursor=pointer]:
+                    - checkbox [ref=e1177]
+                    - img [ref=e1178]
+                  - generic [ref=e1181] [cursor=pointer]: Gorczany, Ida
+                  - generic "722-444-2942" [ref=e1183] [cursor=pointer]
+                  - generic "03-09-2026" [ref=e1185] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1187] [cursor=pointer]
+                  - generic [ref=e1190] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1191]
+                    - img [ref=e1192]
+                  - generic [ref=e1196] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1197]
+                    - img [ref=e1198]
+                  - generic [ref=e1202] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1203]
+                    - img [ref=e1204]
+                  - generic [ref=e1208] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1209]
+                    - img [ref=e1210]
+                  - generic [ref=e1214] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1215]
+                    - img [ref=e1216]
+                  - img [ref=e1222] [cursor=pointer]
+                - generic [ref=e1224]:
+                  - generic [ref=e1226] [cursor=pointer]:
+                    - checkbox [ref=e1227]
+                    - img [ref=e1228]
+                  - generic [ref=e1231] [cursor=pointer]: Turner, Rosendo
+                  - generic "626-490-6333" [ref=e1233] [cursor=pointer]
+                  - generic "03-05-2026" [ref=e1235] [cursor=pointer]
+                  - generic "Other" [ref=e1237] [cursor=pointer]
+                  - generic [ref=e1240] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1241]
+                    - img [ref=e1242]
+                  - generic [ref=e1246] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1247]
+                    - img [ref=e1248]
+                  - generic [ref=e1252] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1253]
+                    - img [ref=e1254]
+                  - generic [ref=e1258] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1259]
+                    - img [ref=e1260]
+                  - generic [ref=e1264] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1265]
+                    - img [ref=e1266]
+                  - img [ref=e1272] [cursor=pointer]
+                - generic [ref=e1274]:
+                  - generic [ref=e1276] [cursor=pointer]:
+                    - checkbox [ref=e1277]
+                    - img [ref=e1278]
+                  - generic [ref=e1281] [cursor=pointer]: Goodwin, Delia
+                  - generic "961-769-0171" [ref=e1283] [cursor=pointer]
+                  - generic "02-25-2026" [ref=e1285] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1287] [cursor=pointer]
+                  - generic [ref=e1290] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1291]
+                    - img [ref=e1292]
+                  - generic [ref=e1296] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1297]
+                    - img [ref=e1298]
+                  - generic [ref=e1302] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1303]
+                    - img [ref=e1304]
+                  - generic [ref=e1308] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1309]
+                    - img [ref=e1310]
+                  - generic [ref=e1314] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1315]
+                    - img [ref=e1316]
+                  - img [ref=e1322] [cursor=pointer]
+                - generic [ref=e1324]:
+                  - generic [ref=e1326] [cursor=pointer]:
+                    - checkbox [ref=e1327]
+                    - img [ref=e1328]
+                  - generic [ref=e1331] [cursor=pointer]: Schowalter, Marshall
+                  - generic "766-111-6707" [ref=e1333] [cursor=pointer]
+                  - generic "02-25-2026" [ref=e1335] [cursor=pointer]
+                  - generic "Other" [ref=e1337] [cursor=pointer]
+                  - generic [ref=e1340] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1341]
+                    - img [ref=e1342]
+                  - generic [ref=e1346] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1347]
+                    - img [ref=e1348]
+                  - generic [ref=e1352] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1353]
+                    - img [ref=e1354]
+                  - generic [ref=e1358] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1359]
+                    - img [ref=e1360]
+                  - generic [ref=e1364] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1365]
+                    - img [ref=e1366]
+                  - img [ref=e1372] [cursor=pointer]
+                - generic [ref=e1374]:
+                  - generic [ref=e1376] [cursor=pointer]:
+                    - checkbox [ref=e1377]
+                    - img [ref=e1378]
+                  - generic [ref=e1381] [cursor=pointer]: Bode, Dayne
+                  - generic "761-891-5335" [ref=e1383] [cursor=pointer]
+                  - generic "02-27-2026" [ref=e1385] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1387] [cursor=pointer]
+                  - generic [ref=e1390] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1391]
+                    - img [ref=e1392]
+                  - generic [ref=e1396] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1397]
+                    - img [ref=e1398]
+                  - generic [ref=e1402] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1403]
+                    - img [ref=e1404]
+                  - generic [ref=e1408] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1409]
+                    - img [ref=e1410]
+                  - generic [ref=e1414] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1415]
+                    - img [ref=e1416]
+                  - img [ref=e1422] [cursor=pointer]
+                - generic [ref=e1424]:
+                  - generic [ref=e1426] [cursor=pointer]:
+                    - checkbox [ref=e1427]
+                    - img [ref=e1428]
+                  - generic [ref=e1431] [cursor=pointer]: Reichert, Katie
+                  - generic "655-613-8532" [ref=e1433] [cursor=pointer]
+                  - generic "02-25-2026" [ref=e1435] [cursor=pointer]
+                  - generic "Other" [ref=e1437] [cursor=pointer]
+                  - generic [ref=e1440] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1441]
+                    - img [ref=e1442]
+                  - generic [ref=e1446] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1447]
+                    - img [ref=e1448]
+                  - generic [ref=e1452] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1453]
+                    - img [ref=e1454]
+                  - generic [ref=e1458] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1459]
+                    - img [ref=e1460]
+                  - generic [ref=e1464] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1465]
+                    - img [ref=e1466]
+                  - img [ref=e1472] [cursor=pointer]
+                - generic [ref=e1474]:
+                  - generic [ref=e1476] [cursor=pointer]:
+                    - checkbox [ref=e1477]
+                    - img [ref=e1478]
+                  - generic [ref=e1481] [cursor=pointer]: Murray, Arnold
+                  - generic "859-445-9815" [ref=e1483] [cursor=pointer]
+                  - generic "03-06-2026" [ref=e1485] [cursor=pointer]
+                  - generic "SelfPay" [ref=e1487] [cursor=pointer]
+                  - generic [ref=e1490] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1491]
+                    - img [ref=e1492]
+                  - generic [ref=e1496] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1497]
+                    - img [ref=e1498]
+                  - generic [ref=e1502] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1503]
+                    - img [ref=e1504]
+                  - generic [ref=e1508] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1509]
+                    - img [ref=e1510]
+                  - generic [ref=e1514] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1515]
+                    - img [ref=e1516]
+                  - img [ref=e1522] [cursor=pointer]
+                - generic [ref=e1524]:
+                  - generic [ref=e1526] [cursor=pointer]:
+                    - checkbox [ref=e1527]
+                    - img [ref=e1528]
+                  - generic [ref=e1531] [cursor=pointer]: Ritchie, Winston
+                  - generic "644-017-8865" [ref=e1533] [cursor=pointer]
+                  - generic "02-24-2026" [ref=e1535] [cursor=pointer]
+                  - generic "Other" [ref=e1537] [cursor=pointer]
+                  - generic [ref=e1540] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1541]
+                    - img [ref=e1542]
+                  - generic [ref=e1546] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1547]
+                    - img [ref=e1548]
+                  - generic [ref=e1552] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1553]
+                    - img [ref=e1554]
+                  - generic [ref=e1558] [cursor=pointer]:
+                    - checkbox "checkbox" [checked] [ref=e1559]
+                    - img [ref=e1560]
+                  - generic [ref=e1564] [cursor=pointer]:
+                    - checkbox "checkbox" [ref=e1565]
+                    - img [ref=e1566]
+                  - img [ref=e1572] [cursor=pointer]
+                - generic [ref=e1574]:
+                  - progressbar [ref=e1575]:
+                    - img [ref=e1576]
+                  - generic [ref=e1578]: Loading more...
+    - alert [ref=e1579]:
+      - img [ref=e1581]
+      - generic [ref=e1583]: User logged in successfully
+      - button "Close" [ref=e1585] [cursor=pointer]:
+        - img [ref=e1586]
+  - tooltip "NAME" [ref=e1588]:
+    - generic [ref=e1589]: NAME
+```

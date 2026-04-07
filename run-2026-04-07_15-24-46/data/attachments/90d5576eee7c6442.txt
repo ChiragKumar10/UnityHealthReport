@@ -1,0 +1,20 @@
+[STEP] 2026-04-07T14:55:42.321Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-07T14:55:42.321Z - Attempting to login to provider portal
+[STEP] 2026-04-07T14:55:42.321Z - Navigating to provider portal login page
+[INFO] 2026-04-07T14:55:44.141Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T14:55:44.265Z - Login attempt completed
+[STEP] 2026-04-07T14:55:47.327Z - Navigating to Enrollment section
+[INFO] 2026-04-07T14:55:49.485Z - Navigated to Enrollment section
+[INFO] 2026-04-07T14:55:49.485Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-07T14:55:49.486Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-04-07T14:55:49.486Z - Selected random status: Closed
+[INFO] 2026-04-07T14:55:49.486Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-04-07T14:55:49.487Z - Applying combined filters - Status: Closed, Program: Chronic Care Management (CCM)
+[STEP] 2026-04-07T14:55:49.487Z - Applying status filter: Closed
+[INFO] 2026-04-07T14:55:55.634Z - Status filter 'Closed' applied successfully
+[STEP] 2026-04-07T14:55:55.634Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-04-07T14:56:01.726Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-04-07T14:56:01.726Z - Retrieving filtered enrollment results
+[INFO] 2026-04-07T14:56:13.731Z - No enrollment records found after applying filter
+No Record found for filters - Status: Closed, Program: CCM
+Test completed - No records found for the selected filters

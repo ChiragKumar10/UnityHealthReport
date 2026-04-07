@@ -1,0 +1,107 @@
+[STEP] 2026-04-07T15:03:15.395Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-04-07T15:03:15.396Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-07T15:03:15.396Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:03:15.396Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:03:17.104Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:03:17.249Z - Login attempt completed
+[STEP] 2026-04-07T15:03:20.257Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:03:22.424Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-04-07T15:03:25.427Z - Adding new enrollment
+[INFO] 2026-04-07T15:03:31.718Z - Found 2 patients matching 'q'
+[INFO] 2026-04-07T15:03:33.148Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: DuBuque, Eldon  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-07T15:03:38.830Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-07T15:03:38.844Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: DuBuque, Eldon
+  Program: Chronic Care Management (CCM)
+  Provider: Seth Ondricka
+  Care Manager: Autofirstafdjrg Autolastafdjrg
+[INFO] 2026-04-07T15:03:38.845Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: DuBuque, Eldon
+Program: Chronic Care Management (CCM)
+Provider: Seth Ondricka
+Care Manager: Autofirstafdjrg Autolastafdjrg
+[STEP] 2026-04-07T15:03:38.845Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:03:40.887Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Chronic Care Management (CCM)"
+Extracted program short: "CCM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "CCM"
+✓ Program tab "CCM" found
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: DuBuque
+Total rows in NEW section: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSEDUCATIONACTION
+Row 1: DuBuque, Eldon987-432-551704-06-2026SelfPay
+✓ Patient found in NEW section at row 2 (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 2
+[STEP] 2026-04-07T15:04:06.786Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:04:08.836Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: DuBuque
+Total rows in ACTIVE section: 3
+Row 0: NAME ▲DOBENROLLED DATECARE MANAGERPROVIDERINSURANCE NAMETYPE OF MOBILEDOCUMENT SIGNEDACTION
+Row 1: DuBuque, Eldon09-30-202204-07-2026Autofirstafdjrg AutolastafdjrgSeth OndrickaSelfPay
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===
+✓ Patient Name: DuBuque - Displayed
+✓ Provider: Seth Ondricka - Displayed
+✓ Care Manager: Autofirstafdjrg Autolastafdjrg - Displayed
+Total rows in NEW section after move: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSEDUCATIONACTION
+Row 1: No data found.
+
+=== WORKLIST NEW SECTION VALIDATION (AFTER MOVE TO ACTIVE) ===
+✓ Patient NOT found in NEW section
+
+=== ATTEMPT 1/3: Checking enrollment list status ===
+[STEP] 2026-04-07T15:04:46.516Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:04:48.570Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:04:50.572Z - Applying status filter: Active
+[INFO] 2026-04-07T15:04:56.753Z - Status filter 'Active' applied successfully
+⚠ Enrollment row not visible (attempt 1), retrying...
+
+=== ATTEMPT 2/3: Checking enrollment list status ===
+[STEP] 2026-04-07T15:05:02.128Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:05:04.185Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:05:06.187Z - Applying status filter: Active
+[INFO] 2026-04-07T15:05:12.344Z - Status filter 'Active' applied successfully
+⚠ Enrollment row not visible (attempt 2), retrying...
+
+=== ATTEMPT 3/3: Checking enrollment list status ===
+[STEP] 2026-04-07T15:05:17.746Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:05:19.801Z - Navigated to Enrollment section
+[STEP] 2026-04-07T15:05:21.803Z - Applying status filter: Active
+[INFO] 2026-04-07T15:05:27.964Z - Status filter 'Active' applied successfully
+⚠ Enrollment row not visible (attempt 3), retrying...
+
+=== ENROLLMENT LIST STATUS VALIDATION ===
+Final enrollment row text: 

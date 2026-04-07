@@ -1,0 +1,62 @@
+[STEP] 2026-04-07T15:01:50.450Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-04-07T15:01:50.451Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-07T15:01:50.451Z - Attempting to login to provider portal
+[STEP] 2026-04-07T15:01:50.451Z - Navigating to provider portal login page
+[INFO] 2026-04-07T15:01:52.204Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-07T15:01:52.335Z - Login attempt completed
+[STEP] 2026-04-07T15:01:55.335Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:01:57.525Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Reilly, Mario
+Program: CCM
+Care Manager: Autofirstblqvat Autolastblqvat
+Provider: Seth Ondricka
+Service Type Short: CCM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstblqvat Autolastblqvat
+Initial Provider: Seth Ondricka
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAutofirstblqvat AutolastblqvatSeth OndrickaE09610-Dru...+204-07-2026-04-07-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: CCM
+Checking for Provider: Seth
+Checking for Care Manager: Autofirstblqvat
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-04-07T15:02:36.759Z - Navigating to Enrollment section
+[INFO] 2026-04-07T15:02:38.818Z - Navigated to Enrollment section
+Checked new ICD: (L05159) - Condition-epls3o2k-1772623000933 - Automated test description - lee1g2xnj4
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: sarvesh test
+Updated Care Manager: Autofirstbrkxdt Autolastbrkxdt
+Updated ICD Code: (L05159) - Condition-epls3o2k-1772623000933 - Automated test description - lee1g2xnj4
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAutofirstbrkxdt Autolastbrkxdtsarvesh testE09610-Dru...+304-07-2026-04-07-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: CCM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360
