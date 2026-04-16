@@ -1,0 +1,71 @@
+[STEP] 2026-04-16T16:07:53.614Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:07:53.619Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:07:54.977Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:07:55.151Z - Login attempt completed
+[STEP] 2026-04-16T16:07:58.213Z - Test: Upload with Signature Required and Notes, verify saved correctly
+[STEP] 2026-04-16T16:07:58.213Z - Navigating to Document Library
+[INFO] 2026-04-16T16:07:59.811Z - Navigated to Document Library via sidebar
+[STEP] 2026-04-16T16:07:59.812Z - Clicking folder: Education
+[INFO] 2026-04-16T16:08:01.357Z - Opened folder: Education
+[STEP] 2026-04-16T16:08:01.357Z - Uploading document: SigNotes 1776355681357
+[STEP] 2026-04-16T16:08:01.358Z - Clicking Upload Material button
+[INFO] 2026-04-16T16:08:02.975Z - Upload Material form opened
+[STEP] 2026-04-16T16:08:02.975Z - Selecting tag: Education
+[INFO] 2026-04-16T16:08:04.400Z - Tag selected: Education
+[STEP] 2026-04-16T16:08:04.400Z - Selecting speciality: Cardiologist
+[INFO] 2026-04-16T16:08:05.858Z - Speciality selected: Cardiologist
+[STEP] 2026-04-16T16:08:05.858Z - Filling file name: SigNotes 1776355681357
+[STEP] 2026-04-16T16:08:06.182Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/test-data/documents/test-image.jpg
+[INFO] 2026-04-16T16:08:06.209Z - Waiting for file upload to complete...
+[INFO] 2026-04-16T16:08:07.307Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/test-data/documents/test-image.jpg
+[STEP] 2026-04-16T16:08:07.307Z - Checking Signature Required checkbox
+[INFO] 2026-04-16T16:08:07.861Z - Signature Required checked
+[STEP] 2026-04-16T16:08:07.861Z - Filling notes: SigNotesVerify-1776355681357
+[INFO] 2026-04-16T16:08:08.184Z - Notes filled
+[STEP] 2026-04-16T16:08:08.184Z - Clicking Upload button
+[INFO] 2026-04-16T16:08:08.193Z - Upload button enabled — clicking
+[INFO] 2026-04-16T16:08:11.264Z - Upload completed
+[INFO] 2026-04-16T16:08:11.265Z - Document "SigNotes 1776355681357" uploaded successfully
+[INFO] 2026-04-16T16:08:11.265Z - Step 1: Uploaded "SigNotes 1776355681357" with Signature Required + notes
+[STEP] 2026-04-16T16:08:11.265Z - Navigating to Document Library
+[INFO] 2026-04-16T16:08:12.857Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-04-16T16:08:12.857Z - Clicking folder: Education
+[INFO] 2026-04-16T16:08:14.389Z - Opened folder: Education
+[STEP] 2026-04-16T16:08:16.390Z - Searching document: SigNotes 1776355681357
+[INFO] 2026-04-16T16:08:18.474Z - Search completed: SigNotes 1776355681357
+[INFO] 2026-04-16T16:08:18.481Z - Step 2: Document appears in folder
+[STEP] 2026-04-16T16:08:18.481Z - Viewing document at row 0
+[STEP] 2026-04-16T16:08:18.481Z - Clicking action menu on document row 0
+[INFO] 2026-04-16T16:08:19.522Z - Action menu opened on row 0
+[STEP] 2026-04-16T16:08:19.522Z - Clicking action item: View Material
+[INFO] 2026-04-16T16:08:21.062Z - Clicked: View Material
+[INFO] 2026-04-16T16:08:24.064Z - View Material clicked
+[INFO] 2026-04-16T16:08:24.069Z - View panel visible: true
+[INFO] 2026-04-16T16:08:27.084Z - Step 3: File name + preview render verified in drawer
+[STEP] 2026-04-16T16:08:27.084Z - Closing View panel
+[INFO] 2026-04-16T16:08:28.143Z - View panel closed
+[STEP] 2026-04-16T16:08:29.145Z - Navigating to Document Library
+[INFO] 2026-04-16T16:08:30.672Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-04-16T16:08:30.672Z - Clicking folder: Education
+[INFO] 2026-04-16T16:08:32.202Z - Opened folder: Education
+[STEP] 2026-04-16T16:08:34.205Z - Searching document: SigNotes 1776355681357
+[INFO] 2026-04-16T16:08:36.292Z - Search completed: SigNotes 1776355681357
+[INFO] 2026-04-16T16:08:36.296Z - Step 4: Document durable after view/close cycle
+[INFO] 2026-04-16T16:08:36.296Z - AUT_DOC_025 PASSED: Signature required + notes verified
+[STEP] 2026-04-16T16:08:36.994Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:08:36.994Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:08:38.371Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:08:38.512Z - Login attempt completed
+[STEP] 2026-04-16T16:08:41.412Z - Navigating to Document Library
+[INFO] 2026-04-16T16:08:42.997Z - Navigated to Document Library via sidebar
+[STEP] 2026-04-16T16:08:42.997Z - Clicking folder: Education
+[INFO] 2026-04-16T16:08:44.551Z - Opened folder: Education
+[STEP] 2026-04-16T16:08:44.551Z - Searching document: SigNotes 1776355681357
+[INFO] 2026-04-16T16:08:46.644Z - Search completed: SigNotes 1776355681357
+[STEP] 2026-04-16T16:08:46.645Z - Deleting document at row 0
+[STEP] 2026-04-16T16:08:46.645Z - Clicking action menu on document row 0
+[INFO] 2026-04-16T16:08:47.683Z - Action menu opened on row 0
+[STEP] 2026-04-16T16:08:47.683Z - Clicking action item: Delete
+[INFO] 2026-04-16T16:08:49.231Z - Clicked: Delete
+[INFO] 2026-04-16T16:08:49.235Z - Delete confirmation dialog opened
+[INFO] 2026-04-16T16:08:49.235Z - Cleanup: deleted "SigNotes 1776355681357"

@@ -1,0 +1,25 @@
+[STEP] 2026-04-16T16:17:47.232Z - Login to Provider Portal
+[STEP] 2026-04-16T16:17:47.702Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:17:47.703Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:17:49.021Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:17:49.150Z - Login attempt completed
+[STEP] 2026-04-16T16:17:52.316Z - Test: Action menu shows View Resolved Note for resolved alerts
+[STEP] 2026-04-16T16:17:52.316Z - Navigating to Alerts page
+[INFO] 2026-04-16T16:17:53.382Z - Navigated to Alerts page
+[STEP] 2026-04-16T16:17:53.382Z - Selecting status filter: All
+[INFO] 2026-04-16T16:17:55.458Z - Status filter set to: All
+[STEP] 2026-04-16T16:17:55.458Z - Finding first resolved row
+[STEP] 2026-04-16T16:17:55.459Z - Getting alert row count
+[INFO] 2026-04-16T16:17:56.464Z - Alert row count: 25
+[STEP] 2026-04-16T16:17:56.464Z - Getting cell text at row 1, column 8
+[INFO] 2026-04-16T16:17:56.472Z - Cell text: Not Resolved
+[STEP] 2026-04-16T16:17:56.473Z - Getting cell text at row 2, column 8
+[INFO] 2026-04-16T16:17:56.482Z - Cell text: Resolved
+[INFO] 2026-04-16T16:17:56.482Z - First resolved row found at index: 2
+[STEP] 2026-04-16T16:17:56.482Z - Opening action menu for row 2
+[INFO] 2026-04-16T16:17:57.037Z - Action menu opened for row 2
+[STEP] 2026-04-16T16:17:57.038Z - Checking if View Resolved Note option is visible
+[INFO] 2026-04-16T16:17:57.041Z - View Resolved Note visible: true
+[STEP] 2026-04-16T16:17:57.042Z - Checking if Resolve option is visible
+[INFO] 2026-04-16T16:17:57.047Z - Resolve option visible: false
+[INFO] 2026-04-16T16:17:57.051Z - Verified: Resolved alert shows View Resolved Note, not Resolve

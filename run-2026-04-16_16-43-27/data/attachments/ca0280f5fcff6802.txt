@@ -1,0 +1,87 @@
+[STEP] 2026-04-16T16:15:44.559Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:15:44.561Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:15:45.781Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:15:45.936Z - Login attempt completed
+[STEP] 2026-04-16T16:15:48.806Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-04-16T16:15:48.807Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:15:50.939Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:15:50.944Z - Adding new enrollment
+[INFO] 2026-04-16T16:15:57.410Z - Found 20 patients matching 'o'
+[INFO] 2026-04-16T16:15:58.914Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Hoppe, Ottis  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T16:16:04.717Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T16:16:04.727Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T16:16:09.360Z - Found 1 patients matching 'x'
+New patient selected: Kemmer, Roxane 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Kemmer, Roxane  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T16:16:13.392Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-16T16:16:28.434Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-16T16:16:32.556Z - Found 20 patients matching 'j'
+New patient selected: BreitenbergJaskolski, Homer 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T16:16:36.536Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-16T16:16:51.570Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-16T16:16:55.757Z - Found 26 patients matching 'h'
+New patient selected: Carter, Harriet 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 4/5
+Patient: Carter, Harriet  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T16:16:59.483Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T16:16:59.494Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Carter, Harriet
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Anny vate
+  Care Manager: Autofirstatjlcy Autolastatjlcy
+[INFO] 2026-04-16T16:16:59.494Z - Enrollment form submitted successfully
+[INFO] 2026-04-16T16:16:59.494Z - Enrolled: Carter, Harriet in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T16:16:59.495Z - Verifying patient in Worklist NEW section
+✓ Patient "Carter, Harriet" found in Worklist > RTM > NEW section
+[INFO] 2026-04-16T16:17:20.260Z - Patient verified in Worklist > RTM > NEW section
+[INFO] 2026-04-16T16:17:20.262Z - Patient verified in Work List > RTM > New section
+[STEP] 2026-04-16T16:17:25.618Z - Navigating to RTM tab
+[INFO] 2026-04-16T16:17:25.716Z - Successfully navigated to RTM tab
+[STEP] 2026-04-16T16:17:25.716Z - Selecting Week 1
+[INFO] 2026-04-16T16:17:26.834Z - Successfully selected Week 1

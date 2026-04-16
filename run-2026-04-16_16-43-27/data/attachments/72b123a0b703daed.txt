@@ -1,0 +1,83 @@
+[STEP] 2026-04-16T16:21:34.819Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-04-16T16:21:34.819Z - Logging in to Provider Portal
+[STEP] 2026-04-16T16:21:34.819Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:21:34.819Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:21:36.528Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:21:36.695Z - Login attempt completed
+[STEP] 2026-04-16T16:21:39.758Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-04-16T16:21:39.758Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:21:41.866Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:21:44.871Z - Applying status filter: Closed
+[INFO] 2026-04-16T16:21:51.023Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-16T16:21:53.396Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:21:55.452Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:21:56.453Z - Adding new enrollment
+[INFO] 2026-04-16T16:22:02.716Z - Found 20 patients matching 'n'
+[INFO] 2026-04-16T16:22:04.158Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Becker, Simeon  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:22:10.000Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T16:22:10.010Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T16:22:14.700Z - Found 17 patients matching 'p'
+New patient selected: Carroll, Peggy 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Carroll, Peggy  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:22:18.685Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T16:22:18.695Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Carroll, Peggy
+  Program: Chronic Care Management (CCM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstafxoph Autolastafxoph
+[INFO] 2026-04-16T16:22:18.696Z - Enrollment form submitted successfully
+Enrollment created: Carroll, Peggy | Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:22:19.049Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:22:21.191Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:22:23.195Z - Applying status filter: New
+[INFO] 2026-04-16T16:22:29.360Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-16T16:22:50.846Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:22:52.917Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:22:54.919Z - Applying status filter: Active
+[INFO] 2026-04-16T16:23:01.107Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-16T16:23:14.282Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:23:16.349Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:23:18.351Z - Applying status filter: Closed
+[INFO] 2026-04-16T16:23:24.500Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Carroll, Peggy ===
+[STEP] 2026-04-16T16:23:45.106Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:23:47.174Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:23:49.175Z - Applying status filter: New
+[INFO] 2026-04-16T16:23:55.364Z - Status filter 'New' applied successfully
+Row: 01Carroll, PeggyCCM04-16-2026newY41491-Aut...+2Autofirstahftmh Autolastahftmhsarvesh test
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Carroll, Peggy669-242-317004-08-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Carroll, Peggy
+Program: CCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-04-16T16:24:11.687Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

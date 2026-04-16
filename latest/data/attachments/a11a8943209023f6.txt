@@ -1,0 +1,46 @@
+[STEP] 2026-04-16T16:37:58.082Z - Login to Provider Portal
+[STEP] 2026-04-16T16:37:58.516Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:37:58.516Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:37:59.863Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:37:59.992Z - Login attempt completed
+[STEP] 2026-04-16T16:38:02.914Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-04-16T16:38:02.914Z - Opening CCM Library
+[INFO] 2026-04-16T16:38:03.993Z - Successfully opened CCM Library
+[STEP] 2026-04-16T16:38:03.993Z - Opening Care Plan section
+[INFO] 2026-04-16T16:38:05.043Z - Successfully opened Care Plan section
+[STEP] 2026-04-16T16:38:05.044Z - Test: Navigation (Previous/Next) with data retention
+[STEP] 2026-04-16T16:38:05.044Z - Clicking Create Care Plan button
+[INFO] 2026-04-16T16:38:07.160Z - Create Care Plan form opened
+[STEP] 2026-04-16T16:38:07.160Z - Selecting diagnosis code: A001
+[INFO] 2026-04-16T16:38:11.579Z - Diagnosis code 'A001' selected
+[STEP] 2026-04-16T16:38:11.579Z - Filling care plan name: Navigation Test Plan
+[INFO] 2026-04-16T16:38:11.600Z - Care plan name filled: Navigation Test Plan
+[STEP] 2026-04-16T16:38:11.600Z - Selecting section: Overview
+[INFO] 2026-04-16T16:38:12.004Z - Section 'Overview' selected
+[STEP] 2026-04-16T16:38:12.004Z - Selecting section: Short Term Goals
+[INFO] 2026-04-16T16:38:12.369Z - Section 'Short Term Goals' selected
+[STEP] 2026-04-16T16:38:12.370Z - Clicking Next button
+[INFO] 2026-04-16T16:38:14.424Z - Next button clicked
+[STEP] 2026-04-16T16:38:14.424Z - Filling Overview section
+[INFO] 2026-04-16T16:38:14.441Z - Care Plan header filled
+[INFO] 2026-04-16T16:38:14.458Z - Care Plan footer filled
+[STEP] 2026-04-16T16:38:14.458Z - Clicking Next button
+[INFO] 2026-04-16T16:38:16.516Z - Next button clicked
+[STEP] 2026-04-16T16:38:16.516Z - Filling goal section - Title: Nav Goal, Type: Free Text
+[INFO] 2026-04-16T16:38:16.533Z - Section note filled
+[INFO] 2026-04-16T16:38:16.554Z - Goal title filled: Nav Goal
+[INFO] 2026-04-16T16:38:18.178Z - Goal type selected: Free Text
+[STEP] 2026-04-16T16:38:18.178Z - Clicking Previous button
+[INFO] 2026-04-16T16:38:19.285Z - Previous button clicked
+[INFO] 2026-04-16T16:38:19.288Z - Navigated back to Overview
+[INFO] 2026-04-16T16:38:19.291Z - Header data retained: 'Navigation header'
+[INFO] 2026-04-16T16:38:19.294Z - Footer data retained: 'Navigation footer'
+[INFO] 2026-04-16T16:38:19.296Z - Plan name retained on Overview: 'Navigation Test Plan'
+[STEP] 2026-04-16T16:38:19.296Z - Clicking Next button
+[INFO] 2026-04-16T16:38:21.363Z - Next button clicked
+[INFO] 2026-04-16T16:38:21.366Z - Navigated forward to Short Term Goals
+[INFO] 2026-04-16T16:38:21.369Z - Note data retained: 'Navigation note.'
+[INFO] 2026-04-16T16:38:21.371Z - Goal title retained: 'Nav Goal'
+[STEP] 2026-04-16T16:38:21.371Z - Clicking Cancel button
+[INFO] 2026-04-16T16:38:22.423Z - Cancel button clicked
+[INFO] 2026-04-16T16:38:22.423Z - Navigation workflow test completed

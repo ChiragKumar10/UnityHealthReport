@@ -1,0 +1,98 @@
+[STEP] 2026-04-16T16:24:11.810Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-04-16T16:24:11.811Z - Logging in to Provider Portal
+[STEP] 2026-04-16T16:24:11.811Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:24:11.811Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:24:13.549Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:24:13.690Z - Login attempt completed
+[STEP] 2026-04-16T16:24:16.862Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:24:18.931Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:24:21.934Z - Applying status filter: Closed
+[INFO] 2026-04-16T16:24:28.094Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-16T16:24:30.445Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:24:32.527Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:24:33.528Z - Adding new enrollment
+[INFO] 2026-04-16T16:24:39.788Z - Found 20 patients matching 'n'
+[INFO] 2026-04-16T16:24:41.212Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Gleichner, Eric  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:24:47.078Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T16:24:47.090Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T16:24:51.799Z - Found 20 patients matching 'm'
+New patient selected: Jacobi, Tommy 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Jacobi, Tommy  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:24:55.762Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T16:24:55.770Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T16:25:00.460Z - Found 20 patients matching 'y'
+New patient selected: Johnson, Stacey 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 3/5
+Patient: Johnson, Stacey  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:25:04.438Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T16:25:04.451Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Johnson, Stacey
+  Program: Chronic Care Management (CCM)
+  Provider: Anny vate
+  Care Manager: Autofirstajlgdk Autolastajlgdk
+[INFO] 2026-04-16T16:25:04.451Z - Enrollment form submitted successfully
+Enrollment created: Johnson, Stacey | Chronic Care Management (CCM)
+[STEP] 2026-04-16T16:25:04.856Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:25:07.002Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:25:09.002Z - Applying status filter: New
+[INFO] 2026-04-16T16:25:15.159Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-16T16:25:36.596Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:25:38.674Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:25:40.676Z - Applying status filter: Active
+[INFO] 2026-04-16T16:25:46.862Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-16T16:26:00.046Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:26:02.110Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:26:04.111Z - Applying status filter: Closed
+[INFO] 2026-04-16T16:26:10.276Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Johnson, Stacey ===
+Activate Enrollment confirmed
+[STEP] 2026-04-16T16:26:20.798Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:26:22.873Z - Navigated to Enrollment section
+[STEP] 2026-04-16T16:26:24.875Z - Applying status filter: Active
+[INFO] 2026-04-16T16:26:31.044Z - Status filter 'Active' applied successfully
+Row: 01Johnson, StaceyCCM04-16-2026activeP95252-Aut...+1Autofirstajlgdk AutolastajlgdkAnny vate
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Johnson, Stacey05-31-202204-16-2026Autofirstajlgdk AutolastajlgdkAnny vateSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Johnson, Stacey
+Program: CCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-04-16T16:26:47.303Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

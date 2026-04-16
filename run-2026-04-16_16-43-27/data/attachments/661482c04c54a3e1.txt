@@ -1,0 +1,42 @@
+[STEP] 2026-04-16T16:09:07.470Z - Login to Provider Portal
+[STEP] 2026-04-16T16:09:07.874Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:09:07.874Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:09:09.028Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:09:09.171Z - Login attempt completed
+[STEP] 2026-04-16T16:09:12.056Z - Test: Verify profile field validations
+[STEP] 2026-04-16T16:09:12.056Z - Navigating to Settings page
+[INFO] 2026-04-16T16:09:13.129Z - Navigated to Settings page
+[STEP] 2026-04-16T16:09:13.129Z - Clicking Edit Profile button
+[INFO] 2026-04-16T16:09:14.308Z - Edit Profile form opened
+[STEP] 2026-04-16T16:09:14.308Z - Capturing original profile values from edit form
+[STEP] 2026-04-16T16:09:14.308Z - Getting edit form value for: firstName
+[INFO] 2026-04-16T16:09:14.315Z - Edit form field 'firstName' value: chirag
+[STEP] 2026-04-16T16:09:14.315Z - Getting edit form value for: lastName
+[INFO] 2026-04-16T16:09:14.320Z - Edit form field 'lastName' value: kumar
+[STEP] 2026-04-16T16:09:14.320Z - Getting edit form value for: email
+[INFO] 2026-04-16T16:09:14.327Z - Edit form field 'email' value: chirag.kumar@thinkitive.com
+[INFO] 2026-04-16T16:09:14.327Z - Captured original values: {"firstName":"chirag","lastName":"kumar","email":"chirag.kumar@thinkitive.com"}
+[STEP] 2026-04-16T16:09:14.327Z - Clearing edit form field: firstName
+[INFO] 2026-04-16T16:09:14.887Z - Edit form field 'firstName' cleared
+[STEP] 2026-04-16T16:09:14.887Z - Clicking Save on Edit Profile form
+[INFO] 2026-04-16T16:09:15.960Z - Edit Profile saved
+[INFO] 2026-04-16T16:09:16.965Z - Validation prevented save with empty First Name
+[STEP] 2026-04-16T16:09:16.965Z - Filling edit form field 'firstName' with: chirag
+[INFO] 2026-04-16T16:09:17.013Z - Edit form field 'firstName' filled
+[STEP] 2026-04-16T16:09:17.013Z - Clearing edit form field: lastName
+[INFO] 2026-04-16T16:09:17.587Z - Edit form field 'lastName' cleared
+[STEP] 2026-04-16T16:09:17.587Z - Clicking Save on Edit Profile form
+[INFO] 2026-04-16T16:09:18.656Z - Edit Profile saved
+[INFO] 2026-04-16T16:09:19.661Z - Validation prevented save with empty Last Name
+[STEP] 2026-04-16T16:09:19.661Z - Filling edit form field 'lastName' with: kumar
+[INFO] 2026-04-16T16:09:19.711Z - Edit form field 'lastName' filled
+[STEP] 2026-04-16T16:09:19.711Z - Clearing edit form field: email
+[INFO] 2026-04-16T16:09:20.290Z - Edit form field 'email' cleared
+[STEP] 2026-04-16T16:09:20.290Z - Clicking Save on Edit Profile form
+[INFO] 2026-04-16T16:09:21.354Z - Edit Profile saved
+[INFO] 2026-04-16T16:09:22.358Z - Validation prevented save with empty Email
+[STEP] 2026-04-16T16:09:22.358Z - Filling edit form field 'email' with: chirag.kumar@thinkitive.com
+[INFO] 2026-04-16T16:09:22.403Z - Edit form field 'email' filled
+[STEP] 2026-04-16T16:09:22.403Z - Clicking Cancel on Edit Profile form
+[INFO] 2026-04-16T16:09:23.484Z - Edit Profile cancelled
+[INFO] 2026-04-16T16:09:23.484Z - Profile field validations test completed

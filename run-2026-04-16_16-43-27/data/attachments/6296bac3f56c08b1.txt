@@ -1,0 +1,42 @@
+[STEP] 2026-04-16T16:09:16.998Z - beforeAll: Logging in to Admin Portal
+[STEP] 2026-04-16T16:09:17.000Z - Navigating to admin portal login page
+[INFO] 2026-04-16T16:09:18.351Z - Successfully navigated to admin portal login page
+[STEP] 2026-04-16T16:09:18.351Z - Attempting to login
+[INFO] 2026-04-16T16:09:18.517Z - Login attempt completed
+[STEP] 2026-04-16T16:09:18.517Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T16:09:20.125Z - Successfully navigated to Condition page
+[INFO] 2026-04-16T16:09:20.125Z - beforeAll: Admin portal ready
+[STEP] 2026-04-16T16:09:20.170Z - beforeAll: Logging in to Provider Portal
+[STEP] 2026-04-16T16:09:20.170Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:09:22.047Z - Successfully navigated to provider portal login page
+[STEP] 2026-04-16T16:09:22.047Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:09:22.048Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:09:23.440Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:09:23.599Z - Login attempt completed
+[INFO] 2026-04-16T16:09:26.658Z - beforeAll: Provider portal ready
+[STEP] 2026-04-16T16:09:26.681Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T16:09:27.276Z - Successfully navigated to Condition page
+[STEP] 2026-04-16T16:09:27.278Z - COND-1: Add a new Condition
+[INFO] 2026-04-16T16:09:27.278Z - ICD Code: H72783, Condition Name: Condition-8cfdrp09-1776355767278
+[STEP] 2026-04-16T16:09:27.279Z - Clicking Add Condition button
+[INFO] 2026-04-16T16:09:28.386Z - Add Condition form opened
+[STEP] 2026-04-16T16:09:28.386Z - Entering ICD Code: H72783
+[INFO] 2026-04-16T16:09:28.913Z - ICD Code entered: H72783
+[STEP] 2026-04-16T16:09:28.913Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-04-16T16:09:30.033Z - ICD Code Type selected: ICD 11 
+[STEP] 2026-04-16T16:09:30.034Z - Entering Condition Name: Condition-8cfdrp09-1776355767278
+[INFO] 2026-04-16T16:09:30.559Z - Condition Name entered: Condition-8cfdrp09-1776355767278
+[STEP] 2026-04-16T16:09:30.560Z - Entering Description: Automated test description - hhathegooxm
+[INFO] 2026-04-16T16:09:31.107Z - Description entered: Automated test description - hhathegooxm
+[STEP] 2026-04-16T16:09:31.107Z - Clicking Save button
+[INFO] 2026-04-16T16:09:33.025Z - Save button clicked
+[STEP] 2026-04-16T16:09:33.026Z - Verifying success message contains: "successfully"
+[INFO] 2026-04-16T16:09:33.055Z - Success message verified: "Icd Code Created Successfully"
+[INFO] 2026-04-16T16:09:33.055Z - Condition created with ICD Code: H72783
+[STEP] 2026-04-16T16:09:33.055Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T16:09:33.757Z - Successfully navigated to Condition page
+[STEP] 2026-04-16T16:09:33.757Z - Searching for condition: H72783
+[INFO] 2026-04-16T16:09:34.807Z - Search completed for: H72783
+[STEP] 2026-04-16T16:09:34.807Z - Verifying condition "H72783" in list
+[INFO] 2026-04-16T16:09:34.813Z - Condition "H72783" is visible in list
+[INFO] 2026-04-16T16:09:34.813Z - Admin: ICD Code 'H72783' verified in list

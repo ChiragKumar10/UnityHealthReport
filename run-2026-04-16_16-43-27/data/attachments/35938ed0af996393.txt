@@ -1,0 +1,39 @@
+[STEP] 2026-04-16T16:14:36.419Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-16T16:14:36.857Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:14:36.858Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:14:38.016Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:14:38.143Z - Login attempt completed
+[STEP] 2026-04-16T16:14:41.137Z - Test: Verify reactivate user
+[STEP] 2026-04-16T16:14:41.137Z - Navigating to Settings page
+[INFO] 2026-04-16T16:14:42.228Z - Navigated to Settings page
+[STEP] 2026-04-16T16:14:42.228Z - Clicking Unity Users tab
+[INFO] 2026-04-16T16:14:43.394Z - Unity Users tab clicked
+[STEP] 2026-04-16T16:14:43.394Z - Adding Unity User: Autofirstbeqtph Autolastbeqtph
+[STEP] 2026-04-16T16:14:43.394Z - Clicking Add Unity User button
+[INFO] 2026-04-16T16:14:44.577Z - Add Unity User form opened
+[STEP] 2026-04-16T16:14:44.577Z - Filling Unity User form for: Autofirstbeqtph Autolastbeqtph
+[STEP] 2026-04-16T16:14:44.577Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-16T16:14:45.528Z - Selected: Care Coordinators
+[STEP] 2026-04-16T16:14:45.615Z - Selecting dropdown option: Male
+[INFO] 2026-04-16T16:14:46.549Z - Selected: Male
+[INFO] 2026-04-16T16:14:46.722Z - Form filled for: Autofirstbeqtph Autolastbeqtph
+[STEP] 2026-04-16T16:14:46.722Z - Clicking Save button
+[INFO] 2026-04-16T16:14:48.837Z - Save button clicked
+[INFO] 2026-04-16T16:14:48.842Z - Unity User 'Autofirstbeqtph Autolastbeqtph' added — form closed
+[STEP] 2026-04-16T16:14:48.842Z - Verifying user 'Autofirstbeqtph Autolastbeqtph' is visible in the list
+[STEP] 2026-04-16T16:14:48.842Z - Searching for user: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:49.887Z - Search completed for: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:49.998Z - User 'Autofirstbeqtph Autolastbeqtph' is visible in the list
+[STEP] 2026-04-16T16:14:49.998Z - Searching for user: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:51.009Z - Search completed for: Autofirstbeqtph Autolastbeqtph
+[STEP] 2026-04-16T16:14:51.009Z - Toggling status for: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:53.031Z - Status toggled for: Autofirstbeqtph Autolastbeqtph
+[STEP] 2026-04-16T16:14:53.031Z - Getting status for: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:54.036Z - User 'Autofirstbeqtph Autolastbeqtph' status: Inactive
+[INFO] 2026-04-16T16:14:54.037Z - User deactivated
+[STEP] 2026-04-16T16:14:54.037Z - Toggling status for: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:56.079Z - Status toggled for: Autofirstbeqtph Autolastbeqtph
+[STEP] 2026-04-16T16:14:56.079Z - Getting status for: Autofirstbeqtph Autolastbeqtph
+[INFO] 2026-04-16T16:14:57.084Z - User 'Autofirstbeqtph Autolastbeqtph' status: Active
+[INFO] 2026-04-16T16:14:57.084Z - Status changed back to Active
+[INFO] 2026-04-16T16:14:57.087Z - Reactivate user verified

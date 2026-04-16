@@ -1,0 +1,41 @@
+[STEP] 2026-04-16T16:18:43.774Z - Login to Provider Portal
+[STEP] 2026-04-16T16:18:44.201Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:18:44.201Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:18:45.569Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:18:45.701Z - Login attempt completed
+[STEP] 2026-04-16T16:18:48.613Z - Test: Escalate alert and verify in Patient 360 Escalation section
+[STEP] 2026-04-16T16:18:48.613Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-16T16:18:51.118Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-16T16:18:51.118Z - Navigating to Vitals tab
+[INFO] 2026-04-16T16:18:51.301Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-16T16:18:51.301Z - Adding vital: Pain Scale with value 79
+[STEP] 2026-04-16T16:18:51.301Z - Clicking Add Vital button
+[INFO] 2026-04-16T16:18:51.534Z - Add Vital form opened
+[STEP] 2026-04-16T16:18:51.534Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-16T16:18:52.370Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-16T16:18:52.370Z - Entering vital value: 79
+[INFO] 2026-04-16T16:18:57.402Z - Successfully entered vital value: 79
+[STEP] 2026-04-16T16:18:57.402Z - Saving vital
+[INFO] 2026-04-16T16:18:57.505Z - Successfully saved vital
+[INFO] 2026-04-16T16:18:57.505Z - Successfully added vital: Pain Scale with value 79
+[INFO] 2026-04-16T16:18:57.505Z - Pain Scale vital added with value: 79
+[STEP] 2026-04-16T16:18:57.505Z - Navigating to Alerts page
+[INFO] 2026-04-16T16:18:58.918Z - Navigated to Alerts page
+[STEP] 2026-04-16T16:18:58.918Z - Searching alerts for: Automation
+[INFO] 2026-04-16T16:19:00.462Z - Search completed for: Automation
+[STEP] 2026-04-16T16:19:02.462Z - Getting alert row count
+[INFO] 2026-04-16T16:19:03.466Z - Alert row count: 6
+[STEP] 2026-04-16T16:19:03.467Z - Escalating alert at row 1 and capturing provider name
+[STEP] 2026-04-16T16:19:03.467Z - Opening action menu for row 1
+[INFO] 2026-04-16T16:19:04.005Z - Action menu opened for row 1
+[STEP] 2026-04-16T16:19:04.005Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-04-16T16:19:04.573Z - Escalate to Provider clicked
+[INFO] 2026-04-16T16:19:07.187Z - Escalated to provider: Anny vate
+[STEP] 2026-04-16T16:19:08.266Z - Dismissing drawer/overlay
+[INFO] 2026-04-16T16:19:12.899Z - Page reloaded to clear overlays
+[INFO] 2026-04-16T16:19:12.899Z - Alert at row 1 escalated to Anny vate
+[INFO] 2026-04-16T16:19:12.899Z - Alert escalated to provider: Anny vate
+[STEP] 2026-04-16T16:19:12.899Z - Searching alerts for: Automation
+[INFO] 2026-04-16T16:19:14.497Z - Search completed for: Automation
+[STEP] 2026-04-16T16:19:16.498Z - Clicking patient name: Automation, Test
+[INFO] 2026-04-16T16:19:17.533Z - Clicked patient name: Automation, Test

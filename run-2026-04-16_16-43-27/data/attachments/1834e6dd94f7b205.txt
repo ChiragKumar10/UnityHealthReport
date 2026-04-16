@@ -1,0 +1,37 @@
+[STEP] 2026-04-16T16:14:17.635Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-16T16:14:18.075Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:14:18.075Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:14:19.225Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:14:19.361Z - Login attempt completed
+[STEP] 2026-04-16T16:14:22.376Z - Test: Verify deactivate user
+[STEP] 2026-04-16T16:14:22.376Z - Navigating to Settings page
+[INFO] 2026-04-16T16:14:23.484Z - Navigated to Settings page
+[STEP] 2026-04-16T16:14:23.484Z - Clicking Unity Users tab
+[INFO] 2026-04-16T16:14:24.644Z - Unity Users tab clicked
+[STEP] 2026-04-16T16:14:24.644Z - Adding Unity User: Autofirstmkosph Autolastmkosph
+[STEP] 2026-04-16T16:14:24.644Z - Clicking Add Unity User button
+[INFO] 2026-04-16T16:14:25.835Z - Add Unity User form opened
+[STEP] 2026-04-16T16:14:25.835Z - Filling Unity User form for: Autofirstmkosph Autolastmkosph
+[STEP] 2026-04-16T16:14:25.835Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-16T16:14:26.780Z - Selected: Care Coordinators
+[STEP] 2026-04-16T16:14:26.871Z - Selecting dropdown option: Male
+[INFO] 2026-04-16T16:14:27.804Z - Selected: Male
+[INFO] 2026-04-16T16:14:27.967Z - Form filled for: Autofirstmkosph Autolastmkosph
+[STEP] 2026-04-16T16:14:27.967Z - Clicking Save button
+[INFO] 2026-04-16T16:14:30.082Z - Save button clicked
+[INFO] 2026-04-16T16:14:30.088Z - Unity User 'Autofirstmkosph Autolastmkosph' added — form closed
+[STEP] 2026-04-16T16:14:30.088Z - Verifying user 'Autofirstmkosph Autolastmkosph' is visible in the list
+[STEP] 2026-04-16T16:14:30.088Z - Searching for user: Autofirstmkosph Autolastmkosph
+[INFO] 2026-04-16T16:14:31.131Z - Search completed for: Autofirstmkosph Autolastmkosph
+[INFO] 2026-04-16T16:14:31.244Z - User 'Autofirstmkosph Autolastmkosph' is visible in the list
+[STEP] 2026-04-16T16:14:31.244Z - Searching for user: Autofirstmkosph Autolastmkosph
+[INFO] 2026-04-16T16:14:32.255Z - Search completed for: Autofirstmkosph Autolastmkosph
+[STEP] 2026-04-16T16:14:32.256Z - Getting status for: Autofirstmkosph Autolastmkosph
+[INFO] 2026-04-16T16:14:33.261Z - User 'Autofirstmkosph Autolastmkosph' status: Active
+[INFO] 2026-04-16T16:14:33.262Z - Initial status is Active
+[STEP] 2026-04-16T16:14:33.262Z - Toggling status for: Autofirstmkosph Autolastmkosph
+[INFO] 2026-04-16T16:14:35.285Z - Status toggled for: Autofirstmkosph Autolastmkosph
+[STEP] 2026-04-16T16:14:35.285Z - Getting status for: Autofirstmkosph Autolastmkosph
+[INFO] 2026-04-16T16:14:36.289Z - User 'Autofirstmkosph Autolastmkosph' status: Inactive
+[INFO] 2026-04-16T16:14:36.290Z - Status changed to Inactive
+[INFO] 2026-04-16T16:14:36.296Z - Deactivate user verified

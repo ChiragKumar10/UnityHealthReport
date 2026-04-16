@@ -1,0 +1,21 @@
+[STEP] 2026-04-16T16:14:04.002Z - Login to Provider Portal
+[STEP] 2026-04-16T16:14:04.497Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:14:04.497Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:14:05.839Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:14:05.980Z - Login attempt completed
+[STEP] 2026-04-16T16:14:09.022Z - Navigating to Alerts page
+[INFO] 2026-04-16T16:14:10.099Z - Navigated to Alerts page
+[STEP] 2026-04-16T16:14:10.100Z - Test: Verify Resolved By after resolve
+[STEP] 2026-04-16T16:14:10.100Z - Selecting status filter: All
+[INFO] 2026-04-16T16:14:12.191Z - Status filter set to: All
+[STEP] 2026-04-16T16:14:12.191Z - Finding first resolved row
+[STEP] 2026-04-16T16:14:12.191Z - Getting alert row count
+[INFO] 2026-04-16T16:14:13.196Z - Alert row count: 25
+[STEP] 2026-04-16T16:14:13.196Z - Getting cell text at row 1, column 8
+[INFO] 2026-04-16T16:14:13.205Z - Cell text: Not Resolved
+[STEP] 2026-04-16T16:14:13.205Z - Getting cell text at row 2, column 8
+[INFO] 2026-04-16T16:14:13.215Z - Cell text: Resolved
+[INFO] 2026-04-16T16:14:13.215Z - First resolved row found at index: 2
+[STEP] 2026-04-16T16:14:13.215Z - Getting cell text at row 2, column 9
+[INFO] 2026-04-16T16:14:13.222Z - Cell text: chirag kumar
+[INFO] 2026-04-16T16:14:13.224Z - Resolved By: chirag kumar

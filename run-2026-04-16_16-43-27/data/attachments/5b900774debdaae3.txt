@@ -1,0 +1,30 @@
+[STEP] 2026-04-16T16:16:29.592Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-04-16T16:16:29.592Z - Logging in and navigating to enrollment form
+[STEP] 2026-04-16T16:16:29.593Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:16:29.593Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:16:31.391Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:16:31.548Z - Login attempt completed
+[STEP] 2026-04-16T16:16:34.677Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:16:36.715Z - Navigated to Enrollment section
+✓ Provider selected
+✓ Primary Care Manager assigned
+✓ Selected 2 secondary care managers (max allowed: 3)
+✓ Selected 3 diagnoses
+  1. (H72783) - Condition-30abzna0-1776355778192 - Automated test description - p7uc9zl858d
+  2. (B14127) - Condition-btdsxm9s-1776343262192 - Automated test description - hkolf767vfa
+  3. (P95252) - Condition-5kstru6j-1776342360358 - Automated test description - l5r2wdxpzqp
+✓ Multiple diagnoses selection validated
+
+--- Enrollment Attempt 1/5 ---
+✓ Found 20 patients matching 'h'
+✓ Service type selected
+[STEP] 2026-04-16T16:17:04.138Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T16:17:04.149Z - Enrollment result: SUCCESS
+✓ Enrollment added successfully
+✓ Diagnoses displayed in enrollment list: B14127-Aut...+2
+[INFO] 2026-04-16T16:17:06.156Z - Care Manager and multi-diagnoses selection verified successfully

@@ -1,0 +1,75 @@
+[STEP] 2026-04-16T16:18:27.199Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:18:27.199Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:18:28.407Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:18:28.544Z - Login attempt completed
+[STEP] 2026-04-16T16:18:31.681Z - Test: Upload, assign, view in library, verify same in patient charting
+[STEP] 2026-04-16T16:18:31.681Z - Navigating to Document Library
+[INFO] 2026-04-16T16:18:33.262Z - Navigated to Document Library via sidebar
+[STEP] 2026-04-16T16:18:33.262Z - Clicking folder: Education
+[INFO] 2026-04-16T16:18:34.813Z - Opened folder: Education
+[STEP] 2026-04-16T16:18:34.813Z - Uploading document: Consistency 1776356314813
+[STEP] 2026-04-16T16:18:34.813Z - Clicking Upload Material button
+[INFO] 2026-04-16T16:18:36.439Z - Upload Material form opened
+[STEP] 2026-04-16T16:18:36.439Z - Selecting tag: Education
+[INFO] 2026-04-16T16:18:37.864Z - Tag selected: Education
+[STEP] 2026-04-16T16:18:37.865Z - Selecting speciality: Cardiologist
+[INFO] 2026-04-16T16:18:39.342Z - Speciality selected: Cardiologist
+[STEP] 2026-04-16T16:18:39.342Z - Filling file name: Consistency 1776356314813
+[STEP] 2026-04-16T16:18:39.676Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/test-data/documents/test-image.jpg
+[INFO] 2026-04-16T16:18:39.707Z - Waiting for file upload to complete...
+[INFO] 2026-04-16T16:18:40.747Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/test-data/documents/test-image.jpg
+[STEP] 2026-04-16T16:18:40.747Z - Clicking Upload button
+[INFO] 2026-04-16T16:18:40.760Z - Upload button enabled — clicking
+[INFO] 2026-04-16T16:18:43.839Z - Upload completed
+[INFO] 2026-04-16T16:18:43.839Z - Document "Consistency 1776356314813" uploaded successfully
+[INFO] 2026-04-16T16:18:43.839Z - Step 1: Uploaded "Consistency 1776356314813"
+[STEP] 2026-04-16T16:18:43.839Z - Navigating to Document Library
+[INFO] 2026-04-16T16:18:45.441Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-04-16T16:18:45.441Z - Clicking folder: Education
+[INFO] 2026-04-16T16:18:46.968Z - Opened folder: Education
+[STEP] 2026-04-16T16:18:48.970Z - Searching document: Consistency 1776356314813
+[INFO] 2026-04-16T16:18:51.054Z - Search completed: Consistency 1776356314813
+[STEP] 2026-04-16T16:18:51.059Z - Viewing document at row 0
+[STEP] 2026-04-16T16:18:51.059Z - Clicking action menu on document row 0
+[INFO] 2026-04-16T16:18:52.099Z - Action menu opened on row 0
+[STEP] 2026-04-16T16:18:52.099Z - Clicking action item: View Material
+[INFO] 2026-04-16T16:18:53.641Z - Clicked: View Material
+[INFO] 2026-04-16T16:18:56.643Z - View Material clicked
+[INFO] 2026-04-16T16:18:56.648Z - View panel visible: true
+[STEP] 2026-04-16T16:18:59.650Z - Getting View Material panel details
+[INFO] 2026-04-16T16:19:01.656Z - View panel has file: false
+[INFO] 2026-04-16T16:19:01.657Z - Step 2: View panel shows uploaded document
+[STEP] 2026-04-16T16:19:01.657Z - Closing View panel
+[INFO] 2026-04-16T16:19:02.713Z - View panel closed
+[STEP] 2026-04-16T16:19:03.713Z - Navigating to Document Library
+[INFO] 2026-04-16T16:19:05.247Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-04-16T16:19:05.248Z - Clicking folder: Education
+[INFO] 2026-04-16T16:19:06.790Z - Opened folder: Education
+[STEP] 2026-04-16T16:19:08.791Z - Searching document: Consistency 1776356314813
+[INFO] 2026-04-16T16:19:10.917Z - Search completed: Consistency 1776356314813
+[STEP] 2026-04-16T16:19:10.917Z - Assigning document (row 0) to patient: Automation
+[STEP] 2026-04-16T16:19:10.917Z - Clicking action menu on document row 0
+[INFO] 2026-04-16T16:19:11.959Z - Action menu opened on row 0
+[STEP] 2026-04-16T16:19:11.959Z - Clicking action item: Assign
+[INFO] 2026-04-16T16:19:13.513Z - Clicked: Assign
+[INFO] 2026-04-16T16:19:19.704Z - Document assigned to patient: Automation
+[INFO] 2026-04-16T16:19:19.704Z - Step 3: Document assigned to Automation, Test
+[STEP] 2026-04-16T16:19:19.704Z - Opening patient chart from global search for: Automation
+[INFO] 2026-04-16T16:19:22.104Z - Patient chart opened from global search for: Automation
+[STEP] 2026-04-16T16:19:22.886Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:19:22.886Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:19:24.098Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:19:24.242Z - Login attempt completed
+[STEP] 2026-04-16T16:19:27.370Z - Navigating to Document Library
+[INFO] 2026-04-16T16:19:28.951Z - Navigated to Document Library via sidebar
+[STEP] 2026-04-16T16:19:28.952Z - Clicking folder: Education
+[INFO] 2026-04-16T16:19:30.495Z - Opened folder: Education
+[STEP] 2026-04-16T16:19:30.495Z - Searching document: Consistency 1776356314813
+[INFO] 2026-04-16T16:19:32.593Z - Search completed: Consistency 1776356314813
+[STEP] 2026-04-16T16:19:32.594Z - Deleting document at row 0
+[STEP] 2026-04-16T16:19:32.594Z - Clicking action menu on document row 0
+[INFO] 2026-04-16T16:19:33.630Z - Action menu opened on row 0
+[STEP] 2026-04-16T16:19:33.630Z - Clicking action item: Delete
+[INFO] 2026-04-16T16:19:35.173Z - Clicked: Delete
+[INFO] 2026-04-16T16:19:35.176Z - Delete confirmation dialog opened
+[INFO] 2026-04-16T16:19:35.176Z - Cleanup: deleted "Consistency 1776356314813"

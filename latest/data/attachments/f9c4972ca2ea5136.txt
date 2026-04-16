@@ -1,0 +1,32 @@
+[STEP] 2026-04-16T16:14:22.563Z - Login to Provider Portal
+[STEP] 2026-04-16T16:14:23.006Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:14:23.007Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:14:24.373Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:14:24.510Z - Login attempt completed
+[STEP] 2026-04-16T16:14:27.548Z - Navigating to Alerts page
+[INFO] 2026-04-16T16:14:28.626Z - Navigated to Alerts page
+[STEP] 2026-04-16T16:14:28.627Z - Test: Escalate alert to provider
+[STEP] 2026-04-16T16:14:28.628Z - Getting first available alert
+[STEP] 2026-04-16T16:14:28.628Z - Getting alert row count
+[INFO] 2026-04-16T16:14:29.634Z - Alert row count: 4
+[STEP] 2026-04-16T16:14:29.634Z - Getting first patient name
+[STEP] 2026-04-16T16:14:29.634Z - Getting cell text at row 1, column 1
+[INFO] 2026-04-16T16:14:29.642Z - Cell text: Automation, Test
+[INFO] 2026-04-16T16:14:29.642Z - First patient name: Automation, Test
+[STEP] 2026-04-16T16:14:29.642Z - Getting alert row count
+[INFO] 2026-04-16T16:14:30.645Z - Alert row count: 4
+[STEP] 2026-04-16T16:14:30.645Z - Escalating alert at row 1
+[STEP] 2026-04-16T16:14:30.646Z - Opening action menu for row 1
+[INFO] 2026-04-16T16:14:31.182Z - Action menu opened for row 1
+[STEP] 2026-04-16T16:14:31.182Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-04-16T16:14:31.788Z - Escalate to Provider clicked
+[STEP] 2026-04-16T16:14:31.788Z - Filling escalation form and submitting
+[INFO] 2026-04-16T16:14:34.399Z - Provider selected from autocomplete
+[INFO] 2026-04-16T16:14:34.417Z - Escalation note filled
+[INFO] 2026-04-16T16:14:35.474Z - Escalation form submitted
+[STEP] 2026-04-16T16:14:35.474Z - Dismissing drawer/overlay
+[INFO] 2026-04-16T16:14:40.105Z - Page reloaded to clear overlays
+[INFO] 2026-04-16T16:14:40.105Z - Alert at row 1 escalated
+[STEP] 2026-04-16T16:14:40.105Z - Dismissing drawer/overlay
+[INFO] 2026-04-16T16:14:44.511Z - Page reloaded to clear overlays
+[INFO] 2026-04-16T16:14:44.512Z - Alert escalated successfully

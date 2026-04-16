@@ -1,0 +1,20 @@
+[STEP] 2026-04-16T16:13:58.023Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-16T16:13:58.023Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:13:58.023Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:13:59.732Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:13:59.862Z - Login attempt completed
+[STEP] 2026-04-16T16:14:02.788Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:14:04.829Z - Navigated to Enrollment section
+[INFO] 2026-04-16T16:14:04.829Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-16T16:14:04.830Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-04-16T16:14:04.830Z - Generated random date range: 03-17-2026 to 03-21-2026
+[INFO] 2026-04-16T16:14:04.830Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-16T16:14:04.830Z - Applying combined filters - Date: 03-17-2026 to 03-21-2026, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T16:14:04.830Z - Applying date filter: 03-17-2026 to 03-21-2026
+[INFO] 2026-04-16T16:14:10.973Z - Date filter applied successfully
+[STEP] 2026-04-16T16:14:10.973Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-16T16:14:17.069Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-04-16T16:14:17.069Z - Retrieving filtered enrollment results
+[INFO] 2026-04-16T16:14:19.089Z - Retrieved 1 filtered enrollment records
+Record 1 Verified: Murray, Toby - RPM - 03-21-2026
+[INFO] 2026-04-16T16:14:19.091Z - Combined Date + Program filter verification completed - 1 records verified

@@ -1,0 +1,45 @@
+[STEP] 2026-04-16T16:20:38.782Z - Login to Provider Portal
+[STEP] 2026-04-16T16:20:39.166Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:20:39.166Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:20:40.376Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:20:40.523Z - Login attempt completed
+[STEP] 2026-04-16T16:20:43.699Z - Test: Upload multiple file formats and verify
+[STEP] 2026-04-16T16:20:43.699Z - --- Uploading PDF file ---
+[STEP] 2026-04-16T16:20:43.700Z - Navigating to Document Library
+[INFO] 2026-04-16T16:20:45.267Z - Navigated to Document Library via sidebar
+[STEP] 2026-04-16T16:20:45.267Z - Uploading document: PDF_Upload 1776356443699
+[STEP] 2026-04-16T16:20:45.268Z - Clicking Upload Material button
+[INFO] 2026-04-16T16:20:46.828Z - Upload Material form opened
+[STEP] 2026-04-16T16:20:46.828Z - Selecting tag: Education
+[INFO] 2026-04-16T16:20:48.240Z - Tag selected: Education
+[STEP] 2026-04-16T16:20:48.240Z - Selecting speciality: Cardiologist
+[INFO] 2026-04-16T16:20:49.675Z - Speciality selected: Cardiologist
+[STEP] 2026-04-16T16:20:49.675Z - Filling file name: PDF_Upload 1776356443699
+[STEP] 2026-04-16T16:20:49.997Z - Uploading file: C:/Users/TTPL-LNVE16-0380/Desktop/Docs/4-mb-example-file (1).pdf
+[STEP] 2026-04-16T16:20:51.002Z - --- Uploading DOC file ---
+[STEP] 2026-04-16T16:20:51.002Z - Navigating to Document Library
+[STEP] 2026-04-16T16:21:07.016Z - --- Uploading DOCX file ---
+[STEP] 2026-04-16T16:21:07.016Z - Navigating to Document Library
+[STEP] 2026-04-16T16:21:23.030Z - --- Uploading JPG file ---
+[STEP] 2026-04-16T16:21:23.030Z - Navigating to Document Library
+[STEP] 2026-04-16T16:21:39.048Z - --- Uploading PNG file ---
+[STEP] 2026-04-16T16:21:39.049Z - Navigating to Document Library
+[STEP] 2026-04-16T16:21:55.090Z - --- Uploading MP4 file ---
+[STEP] 2026-04-16T16:21:55.090Z - Navigating to Document Library
+[INFO] 2026-04-16T16:22:11.102Z - === UPLOAD FORMAT TEST RESULTS ===
+[INFO] 2026-04-16T16:22:11.102Z -   PDF: Failed: ENOENT: no such file or directory, stat '/__w/Unity-Health-Automation/Unity-Heal — PDF_Upload 1776356443699
+[INFO] 2026-04-16T16:22:11.103Z -   DOC: Failed: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(' — DOC_Upload 1776356443699
+[INFO] 2026-04-16T16:22:11.103Z -   DOCX: Failed: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(' — DOCX_Upload 1776356443699
+[INFO] 2026-04-16T16:22:11.103Z -   JPG: Failed: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(' — JPG_Upload 1776356443699
+[INFO] 2026-04-16T16:22:11.103Z -   PNG: Failed: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(' — PNG_Upload 1776356443699
+[INFO] 2026-04-16T16:22:11.103Z -   MP4: Failed: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(' — MP4_Upload 1776356443699

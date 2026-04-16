@@ -1,0 +1,53 @@
+[STEP] 2026-04-16T16:11:40.840Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-04-16T16:11:40.840Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-16T16:11:40.840Z - Attempting to login to provider portal
+[STEP] 2026-04-16T16:11:40.840Z - Navigating to provider portal login page
+[INFO] 2026-04-16T16:11:42.552Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T16:11:42.686Z - Login attempt completed
+[STEP] 2026-04-16T16:11:45.692Z - Navigating to Enrollment section
+[INFO] 2026-04-16T16:11:47.785Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-04-16T16:11:47.785Z - Adding new enrollment
+[INFO] 2026-04-16T16:11:54.375Z - Found 20 patients matching 'o'
+[INFO] 2026-04-16T16:11:55.831Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: GutkowskiAuer, Francesca  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T16:12:01.609Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T16:12:01.621Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: GutkowskiAuer, Francesca
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Dayton Nolan
+  Care Manager: Annamae Quitzon
+[INFO] 2026-04-16T16:12:01.621Z - Enrollment form submitted successfully
+Selected patient: GutkowskiAuer, Francesca
+[STEP] 2026-04-16T16:12:01.621Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T16:12:01.633Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T16:12:04.635Z - Retrieving enrollment list data
+[INFO] 2026-04-16T16:12:05.190Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: GutkowskiAuer, Francesca
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-04-16T16:12:05.192Z - Verifying patient in Worklist NEW section
+✓ Patient "GutkowskiAuer, Francesca" found in Worklist > RPM > NEW section
+[INFO] 2026-04-16T16:12:26.013Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-04-16T16:12:26.014Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist
