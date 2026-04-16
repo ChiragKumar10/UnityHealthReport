@@ -1,0 +1,50 @@
+[ERROR] 2026-04-16T12:40:12.005Z - Failed to  login to provider portal
+page.waitForSelector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('//h6[text()=\'Care Team Work List\']') to be visible
+
+    at ProviderLoginPage.ensureOnWorkList (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:29:25)
+    at ProviderLoginPage.login (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:46:24)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/EnrollmentFilterScenarios.spec.ts:17:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts',
+      line: 29,
+      column: 25,
+      function: 'ProviderLoginPage.ensureOnWorkList'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//h6[text()=\\'Care Team Work List\\']')",
+    apiName: 'page.waitForSelector',
+    params: { selector: "//h6[text()='Care Team Work List']", timeout: 15000 },
+    group: undefined,
+    stepId: 'pw:api@38',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@38',
+      _title: "Wait for selector locator('//h6[text()=\\'Care Team Work List\\']')",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776343212005,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//h6[text()=\\'Care Team Work List\\']') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: page.waitForSelector: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//h6[text()=\\'Care Team Work List\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at ProviderLoginPage.ensureOnWorkList (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:29:25)\n' +
+        '    at ProviderLoginPage.login (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:46:24)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/EnrollmentFilterScenarios.spec.ts:17:9',
+      cause: undefined
+    }
+  }
+}

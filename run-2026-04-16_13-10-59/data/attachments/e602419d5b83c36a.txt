@@ -1,0 +1,89 @@
+[ERROR] 2026-04-16T12:48:24.086Z - Failed to click edit note icon
+locator.click: Error: strict mode violation: locator('[data-testid=\'EditNoteIcon\']') resolved to 20 elements:
+    1) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').first()
+    2) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(1)
+    3) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(2)
+    4) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(3)
+    5) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(4)
+    6) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(5)
+    7) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(9) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')
+    8) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(10) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')
+    9) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(11) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')
+    10) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(12) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')
+    ...
+
+Call log:
+  - waiting for locator('[data-testid=\'EditNoteIcon\']')
+
+    at ProviderWorkListPage.clickEditNoteIcon (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:222:56)
+    at ProviderWorkListPage.reviewVital (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:257:9)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:86:9 {
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts',
+      line: 222,
+      column: 56,
+      function: 'ProviderWorkListPage.clickEditNoteIcon'
+    },
+    category: 'pw:api',
+    title: "Click locator('[data-testid=\\'EditNoteIcon\\']')",
+    apiName: 'locator.click',
+    params: {
+      selector: "[data-testid='EditNoteIcon']",
+      strict: true,
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@111',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@111',
+      _title: "Click locator('[data-testid=\\'EditNoteIcon\\']')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776343704085,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: locator('[data-testid=\\'EditNoteIcon\\']') resolved to 20 elements:\n" +
+        `    1) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').first()\n` +
+        `    2) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(1)\n` +
+        `    3) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(2)\n` +
+        `    4) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(3)\n` +
+        `    5) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(4)\n` +
+        `    6) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(5)\n` +
+        `    7) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(9) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        `    8) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(10) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        `    9) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(11) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        `    10) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(12) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        '    ...\n' +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('[data-testid=\\'EditNoteIcon\\']')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: locator('[data-testid=\\'EditNoteIcon\\']') resolved to 20 elements:\n" +
+        `    1) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').first()\n` +
+        `    2) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(1)\n` +
+        `    3) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(2)\n` +
+        `    4) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(3)\n` +
+        `    5) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(4)\n` +
+        `    6) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka getByTestId('EditNoteIcon').nth(5)\n` +
+        `    7) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(9) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        `    8) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(10) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        `    9) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(11) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        `    10) <svg cursor="pointer" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EditNoteIcon" class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-jvj6hm">…</svg> aka locator('div:nth-child(12) > .MuiStack-root.css-1pdjama > .MuiBox-root.css-0 > .MuiBox-root > .MuiSvgIcon-root')\n` +
+        '    ...\n' +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('[data-testid=\\'EditNoteIcon\\']')\x1B[22m\n" +
+        '\n' +
+        '    at ProviderWorkListPage.clickEditNoteIcon (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:222:56)\n' +
+        '    at ProviderWorkListPage.reviewVital (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/worklist.page.ts:257:9)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-chart.spec.ts:86:9',
+      cause: undefined
+    }
+  }
+}

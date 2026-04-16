@@ -1,0 +1,20 @@
+[STEP] 2026-04-16T12:40:45.019Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-16T12:40:45.019Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:40:45.020Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:40:46.567Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:40:46.714Z - Login attempt completed
+[STEP] 2026-04-16T12:40:49.880Z - Navigating to Enrollment section
+[INFO] 2026-04-16T12:40:51.933Z - Navigated to Enrollment section
+[INFO] 2026-04-16T12:40:51.933Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-16T12:40:51.934Z - Test 5: Verify combined Date + Status filter
+[INFO] 2026-04-16T12:40:51.934Z - Generated random date range: 02-09-2026 to 02-26-2026
+[INFO] 2026-04-16T12:40:51.937Z - Selected random status: Closed
+[INFO] 2026-04-16T12:40:51.937Z - Applying combined filters - Date: 02-09-2026 to 02-26-2026, Status: Closed
+[STEP] 2026-04-16T12:40:51.937Z - Applying date filter: 02-09-2026 to 02-26-2026
+[INFO] 2026-04-16T12:40:58.065Z - Date filter applied successfully
+[STEP] 2026-04-16T12:40:58.066Z - Applying status filter: Closed
+[INFO] 2026-04-16T12:41:04.265Z - Status filter 'Closed' applied successfully
+[STEP] 2026-04-16T12:41:04.265Z - Retrieving filtered enrollment results
+[INFO] 2026-04-16T12:41:16.269Z - No enrollment records found after applying filter
+No Record found for filters - Date: 02-09-2026 to 02-26-2026, Status: Closed
+Test completed - No records found for the selected filters

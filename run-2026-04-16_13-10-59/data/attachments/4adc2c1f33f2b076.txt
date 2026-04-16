@@ -1,0 +1,42 @@
+[STEP] 2026-04-16T12:40:40.992Z - beforeAll: Logging in to Admin Portal
+[STEP] 2026-04-16T12:40:40.993Z - Navigating to admin portal login page
+[INFO] 2026-04-16T12:40:42.452Z - Successfully navigated to admin portal login page
+[STEP] 2026-04-16T12:40:42.452Z - Attempting to login
+[INFO] 2026-04-16T12:40:42.619Z - Login attempt completed
+[STEP] 2026-04-16T12:40:42.619Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T12:40:44.227Z - Successfully navigated to Condition page
+[INFO] 2026-04-16T12:40:44.228Z - beforeAll: Admin portal ready
+[STEP] 2026-04-16T12:40:44.268Z - beforeAll: Logging in to Provider Portal
+[STEP] 2026-04-16T12:40:44.268Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:40:46.052Z - Successfully navigated to provider portal login page
+[STEP] 2026-04-16T12:40:46.053Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:40:46.053Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:40:47.407Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:40:47.548Z - Login attempt completed
+[INFO] 2026-04-16T12:40:50.794Z - beforeAll: Provider portal ready
+[STEP] 2026-04-16T12:40:50.818Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T12:40:51.411Z - Successfully navigated to Condition page
+[STEP] 2026-04-16T12:40:51.412Z - COND-1: Add a new Condition
+[INFO] 2026-04-16T12:40:51.413Z - ICD Code: B14127, Condition Name: Condition-gf7wr770-1776343251412
+[STEP] 2026-04-16T12:40:51.413Z - Clicking Add Condition button
+[INFO] 2026-04-16T12:40:52.513Z - Add Condition form opened
+[STEP] 2026-04-16T12:40:52.514Z - Entering ICD Code: B14127
+[INFO] 2026-04-16T12:40:53.040Z - ICD Code entered: B14127
+[STEP] 2026-04-16T12:40:53.041Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-04-16T12:40:54.181Z - ICD Code Type selected: ICD 09 
+[STEP] 2026-04-16T12:40:54.182Z - Entering Condition Name: Condition-gf7wr770-1776343251412
+[INFO] 2026-04-16T12:40:54.710Z - Condition Name entered: Condition-gf7wr770-1776343251412
+[STEP] 2026-04-16T12:40:54.711Z - Entering Description: Automated test description - rfecbd1805q
+[INFO] 2026-04-16T12:40:55.235Z - Description entered: Automated test description - rfecbd1805q
+[STEP] 2026-04-16T12:40:55.235Z - Clicking Save button
+[INFO] 2026-04-16T12:40:57.094Z - Save button clicked
+[STEP] 2026-04-16T12:40:57.095Z - Verifying success message contains: "successfully"
+[INFO] 2026-04-16T12:40:57.123Z - Success message verified: "Icd Code Created Successfully"
+[INFO] 2026-04-16T12:40:57.123Z - Condition created with ICD Code: B14127
+[STEP] 2026-04-16T12:40:57.123Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T12:40:57.811Z - Successfully navigated to Condition page
+[STEP] 2026-04-16T12:40:57.811Z - Searching for condition: B14127
+[INFO] 2026-04-16T12:40:58.868Z - Search completed for: B14127
+[STEP] 2026-04-16T12:40:58.869Z - Verifying condition "B14127" in list
+[INFO] 2026-04-16T12:40:58.876Z - Condition "B14127" is visible in list
+[INFO] 2026-04-16T12:40:58.876Z - Admin: ICD Code 'B14127' verified in list

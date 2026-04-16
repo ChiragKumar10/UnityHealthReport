@@ -1,0 +1,53 @@
+[STEP] 2026-04-16T12:48:27.011Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-04-16T12:48:27.011Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-16T12:48:27.011Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:48:27.011Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:48:28.498Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:48:28.640Z - Login attempt completed
+[STEP] 2026-04-16T12:48:31.522Z - Navigating to Enrollment section
+[INFO] 2026-04-16T12:48:33.563Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-04-16T12:48:33.564Z - Adding new enrollment
+[INFO] 2026-04-16T12:48:39.983Z - Found 20 patients matching 'l'
+[INFO] 2026-04-16T12:48:41.427Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: OConner, Ella  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T12:48:47.256Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T12:48:47.272Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: OConner, Ella
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstahftmh Autolastahftmh
+[INFO] 2026-04-16T12:48:47.272Z - Enrollment form submitted successfully
+Selected patient: OConner, Ella
+[STEP] 2026-04-16T12:48:47.273Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T12:48:47.285Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T12:48:50.287Z - Retrieving enrollment list data
+[INFO] 2026-04-16T12:48:50.742Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: OConner, Ella
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-04-16T12:48:50.745Z - Verifying patient in Worklist NEW section
+✓ Patient "OConner, Ella" found in Worklist > RPM > NEW section
+[INFO] 2026-04-16T12:49:11.488Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-04-16T12:49:11.489Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

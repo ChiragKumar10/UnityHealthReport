@@ -1,0 +1,46 @@
+[STEP] 2026-04-16T12:46:15.136Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-04-16T12:46:15.137Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-16T12:46:15.137Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:46:15.137Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:46:16.680Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:46:16.814Z - Login attempt completed
+[STEP] 2026-04-16T12:46:19.930Z - Navigating to Enrollment section
+[INFO] 2026-04-16T12:46:21.983Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-04-16T12:46:24.986Z - Adding new enrollment
+[INFO] 2026-04-16T12:46:31.252Z - Found 20 patients matching 't'
+[INFO] 2026-04-16T12:46:32.704Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Murphy, Bethany  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-16T12:46:38.561Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T12:46:38.571Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Murphy, Bethany
+  Program: Chronic Care Management (CCM)
+  Provider: John  Doe
+  Care Manager: Autofirstbligrn Autolastbligrn
+[INFO] 2026-04-16T12:46:38.571Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Murphy, Bethany
+Program: Chronic Care Management (CCM)
+Provider: John  Doe
+Care Manager: Autofirstbligrn Autolastbligrn
+[STEP] 2026-04-16T12:46:38.571Z - Navigating to Enrollment section
+[INFO] 2026-04-16T12:46:40.617Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Chronic Care Management (CCM)"
+Extracted program short: "CCM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "CCM"
+✓ Program tab "CCM" found

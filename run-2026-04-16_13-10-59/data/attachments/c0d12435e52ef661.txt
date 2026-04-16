@@ -1,0 +1,59 @@
+[STEP] 2026-04-16T13:00:52.174Z - Login to Provider Portal
+[STEP] 2026-04-16T13:00:52.583Z - Attempting to login to provider portal
+[STEP] 2026-04-16T13:00:52.583Z - Navigating to provider portal login page
+[INFO] 2026-04-16T13:00:53.818Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T13:00:53.966Z - Login attempt completed
+[STEP] 2026-04-16T13:00:57.239Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-04-16T13:00:57.239Z - Opening CCM Library
+[INFO] 2026-04-16T13:00:58.342Z - Successfully opened CCM Library
+[STEP] 2026-04-16T13:00:58.342Z - Opening Care Plan section
+[INFO] 2026-04-16T13:00:59.381Z - Successfully opened Care Plan section
+[STEP] 2026-04-16T13:00:59.382Z - Test: Multiple questions per section
+[STEP] 2026-04-16T13:00:59.382Z - Clicking Create Care Plan button
+[INFO] 2026-04-16T13:01:01.501Z - Create Care Plan form opened
+[STEP] 2026-04-16T13:01:01.502Z - Selecting diagnosis code: A001
+[INFO] 2026-04-16T13:01:05.949Z - Diagnosis code 'A001' selected
+[STEP] 2026-04-16T13:01:05.949Z - Filling care plan name: Multi-Q Plan 1776344459382
+[INFO] 2026-04-16T13:01:05.974Z - Care plan name filled: Multi-Q Plan 1776344459382
+[STEP] 2026-04-16T13:01:05.974Z - Selecting section: Overview
+[INFO] 2026-04-16T13:01:06.380Z - Section 'Overview' selected
+[STEP] 2026-04-16T13:01:06.380Z - Selecting section: Short Term Goals
+[INFO] 2026-04-16T13:01:06.744Z - Section 'Short Term Goals' selected
+[STEP] 2026-04-16T13:01:06.744Z - Clicking Next button
+[INFO] 2026-04-16T13:01:08.816Z - Next button clicked
+[STEP] 2026-04-16T13:01:08.816Z - Filling Overview section
+[INFO] 2026-04-16T13:01:08.834Z - Care Plan header filled
+[INFO] 2026-04-16T13:01:08.854Z - Care Plan footer filled
+[STEP] 2026-04-16T13:01:08.855Z - Clicking Next button
+[INFO] 2026-04-16T13:01:10.940Z - Next button clicked
+[STEP] 2026-04-16T13:01:10.941Z - Filling goal section - Title: Question 1 - Free Text, Type: Free Text
+[INFO] 2026-04-16T13:01:10.959Z - Section note filled
+[INFO] 2026-04-16T13:01:10.989Z - Goal title filled: Question 1 - Free Text
+[INFO] 2026-04-16T13:01:12.617Z - Goal type selected: Free Text
+[STEP] 2026-04-16T13:01:12.617Z - Adding additional question 1: Question 2 - Single Select (Single Select)
+[INFO] 2026-04-16T13:01:13.696Z - Additional question title filled: Question 2 - Single Select
+[INFO] 2026-04-16T13:01:15.329Z - Additional question type selected: Single Select
+[STEP] 2026-04-16T13:01:15.329Z - Filling Single Select with 3 options
+[INFO] 2026-04-16T13:01:15.351Z - Single Select option 1 filled
+[INFO] 2026-04-16T13:01:15.957Z - Single Select option 2 filled
+[INFO] 2026-04-16T13:01:16.533Z - Single Select option 3 filled
+[INFO] 2026-04-16T13:01:16.533Z - Single Select - 3 options added
+[STEP] 2026-04-16T13:01:16.533Z - Adding additional question 2: Question 3 - Rating (Rating)
+[INFO] 2026-04-16T13:01:17.619Z - Additional question title filled: Question 3 - Rating
+[INFO] 2026-04-16T13:01:19.245Z - Additional question type selected: Rating
+[STEP] 2026-04-16T13:01:19.245Z - Adding additional question 3: Question 4 - Dropdown (Dropdown)
+[INFO] 2026-04-16T13:01:20.345Z - Additional question title filled: Question 4 - Dropdown
+[INFO] 2026-04-16T13:01:22.002Z - Additional question type selected: Dropdown
+[STEP] 2026-04-16T13:01:22.002Z - Filling Dropdown option
+[INFO] 2026-04-16T13:01:22.579Z - Dropdown option added
+[STEP] 2026-04-16T13:01:22.580Z - Adding additional question 4: Question 5 - File Upload (File Upload)
+[INFO] 2026-04-16T13:01:23.711Z - Additional question title filled: Question 5 - File Upload
+[INFO] 2026-04-16T13:01:25.380Z - Additional question type selected: File Upload
+[INFO] 2026-04-16T13:01:25.380Z - 5 questions added to Short Term Goals section
+[STEP] 2026-04-16T13:01:25.380Z - Clicking Finish button
+[INFO] 2026-04-16T13:01:27.465Z - Finish button clicked - Care plan saved
+[STEP] 2026-04-16T13:01:27.465Z - Verifying care plan 'Multi-Q Plan 1776344459382' is visible in the list
+[STEP] 2026-04-16T13:01:27.465Z - Searching for care plan: Multi-Q Plan 1776344459382
+[INFO] 2026-04-16T13:01:28.007Z - Search completed for care plan: Multi-Q Plan 1776344459382
+[INFO] 2026-04-16T13:01:28.877Z - Care plan 'Multi-Q Plan 1776344459382' is visible in the list
+[INFO] 2026-04-16T13:01:28.877Z - Multiple questions test completed

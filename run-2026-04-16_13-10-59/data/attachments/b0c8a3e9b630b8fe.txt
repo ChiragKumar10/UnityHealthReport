@@ -1,0 +1,25 @@
+[STEP] 2026-04-16T12:43:12.754Z - Login to Provider Portal
+[STEP] 2026-04-16T12:43:13.368Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:43:13.368Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:43:14.693Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:43:14.836Z - Login attempt completed
+[STEP] 2026-04-16T12:43:18.048Z - Navigating to Alerts page
+[INFO] 2026-04-16T12:43:19.152Z - Navigated to Alerts page
+[STEP] 2026-04-16T12:43:19.152Z - Test: Filter by Active status
+[STEP] 2026-04-16T12:43:19.153Z - Selecting status filter: Active
+[INFO] 2026-04-16T12:43:21.244Z - Status filter set to: Active
+[STEP] 2026-04-16T12:43:21.244Z - Getting alert row count
+[INFO] 2026-04-16T12:43:22.250Z - Alert row count: 4
+[STEP] 2026-04-16T12:43:22.250Z - Verifying all rows have status: Not Resolved
+[STEP] 2026-04-16T12:43:22.250Z - Getting alert row count
+[INFO] 2026-04-16T12:43:23.255Z - Alert row count: 4
+[STEP] 2026-04-16T12:43:23.255Z - Getting cell text at row 1, column 8
+[INFO] 2026-04-16T12:43:23.264Z - Cell text: Not Resolved
+[STEP] 2026-04-16T12:43:23.264Z - Getting cell text at row 2, column 8
+[INFO] 2026-04-16T12:43:23.270Z - Cell text: Not Resolved
+[STEP] 2026-04-16T12:43:23.270Z - Getting cell text at row 3, column 8
+[INFO] 2026-04-16T12:43:23.277Z - Cell text: Not Resolved
+[STEP] 2026-04-16T12:43:23.277Z - Getting cell text at row 4, column 8
+[INFO] 2026-04-16T12:43:23.286Z - Cell text: Not Resolved
+[INFO] 2026-04-16T12:43:23.286Z - All 4 rows have status: Not Resolved
+[INFO] 2026-04-16T12:43:23.287Z - Active filter shows only Not Resolved alerts

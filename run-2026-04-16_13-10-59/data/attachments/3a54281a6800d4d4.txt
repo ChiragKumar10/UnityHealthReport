@@ -1,0 +1,34 @@
+[STEP] 2026-04-16T12:42:28.590Z - Login to Provider Portal
+[STEP] 2026-04-16T12:42:29.089Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:42:29.089Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:42:30.413Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:42:30.556Z - Login attempt completed
+[STEP] 2026-04-16T12:42:33.609Z - Navigating to Alerts page
+[INFO] 2026-04-16T12:42:34.684Z - Navigated to Alerts page
+[STEP] 2026-04-16T12:42:34.684Z - Test: Search by patient name
+[STEP] 2026-04-16T12:42:34.684Z - Getting first available alert
+[STEP] 2026-04-16T12:42:34.684Z - Getting alert row count
+[INFO] 2026-04-16T12:42:35.690Z - Alert row count: 4
+[STEP] 2026-04-16T12:42:35.690Z - Getting first patient name
+[STEP] 2026-04-16T12:42:35.690Z - Getting cell text at row 1, column 1
+[INFO] 2026-04-16T12:42:35.698Z - Cell text: Automation, Test
+[INFO] 2026-04-16T12:42:35.698Z - First patient name: Automation, Test
+[STEP] 2026-04-16T12:42:35.698Z - Getting alert row count
+[INFO] 2026-04-16T12:42:36.700Z - Alert row count: 4
+[STEP] 2026-04-16T12:42:36.700Z - Searching alerts for: Automation
+[INFO] 2026-04-16T12:42:38.246Z - Search completed for: Automation
+[STEP] 2026-04-16T12:42:38.246Z - Verifying search results contain: Automation
+[STEP] 2026-04-16T12:42:38.246Z - Getting all patient names from table
+[STEP] 2026-04-16T12:42:39.247Z - Getting alert row count
+[INFO] 2026-04-16T12:42:40.250Z - Alert row count: 4
+[STEP] 2026-04-16T12:42:40.250Z - Getting cell text at row 1, column 1
+[INFO] 2026-04-16T12:42:40.258Z - Cell text: Automation, Test
+[STEP] 2026-04-16T12:42:40.258Z - Getting cell text at row 2, column 1
+[INFO] 2026-04-16T12:42:40.264Z - Cell text: Automation, Test
+[STEP] 2026-04-16T12:42:40.264Z - Getting cell text at row 3, column 1
+[INFO] 2026-04-16T12:42:40.272Z - Cell text: Automation, Test
+[STEP] 2026-04-16T12:42:40.272Z - Getting cell text at row 4, column 1
+[INFO] 2026-04-16T12:42:40.277Z - Cell text: Automation, Test
+[INFO] 2026-04-16T12:42:40.277Z - Found 4 patient names
+[INFO] 2026-04-16T12:42:40.278Z - Search results match "Automation": true
+[INFO] 2026-04-16T12:42:40.278Z - Search by patient name verified

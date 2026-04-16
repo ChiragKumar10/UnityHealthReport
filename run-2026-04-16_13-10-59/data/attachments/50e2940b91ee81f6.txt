@@ -1,0 +1,28 @@
+[STEP] 2026-04-16T12:45:36.060Z - Login to Provider Portal
+[STEP] 2026-04-16T12:45:36.456Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:45:36.456Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:45:37.682Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:45:37.819Z - Login attempt completed
+[STEP] 2026-04-16T12:45:40.959Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-16T12:45:40.959Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-16T12:45:40.959Z - Dismissing any open drawer
+[INFO] 2026-04-16T12:45:41.465Z - No drawer backdrop in DOM
+[INFO] 2026-04-16T12:45:41.972Z - Successfully on Care Team Work List
+[STEP] 2026-04-16T12:45:41.972Z - Selecting program tab: RTM
+[INFO] 2026-04-16T12:45:43.049Z - Successfully selected RTM tab
+[STEP] 2026-04-16T12:45:43.049Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-16T12:45:44.214Z - Setting date filter to today
+[INFO] 2026-04-16T12:45:44.220Z - Changing date from "04-15-2026" to "04-16-2026"
+[INFO] 2026-04-16T12:45:45.304Z - Date filter set to: 04-16-2026
+[INFO] 2026-04-16T12:45:45.304Z - Switched to Alerts monitoring view
+[STEP] 2026-04-16T12:45:45.305Z - Test: Filter Alerts list by care manager
+[STEP] 2026-04-16T12:45:45.305Z - Getting visible row count
+[INFO] 2026-04-16T12:45:46.309Z - Visible row count: 0
+[STEP] 2026-04-16T12:45:46.309Z - Setting alert status filter to: Resolved
+[INFO] 2026-04-16T12:45:46.349Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-04-16T12:45:47.949Z - Alert status filter set to: Resolved
+[STEP] 2026-04-16T12:45:47.949Z - Filtering by care manager: chirag kumar
+[INFO] 2026-04-16T12:45:50.602Z - Filtered by care manager: chirag kumar
+[STEP] 2026-04-16T12:45:50.602Z - Getting visible row count
+[INFO] 2026-04-16T12:45:51.607Z - Visible row count: 1
+[INFO] 2026-04-16T12:45:51.609Z - Filtered row count: 1

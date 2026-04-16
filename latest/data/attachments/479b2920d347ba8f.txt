@@ -1,0 +1,20 @@
+[STEP] 2026-04-16T12:41:16.389Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-16T12:41:16.389Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:41:16.389Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:41:18.061Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:41:18.209Z - Login attempt completed
+[STEP] 2026-04-16T12:41:21.474Z - Navigating to Enrollment section
+[INFO] 2026-04-16T12:41:23.515Z - Navigated to Enrollment section
+[INFO] 2026-04-16T12:41:23.515Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-16T12:41:23.515Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-04-16T12:41:23.515Z - Selected random status: Closed
+[INFO] 2026-04-16T12:41:23.515Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-04-16T12:41:23.515Z - Applying combined filters - Status: Closed, Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T12:41:23.516Z - Applying status filter: Closed
+[INFO] 2026-04-16T12:41:29.679Z - Status filter 'Closed' applied successfully
+[STEP] 2026-04-16T12:41:29.680Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-04-16T12:41:35.774Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-04-16T12:41:35.774Z - Retrieving filtered enrollment results
+[INFO] 2026-04-16T12:41:47.780Z - No enrollment records found after applying filter
+No Record found for filters - Status: Closed, Program: RTM
+Test completed - No records found for the selected filters

@@ -1,0 +1,32 @@
+[STEP] 2026-04-16T12:49:07.194Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-16T12:49:07.596Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:49:07.596Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:49:08.974Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:49:09.101Z - Login attempt completed
+[STEP] 2026-04-16T12:49:12.058Z - Test: Verify total provider count via list
+[STEP] 2026-04-16T12:49:12.058Z - Navigating to Settings page
+[INFO] 2026-04-16T12:49:13.153Z - Navigated to Settings page
+[STEP] 2026-04-16T12:49:13.153Z - Clicking Unity Users tab
+[INFO] 2026-04-16T12:49:14.315Z - Unity Users tab clicked
+[STEP] 2026-04-16T12:49:14.315Z - Getting total provider count
+[INFO] 2026-04-16T12:49:14.325Z - Total provider count text: Unity Users
+[INFO] 2026-04-16T12:49:14.325Z - Count text found: "Unity Users"
+[STEP] 2026-04-16T12:49:14.325Z - Getting all visible user names in list
+[INFO] 2026-04-16T12:49:15.498Z - Found 50 user names in list
+[INFO] 2026-04-16T12:49:15.499Z - Total visible users in list: 50
+[INFO] 2026-04-16T12:49:15.502Z - Total provider count verified: 50 users found. Row numbering visible: false
+[STEP] 2026-04-16T12:49:15.644Z - afterAll: Cleanup — deleting all created Unity Users
+[STEP] 2026-04-16T12:49:16.066Z - Attempting to login to provider portal
+[STEP] 2026-04-16T12:49:16.066Z - Navigating to provider portal login page
+[INFO] 2026-04-16T12:49:17.427Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T12:49:17.552Z - Login attempt completed
+[STEP] 2026-04-16T12:49:20.658Z - Navigating to Settings page
+[INFO] 2026-04-16T12:49:21.768Z - Navigated to Settings page
+[STEP] 2026-04-16T12:49:21.768Z - Clicking Unity Users tab
+[INFO] 2026-04-16T12:49:22.913Z - Unity Users tab clicked
+[STEP] 2026-04-16T12:49:22.913Z - Searching for user: Autofirstzgirog Autolastzgirog
+[INFO] 2026-04-16T12:49:23.961Z - Search completed for: Autofirstzgirog Autolastzgirog
+[INFO] 2026-04-16T12:49:23.964Z - afterAll: Skipped 'Autofirstzgirog Autolastzgirog' (not found)
+[STEP] 2026-04-16T12:49:23.964Z - Clearing search box
+[INFO] 2026-04-16T12:49:24.483Z - Search cleared
+[INFO] 2026-04-16T12:49:24.483Z - afterAll: Cleanup completed. Processed 1 users.
