@@ -1,0 +1,59 @@
+[STEP] 2026-04-16T07:48:58.670Z - Login to Provider Portal
+[STEP] 2026-04-16T07:48:59.063Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:48:59.063Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:49:00.401Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:49:00.532Z - Login attempt completed
+[STEP] 2026-04-16T07:49:03.560Z - Test: E2E - Resolve with note, then verify via View Resolved Note
+[STEP] 2026-04-16T07:49:03.560Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-16T07:49:05.936Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-16T07:49:05.937Z - Navigating to Vitals tab
+[INFO] 2026-04-16T07:49:06.229Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-16T07:49:06.229Z - Adding vital: Pain Scale with value 43
+[STEP] 2026-04-16T07:49:06.229Z - Clicking Add Vital button
+[INFO] 2026-04-16T07:49:06.395Z - Add Vital form opened
+[STEP] 2026-04-16T07:49:06.395Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-16T07:49:07.260Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-16T07:49:07.261Z - Entering vital value: 43
+[INFO] 2026-04-16T07:49:12.286Z - Successfully entered vital value: 43
+[STEP] 2026-04-16T07:49:12.286Z - Saving vital
+[INFO] 2026-04-16T07:49:12.367Z - Successfully saved vital
+[INFO] 2026-04-16T07:49:12.368Z - Successfully added vital: Pain Scale with value 43
+[INFO] 2026-04-16T07:49:12.368Z - Pain Scale vital added with value: 43
+[STEP] 2026-04-16T07:49:12.368Z - Navigating to Alerts page
+[INFO] 2026-04-16T07:49:13.694Z - Navigated to Alerts page
+[STEP] 2026-04-16T07:49:13.694Z - Searching alerts for: Automation
+[INFO] 2026-04-16T07:49:15.226Z - Search completed for: Automation
+[STEP] 2026-04-16T07:49:17.229Z - Getting alert row count
+[INFO] 2026-04-16T07:49:18.232Z - Alert row count: 6
+[STEP] 2026-04-16T07:49:18.233Z - Resolving alert at row 1
+[STEP] 2026-04-16T07:49:18.233Z - Opening action menu for row 1
+[INFO] 2026-04-16T07:49:18.774Z - Action menu opened for row 1
+[STEP] 2026-04-16T07:49:18.774Z - Clicking Resolve from action menu
+[INFO] 2026-04-16T07:49:19.322Z - Resolve clicked
+[STEP] 2026-04-16T07:49:19.323Z - Filling resolve note and saving
+[INFO] 2026-04-16T07:49:20.387Z - Resolve note saved
+[STEP] 2026-04-16T07:49:20.387Z - Dismissing drawer/overlay
+[INFO] 2026-04-16T07:49:25.053Z - Page reloaded to clear overlays
+[INFO] 2026-04-16T07:49:25.053Z - Alert at row 1 resolved
+[INFO] 2026-04-16T07:49:25.053Z - Alert resolved with note: E2E resolved note - 1776325758233
+[STEP] 2026-04-16T07:49:25.053Z - Selecting status filter: All
+[INFO] 2026-04-16T07:49:27.180Z - Status filter set to: All
+[STEP] 2026-04-16T07:49:27.180Z - Searching alerts for: Automation
+[INFO] 2026-04-16T07:49:28.749Z - Search completed for: Automation
+[STEP] 2026-04-16T07:49:28.749Z - Finding first resolved row
+[STEP] 2026-04-16T07:49:28.749Z - Getting alert row count
+[INFO] 2026-04-16T07:49:29.754Z - Alert row count: 25
+[STEP] 2026-04-16T07:49:29.754Z - Getting cell text at row 1, column 8
+[INFO] 2026-04-16T07:49:29.762Z - Cell text: Resolved
+[INFO] 2026-04-16T07:49:29.762Z - First resolved row found at index: 1
+[STEP] 2026-04-16T07:49:29.763Z - Opening action menu for row 1
+[INFO] 2026-04-16T07:49:30.304Z - Action menu opened for row 1
+[STEP] 2026-04-16T07:49:30.304Z - Checking if View Resolved Note option is visible
+[INFO] 2026-04-16T07:49:30.307Z - View Resolved Note visible: true
+[STEP] 2026-04-16T07:49:30.308Z - Clicking View Resolved Note from action menu
+[INFO] 2026-04-16T07:49:31.397Z - View Resolved Note clicked
+[STEP] 2026-04-16T07:49:31.397Z - Getting resolved note text
+[INFO] 2026-04-16T07:49:31.903Z - Resolved note text (textarea): E2E resolved note - 1776325758233
+[INFO] 2026-04-16T07:49:31.904Z - E2E verified: Note contains "E2E resolved note - 1776325758233"
+[STEP] 2026-04-16T07:49:31.904Z - Dismissing resolved note dialog
+[INFO] 2026-04-16T07:49:32.412Z - Resolved note dialog dismissed

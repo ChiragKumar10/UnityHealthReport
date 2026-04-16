@@ -1,0 +1,83 @@
+[STEP] 2026-04-16T07:41:10.496Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-04-16T07:41:10.496Z - Logging in to Provider Portal
+[STEP] 2026-04-16T07:41:10.496Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:41:10.497Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:41:12.035Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:41:12.218Z - Login attempt completed
+[STEP] 2026-04-16T07:41:15.410Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-04-16T07:41:15.410Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:41:17.440Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:41:20.442Z - Applying status filter: Closed
+[INFO] 2026-04-16T07:41:26.595Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-16T07:41:28.868Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:41:30.925Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:41:31.928Z - Adding new enrollment
+[INFO] 2026-04-16T07:41:38.214Z - Found 20 patients matching 'c'
+[INFO] 2026-04-16T07:41:39.676Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Bernhard, Cedric  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T07:41:45.604Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T07:41:45.614Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T07:41:50.221Z - Found 21 patients matching 'n'
+New patient selected: Rowe, Ernie 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Rowe, Ernie  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T07:41:54.219Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T07:41:54.230Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Rowe, Ernie
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Anny vate
+  Care Manager: Autofirstbjpock Autolastbjpock
+[INFO] 2026-04-16T07:41:54.230Z - Enrollment form submitted successfully
+Enrollment created: Rowe, Ernie | Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T07:41:54.519Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:41:56.657Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:41:58.659Z - Applying status filter: New
+[INFO] 2026-04-16T07:42:04.830Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-16T07:42:26.135Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:42:28.190Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:42:30.193Z - Applying status filter: Active
+[INFO] 2026-04-16T07:42:36.355Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-16T07:42:49.450Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:42:51.504Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:42:53.505Z - Applying status filter: Closed
+[INFO] 2026-04-16T07:42:59.668Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Rowe, Ernie ===
+[STEP] 2026-04-16T07:43:19.602Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:43:21.716Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:43:23.721Z - Applying status filter: New
+[INFO] 2026-04-16T07:43:29.912Z - Status filter 'New' applied successfully
+Row: 01Rowe, ErnieRTM04-16-2026newL05159-Aut...+1Autofirstaywlrz AutolastaywlrzSeth Ondricka
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Rowe, Ernie999-224-553304-04-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Rowe, Ernie
+Program: RTM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-04-16T07:43:46.063Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

@@ -1,0 +1,36 @@
+[STEP] 2026-04-16T08:08:49.248Z - Attempting to login to provider portal
+[STEP] 2026-04-16T08:08:49.249Z - Navigating to provider portal login page
+[INFO] 2026-04-16T08:08:50.428Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T08:08:50.601Z - Login attempt completed
+[STEP] 2026-04-16T08:08:53.747Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-04-16T08:08:53.751Z - Navigating to Enrollment section
+[INFO] 2026-04-16T08:08:55.802Z - Navigated to Enrollment section
+[STEP] 2026-04-16T08:08:55.803Z - Adding new enrollment
+[INFO] 2026-04-16T08:09:02.342Z - Found 3 patients matching 'q'
+[INFO] 2026-04-16T08:09:03.833Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: DuBuque, Lucile  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T08:09:09.614Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T08:09:09.627Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: DuBuque, Lucile
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Anny vate
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-04-16T08:09:09.627Z - Enrollment form submitted successfully
+[INFO] 2026-04-16T08:09:09.627Z - Enrolled: DuBuque, Lucile in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-16T08:09:09.627Z - Verifying patient in Worklist NEW section
+✓ Patient "DuBuque, Lucile" found in Worklist > RTM > NEW section
+[INFO] 2026-04-16T08:09:30.506Z - Patient verified in Worklist > RTM > NEW section
+[INFO] 2026-04-16T08:09:30.508Z - Patient verified in Work List > RTM > New section
+[STEP] 2026-04-16T08:09:34.093Z - Navigating to RTM tab
+[INFO] 2026-04-16T08:09:34.207Z - Successfully navigated to RTM tab
+[STEP] 2026-04-16T08:09:34.207Z - Selecting Week 1
+[INFO] 2026-04-16T08:09:35.321Z - Successfully selected Week 1

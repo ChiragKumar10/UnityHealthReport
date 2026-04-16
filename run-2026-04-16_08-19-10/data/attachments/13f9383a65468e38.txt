@@ -1,0 +1,37 @@
+[STEP] 2026-04-16T07:44:16.976Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-16T07:44:17.386Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:44:17.387Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:44:18.791Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:44:18.921Z - Login attempt completed
+[STEP] 2026-04-16T07:44:21.900Z - Test: Verify deactivate user
+[STEP] 2026-04-16T07:44:21.900Z - Navigating to Settings page
+[INFO] 2026-04-16T07:44:22.987Z - Navigated to Settings page
+[STEP] 2026-04-16T07:44:22.987Z - Clicking Unity Users tab
+[INFO] 2026-04-16T07:44:24.155Z - Unity Users tab clicked
+[STEP] 2026-04-16T07:44:24.155Z - Adding Unity User: Autofirstclntaf Autolastclntaf
+[STEP] 2026-04-16T07:44:24.155Z - Clicking Add Unity User button
+[INFO] 2026-04-16T07:44:25.343Z - Add Unity User form opened
+[STEP] 2026-04-16T07:44:25.343Z - Filling Unity User form for: Autofirstclntaf Autolastclntaf
+[STEP] 2026-04-16T07:44:25.343Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-16T07:44:26.296Z - Selected: Care Coordinators
+[STEP] 2026-04-16T07:44:26.382Z - Selecting dropdown option: Male
+[INFO] 2026-04-16T07:44:27.311Z - Selected: Male
+[INFO] 2026-04-16T07:44:27.488Z - Form filled for: Autofirstclntaf Autolastclntaf
+[STEP] 2026-04-16T07:44:27.488Z - Clicking Save button
+[INFO] 2026-04-16T07:44:29.617Z - Save button clicked
+[INFO] 2026-04-16T07:44:29.622Z - Unity User 'Autofirstclntaf Autolastclntaf' added — form closed
+[STEP] 2026-04-16T07:44:29.622Z - Verifying user 'Autofirstclntaf Autolastclntaf' is visible in the list
+[STEP] 2026-04-16T07:44:29.622Z - Searching for user: Autofirstclntaf Autolastclntaf
+[INFO] 2026-04-16T07:44:30.661Z - Search completed for: Autofirstclntaf Autolastclntaf
+[INFO] 2026-04-16T07:44:31.038Z - User 'Autofirstclntaf Autolastclntaf' is visible in the list
+[STEP] 2026-04-16T07:44:31.038Z - Searching for user: Autofirstclntaf Autolastclntaf
+[INFO] 2026-04-16T07:44:32.050Z - Search completed for: Autofirstclntaf Autolastclntaf
+[STEP] 2026-04-16T07:44:32.050Z - Getting status for: Autofirstclntaf Autolastclntaf
+[INFO] 2026-04-16T07:44:33.055Z - User 'Autofirstclntaf Autolastclntaf' status: Active
+[INFO] 2026-04-16T07:44:33.056Z - Initial status is Active
+[STEP] 2026-04-16T07:44:33.056Z - Toggling status for: Autofirstclntaf Autolastclntaf
+[INFO] 2026-04-16T07:44:35.075Z - Status toggled for: Autofirstclntaf Autolastclntaf
+[STEP] 2026-04-16T07:44:35.075Z - Getting status for: Autofirstclntaf Autolastclntaf
+[INFO] 2026-04-16T07:44:36.079Z - User 'Autofirstclntaf Autolastclntaf' status: Inactive
+[INFO] 2026-04-16T07:44:36.080Z - Status changed to Inactive
+[INFO] 2026-04-16T07:44:36.084Z - Deactivate user verified

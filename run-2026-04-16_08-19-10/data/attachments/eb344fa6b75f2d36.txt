@@ -1,0 +1,49 @@
+[STEP] 2026-04-16T07:47:01.376Z - Login to Provider Portal
+[STEP] 2026-04-16T07:47:01.771Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:47:01.771Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:47:03.079Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:47:03.202Z - Login attempt completed
+[STEP] 2026-04-16T07:47:06.080Z - Test: E2E - Create alert, resolve, verify resolved
+[STEP] 2026-04-16T07:47:06.080Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-16T07:47:08.454Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-16T07:47:08.454Z - Navigating to Vitals tab
+[INFO] 2026-04-16T07:47:08.609Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-16T07:47:08.609Z - Adding vital: Pain Scale with value 136
+[STEP] 2026-04-16T07:47:08.609Z - Clicking Add Vital button
+[INFO] 2026-04-16T07:47:08.827Z - Add Vital form opened
+[STEP] 2026-04-16T07:47:08.827Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-16T07:47:09.666Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-16T07:47:09.666Z - Entering vital value: 136
+[INFO] 2026-04-16T07:47:14.695Z - Successfully entered vital value: 136
+[STEP] 2026-04-16T07:47:14.695Z - Saving vital
+[INFO] 2026-04-16T07:47:14.748Z - Successfully saved vital
+[INFO] 2026-04-16T07:47:14.748Z - Successfully added vital: Pain Scale with value 136
+[INFO] 2026-04-16T07:47:14.748Z - Pain Scale vital added with value: 136
+[STEP] 2026-04-16T07:47:14.748Z - Navigating to Alerts page
+[INFO] 2026-04-16T07:47:16.106Z - Navigated to Alerts page
+[STEP] 2026-04-16T07:47:16.106Z - Searching alerts for: Automation
+[INFO] 2026-04-16T07:47:17.651Z - Search completed for: Automation
+[STEP] 2026-04-16T07:47:19.653Z - Getting alert row count
+[INFO] 2026-04-16T07:47:20.658Z - Alert row count: 8
+[STEP] 2026-04-16T07:47:20.659Z - Resolving alert at row 1
+[STEP] 2026-04-16T07:47:20.659Z - Opening action menu for row 1
+[INFO] 2026-04-16T07:47:21.191Z - Action menu opened for row 1
+[STEP] 2026-04-16T07:47:21.192Z - Clicking Resolve from action menu
+[INFO] 2026-04-16T07:47:21.748Z - Resolve clicked
+[STEP] 2026-04-16T07:47:21.748Z - Filling resolve note and saving
+[INFO] 2026-04-16T07:47:22.807Z - Resolve note saved
+[STEP] 2026-04-16T07:47:22.807Z - Dismissing drawer/overlay
+[INFO] 2026-04-16T07:47:27.504Z - Page reloaded to clear overlays
+[INFO] 2026-04-16T07:47:27.504Z - Alert at row 1 resolved
+[INFO] 2026-04-16T07:47:27.504Z - Alert resolved
+[STEP] 2026-04-16T07:47:27.504Z - Selecting status filter: All
+[INFO] 2026-04-16T07:47:29.630Z - Status filter set to: All
+[STEP] 2026-04-16T07:47:29.630Z - Searching alerts for: Automation
+[INFO] 2026-04-16T07:47:31.189Z - Search completed for: Automation
+[STEP] 2026-04-16T07:47:31.189Z - Getting alert row count
+[INFO] 2026-04-16T07:47:32.194Z - Alert row count: 25
+[STEP] 2026-04-16T07:47:32.195Z - Getting cell text at row 1, column 9
+[INFO] 2026-04-16T07:47:32.203Z - Cell text: chirag kumar
+[STEP] 2026-04-16T07:47:32.203Z - Getting cell text at row 1, column 10
+[INFO] 2026-04-16T07:47:32.213Z - Cell text: 04-16-2026
+[INFO] 2026-04-16T07:47:32.214Z - E2E complete: Alert created, resolved. By=chirag kumar, Date=04-16-2026

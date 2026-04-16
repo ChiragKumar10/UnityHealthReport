@@ -1,0 +1,83 @@
+[STEP] 2026-04-16T07:43:46.214Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-04-16T07:43:46.214Z - Logging in to Provider Portal
+[STEP] 2026-04-16T07:43:46.214Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:43:46.214Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:43:47.753Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:43:47.896Z - Login attempt completed
+[STEP] 2026-04-16T07:43:51.079Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:43:53.133Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:43:56.134Z - Applying status filter: Closed
+[INFO] 2026-04-16T07:44:02.292Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-16T07:44:04.572Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:44:06.654Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:44:07.657Z - Adding new enrollment
+[INFO] 2026-04-16T07:44:13.920Z - Found 20 patients matching 'b'
+[INFO] 2026-04-16T07:44:15.376Z - Selected random program: Principal Care Management (PCM)
+
+Enrollment attempt 1/5
+Patient: Blick, Cameron  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-16T07:44:21.149Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T07:44:21.164Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T07:44:25.787Z - Found 30 patients matching 'r'
+New patient selected: Runolfsdottir, Aletha 
+Service type reselected: Principal Care Management (PCM)
+
+Enrollment attempt 2/5
+Patient: Runolfsdottir, Aletha  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-16T07:44:29.797Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T07:44:29.807Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Runolfsdottir, Aletha
+  Program: Principal Care Management (PCM)
+  Provider: Anny vate
+  Care Manager: Autofirstbddpia Autolastbddpia
+[INFO] 2026-04-16T07:44:29.807Z - Enrollment form submitted successfully
+Enrollment created: Runolfsdottir, Aletha | Principal Care Management (PCM)
+[STEP] 2026-04-16T07:44:30.106Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:44:32.239Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:44:34.243Z - Applying status filter: New
+[INFO] 2026-04-16T07:44:40.430Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-16T07:45:01.805Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:45:03.867Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:45:05.868Z - Applying status filter: Active
+[INFO] 2026-04-16T07:45:12.059Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-16T07:45:25.206Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:45:27.265Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:45:29.264Z - Applying status filter: Closed
+[INFO] 2026-04-16T07:45:35.428Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Runolfsdottir, Aletha ===
+Activate Enrollment confirmed
+[STEP] 2026-04-16T07:45:45.835Z - Navigating to Enrollment section
+[INFO] 2026-04-16T07:45:47.906Z - Navigated to Enrollment section
+[STEP] 2026-04-16T07:45:49.908Z - Applying status filter: Active
+[INFO] 2026-04-16T07:45:56.075Z - Status filter 'Active' applied successfully
+Row: 01Runolfsdottir, AlethaPCM04-16-2026activeY41491-Aut...+1Autofirstbddpia AutolastbddpiaAnny vate
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Runolfsdottir, Aletha01-29-202304-16-2026Autofirstbddpia AutolastbddpiaAnny vateSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Runolfsdottir, Aletha
+Program: PCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-04-16T07:46:12.270Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

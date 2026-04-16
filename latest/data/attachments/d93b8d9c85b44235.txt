@@ -1,0 +1,48 @@
+[STEP] 2026-04-16T07:48:54.944Z - Login to Provider Portal
+[STEP] 2026-04-16T07:48:55.548Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:48:55.548Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:48:56.688Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:48:56.813Z - Login attempt completed
+[STEP] 2026-04-16T07:48:59.245Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-16T07:48:59.245Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-16T07:48:59.245Z - Dismissing any open drawer
+[INFO] 2026-04-16T07:48:59.753Z - No drawer backdrop in DOM
+[INFO] 2026-04-16T07:49:00.259Z - Successfully on Care Team Work List
+[STEP] 2026-04-16T07:49:00.259Z - Selecting program tab: RTM
+[INFO] 2026-04-16T07:49:01.315Z - Successfully selected RTM tab
+[STEP] 2026-04-16T07:49:01.315Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-16T07:49:02.422Z - Setting date filter to today
+[INFO] 2026-04-16T07:49:02.427Z - Changing date from "04-15-2026" to "04-16-2026"
+[INFO] 2026-04-16T07:49:03.494Z - Date filter set to: 04-16-2026
+[INFO] 2026-04-16T07:49:03.494Z - Switched to Alerts monitoring view
+[STEP] 2026-04-16T07:49:03.495Z - Test: Resolve alert from Alerts page
+[STEP] 2026-04-16T07:49:03.495Z - Getting first available patient from list
+[INFO] 2026-04-16T07:49:03.504Z - First available patient: "Automation, Test"
+[STEP] 2026-04-16T07:49:03.504Z - Clicking Number of Alerts for: Automation, Test
+[INFO] 2026-04-16T07:49:04.531Z - Clicked alert area for: Automation, Test
+[STEP] 2026-04-16T07:49:04.532Z - Resolving alert from alerts detail page
+[STEP] 2026-04-16T07:49:07.647Z - Filling resolve form and saving
+[INFO] 2026-04-16T07:49:07.651Z - Resolve drawer visible: true
+[INFO] 2026-04-16T07:49:07.671Z - Resolution note filled
+[INFO] 2026-04-16T07:49:07.676Z - Clicking Resolve to open time entries section
+[INFO] 2026-04-16T07:49:09.722Z - MANUAL TIME ENTRIES form visible: true
+[INFO] 2026-04-16T07:49:10.835Z - Resolve button exists for final click: true
+[INFO] 2026-04-16T07:49:10.835Z - Using evaluate() to click Resolve button directly (bypass overlap)
+[INFO] 2026-04-16T07:49:13.858Z - Post-resolve toast: "Alert Resolved Successfully"
+[INFO] 2026-04-16T07:49:13.863Z - Post-resolve open drawers: 3
+[INFO] 2026-04-16T07:49:13.863Z - Drawer still open after resolve — dismissing
+[STEP] 2026-04-16T07:49:13.863Z - Dismissing any open drawer
+[INFO] 2026-04-16T07:49:14.367Z - Found 2 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-16T07:49:16.960Z - Drawer closed via Cancel button
+[INFO] 2026-04-16T07:49:16.960Z - Resolve form completed
+[INFO] 2026-04-16T07:49:16.960Z - Alert resolved from alerts detail page
+[INFO] 2026-04-16T07:49:16.960Z - Alert resolution attempted from Number of Alerts page
+[STEP] 2026-04-16T07:49:16.960Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-16T07:49:16.960Z - Dismissing any open drawer
+[INFO] 2026-04-16T07:49:17.464Z - No drawer backdrop in DOM
+[INFO] 2026-04-16T07:49:17.967Z - Successfully on Care Team Work List
+[STEP] 2026-04-16T07:49:17.967Z - Selecting program tab: RTM
+[INFO] 2026-04-16T07:49:18.995Z - Successfully selected RTM tab
+[STEP] 2026-04-16T07:49:18.995Z - Getting count for Alerts
+[INFO] 2026-04-16T07:49:19.000Z - Alerts count: 1
+[INFO] 2026-04-16T07:49:19.000Z - Alert count after resolution: 1

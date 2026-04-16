@@ -1,0 +1,38 @@
+[STEP] 2026-04-16T07:44:57.300Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-16T07:44:57.681Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:44:57.681Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:44:59.086Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:44:59.219Z - Login attempt completed
+[STEP] 2026-04-16T07:45:02.123Z - Test: Verify inactive provider login restriction
+[STEP] 2026-04-16T07:45:02.123Z - Navigating to Settings page
+[INFO] 2026-04-16T07:45:03.223Z - Navigated to Settings page
+[STEP] 2026-04-16T07:45:03.223Z - Clicking Unity Users tab
+[INFO] 2026-04-16T07:45:04.391Z - Unity Users tab clicked
+[STEP] 2026-04-16T07:45:04.391Z - Adding Unity User: Autofirstdyuvaf Autolastdyuvaf
+[STEP] 2026-04-16T07:45:04.391Z - Clicking Add Unity User button
+[INFO] 2026-04-16T07:45:05.577Z - Add Unity User form opened
+[STEP] 2026-04-16T07:45:05.577Z - Filling Unity User form for: Autofirstdyuvaf Autolastdyuvaf
+[STEP] 2026-04-16T07:45:05.577Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-16T07:45:06.527Z - Selected: Care Coordinators
+[STEP] 2026-04-16T07:45:06.629Z - Selecting dropdown option: Male
+[INFO] 2026-04-16T07:45:07.560Z - Selected: Male
+[INFO] 2026-04-16T07:45:07.726Z - Form filled for: Autofirstdyuvaf Autolastdyuvaf
+[STEP] 2026-04-16T07:45:07.726Z - Clicking Save button
+[INFO] 2026-04-16T07:45:09.844Z - Save button clicked
+[INFO] 2026-04-16T07:45:09.848Z - Unity User 'Autofirstdyuvaf Autolastdyuvaf' added — form closed
+[STEP] 2026-04-16T07:45:09.848Z - Verifying user 'Autofirstdyuvaf Autolastdyuvaf' is visible in the list
+[STEP] 2026-04-16T07:45:09.848Z - Searching for user: Autofirstdyuvaf Autolastdyuvaf
+[INFO] 2026-04-16T07:45:10.888Z - Search completed for: Autofirstdyuvaf Autolastdyuvaf
+[INFO] 2026-04-16T07:45:11.260Z - User 'Autofirstdyuvaf Autolastdyuvaf' is visible in the list
+[INFO] 2026-04-16T07:45:11.260Z - User created for inactive login test
+[STEP] 2026-04-16T07:45:11.260Z - Searching for user: Autofirstdyuvaf Autolastdyuvaf
+[INFO] 2026-04-16T07:45:12.274Z - Search completed for: Autofirstdyuvaf Autolastdyuvaf
+[STEP] 2026-04-16T07:45:12.274Z - Toggling status for: Autofirstdyuvaf Autolastdyuvaf
+[INFO] 2026-04-16T07:45:14.303Z - Status toggled for: Autofirstdyuvaf Autolastdyuvaf
+[STEP] 2026-04-16T07:45:14.303Z - Getting status for: Autofirstdyuvaf Autolastdyuvaf
+[INFO] 2026-04-16T07:45:15.308Z - User 'Autofirstdyuvaf Autolastdyuvaf' status: Inactive
+[INFO] 2026-04-16T07:45:15.309Z - User deactivated
+[STEP] 2026-04-16T07:45:15.309Z - Attempting login with username: autouser1776325502123
+[INFO] 2026-04-16T07:45:20.204Z - Login failed — error: No error text found
+[INFO] 2026-04-16T07:45:20.370Z - Inactive user login blocked — success: false
+[INFO] 2026-04-16T07:45:20.372Z - Inactive provider login restriction verified. Error: 

@@ -1,0 +1,41 @@
+[STEP] 2026-04-16T07:39:18.164Z - Login to Provider Portal
+[STEP] 2026-04-16T07:39:18.540Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:39:18.540Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:39:19.936Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:39:20.063Z - Login attempt completed
+[STEP] 2026-04-16T07:39:22.966Z - Test: Verify profile data persistence
+[STEP] 2026-04-16T07:39:22.966Z - Navigating to Settings page
+[INFO] 2026-04-16T07:39:24.036Z - Navigated to Settings page
+[STEP] 2026-04-16T07:39:24.036Z - Clicking Edit Profile button
+[INFO] 2026-04-16T07:39:25.200Z - Edit Profile form opened
+[STEP] 2026-04-16T07:39:25.200Z - Capturing original profile values from edit form
+[STEP] 2026-04-16T07:39:25.200Z - Getting edit form value for: bio
+[INFO] 2026-04-16T07:39:25.207Z - Edit form field 'bio' value: Persist Test 1775643502274
+[INFO] 2026-04-16T07:39:25.207Z - Captured original values: {"bio":"Persist Test 1775643502274"}
+[STEP] 2026-04-16T07:39:25.207Z - Filling edit form field 'bio' with: Persist Test 1776325162966
+[INFO] 2026-04-16T07:39:25.279Z - Edit form field 'bio' filled
+[STEP] 2026-04-16T07:39:25.279Z - Clicking Save on Edit Profile form
+[INFO] 2026-04-16T07:39:26.356Z - Edit Profile saved
+[STEP] 2026-04-16T07:39:28.358Z - Getting value for field: Bio
+[INFO] 2026-04-16T07:39:28.364Z - Field 'Bio' value: Persist Test 1776325162966
+[INFO] 2026-04-16T07:39:28.364Z - Bio updated to: Persist Test 1776325162966
+[STEP] 2026-04-16T07:39:28.797Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:39:28.797Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:39:30.213Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:39:30.348Z - Login attempt completed
+[STEP] 2026-04-16T07:39:33.373Z - Navigating to Settings page
+[INFO] 2026-04-16T07:39:34.459Z - Navigated to Settings page
+[STEP] 2026-04-16T07:39:34.459Z - Getting value for field: Bio
+[INFO] 2026-04-16T07:39:34.465Z - Field 'Bio' value: Persist Test 1776325162966
+[INFO] 2026-04-16T07:39:34.466Z - Bio persisted after re-login: Persist Test 1776325162966
+[STEP] 2026-04-16T07:39:34.466Z - Restoring original bio value
+[STEP] 2026-04-16T07:39:34.466Z - Restoring original profile values
+[STEP] 2026-04-16T07:39:34.466Z - Clicking Edit Profile button
+[INFO] 2026-04-16T07:39:35.641Z - Edit Profile form opened
+[STEP] 2026-04-16T07:39:35.641Z - Filling edit form field 'bio' with: Persist Test 1775643502274
+[INFO] 2026-04-16T07:39:35.717Z - Edit form field 'bio' filled
+[STEP] 2026-04-16T07:39:35.717Z - Clicking Save on Edit Profile form
+[INFO] 2026-04-16T07:39:36.794Z - Edit Profile saved
+[INFO] 2026-04-16T07:39:36.795Z - Profile values restored
+[INFO] 2026-04-16T07:39:36.795Z - Original bio restored
+[INFO] 2026-04-16T07:39:36.858Z - Profile data persistence test completed

@@ -1,0 +1,42 @@
+[STEP] 2026-04-16T07:40:09.819Z - beforeAll: Logging in to Admin Portal
+[STEP] 2026-04-16T07:40:09.820Z - Navigating to admin portal login page
+[INFO] 2026-04-16T07:40:11.083Z - Successfully navigated to admin portal login page
+[STEP] 2026-04-16T07:40:11.083Z - Attempting to login
+[INFO] 2026-04-16T07:40:11.226Z - Login attempt completed
+[STEP] 2026-04-16T07:40:11.226Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T07:40:12.822Z - Successfully navigated to Condition page
+[INFO] 2026-04-16T07:40:12.822Z - beforeAll: Admin portal ready
+[STEP] 2026-04-16T07:40:12.858Z - beforeAll: Logging in to Provider Portal
+[STEP] 2026-04-16T07:40:12.859Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:40:14.578Z - Successfully navigated to provider portal login page
+[STEP] 2026-04-16T07:40:14.578Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:40:14.578Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:40:15.922Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:40:16.072Z - Login attempt completed
+[INFO] 2026-04-16T07:40:19.296Z - beforeAll: Provider portal ready
+[STEP] 2026-04-16T07:40:19.317Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T07:40:19.903Z - Successfully navigated to Condition page
+[STEP] 2026-04-16T07:40:19.903Z - COND-1: Add a new Condition
+[INFO] 2026-04-16T07:40:19.904Z - ICD Code: L99035, Condition Name: Condition-eb5sc64d-1776325219904
+[STEP] 2026-04-16T07:40:19.904Z - Clicking Add Condition button
+[INFO] 2026-04-16T07:40:21.014Z - Add Condition form opened
+[STEP] 2026-04-16T07:40:21.015Z - Entering ICD Code: L99035
+[INFO] 2026-04-16T07:40:21.548Z - ICD Code entered: L99035
+[STEP] 2026-04-16T07:40:21.548Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-04-16T07:40:22.711Z - ICD Code Type selected: ICD 11 
+[STEP] 2026-04-16T07:40:22.711Z - Entering Condition Name: Condition-eb5sc64d-1776325219904
+[INFO] 2026-04-16T07:40:23.234Z - Condition Name entered: Condition-eb5sc64d-1776325219904
+[STEP] 2026-04-16T07:40:23.234Z - Entering Description: Automated test description - xcyhhgzj3ci
+[INFO] 2026-04-16T07:40:23.750Z - Description entered: Automated test description - xcyhhgzj3ci
+[STEP] 2026-04-16T07:40:23.750Z - Clicking Save button
+[INFO] 2026-04-16T07:40:25.630Z - Save button clicked
+[STEP] 2026-04-16T07:40:25.630Z - Verifying success message contains: "successfully"
+[INFO] 2026-04-16T07:40:25.656Z - Success message verified: "Icd Code Created Successfully"
+[INFO] 2026-04-16T07:40:25.656Z - Condition created with ICD Code: L99035
+[STEP] 2026-04-16T07:40:25.657Z - Navigating to Library -> Condition
+[INFO] 2026-04-16T07:40:26.353Z - Successfully navigated to Condition page
+[STEP] 2026-04-16T07:40:26.353Z - Searching for condition: L99035
+[INFO] 2026-04-16T07:40:27.401Z - Search completed for: L99035
+[STEP] 2026-04-16T07:40:27.401Z - Verifying condition "L99035" in list
+[INFO] 2026-04-16T07:40:27.407Z - Condition "L99035" is visible in list
+[INFO] 2026-04-16T07:40:27.407Z - Admin: ICD Code 'L99035' verified in list

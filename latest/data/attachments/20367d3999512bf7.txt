@@ -1,0 +1,51 @@
+[STEP] 2026-04-16T07:42:10.416Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-16T07:42:10.830Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:42:10.830Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:42:12.227Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:42:12.356Z - Login attempt completed
+[STEP] 2026-04-16T07:42:15.289Z - Test: E2E Edit Unity User
+[STEP] 2026-04-16T07:42:15.289Z - Navigating to Settings page
+[INFO] 2026-04-16T07:42:16.379Z - Navigated to Settings page
+[STEP] 2026-04-16T07:42:16.379Z - Clicking Unity Users tab
+[INFO] 2026-04-16T07:42:17.535Z - Unity Users tab clicked
+[STEP] 2026-04-16T07:42:17.535Z - Adding Unity User: Autofirstldimaf Autolastldimaf
+[STEP] 2026-04-16T07:42:17.535Z - Clicking Add Unity User button
+[INFO] 2026-04-16T07:42:18.743Z - Add Unity User form opened
+[STEP] 2026-04-16T07:42:18.743Z - Filling Unity User form for: Autofirstldimaf Autolastldimaf
+[STEP] 2026-04-16T07:42:18.743Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-16T07:42:19.705Z - Selected: Care Coordinators
+[STEP] 2026-04-16T07:42:19.790Z - Selecting dropdown option: Male
+[INFO] 2026-04-16T07:42:20.732Z - Selected: Male
+[INFO] 2026-04-16T07:42:20.896Z - Form filled for: Autofirstldimaf Autolastldimaf
+[STEP] 2026-04-16T07:42:20.898Z - Clicking Save button
+[INFO] 2026-04-16T07:42:23.015Z - Save button clicked
+[INFO] 2026-04-16T07:42:23.020Z - Unity User 'Autofirstldimaf Autolastldimaf' added — form closed
+[STEP] 2026-04-16T07:42:23.020Z - Verifying user 'Autofirstldimaf Autolastldimaf' is visible in the list
+[STEP] 2026-04-16T07:42:23.020Z - Searching for user: Autofirstldimaf Autolastldimaf
+[INFO] 2026-04-16T07:42:24.053Z - Search completed for: Autofirstldimaf Autolastldimaf
+[INFO] 2026-04-16T07:42:24.425Z - User 'Autofirstldimaf Autolastldimaf' is visible in the list
+[INFO] 2026-04-16T07:42:24.425Z - User created for edit test
+[STEP] 2026-04-16T07:42:24.426Z - Editing Unity User: Autofirstldimaf Autolastldimaf
+[STEP] 2026-04-16T07:42:24.426Z - Clicking Edit for: Autofirstldimaf Autolastldimaf
+[STEP] 2026-04-16T07:42:24.426Z - Opening action menu for: Autofirstldimaf Autolastldimaf
+[STEP] 2026-04-16T07:42:24.426Z - Searching for user: Autofirstldimaf Autolastldimaf
+[INFO] 2026-04-16T07:42:25.440Z - Search completed for: Autofirstldimaf Autolastldimaf
+[INFO] 2026-04-16T07:42:26.464Z - Action menu opened
+[INFO] 2026-04-16T07:42:27.569Z - Edit form opened from menu
+[STEP] 2026-04-16T07:42:27.569Z - Filling edit form field 'lastName' with: Editedldimaf
+[INFO] 2026-04-16T07:42:27.638Z - Edit form field 'lastName' filled
+[STEP] 2026-04-16T07:42:27.638Z - Clicking Save button
+[INFO] 2026-04-16T07:42:29.725Z - Save button clicked
+[INFO] 2026-04-16T07:42:29.725Z - Unity User 'Autofirstldimaf Autolastldimaf' edited successfully
+[STEP] 2026-04-16T07:42:29.725Z - Verifying user 'Autofirstldimaf Editedldimaf' is visible in the list
+[STEP] 2026-04-16T07:42:29.725Z - Searching for user: Autofirstldimaf Editedldimaf
+[INFO] 2026-04-16T07:42:30.745Z - Search completed for: Autofirstldimaf Editedldimaf
+[INFO] 2026-04-16T07:42:31.101Z - User 'Autofirstldimaf Editedldimaf' is visible in the list
+[INFO] 2026-04-16T07:42:31.101Z - Edited user visible in list
+[STEP] 2026-04-16T07:42:31.101Z - Verifying user 'Autofirstldimaf Autolastldimaf' is NOT in the list
+[STEP] 2026-04-16T07:42:31.101Z - Clearing search box
+[INFO] 2026-04-16T07:42:31.613Z - Search cleared
+[STEP] 2026-04-16T07:42:31.613Z - Searching for user: Autofirstldimaf Autolastldimaf
+[INFO] 2026-04-16T07:42:32.630Z - Search completed for: Autofirstldimaf Autolastldimaf
+[INFO] 2026-04-16T07:42:32.638Z - User 'Autofirstldimaf Autolastldimaf' is not in the list
+[INFO] 2026-04-16T07:42:32.638Z - E2E Edit Unity User verified

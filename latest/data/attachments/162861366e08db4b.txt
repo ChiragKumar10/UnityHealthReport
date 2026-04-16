@@ -1,0 +1,22 @@
+[STEP] 2026-04-16T08:13:25.108Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-16T08:13:25.108Z - Attempting to login to provider portal
+[STEP] 2026-04-16T08:13:25.108Z - Navigating to provider portal login page
+[INFO] 2026-04-16T08:13:26.886Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T08:13:27.018Z - Login attempt completed
+[STEP] 2026-04-16T08:13:29.538Z - Navigating to Enrollment section
+[INFO] 2026-04-16T08:13:31.575Z - Navigated to Enrollment section
+[INFO] 2026-04-16T08:13:31.576Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-16T08:13:31.576Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-04-16T08:13:31.576Z - Selected random status: New
+[INFO] 2026-04-16T08:13:31.576Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-16T08:13:31.576Z - Applying combined filters - Status: New, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T08:13:31.576Z - Applying status filter: New
+[INFO] 2026-04-16T08:13:37.747Z - Status filter 'New' applied successfully
+[STEP] 2026-04-16T08:13:37.748Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-16T08:13:43.925Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-04-16T08:13:43.925Z - Retrieving filtered enrollment results
+[INFO] 2026-04-16T08:13:46.632Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: PredovicAuer, Arturo - RPM - new
+Record 2 Verified: Runolfsdottir, Aletha - RPM - new
+Record 3 Verified: Gibson, Monique - RPM - new
+[INFO] 2026-04-16T08:13:46.637Z - Combined Status + Program filter verification completed - 3 records verified

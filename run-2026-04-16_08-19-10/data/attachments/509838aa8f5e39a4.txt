@@ -1,0 +1,200 @@
+[STEP] 2026-04-16T07:51:16.201Z - beforeAll: Login and create shared care plan
+[STEP] 2026-04-16T07:51:16.592Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:51:16.592Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:51:17.815Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:51:17.982Z - Login attempt completed
+[STEP] 2026-04-16T07:51:21.165Z - Opening CCM Library
+[INFO] 2026-04-16T07:51:22.299Z - Successfully opened CCM Library
+[STEP] 2026-04-16T07:51:22.299Z - Opening Care Plan section
+[INFO] 2026-04-16T07:51:23.346Z - Successfully opened Care Plan section
+[STEP] 2026-04-16T07:51:23.347Z - Creating minimal care plan: Shared Plan 1776325876201
+[STEP] 2026-04-16T07:51:23.347Z - Clicking Create Care Plan button
+[INFO] 2026-04-16T07:51:25.478Z - Create Care Plan form opened
+[STEP] 2026-04-16T07:51:25.478Z - Selecting diagnosis code: A001
+[INFO] 2026-04-16T07:51:29.916Z - Diagnosis code 'A001' selected
+[STEP] 2026-04-16T07:51:29.917Z - Filling care plan name: Shared Plan 1776325876201
+[INFO] 2026-04-16T07:51:29.944Z - Care plan name filled: Shared Plan 1776325876201
+[STEP] 2026-04-16T07:51:29.944Z - Selecting section: Overview
+[INFO] 2026-04-16T07:51:30.307Z - Section 'Overview' selected
+[STEP] 2026-04-16T07:51:30.307Z - Selecting section: Long Term Goals
+[INFO] 2026-04-16T07:51:30.676Z - Section 'Long Term Goals' selected
+[STEP] 2026-04-16T07:51:30.676Z - Clicking Next button
+[INFO] 2026-04-16T07:51:32.749Z - Next button clicked
+[STEP] 2026-04-16T07:51:32.749Z - Filling Overview section
+[INFO] 2026-04-16T07:51:32.771Z - Care Plan header filled
+[INFO] 2026-04-16T07:51:32.795Z - Care Plan footer filled
+[STEP] 2026-04-16T07:51:32.795Z - Clicking Next button
+[INFO] 2026-04-16T07:51:34.898Z - Next button clicked
+[STEP] 2026-04-16T07:51:34.898Z - Filling goal section - Title: Shared Goal, Type: Free Text
+[INFO] 2026-04-16T07:51:34.917Z - Section note filled
+[INFO] 2026-04-16T07:51:34.948Z - Goal title filled: Shared Goal
+[INFO] 2026-04-16T07:51:36.603Z - Goal type selected: Free Text
+[STEP] 2026-04-16T07:51:36.604Z - Clicking Finish button
+[INFO] 2026-04-16T07:51:38.715Z - Finish button clicked - Care plan saved
+[INFO] 2026-04-16T07:51:38.715Z - Minimal care plan 'Shared Plan 1776325876201' created
+[STEP] 2026-04-16T07:51:38.715Z - Verifying care plan 'Shared Plan 1776325876201' is visible in the list
+[STEP] 2026-04-16T07:51:38.715Z - Searching for care plan: Shared Plan 1776325876201
+[INFO] 2026-04-16T07:51:39.263Z - Search completed for care plan: Shared Plan 1776325876201
+[INFO] 2026-04-16T07:51:40.137Z - Care plan 'Shared Plan 1776325876201' is visible in the list
+[INFO] 2026-04-16T07:51:40.137Z - beforeAll: Shared care plan 'Shared Plan 1776325876201' created
+[STEP] 2026-04-16T07:51:40.315Z - Login to Provider Portal
+[STEP] 2026-04-16T07:51:40.718Z - Attempting to login to provider portal
+[STEP] 2026-04-16T07:51:40.718Z - Navigating to provider portal login page
+[INFO] 2026-04-16T07:51:41.940Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T07:51:42.095Z - Login attempt completed
+[STEP] 2026-04-16T07:51:45.309Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-04-16T07:51:45.309Z - Opening CCM Library
+[INFO] 2026-04-16T07:51:46.448Z - Successfully opened CCM Library
+[STEP] 2026-04-16T07:51:46.449Z - Opening Care Plan section
+[INFO] 2026-04-16T07:51:47.494Z - Successfully opened Care Plan section
+[STEP] 2026-04-16T07:51:47.495Z - Test: Complete E2E care plan creation
+[STEP] 2026-04-16T07:51:47.495Z - Creating care plan: E2E Care Plan 1776325907495 with 13 sections
+[STEP] 2026-04-16T07:51:47.495Z - Clicking Create Care Plan button
+[INFO] 2026-04-16T07:51:49.617Z - Create Care Plan form opened
+[STEP] 2026-04-16T07:51:49.617Z - Selecting diagnosis code: A001
+[INFO] 2026-04-16T07:51:54.064Z - Diagnosis code 'A001' selected
+[STEP] 2026-04-16T07:51:54.065Z - Filling care plan name: E2E Care Plan 1776325907495
+[INFO] 2026-04-16T07:51:54.087Z - Care plan name filled: E2E Care Plan 1776325907495
+[STEP] 2026-04-16T07:51:54.088Z - Selecting section: Overview
+[INFO] 2026-04-16T07:51:54.455Z - Section 'Overview' selected
+[STEP] 2026-04-16T07:51:54.455Z - Selecting section: Recent Visits/ Interventions
+[INFO] 2026-04-16T07:51:54.822Z - Section 'Recent Visits/ Interventions' selected
+[STEP] 2026-04-16T07:51:54.822Z - Selecting section: Treatment Recommendations
+[INFO] 2026-04-16T07:51:55.187Z - Section 'Treatment Recommendations' selected
+[STEP] 2026-04-16T07:51:55.187Z - Selecting section: Psychosocial Support
+[INFO] 2026-04-16T07:51:55.557Z - Section 'Psychosocial Support' selected
+[STEP] 2026-04-16T07:51:55.557Z - Selecting section: Short Term Goals
+[INFO] 2026-04-16T07:51:55.922Z - Section 'Short Term Goals' selected
+[STEP] 2026-04-16T07:51:55.922Z - Selecting section: Long Term Goals
+[INFO] 2026-04-16T07:51:56.289Z - Section 'Long Term Goals' selected
+[STEP] 2026-04-16T07:51:56.290Z - Selecting section: Barrier
+[INFO] 2026-04-16T07:51:56.659Z - Section 'Barrier' selected
+[STEP] 2026-04-16T07:51:56.659Z - Selecting section: Medication
+[INFO] 2026-04-16T07:51:57.025Z - Section 'Medication' selected
+[STEP] 2026-04-16T07:51:57.025Z - Selecting section: Allergies
+[INFO] 2026-04-16T07:51:57.395Z - Section 'Allergies' selected
+[STEP] 2026-04-16T07:51:57.395Z - Selecting section: Coordination of Care
+[INFO] 2026-04-16T07:51:57.758Z - Section 'Coordination of Care' selected
+[STEP] 2026-04-16T07:51:57.758Z - Selecting section: Patient Education
+[INFO] 2026-04-16T07:51:58.127Z - Section 'Patient Education' selected
+[STEP] 2026-04-16T07:51:58.127Z - Selecting section: Follow - Up
+[INFO] 2026-04-16T07:51:58.489Z - Section 'Follow - Up' selected
+[STEP] 2026-04-16T07:51:58.489Z - Selecting section: Caregiver Questions/ Concerns
+[INFO] 2026-04-16T07:51:58.855Z - Section 'Caregiver Questions/ Concerns' selected
+[STEP] 2026-04-16T07:51:58.855Z - Clicking Next button
+[INFO] 2026-04-16T07:52:00.913Z - Next button clicked
+[STEP] 2026-04-16T07:52:00.913Z - Filling Overview section
+[INFO] 2026-04-16T07:52:00.930Z - Care Plan header filled
+[INFO] 2026-04-16T07:52:00.950Z - Care Plan footer filled
+[STEP] 2026-04-16T07:52:00.950Z - Clicking Next button
+[INFO] 2026-04-16T07:52:03.028Z - Next button clicked
+[STEP] 2026-04-16T07:52:03.028Z - Filling section 2/13: Recent Visits/ Interventions (Type: Bulleted List)
+[STEP] 2026-04-16T07:52:03.028Z - Filling goal section - Title: Recent Visit Goal, Type: Bulleted List
+[INFO] 2026-04-16T07:52:03.045Z - Section note filled
+[INFO] 2026-04-16T07:52:03.065Z - Goal title filled: Recent Visit Goal
+[INFO] 2026-04-16T07:52:04.714Z - Goal type selected: Bulleted List
+[STEP] 2026-04-16T07:52:04.714Z - Clicking Next button
+[INFO] 2026-04-16T07:52:06.775Z - Next button clicked
+[STEP] 2026-04-16T07:52:06.775Z - Filling section 3/13: Treatment Recommendations (Type: Dropdown)
+[STEP] 2026-04-16T07:52:06.776Z - Filling goal section - Title: Treatment Goal, Type: Dropdown
+[INFO] 2026-04-16T07:52:06.799Z - Section note filled
+[INFO] 2026-04-16T07:52:06.822Z - Goal title filled: Treatment Goal
+[INFO] 2026-04-16T07:52:08.465Z - Goal type selected: Dropdown
+[STEP] 2026-04-16T07:52:08.465Z - Filling Dropdown option
+[INFO] 2026-04-16T07:52:09.030Z - Dropdown option added
+[STEP] 2026-04-16T07:52:09.031Z - Clicking Next button
+[INFO] 2026-04-16T07:52:11.117Z - Next button clicked
+[STEP] 2026-04-16T07:52:11.117Z - Filling section 4/13: Psychosocial Support (Type: Multiple Choice Select)
+[STEP] 2026-04-16T07:52:11.117Z - Filling goal section - Title: Psychosocial Goal, Type: Multiple Choice Select
+[INFO] 2026-04-16T07:52:11.134Z - Section note filled
+[INFO] 2026-04-16T07:52:11.153Z - Goal title filled: Psychosocial Goal
+[INFO] 2026-04-16T07:52:12.781Z - Goal type selected: Multiple Choice Select
+[STEP] 2026-04-16T07:52:12.781Z - Filling Multiple Choice Select with 3 options
+[INFO] 2026-04-16T07:52:12.801Z - Multiple Choice Select option 1 filled
+[INFO] 2026-04-16T07:52:13.380Z - Multiple Choice Select option 2 filled
+[INFO] 2026-04-16T07:52:13.953Z - Multiple Choice Select option 3 filled
+[INFO] 2026-04-16T07:52:13.953Z - Multiple Choice Select - 3 options added
+[STEP] 2026-04-16T07:52:13.953Z - Clicking Next button
+[INFO] 2026-04-16T07:52:16.026Z - Next button clicked
+[STEP] 2026-04-16T07:52:16.026Z - Filling section 5/13: Short Term Goals (Type: Single Select)
+[STEP] 2026-04-16T07:52:16.026Z - Filling goal section - Title: Short Term Goal, Type: Single Select
+[INFO] 2026-04-16T07:52:16.042Z - Section note filled
+[INFO] 2026-04-16T07:52:16.059Z - Goal title filled: Short Term Goal
+[INFO] 2026-04-16T07:52:17.680Z - Goal type selected: Single Select
+[STEP] 2026-04-16T07:52:17.680Z - Filling Single Select with 3 options
+[INFO] 2026-04-16T07:52:17.699Z - Single Select option 1 filled
+[INFO] 2026-04-16T07:52:18.267Z - Single Select option 2 filled
+[INFO] 2026-04-16T07:52:18.832Z - Single Select option 3 filled
+[INFO] 2026-04-16T07:52:18.832Z - Single Select - 3 options added
+[STEP] 2026-04-16T07:52:18.832Z - Clicking Next button
+[INFO] 2026-04-16T07:52:20.890Z - Next button clicked
+[STEP] 2026-04-16T07:52:20.890Z - Filling section 6/13: Long Term Goals (Type: Free Text)
+[STEP] 2026-04-16T07:52:20.890Z - Filling goal section - Title: Long Term Goal, Type: Free Text
+[INFO] 2026-04-16T07:52:20.908Z - Section note filled
+[INFO] 2026-04-16T07:52:20.926Z - Goal title filled: Long Term Goal
+[INFO] 2026-04-16T07:52:22.564Z - Goal type selected: Free Text
+[STEP] 2026-04-16T07:52:22.564Z - Clicking Next button
+[INFO] 2026-04-16T07:52:24.622Z - Next button clicked
+[STEP] 2026-04-16T07:52:24.623Z - Filling section 7/13: Barrier (Type: File Upload)
+[STEP] 2026-04-16T07:52:24.623Z - Filling goal section - Title: Barrier Goal, Type: File Upload
+[INFO] 2026-04-16T07:52:24.639Z - Section note filled
+[INFO] 2026-04-16T07:52:24.660Z - Goal title filled: Barrier Goal
+[INFO] 2026-04-16T07:52:26.282Z - Goal type selected: File Upload
+[STEP] 2026-04-16T07:52:26.282Z - Clicking Next button
+[INFO] 2026-04-16T07:52:28.340Z - Next button clicked
+[STEP] 2026-04-16T07:52:28.340Z - Filling section 8/13: Medication (Type: Rating)
+[STEP] 2026-04-16T07:52:28.340Z - Filling goal section - Title: Medication Goal, Type: Rating
+[INFO] 2026-04-16T07:52:28.363Z - Section note filled
+[INFO] 2026-04-16T07:52:28.382Z - Goal title filled: Medication Goal
+[INFO] 2026-04-16T07:52:30.012Z - Goal type selected: Rating
+[STEP] 2026-04-16T07:52:30.012Z - Clicking Next button
+[INFO] 2026-04-16T07:52:32.074Z - Next button clicked
+[STEP] 2026-04-16T07:52:32.074Z - Filling section 9/13: Allergies (Type: Signature)
+[STEP] 2026-04-16T07:52:32.075Z - Filling goal section - Title: Allergy Goal, Type: Signature
+[INFO] 2026-04-16T07:52:32.094Z - Section note filled
+[INFO] 2026-04-16T07:52:32.111Z - Goal title filled: Allergy Goal
+[INFO] 2026-04-16T07:52:33.730Z - Goal type selected: Signature
+[STEP] 2026-04-16T07:52:33.730Z - Clicking Next button
+[INFO] 2026-04-16T07:52:35.826Z - Next button clicked
+[STEP] 2026-04-16T07:52:35.826Z - Filling section 10/13: Coordination of Care (Type: Bulleted List)
+[STEP] 2026-04-16T07:52:35.826Z - Filling goal section - Title: Coordination Goal, Type: Bulleted List
+[INFO] 2026-04-16T07:52:35.843Z - Section note filled
+[INFO] 2026-04-16T07:52:35.862Z - Goal title filled: Coordination Goal
+[INFO] 2026-04-16T07:52:37.503Z - Goal type selected: Bulleted List
+[STEP] 2026-04-16T07:52:37.504Z - Clicking Next button
+[INFO] 2026-04-16T07:52:39.559Z - Next button clicked
+[STEP] 2026-04-16T07:52:39.559Z - Filling section 11/13: Patient Education (Type: Free Text)
+[STEP] 2026-04-16T07:52:39.559Z - Filling goal section - Title: Education Goal, Type: Free Text
+[INFO] 2026-04-16T07:52:39.585Z - Section note filled
+[INFO] 2026-04-16T07:52:39.609Z - Goal title filled: Education Goal
+[INFO] 2026-04-16T07:52:41.220Z - Goal type selected: Free Text
+[STEP] 2026-04-16T07:52:41.220Z - Clicking Next button
+[INFO] 2026-04-16T07:52:43.273Z - Next button clicked
+[STEP] 2026-04-16T07:52:43.273Z - Filling section 12/13: Follow - Up (Type: Single Select)
+[STEP] 2026-04-16T07:52:43.273Z - Filling goal section - Title: Follow Up Goal, Type: Single Select
+[INFO] 2026-04-16T07:52:43.292Z - Section note filled
+[INFO] 2026-04-16T07:52:43.309Z - Goal title filled: Follow Up Goal
+[INFO] 2026-04-16T07:52:44.929Z - Goal type selected: Single Select
+[STEP] 2026-04-16T07:52:44.929Z - Filling Single Select with 3 options
+[INFO] 2026-04-16T07:52:44.952Z - Single Select option 1 filled
+[INFO] 2026-04-16T07:52:45.549Z - Single Select option 2 filled
+[INFO] 2026-04-16T07:52:46.133Z - Single Select option 3 filled
+[INFO] 2026-04-16T07:52:46.133Z - Single Select - 3 options added
+[STEP] 2026-04-16T07:52:46.133Z - Clicking Next button
+[INFO] 2026-04-16T07:52:48.211Z - Next button clicked
+[STEP] 2026-04-16T07:52:48.211Z - Filling section 13/13: Caregiver Questions/ Concerns (Type: Dropdown)
+[STEP] 2026-04-16T07:52:48.211Z - Filling goal section - Title: Caregiver Goal, Type: Dropdown
+[INFO] 2026-04-16T07:52:48.229Z - Section note filled
+[INFO] 2026-04-16T07:52:48.296Z - Goal title filled: Caregiver Goal
+[INFO] 2026-04-16T07:52:49.928Z - Goal type selected: Dropdown
+[STEP] 2026-04-16T07:52:49.928Z - Filling Dropdown option
+[INFO] 2026-04-16T07:52:50.480Z - Dropdown option added
+[STEP] 2026-04-16T07:52:50.480Z - Clicking Finish button
+[INFO] 2026-04-16T07:52:52.600Z - Finish button clicked - Care plan saved
+[INFO] 2026-04-16T07:52:52.600Z - Care plan 'E2E Care Plan 1776325907495' created successfully
+[INFO] 2026-04-16T07:52:52.600Z - Care plan 'E2E Care Plan 1776325907495' created with all sections
+[STEP] 2026-04-16T07:52:52.600Z - Verifying care plan 'E2E Care Plan 1776325907495' is visible in the list
+[STEP] 2026-04-16T07:52:52.600Z - Searching for care plan: E2E Care Plan 1776325907495
+[INFO] 2026-04-16T07:52:53.143Z - Search completed for care plan: E2E Care Plan 1776325907495
+[INFO] 2026-04-16T07:52:54.013Z - Care plan 'E2E Care Plan 1776325907495' is visible in the list
+[INFO] 2026-04-16T07:52:54.013Z - E2E Care Plan Test completed successfully

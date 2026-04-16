@@ -1,0 +1,83 @@
+[STEP] 2026-04-16T08:10:10.078Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-04-16T08:10:10.078Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-16T08:10:10.078Z - Attempting to login to provider portal
+[STEP] 2026-04-16T08:10:10.078Z - Navigating to provider portal login page
+[INFO] 2026-04-16T08:10:11.580Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-16T08:10:11.763Z - Login attempt completed
+[STEP] 2026-04-16T08:10:14.979Z - Navigating to Enrollment section
+[INFO] 2026-04-16T08:10:17.026Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-04-16T08:10:17.027Z - Adding new enrollment
+[INFO] 2026-04-16T08:10:23.478Z - Found 20 patients matching 'm'
+[INFO] 2026-04-16T08:10:24.946Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Gibson, Monique  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T08:10:30.696Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T08:10:30.712Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T08:10:35.334Z - Found 24 patients matching 'r'
+New patient selected: Mraz, Kaci 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Mraz, Kaci  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T08:10:39.351Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-16T08:10:39.359Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-16T08:10:44.030Z - Found 8 patients matching 'f'
+New patient selected: Runolfsdottir, Aletha 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: Runolfsdottir, Aletha  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T08:10:48.038Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T08:10:48.047Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Runolfsdottir, Aletha
+  Program: Remote Patient Monitoring (RPM)
+  Provider: John  Doe
+  Care Manager: Autofirstaxarcy Autolastaxarcy
+[INFO] 2026-04-16T08:10:48.047Z - Enrollment form submitted successfully
+Selected patient: Runolfsdottir, Aletha
+[STEP] 2026-04-16T08:10:48.047Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-16T08:10:48.057Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-04-16T08:10:51.058Z - Retrieving enrollment list data
+[INFO] 2026-04-16T08:10:51.591Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Runolfsdottir, Aletha
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-04-16T08:10:51.593Z - Verifying patient in Worklist NEW section
+✓ Patient "Runolfsdottir, Aletha" found in Worklist > RPM > NEW section
+[INFO] 2026-04-16T08:11:12.380Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-04-16T08:11:12.381Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist
