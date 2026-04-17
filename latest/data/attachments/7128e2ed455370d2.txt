@@ -1,0 +1,23 @@
+[STEP] 2026-04-17T14:07:49.947Z - Login to Provider Portal
+[STEP] 2026-04-17T14:07:50.340Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:07:50.340Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:07:51.764Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:07:51.891Z - Login attempt completed
+[STEP] 2026-04-17T14:07:55.053Z - Test: Recurring task without reminder
+[STEP] 2026-04-17T14:07:55.053Z - Navigating to Task page
+[INFO] 2026-04-17T14:07:56.125Z - Navigated to Task page
+[STEP] 2026-04-17T14:07:56.125Z - Creating recurring task: RecurNoRemind 1776434876125 (Weekly)
+[STEP] 2026-04-17T14:07:56.125Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:07:56.748Z - Add Task form opened
+[STEP] 2026-04-17T14:08:13.701Z - Selecting "Weekly" from combobox index 6
+[INFO] 2026-04-17T14:08:15.093Z - Selected "Weekly" from combobox 6
+[INFO] 2026-04-17T14:08:18.165Z - Recurring task "RecurNoRemind 1776434876125" (Weekly) created successfully
+[STEP] 2026-04-17T14:08:18.165Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:08:19.735Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:08:19.735Z - Setting status filter to: All
+[INFO] 2026-04-17T14:08:22.144Z - Status filter set to: All
+[STEP] 2026-04-17T14:08:22.144Z - Searching for: RecurNoRemind 1776434876125
+[INFO] 2026-04-17T14:08:24.223Z - Search completed for: RecurNoRemind 1776434876125
+[STEP] 2026-04-17T14:08:24.223Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:08:25.227Z - TASK values: RecurNoRemind 1776434876125
+[INFO] 2026-04-17T14:08:25.228Z - Recurring task without reminder "RecurNoRemind 1776434876125" verified

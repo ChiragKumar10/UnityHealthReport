@@ -1,0 +1,58 @@
+[STEP] 2026-04-17T13:52:51.630Z - beforeAll: Adding abnormal Pain Scale vital to trigger RTM alert
+[STEP] 2026-04-17T13:52:52.123Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:52:52.123Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:52:53.512Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:52:53.680Z - Login attempt completed
+[STEP] 2026-04-17T13:52:56.593Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-17T13:52:59.062Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-17T13:52:59.062Z - Navigating to Vitals tab
+[INFO] 2026-04-17T13:52:59.275Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-17T13:52:59.276Z - Adding vital: Pain Scale with value 11
+[STEP] 2026-04-17T13:52:59.277Z - Clicking Add Vital button
+[INFO] 2026-04-17T13:52:59.514Z - Add Vital form opened
+[STEP] 2026-04-17T13:52:59.514Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-17T13:53:00.360Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-17T13:53:00.360Z - Entering vital value: 11
+[INFO] 2026-04-17T13:53:05.389Z - Successfully entered vital value: 11
+[STEP] 2026-04-17T13:53:05.389Z - Saving vital
+[INFO] 2026-04-17T13:53:05.490Z - Successfully saved vital
+[INFO] 2026-04-17T13:53:05.491Z - Successfully added vital: Pain Scale with value 11
+[INFO] 2026-04-17T13:53:05.491Z - beforeAll: Abnormal Pain Scale (11) added — waiting for alert processing
+[STEP] 2026-04-17T13:53:35.495Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-17T13:53:35.495Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:53:36.020Z - No drawer backdrop in DOM
+[INFO] 2026-04-17T13:53:36.025Z - Not on Care Team Work List — clicking sidebar Work List
+[INFO] 2026-04-17T13:53:37.615Z - Successfully on Care Team Work List
+[STEP] 2026-04-17T13:53:37.615Z - Selecting program tab: RTM
+[INFO] 2026-04-17T13:53:38.681Z - Successfully selected RTM tab
+[STEP] 2026-04-17T13:53:38.681Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-17T13:53:39.790Z - Setting date filter to today
+[INFO] 2026-04-17T13:53:39.798Z - Changing date from "04-16-2026" to "04-17-2026"
+[INFO] 2026-04-17T13:53:40.892Z - Date filter set to: 04-17-2026
+[INFO] 2026-04-17T13:53:40.892Z - Switched to Alerts monitoring view
+[STEP] 2026-04-17T13:53:40.893Z - Getting visible row count
+[INFO] 2026-04-17T13:53:41.898Z - Visible row count: 1
+[INFO] 2026-04-17T13:53:41.898Z - beforeAll: Alert verification — row count: 1
+[STEP] 2026-04-17T13:53:42.051Z - Login to Provider Portal
+[STEP] 2026-04-17T13:53:42.610Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:53:42.611Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:53:43.984Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:53:44.129Z - Login attempt completed
+[STEP] 2026-04-17T13:53:47.374Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-17T13:53:47.374Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-17T13:53:47.374Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:53:47.881Z - No drawer backdrop in DOM
+[INFO] 2026-04-17T13:53:48.389Z - Successfully on Care Team Work List
+[STEP] 2026-04-17T13:53:48.389Z - Selecting program tab: RTM
+[INFO] 2026-04-17T13:53:49.473Z - Successfully selected RTM tab
+[STEP] 2026-04-17T13:53:49.473Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-17T13:53:50.582Z - Setting date filter to today
+[INFO] 2026-04-17T13:53:50.589Z - Changing date from "04-16-2026" to "04-17-2026"
+[INFO] 2026-04-17T13:53:51.680Z - Date filter set to: 04-17-2026
+[INFO] 2026-04-17T13:53:51.680Z - Switched to Alerts monitoring view
+[STEP] 2026-04-17T13:53:51.681Z - Test: Unresolved alerts red color
+[STEP] 2026-04-17T13:53:51.681Z - Getting first available patient from list
+[INFO] 2026-04-17T13:53:51.695Z - First available patient: "Automation, Test"
+[STEP] 2026-04-17T13:53:51.695Z - Checking if unresolved alerts are red
+[INFO] 2026-04-17T13:53:51.700Z - Unresolved alert: found=true, isRed=true, color=rgba(190, 0, 0, 0.8), rgb=(190,0,0)
+[INFO] 2026-04-17T13:53:51.700Z - Unresolved alerts display in red color

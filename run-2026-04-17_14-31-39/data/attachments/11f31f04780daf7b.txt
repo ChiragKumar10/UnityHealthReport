@@ -1,0 +1,49 @@
+[STEP] 2026-04-17T14:19:00.552Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:19:00.552Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:19:01.958Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:19:02.098Z - Login attempt completed
+[STEP] 2026-04-17T14:19:04.905Z - Test: Status update ToDo → Done reflected in provider and patient charting
+[STEP] 2026-04-17T14:19:04.905Z - Navigating to Task page
+[INFO] 2026-04-17T14:19:05.983Z - Navigated to Task page
+[STEP] 2026-04-17T14:19:05.983Z - Creating task: StatusUpdate 1776435545983
+[STEP] 2026-04-17T14:19:05.983Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:19:06.628Z - Add Task form opened
+[INFO] 2026-04-17T14:19:25.269Z - Task "StatusUpdate 1776435545983" created successfully
+[INFO] 2026-04-17T14:19:25.269Z - Task "StatusUpdate 1776435545983" created
+[STEP] 2026-04-17T14:19:25.269Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:19:26.835Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:19:26.835Z - Setting status filter to: All
+[INFO] 2026-04-17T14:19:29.260Z - Status filter set to: All
+[STEP] 2026-04-17T14:19:29.260Z - Searching for: StatusUpdate 1776435545983
+[INFO] 2026-04-17T14:19:31.324Z - Search completed for: StatusUpdate 1776435545983
+[STEP] 2026-04-17T14:19:31.324Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-17T14:19:32.329Z - TASK STATUS values: ToDo
+[INFO] 2026-04-17T14:19:32.330Z - ✓ Status before resolve: ToDo
+[STEP] 2026-04-17T14:19:32.330Z - Resolving task to change status to Done
+[STEP] 2026-04-17T14:19:32.330Z - Resolving task
+[STEP] 2026-04-17T14:19:32.330Z - Opening Resolve Task dialog
+[STEP] 2026-04-17T14:19:32.330Z - Clicking action menu on row 0
+[INFO] 2026-04-17T14:19:33.366Z - Action menu opened on row 0
+[STEP] 2026-04-17T14:19:33.367Z - Clicking action menu item: Resolve
+[INFO] 2026-04-17T14:19:34.916Z - Clicked: Resolve
+[INFO] 2026-04-17T14:19:34.919Z - Resolve Task dialog opened
+[STEP] 2026-04-17T14:19:34.919Z - Filling resolve note: Resolved at 2026-04-17T14:19:32.330Z
+[STEP] 2026-04-17T14:19:35.234Z - Clicking Resolve button in dialog
+[INFO] 2026-04-17T14:19:39.271Z - Resolve button clicked. Drawer closed: true
+[STEP] 2026-04-17T14:19:39.271Z - VERIFY 1: Checking Done status in provider task list
+[STEP] 2026-04-17T14:19:39.272Z - Navigating to Task page
+[INFO] 2026-04-17T14:19:40.301Z - Navigated to Task page
+[STEP] 2026-04-17T14:19:40.302Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:19:40.305Z - My Tasks filter already unchecked
+[STEP] 2026-04-17T14:19:40.305Z - Setting status filter to: All
+[INFO] 2026-04-17T14:19:42.664Z - Status filter set to: All
+[STEP] 2026-04-17T14:19:42.665Z - Searching for: StatusUpdate 1776435545983
+[INFO] 2026-04-17T14:19:44.878Z - Search completed for: StatusUpdate 1776435545983
+[STEP] 2026-04-17T14:19:44.878Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-17T14:19:45.883Z - TASK STATUS values: Done
+[INFO] 2026-04-17T14:19:45.884Z - ✓ VERIFY 1 PASSED: Status in provider view = Done
+[STEP] 2026-04-17T14:19:45.884Z - VERIFY 2: Checking Done status in Patient Charting
+[STEP] 2026-04-17T14:19:45.884Z - Opening patient chart from global search for: Automation
+[INFO] 2026-04-17T14:19:48.245Z - Patient chart opened from global search for: Automation
+[INFO] 2026-04-17T14:20:00.390Z - ✓ VERIFY 2 PASSED: Task found in Patient Charting with Done status
+[INFO] 2026-04-17T14:20:00.390Z - AUT_TSK_123 PASSED: Status update ToDo → Done reflected in BOTH places

@@ -1,0 +1,18 @@
+[STEP] 2026-04-17T14:14:41.512Z - Login to Provider Portal
+[STEP] 2026-04-17T14:14:41.889Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:14:41.889Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:14:43.296Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:14:43.423Z - Login attempt completed
+[STEP] 2026-04-17T14:14:46.520Z - Test: Verify overdue status for past-due tasks
+[STEP] 2026-04-17T14:14:46.520Z - Navigating to Task page
+[INFO] 2026-04-17T14:14:47.594Z - Navigated to Task page
+[STEP] 2026-04-17T14:14:47.594Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:14:49.140Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:14:49.140Z - Setting status filter to: OverDue
+[INFO] 2026-04-17T14:14:51.545Z - Status filter set to: OverDue
+[STEP] 2026-04-17T14:14:51.545Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-17T14:14:54.207Z - TASK STATUS values: OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue
+[INFO] 2026-04-17T14:14:54.207Z - OverDue tasks: 50
+[STEP] 2026-04-17T14:14:54.235Z - Fetching column values for: DUE DATE
+[INFO] 2026-04-17T14:14:55.239Z - DUE DATE values: 04/08/2026, 04/16/2026, 04/08/2026, 04/16/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 03/03/2026, 03/03/2026, 03/03/2026, 04/14/2026, 04/14/2026, 04/14/2026, 04/14/2026, 04/14/2026, 04/14/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/07/2026, 04/08/2026
+[INFO] 2026-04-17T14:14:55.264Z - All 50 OverDue tasks have due dates on or before today

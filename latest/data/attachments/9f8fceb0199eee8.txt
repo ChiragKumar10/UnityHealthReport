@@ -1,0 +1,38 @@
+[STEP] 2026-04-17T14:25:58.485Z - Login to Provider Portal
+[STEP] 2026-04-17T14:25:58.905Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:25:58.905Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:26:00.306Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:26:00.428Z - Login attempt completed
+[STEP] 2026-04-17T14:26:03.510Z - Test: Verify My Tasks shows only assigned care manager tasks
+[STEP] 2026-04-17T14:26:03.511Z - Navigating to Task page
+[INFO] 2026-04-17T14:26:04.579Z - Navigated to Task page
+[INFO] 2026-04-17T14:26:04.582Z - Logged-in user: chirag kumar
+[STEP] 2026-04-17T14:26:04.582Z - Creating task: MyCM 1776435964582
+[STEP] 2026-04-17T14:26:04.582Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:26:05.188Z - Add Task form opened
+[INFO] 2026-04-17T14:26:23.770Z - Task "MyCM 1776435964582" created successfully
+[STEP] 2026-04-17T14:26:23.770Z - Creating task: OtherCM 1776435964582
+[STEP] 2026-04-17T14:26:23.770Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:26:24.454Z - Add Task form opened
+[INFO] 2026-04-17T14:26:42.781Z - Task "OtherCM 1776435964582" created successfully
+[STEP] 2026-04-17T14:26:42.781Z - Navigating to Task page
+[INFO] 2026-04-17T14:26:43.893Z - Navigated to Task page
+[STEP] 2026-04-17T14:26:43.893Z - Searching for: 1776435964582
+[INFO] 2026-04-17T14:26:45.951Z - Search completed for: 1776435964582
+[STEP] 2026-04-17T14:26:45.951Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-17T14:26:46.957Z - ASSIGNED TO values: chirag kumar
+[STEP] 2026-04-17T14:26:46.957Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:26:47.961Z - TASK values: MyCM 1776435964582
+[STEP] 2026-04-17T14:26:47.962Z - Clearing search
+[INFO] 2026-04-17T14:26:49.536Z - Search cleared
+[STEP] 2026-04-17T14:26:49.536Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:26:51.073Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:26:51.073Z - Setting status filter to: All
+[INFO] 2026-04-17T14:26:53.483Z - Status filter set to: All
+[STEP] 2026-04-17T14:26:53.483Z - Searching for: 1776435964582
+[INFO] 2026-04-17T14:26:55.556Z - Search completed for: 1776435964582
+[STEP] 2026-04-17T14:26:55.556Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:26:56.559Z - TASK values: MyCM 1776435964582, OtherCM 1776435964582
+[STEP] 2026-04-17T14:26:56.559Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-17T14:26:57.562Z - ASSIGNED TO values: chirag kumar, Annamae Quitzon
+[INFO] 2026-04-17T14:26:57.564Z - Assigned care manager filter verified

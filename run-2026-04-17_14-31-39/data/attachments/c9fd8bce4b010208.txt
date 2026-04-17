@@ -1,0 +1,69 @@
+[STEP] 2026-04-17T13:46:57.131Z - Login to Provider Portal
+[STEP] 2026-04-17T13:46:57.563Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:46:57.563Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:46:58.907Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:46:59.040Z - Login attempt completed
+[STEP] 2026-04-17T13:47:02.063Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-04-17T13:47:02.063Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-17T13:47:02.063Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:47:02.569Z - No drawer backdrop in DOM
+[INFO] 2026-04-17T13:47:03.076Z - Successfully on Care Team Work List
+[STEP] 2026-04-17T13:47:03.076Z - Selecting program tab: RTM
+[INFO] 2026-04-17T13:47:04.148Z - Successfully selected RTM tab
+[STEP] 2026-04-17T13:47:04.149Z - Clicking monitoring category: Data
+[STEP] 2026-04-17T13:47:05.316Z - Clearing status filter
+[INFO] 2026-04-17T13:47:05.323Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-04-17T13:47:05.859Z - MUI Menu options: 3
+[INFO] 2026-04-17T13:47:05.865Z -   Option [0]: "Clear Selection"
+[INFO] 2026-04-17T13:47:06.937Z - Status filter cleared
+[INFO] 2026-04-17T13:47:06.937Z - Switched to Data monitoring view
+[STEP] 2026-04-17T13:47:06.937Z - Test: Complete data review workflow
+[STEP] 2026-04-17T13:47:06.938Z - Getting first available patient from list
+[INFO] 2026-04-17T13:47:06.954Z - First available patient: "Automation, Test"
+[STEP] 2026-04-17T13:47:06.954Z - Getting visible row count
+[INFO] 2026-04-17T13:47:07.958Z - Visible row count: 1
+[STEP] 2026-04-17T13:47:07.960Z - Checking if patient "Automation, Test" is in the list
+[INFO] 2026-04-17T13:47:07.965Z - Patient "Automation, Test" found in list
+[INFO] 2026-04-17T13:47:07.965Z - Patient found in Data list: Automation, Test
+[STEP] 2026-04-17T13:47:07.965Z - Getting status for patient: Automation, Test
+[INFO] 2026-04-17T13:47:07.971Z - Patient "Automation, Test" status: Unreviewed
+[INFO] 2026-04-17T13:47:07.971Z - Initial status: Unreviewed
+[STEP] 2026-04-17T13:47:07.972Z - Reviewing vital from action menu for: Automation, Test
+[STEP] 2026-04-17T13:47:07.972Z - Selecting action "Review" for: Automation, Test
+[STEP] 2026-04-17T13:47:07.972Z - Opening action menu for: Automation, Test
+[INFO] 2026-04-17T13:47:09.047Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-04-17T13:47:10.103Z - Action "Review" selected for: Automation, Test
+[INFO] 2026-04-17T13:47:10.118Z - Filled review note
+[INFO] 2026-04-17T13:47:12.221Z - Dialog closed after Review click: false
+[INFO] 2026-04-17T13:47:12.225Z - Backdrop still visible — checking for time log dialog
+[STEP] 2026-04-17T13:47:12.225Z - Handling messaging / time log dialog
+[INFO] 2026-04-17T13:47:13.241Z - No recognizable dialog found — may have auto-completed
+[INFO] 2026-04-17T13:47:13.241Z - Vital reviewed from action menu for: Automation, Test
+[STEP] 2026-04-17T13:47:13.241Z - Closing all overlays
+[INFO] 2026-04-17T13:47:15.266Z - All overlays closed
+[INFO] 2026-04-17T13:47:15.266Z - Review action completed
+[STEP] 2026-04-17T13:47:15.266Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-17T13:47:15.266Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:47:15.773Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-17T13:47:18.376Z - Drawer closed via Cancel button
+[INFO] 2026-04-17T13:47:18.880Z - Successfully on Care Team Work List
+[STEP] 2026-04-17T13:47:18.880Z - Selecting program tab: RTM
+[INFO] 2026-04-17T13:47:19.906Z - Successfully selected RTM tab
+[STEP] 2026-04-17T13:47:19.906Z - Clicking monitoring category: Data
+[STEP] 2026-04-17T13:47:20.959Z - Clearing status filter
+[INFO] 2026-04-17T13:47:20.965Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-04-17T13:47:21.496Z - MUI Menu options: 3
+[INFO] 2026-04-17T13:47:21.499Z -   Option [0]: "Clear Selection"
+[INFO] 2026-04-17T13:47:22.576Z - Status filter cleared
+[INFO] 2026-04-17T13:47:22.576Z - Switched to Data monitoring view
+[STEP] 2026-04-17T13:47:22.576Z - Checking if patient "Automation, Test" is in the list
+[INFO] 2026-04-17T13:47:22.581Z - Patient "Automation, Test" found in list
+[STEP] 2026-04-17T13:47:22.581Z - Getting status for patient: Automation, Test
+[INFO] 2026-04-17T13:47:22.588Z - Patient "Automation, Test" status: Unreviewed
+[INFO] 2026-04-17T13:47:22.588Z - Status after review: Unreviewed
+[STEP] 2026-04-17T13:47:22.588Z - Clicking Number of Readings for: Automation, Test
+[INFO] 2026-04-17T13:47:23.658Z - Opened readings for: Automation, Test
+[STEP] 2026-04-17T13:47:23.658Z - Getting visible row count
+[INFO] 2026-04-17T13:47:24.662Z - Visible row count: 1
+[INFO] 2026-04-17T13:47:24.662Z - Readings visible: 1
+[INFO] 2026-04-17T13:47:24.663Z - Data review workflow completed — Unreviewed → reviewed reading confirmed

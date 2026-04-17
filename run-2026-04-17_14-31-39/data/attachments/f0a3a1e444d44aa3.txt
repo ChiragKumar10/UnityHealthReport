@@ -1,0 +1,53 @@
+[STEP] 2026-04-17T13:48:42.787Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-04-17T13:48:42.787Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-17T13:48:42.787Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:48:42.787Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:48:44.272Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:48:44.414Z - Login attempt completed
+[STEP] 2026-04-17T13:48:47.523Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:48:49.545Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-04-17T13:48:49.546Z - Adding new enrollment
+[INFO] 2026-04-17T13:48:56.101Z - Found 20 patients matching 'r'
+[INFO] 2026-04-17T13:48:57.568Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Rowe, Ernie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:49:03.337Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T13:49:03.353Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Rowe, Ernie
+  Program: Remote Patient Monitoring (RPM)
+  Provider: sarvesh test
+  Care Manager: Autofirstafdjrg Autolastafdjrg
+[INFO] 2026-04-17T13:49:03.353Z - Enrollment form submitted successfully
+Selected patient: Rowe, Ernie
+[STEP] 2026-04-17T13:49:03.353Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T13:49:03.362Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:49:06.364Z - Retrieving enrollment list data
+[INFO] 2026-04-17T13:49:06.875Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Rowe, Ernie
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-04-17T13:49:06.878Z - Verifying patient in Worklist NEW section
+✓ Patient "Rowe, Ernie" found in Worklist > RPM > NEW section
+[INFO] 2026-04-17T13:49:27.590Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-04-17T13:49:27.590Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

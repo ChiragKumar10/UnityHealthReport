@@ -1,0 +1,24 @@
+[STEP] 2026-04-17T14:08:25.344Z - Login to Provider Portal
+[STEP] 2026-04-17T14:08:25.726Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:08:25.726Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:08:27.145Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:08:27.290Z - Login attempt completed
+[STEP] 2026-04-17T14:08:30.342Z - Test: Recurring task assigned to logged-in user
+[STEP] 2026-04-17T14:08:30.342Z - Navigating to Task page
+[INFO] 2026-04-17T14:08:31.441Z - Navigated to Task page
+[INFO] 2026-04-17T14:08:31.444Z - Logged-in user: chirag kumar
+[STEP] 2026-04-17T14:08:31.444Z - Creating recurring task: RecurMyTask 1776434911444 (Daily)
+[STEP] 2026-04-17T14:08:31.444Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:08:32.076Z - Add Task form opened
+[STEP] 2026-04-17T14:08:49.250Z - Selecting "Daily" from combobox index 6
+[INFO] 2026-04-17T14:08:50.641Z - Selected "Daily" from combobox 6
+[INFO] 2026-04-17T14:08:53.695Z - Recurring task "RecurMyTask 1776434911444" (Daily) created successfully
+[STEP] 2026-04-17T14:08:53.696Z - Navigating to Task page
+[INFO] 2026-04-17T14:08:54.835Z - Navigated to Task page
+[STEP] 2026-04-17T14:08:54.835Z - Searching for: RecurMyTask 1776434911444
+[INFO] 2026-04-17T14:08:56.899Z - Search completed for: RecurMyTask 1776434911444
+[STEP] 2026-04-17T14:08:56.899Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:08:57.903Z - TASK values: RecurMyTask 1776434911444
+[STEP] 2026-04-17T14:08:57.903Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-17T14:08:58.906Z - ASSIGNED TO values: chirag kumar
+[INFO] 2026-04-17T14:08:58.909Z - Recurring task "RecurMyTask 1776434911444" verified under My Tasks for chirag kumar

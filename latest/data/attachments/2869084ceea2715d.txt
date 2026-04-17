@@ -1,0 +1,30 @@
+[STEP] 2026-04-17T13:49:27.718Z - Step 1: Login to Provider Portal
+[STEP] 2026-04-17T13:49:27.718Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:49:27.718Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:49:29.316Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:49:29.457Z - Login attempt completed
+[INFO] 2026-04-17T13:49:32.006Z - Successfully logged in to Provider Portal
+[STEP] 2026-04-17T13:49:32.006Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-04-17T13:49:32.006Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:49:34.028Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Hamill, Carlton
+Program: CCM
+Status: active
+[INFO] 2026-04-17T13:49:37.080Z - Found active enrollment for patient: Hamill, Carlton, Program: CCM
+[STEP] 2026-04-17T13:49:37.080Z - Step 3: Open Close Enrollment form
+[INFO] 2026-04-17T13:49:41.233Z - Close Enrollment form opened successfully
+[STEP] 2026-04-17T13:49:41.233Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-04-17T13:49:45.377Z - Termination details filled successfully
+[STEP] 2026-04-17T13:49:45.377Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-04-17T13:49:47.475Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-04-17T13:49:47.475Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Hamill, Carlton
+Row text: 03Hamill, CarltonCCM04-17-2026activeY41491-Aut...+1Annamae QuitzonAnny vate
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-04-17T13:49:47.484Z - Enrollment status verified - remains ACTIVE as expected (not terminated)

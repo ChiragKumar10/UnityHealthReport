@@ -1,0 +1,25 @@
+[STEP] 2026-04-17T14:03:37.932Z - Login to Provider Portal
+[STEP] 2026-04-17T14:03:38.323Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:03:38.323Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:03:39.674Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:03:39.835Z - Login attempt completed
+[STEP] 2026-04-17T14:03:42.919Z - Test: Create task with Daily recurrence
+[STEP] 2026-04-17T14:03:42.919Z - Navigating to Task page
+[INFO] 2026-04-17T14:03:44.034Z - Navigated to Task page
+[STEP] 2026-04-17T14:03:44.034Z - Creating recurring task: DailyRecur 1776434624034 (Daily)
+[STEP] 2026-04-17T14:03:44.035Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:03:44.659Z - Add Task form opened
+[STEP] 2026-04-17T14:04:01.628Z - Selecting "Daily" from combobox index 6
+[INFO] 2026-04-17T14:04:03.021Z - Selected "Daily" from combobox 6
+[INFO] 2026-04-17T14:04:06.412Z - Recurring task "DailyRecur 1776434624034" (Daily) created successfully
+[STEP] 2026-04-17T14:04:06.412Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:04:07.974Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:04:07.974Z - Setting status filter to: All
+[INFO] 2026-04-17T14:04:10.386Z - Status filter set to: All
+[STEP] 2026-04-17T14:04:10.386Z - Searching for: DailyRecur 1776434624034
+[INFO] 2026-04-17T14:04:12.462Z - Search completed for: DailyRecur 1776434624034
+[STEP] 2026-04-17T14:04:12.463Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:04:13.469Z - TASK values: DailyRecur 1776434624034
+[STEP] 2026-04-17T14:04:13.472Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-17T14:04:14.477Z - TASK STATUS values: ToDo
+[INFO] 2026-04-17T14:04:14.479Z - Daily recurring task "DailyRecur 1776434624034" created and verified

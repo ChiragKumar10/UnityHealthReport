@@ -1,0 +1,47 @@
+[STEP] 2026-04-17T13:42:01.007Z - Login to Provider Portal
+[STEP] 2026-04-17T13:42:01.443Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:42:01.443Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:42:03.015Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:42:03.155Z - Login attempt completed
+[STEP] 2026-04-17T13:42:05.948Z - Test: Verify session termination after password change
+[STEP] 2026-04-17T13:42:05.948Z - Navigating to Settings page
+[INFO] 2026-04-17T13:42:07.027Z - Navigated to Settings page
+[STEP] 2026-04-17T13:42:07.027Z - Changing password
+[STEP] 2026-04-17T13:42:07.027Z - Clicking Update Password button
+[INFO] 2026-04-17T13:42:08.100Z - Change Password form opened
+[STEP] 2026-04-17T13:42:08.100Z - Filling current password
+[INFO] 2026-04-17T13:42:08.114Z - Current password filled
+[STEP] 2026-04-17T13:42:08.114Z - Filling new password
+[INFO] 2026-04-17T13:42:08.130Z - New password filled
+[STEP] 2026-04-17T13:42:08.130Z - Filling confirm password
+[INFO] 2026-04-17T13:42:08.144Z - Confirm password filled
+[STEP] 2026-04-17T13:42:08.144Z - Clicking Save on Change Password form
+[INFO] 2026-04-17T13:42:09.196Z - Password save clicked
+[INFO] 2026-04-17T13:42:09.196Z - Password change submitted
+[STEP] 2026-04-17T13:42:09.196Z - Verifying password change was successful (redirect to login)
+[INFO] 2026-04-17T13:42:12.211Z - Password change confirmed — redirected to login page (https://automation.stage.unityhealthwallet.com/auth/login)
+[INFO] 2026-04-17T13:42:12.211Z - Password changed — redirected to login
+[INFO] 2026-04-17T13:42:12.218Z - Session terminated - login form is visible
+[INFO] 2026-04-17T13:42:15.474Z - Confirmed session was fully terminated
+[STEP] 2026-04-17T13:42:15.474Z - Reverting password back to original
+[STEP] 2026-04-17T13:42:15.474Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:42:15.474Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:42:16.724Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:42:16.833Z - Login attempt completed
+[STEP] 2026-04-17T13:42:19.875Z - Navigating to Settings page
+[INFO] 2026-04-17T13:42:20.952Z - Navigated to Settings page
+[STEP] 2026-04-17T13:42:20.952Z - Changing password
+[STEP] 2026-04-17T13:42:20.952Z - Clicking Update Password button
+[INFO] 2026-04-17T13:42:22.027Z - Change Password form opened
+[STEP] 2026-04-17T13:42:22.027Z - Filling current password
+[INFO] 2026-04-17T13:42:22.042Z - Current password filled
+[STEP] 2026-04-17T13:42:22.042Z - Filling new password
+[INFO] 2026-04-17T13:42:22.055Z - New password filled
+[STEP] 2026-04-17T13:42:22.055Z - Filling confirm password
+[INFO] 2026-04-17T13:42:22.069Z - Confirm password filled
+[STEP] 2026-04-17T13:42:22.069Z - Clicking Save on Change Password form
+[INFO] 2026-04-17T13:42:23.126Z - Password save clicked
+[INFO] 2026-04-17T13:42:23.126Z - Password change submitted
+[STEP] 2026-04-17T13:42:23.126Z - Verifying password change was successful (redirect to login)
+[INFO] 2026-04-17T13:42:26.143Z - Password change confirmed — redirected to login page (https://automation.stage.unityhealthwallet.com/auth/login)
+[INFO] 2026-04-17T13:42:26.143Z - Password reverted - session termination test completed

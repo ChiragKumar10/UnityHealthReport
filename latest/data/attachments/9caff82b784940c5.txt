@@ -1,0 +1,98 @@
+[STEP] 2026-04-17T14:03:47.775Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-04-17T14:03:47.775Z - Logging in to Provider Portal
+[STEP] 2026-04-17T14:03:47.775Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:03:47.775Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:03:49.270Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:03:49.457Z - Login attempt completed
+[STEP] 2026-04-17T14:03:51.949Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:03:53.980Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:03:56.980Z - Applying status filter: Closed
+[INFO] 2026-04-17T14:04:03.124Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-17T14:04:05.431Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:04:07.498Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:04:08.499Z - Adding new enrollment
+[INFO] 2026-04-17T14:04:14.782Z - Found 17 patients matching 'p'
+[INFO] 2026-04-17T14:04:16.235Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Hoppe, Ottis  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T14:04:22.113Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-17T14:04:22.125Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-17T14:04:26.755Z - Found 29 patients matching 'i'
+New patient selected: Carter, Harriet 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Carter, Harriet  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T14:04:30.778Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-17T14:04:30.789Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-17T14:04:35.403Z - Found 25 patients matching 'l'
+New patient selected: Runolfsdottir, Aletha 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: Runolfsdottir, Aletha  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T14:04:39.367Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T14:04:39.377Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Runolfsdottir, Aletha
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Anny vate
+  Care Manager: Autofirstbbiqcn Autolastbbiqcn
+[INFO] 2026-04-17T14:04:39.377Z - Enrollment form submitted successfully
+Enrollment created: Runolfsdottir, Aletha | Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T14:04:39.632Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:04:41.752Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:04:43.753Z - Applying status filter: New
+[INFO] 2026-04-17T14:04:49.929Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-17T14:05:11.205Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:05:13.259Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:05:15.260Z - Applying status filter: Active
+[INFO] 2026-04-17T14:05:21.430Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-17T14:05:34.563Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:05:36.625Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:05:38.626Z - Applying status filter: Closed
+[INFO] 2026-04-17T14:05:44.805Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Runolfsdottir, Aletha ===
+Activate Enrollment confirmed
+[STEP] 2026-04-17T14:05:55.212Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:05:57.272Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:05:59.274Z - Applying status filter: Active
+[INFO] 2026-04-17T14:06:05.426Z - Status filter 'Active' applied successfully
+Row: 01Runolfsdottir, AlethaRTM04-17-2026activeZ04248-Aut...+1Autofirstbbiqcn AutolastbbiqcnAnny vate
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Runolfsdottir, Aletha01-29-202304-17-2026Autofirstbbiqcn AutolastbbiqcnAnny vateSelfPay-
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Runolfsdottir, Aletha
+Program: RTM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-04-17T14:06:21.528Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

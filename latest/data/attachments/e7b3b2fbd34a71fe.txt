@@ -1,0 +1,35 @@
+[STEP] 2026-04-17T13:57:48.462Z - Login to Provider Portal as Chirag
+[STEP] 2026-04-17T13:57:48.839Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:57:48.840Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:57:50.239Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:57:50.363Z - Login attempt completed
+[STEP] 2026-04-17T13:57:53.270Z - Test: Create task for patient Automation,Test and verify in Patient Charting
+[STEP] 2026-04-17T13:57:53.270Z - Navigating to Task page
+[INFO] 2026-04-17T13:57:54.394Z - Navigated to Task page
+[STEP] 2026-04-17T13:57:54.394Z - Creating task: PatientChart 1776434274394
+[STEP] 2026-04-17T13:57:54.394Z - Clicking + Add Task button
+[INFO] 2026-04-17T13:57:55.037Z - Add Task form opened
+[INFO] 2026-04-17T13:58:13.618Z - Task "PatientChart 1776434274394" created successfully
+[INFO] 2026-04-17T13:58:13.618Z - Task "PatientChart 1776434274394" created with CCM service for patient Automation, Test
+[STEP] 2026-04-17T13:58:13.618Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T13:58:15.179Z - My Tasks filter unchecked
+[STEP] 2026-04-17T13:58:15.179Z - Setting status filter to: All
+[INFO] 2026-04-17T13:58:17.590Z - Status filter set to: All
+[STEP] 2026-04-17T13:58:17.591Z - Searching for: PatientChart 1776434274394
+[INFO] 2026-04-17T13:58:19.656Z - Search completed for: PatientChart 1776434274394
+[STEP] 2026-04-17T13:58:19.656Z - Fetching column values for: TASK
+[INFO] 2026-04-17T13:58:20.661Z - TASK values: PatientChart 1776434274394
+[INFO] 2026-04-17T13:58:20.662Z - Task verified in task list
+[STEP] 2026-04-17T13:58:20.662Z - Opening patient chart for Automation, Test
+[STEP] 2026-04-17T13:58:20.662Z - Opening patient chart from global search for: Automation
+[INFO] 2026-04-17T13:58:23.084Z - Patient chart opened from global search for: Automation
+[STEP] 2026-04-17T13:58:25.085Z - Selecting CCM service tab
+[STEP] 2026-04-17T13:58:27.198Z - Clicking Tasks tab in patient chart
+[STEP] 2026-04-17T13:58:29.303Z - Filtering by ToDo status in patient charting
+[INFO] 2026-04-17T13:58:31.709Z - Status filter set to ToDo
+[STEP] 2026-04-17T13:58:31.709Z - Filtering by Call action in patient charting
+[INFO] 2026-04-17T13:58:34.117Z - Action filter set to Call
+[INFO] 2026-04-17T13:58:34.121Z - Tasks in patient charting: PatientChart 1776434274394, BothPlace 1776433847187, BothPlace 1776173699357, BothPlace 1776173504627, BothPlace 1776173381896, PatientChart 1776172841199, PatientChart 1776172534955, PatientChart 1776172038230, PatientChart 1776171941207, Reassign 1776424378860, BothPlace 1776423953689, Reassign 1776177641836, BothPlace 1776177487013, PatientChart 1776177420395, Complete 1776177246893, BothPlace 1776177245852, Reassign 1776176911331, Reassign 1776176524735, ChartReassign 1776176183987
+[INFO] 2026-04-17T13:58:34.125Z - Service in patient charting: CCM ✓
+[INFO] 2026-04-17T13:58:34.128Z - Assigned To in patient charting: John  Doe
+[INFO] 2026-04-17T13:58:34.129Z - AUT_TSK_121 PASSED: Task displayed in Patient Charting — CCM → Tasks → ToDo + Call → John Doe

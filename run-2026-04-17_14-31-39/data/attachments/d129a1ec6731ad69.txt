@@ -1,0 +1,21 @@
+[STEP] 2026-04-17T14:11:38.877Z - Login to Provider Portal
+[STEP] 2026-04-17T14:11:39.286Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:11:39.287Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:11:40.731Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:11:40.883Z - Login attempt completed
+[STEP] 2026-04-17T14:11:43.858Z - Test: Create task without reminder
+[STEP] 2026-04-17T14:11:43.858Z - Navigating to Task page
+[INFO] 2026-04-17T14:11:44.992Z - Navigated to Task page
+[STEP] 2026-04-17T14:11:44.993Z - Creating task: NoReminder 1776435104992
+[STEP] 2026-04-17T14:11:44.993Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:11:45.628Z - Add Task form opened
+[INFO] 2026-04-17T14:12:04.090Z - Task "NoReminder 1776435104992" created successfully
+[STEP] 2026-04-17T14:12:04.090Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:12:05.668Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:12:05.668Z - Setting status filter to: All
+[INFO] 2026-04-17T14:12:08.088Z - Status filter set to: All
+[STEP] 2026-04-17T14:12:08.089Z - Searching for: NoReminder 1776435104992
+[INFO] 2026-04-17T14:12:10.166Z - Search completed for: NoReminder 1776435104992
+[STEP] 2026-04-17T14:12:10.166Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:12:11.171Z - TASK values: NoReminder 1776435104992
+[INFO] 2026-04-17T14:12:11.174Z - Task "NoReminder 1776435104992" created without reminder — verified in list

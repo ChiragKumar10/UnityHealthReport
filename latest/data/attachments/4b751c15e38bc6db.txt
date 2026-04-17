@@ -1,0 +1,94 @@
+[STEP] 2026-04-17T13:53:37.969Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-04-17T13:53:37.970Z - Logging in and navigating to enrollment form
+[STEP] 2026-04-17T13:53:37.971Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:53:37.971Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:53:39.500Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:53:39.692Z - Login attempt completed
+[STEP] 2026-04-17T13:53:42.971Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:53:45.020Z - Navigated to Enrollment section
+✓ Provider selected
+✓ Primary Care Manager assigned
+✓ Selected 2 secondary care managers (max allowed: 3)
+✓ Selected 3 diagnoses
+  1. (Z04248) - Condition-93j1g0vs-1776433400887 - Automated test description - ncabx6656a
+  2. (S29136) - Condition-m75zihoz-1776401193862 - Automated test description - 1qfgx0q0m6s
+  3. (H72783) - Condition-30abzna0-1776355778192 - Automated test description - p7uc9zl858d
+✓ Multiple diagnoses selection validated
+
+--- Enrollment Attempt 1/5 ---
+✓ Found 1 patients matching 'x'
+✓ Service type selected
+[STEP] 2026-04-17T13:54:12.511Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:54:27.560Z - Enrollment result: UNKNOWN
+⚠ Unknown result - Attempt 1/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 2/5 ---
+✓ Found 21 patients matching 'a'
+✓ Service type selected
+[STEP] 2026-04-17T13:54:38.030Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:54:53.088Z - Enrollment result: UNKNOWN
+⚠ Unknown result - Attempt 2/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 3/5 ---
+✓ Found 21 patients matching 'r'
+✓ Service type selected
+[STEP] 2026-04-17T13:55:03.531Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-17T13:55:03.541Z - Enrollment result: ALREADY_ENROLLED
+⚠ Patient already enrolled - Attempt 3/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 4/5 ---
+✓ Found 1 patients matching 'x'
+✓ Service type selected
+[STEP] 2026-04-17T13:55:15.956Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:55:30.991Z - Enrollment result: UNKNOWN
+⚠ Unknown result - Attempt 4/5
+Retrying with different patient and service type...
+
+--- Enrollment Attempt 5/5 ---
+✓ Found 20 patients matching 'u'
+✓ Service type selected
+[STEP] 2026-04-17T13:55:41.406Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T13:55:41.416Z - Enrollment result: SUCCESS
+✓ Enrollment added successfully
+✓ Diagnoses displayed in enrollment list: Z04248-Aut...+2
+[INFO] 2026-04-17T13:55:43.424Z - Care Manager and multi-diagnoses selection verified successfully

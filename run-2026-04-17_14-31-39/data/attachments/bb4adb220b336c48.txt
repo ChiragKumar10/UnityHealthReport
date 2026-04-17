@@ -1,0 +1,28 @@
+[STEP] 2026-04-17T14:18:26.076Z - Login to Provider Portal
+[STEP] 2026-04-17T14:18:26.463Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:18:26.463Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:18:27.865Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:18:27.998Z - Login attempt completed
+[STEP] 2026-04-17T14:18:31.116Z - Test: Verify resolve date auto-fills
+[STEP] 2026-04-17T14:18:31.116Z - Navigating to Task page
+[INFO] 2026-04-17T14:18:32.228Z - Navigated to Task page
+[STEP] 2026-04-17T14:18:32.228Z - Creating task: ResolveDate 1776435512228
+[STEP] 2026-04-17T14:18:32.228Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:18:32.860Z - Add Task form opened
+[INFO] 2026-04-17T14:18:51.269Z - Task "ResolveDate 1776435512228" created successfully
+[STEP] 2026-04-17T14:18:51.269Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:18:52.839Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:18:52.839Z - Setting status filter to: All
+[INFO] 2026-04-17T14:18:55.251Z - Status filter set to: All
+[STEP] 2026-04-17T14:18:55.251Z - Searching for: ResolveDate 1776435512228
+[INFO] 2026-04-17T14:18:57.324Z - Search completed for: ResolveDate 1776435512228
+[STEP] 2026-04-17T14:18:57.324Z - Opening Resolve Task dialog
+[STEP] 2026-04-17T14:18:57.324Z - Clicking action menu on row 0
+[INFO] 2026-04-17T14:18:58.373Z - Action menu opened on row 0
+[STEP] 2026-04-17T14:18:58.373Z - Clicking action menu item: Resolve
+[INFO] 2026-04-17T14:18:59.916Z - Clicked: Resolve
+[INFO] 2026-04-17T14:18:59.919Z - Resolve Task dialog opened
+[STEP] 2026-04-17T14:18:59.923Z - Getting resolve date value
+[INFO] 2026-04-17T14:18:59.928Z - Resolve date value: 04/17/2026 02:18 PM
+[INFO] 2026-04-17T14:18:59.929Z - Auto-filled resolve date: 04/17/2026 02:18 PM
+[INFO] 2026-04-17T14:18:59.932Z - Resolve date auto-fill verified: "04/17/2026 02:18 PM" contains today "04/17/2026"

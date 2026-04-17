@@ -1,0 +1,43 @@
+[STEP] 2026-04-17T13:56:48.859Z - Login to Provider Portal
+[STEP] 2026-04-17T13:56:49.317Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:56:49.317Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:56:50.698Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:56:50.852Z - Login attempt completed
+[STEP] 2026-04-17T13:56:53.900Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-17T13:56:53.900Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-17T13:56:53.900Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:56:54.407Z - No drawer backdrop in DOM
+[INFO] 2026-04-17T13:56:54.915Z - Successfully on Care Team Work List
+[STEP] 2026-04-17T13:56:54.915Z - Selecting program tab: RTM
+[INFO] 2026-04-17T13:56:55.996Z - Successfully selected RTM tab
+[STEP] 2026-04-17T13:56:55.996Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-17T13:56:57.104Z - Setting date filter to today
+[INFO] 2026-04-17T13:56:57.110Z - Changing date from "04-16-2026" to "04-17-2026"
+[INFO] 2026-04-17T13:56:58.204Z - Date filter set to: 04-17-2026
+[INFO] 2026-04-17T13:56:58.204Z - Switched to Alerts monitoring view
+[STEP] 2026-04-17T13:56:58.204Z - Test: Resolve alert from Action button
+[STEP] 2026-04-17T13:56:58.204Z - Getting visible row count
+[INFO] 2026-04-17T13:56:59.209Z - Visible row count: 1
+[STEP] 2026-04-17T13:56:59.209Z - Getting first available patient from list
+[INFO] 2026-04-17T13:56:59.220Z - First available patient: "Automation, Test"
+[STEP] 2026-04-17T13:56:59.220Z - Resolving alert from action menu for: Automation, Test
+[STEP] 2026-04-17T13:56:59.220Z - Opening action menu for: Automation, Test
+[INFO] 2026-04-17T13:57:00.300Z - Action menu clicked for: Automation, Test (attempt 1)
+[STEP] 2026-04-17T13:57:02.377Z - Filling resolve form and saving
+[INFO] 2026-04-17T13:57:02.381Z - Resolve drawer visible: true
+[INFO] 2026-04-17T13:57:02.403Z - Resolution note filled
+[INFO] 2026-04-17T13:57:02.408Z - Clicking Resolve to open time entries section
+[INFO] 2026-04-17T13:57:04.462Z - MANUAL TIME ENTRIES form visible: true
+[INFO] 2026-04-17T13:57:05.584Z - Resolve button exists for final click: true
+[INFO] 2026-04-17T13:57:05.584Z - Using evaluate() to click Resolve button directly (bypass overlap)
+[INFO] 2026-04-17T13:57:08.607Z - Post-resolve toast: "Alert Resolved Successfully"
+[INFO] 2026-04-17T13:57:08.611Z - Post-resolve open drawers: 3
+[INFO] 2026-04-17T13:57:08.611Z - Drawer still open after resolve — dismissing
+[STEP] 2026-04-17T13:57:08.611Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:57:09.115Z - Found 2 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-17T13:57:11.719Z - Drawer closed via Cancel button
+[INFO] 2026-04-17T13:57:11.719Z - Resolve form completed
+[INFO] 2026-04-17T13:57:11.719Z - Alert resolved from action for: Automation, Test
+[INFO] 2026-04-17T13:57:11.719Z - Alert resolved from action button
+[STEP] 2026-04-17T13:57:11.719Z - Getting count for Alerts
+[INFO] 2026-04-17T13:57:11.724Z - Alerts count: 1

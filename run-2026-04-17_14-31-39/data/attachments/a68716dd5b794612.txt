@@ -1,0 +1,21 @@
+[STEP] 2026-04-17T14:20:14.043Z - Login to Provider Portal
+[STEP] 2026-04-17T14:20:14.423Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:20:14.423Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:20:15.822Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:20:15.945Z - Login attempt completed
+[STEP] 2026-04-17T14:20:18.859Z - Test: Verify ToDo filter
+[STEP] 2026-04-17T14:20:18.859Z - Navigating to Task page
+[INFO] 2026-04-17T14:20:19.965Z - Navigated to Task page
+[STEP] 2026-04-17T14:20:19.965Z - Creating task: ToDo Filter 1776435619965
+[STEP] 2026-04-17T14:20:19.965Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:20:20.605Z - Add Task form opened
+[INFO] 2026-04-17T14:20:38.995Z - Task "ToDo Filter 1776435619965" created successfully
+[STEP] 2026-04-17T14:20:38.995Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:20:40.558Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:20:40.559Z - Searching for: ToDo Filter 1776435619965
+[INFO] 2026-04-17T14:20:42.617Z - Search completed for: ToDo Filter 1776435619965
+[STEP] 2026-04-17T14:20:42.618Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-17T14:20:43.621Z - TASK STATUS values: ToDo
+[STEP] 2026-04-17T14:20:43.622Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:20:44.626Z - TASK values: ToDo Filter 1776435619965
+[INFO] 2026-04-17T14:20:44.627Z - ToDo filter verified

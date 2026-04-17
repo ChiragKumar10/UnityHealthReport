@@ -1,0 +1,86 @@
+[STEP] 2026-04-17T14:00:57.784Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-04-17T14:00:57.785Z - Logging in to Provider Portal
+[STEP] 2026-04-17T14:00:57.785Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:00:57.785Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:00:59.298Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:00:59.466Z - Login attempt completed
+[STEP] 2026-04-17T14:01:01.963Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-04-17T14:01:01.963Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:01:04.004Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:01:07.007Z - Applying status filter: Closed
+[INFO] 2026-04-17T14:01:13.167Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-17T14:01:15.434Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:01:17.520Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:01:18.522Z - Adding new enrollment
+[INFO] 2026-04-17T14:01:24.809Z - Found 20 patients matching 'a'
+[INFO] 2026-04-17T14:01:26.287Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Hamill, Carlton  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-17T14:01:32.022Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T14:01:47.076Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-17T14:01:51.188Z - Found 20 patients matching 'n'
+New patient selected: Runolfsdottir, Aletha 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Runolfsdottir, Aletha  | Program: Chronic Care Management (CCM)
+[STEP] 2026-04-17T14:01:55.173Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T14:01:55.182Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Runolfsdottir, Aletha
+  Program: Chronic Care Management (CCM)
+  Provider: John  Doe
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-04-17T14:01:55.183Z - Enrollment form submitted successfully
+Enrollment created: Runolfsdottir, Aletha | Chronic Care Management (CCM)
+[STEP] 2026-04-17T14:01:55.462Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:01:57.589Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:01:59.593Z - Applying status filter: New
+[INFO] 2026-04-17T14:02:05.781Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-17T14:02:27.060Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:02:29.134Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:02:31.143Z - Applying status filter: Active
+[INFO] 2026-04-17T14:02:37.341Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-17T14:02:50.430Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:02:52.497Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:02:54.498Z - Applying status filter: Closed
+[INFO] 2026-04-17T14:03:00.679Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Runolfsdottir, Aletha ===
+[STEP] 2026-04-17T14:03:21.148Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:03:23.215Z - Navigated to Enrollment section
+[STEP] 2026-04-17T14:03:25.218Z - Applying status filter: New
+[INFO] 2026-04-17T14:03:31.374Z - Status filter 'New' applied successfully
+Row: 01Runolfsdottir, AlethaCCM04-17-2026newT58466-Aut...+2Autofirstatjlcy AutolastatjlcyJohn  Doe
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Runolfsdottir, Aletha774-366-137504-05-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Runolfsdottir, Aletha
+Program: CCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-04-17T14:03:47.622Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

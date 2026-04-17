@@ -1,0 +1,22 @@
+[STEP] 2026-04-17T13:50:57.112Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-17T13:50:57.112Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:50:57.113Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:50:58.596Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:50:58.737Z - Login attempt completed
+[STEP] 2026-04-17T13:51:01.760Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:51:03.791Z - Navigated to Enrollment section
+[INFO] 2026-04-17T13:51:03.791Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-17T13:51:03.791Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-04-17T13:51:03.791Z - Generated random date range: 01-20-2026 to 04-01-2026
+[INFO] 2026-04-17T13:51:03.791Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-17T13:51:03.792Z - Applying combined filters - Date: 01-20-2026 to 04-01-2026, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:51:03.792Z - Applying date filter: 01-20-2026 to 04-01-2026
+[INFO] 2026-04-17T13:51:09.931Z - Date filter applied successfully
+[STEP] 2026-04-17T13:51:09.931Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-17T13:51:16.104Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-04-17T13:51:16.104Z - Retrieving filtered enrollment results
+[INFO] 2026-04-17T13:51:18.629Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Turner, Rosendo - RPM - 03-23-2026
+Record 2 Verified: Kuvalis, Rogers - RPM - 03-29-2026
+Record 3 Verified: Harris, Oscar - RPM - 03-28-2026
+[INFO] 2026-04-17T13:51:18.637Z - Combined Date + Program filter verification completed - 3 records verified

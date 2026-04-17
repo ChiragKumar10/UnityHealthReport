@@ -1,0 +1,62 @@
+[STEP] 2026-04-17T13:56:52.773Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-04-17T13:56:52.774Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-17T13:56:52.774Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:56:52.774Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:56:54.453Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:56:54.592Z - Login attempt completed
+[STEP] 2026-04-17T13:56:57.078Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:56:59.109Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Hamill, Carlton
+Program: CCM
+Care Manager: Autofirstbjpock Autolastbjpock
+Provider: Dayton Nolan
+Service Type Short: CCM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstbjpock Autolastbjpock
+Initial Provider: Dayton Nolan
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAutofirstbjpock AutolastbjpockDayton NolanY41491-Aut...+204-17-2026-04-17-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: CCM
+Checking for Provider: Dayton
+Checking for Care Manager: Autofirstbjpock
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-04-17T13:57:38.227Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:57:40.284Z - Navigated to Enrollment section
+Checked new ICD: (S29136) - Condition-m75zihoz-1776401193862 - Automated test description - 1qfgx0q0m6s
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: Seth Ondricka
+Updated Care Manager: Autofirstaxarcy Autolastaxarcy
+Updated ICD Code: (S29136) - Condition-m75zihoz-1776401193862 - Automated test description - 1qfgx0q0m6s
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: CCMAutofirstaxarcy AutolastaxarcySeth OndrickaY41491-Aut...+204-17-2026-04-17-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: CCM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

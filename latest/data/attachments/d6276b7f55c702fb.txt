@@ -1,0 +1,81 @@
+[STEP] 2026-04-17T14:02:23.795Z - Login to Provider Portal
+[STEP] 2026-04-17T14:02:24.177Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:02:24.178Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:02:25.587Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:02:25.720Z - Login attempt completed
+[STEP] 2026-04-17T14:02:28.625Z - Test: Complete reassignment flow — provider accounts + patient charting
+[STEP] 2026-04-17T14:02:28.625Z - Navigating to Task page
+[INFO] 2026-04-17T14:02:29.740Z - Navigated to Task page
+[STEP] 2026-04-17T14:02:29.740Z - Creating task: Reassign 1776434549740
+[STEP] 2026-04-17T14:02:29.740Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:02:30.403Z - Add Task form opened
+[INFO] 2026-04-17T14:02:49.041Z - Task "Reassign 1776434549740" created successfully
+[INFO] 2026-04-17T14:02:49.041Z - Step 1 ✓: Task "Reassign 1776434549740" created — assigned to John Doe
+[STEP] 2026-04-17T14:02:49.042Z - Step 2: Logging in as John Doe to verify task
+[STEP] 2026-04-17T14:02:49.042Z - Logging out from provider portal
+[INFO] 2026-04-17T14:02:50.768Z - Logout completed
+[STEP] 2026-04-17T14:02:50.768Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:02:50.768Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:02:52.031Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:02:52.147Z - Login attempt completed
+[STEP] 2026-04-17T14:02:54.984Z - Navigating to Task page
+[INFO] 2026-04-17T14:02:56.039Z - Navigated to Task page
+[STEP] 2026-04-17T14:02:56.039Z - Setting status filter to: All
+[INFO] 2026-04-17T14:02:58.431Z - Status filter set to: All
+[STEP] 2026-04-17T14:02:58.431Z - Searching for: Reassign 1776434549740
+[INFO] 2026-04-17T14:03:00.505Z - Search completed for: Reassign 1776434549740
+[STEP] 2026-04-17T14:03:00.505Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:03:01.510Z - TASK values: Reassign 1776434549740
+[INFO] 2026-04-17T14:03:01.511Z - Step 2 ✓: Task found in John Doe's account
+[STEP] 2026-04-17T14:03:01.511Z - Step 3: Logging back as Chirag to reassign task
+[STEP] 2026-04-17T14:03:01.511Z - Logging out from provider portal
+[INFO] 2026-04-17T14:03:03.095Z - Logout completed
+[STEP] 2026-04-17T14:03:03.095Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:03:03.095Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:03:04.347Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:03:04.465Z - Login attempt completed
+[STEP] 2026-04-17T14:03:07.569Z - Navigating to Task page
+[INFO] 2026-04-17T14:03:08.646Z - Navigated to Task page
+[STEP] 2026-04-17T14:03:08.646Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:03:10.182Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:03:10.182Z - Setting status filter to: All
+[INFO] 2026-04-17T14:03:12.590Z - Status filter set to: All
+[STEP] 2026-04-17T14:03:12.590Z - Searching for: Reassign 1776434549740
+[INFO] 2026-04-17T14:03:14.692Z - Search completed for: Reassign 1776434549740
+[STEP] 2026-04-17T14:03:14.692Z - Opening Edit Task form
+[STEP] 2026-04-17T14:03:14.692Z - Clicking action menu on row 0
+[INFO] 2026-04-17T14:03:15.724Z - Action menu opened on row 0
+[STEP] 2026-04-17T14:03:15.724Z - Clicking action menu item: Edit
+[INFO] 2026-04-17T14:03:17.313Z - Clicked: Edit
+[INFO] 2026-04-17T14:03:17.317Z - Edit Task form opened
+[STEP] 2026-04-17T14:03:17.317Z - Changing assignee to: Anny Vate
+[INFO] 2026-04-17T14:03:21.036Z - Assignee changed to: Anny Vate
+[STEP] 2026-04-17T14:03:21.036Z - Filling edit note: Reassigned from John to Anny at 2026-04-17T14:03:21.036Z
+[STEP] 2026-04-17T14:03:21.367Z - Saving edited task
+[INFO] 2026-04-17T14:03:21.372Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-04-17T14:03:21.375Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-04-17T14:03:21.382Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-04-17T14:03:21.387Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-04-17T14:03:21.391Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-04-17T14:03:21.391Z - Reading all edit form pre-filled values
+[INFO] 2026-04-17T14:03:21.412Z - Edit form values: {"service":"CCM","patient":" ","action":"CALL","taskName":"Reassign 1776434549740","assignee":"John  Doe ","priority":"HIGH","dueDate":"22 April 2026 ","note":"Reassigned from John to Anny at 2026-04-17T14:03:21.036Z"}
+[INFO] 2026-04-17T14:03:21.412Z - Form state before save: {"service":"CCM","patient":" ","action":"CALL","taskName":"Reassign 1776434549740","assignee":"John  Doe ","priority":"HIGH","dueDate":"22 April 2026 ","note":"Reassigned from John to Anny at 2026-04-17T14:03:21.036Z"}
+[INFO] 2026-04-17T14:03:21.417Z - Validation errors before save: []
+[INFO] 2026-04-17T14:03:23.474Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-04-17T14:03:24.483Z - Edit task saved (drawer closed: true)
+[INFO] 2026-04-17T14:03:24.483Z - Step 3 ✓: Task reassigned to Anny Vate
+[STEP] 2026-04-17T14:03:24.483Z - Step 4: Logging in as Anny Vate to verify task
+[STEP] 2026-04-17T14:03:24.483Z - Logging out from provider portal
+[INFO] 2026-04-17T14:03:26.142Z - Logout completed
+[STEP] 2026-04-17T14:03:26.142Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:03:26.142Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:03:27.523Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:03:27.633Z - Login attempt completed
+[STEP] 2026-04-17T14:03:30.440Z - Navigating to Task page
+[INFO] 2026-04-17T14:03:31.531Z - Navigated to Task page
+[STEP] 2026-04-17T14:03:31.531Z - Setting status filter to: All
+[INFO] 2026-04-17T14:03:33.906Z - Status filter set to: All
+[STEP] 2026-04-17T14:03:33.906Z - Searching for: Reassign 1776434549740
+[INFO] 2026-04-17T14:03:35.971Z - Search completed for: Reassign 1776434549740
+[STEP] 2026-04-17T14:03:35.971Z - Fetching column values for: TASK
+[INFO] 2026-04-17T14:03:36.975Z - TASK values: 

@@ -1,0 +1,160 @@
+[STEP] 2026-04-17T13:43:48.958Z - Navigating to admin portal login page
+[INFO] 2026-04-17T13:43:50.240Z - Successfully navigated to admin portal login page
+[STEP] 2026-04-17T13:43:50.240Z - Attempting to login
+[INFO] 2026-04-17T13:43:50.369Z - Login attempt completed
+[INFO] 2026-04-17T13:43:50.456Z - Starting RPM Template Test
+[STEP] 2026-04-17T13:43:50.456Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:43:51.184Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:43:51.185Z - Clicking Add Template button
+[INFO] 2026-04-17T13:43:51.444Z - Add Template form opened
+[STEP] 2026-04-17T13:43:51.444Z - Entering template name: RPM-monitoring-template-1776433430456-777
+[STEP] 2026-04-17T13:43:51.462Z - Selecting Service Type: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-17T13:43:51.808Z - Selected service type: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:43:51.808Z - Entering description: automation scrip
+[STEP] 2026-04-17T13:43:51.823Z - Saving template
+[INFO] 2026-04-17T13:43:51.878Z - Save button clicked
+[STEP] 2026-04-17T13:43:51.879Z - Verifying success message contains: "created successfully"
+[INFO] 2026-04-17T13:43:52.074Z - Success message verified: "Template Created Successfully"
+[STEP] 2026-04-17T13:43:52.075Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:43:52.494Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:43:52.495Z - Verifying template details for "RPM-monitoring-template-1776433430456-777"
+[INFO] 2026-04-17T13:43:54.502Z - ✓ Template Name: RPM-monitoring-template-1776433430456-777
+[INFO] 2026-04-17T13:43:54.509Z - ✓ Description: automation scrip
+[INFO] 2026-04-17T13:43:54.518Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:43:54.518Z - Template details verified successfully
+[STEP] 2026-04-17T13:43:54.519Z - Opening Edit page for template "RPM-monitoring-template-1776433430456-777"
+[INFO] 2026-04-17T13:43:55.654Z - Edit Template page opened
+[STEP] 2026-04-17T13:43:55.654Z - Entering template name: RPM-monitoring-template-edited-1776433430456-749
+[STEP] 2026-04-17T13:43:55.666Z - Entering description: stage provider group
+[STEP] 2026-04-17T13:43:55.678Z - Saving template
+[INFO] 2026-04-17T13:43:55.977Z - Save button clicked
+[STEP] 2026-04-17T13:43:55.978Z - Verifying success message contains: "updated successfully"
+[INFO] 2026-04-17T13:43:56.113Z - Success message verified: "Template Updated Successfully"
+[STEP] 2026-04-17T13:43:56.113Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:43:56.517Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:43:56.517Z - Verifying template details for "RPM-monitoring-template-edited-1776433430456-749"
+[INFO] 2026-04-17T13:43:58.523Z - ✓ Template Name: RPM-monitoring-template-edited-1776433430456-749
+[INFO] 2026-04-17T13:43:58.528Z - ✓ Description: stage provider group
+[INFO] 2026-04-17T13:43:58.535Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:43:58.536Z - Template details verified successfully
+[INFO] 2026-04-17T13:43:58.536Z - Starting RTM Template Test
+[STEP] 2026-04-17T13:43:58.536Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:43:58.634Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:43:58.634Z - Clicking RTM Tab
+[INFO] 2026-04-17T13:43:58.681Z - Clicked RTM Tab
+[STEP] 2026-04-17T13:43:58.681Z - Clicking Add Template button
+[INFO] 2026-04-17T13:43:58.758Z - Add Template form opened
+[STEP] 2026-04-17T13:43:58.758Z - Entering template name: RTM-monitoring-template-1776433438536-346
+[STEP] 2026-04-17T13:43:58.828Z - Selecting Service Type: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-04-17T13:43:59.135Z - Selected service type: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T13:43:59.136Z - Entering description: automation script
+[STEP] 2026-04-17T13:43:59.148Z - Saving template
+[INFO] 2026-04-17T13:43:59.212Z - Save button clicked
+[STEP] 2026-04-17T13:43:59.212Z - Verifying success message contains: "created successfully"
+[INFO] 2026-04-17T13:43:59.377Z - Success message verified: "Template Created Successfully"
+[STEP] 2026-04-17T13:43:59.377Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:43:59.768Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:43:59.768Z - Clicking RTM Tab
+[INFO] 2026-04-17T13:43:59.846Z - Clicked RTM Tab
+[STEP] 2026-04-17T13:43:59.846Z - Verifying template details for "RTM-monitoring-template-1776433438536-346"
+[INFO] 2026-04-17T13:44:01.853Z - ✓ Template Name: RTM-monitoring-template-1776433438536-346
+[INFO] 2026-04-17T13:44:01.857Z - ✓ Description: automation script
+[INFO] 2026-04-17T13:44:01.865Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:44:01.865Z - Template details verified successfully
+[STEP] 2026-04-17T13:44:01.865Z - Opening Edit page for template "RTM-monitoring-template-1776433438536-346"
+[INFO] 2026-04-17T13:44:02.955Z - Edit Template page opened
+[STEP] 2026-04-17T13:44:02.955Z - Entering template name: RTM-monitoring-template-edited-1776433438536-60
+[STEP] 2026-04-17T13:44:02.965Z - Saving template
+[INFO] 2026-04-17T13:44:03.247Z - Save button clicked
+[STEP] 2026-04-17T13:44:03.248Z - Verifying success message contains: "updated successfully"
+[INFO] 2026-04-17T13:44:03.441Z - Success message verified: "Template Updated Successfully"
+[STEP] 2026-04-17T13:44:03.441Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:03.805Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:03.806Z - Clicking RTM Tab
+[INFO] 2026-04-17T13:44:03.898Z - Clicked RTM Tab
+[STEP] 2026-04-17T13:44:03.898Z - Verifying template details for "RTM-monitoring-template-edited-1776433438536-60"
+[INFO] 2026-04-17T13:44:05.905Z - ✓ Template Name: RTM-monitoring-template-edited-1776433438536-60
+[INFO] 2026-04-17T13:44:05.911Z - ✓ Description: automation script
+[INFO] 2026-04-17T13:44:05.919Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:44:05.919Z - Template details verified successfully
+[INFO] 2026-04-17T13:44:05.919Z - Starting CCM Template Test
+[STEP] 2026-04-17T13:44:05.920Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:06.018Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:06.018Z - Clicking CCM Tab
+[INFO] 2026-04-17T13:44:06.083Z - Clicked CCM Tab
+[STEP] 2026-04-17T13:44:06.083Z - Clicking Add Template button
+[INFO] 2026-04-17T13:44:06.221Z - Add Template form opened
+[STEP] 2026-04-17T13:44:06.221Z - Entering template name: CCM-monitoring-template-1776433445920-766
+[STEP] 2026-04-17T13:44:06.236Z - Selecting Service Type: Chronic Care Management (CCM)
+[INFO] 2026-04-17T13:44:06.553Z - Selected service type: Chronic Care Management (CCM)
+[STEP] 2026-04-17T13:44:06.553Z - Entering description: automation script
+[STEP] 2026-04-17T13:44:06.568Z - Saving template
+[INFO] 2026-04-17T13:44:06.610Z - Save button clicked
+[STEP] 2026-04-17T13:44:06.610Z - Verifying success message contains: "created successfully"
+[INFO] 2026-04-17T13:44:06.803Z - Success message verified: "Template Created Successfully"
+[STEP] 2026-04-17T13:44:06.804Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:07.101Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:07.101Z - Clicking CCM Tab
+[INFO] 2026-04-17T13:44:07.181Z - Clicked CCM Tab
+[STEP] 2026-04-17T13:44:07.181Z - Verifying template details for "CCM-monitoring-template-1776433445920-766"
+[INFO] 2026-04-17T13:44:09.189Z - ✓ Template Name: CCM-monitoring-template-1776433445920-766
+[INFO] 2026-04-17T13:44:09.194Z - ✓ Description: automation script
+[INFO] 2026-04-17T13:44:09.201Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:44:09.201Z - Template details verified successfully
+[STEP] 2026-04-17T13:44:09.201Z - Opening Edit page for template "CCM-monitoring-template-1776433445920-766"
+[INFO] 2026-04-17T13:44:10.319Z - Edit Template page opened
+[STEP] 2026-04-17T13:44:10.319Z - Entering template name: CCM-monitoring-template-edited-1776433445920-514
+[STEP] 2026-04-17T13:44:10.331Z - Saving template
+[INFO] 2026-04-17T13:44:10.592Z - Save button clicked
+[STEP] 2026-04-17T13:44:10.592Z - Verifying success message contains: "updated successfully"
+[INFO] 2026-04-17T13:44:10.724Z - Success message verified: "Template Updated Successfully"
+[STEP] 2026-04-17T13:44:10.724Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:11.194Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:11.194Z - Clicking CCM Tab
+[INFO] 2026-04-17T13:44:11.270Z - Clicked CCM Tab
+[STEP] 2026-04-17T13:44:11.270Z - Verifying template details for "CCM-monitoring-template-edited-1776433445920-514"
+[INFO] 2026-04-17T13:44:13.277Z - ✓ Template Name: CCM-monitoring-template-edited-1776433445920-514
+[INFO] 2026-04-17T13:44:13.283Z - ✓ Description: automation script
+[INFO] 2026-04-17T13:44:13.291Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:44:13.292Z - Template details verified successfully
+[INFO] 2026-04-17T13:44:13.292Z - Starting PCM Template Test
+[STEP] 2026-04-17T13:44:13.292Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:13.385Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:13.387Z - Clicking PCM Tab
+[INFO] 2026-04-17T13:44:13.442Z - Clicked PCM Tab
+[STEP] 2026-04-17T13:44:13.442Z - Clicking Add Template button
+[INFO] 2026-04-17T13:44:13.519Z - Add Template form opened
+[STEP] 2026-04-17T13:44:13.519Z - Entering template name: PCM-monitoring-template-1776433453292-771
+[STEP] 2026-04-17T13:44:13.589Z - Selecting Service Type: Principal Care Management (PCM)
+[INFO] 2026-04-17T13:44:13.903Z - Selected service type: Principal Care Management (PCM)
+[STEP] 2026-04-17T13:44:13.903Z - Entering description: automation script
+[STEP] 2026-04-17T13:44:13.918Z - Saving template
+[INFO] 2026-04-17T13:44:13.958Z - Save button clicked
+[STEP] 2026-04-17T13:44:13.958Z - Verifying success message contains: "created successfully"
+[INFO] 2026-04-17T13:44:14.079Z - Success message verified: "Template Created Successfully"
+[STEP] 2026-04-17T13:44:14.079Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:14.440Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:14.440Z - Clicking PCM Tab
+[INFO] 2026-04-17T13:44:14.527Z - Clicked PCM Tab
+[STEP] 2026-04-17T13:44:14.527Z - Verifying template details for "PCM-monitoring-template-1776433453292-771"
+[INFO] 2026-04-17T13:44:16.540Z - ✓ Template Name: PCM-monitoring-template-1776433453292-771
+[INFO] 2026-04-17T13:44:16.546Z - ✓ Description: automation script
+[INFO] 2026-04-17T13:44:16.554Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:44:16.554Z - Template details verified successfully
+[STEP] 2026-04-17T13:44:16.554Z - Opening Edit page for template "PCM-monitoring-template-1776433453292-771"
+[INFO] 2026-04-17T13:44:17.652Z - Edit Template page opened
+[STEP] 2026-04-17T13:44:17.652Z - Entering template name: PCM-monitoring-template-edited-1776433453292-389
+[STEP] 2026-04-17T13:44:17.667Z - Saving template
+[INFO] 2026-04-17T13:44:17.926Z - Save button clicked
+[STEP] 2026-04-17T13:44:17.926Z - Verifying success message contains: "updated successfully"
+[INFO] 2026-04-17T13:44:18.045Z - Success message verified: "Template Updated Successfully"
+[STEP] 2026-04-17T13:44:18.046Z - Navigating to Library -> Templates
+[INFO] 2026-04-17T13:44:18.488Z - Successfully navigated to Templates page
+[STEP] 2026-04-17T13:44:18.488Z - Clicking PCM Tab
+[INFO] 2026-04-17T13:44:18.575Z - Clicked PCM Tab
+[STEP] 2026-04-17T13:44:18.575Z - Verifying template details for "PCM-monitoring-template-edited-1776433453292-389"
+[INFO] 2026-04-17T13:44:20.584Z - ✓ Template Name: PCM-monitoring-template-edited-1776433453292-389
+[INFO] 2026-04-17T13:44:20.588Z - ✓ Description: automation script
+[INFO] 2026-04-17T13:44:20.595Z - ✓ Created Date/Time: Present in list
+[INFO] 2026-04-17T13:44:20.595Z - Template details verified successfully
+[INFO] 2026-04-17T13:44:20.595Z - All service type templates created and edited successfully

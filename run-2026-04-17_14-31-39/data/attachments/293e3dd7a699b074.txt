@@ -1,0 +1,26 @@
+[STEP] 2026-04-17T14:29:54.407Z - Login to Provider Portal
+[STEP] 2026-04-17T14:29:54.782Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:29:54.782Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:29:56.183Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:29:56.320Z - Login attempt completed
+[STEP] 2026-04-17T14:29:59.205Z - Test: Calendar date filter
+[STEP] 2026-04-17T14:29:59.205Z - Navigating to Task page
+[INFO] 2026-04-17T14:30:00.283Z - Navigated to Task page
+[STEP] 2026-04-17T14:30:00.284Z - Creating task: TodayCal 1776436200284
+[STEP] 2026-04-17T14:30:00.284Z - Clicking + Add Task button
+[INFO] 2026-04-17T14:30:00.945Z - Add Task form opened
+[INFO] 2026-04-17T14:30:19.375Z - Task "TodayCal 1776436200284" created successfully
+[STEP] 2026-04-17T14:30:19.375Z - Navigating to Call Center Tasks List
+[INFO] 2026-04-17T14:30:21.505Z - Navigated to Call Center Tasks List
+[STEP] 2026-04-17T14:30:23.047Z - Setting date filter: 4/17/2025 to 4/18/2025
+[INFO] 2026-04-17T14:30:37.430Z - Date filter applied: 4/17/2025 to 4/18/2025
+[STEP] 2026-04-17T14:30:37.430Z - Fetching Call Center column values for: TASK
+[INFO] 2026-04-17T14:30:38.434Z - TASK values: 
+[INFO] 2026-04-17T14:30:38.435Z - Past date filter verified — no current tasks
+[STEP] 2026-04-17T14:30:38.436Z - Clearing date filter
+[INFO] 2026-04-17T14:30:40.149Z - Date filter cleared
+[STEP] 2026-04-17T14:30:40.149Z - Setting date filter: 4/24/2026 to 4/24/2026
+[INFO] 2026-04-17T14:30:45.926Z - Date filter applied: 4/24/2026 to 4/24/2026
+[STEP] 2026-04-17T14:30:45.926Z - Fetching Call Center column values for: TASK
+[INFO] 2026-04-17T14:30:46.930Z - TASK values: 
+[INFO] 2026-04-17T14:30:46.930Z - Future date filter verified

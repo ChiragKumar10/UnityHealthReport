@@ -1,0 +1,69 @@
+[STEP] 2026-04-17T13:46:49.961Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:46:49.962Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:46:51.132Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:46:51.308Z - Login attempt completed
+[STEP] 2026-04-17T13:46:54.403Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-04-17T13:46:54.405Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:46:56.451Z - Navigated to Enrollment section
+[STEP] 2026-04-17T13:46:56.451Z - Adding new enrollment
+[INFO] 2026-04-17T13:47:02.986Z - Found 20 patients matching 'l'
+[INFO] 2026-04-17T13:47:04.475Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: GoodwinLedner, Luella  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T13:47:10.226Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:47:25.268Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-17T13:47:29.388Z - Found 30 patients matching 'e'
+New patient selected: Rowe, Ernie 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Rowe, Ernie  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T13:47:33.404Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-17T13:47:33.412Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-17T13:47:38.024Z - Found 3 patients matching 'q'
+New patient selected: DuBuque, Eldon 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: DuBuque, Eldon  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T13:47:42.034Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T13:47:42.045Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: DuBuque, Eldon
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstbchvfu Autolastbchvfu
+[INFO] 2026-04-17T13:47:42.045Z - Enrollment form submitted successfully
+[INFO] 2026-04-17T13:47:42.045Z - Enrolled: DuBuque, Eldon in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-17T13:47:42.046Z - Verifying patient in Worklist NEW section
+✓ Patient "DuBuque, Eldon" found in Worklist > RTM > NEW section
+[INFO] 2026-04-17T13:48:02.753Z - Patient verified in Worklist > RTM > NEW section
+[INFO] 2026-04-17T13:48:02.756Z - Patient verified in Work List > RTM > New section
+[STEP] 2026-04-17T13:48:07.785Z - Navigating to RTM tab
+[INFO] 2026-04-17T13:48:07.899Z - Successfully navigated to RTM tab
+[STEP] 2026-04-17T13:48:07.899Z - Selecting Week 1
+[INFO] 2026-04-17T13:48:09.015Z - Successfully selected Week 1

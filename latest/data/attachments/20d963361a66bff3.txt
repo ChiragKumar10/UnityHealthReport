@@ -1,0 +1,66 @@
+[STEP] 2026-04-17T13:56:19.480Z - Login to Provider Portal
+[STEP] 2026-04-17T13:56:19.860Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:56:19.860Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:56:21.263Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:56:21.400Z - Login attempt completed
+[STEP] 2026-04-17T13:56:24.450Z - Test: E2E Edit Task Workflow
+[STEP] 2026-04-17T13:56:24.450Z - Navigating to Task page
+[INFO] 2026-04-17T13:56:25.548Z - Navigated to Task page
+[STEP] 2026-04-17T13:56:25.548Z - Creating task: EditOriginal 1776434185548
+[STEP] 2026-04-17T13:56:25.548Z - Clicking + Add Task button
+[INFO] 2026-04-17T13:56:26.183Z - Add Task form opened
+[INFO] 2026-04-17T13:56:44.572Z - Task "EditOriginal 1776434185548" created successfully
+[STEP] 2026-04-17T13:56:44.572Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T13:56:46.135Z - My Tasks filter unchecked
+[STEP] 2026-04-17T13:56:46.135Z - Setting status filter to: All
+[INFO] 2026-04-17T13:56:48.541Z - Status filter set to: All
+[STEP] 2026-04-17T13:56:48.541Z - Searching for: EditOriginal 1776434185548
+[INFO] 2026-04-17T13:56:50.608Z - Search completed for: EditOriginal 1776434185548
+[STEP] 2026-04-17T13:56:50.608Z - Fetching column values for: TASK
+[INFO] 2026-04-17T13:56:51.613Z - TASK values: EditOriginal 1776434185548
+[STEP] 2026-04-17T13:56:51.613Z - Fetching column values for: PRIORITY
+[INFO] 2026-04-17T13:56:52.615Z - PRIORITY values: HIGH
+[INFO] 2026-04-17T13:56:52.617Z - Original task: EditOriginal 1776434185548, Priority: HIGH
+[STEP] 2026-04-17T13:56:52.617Z - Opening Edit Task form
+[STEP] 2026-04-17T13:56:52.617Z - Clicking action menu on row 0
+[INFO] 2026-04-17T13:56:53.655Z - Action menu opened on row 0
+[STEP] 2026-04-17T13:56:53.655Z - Clicking action menu item: Edit
+[INFO] 2026-04-17T13:56:55.236Z - Clicked: Edit
+[INFO] 2026-04-17T13:56:55.240Z - Edit Task form opened
+[INFO] 2026-04-17T13:56:55.246Z - Edit form opened
+[STEP] 2026-04-17T13:56:55.246Z - Reading all edit form pre-filled values
+[INFO] 2026-04-17T13:56:55.265Z - Edit form values: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"EditOriginal 1776434185548","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"24 April 2026 ","note":""}
+[INFO] 2026-04-17T13:56:55.267Z - Pre-filled values verified
+[STEP] 2026-04-17T13:56:55.267Z - Updating task name to: EditUpdated 1776434185548
+[STEP] 2026-04-17T13:56:55.621Z - Filling edit note: Edited at 2026-04-17T13:56:55.621Z
+[STEP] 2026-04-17T13:56:55.943Z - Saving edited task
+[INFO] 2026-04-17T13:56:55.949Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-04-17T13:56:55.953Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-04-17T13:56:55.960Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-04-17T13:56:55.965Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-04-17T13:56:55.969Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-04-17T13:56:55.970Z - Reading all edit form pre-filled values
+[INFO] 2026-04-17T13:56:55.988Z - Edit form values: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"EditUpdated 1776434185548","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"24 April 2026 ","note":"Edited at 2026-04-17T13:56:55.621Z"}
+[INFO] 2026-04-17T13:56:55.988Z - Form state before save: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"EditUpdated 1776434185548","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"24 April 2026 ","note":"Edited at 2026-04-17T13:56:55.621Z"}
+[INFO] 2026-04-17T13:56:55.993Z - Validation errors before save: []
+[INFO] 2026-04-17T13:56:58.050Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-04-17T13:56:59.058Z - Edit task saved (drawer closed: true)
+[INFO] 2026-04-17T13:56:59.058Z - Edit saved
+[STEP] 2026-04-17T13:56:59.058Z - Navigating to Task page
+[INFO] 2026-04-17T13:57:00.121Z - Navigated to Task page
+[STEP] 2026-04-17T13:57:00.121Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T13:57:00.124Z - My Tasks filter already unchecked
+[STEP] 2026-04-17T13:57:00.124Z - Setting status filter to: All
+[INFO] 2026-04-17T13:57:02.472Z - Status filter set to: All
+[STEP] 2026-04-17T13:57:02.472Z - Searching for: EditUpdated 1776434185548
+[INFO] 2026-04-17T13:57:04.627Z - Search completed for: EditUpdated 1776434185548
+[STEP] 2026-04-17T13:57:04.627Z - Fetching column values for: TASK
+[INFO] 2026-04-17T13:57:05.631Z - TASK values: EditUpdated 1776434185548
+[STEP] 2026-04-17T13:57:05.632Z - Fetching column values for: PRIORITY
+[INFO] 2026-04-17T13:57:06.637Z - PRIORITY values: HIGH
+[INFO] 2026-04-17T13:57:06.637Z - Updated priority: HIGH
+[STEP] 2026-04-17T13:57:06.637Z - Searching for: EditOriginal 1776434185548
+[INFO] 2026-04-17T13:57:08.846Z - Search completed for: EditOriginal 1776434185548
+[STEP] 2026-04-17T13:57:08.846Z - Fetching column values for: TASK
+[INFO] 2026-04-17T13:57:09.851Z - TASK values: 
+[INFO] 2026-04-17T13:57:09.851Z - E2E Edit complete: "EditOriginal 1776434185548" → "EditUpdated 1776434185548"

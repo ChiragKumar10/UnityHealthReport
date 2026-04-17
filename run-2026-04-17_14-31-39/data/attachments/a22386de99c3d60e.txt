@@ -1,0 +1,42 @@
+[STEP] 2026-04-17T13:54:11.655Z - Login to Provider Portal
+[STEP] 2026-04-17T13:54:12.035Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:54:12.035Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:54:13.469Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:54:13.608Z - Login attempt completed
+[STEP] 2026-04-17T13:54:16.677Z - Test: E2E Delete Task
+[STEP] 2026-04-17T13:54:16.677Z - Navigating to Task page
+[INFO] 2026-04-17T13:54:17.763Z - Navigated to Task page
+[STEP] 2026-04-17T13:54:17.763Z - Creating task: DeleteE2E 1776434057763
+[STEP] 2026-04-17T13:54:17.763Z - Clicking + Add Task button
+[INFO] 2026-04-17T13:54:18.406Z - Add Task form opened
+[INFO] 2026-04-17T13:54:36.778Z - Task "DeleteE2E 1776434057763" created successfully
+[STEP] 2026-04-17T13:54:36.778Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T13:54:38.346Z - My Tasks filter unchecked
+[STEP] 2026-04-17T13:54:38.347Z - Setting status filter to: All
+[INFO] 2026-04-17T13:54:40.758Z - Status filter set to: All
+[STEP] 2026-04-17T13:54:40.758Z - Searching for: DeleteE2E 1776434057763
+[INFO] 2026-04-17T13:54:42.827Z - Search completed for: DeleteE2E 1776434057763
+[STEP] 2026-04-17T13:54:42.827Z - Fetching column values for: TASK
+[INFO] 2026-04-17T13:54:43.831Z - TASK values: DeleteE2E 1776434057763
+[INFO] 2026-04-17T13:54:43.832Z - Task found before delete: DeleteE2E 1776434057763
+[STEP] 2026-04-17T13:54:43.832Z - Deleting task
+[STEP] 2026-04-17T13:54:43.832Z - Opening delete confirmation dialog
+[STEP] 2026-04-17T13:54:43.832Z - Clicking action menu on row 0
+[INFO] 2026-04-17T13:54:44.877Z - Action menu opened on row 0
+[STEP] 2026-04-17T13:54:44.877Z - Clicking action menu item: Delete
+[INFO] 2026-04-17T13:54:46.422Z - Clicked: Delete
+[INFO] 2026-04-17T13:54:46.426Z - Delete confirmation dialog opened
+[STEP] 2026-04-17T13:54:46.426Z - Clicking Delete to confirm deletion
+[INFO] 2026-04-17T13:54:49.462Z - Task deleted
+[STEP] 2026-04-17T13:54:49.462Z - Navigating to Task page
+[INFO] 2026-04-17T13:54:50.526Z - Navigated to Task page
+[STEP] 2026-04-17T13:54:50.526Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T13:54:50.531Z - My Tasks filter already unchecked
+[STEP] 2026-04-17T13:54:50.531Z - Setting status filter to: All
+[INFO] 2026-04-17T13:54:52.889Z - Status filter set to: All
+[STEP] 2026-04-17T13:54:52.889Z - Searching for: DeleteE2E 1776434057763
+[INFO] 2026-04-17T13:54:55.021Z - Search completed for: DeleteE2E 1776434057763
+[STEP] 2026-04-17T13:54:55.021Z - Fetching column values for: TASK
+[INFO] 2026-04-17T13:54:56.024Z - TASK values: 
+[INFO] 2026-04-17T13:54:56.027Z - No data found visible: true
+[INFO] 2026-04-17T13:54:56.027Z - E2E Delete complete: "DeleteE2E 1776434057763" removed from list

@@ -1,0 +1,34 @@
+[STEP] 2026-04-17T13:55:04.109Z - Login to Provider Portal
+[STEP] 2026-04-17T13:55:04.589Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:55:04.589Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:55:05.947Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:55:06.091Z - Login attempt completed
+[STEP] 2026-04-17T13:55:08.997Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-04-17T13:55:08.997Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-17T13:55:08.997Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:55:09.531Z - No drawer backdrop in DOM
+[INFO] 2026-04-17T13:55:10.043Z - Successfully on Care Team Work List
+[STEP] 2026-04-17T13:55:10.043Z - Selecting program tab: RTM
+[INFO] 2026-04-17T13:55:11.120Z - Successfully selected RTM tab
+[STEP] 2026-04-17T13:55:11.120Z - Clicking monitoring category: Alerts
+[STEP] 2026-04-17T13:55:12.290Z - Setting date filter to today
+[INFO] 2026-04-17T13:55:12.302Z - Changing date from "04-16-2026" to "04-17-2026"
+[INFO] 2026-04-17T13:55:13.387Z - Date filter set to: 04-17-2026
+[INFO] 2026-04-17T13:55:13.387Z - Switched to Alerts monitoring view
+[STEP] 2026-04-17T13:55:13.388Z - Test: Escalate alert from Action button
+[STEP] 2026-04-17T13:55:13.388Z - Getting first available patient from list
+[INFO] 2026-04-17T13:55:13.398Z - First available patient: "Automation, Test"
+[STEP] 2026-04-17T13:55:13.399Z - Escalating alert for "Automation, Test" via action
+[STEP] 2026-04-17T13:55:13.399Z - Opening action menu for: Automation, Test
+[INFO] 2026-04-17T13:55:14.488Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-04-17T13:55:15.565Z - Escalate button clicked, checking for dialog...
+[INFO] 2026-04-17T13:55:15.567Z - Escalation note input visible: true
+[INFO] 2026-04-17T13:55:15.586Z - Escalation note entered
+[INFO] 2026-04-17T13:55:15.592Z - Add button visible: true
+[INFO] 2026-04-17T13:55:17.668Z - Add button clicked
+[INFO] 2026-04-17T13:55:17.685Z - Escalation drawer still open — dismissing
+[STEP] 2026-04-17T13:55:17.685Z - Dismissing any open drawer
+[INFO] 2026-04-17T13:55:18.189Z - Found 1 backdrop(s) — attempting to dismiss
+[INFO] 2026-04-17T13:55:20.752Z - Drawer closed via Cancel button
+[INFO] 2026-04-17T13:55:20.752Z - Alert escalated for "Automation, Test" via action
+[INFO] 2026-04-17T13:55:20.752Z - Alert escalated from action button

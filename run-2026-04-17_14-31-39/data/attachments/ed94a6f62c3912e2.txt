@@ -1,0 +1,15 @@
+[STEP] 2026-04-17T14:20:44.736Z - Login to Provider Portal
+[STEP] 2026-04-17T14:20:45.123Z - Attempting to login to provider portal
+[STEP] 2026-04-17T14:20:45.123Z - Navigating to provider portal login page
+[INFO] 2026-04-17T14:20:46.515Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T14:20:46.642Z - Login attempt completed
+[STEP] 2026-04-17T14:20:49.537Z - Test: Verify OverDue filter
+[STEP] 2026-04-17T14:20:49.537Z - Navigating to Task page
+[INFO] 2026-04-17T14:20:50.641Z - Navigated to Task page
+[STEP] 2026-04-17T14:20:50.641Z - Setting status filter to: OverDue
+[INFO] 2026-04-17T14:20:53.049Z - Status filter set to: OverDue
+[STEP] 2026-04-17T14:20:53.050Z - Unchecking My Tasks filter
+[INFO] 2026-04-17T14:20:54.589Z - My Tasks filter unchecked
+[STEP] 2026-04-17T14:20:54.589Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-17T14:20:56.424Z - TASK STATUS values: OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue, OverDue
+[INFO] 2026-04-17T14:20:56.438Z - All displayed tasks have OverDue status

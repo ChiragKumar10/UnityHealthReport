@@ -1,0 +1,47 @@
+[STEP] 2026-04-17T13:47:56.563Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-17T13:47:56.945Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:47:56.945Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:47:58.341Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:47:58.472Z - Login attempt completed
+[STEP] 2026-04-17T13:48:01.376Z - Test: Verify delete removes user from list
+[STEP] 2026-04-17T13:48:01.376Z - Navigating to Settings page
+[INFO] 2026-04-17T13:48:02.473Z - Navigated to Settings page
+[STEP] 2026-04-17T13:48:02.473Z - Clicking Unity Users tab
+[INFO] 2026-04-17T13:48:03.640Z - Unity Users tab clicked
+[STEP] 2026-04-17T13:48:03.640Z - Adding Unity User: Autofirstqktodo Autolastqktodo
+[STEP] 2026-04-17T13:48:03.640Z - Clicking Add Unity User button
+[INFO] 2026-04-17T13:48:04.831Z - Add Unity User form opened
+[STEP] 2026-04-17T13:48:04.831Z - Filling Unity User form for: Autofirstqktodo Autolastqktodo
+[STEP] 2026-04-17T13:48:04.831Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-17T13:48:05.778Z - Selected: Care Coordinators
+[STEP] 2026-04-17T13:48:05.871Z - Selecting dropdown option: Male
+[INFO] 2026-04-17T13:48:06.811Z - Selected: Male
+[INFO] 2026-04-17T13:48:06.972Z - Form filled for: Autofirstqktodo Autolastqktodo
+[STEP] 2026-04-17T13:48:06.972Z - Clicking Save button
+[INFO] 2026-04-17T13:48:09.095Z - Save button clicked
+[INFO] 2026-04-17T13:48:09.100Z - Unity User 'Autofirstqktodo Autolastqktodo' added — form closed
+[STEP] 2026-04-17T13:48:09.100Z - Verifying user 'Autofirstqktodo Autolastqktodo' is visible in the list
+[STEP] 2026-04-17T13:48:09.100Z - Searching for user: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:10.141Z - Search completed for: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:10.497Z - User 'Autofirstqktodo Autolastqktodo' is visible in the list
+[STEP] 2026-04-17T13:48:10.498Z - Deleting Unity User: Autofirstqktodo Autolastqktodo
+[STEP] 2026-04-17T13:48:10.498Z - Clicking Delete for: Autofirstqktodo Autolastqktodo
+[STEP] 2026-04-17T13:48:10.498Z - Opening action menu for: Autofirstqktodo Autolastqktodo
+[STEP] 2026-04-17T13:48:10.498Z - Searching for user: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:11.511Z - Search completed for: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:12.537Z - Action menu opened
+[INFO] 2026-04-17T13:48:13.558Z - Delete clicked from menu
+[INFO] 2026-04-17T13:48:13.561Z - No confirmation dialog — user deleted directly
+[STEP] 2026-04-17T13:48:14.563Z - Clearing search box
+[INFO] 2026-04-17T13:48:15.079Z - Search cleared
+[INFO] 2026-04-17T13:48:15.079Z - Unity User 'Autofirstqktodo Autolastqktodo' deleted
+[STEP] 2026-04-17T13:48:15.079Z - Verifying user 'Autofirstqktodo Autolastqktodo' is NOT in the list
+[STEP] 2026-04-17T13:48:15.079Z - Clearing search box
+[INFO] 2026-04-17T13:48:15.588Z - Search cleared
+[STEP] 2026-04-17T13:48:15.588Z - Searching for user: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:16.677Z - Search completed for: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:16.689Z - User 'Autofirstqktodo Autolastqktodo' is not in the list
+[INFO] 2026-04-17T13:48:16.689Z - User removed from list after delete
+[STEP] 2026-04-17T13:48:16.689Z - Searching for user: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:17.703Z - Search completed for: Autofirstqktodo Autolastqktodo
+[INFO] 2026-04-17T13:48:17.706Z - Delete action verified — user no longer in system

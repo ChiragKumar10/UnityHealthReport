@@ -1,0 +1,41 @@
+[STEP] 2026-04-17T13:50:59.485Z - Login to Provider Portal
+[STEP] 2026-04-17T13:50:59.895Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:50:59.895Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:51:01.210Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:51:01.386Z - Login attempt completed
+[STEP] 2026-04-17T13:51:04.666Z - Test: Create alert → Verify appears in both Alerts page and Monitoring summary
+[STEP] 2026-04-17T13:51:04.667Z - Navigating to Monitoring Alerts (Work List > Care Team Work List > RTM > Alerts)
+[INFO] 2026-04-17T13:51:09.021Z - Navigated to Monitoring Alerts
+[INFO] 2026-04-17T13:51:09.024Z - Monitoring Alerts summary before: Alerts
+[STEP] 2026-04-17T13:51:09.024Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-17T13:51:11.466Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-17T13:51:11.466Z - Navigating to Vitals tab
+[INFO] 2026-04-17T13:51:11.636Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-17T13:51:11.637Z - Adding vital: Pain Scale with value 218
+[STEP] 2026-04-17T13:51:11.637Z - Clicking Add Vital button
+[INFO] 2026-04-17T13:51:11.891Z - Add Vital form opened
+[STEP] 2026-04-17T13:51:11.891Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-17T13:51:12.771Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-17T13:51:12.771Z - Entering vital value: 218
+[INFO] 2026-04-17T13:51:17.802Z - Successfully entered vital value: 218
+[STEP] 2026-04-17T13:51:17.802Z - Saving vital
+[INFO] 2026-04-17T13:51:17.867Z - Successfully saved vital
+[INFO] 2026-04-17T13:51:17.867Z - Successfully added vital: Pain Scale with value 218
+[INFO] 2026-04-17T13:51:17.867Z - Pain Scale vital added with value: 218
+[STEP] 2026-04-17T13:51:17.868Z - Navigating to Alerts page
+[INFO] 2026-04-17T13:51:19.224Z - Navigated to Alerts page
+[STEP] 2026-04-17T13:51:19.225Z - Verifying alert exists for patient: Automation, Test
+[STEP] 2026-04-17T13:51:19.225Z - Clearing search
+[INFO] 2026-04-17T13:51:20.760Z - Search cleared
+[STEP] 2026-04-17T13:51:20.760Z - Searching alerts for: Automation
+[INFO] 2026-04-17T13:51:22.303Z - Search completed for: Automation
+[STEP] 2026-04-17T13:51:22.303Z - Getting alert row count
+[INFO] 2026-04-17T13:51:23.310Z - Alert row count: 4
+[STEP] 2026-04-17T13:51:23.310Z - Getting cell text at row 1, column 2
+[INFO] 2026-04-17T13:51:23.320Z - Cell text: Pain Scale
+[INFO] 2026-04-17T13:51:23.320Z - Alert type "Pain Scale" found for patient: Automation, Test
+[INFO] 2026-04-17T13:51:23.321Z - Alert verified on Alerts page
+[STEP] 2026-04-17T13:51:23.321Z - Navigating to Monitoring Alerts (Work List > Care Team Work List > RTM > Alerts)
+[INFO] 2026-04-17T13:51:27.446Z - Navigated to Monitoring Alerts
+[INFO] 2026-04-17T13:51:27.451Z - Monitoring Alerts summary after: 1 Alerts
+[INFO] 2026-04-17T13:51:27.452Z - Cross-feature verified: Alert visible on both Alerts page and Monitoring summary

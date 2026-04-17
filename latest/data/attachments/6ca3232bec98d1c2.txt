@@ -1,0 +1,140 @@
+[STEP] 2026-04-17T13:58:16.929Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-04-17T13:58:16.930Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-17T13:58:16.930Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:58:16.930Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:58:18.411Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:58:18.554Z - Login attempt completed
+[STEP] 2026-04-17T13:58:21.037Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:58:23.089Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-04-17T13:58:26.093Z - Adding new enrollment
+[INFO] 2026-04-17T13:58:32.361Z - Found 20 patients matching 'w'
+[INFO] 2026-04-17T13:58:33.821Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Krajcik, Willie  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:58:39.725Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:58:54.771Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-17T13:58:58.897Z - Found 20 patients matching 'k'
+New patient selected: Blick, Cameron 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Blick, Cameron  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:59:02.924Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:59:17.961Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-17T13:59:22.074Z - Found 42 patients matching 'a'
+New patient selected: FriesenWilliamson, Eleanor 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: FriesenWilliamson, Eleanor  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:59:26.061Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-17T13:59:41.089Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-17T13:59:45.218Z - Found 16 patients matching 'v'
+New patient selected: Predovic, Demario 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Predovic, Demario  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-17T13:59:49.274Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-17T13:59:49.290Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Predovic, Demario
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Dayton Nolan
+  Care Manager: Autofirstafhhxz Autolastafhhxz
+[INFO] 2026-04-17T13:59:49.291Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Predovic, Demario
+Program: Remote Patient Monitoring (RPM)
+Provider: Dayton Nolan
+Care Manager: Autofirstafhhxz Autolastafhhxz
+[STEP] 2026-04-17T13:59:49.291Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:59:51.335Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Remote Patient Monitoring (RPM)"
+Extracted program short: "RPM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "RPM"
+✓ Program tab "RPM" found
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Predovic
+Total rows in NEW section: 3
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: Predovic, Demario720-731-945904-16-2026SelfPay
+✓ Patient found in NEW section at row 2 (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 2
+[STEP] 2026-04-17T14:00:17.118Z - Navigating to Enrollment section
+[INFO] 2026-04-17T14:00:19.171Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Predovic
+Total rows in ACTIVE section: 2
+Row 0: NAME ▲DOBENROLLED DATECARE MANAGERPROVIDERINSURANCE NAMETYPE OF MOBILEDOCUMENT SIGNEDHEALTH CONNECTACTION
+Row 1: Predovic, Demario12-21-202304-17-2026Autofirstafhhxz AutolastafhhxzDayton NolanSelfPay-
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===
+✓ Patient Name: Predovic - Displayed
+✓ Provider: Dayton Nolan - Displayed
+✓ Care Manager: Autofirstafhhxz Autolastafhhxz - Displayed
+Total rows in NEW section after move: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: PredovicAuer, Arturo862-849-368204-16-2026SelfPay
+
+=== WORKLIST NEW SECTION VALIDATION (AFTER MOVE TO ACTIVE) ===
+Patient found in NEW section at row 2
+
+=== CHECKBOX VALIDATION (AFTER MOVE TO ACTIVE) ===
+Total checkboxes found: 6

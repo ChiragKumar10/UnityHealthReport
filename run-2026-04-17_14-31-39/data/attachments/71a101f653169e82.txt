@@ -1,0 +1,22 @@
+[STEP] 2026-04-17T13:51:50.005Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-17T13:51:50.005Z - Attempting to login to provider portal
+[STEP] 2026-04-17T13:51:50.005Z - Navigating to provider portal login page
+[INFO] 2026-04-17T13:51:51.743Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-17T13:51:51.892Z - Login attempt completed
+[STEP] 2026-04-17T13:51:54.372Z - Navigating to Enrollment section
+[INFO] 2026-04-17T13:51:56.421Z - Navigated to Enrollment section
+[INFO] 2026-04-17T13:51:56.421Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-17T13:51:56.423Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-04-17T13:51:56.423Z - Selected random status: Active
+[INFO] 2026-04-17T13:51:56.423Z - Selected random program: Chronic Care Management (CCM)
+[INFO] 2026-04-17T13:51:56.424Z - Applying combined filters - Status: Active, Program: Chronic Care Management (CCM)
+[STEP] 2026-04-17T13:51:56.424Z - Applying status filter: Active
+[INFO] 2026-04-17T13:52:02.589Z - Status filter 'Active' applied successfully
+[STEP] 2026-04-17T13:52:02.589Z - Applying program filter: Chronic Care Management (CCM)
+[INFO] 2026-04-17T13:52:08.731Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-04-17T13:52:08.731Z - Retrieving filtered enrollment results
+[INFO] 2026-04-17T13:52:11.265Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Hamill, Carlton - CCM - active
+Record 2 Verified: Johnson, Stacey - CCM - active
+Record 3 Verified: OConner, Ella - CCM - active
+[INFO] 2026-04-17T13:52:11.270Z - Combined Status + Program filter verification completed - 3 records verified
