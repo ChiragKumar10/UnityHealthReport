@@ -1,0 +1,51 @@
+[STEP] 2026-04-20T06:51:52.572Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:51:52.575Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:51:53.880Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:51:54.037Z - Login attempt completed
+[STEP] 2026-04-20T06:51:57.052Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-04-20T06:51:57.054Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:51:59.135Z - Navigated to Enrollment section
+[STEP] 2026-04-20T06:51:59.139Z - Adding new enrollment
+[INFO] 2026-04-20T06:52:06.360Z - Found 20 patients matching 'e'
+[INFO] 2026-04-20T06:52:07.816Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Prohaska, Constance  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-20T06:52:13.551Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-20T06:52:13.560Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-20T06:52:18.240Z - Found 20 patients matching 'd'
+New patient selected: Nader, Kathlyn 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Nader, Kathlyn  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-20T06:52:22.242Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-20T06:52:22.254Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Nader, Kathlyn
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: sarvesh test
+  Care Manager: Autofirstahftmh Autolastahftmh
+[INFO] 2026-04-20T06:52:22.254Z - Enrollment form submitted successfully
+[INFO] 2026-04-20T06:52:22.255Z - Enrolled: Nader, Kathlyn in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-20T06:52:22.255Z - Verifying patient in Worklist NEW section
+✓ Patient "Nader, Kathlyn" found in Worklist > RTM > NEW section
+[INFO] 2026-04-20T06:52:43.093Z - Patient verified in Worklist > RTM > NEW section
+[INFO] 2026-04-20T06:52:43.096Z - Patient verified in Work List > RTM > New section
+[STEP] 2026-04-20T06:52:48.444Z - Navigating to RTM tab
+[INFO] 2026-04-20T06:52:48.553Z - Successfully navigated to RTM tab
+[STEP] 2026-04-20T06:52:48.553Z - Selecting Week 1
+[INFO] 2026-04-20T06:52:49.670Z - Successfully selected Week 1

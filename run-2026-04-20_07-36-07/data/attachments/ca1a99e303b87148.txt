@@ -1,0 +1,44 @@
+[STEP] 2026-04-20T07:19:32.759Z - Login to Provider Portal
+[STEP] 2026-04-20T07:19:33.156Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:19:33.156Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:19:34.321Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:19:34.459Z - Login attempt completed
+[STEP] 2026-04-20T07:19:37.366Z - Test: Create task for one user, verify assignment filter
+[STEP] 2026-04-20T07:19:37.366Z - Navigating to Task page
+[INFO] 2026-04-20T07:19:38.438Z - Navigated to Task page
+[INFO] 2026-04-20T07:19:38.442Z - Logged-in user: chirag kumar
+[STEP] 2026-04-20T07:19:38.442Z - Creating task with reminder: ReassignMe 1776669578442
+[STEP] 2026-04-20T07:19:38.442Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:19:39.076Z - Add Task form opened
+[STEP] 2026-04-20T07:19:55.600Z - Selecting "Email" from combobox index 7
+[INFO] 2026-04-20T07:19:56.989Z - Selected "Email" from combobox 7
+[STEP] 2026-04-20T07:19:56.989Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-04-20T07:19:58.392Z - Selected "5 Days" from combobox 8
+[INFO] 2026-04-20T07:20:01.470Z - Task "ReassignMe 1776669578442" with reminder created successfully
+[STEP] 2026-04-20T07:20:01.470Z - Creating task with reminder: ReassignOther 1776669578442
+[STEP] 2026-04-20T07:20:01.470Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:20:02.140Z - Add Task form opened
+[STEP] 2026-04-20T07:20:18.550Z - Selecting "SMS" from combobox index 7
+[INFO] 2026-04-20T07:20:19.940Z - Selected "SMS" from combobox 7
+[STEP] 2026-04-20T07:20:19.940Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-04-20T07:20:21.340Z - Selected "5 Days" from combobox 8
+[INFO] 2026-04-20T07:20:24.415Z - Task "ReassignOther 1776669578442" with reminder created successfully
+[STEP] 2026-04-20T07:20:24.415Z - Navigating to Task page
+[INFO] 2026-04-20T07:20:25.516Z - Navigated to Task page
+[STEP] 2026-04-20T07:20:25.516Z - Searching for: 1776669578442
+[INFO] 2026-04-20T07:20:27.581Z - Search completed for: 1776669578442
+[STEP] 2026-04-20T07:20:27.581Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:20:28.585Z - TASK values: ReassignMe 1776669578442
+[STEP] 2026-04-20T07:20:28.585Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T07:20:29.589Z - ASSIGNED TO values: chirag kumar
+[STEP] 2026-04-20T07:20:29.590Z - Clearing search
+[INFO] 2026-04-20T07:20:31.108Z - Search cleared
+[STEP] 2026-04-20T07:20:31.108Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:20:32.649Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:20:32.650Z - Setting status filter to: All
+[INFO] 2026-04-20T07:20:35.062Z - Status filter set to: All
+[STEP] 2026-04-20T07:20:35.062Z - Searching for: 1776669578442
+[INFO] 2026-04-20T07:20:37.130Z - Search completed for: 1776669578442
+[STEP] 2026-04-20T07:20:37.130Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:20:38.134Z - TASK values: ReassignMe 1776669578442, ReassignOther 1776669578442
+[INFO] 2026-04-20T07:20:38.136Z - Reassignment filter verified — My Tasks shows only assigned user tasks

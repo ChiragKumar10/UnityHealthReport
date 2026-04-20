@@ -1,0 +1,62 @@
+[STEP] 2026-04-20T07:00:35.090Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-04-20T07:00:35.090Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-20T07:00:35.090Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:00:35.090Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:00:36.946Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:00:37.079Z - Login attempt completed
+[STEP] 2026-04-20T07:00:40.264Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:00:42.304Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Kuvalis, Jamie
+Program: PCM
+Care Manager: Autofirstbddpia Autolastbddpia
+Provider: John  Doe
+Service Type Short: PCM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstbddpia Autolastbddpia
+Initial Provider: John  Doe
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 4
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: PCMAutofirstbddpia AutolastbddpiaJohn  DoeF25382-Aut...+204-20-2026-04-20-2026ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: PCM
+Checking for Provider: John
+Checking for Care Manager: Autofirstbddpia
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial Provider and Care Manager verified in Patient 360
+[STEP] 2026-04-20T07:01:21.484Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:01:23.540Z - Navigated to Enrollment section
+Checked new ICD: (P95252) - Condition-5kstru6j-1776342360358 - Automated test description - l5r2wdxpzqp
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: Anny vate
+Updated Care Manager: Autofirstaywlrz Autolastaywlrz
+Updated ICD Code: (P95252) - Condition-5kstru6j-1776342360358 - Automated test description - l5r2wdxpzqp
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 4
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDPLANACTION
+Row 2 text: PCMAutofirstaywlrz AutolastaywlrzAnny vateF25382-Aut...+304-20-2026-04-20-2026ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: PCM
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

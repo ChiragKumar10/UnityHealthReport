@@ -1,0 +1,78 @@
+[STEP] 2026-04-20T06:46:11.526Z - beforeAll: Login and create shared care plan
+[STEP] 2026-04-20T06:46:12.200Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:46:12.201Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:46:13.400Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:46:13.570Z - Login attempt completed
+[STEP] 2026-04-20T06:46:16.725Z - Opening CCM Library
+[INFO] 2026-04-20T06:46:17.883Z - Successfully opened CCM Library
+[STEP] 2026-04-20T06:46:17.884Z - Opening Care Plan section
+[INFO] 2026-04-20T06:46:18.934Z - Successfully opened Care Plan section
+[STEP] 2026-04-20T06:46:18.934Z - Creating minimal care plan: Shared Plan 1776667571526
+[STEP] 2026-04-20T06:46:18.934Z - Clicking Create Care Plan button
+[INFO] 2026-04-20T06:46:21.068Z - Create Care Plan form opened
+[STEP] 2026-04-20T06:46:21.068Z - Selecting diagnosis code: A001
+[INFO] 2026-04-20T06:46:25.020Z - Diagnosis code 'A001' selected
+[STEP] 2026-04-20T06:46:25.020Z - Filling care plan name: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:46:25.043Z - Care plan name filled: Shared Plan 1776667571526
+[STEP] 2026-04-20T06:46:25.044Z - Selecting section: Overview
+[INFO] 2026-04-20T06:46:25.453Z - Section 'Overview' selected
+[STEP] 2026-04-20T06:46:25.453Z - Selecting section: Long Term Goals
+[INFO] 2026-04-20T06:46:25.811Z - Section 'Long Term Goals' selected
+[STEP] 2026-04-20T06:46:25.811Z - Clicking Next button
+[INFO] 2026-04-20T06:46:27.866Z - Next button clicked
+[STEP] 2026-04-20T06:46:27.866Z - Filling Overview section
+[INFO] 2026-04-20T06:46:27.885Z - Care Plan header filled
+[INFO] 2026-04-20T06:46:27.912Z - Care Plan footer filled
+[STEP] 2026-04-20T06:46:27.913Z - Clicking Next button
+[INFO] 2026-04-20T06:46:30.013Z - Next button clicked
+[STEP] 2026-04-20T06:46:30.013Z - Filling goal section - Title: Shared Goal, Type: Free Text
+[INFO] 2026-04-20T06:46:30.032Z - Section note filled
+[INFO] 2026-04-20T06:46:30.059Z - Goal title filled: Shared Goal
+[INFO] 2026-04-20T06:46:31.716Z - Goal type selected: Free Text
+[STEP] 2026-04-20T06:46:31.717Z - Clicking Finish button
+[INFO] 2026-04-20T06:46:33.801Z - Finish button clicked - Care plan saved
+[INFO] 2026-04-20T06:46:33.801Z - Minimal care plan 'Shared Plan 1776667571526' created
+[STEP] 2026-04-20T06:46:33.802Z - Verifying care plan 'Shared Plan 1776667571526' is visible in the list
+[STEP] 2026-04-20T06:46:33.802Z - Searching for care plan: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:46:34.352Z - Search completed for care plan: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:46:35.225Z - Care plan 'Shared Plan 1776667571526' is visible in the list
+[INFO] 2026-04-20T06:46:35.225Z - beforeAll: Shared care plan 'Shared Plan 1776667571526' created
+[STEP] 2026-04-20T06:46:35.366Z - Login to Provider Portal
+[STEP] 2026-04-20T06:46:35.775Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:46:35.775Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:46:36.945Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:46:37.097Z - Login attempt completed
+[STEP] 2026-04-20T06:46:52.350Z - afterAll: Cleanup - deleting all created care plans
+[STEP] 2026-04-20T06:46:52.751Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:46:52.751Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:46:53.914Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:46:54.046Z - Login attempt completed
+[STEP] 2026-04-20T06:46:57.140Z - Opening CCM Library
+[INFO] 2026-04-20T06:46:58.215Z - Successfully opened CCM Library
+[STEP] 2026-04-20T06:46:58.215Z - Opening Care Plan section
+[INFO] 2026-04-20T06:46:59.263Z - Successfully opened Care Plan section
+[STEP] 2026-04-20T06:46:59.263Z - Searching for care plan: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:46:59.809Z - Search completed for care plan: Shared Plan 1776667571526
+[STEP] 2026-04-20T06:47:00.613Z - Deleting care plan: Shared Plan 1776667571526
+[STEP] 2026-04-20T06:47:00.613Z - Clicking Delete for: Shared Plan 1776667571526
+[STEP] 2026-04-20T06:47:00.613Z - Searching for care plan: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:47:01.137Z - Search completed for care plan: Shared Plan 1776667571526
+[STEP] 2026-04-20T06:47:01.137Z - Opening action menu for: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:47:02.171Z - Action menu opened
+[INFO] 2026-04-20T06:47:03.212Z - Delete dialog opened
+[STEP] 2026-04-20T06:47:03.213Z - Confirming delete
+[STEP] 2026-04-20T06:47:05.247Z - Clearing search box
+[INFO] 2026-04-20T06:47:05.772Z - Search cleared
+[INFO] 2026-04-20T06:47:05.772Z - Delete confirmed
+[INFO] 2026-04-20T06:47:05.772Z - Care plan 'Shared Plan 1776667571526' deleted
+[INFO] 2026-04-20T06:47:05.772Z - afterAll: Deleted 'Shared Plan 1776667571526'
+[STEP] 2026-04-20T06:47:05.772Z - Clearing search box
+[INFO] 2026-04-20T06:47:06.281Z - Search cleared
+[STEP] 2026-04-20T06:47:06.282Z - Toggling Show Archived checkbox
+[INFO] 2026-04-20T06:47:08.703Z - Show Archived toggled
+[STEP] 2026-04-20T06:47:08.703Z - Searching for care plan: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:47:09.236Z - Search completed for care plan: Shared Plan 1776667571526
+[INFO] 2026-04-20T06:47:12.238Z - afterAll: Skipped archived 'Shared Plan 1776667571526'
+[STEP] 2026-04-20T06:47:12.238Z - Clearing search box
+[INFO] 2026-04-20T06:47:12.771Z - Search cleared
+[INFO] 2026-04-20T06:47:12.771Z - afterAll: Cleanup completed. Processed 1 care plans.

@@ -1,0 +1,47 @@
+[STEP] 2026-04-20T06:52:50.254Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-20T06:52:50.677Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:52:50.677Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:52:51.882Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:52:52.010Z - Login attempt completed
+[STEP] 2026-04-20T06:52:55.030Z - Test: Verify delete removes user from list
+[STEP] 2026-04-20T06:52:55.030Z - Navigating to Settings page
+[INFO] 2026-04-20T06:52:56.139Z - Navigated to Settings page
+[STEP] 2026-04-20T06:52:56.139Z - Clicking Unity Users tab
+[INFO] 2026-04-20T06:52:57.277Z - Unity Users tab clicked
+[STEP] 2026-04-20T06:52:57.277Z - Adding Unity User: Autofirstarbhwh Autolastarbhwh
+[STEP] 2026-04-20T06:52:57.277Z - Clicking Add Unity User button
+[INFO] 2026-04-20T06:52:58.471Z - Add Unity User form opened
+[STEP] 2026-04-20T06:52:58.471Z - Filling Unity User form for: Autofirstarbhwh Autolastarbhwh
+[STEP] 2026-04-20T06:52:58.471Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-20T06:52:59.413Z - Selected: Care Coordinators
+[STEP] 2026-04-20T06:52:59.499Z - Selecting dropdown option: Male
+[INFO] 2026-04-20T06:53:00.436Z - Selected: Male
+[INFO] 2026-04-20T06:53:00.591Z - Form filled for: Autofirstarbhwh Autolastarbhwh
+[STEP] 2026-04-20T06:53:00.591Z - Clicking Save button
+[INFO] 2026-04-20T06:53:02.698Z - Save button clicked
+[INFO] 2026-04-20T06:53:02.704Z - Unity User 'Autofirstarbhwh Autolastarbhwh' added — form closed
+[STEP] 2026-04-20T06:53:02.704Z - Verifying user 'Autofirstarbhwh Autolastarbhwh' is visible in the list
+[STEP] 2026-04-20T06:53:02.704Z - Searching for user: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:03.742Z - Search completed for: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:03.863Z - User 'Autofirstarbhwh Autolastarbhwh' is visible in the list
+[STEP] 2026-04-20T06:53:03.863Z - Deleting Unity User: Autofirstarbhwh Autolastarbhwh
+[STEP] 2026-04-20T06:53:03.863Z - Clicking Delete for: Autofirstarbhwh Autolastarbhwh
+[STEP] 2026-04-20T06:53:03.863Z - Opening action menu for: Autofirstarbhwh Autolastarbhwh
+[STEP] 2026-04-20T06:53:03.863Z - Searching for user: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:04.874Z - Search completed for: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:05.899Z - Action menu opened
+[INFO] 2026-04-20T06:53:06.927Z - Delete clicked from menu
+[INFO] 2026-04-20T06:53:06.930Z - No confirmation dialog — user deleted directly
+[STEP] 2026-04-20T06:53:07.933Z - Clearing search box
+[INFO] 2026-04-20T06:53:08.451Z - Search cleared
+[INFO] 2026-04-20T06:53:08.451Z - Unity User 'Autofirstarbhwh Autolastarbhwh' deleted
+[STEP] 2026-04-20T06:53:08.451Z - Verifying user 'Autofirstarbhwh Autolastarbhwh' is NOT in the list
+[STEP] 2026-04-20T06:53:08.451Z - Clearing search box
+[INFO] 2026-04-20T06:53:08.961Z - Search cleared
+[STEP] 2026-04-20T06:53:08.961Z - Searching for user: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:10.063Z - Search completed for: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:10.068Z - User 'Autofirstarbhwh Autolastarbhwh' is not in the list
+[INFO] 2026-04-20T06:53:10.068Z - User removed from list after delete
+[STEP] 2026-04-20T06:53:10.068Z - Searching for user: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:11.080Z - Search completed for: Autofirstarbhwh Autolastarbhwh
+[INFO] 2026-04-20T06:53:11.084Z - Delete action verified — user no longer in system

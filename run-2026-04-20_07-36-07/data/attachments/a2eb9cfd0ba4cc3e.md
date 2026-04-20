@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - img "Logo" [ref=e9]
+  - generic [ref=e11]:
+    - list [ref=e13]:
+      - listitem [ref=e14] [cursor=pointer]:
+        - img [ref=e16]
+        - generic [ref=e19]: Providers Group
+      - listitem [ref=e20] [cursor=pointer]:
+        - img [ref=e22]
+        - generic [ref=e25]: Library
+      - listitem [ref=e26] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e31]: Training Library
+      - listitem [ref=e32] [cursor=pointer]:
+        - img [ref=e34]
+        - generic [ref=e37]: Settings
+      - listitem [ref=e38] [cursor=pointer]:
+        - img [ref=e40]
+        - generic [ref=e42]: Logout
+    - generic [ref=e43]:
+      - paragraph [ref=e44]: Super Admin
+      - paragraph [ref=e45]: kale.sunit@thinkitive.com
+      - generic [ref=e46]:
+        - img [ref=e47]
+        - paragraph
+    - listitem [ref=e50] [cursor=pointer]:
+      - img [ref=e52]
+  - main [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - tablist [ref=e61]:
+          - tab "Conditions" [ref=e62] [cursor=pointer]
+          - tab "Templates" [ref=e63] [cursor=pointer]
+          - tab "Care Plan" [ref=e64] [cursor=pointer]
+          - tab "Assessment" [ref=e65] [cursor=pointer]
+          - tab "Care Plan (PCM)" [ref=e66] [cursor=pointer]
+          - tab "Assessment (PCM)" [selected] [ref=e67] [cursor=pointer]
+          - tab "Assessment (RPM)" [ref=e68] [cursor=pointer]
+          - tab "Assessment (RTM)" [ref=e69] [cursor=pointer]
+        - generic [ref=e71]:
+          - generic [ref=e74]:
+            - img [ref=e76]
+            - textbox "Type here to search" [ref=e78]
+            - group
+          - button "Add Assessment (PCM)" [ref=e79] [cursor=pointer]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic "SR NO" [ref=e85]
+          - generic "TITLE" [ref=e87]
+          - generic "DESCRIPTION" [ref=e89]
+          - generic "CREATED DATE" [ref=e91]
+          - generic "ASSESSMENT TYPE" [ref=e93]
+          - generic "ACTION" [ref=e95]
+        - generic [ref=e96]:
+          - generic "01" [ref=e98] [cursor=pointer]
+          - generic [ref=e101]: PCM-Assessment-1771847506449-841
+          - generic "PCM Assessment" [ref=e103] [cursor=pointer]
+          - generic "02-23-2026" [ref=e105] [cursor=pointer]
+          - generic "Q&A" [ref=e107] [cursor=pointer]
+          - img [ref=e112] [cursor=pointer]
+        - generic [ref=e114]:
+          - generic "02" [ref=e116] [cursor=pointer]
+          - generic [ref=e119]: PCM-Assessment-1772093842225-494
+          - generic "PCM Assessment" [ref=e121] [cursor=pointer]
+          - generic "02-26-2026" [ref=e123] [cursor=pointer]
+          - generic "Q&A" [ref=e125] [cursor=pointer]
+          - img [ref=e130] [cursor=pointer]
+        - generic [ref=e132]:
+          - generic "03" [ref=e134] [cursor=pointer]
+          - generic [ref=e137]: PCM-Assessment-1776343192405-463
+          - generic "PCM Assessment" [ref=e139] [cursor=pointer]
+          - generic "04-16-2026" [ref=e141] [cursor=pointer]
+          - generic "Q&A" [ref=e143] [cursor=pointer]
+          - img [ref=e148] [cursor=pointer]
+        - generic [ref=e150]:
+          - generic "04" [ref=e152] [cursor=pointer]
+          - generic [ref=e155]: PCM-Assessment-1776667627300-191
+          - generic "PCM Assessment" [ref=e157] [cursor=pointer]
+          - generic "04-20-2026" [ref=e159] [cursor=pointer]
+          - generic "Q&A" [ref=e161] [cursor=pointer]
+          - img [ref=e166] [cursor=pointer]
+```

@@ -1,0 +1,35 @@
+[STEP] 2026-04-20T06:59:57.173Z - Test 2: Verify complete modify enrollment workflow - ICD, Care Manager, Provider, Insurance
+[INFO] 2026-04-20T06:59:57.174Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-20T06:59:57.174Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:59:57.174Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:59:58.825Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:59:58.965Z - Login attempt completed
+[STEP] 2026-04-20T07:00:02.135Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:00:04.172Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 5
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Kuvalis, Jamie
+Program: PCM
+Initial ICD Codes: F25382-Aut...+1
+Care Manager: Autofirstatjlcy Autolastatjlcy
+Provider: sarvesh test
+
+=== CAPTURING INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: Autofirstatjlcy Autolastatjlcy
+Initial Provider: sarvesh test
+
+=== UPDATED ENROLLMENT ===
+Updated ICD Code: (V18916) - Condition-qehg5f4b-1776321232654 - Automated test description - atb7r57vtxh
+Updated Care Manager: Autofirstbddpia Autolastbddpia
+Updated Provider: John  Doe
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== ENROLLMENT LIST VALIDATION ===
+⚠️  LIMITATION: Multiple ICDs present - cannot verify specific ICD in truncated display
+✓ ICD update completed in form
+✓ Care Manager and Provider updated successfully

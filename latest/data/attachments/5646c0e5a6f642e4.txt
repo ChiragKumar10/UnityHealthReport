@@ -1,0 +1,51 @@
+[STEP] 2026-04-20T06:50:13.571Z - Login to Provider Portal
+[STEP] 2026-04-20T06:50:14.054Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:50:14.054Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:50:15.203Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:50:15.342Z - Login attempt completed
+[STEP] 2026-04-20T06:50:18.339Z - Test: Create tasks per action type and verify
+[STEP] 2026-04-20T06:50:18.339Z - Navigating to Task page
+[INFO] 2026-04-20T06:50:19.456Z - Navigated to Task page
+[STEP] 2026-04-20T06:50:19.456Z - Creating task: Call Act 1776667819456
+[STEP] 2026-04-20T06:50:19.456Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:50:20.119Z - Add Task form opened
+[INFO] 2026-04-20T06:50:38.631Z - Task "Call Act 1776667819456" created successfully
+[INFO] 2026-04-20T06:50:38.631Z - Created task: Call Act 1776667819456
+[STEP] 2026-04-20T06:50:38.631Z - Creating task: Message Act 1776667819456
+[STEP] 2026-04-20T06:50:38.631Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:50:39.331Z - Add Task form opened
+[INFO] 2026-04-20T06:50:57.680Z - Task "Message Act 1776667819456" created successfully
+[INFO] 2026-04-20T06:50:57.680Z - Created task: Message Act 1776667819456
+[STEP] 2026-04-20T06:50:57.680Z - Creating task: Email Act 1776667819456
+[STEP] 2026-04-20T06:50:57.680Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:50:58.348Z - Add Task form opened
+[INFO] 2026-04-20T06:51:16.685Z - Task "Email Act 1776667819456" created successfully
+[INFO] 2026-04-20T06:51:16.685Z - Created task: Email Act 1776667819456
+[STEP] 2026-04-20T06:51:16.685Z - Creating task: SMS Act 1776667819456
+[STEP] 2026-04-20T06:51:16.685Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:51:17.398Z - Add Task form opened
+[INFO] 2026-04-20T06:51:35.799Z - Task "SMS Act 1776667819456" created successfully
+[INFO] 2026-04-20T06:51:35.799Z - Created task: SMS Act 1776667819456
+[STEP] 2026-04-20T06:51:35.799Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T06:51:37.368Z - My Tasks filter unchecked
+[STEP] 2026-04-20T06:51:37.368Z - Setting status filter to: All
+[INFO] 2026-04-20T06:51:39.785Z - Status filter set to: All
+[STEP] 2026-04-20T06:51:39.785Z - Searching for: Call Act 1776667819456
+[INFO] 2026-04-20T06:51:41.857Z - Search completed for: Call Act 1776667819456
+[STEP] 2026-04-20T06:51:41.857Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:51:42.862Z - TASK values: Call Act 1776667819456
+[STEP] 2026-04-20T06:51:42.863Z - Searching for: Message Act 1776667819456
+[INFO] 2026-04-20T06:51:44.921Z - Search completed for: Message Act 1776667819456
+[STEP] 2026-04-20T06:51:44.921Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:51:45.925Z - TASK values: Message Act 1776667819456
+[STEP] 2026-04-20T06:51:45.926Z - Searching for: Email Act 1776667819456
+[INFO] 2026-04-20T06:51:48.224Z - Search completed for: Email Act 1776667819456
+[STEP] 2026-04-20T06:51:48.224Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:51:49.230Z - TASK values: Email Act 1776667819456
+[STEP] 2026-04-20T06:51:49.232Z - Searching for: SMS Act 1776667819456
+[INFO] 2026-04-20T06:51:51.368Z - Search completed for: SMS Act 1776667819456
+[STEP] 2026-04-20T06:51:51.368Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:51:52.372Z - TASK values: SMS Act 1776667819456
+[STEP] 2026-04-20T06:51:52.373Z - Clearing search
+[INFO] 2026-04-20T06:51:53.890Z - Search cleared
+[INFO] 2026-04-20T06:51:53.890Z - All 4 action type tasks verified in the list

@@ -1,0 +1,56 @@
+[STEP] 2026-04-20T06:55:13.278Z - Login to Provider Portal
+[STEP] 2026-04-20T06:55:13.676Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:55:13.676Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:55:14.834Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:55:14.967Z - Login attempt completed
+[STEP] 2026-04-20T06:55:18.002Z - Test: Create alert → Resolve on Alerts page → Verify Resolved count in Monitoring
+[STEP] 2026-04-20T06:55:18.002Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-20T06:55:21.037Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-04-20T06:55:21.038Z - Navigating to Vitals tab
+[INFO] 2026-04-20T06:55:21.198Z - Successfully navigated to Vitals tab
+[STEP] 2026-04-20T06:55:21.198Z - Adding vital: Pain Scale with value 401
+[STEP] 2026-04-20T06:55:21.198Z - Clicking Add Vital button
+[INFO] 2026-04-20T06:55:21.394Z - Add Vital form opened
+[STEP] 2026-04-20T06:55:21.394Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-20T06:55:22.268Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-20T06:55:22.268Z - Entering vital value: 401
+[INFO] 2026-04-20T06:55:27.298Z - Successfully entered vital value: 401
+[STEP] 2026-04-20T06:55:27.298Z - Saving vital
+[INFO] 2026-04-20T06:55:27.363Z - Successfully saved vital
+[INFO] 2026-04-20T06:55:27.363Z - Successfully added vital: Pain Scale with value 401
+[INFO] 2026-04-20T06:55:27.363Z - Pain Scale vital added with value: 401
+[STEP] 2026-04-20T06:55:27.363Z - Navigating to Alerts page
+[INFO] 2026-04-20T06:55:28.694Z - Navigated to Alerts page
+[STEP] 2026-04-20T06:55:28.694Z - Searching alerts for: Automation
+[INFO] 2026-04-20T06:55:30.231Z - Search completed for: Automation
+[STEP] 2026-04-20T06:55:32.232Z - Getting alert row count
+[INFO] 2026-04-20T06:55:33.236Z - Alert row count: 4
+[STEP] 2026-04-20T06:55:33.237Z - Resolving alert at row 1
+[STEP] 2026-04-20T06:55:33.237Z - Opening action menu for row 1
+[INFO] 2026-04-20T06:55:33.773Z - Action menu opened for row 1
+[STEP] 2026-04-20T06:55:33.773Z - Clicking Resolve from action menu
+[INFO] 2026-04-20T06:55:34.331Z - Resolve clicked
+[STEP] 2026-04-20T06:55:34.331Z - Filling resolve note and saving
+[INFO] 2026-04-20T06:55:35.388Z - Resolve note saved
+[STEP] 2026-04-20T06:55:35.388Z - Dismissing drawer/overlay
+[INFO] 2026-04-20T06:55:39.773Z - Page reloaded to clear overlays
+[INFO] 2026-04-20T06:55:39.773Z - Alert at row 1 resolved
+[INFO] 2026-04-20T06:55:39.773Z - Alert resolved from Alerts page
+[STEP] 2026-04-20T06:55:39.773Z - Selecting status filter: All
+[INFO] 2026-04-20T06:55:41.944Z - Status filter set to: All
+[STEP] 2026-04-20T06:55:41.944Z - Searching alerts for: Automation
+[INFO] 2026-04-20T06:55:43.506Z - Search completed for: Automation
+[STEP] 2026-04-20T06:55:43.506Z - Getting alert row count
+[INFO] 2026-04-20T06:55:44.511Z - Alert row count: 25
+[STEP] 2026-04-20T06:55:44.512Z - Finding first resolved row
+[STEP] 2026-04-20T06:55:44.512Z - Getting alert row count
+[INFO] 2026-04-20T06:55:45.517Z - Alert row count: 25
+[STEP] 2026-04-20T06:55:45.517Z - Getting cell text at row 1, column 8
+[INFO] 2026-04-20T06:55:45.528Z - Cell text: Not Resolved
+[STEP] 2026-04-20T06:55:45.529Z - Getting cell text at row 2, column 8
+[INFO] 2026-04-20T06:55:45.538Z - Cell text: Resolved
+[INFO] 2026-04-20T06:55:45.538Z - First resolved row found at index: 2
+[INFO] 2026-04-20T06:55:45.540Z - Cross-feature verified: Alert resolved from Alerts page, confirmed in All filter view
+[STEP] 2026-04-20T06:55:45.541Z - Navigating to Monitoring Alerts (Work List > Care Team Work List > RTM > Alerts)
+[INFO] 2026-04-20T06:55:49.739Z - Navigated to Monitoring Alerts
+[INFO] 2026-04-20T06:55:49.745Z - Monitoring shows: 1 Resolved

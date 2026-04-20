@@ -1,0 +1,31 @@
+[STEP] 2026-04-20T06:51:51.936Z - Login to Provider Portal
+[STEP] 2026-04-20T06:51:52.337Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:51:52.337Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:51:53.535Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:51:53.686Z - Login attempt completed
+[STEP] 2026-04-20T06:51:56.547Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-04-20T06:51:56.547Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-20T06:51:56.547Z - Dismissing any open drawer
+[INFO] 2026-04-20T06:51:57.068Z - No drawer backdrop in DOM
+[INFO] 2026-04-20T06:51:57.585Z - Successfully on Care Team Work List
+[STEP] 2026-04-20T06:51:57.585Z - Selecting program tab: RTM
+[INFO] 2026-04-20T06:51:58.650Z - Successfully selected RTM tab
+[STEP] 2026-04-20T06:51:58.650Z - Clicking monitoring category: Data
+[STEP] 2026-04-20T06:51:59.782Z - Clearing status filter
+[INFO] 2026-04-20T06:51:59.795Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-04-20T06:52:00.335Z - MUI Menu options: 3
+[INFO] 2026-04-20T06:52:00.342Z -   Option [0]: "Clear Selection"
+[INFO] 2026-04-20T06:52:01.410Z - Status filter cleared
+[INFO] 2026-04-20T06:52:01.410Z - Switched to Data monitoring view
+[STEP] 2026-04-20T06:52:01.411Z - Test: Review vitals from Readings
+[STEP] 2026-04-20T06:52:01.411Z - Getting first available patient from list
+[INFO] 2026-04-20T06:52:01.423Z - First available patient: "Automation, Test"
+[STEP] 2026-04-20T06:52:01.423Z - Getting visible row count
+[INFO] 2026-04-20T06:52:02.427Z - Visible row count: 1
+[STEP] 2026-04-20T06:52:02.430Z - Clicking Number of Readings for: Automation, Test
+[INFO] 2026-04-20T06:52:03.514Z - Opened readings for: Automation, Test
+[STEP] 2026-04-20T06:52:03.514Z - Reviewing vital from readings page
+[INFO] 2026-04-20T06:52:03.548Z - No Review button — vital may already be reviewed
+[STEP] 2026-04-20T06:52:03.548Z - Verifying Reviewed status
+[INFO] 2026-04-20T06:52:03.555Z - Reviewed status verified
+[INFO] 2026-04-20T06:52:03.555Z - Vital reviewed from readings — status confirmed

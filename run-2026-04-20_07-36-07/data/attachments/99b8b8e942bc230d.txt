@@ -1,0 +1,22 @@
+[STEP] 2026-04-20T06:56:33.851Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-20T06:56:33.851Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:56:33.851Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:56:35.699Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:56:35.839Z - Login attempt completed
+[STEP] 2026-04-20T06:56:38.972Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:56:40.995Z - Navigated to Enrollment section
+[INFO] 2026-04-20T06:56:40.995Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-20T06:56:40.997Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-04-20T06:56:40.997Z - Selected random status: Active
+[INFO] 2026-04-20T06:56:40.997Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-20T06:56:40.997Z - Applying combined filters - Status: Active, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T06:56:40.997Z - Applying status filter: Active
+[INFO] 2026-04-20T06:56:47.155Z - Status filter 'Active' applied successfully
+[STEP] 2026-04-20T06:56:47.155Z - Applying program filter: Remote Patient Monitoring (RPM)
+[INFO] 2026-04-20T06:56:53.318Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-04-20T06:56:53.318Z - Retrieving filtered enrollment results
+[INFO] 2026-04-20T06:56:55.693Z - Retrieved 21 filtered enrollment records
+Record 1 Verified: Predovic, Demario - RPM - active
+Record 2 Verified: Becker, Simeon - RPM - active
+Record 3 Verified: Zemlak, Haven - RPM - active
+[INFO] 2026-04-20T06:56:55.698Z - Combined Status + Program filter verification completed - 3 records verified

@@ -1,0 +1,38 @@
+[STEP] 2026-04-20T06:54:04.079Z - Login to Provider Portal
+[STEP] 2026-04-20T06:54:04.471Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:54:04.471Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:54:05.640Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:54:05.770Z - Login attempt completed
+[STEP] 2026-04-20T06:54:08.592Z - Test: E2E - Create Pain Scale alert and verify on Alerts page
+[STEP] 2026-04-20T06:54:08.592Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-04-20T06:54:11.053Z - Patient chart opened from global search for: Automation, Test
+[INFO] 2026-04-20T06:54:11.054Z - Patient chart opened
+[STEP] 2026-04-20T06:54:11.055Z - Navigating to Vitals tab
+[INFO] 2026-04-20T06:54:11.387Z - Successfully navigated to Vitals tab
+[INFO] 2026-04-20T06:54:11.388Z - Vitals tab opened
+[STEP] 2026-04-20T06:54:11.390Z - Adding vital: Pain Scale with value 107
+[STEP] 2026-04-20T06:54:11.391Z - Clicking Add Vital button
+[INFO] 2026-04-20T06:54:11.573Z - Add Vital form opened
+[STEP] 2026-04-20T06:54:11.573Z - Selecting vital type: Pain Scale
+[INFO] 2026-04-20T06:54:12.417Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-04-20T06:54:12.417Z - Entering vital value: 107
+[INFO] 2026-04-20T06:54:17.448Z - Successfully entered vital value: 107
+[STEP] 2026-04-20T06:54:17.448Z - Saving vital
+[INFO] 2026-04-20T06:54:17.500Z - Successfully saved vital
+[INFO] 2026-04-20T06:54:17.500Z - Successfully added vital: Pain Scale with value 107
+[INFO] 2026-04-20T06:54:17.500Z - Pain Scale vital added with value: 107
+[STEP] 2026-04-20T06:54:17.500Z - Navigating to Alerts page
+[INFO] 2026-04-20T06:54:18.854Z - Navigated to Alerts page
+[STEP] 2026-04-20T06:54:18.854Z - Verifying on Alerts page
+[INFO] 2026-04-20T06:54:18.858Z - Alerts page title verified
+[STEP] 2026-04-20T06:54:18.858Z - Verifying alert exists for patient: Automation, Test
+[STEP] 2026-04-20T06:54:18.859Z - Clearing search
+[INFO] 2026-04-20T06:54:20.392Z - Search cleared
+[STEP] 2026-04-20T06:54:20.392Z - Searching alerts for: Automation
+[INFO] 2026-04-20T06:54:21.932Z - Search completed for: Automation
+[STEP] 2026-04-20T06:54:21.932Z - Getting alert row count
+[INFO] 2026-04-20T06:54:22.937Z - Alert row count: 1
+[STEP] 2026-04-20T06:54:22.937Z - Getting cell text at row 1, column 2
+[INFO] 2026-04-20T06:54:22.945Z - Cell text: Pain Scale
+[INFO] 2026-04-20T06:54:22.945Z - Alert type "Pain Scale" found for patient: Automation, Test
+[INFO] 2026-04-20T06:54:22.946Z - Pain Scale alert verified on Alerts page

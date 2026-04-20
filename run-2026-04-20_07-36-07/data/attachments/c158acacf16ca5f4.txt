@@ -1,0 +1,47 @@
+[STEP] 2026-04-20T07:22:11.531Z - Login to Provider Portal
+[STEP] 2026-04-20T07:22:12.090Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:22:12.090Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:22:13.262Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:22:13.402Z - Login attempt completed
+[STEP] 2026-04-20T07:22:16.316Z - Test: Verify Done task does not become OverDue
+[STEP] 2026-04-20T07:22:16.316Z - Navigating to Task page
+[INFO] 2026-04-20T07:22:17.397Z - Navigated to Task page
+[STEP] 2026-04-20T07:22:17.397Z - Creating task: DoneNotOverdue 1776669737397
+[STEP] 2026-04-20T07:22:17.397Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:22:18.016Z - Add Task form opened
+[INFO] 2026-04-20T07:22:36.527Z - Task "DoneNotOverdue 1776669737397" created successfully
+[STEP] 2026-04-20T07:22:36.527Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:22:38.104Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:22:38.104Z - Setting status filter to: All
+[INFO] 2026-04-20T07:22:40.528Z - Status filter set to: All
+[STEP] 2026-04-20T07:22:40.528Z - Searching for: DoneNotOverdue 1776669737397
+[INFO] 2026-04-20T07:22:42.593Z - Search completed for: DoneNotOverdue 1776669737397
+[STEP] 2026-04-20T07:22:42.593Z - Resolving task
+[STEP] 2026-04-20T07:22:42.593Z - Opening Resolve Task dialog
+[STEP] 2026-04-20T07:22:42.593Z - Clicking action menu on row 0
+[INFO] 2026-04-20T07:22:43.637Z - Action menu opened on row 0
+[STEP] 2026-04-20T07:22:43.637Z - Clicking action menu item: Resolve
+[INFO] 2026-04-20T07:22:45.196Z - Clicked: Resolve
+[INFO] 2026-04-20T07:22:45.200Z - Resolve Task dialog opened
+[STEP] 2026-04-20T07:22:45.200Z - Filling resolve note: Resolved immediately to prevent overdue
+[STEP] 2026-04-20T07:22:45.517Z - Clicking Resolve button in dialog
+[INFO] 2026-04-20T07:22:49.558Z - Resolve button clicked. Drawer closed: true
+[STEP] 2026-04-20T07:22:49.558Z - Navigating to Task page
+[INFO] 2026-04-20T07:22:50.583Z - Navigated to Task page
+[STEP] 2026-04-20T07:22:50.583Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:22:50.587Z - My Tasks filter already unchecked
+[STEP] 2026-04-20T07:22:50.587Z - Setting status filter to: OverDue
+[INFO] 2026-04-20T07:22:52.970Z - Status filter set to: OverDue
+[STEP] 2026-04-20T07:22:52.971Z - Searching for: DoneNotOverdue 1776669737397
+[INFO] 2026-04-20T07:22:55.030Z - Search completed for: DoneNotOverdue 1776669737397
+[STEP] 2026-04-20T07:22:55.030Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:22:56.034Z - TASK values: 
+[STEP] 2026-04-20T07:22:56.035Z - Setting status filter to: All
+[INFO] 2026-04-20T07:22:58.448Z - Status filter set to: All
+[STEP] 2026-04-20T07:22:58.448Z - Searching for: DoneNotOverdue 1776669737397
+[INFO] 2026-04-20T07:23:00.751Z - Search completed for: DoneNotOverdue 1776669737397
+[STEP] 2026-04-20T07:23:00.751Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:23:01.755Z - TASK values: DoneNotOverdue 1776669737397
+[STEP] 2026-04-20T07:23:01.756Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-20T07:23:02.758Z - TASK STATUS values: Done
+[INFO] 2026-04-20T07:23:02.759Z - Done task "DoneNotOverdue 1776669737397" verified — not in OverDue, status: Done

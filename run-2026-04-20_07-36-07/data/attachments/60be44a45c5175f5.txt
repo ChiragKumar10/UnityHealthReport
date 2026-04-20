@@ -1,0 +1,84 @@
+[ERROR] 2026-04-20T06:59:30.204Z - Failed to navigate to provider portal login page
+page.waitForLoadState: Timeout 30000ms exceeded.
+    at ProviderLoginPage.navigateToLogin (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)
+    at ProviderLoginPage.login (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/enrollments.spec.ts:20:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts',
+      line: 20,
+      column: 29,
+      function: 'ProviderLoginPage.navigateToLogin'
+    },
+    category: 'pw:api',
+    title: 'Wait for load state "networkidle"',
+    apiName: 'page.waitForLoadState',
+    params: { info: [Object] },
+    group: undefined,
+    stepId: 'pw:api@32',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@32',
+      _title: 'Wait for load state "networkidle"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776668370203,
+    error: {
+      message: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.',
+      stack: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.\n' +
+        '    at ProviderLoginPage.navigateToLogin (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)\n' +
+        '    at ProviderLoginPage.login (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/enrollments.spec.ts:20:9',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-04-20T06:59:30.207Z - Failed to  login to provider portal
+page.waitForLoadState: Timeout 30000ms exceeded.
+    at ProviderLoginPage.navigateToLogin (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)
+    at ProviderLoginPage.login (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/enrollments.spec.ts:20:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts',
+      line: 20,
+      column: 29,
+      function: 'ProviderLoginPage.navigateToLogin'
+    },
+    category: 'pw:api',
+    title: 'Wait for load state "networkidle"',
+    apiName: 'page.waitForLoadState',
+    params: { info: [Object] },
+    group: undefined,
+    stepId: 'pw:api@32',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@32',
+      _title: 'Wait for load state "networkidle"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1776668370203,
+    error: {
+      message: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.',
+      stack: 'TimeoutError: page.waitForLoadState: Timeout 30000ms exceeded.\n' +
+        '    at ProviderLoginPage.navigateToLogin (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:20:29)\n' +
+        '    at ProviderLoginPage.login (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/login.page.ts:38:13)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/enrollments.spec.ts:20:9',
+      cause: undefined
+    }
+  }
+}

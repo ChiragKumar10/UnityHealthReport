@@ -1,0 +1,14 @@
+[STEP] 2026-04-20T06:57:33.328Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-04-20T06:57:33.328Z - Logging in and navigating to enrollment form
+[STEP] 2026-04-20T06:57:33.328Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:57:33.328Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:57:34.971Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:57:35.102Z - Login attempt completed
+[STEP] 2026-04-20T06:57:38.213Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:57:40.243Z - Navigated to Enrollment section
+✓ Found 20 patients matching 'l'
+✓ Patient search returned 20 results
+✓ Selected patient: Zemlak, Marsha 
+✓ Phone auto-filled: 710-564-3513
+✓ DOB auto-filled: 10-18-2022
+[INFO] 2026-04-20T06:57:51.615Z - Patient search and auto-fill verification completed successfully

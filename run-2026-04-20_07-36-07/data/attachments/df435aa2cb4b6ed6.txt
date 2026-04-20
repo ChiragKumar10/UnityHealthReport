@@ -1,0 +1,17 @@
+[STEP] 2026-04-20T06:53:11.254Z - Login to Provider Portal
+[STEP] 2026-04-20T06:53:11.647Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:53:11.647Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:53:12.793Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:53:12.936Z - Login attempt completed
+[STEP] 2026-04-20T06:53:15.793Z - Test: Verify past due date is rejected
+[STEP] 2026-04-20T06:53:15.793Z - Navigating to Task page
+[INFO] 2026-04-20T06:53:16.885Z - Navigated to Task page
+[STEP] 2026-04-20T06:53:16.885Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:53:17.520Z - Add Task form opened
+[STEP] 2026-04-20T06:53:31.205Z - Filling a past due date
+[INFO] 2026-04-20T06:53:31.768Z - Past due date entered: 04-15-2026
+[STEP] 2026-04-20T06:53:31.768Z - Clicking Save button
+[STEP] 2026-04-20T06:53:35.322Z - Checking if Add Task form is visible
+[STEP] 2026-04-20T06:53:35.327Z - Getting due date validation message
+[INFO] 2026-04-20T06:53:35.332Z - Due date validation: Due date is required
+[INFO] 2026-04-20T06:53:35.332Z - Past date rejected with validation: "Due date is required"

@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e13]:
+          - img [ref=e15]
+          - combobox "Search Patient Name, DOB (MM-DD-YYYY), Phone" [ref=e17]
+          - button "Open" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+          - group
+        - button "New Patient" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - paragraph [ref=e25]: New Patient
+        - button [ref=e27] [cursor=pointer]:
+          - img [ref=e29]
+  - generic [ref=e31]:
+    - list [ref=e33]:
+      - listitem [ref=e34] [cursor=pointer]:
+        - img [ref=e36]
+        - generic [ref=e39]: Work List
+      - listitem [ref=e40] [cursor=pointer]:
+        - img [ref=e42]
+        - generic [ref=e45]: Enrollments
+      - listitem [ref=e46] [cursor=pointer]:
+        - img [ref=e48]
+        - generic [ref=e51]: Alerts
+      - listitem [ref=e52] [cursor=pointer]:
+        - img [ref=e54]
+        - generic [ref=e57]:
+          - text: Tasks
+          - generic [ref=e58]: "61"
+      - listitem [ref=e59] [cursor=pointer]:
+        - img [ref=e61]
+        - generic [ref=e64]: Billing
+      - listitem [ref=e65] [cursor=pointer]:
+        - img [ref=e67]
+        - generic [ref=e70]: Document Library
+      - listitem [ref=e71] [cursor=pointer]:
+        - img [ref=e73]
+        - generic [ref=e76]: RPM Library
+      - listitem [ref=e77] [cursor=pointer]:
+        - img [ref=e79]
+        - generic [ref=e82]: RTM Library
+      - listitem [ref=e83] [cursor=pointer]:
+        - img [ref=e85]
+        - generic [ref=e88]: CCM Library
+      - listitem [ref=e89] [cursor=pointer]:
+        - img [ref=e91]
+        - generic [ref=e94]: PCM Library
+      - listitem [ref=e95] [cursor=pointer]:
+        - img [ref=e97]
+        - generic [ref=e100]: Training Library
+      - listitem [ref=e101] [cursor=pointer]:
+        - img [ref=e103]
+        - generic [ref=e106]: Communications
+      - listitem [ref=e107] [cursor=pointer]:
+        - img [ref=e109]
+        - generic [ref=e112]: Settings
+      - listitem [ref=e113] [cursor=pointer]:
+        - img [ref=e115]
+        - generic [ref=e117]: Logout
+    - generic [ref=e118]:
+      - paragraph [ref=e119]: chirag kumar
+      - paragraph [ref=e120]: chirag.kumar@thinkitive.com
+      - generic [ref=e121]:
+        - img [ref=e122]
+        - paragraph
+    - listitem [ref=e125] [cursor=pointer]:
+      - img [ref=e127]
+  - main [ref=e129]:
+    - generic [ref=e131]:
+      - generic [ref=e133]:
+        - tablist [ref=e136]:
+          - tab "Templates" [ref=e137] [cursor=pointer]
+          - tab "Assessment" [ref=e138] [cursor=pointer]: Assessment
+          - tab "Time Logs" [active] [selected] [ref=e139] [cursor=pointer]: Time Logs
+        - generic [ref=e141]:
+          - generic [ref=e144]:
+            - img [ref=e146]
+            - textbox "Type here to search" [ref=e148]
+            - group
+          - button "Add Time Logs" [ref=e149] [cursor=pointer]:
+            - img [ref=e150]
+            - text: Add Time Logs
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic "NO" [ref=e157]
+          - generic "LOG AS TITLE" [ref=e159]
+          - generic "DURATION (MIN)" [ref=e161]
+          - generic "ACTION" [ref=e163]
+        - heading "No data found." [level=6] [ref=e165]
+```

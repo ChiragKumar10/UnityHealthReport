@@ -1,0 +1,150 @@
+[STEP] 2026-04-20T07:06:11.759Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-04-20T07:06:11.759Z - Logging in to Provider Portal
+[STEP] 2026-04-20T07:06:11.760Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:06:11.760Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:06:13.428Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:06:13.568Z - Login attempt completed
+[STEP] 2026-04-20T07:06:16.723Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:06:18.756Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:06:21.756Z - Applying status filter: Closed
+[INFO] 2026-04-20T07:06:27.910Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-20T07:06:30.180Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:06:32.240Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:06:33.241Z - Adding new enrollment
+[INFO] 2026-04-20T07:06:39.509Z - Found 20 patients matching 'b'
+[INFO] 2026-04-20T07:06:40.961Z - Selected random program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: BreitenbergJaskolski, Homer  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T07:06:46.738Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-20T07:06:46.748Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-20T07:06:51.439Z - Found 33 patients matching 'a'
+New patient selected: Schamberger, Nicolas 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Schamberger, Nicolas  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T07:06:55.175Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-20T07:07:10.223Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-04-20T07:07:14.330Z - Found 8 patients matching 'f'
+New patient selected: OKeefe, Carla 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 3/5
+Patient: OKeefe, Carla  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T07:07:18.074Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-20T07:07:18.082Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-20T07:07:22.673Z - Found 3 patients matching 'q'
+New patient selected: Gibson, Monique 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 4/5
+Patient: Gibson, Monique  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T07:07:26.648Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-20T07:07:26.659Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-20T07:07:31.253Z - Found 33 patients matching 'o'
+New patient selected: Blick, Cameron 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 5/5
+Patient: Blick, Cameron  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T07:07:35.251Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-04-20T07:07:50.284Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬────────────────┐
+│ (index) │ Values         │
+├─────────┼────────────────┤
+│ Name    │ 'Ignacio Kris' │
+│ DOB     │ 'July 2023 30' │
+│ Phone   │ '9884065125'   │
+└─────────┴────────────────┘
+[STEP] 2026-04-20T07:07:52.388Z - Creating patient: Ignacio Kris
+[INFO] 2026-04-20T07:07:57.534Z - Patient Ignacio Kris created successfully
+✓ New patient created: Ignacio Kris
+[STEP] 2026-04-20T07:07:57.549Z - Creating enrollment
+[INFO] 2026-04-20T07:07:59.450Z - Patient enrolled in Principal Care Management (PCM)
+[INFO] 2026-04-20T07:07:59.450Z - Provider: Anny vate
+[INFO] 2026-04-20T07:07:59.450Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Principal Care Management (PCM) program
+Enrollment created: Kris, Ignacio | Principal Care Management (PCM)
+[STEP] 2026-04-20T07:08:01.722Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:08:03.870Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:08:05.872Z - Applying status filter: New
+[INFO] 2026-04-20T07:08:12.049Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-20T07:08:33.473Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:08:35.557Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:08:37.561Z - Applying status filter: Active
+[INFO] 2026-04-20T07:08:43.738Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-20T07:08:56.865Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:08:58.935Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:09:00.938Z - Applying status filter: Closed
+[INFO] 2026-04-20T07:09:07.088Z - Status filter 'Closed' applied successfully
+
+=== ACTIVATING: Kris, Ignacio ===
+Activate Enrollment confirmed
+[STEP] 2026-04-20T07:09:17.525Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:09:19.600Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:09:21.603Z - Applying status filter: Active
+[INFO] 2026-04-20T07:09:27.764Z - Status filter 'Active' applied successfully
+Row: 01Kris, IgnacioPCM04-20-2026activeT02603-Aut...+1Annamae QuitzonAnny vate
+Enrollment status verified as ACTIVE in Enrollment List
+Worklist row: Kris, Ignacio07-30-202304-20-2026Annamae QuitzonAnny vateSelfPay
+
+=== ACTIVATE ENROLLMENT VALIDATION COMPLETE ===
+Patient: Kris, Ignacio
+Program: PCM
+Enrollment Status: ACTIVE
+Worklist Active Section: Patient found
+Activate Enrollment workflow validated successfully
+[INFO] 2026-04-20T07:09:43.969Z - Activate Enrollment workflow validated - Closed patient moved to Active section successfully

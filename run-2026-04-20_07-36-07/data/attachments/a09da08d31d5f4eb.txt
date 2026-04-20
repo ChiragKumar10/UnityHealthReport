@@ -1,0 +1,22 @@
+[STEP] 2026-04-20T06:55:50.217Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-20T06:55:50.217Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:55:50.217Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:55:51.848Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:55:51.974Z - Login attempt completed
+[STEP] 2026-04-20T06:55:55.063Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:55:57.135Z - Navigated to Enrollment section
+[INFO] 2026-04-20T06:55:57.135Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-20T06:55:57.136Z - Test 4: Verify combined Date + Program filter
+[INFO] 2026-04-20T06:55:57.136Z - Generated random date range: 02-11-2026 to 04-17-2026
+[INFO] 2026-04-20T06:55:57.136Z - Selected random program: Principal Care Management (PCM)
+[INFO] 2026-04-20T06:55:57.136Z - Applying combined filters - Date: 02-11-2026 to 04-17-2026, Program: Principal Care Management (PCM)
+[STEP] 2026-04-20T06:55:57.136Z - Applying date filter: 02-11-2026 to 04-17-2026
+[INFO] 2026-04-20T06:56:03.264Z - Date filter applied successfully
+[STEP] 2026-04-20T06:56:03.264Z - Applying program filter: Principal Care Management (PCM)
+[INFO] 2026-04-20T06:56:09.416Z - Program filter 'Principal Care Management (PCM)' applied successfully
+[STEP] 2026-04-20T06:56:09.416Z - Retrieving filtered enrollment results
+[INFO] 2026-04-20T06:56:11.872Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Wuckert, Jenna - PCM - 04-16-2026
+Record 2 Verified: Runolfsdottir, Aletha - PCM - 04-16-2026
+Record 3 Verified: Prohaska, Sandy - PCM - 04-16-2026
+[INFO] 2026-04-20T06:56:11.878Z - Combined Date + Program filter verification completed - 3 records verified

@@ -1,0 +1,18 @@
+[STEP] 2026-04-20T06:53:03.143Z - Login to Provider Portal
+[STEP] 2026-04-20T06:53:03.598Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:53:03.598Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:53:04.750Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:53:04.889Z - Login attempt completed
+[STEP] 2026-04-20T06:53:07.813Z - Test: Verify all mandatory field validations on empty submit
+[STEP] 2026-04-20T06:53:07.813Z - Navigating to Task page
+[INFO] 2026-04-20T06:53:08.881Z - Navigated to Task page
+[STEP] 2026-04-20T06:53:08.881Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:53:09.505Z - Add Task form opened
+[STEP] 2026-04-20T06:53:09.506Z - Checking if Add Task form is visible
+[STEP] 2026-04-20T06:53:09.510Z - Clicking Save button
+[STEP] 2026-04-20T06:53:11.077Z - Verifying validation messages
+[STEP] 2026-04-20T06:53:11.077Z - Fetching validation messages
+[INFO] 2026-04-20T06:53:11.082Z - Validation messages found: Service is required, Patient is required, Action is required, Task name is required, Assignee is required, Priority is required, Due date is required
+[INFO] 2026-04-20T06:53:11.082Z - Validation messages found: Service is required, Patient is required, Action is required, Task name is required, Assignee is required, Priority is required, Due date is required
+[STEP] 2026-04-20T06:53:11.084Z - Checking if Add Task form is visible
+[INFO] 2026-04-20T06:53:11.089Z - All 7 mandatory field validations verified

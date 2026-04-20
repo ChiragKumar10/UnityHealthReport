@@ -1,0 +1,52 @@
+[STEP] 2026-04-20T06:55:45.496Z - Login to Provider Portal as Chirag
+[STEP] 2026-04-20T06:55:45.888Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:55:45.888Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:55:47.036Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:55:47.179Z - Login attempt completed
+[STEP] 2026-04-20T06:55:50.078Z - Test: Verify task in logged-in user task list, Patient Charting, and assigned provider account
+[STEP] 2026-04-20T06:55:50.078Z - Navigating to Task page
+[INFO] 2026-04-20T06:55:51.164Z - Navigated to Task page
+[STEP] 2026-04-20T06:55:51.164Z - Creating task: BothPlace 1776668151164
+[STEP] 2026-04-20T06:55:51.164Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:55:51.788Z - Add Task form opened
+[INFO] 2026-04-20T06:56:10.305Z - Task "BothPlace 1776668151164" created successfully
+[INFO] 2026-04-20T06:56:10.305Z - Task "BothPlace 1776668151164" created — CCM, Automation Test, John Doe
+[STEP] 2026-04-20T06:56:10.305Z - VERIFY 1: Checking task in Chirag task list
+[STEP] 2026-04-20T06:56:10.305Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T06:56:11.874Z - My Tasks filter unchecked
+[STEP] 2026-04-20T06:56:11.874Z - Setting status filter to: All
+[INFO] 2026-04-20T06:56:14.290Z - Status filter set to: All
+[STEP] 2026-04-20T06:56:14.290Z - Searching for: BothPlace 1776668151164
+[INFO] 2026-04-20T06:56:16.361Z - Search completed for: BothPlace 1776668151164
+[STEP] 2026-04-20T06:56:16.361Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:56:17.366Z - TASK values: BothPlace 1776668151164
+[STEP] 2026-04-20T06:56:17.367Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T06:56:18.370Z - ASSIGNED TO values: John  Doe
+[INFO] 2026-04-20T06:56:18.371Z - ✓ VERIFY 1 PASSED: Task found in Chirag task list, Assigned To = John  Doe
+[STEP] 2026-04-20T06:56:18.371Z - VERIFY 2: Checking task in Patient Charting (as Chirag)
+[STEP] 2026-04-20T06:56:18.372Z - Opening patient chart from global search for: Automation
+[INFO] 2026-04-20T06:56:21.117Z - Patient chart opened from global search for: Automation
+[INFO] 2026-04-20T06:56:35.134Z - Tasks in patient charting: BothPlace 1776668151164, Reassign 1776434549740, PatientChart 1776434274394, BothPlace 1776433847187, BothPlace 1776173699357, BothPlace 1776173504627, BothPlace 1776173381896, PatientChart 1776172841199, PatientChart 1776172534955, PatientChart 1776172038230, PatientChart 1776171941207, Reassign 1776424378860, BothPlace 1776423953689, Reassign 1776177641836, BothPlace 1776177487013, PatientChart 1776177420395, Complete 1776177246893, BothPlace 1776177245852, Reassign 1776176911331, Reassign 1776176524735, ChartReassign 1776176183987
+[INFO] 2026-04-20T06:56:35.135Z - ✓ VERIFY 2 PASSED: Task found in Patient Charting — CCM → Tasks → ToDo + Call
+[STEP] 2026-04-20T06:56:35.135Z - VERIFY 3: Logging out from Chirag, logging in as John Doe
+[STEP] 2026-04-20T06:56:35.135Z - Logging out from provider portal
+[INFO] 2026-04-20T06:56:36.583Z - Logout completed
+[STEP] 2026-04-20T06:56:36.583Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:56:36.584Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:56:37.767Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:56:37.891Z - Login attempt completed
+[INFO] 2026-04-20T06:56:40.182Z - Logged in as John Doe
+[STEP] 2026-04-20T06:56:40.182Z - Navigating to Task page
+[INFO] 2026-04-20T06:56:41.247Z - Navigated to Task page
+[STEP] 2026-04-20T06:56:41.247Z - Setting status filter to: All
+[INFO] 2026-04-20T06:56:43.655Z - Status filter set to: All
+[STEP] 2026-04-20T06:56:43.655Z - Searching for: BothPlace 1776668151164
+[INFO] 2026-04-20T06:56:45.730Z - Search completed for: BothPlace 1776668151164
+[STEP] 2026-04-20T06:56:45.730Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:56:46.734Z - TASK values: BothPlace 1776668151164
+[STEP] 2026-04-20T06:56:46.735Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T06:56:47.737Z - ASSIGNED TO values: John  Doe
+[STEP] 2026-04-20T06:56:47.738Z - Fetching column values for: SERVICE
+[INFO] 2026-04-20T06:56:48.776Z - SERVICE values: CCM
+[INFO] 2026-04-20T06:56:48.778Z - ✓ VERIFY 3 PASSED: Task found in John Doe's account — Service=CCM, Assigned=John  Doe
+[INFO] 2026-04-20T06:56:48.779Z - AUT_TSK_122 PASSED: Task verified in ALL 3 places — Chirag task list, Patient Charting, John Doe account

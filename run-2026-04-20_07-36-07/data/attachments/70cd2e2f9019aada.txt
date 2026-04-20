@@ -1,0 +1,34 @@
+[STEP] 2026-04-20T06:52:49.965Z - Login to Provider Portal
+[STEP] 2026-04-20T06:52:50.352Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:52:50.353Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:52:51.506Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:52:51.647Z - Login attempt completed
+[STEP] 2026-04-20T06:52:54.751Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-04-20T06:52:54.751Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-20T06:52:54.751Z - Dismissing any open drawer
+[INFO] 2026-04-20T06:52:55.258Z - No drawer backdrop in DOM
+[INFO] 2026-04-20T06:52:55.765Z - Successfully on Care Team Work List
+[STEP] 2026-04-20T06:52:55.765Z - Selecting program tab: RTM
+[INFO] 2026-04-20T06:52:56.839Z - Successfully selected RTM tab
+[STEP] 2026-04-20T06:52:56.839Z - Clicking monitoring category: Data
+[STEP] 2026-04-20T06:52:58.011Z - Clearing status filter
+[INFO] 2026-04-20T06:52:58.018Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-04-20T06:52:58.568Z - MUI Menu options: 3
+[INFO] 2026-04-20T06:52:58.576Z -   Option [0]: "Clear Selection"
+[INFO] 2026-04-20T06:52:59.645Z - Status filter cleared
+[INFO] 2026-04-20T06:52:59.645Z - Switched to Data monitoring view
+[STEP] 2026-04-20T06:52:59.646Z - Test: Verify reviewed status in Patient Chart
+[STEP] 2026-04-20T06:52:59.646Z - Getting first available patient from list
+[INFO] 2026-04-20T06:52:59.655Z - First available patient: "Automation, Test"
+[STEP] 2026-04-20T06:52:59.655Z - Getting visible row count
+[INFO] 2026-04-20T06:53:00.658Z - Visible row count: 1
+[STEP] 2026-04-20T06:53:00.660Z - Verifying reviewed status in Patient Chart for: Automation, Test
+[INFO] 2026-04-20T06:53:00.688Z - Reviewed status in Patient Chart: true
+[INFO] 2026-04-20T06:53:00.688Z - Reviewed in Patient Chart: true
+[STEP] 2026-04-20T06:53:00.689Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-20T06:53:00.689Z - Dismissing any open drawer
+[INFO] 2026-04-20T06:53:01.216Z - No drawer backdrop in DOM
+[INFO] 2026-04-20T06:53:01.263Z - Not on Care Team Work List — clicking sidebar Work List
+[INFO] 2026-04-20T06:53:03.244Z - Successfully on Care Team Work List
+[STEP] 2026-04-20T06:53:03.244Z - Selecting program tab: RTM
+[INFO] 2026-04-20T06:53:04.263Z - Successfully selected RTM tab

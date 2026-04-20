@@ -1,0 +1,50 @@
+[STEP] 2026-04-20T06:56:49.581Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:56:49.582Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:56:50.733Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:56:50.860Z - Login attempt completed
+[STEP] 2026-04-20T06:56:53.771Z - Test: Complete task and verify in provider view + patient charting
+[STEP] 2026-04-20T06:56:53.771Z - Navigating to Task page
+[INFO] 2026-04-20T06:56:54.852Z - Navigated to Task page
+[STEP] 2026-04-20T06:56:54.853Z - Creating task: Complete 1776668214852
+[STEP] 2026-04-20T06:56:54.853Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:56:55.485Z - Add Task form opened
+[INFO] 2026-04-20T06:57:14.016Z - Task "Complete 1776668214852" created successfully
+[INFO] 2026-04-20T06:57:14.017Z - Task "Complete 1776668214852" created
+[STEP] 2026-04-20T06:57:14.017Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T06:57:15.580Z - My Tasks filter unchecked
+[STEP] 2026-04-20T06:57:15.581Z - Setting status filter to: All
+[INFO] 2026-04-20T06:57:18.000Z - Status filter set to: All
+[STEP] 2026-04-20T06:57:18.000Z - Searching for: Complete 1776668214852
+[INFO] 2026-04-20T06:57:20.070Z - Search completed for: Complete 1776668214852
+[STEP] 2026-04-20T06:57:20.071Z - Resolving task
+[STEP] 2026-04-20T06:57:20.071Z - Opening Resolve Task dialog
+[STEP] 2026-04-20T06:57:20.071Z - Clicking action menu on row 0
+[INFO] 2026-04-20T06:57:21.115Z - Action menu opened on row 0
+[STEP] 2026-04-20T06:57:21.115Z - Clicking action menu item: Resolve
+[INFO] 2026-04-20T06:57:22.671Z - Clicked: Resolve
+[INFO] 2026-04-20T06:57:22.674Z - Resolve Task dialog opened
+[STEP] 2026-04-20T06:57:22.674Z - Filling resolve note: Completed at 2026-04-20T06:57:20.071Z
+[STEP] 2026-04-20T06:57:22.991Z - Clicking Resolve button in dialog
+[INFO] 2026-04-20T06:57:27.033Z - Resolve button clicked. Drawer closed: true
+[INFO] 2026-04-20T06:57:27.033Z - Task resolved/completed
+[STEP] 2026-04-20T06:57:27.033Z - VERIFY 1: Checking completed task in provider view
+[STEP] 2026-04-20T06:57:27.033Z - Navigating to Task page
+[INFO] 2026-04-20T06:57:28.064Z - Navigated to Task page
+[STEP] 2026-04-20T06:57:28.064Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T06:57:28.067Z - My Tasks filter already unchecked
+[STEP] 2026-04-20T06:57:28.068Z - Setting status filter to: Done
+[INFO] 2026-04-20T06:57:30.449Z - Status filter set to: Done
+[STEP] 2026-04-20T06:57:30.449Z - Searching for: Complete 1776668214852
+[INFO] 2026-04-20T06:57:32.512Z - Search completed for: Complete 1776668214852
+[STEP] 2026-04-20T06:57:32.512Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-20T06:57:33.516Z - TASK STATUS values: Done
+[STEP] 2026-04-20T06:57:33.517Z - Fetching column values for: COMPLETED DATE
+[INFO] 2026-04-20T06:57:34.522Z - COMPLETED DATE values: 04/20/2026
+[STEP] 2026-04-20T06:57:34.523Z - Fetching column values for: COMPLETED BY
+[INFO] 2026-04-20T06:57:35.527Z - COMPLETED BY values: kumar, chirag
+[INFO] 2026-04-20T06:57:35.528Z - ✓ VERIFY 1 PASSED: Status=Done, Date=04/20/2026, By=kumar, chirag
+[STEP] 2026-04-20T06:57:35.528Z - VERIFY 2: Checking completed task in Patient Charting
+[STEP] 2026-04-20T06:57:35.528Z - Opening patient chart from global search for: Automation
+[INFO] 2026-04-20T06:57:38.019Z - Patient chart opened from global search for: Automation
+[INFO] 2026-04-20T06:57:50.188Z - ✓ VERIFY 2 PASSED: Completed task found in Patient Charting
+[INFO] 2026-04-20T06:57:50.188Z - AUT_TSK_125 PASSED: Completed task updated in BOTH provider view and patient charting

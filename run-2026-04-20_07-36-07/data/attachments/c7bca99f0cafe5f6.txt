@@ -1,0 +1,53 @@
+[STEP] 2026-04-20T06:48:30.952Z - Login to Provider Portal
+[STEP] 2026-04-20T06:48:31.556Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:48:31.556Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:48:32.754Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:48:32.898Z - Login attempt completed
+[STEP] 2026-04-20T06:48:35.738Z - Test: Create tasks per service and verify
+[STEP] 2026-04-20T06:48:35.739Z - Navigating to Task page
+[INFO] 2026-04-20T06:48:36.824Z - Navigated to Task page
+[STEP] 2026-04-20T06:48:36.825Z - Creating task: RPM Svc 1776667716824
+[STEP] 2026-04-20T06:48:36.825Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:48:37.454Z - Add Task form opened
+[INFO] 2026-04-20T06:48:55.875Z - Task "RPM Svc 1776667716824" created successfully
+[INFO] 2026-04-20T06:48:55.875Z - Created task: RPM Svc 1776667716824
+[STEP] 2026-04-20T06:48:55.876Z - Creating task: RTM Svc 1776667716824
+[STEP] 2026-04-20T06:48:55.876Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:48:56.554Z - Add Task form opened
+[INFO] 2026-04-20T06:49:14.932Z - Task "RTM Svc 1776667716824" created successfully
+[INFO] 2026-04-20T06:49:14.933Z - Created task: RTM Svc 1776667716824
+[STEP] 2026-04-20T06:49:14.933Z - Creating task: CCM Svc 1776667716824
+[STEP] 2026-04-20T06:49:14.933Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:49:15.606Z - Add Task form opened
+[INFO] 2026-04-20T06:49:33.916Z - Task "CCM Svc 1776667716824" created successfully
+[INFO] 2026-04-20T06:49:33.916Z - Created task: CCM Svc 1776667716824
+[STEP] 2026-04-20T06:49:33.916Z - Creating task: PCM Svc 1776667716824
+[STEP] 2026-04-20T06:49:33.916Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:49:34.580Z - Add Task form opened
+[INFO] 2026-04-20T06:49:52.899Z - Task "PCM Svc 1776667716824" created successfully
+[INFO] 2026-04-20T06:49:52.899Z - Created task: PCM Svc 1776667716824
+[STEP] 2026-04-20T06:49:52.899Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T06:49:54.458Z - My Tasks filter unchecked
+[STEP] 2026-04-20T06:49:54.458Z - Setting status filter to: All
+[INFO] 2026-04-20T06:49:56.868Z - Status filter set to: All
+[STEP] 2026-04-20T06:49:56.868Z - Setting service filter to: All
+[INFO] 2026-04-20T06:49:59.298Z - Service filter set to: All
+[STEP] 2026-04-20T06:49:59.298Z - Searching for: RPM Svc 1776667716824
+[INFO] 2026-04-20T06:50:01.373Z - Search completed for: RPM Svc 1776667716824
+[STEP] 2026-04-20T06:50:01.373Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:50:02.377Z - TASK values: RPM Svc 1776667716824
+[STEP] 2026-04-20T06:50:02.378Z - Searching for: RTM Svc 1776667716824
+[INFO] 2026-04-20T06:50:04.572Z - Search completed for: RTM Svc 1776667716824
+[STEP] 2026-04-20T06:50:04.572Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:50:05.576Z - TASK values: RTM Svc 1776667716824
+[STEP] 2026-04-20T06:50:05.577Z - Searching for: CCM Svc 1776667716824
+[INFO] 2026-04-20T06:50:07.737Z - Search completed for: CCM Svc 1776667716824
+[STEP] 2026-04-20T06:50:07.737Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:50:08.741Z - TASK values: CCM Svc 1776667716824
+[STEP] 2026-04-20T06:50:08.742Z - Searching for: PCM Svc 1776667716824
+[INFO] 2026-04-20T06:50:10.907Z - Search completed for: PCM Svc 1776667716824
+[STEP] 2026-04-20T06:50:10.908Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:50:11.912Z - TASK values: PCM Svc 1776667716824
+[STEP] 2026-04-20T06:50:11.913Z - Clearing search
+[INFO] 2026-04-20T06:50:13.432Z - Search cleared
+[INFO] 2026-04-20T06:50:13.432Z - All 4 service tasks verified in the list

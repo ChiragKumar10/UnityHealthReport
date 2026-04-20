@@ -1,0 +1,23 @@
+[STEP] 2026-04-20T06:56:55.832Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-20T06:56:55.832Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:56:55.832Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:56:57.483Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:56:57.622Z - Login attempt completed
+[STEP] 2026-04-20T06:57:00.744Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:57:02.777Z - Navigated to Enrollment section
+[INFO] 2026-04-20T06:57:02.777Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-20T06:57:02.777Z - Test 7: Verify combined Date + Status + Program filter
+[INFO] 2026-04-20T06:57:02.777Z - Generated random date range: 01-20-2026 to 04-08-2026
+[INFO] 2026-04-20T06:57:02.778Z - Selected random status: Closed
+[INFO] 2026-04-20T06:57:02.778Z - Selected random program: Principal Care Management (PCM)
+[INFO] 2026-04-20T06:57:02.778Z - Applying combined filters - Date: 01-20-2026 to 04-08-2026, Status: Closed, Program: Principal Care Management (PCM)
+[STEP] 2026-04-20T06:57:02.778Z - Applying date filter: 01-20-2026 to 04-08-2026
+[INFO] 2026-04-20T06:57:08.909Z - Date filter applied successfully
+[STEP] 2026-04-20T06:57:08.909Z - Applying status filter: Closed
+[INFO] 2026-04-20T06:57:15.060Z - Status filter 'Closed' applied successfully
+[STEP] 2026-04-20T06:57:15.060Z - Applying program filter: Principal Care Management (PCM)
+[INFO] 2026-04-20T06:57:21.152Z - Program filter 'Principal Care Management (PCM)' applied successfully
+[STEP] 2026-04-20T06:57:21.152Z - Retrieving filtered enrollment results
+[INFO] 2026-04-20T06:57:33.158Z - No enrollment records found after applying filter
+No Record found for filters - Date: 01-20-2026 to 04-08-2026, Status: Closed, Program: PCM
+Test completed - No records found for the selected filters

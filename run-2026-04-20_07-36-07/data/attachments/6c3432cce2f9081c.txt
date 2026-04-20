@@ -1,0 +1,68 @@
+[STEP] 2026-04-20T07:03:44.498Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-04-20T07:03:44.498Z - Logging in to Provider Portal
+[STEP] 2026-04-20T07:03:44.498Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:03:44.498Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:03:46.113Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:03:46.289Z - Login attempt completed
+[STEP] 2026-04-20T07:03:49.447Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-04-20T07:03:49.447Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:03:51.478Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:03:54.479Z - Applying status filter: Closed
+[INFO] 2026-04-20T07:04:00.628Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND, CREATING ONE ===
+[STEP] 2026-04-20T07:04:02.911Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:04:04.991Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:04:05.992Z - Adding new enrollment
+[INFO] 2026-04-20T07:04:12.283Z - Found 20 patients matching 'm'
+[INFO] 2026-04-20T07:04:13.707Z - Selected random program: Principal Care Management (PCM)
+
+Enrollment attempt 1/5
+Patient: Hamill, Carlton  | Program: Principal Care Management (PCM)
+[STEP] 2026-04-20T07:04:19.440Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-20T07:04:19.451Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Hamill, Carlton
+  Program: Principal Care Management (PCM)
+  Provider: Seth Ondricka
+  Care Manager: Autofirstafhhxz Autolastafhhxz
+[INFO] 2026-04-20T07:04:19.451Z - Enrollment form submitted successfully
+Enrollment created: Hamill, Carlton | Principal Care Management (PCM)
+[STEP] 2026-04-20T07:04:19.865Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:04:22.003Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:04:24.007Z - Applying status filter: New
+[INFO] 2026-04-20T07:04:30.183Z - Status filter 'New' applied successfully
+Status moved to Active
+Verified in Worklist Active section
+[STEP] 2026-04-20T07:04:51.500Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:04:53.563Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:04:55.564Z - Applying status filter: Active
+[INFO] 2026-04-20T07:05:01.767Z - Status filter 'Active' applied successfully
+Enrollment Closed
+[STEP] 2026-04-20T07:05:14.914Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:05:16.992Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:05:18.994Z - Applying status filter: Closed
+[INFO] 2026-04-20T07:05:25.150Z - Status filter 'Closed' applied successfully
+
+=== RE-ENROLLING: Hamill, Carlton ===
+[STEP] 2026-04-20T07:05:45.079Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:05:47.142Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:05:49.145Z - Applying status filter: New
+[INFO] 2026-04-20T07:05:55.297Z - Status filter 'New' applied successfully
+Row: 01Hamill, CarltonPCM04-20-2026newZ04248-Aut...+1Autofirstbdkend AutolastbdkendSeth Ondricka
+Enrollment status verified as NEW in Enrollment List
+Worklist row: Hamill, Carlton891-514-944704-17-2026SelfPay
+
+=== RE-ENROLLMENT VALIDATION COMPLETE ===
+Patient: Hamill, Carlton
+Program: PCM
+Enrollment Status: NEW
+Worklist New Section: Patient found
+Re-enrollment workflow validated successfully
+[INFO] 2026-04-20T07:06:11.606Z - Re-enrollment workflow validated - Patient appears in Enrollment List with New status

@@ -1,0 +1,41 @@
+[STEP] 2026-04-20T07:21:26.087Z - Login to Provider Portal
+[STEP] 2026-04-20T07:21:26.492Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:21:26.492Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:21:27.648Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:21:27.807Z - Login attempt completed
+[STEP] 2026-04-20T07:21:30.706Z - Test: Verify resolved task shows Done status
+[STEP] 2026-04-20T07:21:30.706Z - Navigating to Task page
+[INFO] 2026-04-20T07:21:31.784Z - Navigated to Task page
+[STEP] 2026-04-20T07:21:31.784Z - Creating task: ResolveStatus 1776669691784
+[STEP] 2026-04-20T07:21:31.784Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:21:32.409Z - Add Task form opened
+[INFO] 2026-04-20T07:21:50.907Z - Task "ResolveStatus 1776669691784" created successfully
+[STEP] 2026-04-20T07:21:50.907Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:21:52.479Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:21:52.479Z - Setting status filter to: All
+[INFO] 2026-04-20T07:21:54.898Z - Status filter set to: All
+[STEP] 2026-04-20T07:21:54.898Z - Searching for: ResolveStatus 1776669691784
+[INFO] 2026-04-20T07:21:56.966Z - Search completed for: ResolveStatus 1776669691784
+[STEP] 2026-04-20T07:21:56.966Z - Resolving task
+[STEP] 2026-04-20T07:21:56.966Z - Opening Resolve Task dialog
+[STEP] 2026-04-20T07:21:56.966Z - Clicking action menu on row 0
+[INFO] 2026-04-20T07:21:58.011Z - Action menu opened on row 0
+[STEP] 2026-04-20T07:21:58.011Z - Clicking action menu item: Resolve
+[INFO] 2026-04-20T07:21:59.558Z - Clicked: Resolve
+[INFO] 2026-04-20T07:21:59.562Z - Resolve Task dialog opened
+[STEP] 2026-04-20T07:21:59.562Z - Filling resolve note: Resolution note for status verification
+[STEP] 2026-04-20T07:21:59.884Z - Clicking Resolve button in dialog
+[INFO] 2026-04-20T07:22:03.924Z - Resolve button clicked. Drawer closed: true
+[STEP] 2026-04-20T07:22:03.924Z - Navigating to Task page
+[INFO] 2026-04-20T07:22:04.952Z - Navigated to Task page
+[STEP] 2026-04-20T07:22:04.952Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:22:04.956Z - My Tasks filter already unchecked
+[STEP] 2026-04-20T07:22:04.956Z - Setting status filter to: Done
+[INFO] 2026-04-20T07:22:07.340Z - Status filter set to: Done
+[STEP] 2026-04-20T07:22:07.340Z - Searching for: ResolveStatus 1776669691784
+[INFO] 2026-04-20T07:22:09.401Z - Search completed for: ResolveStatus 1776669691784
+[STEP] 2026-04-20T07:22:09.401Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:22:10.405Z - TASK values: ResolveStatus 1776669691784
+[STEP] 2026-04-20T07:22:10.406Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-20T07:22:11.410Z - TASK STATUS values: Done
+[INFO] 2026-04-20T07:22:11.410Z - Resolved task "ResolveStatus 1776669691784" verified under Done filter: Done

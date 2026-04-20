@@ -1,0 +1,30 @@
+[STEP] 2026-04-20T06:54:17.996Z - Step 1: Login to Provider Portal
+[STEP] 2026-04-20T06:54:17.996Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:54:17.996Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:54:19.819Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:54:19.962Z - Login attempt completed
+[INFO] 2026-04-20T06:54:23.109Z - Successfully logged in to Provider Portal
+[STEP] 2026-04-20T06:54:23.109Z - Step 2: Navigate to Enrollment section and find active enrollment
+[STEP] 2026-04-20T06:54:23.109Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:54:25.152Z - Navigated to Enrollment section
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Kuvalis, Jamie
+Program: PCM
+Status: active
+[INFO] 2026-04-20T06:54:28.181Z - Found active enrollment for patient: Kuvalis, Jamie, Program: PCM
+[STEP] 2026-04-20T06:54:28.181Z - Step 3: Open Close Enrollment form
+[INFO] 2026-04-20T06:54:32.343Z - Close Enrollment form opened successfully
+[STEP] 2026-04-20T06:54:32.343Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-04-20T06:54:36.458Z - Termination details filled successfully
+[STEP] 2026-04-20T06:54:36.458Z - Step 5: Click Cancel button to close the form without saving
+✓ Cancel button closed the terminate enrollment form
+✓ User navigated back to Enrollment List page
+[INFO] 2026-04-20T06:54:38.537Z - Terminate Enrollment form closed successfully without saving changes
+[STEP] 2026-04-20T06:54:38.537Z - Step 6: Verify enrollment status remains unchanged
+
+=== ENROLLMENT STATUS VALIDATION ===
+Patient: Kuvalis, Jamie
+Row text: 03Kuvalis, JamiePCM04-20-2026activeF25382-Aut...+1Autofirstatjlcy Autolastatjlcysarvesh test
+✓ Status remains ACTIVE - Enrollment was not terminated
+[INFO] 2026-04-20T06:54:38.547Z - Enrollment status verified - remains ACTIVE as expected (not terminated)

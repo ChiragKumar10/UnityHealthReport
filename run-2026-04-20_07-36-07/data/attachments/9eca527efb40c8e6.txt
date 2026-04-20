@@ -1,0 +1,50 @@
+[STEP] 2026-04-20T06:46:50.130Z - Login to Provider Portal
+[STEP] 2026-04-20T06:46:50.531Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:46:50.531Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:46:51.697Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:46:51.856Z - Login attempt completed
+[STEP] 2026-04-20T06:46:54.363Z - Test: Create tasks and verify alphabetical sorting
+[STEP] 2026-04-20T06:46:54.364Z - Navigating to Task page
+[INFO] 2026-04-20T06:46:55.478Z - Navigated to Task page
+[STEP] 2026-04-20T06:46:55.479Z - Creating task: Delta Task 1776667615478
+[STEP] 2026-04-20T06:46:55.479Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:46:56.104Z - Add Task form opened
+[INFO] 2026-04-20T06:47:14.544Z - Task "Delta Task 1776667615478" created successfully
+[STEP] 2026-04-20T06:47:14.544Z - Creating task: Alpha Task 1776667615478
+[STEP] 2026-04-20T06:47:14.544Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:47:15.232Z - Add Task form opened
+[INFO] 2026-04-20T06:47:33.706Z - Task "Alpha Task 1776667615478" created successfully
+[STEP] 2026-04-20T06:47:33.707Z - Creating task: Charlie Task 1776667615478
+[STEP] 2026-04-20T06:47:33.707Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:47:34.380Z - Add Task form opened
+[INFO] 2026-04-20T06:47:52.774Z - Task "Charlie Task 1776667615478" created successfully
+[STEP] 2026-04-20T06:47:52.775Z - Creating task: Bravo Task 1776667615478
+[STEP] 2026-04-20T06:47:52.775Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:47:53.436Z - Add Task form opened
+[INFO] 2026-04-20T06:48:11.790Z - Task "Bravo Task 1776667615478" created successfully
+[STEP] 2026-04-20T06:48:11.790Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T06:48:13.358Z - My Tasks filter unchecked
+[STEP] 2026-04-20T06:48:13.358Z - Setting status filter to: All
+[INFO] 2026-04-20T06:48:15.778Z - Status filter set to: All
+[STEP] 2026-04-20T06:48:15.778Z - Fetching column values for: NAME
+[INFO] 2026-04-20T06:48:16.785Z - NAME values: Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test, Automation, Test
+[INFO] 2026-04-20T06:48:16.796Z - NAME column is sorted alphabetically (A → Z)
+[STEP] 2026-04-20T06:48:16.797Z - Searching for: Delta Task 1776667615478
+[INFO] 2026-04-20T06:48:18.864Z - Search completed for: Delta Task 1776667615478
+[STEP] 2026-04-20T06:48:18.865Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:48:19.869Z - TASK values: Delta Task 1776667615478
+[STEP] 2026-04-20T06:48:19.870Z - Searching for: Alpha Task 1776667615478
+[INFO] 2026-04-20T06:48:22.071Z - Search completed for: Alpha Task 1776667615478
+[STEP] 2026-04-20T06:48:22.071Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:48:23.075Z - TASK values: Alpha Task 1776667615478
+[STEP] 2026-04-20T06:48:23.076Z - Searching for: Charlie Task 1776667615478
+[INFO] 2026-04-20T06:48:25.219Z - Search completed for: Charlie Task 1776667615478
+[STEP] 2026-04-20T06:48:25.219Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:48:26.225Z - TASK values: Charlie Task 1776667615478
+[STEP] 2026-04-20T06:48:26.226Z - Searching for: Bravo Task 1776667615478
+[INFO] 2026-04-20T06:48:28.281Z - Search completed for: Bravo Task 1776667615478
+[STEP] 2026-04-20T06:48:28.282Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:48:29.286Z - TASK values: Bravo Task 1776667615478
+[STEP] 2026-04-20T06:48:29.287Z - Clearing search
+[INFO] 2026-04-20T06:48:30.810Z - Search cleared
+[INFO] 2026-04-20T06:48:30.810Z - All created tasks verified and NAME column sorted alphabetically

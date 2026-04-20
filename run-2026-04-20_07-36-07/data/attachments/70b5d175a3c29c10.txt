@@ -1,0 +1,25 @@
+[STEP] 2026-04-20T06:56:26.490Z - Login to Provider Portal
+[STEP] 2026-04-20T06:56:26.881Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:56:26.881Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:56:28.039Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:56:28.164Z - Login attempt completed
+[STEP] 2026-04-20T06:56:31.202Z - Test: View Resolved Note displays the resolution note
+[STEP] 2026-04-20T06:56:31.202Z - Navigating to Alerts page
+[INFO] 2026-04-20T06:56:32.317Z - Navigated to Alerts page
+[STEP] 2026-04-20T06:56:32.317Z - Selecting status filter: All
+[INFO] 2026-04-20T06:56:34.406Z - Status filter set to: All
+[STEP] 2026-04-20T06:56:34.406Z - Finding first resolved row
+[STEP] 2026-04-20T06:56:34.406Z - Getting alert row count
+[INFO] 2026-04-20T06:56:35.411Z - Alert row count: 25
+[STEP] 2026-04-20T06:56:35.411Z - Getting cell text at row 1, column 8
+[INFO] 2026-04-20T06:56:35.419Z - Cell text: Resolved
+[INFO] 2026-04-20T06:56:35.419Z - First resolved row found at index: 1
+[STEP] 2026-04-20T06:56:35.419Z - Opening action menu for row 1
+[INFO] 2026-04-20T06:56:35.971Z - Action menu opened for row 1
+[STEP] 2026-04-20T06:56:35.971Z - Clicking View Resolved Note from action menu
+[INFO] 2026-04-20T06:56:37.078Z - View Resolved Note clicked
+[STEP] 2026-04-20T06:56:37.078Z - Getting resolved note text
+[INFO] 2026-04-20T06:56:37.583Z - Resolved note text (textarea): Alert resolved via automated Playwright test
+[INFO] 2026-04-20T06:56:37.584Z - Resolved note displayed: Alert resolved via automated Playwright test
+[STEP] 2026-04-20T06:56:37.584Z - Dismissing resolved note dialog
+[INFO] 2026-04-20T06:56:38.094Z - Resolved note dialog dismissed

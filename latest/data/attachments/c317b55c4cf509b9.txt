@@ -1,0 +1,68 @@
+[STEP] 2026-04-20T06:53:24.367Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-04-20T06:53:24.367Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-20T06:53:24.367Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:53:24.368Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:53:26.019Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:53:26.163Z - Login attempt completed
+[STEP] 2026-04-20T06:53:29.278Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:53:31.303Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-04-20T06:53:31.303Z - Adding new enrollment
+[INFO] 2026-04-20T06:53:37.672Z - Found 20 patients matching 'r'
+[INFO] 2026-04-20T06:53:39.108Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Runolfsdottir, Aletha  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T06:53:44.945Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-04-20T06:53:44.960Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-04-20T06:53:49.579Z - Found 20 patients matching 'k'
+New patient selected: Hoppe, Kent 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Hoppe, Kent  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T06:53:53.604Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-20T06:53:53.615Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Hoppe, Kent
+  Program: Remote Patient Monitoring (RPM)
+  Provider: John  Doe
+  Care Manager: Autofirstafxoph Autolastafxoph
+[INFO] 2026-04-20T06:53:53.616Z - Enrollment form submitted successfully
+Selected patient: Hoppe, Kent
+[STEP] 2026-04-20T06:53:53.616Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-20T06:53:53.626Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-04-20T06:53:56.628Z - Retrieving enrollment list data
+[INFO] 2026-04-20T06:53:57.121Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Hoppe, Kent
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-04-20T06:53:57.123Z - Verifying patient in Worklist NEW section
+✓ Patient "Hoppe, Kent" found in Worklist > RPM > NEW section
+[INFO] 2026-04-20T06:54:17.857Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-04-20T06:54:17.858Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

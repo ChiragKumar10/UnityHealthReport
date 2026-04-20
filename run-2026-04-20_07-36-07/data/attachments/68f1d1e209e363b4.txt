@@ -1,0 +1,22 @@
+[STEP] 2026-04-20T06:56:12.037Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-04-20T06:56:12.037Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:56:12.037Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:56:13.694Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:56:13.825Z - Login attempt completed
+[STEP] 2026-04-20T06:56:16.937Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:56:18.967Z - Navigated to Enrollment section
+[INFO] 2026-04-20T06:56:18.967Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-04-20T06:56:18.967Z - Test 5: Verify combined Date + Status filter
+[INFO] 2026-04-20T06:56:18.967Z - Generated random date range: 01-26-2026 to 03-01-2026
+[INFO] 2026-04-20T06:56:18.967Z - Selected random status: Active
+[INFO] 2026-04-20T06:56:18.967Z - Applying combined filters - Date: 01-26-2026 to 03-01-2026, Status: Active
+[STEP] 2026-04-20T06:56:18.967Z - Applying date filter: 01-26-2026 to 03-01-2026
+[INFO] 2026-04-20T06:56:25.095Z - Date filter applied successfully
+[STEP] 2026-04-20T06:56:25.095Z - Applying status filter: Active
+[INFO] 2026-04-20T06:56:31.254Z - Status filter 'Active' applied successfully
+[STEP] 2026-04-20T06:56:31.254Z - Retrieving filtered enrollment results
+[INFO] 2026-04-20T06:56:33.697Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Zemlak, Haven - active - 02-24-2026
+Record 2 Verified: Zemlak, Haven - active - 02-24-2026
+Record 3 Verified: Schumm, Gregg - active - 02-24-2026
+[INFO] 2026-04-20T06:56:33.703Z - Combined Date + Status filter verification completed - 3 records verified

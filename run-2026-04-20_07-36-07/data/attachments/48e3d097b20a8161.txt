@@ -1,0 +1,31 @@
+[STEP] 2026-04-20T07:18:38.274Z - Login to Provider Portal
+[STEP] 2026-04-20T07:18:38.817Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:18:38.817Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:18:39.466Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:18:40.920Z - Login attempt completed
+[STEP] 2026-04-20T07:18:44.268Z - Test: Verify reminder task details in list
+[STEP] 2026-04-20T07:18:44.268Z - Navigating to Task page
+[INFO] 2026-04-20T07:18:45.370Z - Navigated to Task page
+[STEP] 2026-04-20T07:18:45.371Z - Creating task with reminder: ReminderContent 1776669525370
+[STEP] 2026-04-20T07:18:45.371Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:18:45.997Z - Add Task form opened
+[STEP] 2026-04-20T07:19:02.586Z - Selecting "Email" from combobox index 7
+[INFO] 2026-04-20T07:19:03.979Z - Selected "Email" from combobox 7
+[STEP] 2026-04-20T07:19:03.979Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-04-20T07:19:05.377Z - Selected "5 Days" from combobox 8
+[INFO] 2026-04-20T07:19:08.773Z - Task "ReminderContent 1776669525370" with reminder created successfully
+[STEP] 2026-04-20T07:19:08.773Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:19:10.343Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:19:10.343Z - Setting status filter to: All
+[INFO] 2026-04-20T07:19:12.764Z - Status filter set to: All
+[STEP] 2026-04-20T07:19:12.764Z - Searching for: ReminderContent 1776669525370
+[INFO] 2026-04-20T07:19:14.861Z - Search completed for: ReminderContent 1776669525370
+[STEP] 2026-04-20T07:19:14.861Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:19:15.868Z - TASK values: ReminderContent 1776669525370
+[STEP] 2026-04-20T07:19:15.870Z - Fetching column values for: DUE DATE
+[INFO] 2026-04-20T07:19:16.874Z - DUE DATE values: 04/30/2026
+[STEP] 2026-04-20T07:19:16.875Z - Fetching column values for: TASK STATUS
+[INFO] 2026-04-20T07:19:17.880Z - TASK STATUS values: ToDo
+[STEP] 2026-04-20T07:19:17.881Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T07:19:18.886Z - ASSIGNED TO values: Annamae Quitzon
+[INFO] 2026-04-20T07:19:18.887Z - Reminder task content verified: name=ReminderContent 1776669525370, date=04/30/2026, status=ToDo

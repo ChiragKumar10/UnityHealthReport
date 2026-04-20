@@ -1,0 +1,49 @@
+[STEP] 2026-04-20T07:03:21.853Z - Login to Provider Portal
+[STEP] 2026-04-20T07:03:22.338Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:03:22.338Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:03:23.502Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:03:23.632Z - Login attempt completed
+[STEP] 2026-04-20T07:03:26.706Z - Test: E2E Task Reassignment
+[STEP] 2026-04-20T07:03:26.706Z - Navigating to Task page
+[INFO] 2026-04-20T07:03:27.777Z - Navigated to Task page
+[INFO] 2026-04-20T07:03:27.780Z - Logged-in user: chirag kumar
+[STEP] 2026-04-20T07:03:27.780Z - Creating task: Reassign E2E 1776668607780
+[STEP] 2026-04-20T07:03:27.780Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:03:28.390Z - Add Task form opened
+[INFO] 2026-04-20T07:03:46.917Z - Task "Reassign E2E 1776668607780" created successfully
+[STEP] 2026-04-20T07:03:46.917Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:03:48.483Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:03:48.483Z - Setting status filter to: All
+[INFO] 2026-04-20T07:03:50.900Z - Status filter set to: All
+[STEP] 2026-04-20T07:03:50.900Z - Searching for: Reassign E2E 1776668607780
+[INFO] 2026-04-20T07:03:52.970Z - Search completed for: Reassign E2E 1776668607780
+[STEP] 2026-04-20T07:03:52.970Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T07:03:53.975Z - ASSIGNED TO values: chirag kumar
+[INFO] 2026-04-20T07:03:53.976Z - Task initially assigned to: chirag kumar
+[STEP] 2026-04-20T07:03:53.976Z - Opening Edit Task form
+[STEP] 2026-04-20T07:03:53.976Z - Clicking action menu on row 0
+[INFO] 2026-04-20T07:03:55.015Z - Action menu opened on row 0
+[STEP] 2026-04-20T07:03:55.015Z - Clicking action menu item: Edit
+[INFO] 2026-04-20T07:03:56.589Z - Clicked: Edit
+[INFO] 2026-04-20T07:03:56.592Z - Edit Task form opened
+[STEP] 2026-04-20T07:03:56.595Z - Changing assignee to: a
+[INFO] 2026-04-20T07:04:00.097Z - Assignee changed to: a
+[STEP] 2026-04-20T07:04:00.097Z - Filling edit note: Reassigned by chirag kumar at 2026-04-20T07:04:00.097Z
+[STEP] 2026-04-20T07:04:00.418Z - Saving edited task
+[INFO] 2026-04-20T07:04:00.423Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-04-20T07:04:00.431Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-04-20T07:04:00.440Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-04-20T07:04:00.448Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-04-20T07:04:00.452Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-04-20T07:04:00.452Z - Reading all edit form pre-filled values
+[INFO] 2026-04-20T07:04:00.470Z - Edit form values: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"Reassign E2E 1776668607780","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"27 April 2026 ","note":"Reassigned by chirag kumar at 2026-04-20T07:04:00.097Z"}
+[INFO] 2026-04-20T07:04:00.470Z - Form state before save: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"Reassign E2E 1776668607780","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"27 April 2026 ","note":"Reassigned by chirag kumar at 2026-04-20T07:04:00.097Z"}
+[INFO] 2026-04-20T07:04:00.475Z - Validation errors before save: []
+[INFO] 2026-04-20T07:04:02.525Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-04-20T07:04:03.532Z - Edit task saved (drawer closed: true)
+[STEP] 2026-04-20T07:04:03.532Z - Searching for: Reassign E2E 1776668607780
+[INFO] 2026-04-20T07:04:05.724Z - Search completed for: Reassign E2E 1776668607780
+[STEP] 2026-04-20T07:04:05.724Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T07:04:06.728Z - ASSIGNED TO values: Annamae Quitzon
+[INFO] 2026-04-20T07:04:06.728Z - Task reassigned to: Annamae Quitzon
+[INFO] 2026-04-20T07:04:06.728Z - E2E Reassignment complete: chirag kumar → Annamae Quitzon

@@ -1,0 +1,22 @@
+[STEP] 2026-04-20T06:51:54.030Z - Login to Provider Portal
+[STEP] 2026-04-20T06:51:54.505Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:51:54.505Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:51:55.653Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:51:55.789Z - Login attempt completed
+[STEP] 2026-04-20T06:51:58.907Z - Test: Verify task assigned to logged-in care manager
+[STEP] 2026-04-20T06:51:58.907Z - Navigating to Task page
+[INFO] 2026-04-20T06:51:59.986Z - Navigated to Task page
+[INFO] 2026-04-20T06:51:59.989Z - Logged-in user: chirag kumar
+[STEP] 2026-04-20T06:51:59.989Z - Creating task: MyAssigned 1776667919989
+[STEP] 2026-04-20T06:51:59.989Z - Clicking + Add Task button
+[INFO] 2026-04-20T06:52:00.604Z - Add Task form opened
+[INFO] 2026-04-20T06:52:19.177Z - Task "MyAssigned 1776667919989" created successfully
+[STEP] 2026-04-20T06:52:19.177Z - Navigating to Task page
+[INFO] 2026-04-20T06:52:20.299Z - Navigated to Task page
+[STEP] 2026-04-20T06:52:20.299Z - Searching for: 1776667919989
+[INFO] 2026-04-20T06:52:22.365Z - Search completed for: 1776667919989
+[STEP] 2026-04-20T06:52:22.365Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-04-20T06:52:23.369Z - ASSIGNED TO values: chirag kumar
+[STEP] 2026-04-20T06:52:23.370Z - Fetching column values for: TASK
+[INFO] 2026-04-20T06:52:24.374Z - TASK values: MyAssigned 1776667919989
+[INFO] 2026-04-20T06:52:24.376Z - Task "MyAssigned 1776667919989" verified under My Tasks for chirag kumar

@@ -1,0 +1,42 @@
+[STEP] 2026-04-20T06:47:54.491Z - beforeAll: Logging in to Admin Portal
+[STEP] 2026-04-20T06:47:54.492Z - Navigating to admin portal login page
+[INFO] 2026-04-20T06:47:55.695Z - Successfully navigated to admin portal login page
+[STEP] 2026-04-20T06:47:55.695Z - Attempting to login
+[INFO] 2026-04-20T06:47:55.828Z - Login attempt completed
+[STEP] 2026-04-20T06:47:55.828Z - Navigating to Library -> Condition
+[INFO] 2026-04-20T06:47:56.921Z - Successfully navigated to Condition page
+[INFO] 2026-04-20T06:47:56.921Z - beforeAll: Admin portal ready
+[STEP] 2026-04-20T06:47:56.961Z - beforeAll: Logging in to Provider Portal
+[STEP] 2026-04-20T06:47:56.961Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:47:58.631Z - Successfully navigated to provider portal login page
+[STEP] 2026-04-20T06:47:58.632Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:47:58.632Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:47:59.885Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:48:00.020Z - Login attempt completed
+[INFO] 2026-04-20T06:48:03.253Z - beforeAll: Provider portal ready
+[STEP] 2026-04-20T06:48:03.286Z - Navigating to Library -> Condition
+[INFO] 2026-04-20T06:48:03.902Z - Successfully navigated to Condition page
+[STEP] 2026-04-20T06:48:03.903Z - COND-1: Add a new Condition
+[INFO] 2026-04-20T06:48:03.903Z - ICD Code: J39037, Condition Name: Condition-gy6bhj5d-1776667683903
+[STEP] 2026-04-20T06:48:03.904Z - Clicking Add Condition button
+[INFO] 2026-04-20T06:48:05.034Z - Add Condition form opened
+[STEP] 2026-04-20T06:48:05.035Z - Entering ICD Code: J39037
+[INFO] 2026-04-20T06:48:05.592Z - ICD Code entered: J39037
+[STEP] 2026-04-20T06:48:05.593Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-04-20T06:48:06.708Z - ICD Code Type selected: ICD 11 
+[STEP] 2026-04-20T06:48:06.709Z - Entering Condition Name: Condition-gy6bhj5d-1776667683903
+[INFO] 2026-04-20T06:48:07.232Z - Condition Name entered: Condition-gy6bhj5d-1776667683903
+[STEP] 2026-04-20T06:48:07.233Z - Entering Description: Automated test description - iraaxhsu9n
+[INFO] 2026-04-20T06:48:07.750Z - Description entered: Automated test description - iraaxhsu9n
+[STEP] 2026-04-20T06:48:07.750Z - Clicking Save button
+[INFO] 2026-04-20T06:48:09.214Z - Save button clicked
+[STEP] 2026-04-20T06:48:09.214Z - Verifying success message contains: "successfully"
+[INFO] 2026-04-20T06:48:09.240Z - Success message verified: "Icd Code Created Successfully"
+[INFO] 2026-04-20T06:48:09.240Z - Condition created with ICD Code: J39037
+[STEP] 2026-04-20T06:48:09.240Z - Navigating to Library -> Condition
+[INFO] 2026-04-20T06:48:09.936Z - Successfully navigated to Condition page
+[STEP] 2026-04-20T06:48:09.936Z - Searching for condition: J39037
+[INFO] 2026-04-20T06:48:10.986Z - Search completed for: J39037
+[STEP] 2026-04-20T06:48:10.986Z - Verifying condition "J39037" in list
+[INFO] 2026-04-20T06:48:10.992Z - Condition "J39037" is visible in list
+[INFO] 2026-04-20T06:48:10.992Z - Admin: ICD Code 'J39037' verified in list

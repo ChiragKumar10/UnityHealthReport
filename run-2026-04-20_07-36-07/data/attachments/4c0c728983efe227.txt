@@ -1,0 +1,30 @@
+[STEP] 2026-04-20T06:58:22.558Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-04-20T06:58:22.560Z - Logging in and navigating to enrollment form
+[STEP] 2026-04-20T06:58:22.560Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:58:22.560Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:58:24.251Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:58:24.404Z - Login attempt completed
+[STEP] 2026-04-20T06:58:27.629Z - Navigating to Enrollment section
+[INFO] 2026-04-20T06:58:29.676Z - Navigated to Enrollment section
+✓ Provider selected
+✓ Primary Care Manager assigned
+✓ Selected 2 secondary care managers (max allowed: 3)
+✓ Selected 3 diagnoses
+  1. (J39037) - Condition-ob1xuimj-1776667694351 - Automated test description - 1bhyvu1ylv4
+  2. (F25382) - Condition-2p0zfehf-1776660912874 - Automated test description - 3jhsls6p9kd
+  3. (T02603) - Condition-0uxll9u0-1776574111239 - Automated test description - p3ql64ltdm8
+✓ Multiple diagnoses selection validated
+
+--- Enrollment Attempt 1/5 ---
+✓ Found 20 patients matching 's'
+✓ Service type selected
+[STEP] 2026-04-20T06:58:57.221Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-20T06:58:57.233Z - Enrollment result: SUCCESS
+✓ Enrollment added successfully
+✓ Diagnoses displayed in enrollment list: T02603-Aut...+2
+[INFO] 2026-04-20T06:58:59.240Z - Care Manager and multi-diagnoses selection verified successfully

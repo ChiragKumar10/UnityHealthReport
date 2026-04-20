@@ -1,0 +1,39 @@
+[STEP] 2026-04-20T06:53:29.692Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-04-20T06:53:30.063Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:53:30.063Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:53:31.284Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:53:31.424Z - Login attempt completed
+[STEP] 2026-04-20T06:53:34.504Z - Test: Verify reactivate user
+[STEP] 2026-04-20T06:53:34.504Z - Navigating to Settings page
+[INFO] 2026-04-20T06:53:35.599Z - Navigated to Settings page
+[STEP] 2026-04-20T06:53:35.599Z - Clicking Unity Users tab
+[INFO] 2026-04-20T06:53:36.750Z - Unity Users tab clicked
+[STEP] 2026-04-20T06:53:36.750Z - Adding Unity User: Autofirstgbijwh Autolastgbijwh
+[STEP] 2026-04-20T06:53:36.750Z - Clicking Add Unity User button
+[INFO] 2026-04-20T06:53:37.940Z - Add Unity User form opened
+[STEP] 2026-04-20T06:53:37.940Z - Filling Unity User form for: Autofirstgbijwh Autolastgbijwh
+[STEP] 2026-04-20T06:53:37.940Z - Selecting dropdown option: Care Coordinators
+[INFO] 2026-04-20T06:53:38.903Z - Selected: Care Coordinators
+[STEP] 2026-04-20T06:53:38.986Z - Selecting dropdown option: Male
+[INFO] 2026-04-20T06:53:39.913Z - Selected: Male
+[INFO] 2026-04-20T06:53:40.131Z - Form filled for: Autofirstgbijwh Autolastgbijwh
+[STEP] 2026-04-20T06:53:40.131Z - Clicking Save button
+[INFO] 2026-04-20T06:53:42.246Z - Save button clicked
+[INFO] 2026-04-20T06:53:42.252Z - Unity User 'Autofirstgbijwh Autolastgbijwh' added — form closed
+[STEP] 2026-04-20T06:53:42.252Z - Verifying user 'Autofirstgbijwh Autolastgbijwh' is visible in the list
+[STEP] 2026-04-20T06:53:42.252Z - Searching for user: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:43.287Z - Search completed for: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:43.418Z - User 'Autofirstgbijwh Autolastgbijwh' is visible in the list
+[STEP] 2026-04-20T06:53:43.418Z - Searching for user: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:44.428Z - Search completed for: Autofirstgbijwh Autolastgbijwh
+[STEP] 2026-04-20T06:53:44.428Z - Toggling status for: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:46.450Z - Status toggled for: Autofirstgbijwh Autolastgbijwh
+[STEP] 2026-04-20T06:53:46.450Z - Getting status for: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:47.456Z - User 'Autofirstgbijwh Autolastgbijwh' status: Inactive
+[INFO] 2026-04-20T06:53:47.457Z - User deactivated
+[STEP] 2026-04-20T06:53:47.457Z - Toggling status for: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:49.494Z - Status toggled for: Autofirstgbijwh Autolastgbijwh
+[STEP] 2026-04-20T06:53:49.494Z - Getting status for: Autofirstgbijwh Autolastgbijwh
+[INFO] 2026-04-20T06:53:50.499Z - User 'Autofirstgbijwh Autolastgbijwh' status: Active
+[INFO] 2026-04-20T06:53:50.500Z - Status changed back to Active
+[INFO] 2026-04-20T06:53:50.503Z - Reactivate user verified

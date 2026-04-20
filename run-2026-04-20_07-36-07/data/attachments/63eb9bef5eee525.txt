@@ -1,0 +1,39 @@
+[STEP] 2026-04-20T07:00:24.432Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:00:24.432Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:00:25.670Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:00:25.820Z - Login attempt completed
+[STEP] 2026-04-20T07:00:28.722Z - Test: Verify due date visible to assigned provider
+[STEP] 2026-04-20T07:00:28.722Z - Navigating to Task page
+[INFO] 2026-04-20T07:00:29.799Z - Navigated to Task page
+[STEP] 2026-04-20T07:00:29.799Z - Creating task: DueDate 1776668429799
+[STEP] 2026-04-20T07:00:29.799Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:00:30.430Z - Add Task form opened
+[INFO] 2026-04-20T07:00:49.009Z - Task "DueDate 1776668429799" created successfully
+[INFO] 2026-04-20T07:00:49.009Z - Task "DueDate 1776668429799" created with due date offset 5 days
+[STEP] 2026-04-20T07:00:49.009Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:00:50.582Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:00:50.582Z - Setting status filter to: All
+[INFO] 2026-04-20T07:00:52.994Z - Status filter set to: All
+[STEP] 2026-04-20T07:00:52.994Z - Searching for: DueDate 1776668429799
+[INFO] 2026-04-20T07:00:55.061Z - Search completed for: DueDate 1776668429799
+[STEP] 2026-04-20T07:00:55.061Z - Fetching column values for: DUE DATE
+[INFO] 2026-04-20T07:00:56.066Z - DUE DATE values: 04/25/2026
+[INFO] 2026-04-20T07:00:56.066Z - Due date in Chirag view: 04/25/2026
+[STEP] 2026-04-20T07:00:56.068Z - Logging in as John Doe to verify due date
+[STEP] 2026-04-20T07:00:56.068Z - Logging out from provider portal
+[INFO] 2026-04-20T07:00:57.528Z - Logout completed
+[STEP] 2026-04-20T07:00:57.528Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:00:57.528Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:00:58.699Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:00:58.813Z - Login attempt completed
+[INFO] 2026-04-20T07:01:01.104Z - Logged in as John Doe
+[STEP] 2026-04-20T07:01:01.104Z - Navigating to Task page
+[INFO] 2026-04-20T07:01:02.179Z - Navigated to Task page
+[STEP] 2026-04-20T07:01:02.179Z - Setting status filter to: All
+[INFO] 2026-04-20T07:01:04.582Z - Status filter set to: All
+[STEP] 2026-04-20T07:01:04.582Z - Searching for: DueDate 1776668429799
+[INFO] 2026-04-20T07:01:06.645Z - Search completed for: DueDate 1776668429799
+[STEP] 2026-04-20T07:01:06.645Z - Fetching column values for: DUE DATE
+[INFO] 2026-04-20T07:01:07.650Z - DUE DATE values: 04/25/2026
+[INFO] 2026-04-20T07:01:07.650Z - Due date in John Doe view: 04/25/2026
+[INFO] 2026-04-20T07:01:07.652Z - AUT_TSK_126 PASSED: Due date "04/25/2026" visible to John Doe and matches Chirag view "04/25/2026"

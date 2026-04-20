@@ -1,0 +1,39 @@
+[STEP] 2026-04-20T06:53:35.579Z - Login to Provider Portal
+[STEP] 2026-04-20T06:53:36.134Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:53:36.134Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:53:37.282Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:53:37.430Z - Login attempt completed
+[STEP] 2026-04-20T06:53:40.494Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-04-20T06:53:40.495Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-20T06:53:40.495Z - Dismissing any open drawer
+[INFO] 2026-04-20T06:53:41.000Z - No drawer backdrop in DOM
+[INFO] 2026-04-20T06:53:41.511Z - Successfully on Care Team Work List
+[STEP] 2026-04-20T06:53:41.511Z - Selecting program tab: RTM
+[INFO] 2026-04-20T06:53:42.578Z - Successfully selected RTM tab
+[STEP] 2026-04-20T06:53:42.578Z - Clicking monitoring category: Data
+[STEP] 2026-04-20T06:53:43.747Z - Clearing status filter
+[INFO] 2026-04-20T06:53:43.759Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-04-20T06:53:44.299Z - MUI Menu options: 3
+[INFO] 2026-04-20T06:53:44.302Z -   Option [0]: "Clear Selection"
+[INFO] 2026-04-20T06:53:45.393Z - Status filter cleared
+[INFO] 2026-04-20T06:53:45.393Z - Switched to Data monitoring view
+[STEP] 2026-04-20T06:53:45.394Z - Test: Send App chat from Data section
+[STEP] 2026-04-20T06:53:45.394Z - Getting first available patient from list
+[INFO] 2026-04-20T06:53:45.404Z - First available patient: "Automation, Test"
+[STEP] 2026-04-20T06:53:45.404Z - Getting visible row count
+[INFO] 2026-04-20T06:53:46.407Z - Visible row count: 1
+[STEP] 2026-04-20T06:53:46.409Z - Sending app chat to: Automation, Test
+[STEP] 2026-04-20T06:53:46.409Z - Selecting action "App Chat" for: Automation, Test
+[STEP] 2026-04-20T06:53:46.409Z - Opening action menu for: Automation, Test
+[INFO] 2026-04-20T06:53:47.487Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-04-20T06:53:48.586Z - Action "App Chat" selected for: Automation, Test
+[STEP] 2026-04-20T06:53:48.586Z - Handling messaging / time log dialog
+[INFO] 2026-04-20T06:53:49.593Z - Detected SEND MESSAGE dialog
+[INFO] 2026-04-20T06:53:50.683Z - Message sent via SEND dialog
+[INFO] 2026-04-20T06:53:50.688Z - TIME LOG follow-up dialog detected — filling and saving
+[STEP] 2026-04-20T06:53:50.688Z - Filling TIME LOG dialog
+[INFO] 2026-04-20T06:53:52.360Z - TIME LOG dialog saved
+[STEP] 2026-04-20T06:53:52.360Z - Closing all overlays
+[INFO] 2026-04-20T06:53:54.420Z - All overlays closed
+[INFO] 2026-04-20T06:53:54.421Z - App chat sent to: Automation, Test
+[INFO] 2026-04-20T06:53:54.421Z - App chat sent from Data section

@@ -1,0 +1,55 @@
+[STEP] 2026-04-20T07:11:01.500Z - Login to Provider Portal
+[STEP] 2026-04-20T07:11:01.900Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:11:01.900Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:11:03.066Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:11:03.213Z - Login attempt completed
+[STEP] 2026-04-20T07:11:06.278Z - Test: Create tasks with each recurring interval
+[STEP] 2026-04-20T07:11:06.279Z - Navigating to Task page
+[INFO] 2026-04-20T07:11:07.351Z - Navigated to Task page
+[STEP] 2026-04-20T07:11:07.351Z - Creating recurring task: DailyAll 1776669067351 (Daily)
+[STEP] 2026-04-20T07:11:07.352Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:11:07.986Z - Add Task form opened
+[STEP] 2026-04-20T07:11:25.021Z - Selecting "Daily" from combobox index 6
+[INFO] 2026-04-20T07:11:26.411Z - Selected "Daily" from combobox 6
+[INFO] 2026-04-20T07:11:29.487Z - Recurring task "DailyAll 1776669067351" (Daily) created successfully
+[INFO] 2026-04-20T07:11:29.487Z - Created: DailyAll 1776669067351
+[STEP] 2026-04-20T07:11:29.487Z - Creating recurring task: WeeklyAll 1776669067351 (Weekly)
+[STEP] 2026-04-20T07:11:29.487Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:11:30.164Z - Add Task form opened
+[STEP] 2026-04-20T07:11:47.078Z - Selecting "Weekly" from combobox index 6
+[INFO] 2026-04-20T07:11:48.477Z - Selected "Weekly" from combobox 6
+[INFO] 2026-04-20T07:11:51.547Z - Recurring task "WeeklyAll 1776669067351" (Weekly) created successfully
+[INFO] 2026-04-20T07:11:51.547Z - Created: WeeklyAll 1776669067351
+[STEP] 2026-04-20T07:11:51.547Z - Creating recurring task: MonthlyAll 1776669067351 (Monthly)
+[STEP] 2026-04-20T07:11:51.547Z - Clicking + Add Task button
+[INFO] 2026-04-20T07:11:52.224Z - Add Task form opened
+[STEP] 2026-04-20T07:12:09.136Z - Selecting "Monthly" from combobox index 6
+[INFO] 2026-04-20T07:12:10.527Z - Selected "Monthly" from combobox 6
+[INFO] 2026-04-20T07:12:13.608Z - Recurring task "MonthlyAll 1776669067351" (Monthly) created successfully
+[INFO] 2026-04-20T07:12:13.608Z - Created: MonthlyAll 1776669067351
+[STEP] 2026-04-20T07:12:13.608Z - Unchecking My Tasks filter
+[INFO] 2026-04-20T07:12:15.173Z - My Tasks filter unchecked
+[STEP] 2026-04-20T07:12:15.173Z - Setting status filter to: All
+[INFO] 2026-04-20T07:12:17.585Z - Status filter set to: All
+[STEP] 2026-04-20T07:12:17.585Z - Searching for: DailyAll 1776669067351
+[INFO] 2026-04-20T07:12:19.657Z - Search completed for: DailyAll 1776669067351
+[STEP] 2026-04-20T07:12:19.658Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:12:20.663Z - TASK values: DailyAll 1776669067351
+[INFO] 2026-04-20T07:12:20.663Z - Daily recurring task verified in list
+[STEP] 2026-04-20T07:12:20.664Z - Clearing search
+[INFO] 2026-04-20T07:12:22.186Z - Search cleared
+[STEP] 2026-04-20T07:12:22.186Z - Searching for: WeeklyAll 1776669067351
+[INFO] 2026-04-20T07:12:24.246Z - Search completed for: WeeklyAll 1776669067351
+[STEP] 2026-04-20T07:12:24.247Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:12:25.251Z - TASK values: WeeklyAll 1776669067351
+[INFO] 2026-04-20T07:12:25.252Z - Weekly recurring task verified in list
+[STEP] 2026-04-20T07:12:25.252Z - Clearing search
+[INFO] 2026-04-20T07:12:26.773Z - Search cleared
+[STEP] 2026-04-20T07:12:26.773Z - Searching for: MonthlyAll 1776669067351
+[INFO] 2026-04-20T07:12:28.826Z - Search completed for: MonthlyAll 1776669067351
+[STEP] 2026-04-20T07:12:28.826Z - Fetching column values for: TASK
+[INFO] 2026-04-20T07:12:29.831Z - TASK values: MonthlyAll 1776669067351
+[INFO] 2026-04-20T07:12:29.832Z - Monthly recurring task verified in list
+[STEP] 2026-04-20T07:12:29.832Z - Clearing search
+[INFO] 2026-04-20T07:12:31.358Z - Search cleared
+[INFO] 2026-04-20T07:12:31.358Z - All 3 recurring intervals verified

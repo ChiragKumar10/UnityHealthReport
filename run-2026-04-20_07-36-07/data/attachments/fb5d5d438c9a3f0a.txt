@@ -1,0 +1,97 @@
+[STEP] 2026-04-20T07:02:00.128Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-04-20T07:02:00.129Z - Logging in and navigating to Enrollment section
+[STEP] 2026-04-20T07:02:00.129Z - Attempting to login to provider portal
+[STEP] 2026-04-20T07:02:00.129Z - Navigating to provider portal login page
+[INFO] 2026-04-20T07:02:01.799Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T07:02:01.943Z - Login attempt completed
+[STEP] 2026-04-20T07:02:05.099Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:02:07.150Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-04-20T07:02:10.152Z - Adding new enrollment
+[INFO] 2026-04-20T07:02:16.430Z - Found 16 patients matching 'v'
+[INFO] 2026-04-20T07:02:17.868Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Fadel, Elvie  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-04-20T07:02:23.707Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-04-20T07:02:23.718Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Fadel, Elvie
+  Program: Remote Therapeutic Monitoring (RTM)
+  Provider: John  Doe
+  Care Manager: Autofirstawpvrh Autolastawpvrh
+[INFO] 2026-04-20T07:02:23.718Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Fadel, Elvie
+Program: Remote Therapeutic Monitoring (RTM)
+Provider: John  Doe
+Care Manager: Autofirstawpvrh Autolastawpvrh
+[STEP] 2026-04-20T07:02:23.718Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:02:25.764Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Remote Therapeutic Monitoring (RTM)"
+Extracted program short: "RTM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "RTM"
+✓ Program tab "RTM" found
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Fadel
+Total rows in NEW section: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: Fadel, Elvie672-225-744904-08-2026SelfPay
+✓ Patient found in NEW section at row 2 (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 2
+[STEP] 2026-04-20T07:02:51.541Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:02:53.566Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Fadel
+Total rows in ACTIVE section: 2
+Row 0: NAME ▲DOBENROLLED DATECARE MANAGERPROVIDERINSURANCE NAMETYPE OF MOBILEDOCUMENT SIGNEDHEALTH CONNECTACTION
+Row 1: Fadel, Elvie08-27-202304-20-2026Autofirstawpvrh AutolastawpvrhJohn  DoeSelfPay-
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===
+✓ Patient Name: Fadel - Displayed
+✓ Provider: John  Doe - Displayed
+✓ Care Manager: Autofirstawpvrh Autolastawpvrh - Displayed
+Total rows in NEW section after move: 2
+Row 0: NAME ▲CONTACT NUMBERDATE ADDEDINSURANCE NAMECONSENTINSURANCECONDITIONSINTRODUCTIONEDUCATIONACTION
+Row 1: No data found.
+
+=== WORKLIST NEW SECTION VALIDATION (AFTER MOVE TO ACTIVE) ===
+✓ Patient NOT found in NEW section
+
+=== ATTEMPT 1/3: Checking enrollment list status ===
+[STEP] 2026-04-20T07:03:31.100Z - Navigating to Enrollment section
+[INFO] 2026-04-20T07:03:33.169Z - Navigated to Enrollment section
+[STEP] 2026-04-20T07:03:35.171Z - Applying status filter: Active
+[INFO] 2026-04-20T07:03:41.313Z - Status filter 'Active' applied successfully
+Enrollment row text: 01Fadel, ElvieRTM04-20-2026activeT02603-Aut...+1Autofirstawpvrh AutolastawpvrhJohn  Doe
+✓ Status is ACTIVE (attempt 1)
+
+=== ENROLLMENT LIST STATUS VALIDATION ===
+Final enrollment row text: 01Fadel, ElvieRTM04-20-2026activeT02603-Aut...+1Autofirstawpvrh AutolastawpvrhJohn  Doe
+✓ Enrollment status is ACTIVE
+✓ Status change validated successfully in all sections
+[INFO] 2026-04-20T07:03:44.326Z - Status change workflow completed successfully - Status changed from NEW to ACTIVE and reflected in Worklist and Enrollment List

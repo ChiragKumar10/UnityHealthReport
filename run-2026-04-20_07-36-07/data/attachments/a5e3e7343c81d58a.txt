@@ -1,0 +1,34 @@
+[STEP] 2026-04-20T06:51:34.113Z - Login to Provider Portal
+[STEP] 2026-04-20T06:51:34.689Z - Attempting to login to provider portal
+[STEP] 2026-04-20T06:51:34.689Z - Navigating to provider portal login page
+[INFO] 2026-04-20T06:51:35.841Z - Successfully navigated to provider portal login page
+[INFO] 2026-04-20T06:51:35.967Z - Login attempt completed
+[STEP] 2026-04-20T06:51:38.989Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-04-20T06:51:38.989Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-04-20T06:51:38.989Z - Dismissing any open drawer
+[INFO] 2026-04-20T06:51:39.495Z - No drawer backdrop in DOM
+[INFO] 2026-04-20T06:51:40.002Z - Successfully on Care Team Work List
+[STEP] 2026-04-20T06:51:40.002Z - Selecting program tab: RTM
+[INFO] 2026-04-20T06:51:41.073Z - Successfully selected RTM tab
+[STEP] 2026-04-20T06:51:41.074Z - Clicking monitoring category: Data
+[STEP] 2026-04-20T06:51:42.215Z - Clearing status filter
+[INFO] 2026-04-20T06:51:42.221Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-04-20T06:51:42.772Z - MUI Menu options: 3
+[INFO] 2026-04-20T06:51:42.776Z -   Option [0]: "Clear Selection"
+[INFO] 2026-04-20T06:51:43.843Z - Status filter cleared
+[INFO] 2026-04-20T06:51:43.843Z - Switched to Data monitoring view
+[STEP] 2026-04-20T06:51:43.844Z - Test: Complete data review workflow
+[STEP] 2026-04-20T06:51:43.845Z - Getting first available patient from list
+[INFO] 2026-04-20T06:51:43.858Z - First available patient: "Automation, Test"
+[STEP] 2026-04-20T06:51:43.859Z - Getting visible row count
+[INFO] 2026-04-20T06:51:44.866Z - Visible row count: 1
+[STEP] 2026-04-20T06:51:44.868Z - Checking if patient "Automation, Test" is in the list
+[INFO] 2026-04-20T06:51:44.875Z - Patient "Automation, Test" found in list
+[INFO] 2026-04-20T06:51:44.875Z - Patient found in Data list: Automation, Test
+[STEP] 2026-04-20T06:51:44.875Z - Getting status for patient: Automation, Test
+[INFO] 2026-04-20T06:51:44.882Z - Patient "Automation, Test" status: Reviewed
+[INFO] 2026-04-20T06:51:44.882Z - Initial status: Reviewed
+[STEP] 2026-04-20T06:51:44.883Z - Reviewing vital from action menu for: Automation, Test
+[STEP] 2026-04-20T06:51:44.883Z - Selecting action "Review" for: Automation, Test
+[STEP] 2026-04-20T06:51:44.883Z - Opening action menu for: Automation, Test
+[INFO] 2026-04-20T06:51:45.960Z - Action menu clicked for: Automation, Test (attempt 1)
