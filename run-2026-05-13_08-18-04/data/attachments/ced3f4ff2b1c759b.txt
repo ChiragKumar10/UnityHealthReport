@@ -1,0 +1,53 @@
+[ERROR] 2026-05-13T07:30:15.495Z - Failed to click vital action: Pain Scale
+locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('[role=\'grid\']').first()
+
+    at PatientMonitoringPage.clickVitalAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:938:25)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:509:30 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts',
+      line: 938,
+      column: 25,
+      function: 'PatientMonitoringPage.clickVitalAction'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('[role=\\'grid\\']').first()",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "[role='grid'] >> nth=0",
+      strict: true,
+      state: 'attached',
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@84',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@84',
+      _title: "Scroll into view locator('[role=\\'grid\\']').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657415495,
+    error: {
+      message: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('[role=\\'grid\\']').first()\x1B[22m\n",
+      stack: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('[role=\\'grid\\']').first()\x1B[22m\n" +
+        '\n' +
+        '    at PatientMonitoringPage.clickVitalAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:938:25)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:509:30',
+      cause: undefined
+    }
+  }
+}

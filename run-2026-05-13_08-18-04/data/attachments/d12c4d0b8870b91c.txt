@@ -1,0 +1,23 @@
+[STEP] 2026-05-13T08:04:47.369Z - Login to Provider Portal
+[STEP] 2026-05-13T08:04:48.008Z - Attempting to login to provider portal
+[STEP] 2026-05-13T08:04:48.008Z - Navigating to provider portal login page
+[INFO] 2026-05-13T08:04:48.102Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T08:04:52.796Z - Login attempt completed
+[STEP] 2026-05-13T08:04:54.317Z - Test: Clear search restores list
+[STEP] 2026-05-13T08:04:54.317Z - Navigating to Task page
+[INFO] 2026-05-13T08:04:55.412Z - Navigated to Task page
+[STEP] 2026-05-13T08:04:55.412Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T08:04:56.962Z - My Tasks filter unchecked
+[STEP] 2026-05-13T08:04:56.962Z - Setting status filter to: All
+[INFO] 2026-05-13T08:04:59.396Z - Status filter set to: All
+[STEP] 2026-05-13T08:04:59.396Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:05:00.403Z - TASK values: PatientChart 1776171941207, PatientChart 1776668562042, BothPlace 1777270763972, Reassign 1778477821760, Reassign 1777271248252, Complete 1777270823763, Reassign 1778477930224, Complete 1778477204985, StatusUpdate 1777226107367, Reassign 1777226140985, Reassign 1776424378860, StatusUpdate 1778658928855, PatientChart 1778477614337, Reassign 1776434549740, BothPlace 1778477106561, PatientChart 1777225877952, Complete 1778477148907, PatientChart 1778477570430, DeleteBoth 1778477260351, DeleteBoth 1778477301774, BothPlace 1778477063002, qwertyui, PatientChart 1777270971417, BothPlace 1776423953689, PatientChart 1776172534955
+[STEP] 2026-05-13T08:05:00.403Z - Searching for: Delta
+[INFO] 2026-05-13T08:05:02.483Z - Search completed for: Delta
+[STEP] 2026-05-13T08:05:02.483Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:05:03.488Z - TASK values: Delta Task 1778477072429, Delta Task 1776433307730, Delta Task 1777270813312, Delta Task 1776667615478, Delta Task 1776839291254, Delta Task 1776954832609, Delta Task 1776974333604, Delta Task 1777010538097, Delta Task 1777012025567, Delta Task 1777199731948, Delta Task 1777215864056, Delta Task 1777219988614, Delta Task 1777285365762, Delta Task 1778656553352, Delta Task 1777295867917, Delta Task 1775740210400, Delta Task 1775740377169, Delta Task 1775738126695, Delta Task 1775740783172, Delta Task 1775739149042, Delta Task 1775733424108, Delta Task 1775734027023, Delta Task 1775643476936, Delta Task 1775643548905, Delta Task 1775643656809
+[STEP] 2026-05-13T08:05:03.490Z - Clearing search
+[INFO] 2026-05-13T08:05:05.078Z - Search cleared
+[STEP] 2026-05-13T08:05:05.078Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:05:06.083Z - TASK values: PatientChart 1776171941207, PatientChart 1776668562042, BothPlace 1777270763972, Reassign 1778477821760, Reassign 1777271248252, Complete 1777270823763, Reassign 1778477930224, Complete 1778477204985, StatusUpdate 1777226107367, Reassign 1777226140985, Reassign 1776424378860, StatusUpdate 1778658928855, PatientChart 1778477614337, Reassign 1776434549740, BothPlace 1778477106561, PatientChart 1777225877952, Complete 1778477148907, PatientChart 1778477570430, DeleteBoth 1778477260351, DeleteBoth 1778477301774, BothPlace 1778477063002, qwertyui, PatientChart 1777270971417, BothPlace 1776423953689, PatientChart 1776172534955
+[INFO] 2026-05-13T08:05:06.084Z - Search cleared, list restored

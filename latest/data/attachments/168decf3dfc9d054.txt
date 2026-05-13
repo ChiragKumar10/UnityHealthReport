@@ -1,0 +1,36 @@
+[STEP] 2026-05-13T07:33:13.248Z - Login to Provider Portal
+[STEP] 2026-05-13T07:33:13.756Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:33:13.757Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:33:13.833Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:33:18.524Z - Login attempt completed
+[STEP] 2026-05-13T07:33:20.041Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-05-13T07:33:20.041Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:33:20.041Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:33:20.546Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:33:21.051Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:33:21.051Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:33:22.082Z - Successfully selected RTM tab
+[STEP] 2026-05-13T07:33:22.083Z - Clicking monitoring category: Data
+[STEP] 2026-05-13T07:33:23.201Z - Setting date filter to today
+[INFO] 2026-05-13T07:33:23.206Z - Changing date from "05-12-2026" to "05-13-2026"
+[INFO] 2026-05-13T07:33:24.303Z - Date filter set to: 05-13-2026
+[STEP] 2026-05-13T07:33:24.303Z - Clearing status filter
+[INFO] 2026-05-13T07:33:24.308Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-05-13T07:33:24.849Z - MUI Menu options: 3
+[INFO] 2026-05-13T07:33:24.852Z -   Option [0]: "Clear Selection"
+[INFO] 2026-05-13T07:33:25.924Z - Status filter cleared
+[INFO] 2026-05-13T07:33:25.924Z - Switched to Data monitoring view
+[STEP] 2026-05-13T07:33:25.925Z - Test: View Review Note
+[STEP] 2026-05-13T07:33:25.925Z - Getting visible row count
+[INFO] 2026-05-13T07:33:26.929Z - Visible row count: 1
+[STEP] 2026-05-13T07:33:26.929Z - Getting first available patient from list
+[INFO] 2026-05-13T07:33:26.936Z - First available patient: "Automation, Test"
+[STEP] 2026-05-13T07:33:26.937Z - Viewing review note for: Automation, Test
+[STEP] 2026-05-13T07:33:26.937Z - Selecting action "View Review Note" for: Automation, Test
+[STEP] 2026-05-13T07:33:26.937Z - Opening action menu for: Automation, Test
+[INFO] 2026-05-13T07:33:28.013Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-05-13T07:33:29.083Z - Action "View Review Note" selected for: Automation, Test
+[INFO] 2026-05-13T07:33:30.093Z - Review note content: Work ListEnrollmentsAlertsTasks308BillingDocument LibraryRPM LibraryRTM LibraryCCM LibraryPCM Librar...
+[INFO] 2026-05-13T07:33:30.093Z - Review note: Work ListEnrollmentsAlertsTasks308BillingDocument LibraryRPM LibraryRTM LibraryC...
+[STEP] 2026-05-13T07:33:30.093Z - Closing dialog
+[INFO] 2026-05-13T07:33:30.597Z - Dialog closed

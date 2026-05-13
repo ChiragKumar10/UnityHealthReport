@@ -1,0 +1,34 @@
+[STEP] 2026-05-13T07:32:39.081Z - Login to Provider Portal
+[STEP] 2026-05-13T07:32:39.524Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:32:39.525Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:32:39.599Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:32:43.919Z - Login attempt completed
+[STEP] 2026-05-13T07:32:45.433Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-05-13T07:32:45.433Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:32:45.433Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:32:45.939Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:32:46.467Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:32:46.467Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:32:47.502Z - Successfully selected RTM tab
+[STEP] 2026-05-13T07:32:47.502Z - Clicking monitoring category: Data
+[STEP] 2026-05-13T07:32:48.620Z - Setting date filter to today
+[INFO] 2026-05-13T07:32:48.626Z - Changing date from "05-12-2026" to "05-13-2026"
+[INFO] 2026-05-13T07:32:49.711Z - Date filter set to: 05-13-2026
+[STEP] 2026-05-13T07:32:49.711Z - Clearing status filter
+[INFO] 2026-05-13T07:32:49.716Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-05-13T07:32:50.250Z - MUI Menu options: 3
+[INFO] 2026-05-13T07:32:50.253Z -   Option [0]: "Clear Selection"
+[INFO] 2026-05-13T07:32:51.323Z - Status filter cleared
+[INFO] 2026-05-13T07:32:51.323Z - Switched to Data monitoring view
+[STEP] 2026-05-13T07:32:51.323Z - Test: Review vitals from Readings
+[STEP] 2026-05-13T07:32:51.323Z - Getting first available patient from list
+[INFO] 2026-05-13T07:32:51.332Z - First available patient: "Automation, Test"
+[STEP] 2026-05-13T07:32:51.332Z - Getting visible row count
+[INFO] 2026-05-13T07:32:52.337Z - Visible row count: 1
+[STEP] 2026-05-13T07:32:52.339Z - Clicking Number of Readings for: Automation, Test
+[INFO] 2026-05-13T07:32:53.405Z - Opened readings for: Automation, Test
+[STEP] 2026-05-13T07:32:53.405Z - Reviewing vital from readings page
+[INFO] 2026-05-13T07:32:53.431Z - No Review button — vital may already be reviewed
+[STEP] 2026-05-13T07:32:53.431Z - Verifying Reviewed status
+[INFO] 2026-05-13T07:32:53.434Z - Reviewed status verified
+[INFO] 2026-05-13T07:32:53.434Z - Vital reviewed from readings — status confirmed

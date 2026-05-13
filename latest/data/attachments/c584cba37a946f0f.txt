@@ -1,0 +1,17 @@
+[STEP] 2026-05-13T07:16:44.560Z - Setup: login → patient chart → CCM → Medical History
+[STEP] 2026-05-13T07:16:44.997Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:16:44.997Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:16:45.113Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:16:49.627Z - Login attempt completed
+[STEP] 2026-05-13T07:16:51.152Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:16:53.530Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:16:53.838Z - Setup ✓: on patient-chart CCM → Medical History
+[INFO] 2026-05-13T07:16:53.889Z - Scenario 1 ✓: Conditions list view is present
+[INFO] 2026-05-13T07:16:53.892Z - Scenario 2 attempt 1: trying ICD "C03"
+[INFO] 2026-05-13T07:17:03.764Z - Scenario 2 ✓: saved condition with ICD "C03"
+[INFO] 2026-05-13T07:17:04.134Z - Scenario 4: Edit-form note value = "PW-MH test 1778656613838"
+[INFO] 2026-05-13T07:17:04.140Z - Scenario 4 ✓: Edit form pre-populated with existing data
+[INFO] 2026-05-13T07:17:04.451Z - Scenario 6 ✓: Updated-at date (05/13/2026) visible in list
+[INFO] 2026-05-13T07:17:04.452Z - Scenario 6 ✓: Updated-by provider "chirag kumar" visible in list
+[INFO] 2026-05-13T07:17:04.452Z - Scenario 3 ✓: Edit saved and condition persists in the list
+[INFO] 2026-05-13T07:17:05.318Z - Scenario 5 ✓: condition deleted and removed from list

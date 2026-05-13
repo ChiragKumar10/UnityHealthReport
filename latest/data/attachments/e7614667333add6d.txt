@@ -1,0 +1,39 @@
+[STEP] 2026-05-13T07:29:33.572Z - Login to Provider Portal
+[STEP] 2026-05-13T07:29:33.986Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:29:33.986Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:29:34.068Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:29:38.354Z - Login attempt completed
+[STEP] 2026-05-13T07:29:39.869Z - Navigate to Monitoring > RTM > No Data
+[STEP] 2026-05-13T07:29:39.869Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:29:39.869Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:29:40.374Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:29:40.879Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:29:40.880Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:29:41.944Z - Successfully selected RTM tab
+[STEP] 2026-05-13T07:29:41.944Z - Clicking monitoring category: No Data
+[STEP] 2026-05-13T07:29:43.051Z - Setting date filter to today
+[INFO] 2026-05-13T07:29:43.057Z - Changing date from "05-12-2026" to "05-13-2026"
+[INFO] 2026-05-13T07:29:44.127Z - Date filter set to: 05-13-2026
+[STEP] 2026-05-13T07:29:44.128Z - Clearing status filter
+[INFO] 2026-05-13T07:29:44.133Z - Current status filter: "Not Complete" — opening dropdown
+[INFO] 2026-05-13T07:29:44.716Z - MUI Menu options: 3
+[INFO] 2026-05-13T07:29:44.718Z -   Option [0]: "Clear Selection"
+[INFO] 2026-05-13T07:29:45.794Z - Status filter cleared
+[INFO] 2026-05-13T07:29:45.794Z - Switched to No Data monitoring view
+[STEP] 2026-05-13T07:29:45.794Z - Test: Send SMS from No Data page
+[STEP] 2026-05-13T07:29:45.795Z - Getting visible row count
+[INFO] 2026-05-13T07:29:46.800Z - Visible row count: 1
+[STEP] 2026-05-13T07:29:46.800Z - Getting first available patient from list
+[INFO] 2026-05-13T07:29:46.810Z - First available patient: "Hoppe, Levis"
+[STEP] 2026-05-13T07:29:46.811Z - Sending text message to: Hoppe, Levis
+[STEP] 2026-05-13T07:29:46.811Z - Selecting action "Text Message" for: Hoppe, Levis
+[STEP] 2026-05-13T07:29:46.811Z - Opening action menu for: Hoppe, Levis
+[INFO] 2026-05-13T07:29:47.882Z - Action menu clicked for: Hoppe, Levis (attempt 1)
+[INFO] 2026-05-13T07:29:48.960Z - Action "Text Message" selected for: Hoppe, Levis
+[STEP] 2026-05-13T07:29:48.960Z - Handling messaging / time log dialog
+[INFO] 2026-05-13T07:29:49.967Z - Detected SEND MESSAGE dialog
+[INFO] 2026-05-13T07:29:51.038Z - Message sent via SEND dialog
+[STEP] 2026-05-13T07:29:51.041Z - Closing all overlays
+[INFO] 2026-05-13T07:29:53.093Z - All overlays closed
+[INFO] 2026-05-13T07:29:53.093Z - Text message sent to: Hoppe, Levis
+[INFO] 2026-05-13T07:29:53.093Z - Text message send flow completed for "Hoppe, Levis"

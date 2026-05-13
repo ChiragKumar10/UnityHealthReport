@@ -1,0 +1,63 @@
+[STEP] 2026-05-13T08:00:47.917Z - Login to Provider Portal
+[STEP] 2026-05-13T08:00:48.532Z - Attempting to login to provider portal
+[STEP] 2026-05-13T08:00:48.532Z - Navigating to provider portal login page
+[INFO] 2026-05-13T08:00:48.627Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T08:00:53.344Z - Login attempt completed
+[STEP] 2026-05-13T08:00:54.864Z - Test: Create tasks per action and verify isolation
+[STEP] 2026-05-13T08:00:54.864Z - Navigating to Task page
+[INFO] 2026-05-13T08:00:55.911Z - Navigated to Task page
+[STEP] 2026-05-13T08:00:55.911Z - Creating task: Call Iso 1778659255911
+[STEP] 2026-05-13T08:00:55.911Z - Clicking + Add Task button
+[INFO] 2026-05-13T08:00:56.539Z - Add Task form opened
+[INFO] 2026-05-13T08:01:14.052Z - Task "Call Iso 1778659255911" created successfully
+[STEP] 2026-05-13T08:01:14.053Z - Creating task: Message Iso 1778659255911
+[STEP] 2026-05-13T08:01:14.053Z - Clicking + Add Task button
+[INFO] 2026-05-13T08:01:14.721Z - Add Task form opened
+[INFO] 2026-05-13T08:01:32.182Z - Task "Message Iso 1778659255911" created successfully
+[STEP] 2026-05-13T08:01:32.182Z - Creating task: Email Iso 1778659255911
+[STEP] 2026-05-13T08:01:32.182Z - Clicking + Add Task button
+[INFO] 2026-05-13T08:01:32.838Z - Add Task form opened
+[INFO] 2026-05-13T08:01:50.264Z - Task "Email Iso 1778659255911" created successfully
+[STEP] 2026-05-13T08:01:50.264Z - Creating task: SMS Iso 1778659255911
+[STEP] 2026-05-13T08:01:50.264Z - Clicking + Add Task button
+[INFO] 2026-05-13T08:01:50.921Z - Add Task form opened
+[INFO] 2026-05-13T08:02:08.382Z - Task "SMS Iso 1778659255911" created successfully
+[STEP] 2026-05-13T08:02:08.382Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T08:02:09.939Z - My Tasks filter unchecked
+[STEP] 2026-05-13T08:02:09.940Z - Setting status filter to: All
+[INFO] 2026-05-13T08:02:12.357Z - Status filter set to: All
+[STEP] 2026-05-13T08:02:12.357Z - Setting service filter to: All
+[INFO] 2026-05-13T08:02:14.755Z - Service filter set to: All
+[STEP] 2026-05-13T08:02:14.755Z - Setting action filter to: Call
+[INFO] 2026-05-13T08:02:17.175Z - Action filter set to: Call
+[STEP] 2026-05-13T08:02:17.175Z - Searching for: 1778659255911
+[INFO] 2026-05-13T08:02:19.251Z - Search completed for: 1778659255911
+[STEP] 2026-05-13T08:02:19.252Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:02:20.257Z - TASK values: Call Iso 1778659255911
+[STEP] 2026-05-13T08:02:20.260Z - Clearing search
+[INFO] 2026-05-13T08:02:21.829Z - Search cleared
+[STEP] 2026-05-13T08:02:21.829Z - Setting action filter to: Message
+[INFO] 2026-05-13T08:02:24.239Z - Action filter set to: Message
+[STEP] 2026-05-13T08:02:24.240Z - Searching for: 1778659255911
+[INFO] 2026-05-13T08:02:26.310Z - Search completed for: 1778659255911
+[STEP] 2026-05-13T08:02:26.310Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:02:27.315Z - TASK values: Message Iso 1778659255911
+[STEP] 2026-05-13T08:02:27.318Z - Clearing search
+[INFO] 2026-05-13T08:02:28.836Z - Search cleared
+[STEP] 2026-05-13T08:02:28.836Z - Setting action filter to: Mail
+[INFO] 2026-05-13T08:02:31.255Z - Action filter set to: Mail
+[STEP] 2026-05-13T08:02:31.255Z - Searching for: 1778659255911
+[INFO] 2026-05-13T08:02:33.328Z - Search completed for: 1778659255911
+[STEP] 2026-05-13T08:02:33.328Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:02:34.333Z - TASK values: Email Iso 1778659255911
+[STEP] 2026-05-13T08:02:34.336Z - Clearing search
+[INFO] 2026-05-13T08:02:35.855Z - Search cleared
+[STEP] 2026-05-13T08:02:35.855Z - Setting action filter to: SMS
+[INFO] 2026-05-13T08:02:38.273Z - Action filter set to: SMS
+[STEP] 2026-05-13T08:02:38.273Z - Searching for: 1778659255911
+[INFO] 2026-05-13T08:02:40.350Z - Search completed for: 1778659255911
+[STEP] 2026-05-13T08:02:40.350Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:02:41.355Z - TASK values: SMS Iso 1778659255911
+[STEP] 2026-05-13T08:02:41.358Z - Clearing search
+[INFO] 2026-05-13T08:02:42.878Z - Search cleared
+[INFO] 2026-05-13T08:02:42.879Z - All action filters verified with isolation

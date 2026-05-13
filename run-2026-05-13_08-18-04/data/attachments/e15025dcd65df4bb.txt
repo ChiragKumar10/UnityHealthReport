@@ -1,0 +1,59 @@
+[STEP] 2026-05-13T07:54:34.714Z - Login to Provider Portal
+[STEP] 2026-05-13T07:54:35.192Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:54:35.193Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:54:35.295Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:54:39.855Z - Login attempt completed
+[STEP] 2026-05-13T07:54:41.379Z - Navigate to RTM Library > Assessment
+[STEP] 2026-05-13T07:54:41.379Z - Opening RPM Library
+[INFO] 2026-05-13T07:54:41.409Z - Successfully opened RTM Library
+[STEP] 2026-05-13T07:54:41.409Z - Opening Assessment section
+[INFO] 2026-05-13T07:54:41.632Z - Successfully opened Assessment section
+[STEP] 2026-05-13T07:54:41.633Z - Test: Assessment assignment to patient
+[STEP] 2026-05-13T07:54:41.633Z - Creating assessment: Assign Test 1778658881633
+[STEP] 2026-05-13T07:54:41.633Z - Clicking Add Assessment button
+[INFO] 2026-05-13T07:54:42.823Z - Add Assessment form opened
+[STEP] 2026-05-13T07:54:42.823Z - Filling assessment title: Assign Test 1778658881633
+[INFO] 2026-05-13T07:54:42.837Z - Assessment title filled: Assign Test 1778658881633
+[STEP] 2026-05-13T07:54:42.837Z - Selecting assessment type: SURVEY
+[INFO] 2026-05-13T07:54:43.547Z - Assessment type selected: SURVEY
+[STEP] 2026-05-13T07:54:43.547Z - Selecting frequency: DAILY
+[INFO] 2026-05-13T07:54:44.239Z - Frequency selected: DAILY
+[STEP] 2026-05-13T07:54:44.239Z - Clicking Next button
+[INFO] 2026-05-13T07:54:45.318Z - Next button clicked
+[STEP] 2026-05-13T07:54:45.318Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-05-13T07:54:46.264Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-05-13T07:54:46.264Z - Clicking Next button
+[INFO] 2026-05-13T07:54:47.308Z - Next button clicked
+[STEP] 2026-05-13T07:54:47.308Z - Clicking Finish button
+[INFO] 2026-05-13T07:54:48.349Z - Finish button clicked
+[INFO] 2026-05-13T07:54:48.349Z - Assessment 'Assign Test 1778658881633' created successfully
+[STEP] 2026-05-13T07:54:48.349Z - Verifying assessment 'Assign Test 1778658881633' is visible in the list
+[STEP] 2026-05-13T07:54:48.349Z - Searching for assessment: Assign Test 1778658881633
+[INFO] 2026-05-13T07:54:48.951Z - Search completed for assessment: Assign Test 1778658881633
+[INFO] 2026-05-13T07:54:48.957Z - Assessment 'Assign Test 1778658881633' is visible in the list
+[INFO] 2026-05-13T07:54:48.957Z - Assessment 'Assign Test 1778658881633' created
+[STEP] 2026-05-13T07:54:48.957Z - Assigning assessment: Assign Test 1778658881633
+[INFO] 2026-05-13T07:54:48.961Z - Action button found for assessment: Assign Test 1778658881633
+[INFO] 2026-05-13T07:54:49.016Z - Action button clicked
+[INFO] 2026-05-13T07:54:49.312Z - Assign button clicked
+[INFO] 2026-05-13T07:54:49.579Z - Patient dropdown clicked
+[INFO] 2026-05-13T07:54:49.579Z - Searching for patient by first name: Automation (from 'Automation, Test')
+[INFO] 2026-05-13T07:54:49.735Z - Patient checkbox selected
+[INFO] 2026-05-13T07:54:49.803Z - Assign to patient button clicked
+[INFO] 2026-05-13T07:54:49.803Z - Assessment 'Assign Test 1778658881633' assigned successfully
+[INFO] 2026-05-13T07:54:49.897Z - Assessment assigned to patient
+[STEP] 2026-05-13T07:54:49.897Z - Opening patient chart from global search for: Automation, Test
+[INFO] 2026-05-13T07:54:52.264Z - Patient chart opened from global search for: Automation, Test
+[STEP] 2026-05-13T07:54:52.264Z - Navigating to Assessment tab
+[INFO] 2026-05-13T07:54:52.416Z - Successfully navigated to Assessment tab
+[STEP] 2026-05-13T07:54:52.416Z - Opening current month assessment folder
+[INFO] 2026-05-13T07:54:52.569Z - Opened assessment folder: May 2026
+[STEP] 2026-05-13T07:54:52.569Z - Verifying assigned assessment is present: Assign Test 1778658881633
+[INFO] 2026-05-13T07:54:55.900Z - Assessment not visible (attempt 1) — reloading and retrying
+[INFO] 2026-05-13T07:56:00.679Z - Assessment not visible (attempt 2) — reloading and retrying
+[INFO] 2026-05-13T07:57:05.895Z - Assessment not visible (attempt 3) — reloading and retrying
+[INFO] 2026-05-13T07:57:17.658Z - Chart-side verification couldn't surface the row (best-effort): locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByText('Assign Test 1778658881633').first() to be visible
+
+[INFO] 2026-05-13T07:57:17.658Z - Assignment verification test completed

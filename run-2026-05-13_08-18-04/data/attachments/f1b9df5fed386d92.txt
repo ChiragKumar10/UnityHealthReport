@@ -1,0 +1,35 @@
+[STEP] 2026-05-13T07:41:37.554Z - Login to Provider Portal
+[STEP] 2026-05-13T07:41:37.984Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:41:37.984Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:41:38.051Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:41:42.198Z - Login attempt completed
+[STEP] 2026-05-13T07:41:43.713Z - Navigate to Monitoring > RTM > Alerts
+[STEP] 2026-05-13T07:41:43.713Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:41:43.713Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:41:44.219Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:41:44.724Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:41:44.724Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:41:45.746Z - Successfully selected RTM tab
+[STEP] 2026-05-13T07:41:45.746Z - Clicking monitoring category: Alerts
+[STEP] 2026-05-13T07:41:46.857Z - Setting date filter to today
+[INFO] 2026-05-13T07:41:46.862Z - Changing date from "05-12-2026" to "05-13-2026"
+[INFO] 2026-05-13T07:41:47.927Z - Date filter set to: 05-13-2026
+[INFO] 2026-05-13T07:41:47.927Z - Switched to Alerts monitoring view
+[STEP] 2026-05-13T07:41:47.927Z - Test: Send Text message from Alerts section
+[STEP] 2026-05-13T07:41:47.928Z - Getting first available patient from list
+[INFO] 2026-05-13T07:41:47.936Z - First available patient: "Automation, Test"
+[STEP] 2026-05-13T07:41:47.936Z - Sending text message to: Automation, Test
+[STEP] 2026-05-13T07:41:47.936Z - Selecting action "Text Message" for: Automation, Test
+[STEP] 2026-05-13T07:41:47.936Z - Opening action menu for: Automation, Test
+[INFO] 2026-05-13T07:41:49.002Z - Action menu clicked for: Automation, Test (attempt 1)
+[INFO] 2026-05-13T07:41:50.095Z - Action "Text Message" selected for: Automation, Test
+[STEP] 2026-05-13T07:41:50.095Z - Handling messaging / time log dialog
+[INFO] 2026-05-13T07:41:51.102Z - Detected SEND MESSAGE dialog
+[INFO] 2026-05-13T07:41:52.175Z - Message sent via SEND dialog
+[INFO] 2026-05-13T07:41:52.177Z - TIME LOG follow-up dialog detected — filling and saving
+[STEP] 2026-05-13T07:41:52.178Z - Filling TIME LOG dialog
+[INFO] 2026-05-13T07:41:54.370Z - TIME LOG dialog saved
+[STEP] 2026-05-13T07:41:54.370Z - Closing all overlays
+[INFO] 2026-05-13T07:41:56.427Z - All overlays closed
+[INFO] 2026-05-13T07:41:56.427Z - Text message sent to: Automation, Test
+[INFO] 2026-05-13T07:41:56.427Z - Text message sent from Alerts section

@@ -1,0 +1,48 @@
+[STEP] 2026-05-13T08:00:12.340Z - Attempting to login to provider portal
+[STEP] 2026-05-13T08:00:12.340Z - Navigating to provider portal login page
+[INFO] 2026-05-13T08:00:12.412Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T08:00:16.742Z - Login attempt completed
+[STEP] 2026-05-13T08:00:18.257Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T08:00:20.457Z - Patient chart opened from global search for: Automation
+[STEP] 2026-05-13T08:00:25.765Z - Attempting to login to provider portal
+[STEP] 2026-05-13T08:00:25.765Z - Navigating to provider portal login page
+[INFO] 2026-05-13T08:00:25.839Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T08:00:30.183Z - Login attempt completed
+[STEP] 2026-05-13T08:00:31.698Z - Opening CCM Library
+[INFO] 2026-05-13T08:00:32.721Z - Successfully opened CCM Library
+[STEP] 2026-05-13T08:00:32.721Z - Opening Care Plan section
+[INFO] 2026-05-13T08:00:33.767Z - Successfully opened Care Plan section
+[STEP] 2026-05-13T08:00:33.768Z - Creating minimal care plan: CPSave 1778659225277
+[STEP] 2026-05-13T08:00:33.768Z - Clicking Create Care Plan button
+[INFO] 2026-05-13T08:00:35.854Z - Create Care Plan form opened
+[STEP] 2026-05-13T08:00:35.855Z - Selecting diagnosis code: D3190
+[INFO] 2026-05-13T08:00:40.285Z - Diagnosis code 'D3190' selected
+[STEP] 2026-05-13T08:00:40.285Z - Filling care plan name: CPSave 1778659225277
+[INFO] 2026-05-13T08:00:40.305Z - Care plan name filled: CPSave 1778659225277
+[STEP] 2026-05-13T08:00:40.305Z - Selecting section: Overview
+[INFO] 2026-05-13T08:00:40.658Z - Section 'Overview' selected
+[STEP] 2026-05-13T08:00:40.658Z - Selecting section: Long Term Goals
+[INFO] 2026-05-13T08:00:41.012Z - Section 'Long Term Goals' selected
+[STEP] 2026-05-13T08:00:41.012Z - Clicking Next button
+[INFO] 2026-05-13T08:00:43.065Z - Next button clicked
+[STEP] 2026-05-13T08:00:43.065Z - Filling Overview section
+[INFO] 2026-05-13T08:00:43.079Z - Care Plan header filled
+[INFO] 2026-05-13T08:00:43.096Z - Care Plan footer filled
+[STEP] 2026-05-13T08:00:43.096Z - Clicking Next button
+[INFO] 2026-05-13T08:00:45.143Z - Next button clicked
+[STEP] 2026-05-13T08:00:45.143Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-05-13T08:00:45.157Z - Section note filled
+[INFO] 2026-05-13T08:00:45.179Z - Goal title filled: Seed Goal
+[INFO] 2026-05-13T08:00:46.803Z - Goal type selected: Single Select
+[STEP] 2026-05-13T08:00:46.803Z - Filling Single Select with 3 options
+[INFO] 2026-05-13T08:00:46.820Z - Single Select option 1 filled
+[INFO] 2026-05-13T08:00:47.385Z - Single Select option 2 filled
+[INFO] 2026-05-13T08:00:47.955Z - Single Select option 3 filled
+[INFO] 2026-05-13T08:00:47.956Z - Single Select - 3 options added
+[STEP] 2026-05-13T08:00:47.956Z - Clicking Finish button
+[INFO] 2026-05-13T08:00:50.035Z - Finish button clicked - Care plan saved
+[INFO] 2026-05-13T08:00:50.035Z - Minimal care plan 'CPSave 1778659225277' created
+[INFO] 2026-05-13T08:00:50.035Z - Seed care plan template created: CPSave 1778659225277
+[STEP] 2026-05-13T08:00:50.087Z - Assigning Care Plan "CPSave 1778659225277" to patient
+[INFO] 2026-05-13T08:01:08.804Z - Assignment complete: "CPSave 1778659225277"
+[INFO] 2026-05-13T08:01:12.445Z - AUT_CP_007 PASSED

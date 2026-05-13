@@ -1,0 +1,34 @@
+[STEP] 2026-05-13T07:21:18.455Z - Login to Provider Portal
+[STEP] 2026-05-13T07:21:19.088Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:21:19.088Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:21:19.176Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:21:24.211Z - Login attempt completed
+[STEP] 2026-05-13T07:21:25.729Z - Test: E2E Add Task with all mandatory fields + Note
+[STEP] 2026-05-13T07:21:25.730Z - Navigating to Task page
+[INFO] 2026-05-13T07:21:26.775Z - Navigated to Task page
+[INFO] 2026-05-13T07:21:26.779Z - Logged-in user: chirag kumar
+[STEP] 2026-05-13T07:21:26.779Z - Creating task: E2E Task 1778656886775
+[STEP] 2026-05-13T07:21:26.779Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:21:27.401Z - Add Task form opened
+[INFO] 2026-05-13T07:21:45.520Z - Task "E2E Task 1778656886775" created successfully
+[STEP] 2026-05-13T07:21:45.520Z - Navigating to Task page
+[INFO] 2026-05-13T07:21:46.642Z - Navigated to Task page
+[STEP] 2026-05-13T07:21:46.642Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:21:48.246Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:21:48.246Z - Setting status filter to: All
+[INFO] 2026-05-13T07:21:50.652Z - Status filter set to: All
+[STEP] 2026-05-13T07:21:50.652Z - Searching for: E2E Task 1778656886775
+[INFO] 2026-05-13T07:21:52.731Z - Search completed for: E2E Task 1778656886775
+[STEP] 2026-05-13T07:21:52.731Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:21:53.737Z - TASK values: E2E Task 1778656886775
+[STEP] 2026-05-13T07:21:53.738Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T07:21:54.744Z - SERVICE values: RPM
+[STEP] 2026-05-13T07:21:54.745Z - Fetching column values for: PRIORITY
+[INFO] 2026-05-13T07:21:55.750Z - PRIORITY values: HIGH
+[STEP] 2026-05-13T07:21:55.751Z - Fetching column values for: TASK STATUS
+[INFO] 2026-05-13T07:21:56.756Z - TASK STATUS values: ToDo
+[STEP] 2026-05-13T07:21:56.757Z - Fetching column values for: DUE DATE
+[INFO] 2026-05-13T07:21:57.764Z - DUE DATE values: 05/20/2026
+[STEP] 2026-05-13T07:21:57.765Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-05-13T07:21:58.772Z - ASSIGNED TO values: chirag kumar
+[INFO] 2026-05-13T07:21:58.772Z - E2E task "E2E Task 1778656886775" verified with all fields: Service=RPM, Priority=HIGH, Status=ToDo

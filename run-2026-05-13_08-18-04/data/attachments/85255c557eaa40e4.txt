@@ -1,0 +1,81 @@
+[STEP] 2026-05-13T07:36:54.629Z - Login to Provider Portal
+[STEP] 2026-05-13T07:36:55.287Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:36:55.287Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:36:55.374Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:37:00.283Z - Login attempt completed
+[STEP] 2026-05-13T07:37:01.802Z - Test: Complete reassignment flow — provider accounts + patient charting
+[STEP] 2026-05-13T07:37:01.802Z - Navigating to Task page
+[INFO] 2026-05-13T07:37:02.833Z - Navigated to Task page
+[STEP] 2026-05-13T07:37:02.833Z - Creating task: Reassign 1778657822833
+[STEP] 2026-05-13T07:37:02.833Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:37:03.462Z - Add Task form opened
+[INFO] 2026-05-13T07:37:21.177Z - Task "Reassign 1778657822833" created successfully
+[INFO] 2026-05-13T07:37:21.177Z - Step 1 ✓: Task "Reassign 1778657822833" created — assigned to John Doe
+[STEP] 2026-05-13T07:37:21.177Z - Step 2: Logging in as John Doe to verify task
+[STEP] 2026-05-13T07:37:21.177Z - Logging out from provider portal
+[INFO] 2026-05-13T07:37:22.884Z - Logout completed
+[STEP] 2026-05-13T07:37:22.884Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:37:22.884Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:37:22.951Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:37:24.479Z - Login attempt completed
+[STEP] 2026-05-13T07:37:25.996Z - Navigating to Task page
+[INFO] 2026-05-13T07:37:27.072Z - Navigated to Task page
+[STEP] 2026-05-13T07:37:27.072Z - Setting status filter to: All
+[INFO] 2026-05-13T07:37:29.483Z - Status filter set to: All
+[STEP] 2026-05-13T07:37:29.483Z - Searching for: Reassign 1778657822833
+[INFO] 2026-05-13T07:37:31.569Z - Search completed for: Reassign 1778657822833
+[STEP] 2026-05-13T07:37:31.570Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:37:32.575Z - TASK values: Reassign 1778657822833
+[INFO] 2026-05-13T07:37:32.576Z - Step 2 ✓: Task found in John Doe's account
+[STEP] 2026-05-13T07:37:32.576Z - Step 3: Logging back as Chirag to reassign task
+[STEP] 2026-05-13T07:37:32.576Z - Logging out from provider portal
+[INFO] 2026-05-13T07:37:34.165Z - Logout completed
+[STEP] 2026-05-13T07:37:34.166Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:37:34.166Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:37:34.236Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:37:38.851Z - Login attempt completed
+[STEP] 2026-05-13T07:37:40.367Z - Navigating to Task page
+[INFO] 2026-05-13T07:37:41.400Z - Navigated to Task page
+[STEP] 2026-05-13T07:37:41.401Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:37:42.944Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:37:42.944Z - Setting status filter to: All
+[INFO] 2026-05-13T07:37:45.351Z - Status filter set to: All
+[STEP] 2026-05-13T07:37:45.351Z - Searching for: Reassign 1778657822833
+[INFO] 2026-05-13T07:37:47.431Z - Search completed for: Reassign 1778657822833
+[STEP] 2026-05-13T07:37:47.431Z - Opening Edit Task form
+[STEP] 2026-05-13T07:37:47.431Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:37:48.468Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:37:48.468Z - Clicking action menu item: Edit
+[INFO] 2026-05-13T07:37:50.063Z - Clicked: Edit
+[INFO] 2026-05-13T07:37:50.067Z - Edit Task form opened
+[STEP] 2026-05-13T07:37:50.067Z - Changing assignee to: Anny Vate
+[INFO] 2026-05-13T07:37:53.776Z - Assignee changed to: Anny Vate
+[STEP] 2026-05-13T07:37:53.776Z - Filling edit note: Reassigned from John to Anny at 2026-05-13T07:37:53.776Z
+[STEP] 2026-05-13T07:37:54.110Z - Saving edited task
+[INFO] 2026-05-13T07:37:54.115Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-05-13T07:37:54.118Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-05-13T07:37:54.124Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-05-13T07:37:54.130Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-05-13T07:37:54.135Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-05-13T07:37:54.135Z - Reading all edit form pre-filled values
+[INFO] 2026-05-13T07:37:54.156Z - Edit form values: {"service":"CCM","patient":" ","action":"CALL","taskName":"Reassign 1778657822833","assignee":"John  Doe ","priority":"HIGH","dueDate":"18 May 2026 ","note":"Reassigned from John to Anny at 2026-05-13T07:37:53.776Z"}
+[INFO] 2026-05-13T07:37:54.157Z - Form state before save: {"service":"CCM","patient":" ","action":"CALL","taskName":"Reassign 1778657822833","assignee":"John  Doe ","priority":"HIGH","dueDate":"18 May 2026 ","note":"Reassigned from John to Anny at 2026-05-13T07:37:53.776Z"}
+[INFO] 2026-05-13T07:37:54.165Z - Validation errors before save: []
+[INFO] 2026-05-13T07:37:56.224Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-05-13T07:37:57.232Z - Edit task saved (drawer closed: true)
+[INFO] 2026-05-13T07:37:57.232Z - Step 3 ✓: Task reassigned to Anny Vate
+[STEP] 2026-05-13T07:37:57.232Z - Step 4: Logging in as Anny Vate to verify task
+[STEP] 2026-05-13T07:37:57.232Z - Logging out from provider portal
+[INFO] 2026-05-13T07:37:58.856Z - Logout completed
+[STEP] 2026-05-13T07:37:58.856Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:37:58.856Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:37:58.928Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:38:00.395Z - Login attempt completed
+[STEP] 2026-05-13T07:38:01.910Z - Navigating to Task page
+[INFO] 2026-05-13T07:38:03.000Z - Navigated to Task page
+[STEP] 2026-05-13T07:38:03.000Z - Setting status filter to: All
+[INFO] 2026-05-13T07:38:05.398Z - Status filter set to: All
+[STEP] 2026-05-13T07:38:05.398Z - Searching for: Reassign 1778657822833
+[INFO] 2026-05-13T07:38:07.481Z - Search completed for: Reassign 1778657822833
+[STEP] 2026-05-13T07:38:07.481Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:38:08.486Z - TASK values: 

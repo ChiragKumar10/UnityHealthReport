@@ -1,0 +1,65 @@
+[STEP] 2026-05-13T07:49:31.093Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-05-13T07:49:31.093Z - Logging in and navigating to Enrollment section
+[STEP] 2026-05-13T07:49:31.093Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:49:31.093Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:49:31.583Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:49:35.960Z - Login attempt completed
+[STEP] 2026-05-13T07:49:37.480Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:49:37.638Z - Navigated to Enrollment section
+
+=== SEARCHING FOR ACTIVE ENROLLMENT ===
+Total enrollment rows: 25
+Found ACTIVE enrollment at row 1
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Schaefer, Alexa
+Program: CCM
+Care Manager: Autofirstatwgag Autolastatwgag
+Provider: sarvesh test
+Service Type Short: CCM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 20
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: 
+Initial Provider: 
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDCLOSING NOTEPLANACTION
+Row 2 text: CCMAutofirstatwgag Autolastatwgagsarvesh testZ04248-Aut...+305-12-2026-05-13-2026-ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: CCM
+Checking for Provider: sarvesh test
+Checking for Care Manager: Autofirstatwgag Autolastatwgag
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial enrollment check complete in Patient 360
+[STEP] 2026-05-13T07:49:43.388Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:49:43.534Z - Navigated to Enrollment section
+Checked new ICD: (V18916) - Condition-qehg5f4b-1776321232654 - Automated test description - atb7r57vtxh
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: sarvesh test
+Updated Care Manager: Autofirstajuoic Autolastajuoic
+Updated ICD Code: (V18916) - Condition-qehg5f4b-1776321232654 - Automated test description - atb7r57vtxh
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 3
+Row 1 text: SERVICECARE MANAGERPROVIDERDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDCLOSING NOTEPLANACTION
+Row 2 text: CCMAutofirstajuoic Autolastajuoicsarvesh testZ04248-Aut...+405-12-2026-05-13-2026-ACTIVE
+Row 3 text: RTMAutofirstajuoic AutolastajuoicAnny vateT02603-Aut...+104-28-2026-04-28-2026-NEW
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: CCM
+✓ Updated Provider "sarvesh test" visible in row
+✓ Updated Care Manager "Autofirstajuoic Autolastajuoic" visible in row
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

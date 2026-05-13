@@ -1,0 +1,22 @@
+[STEP] 2026-05-13T07:45:51.268Z - Login to Provider Portal and navigate to Enrollment section
+[STEP] 2026-05-13T07:45:51.268Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:45:51.268Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:45:51.731Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:45:56.413Z - Login attempt completed
+[STEP] 2026-05-13T07:45:57.935Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:45:58.078Z - Navigated to Enrollment section
+[INFO] 2026-05-13T07:45:58.078Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-05-13T07:45:58.079Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-05-13T07:45:58.081Z - Selected random status: Active
+[INFO] 2026-05-13T07:45:58.081Z - Selected random program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-05-13T07:45:58.081Z - Applying combined filters - Status: Active, Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-05-13T07:45:58.082Z - Applying status filter: Active
+[INFO] 2026-05-13T07:46:04.279Z - Status filter 'Active' applied successfully
+[STEP] 2026-05-13T07:46:04.279Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-05-13T07:46:10.429Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-05-13T07:46:10.429Z - Retrieving filtered enrollment results
+[INFO] 2026-05-13T07:46:12.932Z - Retrieved 25 filtered enrollment records
+Record 1 Verified: Bogisich, Heidi - RTM - active
+Record 2 Verified: Automation, Test - RTM - active
+Record 3 Verified: Hoppe, Levis - RTM - active
+[INFO] 2026-05-13T07:46:12.937Z - Combined Status + Program filter verification completed - 3 records verified

@@ -1,0 +1,25 @@
+[STEP] 2026-05-13T07:47:07.745Z - Login to Provider Portal
+[STEP] 2026-05-13T07:47:08.393Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:47:08.394Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:47:08.493Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:47:13.634Z - Login attempt completed
+[STEP] 2026-05-13T07:47:15.152Z - Test: Create task with 15 Days reminder
+[STEP] 2026-05-13T07:47:15.152Z - Navigating to Task page
+[INFO] 2026-05-13T07:47:16.198Z - Navigated to Task page
+[STEP] 2026-05-13T07:47:16.198Z - Creating task with reminder: Remind15D 1778658436198
+[STEP] 2026-05-13T07:47:16.198Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:47:16.838Z - Add Task form opened
+[STEP] 2026-05-13T07:47:32.442Z - Selecting "Message" from combobox index 7
+[INFO] 2026-05-13T07:47:33.843Z - Selected "Message" from combobox 7
+[STEP] 2026-05-13T07:47:33.843Z - Selecting "15 Days" from combobox index 8
+[INFO] 2026-05-13T07:47:35.240Z - Selected "15 Days" from combobox 8
+[INFO] 2026-05-13T07:47:38.316Z - Task "Remind15D 1778658436198" with reminder created successfully
+[STEP] 2026-05-13T07:47:38.316Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:47:39.886Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:47:39.886Z - Setting status filter to: All
+[INFO] 2026-05-13T07:47:42.302Z - Status filter set to: All
+[STEP] 2026-05-13T07:47:42.302Z - Searching for: Remind15D 1778658436198
+[INFO] 2026-05-13T07:47:44.375Z - Search completed for: Remind15D 1778658436198
+[STEP] 2026-05-13T07:47:44.375Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:47:45.381Z - TASK values: Remind15D 1778658436198
+[INFO] 2026-05-13T07:47:45.381Z - Task with 15 Days Message reminder created and verified

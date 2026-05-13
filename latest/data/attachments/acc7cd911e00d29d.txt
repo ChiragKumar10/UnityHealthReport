@@ -1,0 +1,112 @@
+[ERROR] 2026-05-13T07:33:13.133Z - Failed to select action "Review" for: Automation, Test
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByText('Review', { exact: true }).first() to be visible
+
+    at MonitoringPage.selectAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:745:28)
+    at MonitoringPage.reviewVitalFromAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:826:13)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/monitoring/monitoring-02-data.spec.ts:157:13 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts',
+      line: 745,
+      column: 28,
+      function: 'MonitoringPage.selectAction'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Review', { exact: true }).first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Review"s >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@84',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@84',
+      _title: "Wait for selector getByText('Review', { exact: true }).first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657593133,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Review', { exact: true }).first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Review', { exact: true }).first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at MonitoringPage.selectAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:745:28)\n' +
+        '    at MonitoringPage.reviewVitalFromAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:826:13)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/monitoring/monitoring-02-data.spec.ts:157:13',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-05-13T07:33:13.135Z - Failed to review vital from action for: Automation, Test
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByText('Review', { exact: true }).first() to be visible
+
+    at MonitoringPage.selectAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:745:28)
+    at MonitoringPage.reviewVitalFromAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:826:13)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/monitoring/monitoring-02-data.spec.ts:157:13 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts',
+      line: 745,
+      column: 28,
+      function: 'MonitoringPage.selectAction'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Review', { exact: true }).first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Review"s >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@84',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@84',
+      _title: "Wait for selector getByText('Review', { exact: true }).first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657593133,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Review', { exact: true }).first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Review', { exact: true }).first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at MonitoringPage.selectAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:745:28)\n' +
+        '    at MonitoringPage.reviewVitalFromAction (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:826:13)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/monitoring/monitoring-02-data.spec.ts:157:13',
+      cause: undefined
+    }
+  }
+}

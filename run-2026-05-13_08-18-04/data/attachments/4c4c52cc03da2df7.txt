@@ -1,0 +1,49 @@
+[STEP] 2026-05-13T07:26:58.458Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:26:58.459Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:26:58.565Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:27:03.545Z - Login attempt completed
+[STEP] 2026-05-13T07:27:05.067Z - Test: Document removed after delete
+[STEP] 2026-05-13T07:27:05.067Z - Navigating to Document Library
+[INFO] 2026-05-13T07:27:06.678Z - Navigated to Document Library via sidebar
+[STEP] 2026-05-13T07:27:06.678Z - Clicking folder: Education
+[INFO] 2026-05-13T07:27:08.225Z - Opened folder: Education
+[STEP] 2026-05-13T07:27:08.225Z - Uploading document: DelCount 1778657228225
+[STEP] 2026-05-13T07:27:08.225Z - Clicking Upload Material button
+[INFO] 2026-05-13T07:27:09.863Z - Upload Material form opened
+[STEP] 2026-05-13T07:27:09.863Z - Selecting tag: Education
+[INFO] 2026-05-13T07:27:11.299Z - Tag selected: Education
+[STEP] 2026-05-13T07:27:11.299Z - Selecting speciality: Cardiologist
+[INFO] 2026-05-13T07:27:12.768Z - Speciality selected: Cardiologist
+[STEP] 2026-05-13T07:27:12.768Z - Filling file name: DelCount 1778657228225
+[STEP] 2026-05-13T07:27:13.097Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-05-13T07:27:13.127Z - Waiting for file upload to complete...
+[INFO] 2026-05-13T07:27:14.179Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-05-13T07:27:14.179Z - Clicking Upload button
+[INFO] 2026-05-13T07:27:14.187Z - Upload button enabled — clicking
+[INFO] 2026-05-13T07:27:17.291Z - Upload completed
+[INFO] 2026-05-13T07:27:17.291Z - Document "DelCount 1778657228225" uploaded successfully
+[INFO] 2026-05-13T07:27:17.291Z - Uploaded: DelCount 1778657228225
+[STEP] 2026-05-13T07:27:17.291Z - Navigating to Document Library
+[INFO] 2026-05-13T07:27:18.888Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:27:18.888Z - Clicking folder: Education
+[INFO] 2026-05-13T07:27:20.521Z - Opened folder: Education
+[STEP] 2026-05-13T07:27:20.524Z - Searching document: DelCount 1778657228225
+[INFO] 2026-05-13T07:27:22.623Z - Search completed: DelCount 1778657228225
+[INFO] 2026-05-13T07:27:22.628Z - ✓ Document found before delete
+[STEP] 2026-05-13T07:27:22.628Z - Deleting document at row 0
+[STEP] 2026-05-13T07:27:22.628Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:27:23.657Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:27:23.657Z - Clicking action item: Delete
+[INFO] 2026-05-13T07:27:25.205Z - Clicked: Delete
+[INFO] 2026-05-13T07:27:25.209Z - Delete confirmation dialog opened
+[STEP] 2026-05-13T07:27:25.209Z - Confirming delete
+[INFO] 2026-05-13T07:27:28.241Z - Document deleted
+[INFO] 2026-05-13T07:27:28.241Z - Document deleted
+[STEP] 2026-05-13T07:27:28.241Z - Navigating to Document Library
+[INFO] 2026-05-13T07:27:29.821Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:27:29.822Z - Clicking folder: Education
+[INFO] 2026-05-13T07:27:31.463Z - Opened folder: Education
+[STEP] 2026-05-13T07:27:31.465Z - Searching document: DelCount 1778657228225
+[INFO] 2026-05-13T07:27:33.580Z - Search completed: DelCount 1778657228225
+[INFO] 2026-05-13T07:27:33.585Z - ✓ Document NOT found after delete
+[INFO] 2026-05-13T07:27:33.585Z - AUT_DOC_020 PASSED: Document removed from folder after deletion

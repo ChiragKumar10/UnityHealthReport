@@ -1,0 +1,25 @@
+[STEP] 2026-05-13T07:46:30.387Z - Login to Provider Portal
+[STEP] 2026-05-13T07:46:31.173Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:46:31.173Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:46:31.265Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:46:35.856Z - Login attempt completed
+[STEP] 2026-05-13T07:46:37.401Z - Test: Create task with 10 Days reminder
+[STEP] 2026-05-13T07:46:37.401Z - Navigating to Task page
+[INFO] 2026-05-13T07:46:38.433Z - Navigated to Task page
+[STEP] 2026-05-13T07:46:38.433Z - Creating task with reminder: Remind10D 1778658398433
+[STEP] 2026-05-13T07:46:38.433Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:46:39.055Z - Add Task form opened
+[STEP] 2026-05-13T07:46:54.644Z - Selecting "Email" from combobox index 7
+[INFO] 2026-05-13T07:46:56.043Z - Selected "Email" from combobox 7
+[STEP] 2026-05-13T07:46:56.043Z - Selecting "10 Days" from combobox index 8
+[INFO] 2026-05-13T07:46:57.443Z - Selected "10 Days" from combobox 8
+[INFO] 2026-05-13T07:47:00.517Z - Task "Remind10D 1778658398433" with reminder created successfully
+[STEP] 2026-05-13T07:47:00.517Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:47:02.091Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:47:02.091Z - Setting status filter to: All
+[INFO] 2026-05-13T07:47:04.523Z - Status filter set to: All
+[STEP] 2026-05-13T07:47:04.523Z - Searching for: Remind10D 1778658398433
+[INFO] 2026-05-13T07:47:06.611Z - Search completed for: Remind10D 1778658398433
+[STEP] 2026-05-13T07:47:06.611Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:47:07.618Z - TASK values: Remind10D 1778658398433
+[INFO] 2026-05-13T07:47:07.618Z - Task with 10 Days Email reminder created and verified

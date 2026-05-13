@@ -1,0 +1,61 @@
+[STEP] 2026-05-13T07:48:41.773Z - Login to Provider Portal
+[STEP] 2026-05-13T07:48:42.402Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:48:42.402Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:48:42.496Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:48:47.506Z - Login attempt completed
+[STEP] 2026-05-13T07:48:49.025Z - Test: Create task with each reminder medium and verify success
+[STEP] 2026-05-13T07:48:49.026Z - Navigating to Task page
+[INFO] 2026-05-13T07:48:50.056Z - Navigated to Task page
+[STEP] 2026-05-13T07:48:50.056Z - Creating task with reminder: NotifyEmail 1778658530056
+[STEP] 2026-05-13T07:48:50.056Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:48:50.689Z - Add Task form opened
+[STEP] 2026-05-13T07:49:06.267Z - Selecting "Email" from combobox index 7
+[INFO] 2026-05-13T07:49:07.654Z - Selected "Email" from combobox 7
+[STEP] 2026-05-13T07:49:07.654Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-05-13T07:49:09.054Z - Selected "5 Days" from combobox 8
+[INFO] 2026-05-13T07:49:12.131Z - Task "NotifyEmail 1778658530056" with reminder created successfully
+[INFO] 2026-05-13T07:49:12.131Z - Created: NotifyEmail 1778658530056
+[STEP] 2026-05-13T07:49:12.131Z - Creating task with reminder: NotifyMessage 1778658530056
+[STEP] 2026-05-13T07:49:12.131Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:49:12.812Z - Add Task form opened
+[STEP] 2026-05-13T07:49:28.323Z - Selecting "Message" from combobox index 7
+[INFO] 2026-05-13T07:49:29.719Z - Selected "Message" from combobox 7
+[STEP] 2026-05-13T07:49:29.719Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-05-13T07:49:31.118Z - Selected "5 Days" from combobox 8
+[INFO] 2026-05-13T07:49:34.187Z - Task "NotifyMessage 1778658530056" with reminder created successfully
+[INFO] 2026-05-13T07:49:34.187Z - Created: NotifyMessage 1778658530056
+[STEP] 2026-05-13T07:49:34.187Z - Creating task with reminder: NotifySMS 1778658530056
+[STEP] 2026-05-13T07:49:34.187Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:49:34.850Z - Add Task form opened
+[STEP] 2026-05-13T07:49:50.352Z - Selecting "SMS" from combobox index 7
+[INFO] 2026-05-13T07:49:51.751Z - Selected "SMS" from combobox 7
+[STEP] 2026-05-13T07:49:51.751Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-05-13T07:49:53.150Z - Selected "5 Days" from combobox 8
+[INFO] 2026-05-13T07:49:56.227Z - Task "NotifySMS 1778658530056" with reminder created successfully
+[INFO] 2026-05-13T07:49:56.227Z - Created: NotifySMS 1778658530056
+[STEP] 2026-05-13T07:49:56.228Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:49:57.794Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:49:57.794Z - Setting status filter to: All
+[INFO] 2026-05-13T07:50:00.204Z - Status filter set to: All
+[STEP] 2026-05-13T07:50:00.204Z - Searching for: NotifyEmail 1778658530056
+[INFO] 2026-05-13T07:50:02.277Z - Search completed for: NotifyEmail 1778658530056
+[STEP] 2026-05-13T07:50:02.278Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:50:03.283Z - TASK values: NotifyEmail 1778658530056
+[INFO] 2026-05-13T07:50:03.284Z - Task with Email reminder verified
+[STEP] 2026-05-13T07:50:03.284Z - Clearing search
+[INFO] 2026-05-13T07:50:04.804Z - Search cleared
+[STEP] 2026-05-13T07:50:04.804Z - Searching for: NotifyMessage 1778658530056
+[INFO] 2026-05-13T07:50:06.872Z - Search completed for: NotifyMessage 1778658530056
+[STEP] 2026-05-13T07:50:06.872Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:50:07.877Z - TASK values: NotifyMessage 1778658530056
+[INFO] 2026-05-13T07:50:07.878Z - Task with Message reminder verified
+[STEP] 2026-05-13T07:50:07.878Z - Clearing search
+[INFO] 2026-05-13T07:50:09.397Z - Search cleared
+[STEP] 2026-05-13T07:50:09.398Z - Searching for: NotifySMS 1778658530056
+[INFO] 2026-05-13T07:50:11.452Z - Search completed for: NotifySMS 1778658530056
+[STEP] 2026-05-13T07:50:11.452Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:50:12.457Z - TASK values: NotifySMS 1778658530056
+[INFO] 2026-05-13T07:50:12.458Z - Task with SMS reminder verified
+[STEP] 2026-05-13T07:50:12.458Z - Clearing search
+[INFO] 2026-05-13T07:50:13.979Z - Search cleared
+[INFO] 2026-05-13T07:50:13.979Z - All 3 reminder mediums verified: Email, Message, SMS

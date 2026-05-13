@@ -1,0 +1,52 @@
+[ERROR] 2026-05-13T07:34:08.456Z - Failed to click Manual Time Entries
+locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('//*[contains(text(),\'Manual Time Entries\')]').first()
+
+    at PatientMonitoringPage.clickManualTimeEntries (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:793:75)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:568:30 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts',
+      line: 793,
+      column: 75,
+      function: 'PatientMonitoringPage.clickManualTimeEntries'
+    },
+    category: 'pw:api',
+    title: "Click locator('//*[contains(text(),\\'Manual Time Entries\\')]').first()",
+    apiName: 'locator.click',
+    params: {
+      selector: "//*[contains(text(),'Manual Time Entries')] >> nth=0",
+      strict: true,
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@60',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@60',
+      _title: "Click locator('//*[contains(text(),\\'Manual Time Entries\\')]').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657648455,
+    error: {
+      message: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//*[contains(text(),\\'Manual Time Entries\\')]').first()\x1B[22m\n",
+      stack: 'TimeoutError: locator.click: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//*[contains(text(),\\'Manual Time Entries\\')]').first()\x1B[22m\n" +
+        '\n' +
+        '    at PatientMonitoringPage.clickManualTimeEntries (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:793:75)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:568:30',
+      cause: undefined
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[STEP] 2026-05-13T07:51:26.812Z - Test: Verify re-enrolled patient appears with New status
+[INFO] 2026-05-13T07:51:26.812Z - Logging in to Provider Portal
+[STEP] 2026-05-13T07:51:26.812Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:51:26.812Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:51:27.300Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:51:32.079Z - Login attempt completed
+[STEP] 2026-05-13T07:51:33.606Z - Step 1: Navigate to Enrollment section and find closed enrollment
+[STEP] 2026-05-13T07:51:33.607Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:51:33.767Z - Navigated to Enrollment section
+[STEP] 2026-05-13T07:51:33.771Z - Applying status filter: Closed
+[INFO] 2026-05-13T07:51:39.966Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND — SKIPPING ===
+Re-enroll flow requires a pre-existing Closed enrollment
+in test data. Create-new fallback is unreliable due to
+backend sync lag and is skipped intentionally.

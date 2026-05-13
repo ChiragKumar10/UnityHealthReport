@@ -1,0 +1,54 @@
+[ERROR] 2026-05-13T07:25:51.016Z - Failed to get total time
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//*[contains(text(),\'TOTAL TIME\')]').first() to be visible
+
+    at PatientMonitoringPage.getTotalTime (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:771:26)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:406:48 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts',
+      line: 771,
+      column: 26,
+      function: 'PatientMonitoringPage.getTotalTime'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//*[contains(text(),\\'TOTAL TIME\\')]').first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//*[contains(text(),'TOTAL TIME')] >> nth=0",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@60',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@60',
+      _title: "Wait for selector locator('//*[contains(text(),\\'TOTAL TIME\\')]').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657151015,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//*[contains(text(),\\'TOTAL TIME\\')]').first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//*[contains(text(),\\'TOTAL TIME\\')]').first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at PatientMonitoringPage.getTotalTime (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:771:26)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:406:48',
+      cause: undefined
+    }
+  }
+}

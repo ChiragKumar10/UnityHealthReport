@@ -1,0 +1,16 @@
+[STEP] 2026-05-13T07:36:27.931Z - Setup: login → patient chart → CCM → Summary
+[STEP] 2026-05-13T07:36:28.387Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:36:28.387Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:36:28.496Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:36:32.897Z - Login attempt completed
+[STEP] 2026-05-13T07:36:34.419Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:36:36.782Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:36:37.278Z - Setup ✓: on patient-chart CCM → Summary
+[INFO] 2026-05-13T07:36:37.340Z - Scenario 1 ✓: DOCUMENTS grid present with name column (month="May 2026", soft: type=false, dateSent=false)
+[INFO] 2026-05-13T07:36:37.351Z - Scenario 2 note: no Vitals section rendered in Summary — skipping (not applicable in this env)
+[INFO] 2026-05-13T07:36:37.399Z - Scenario 3 ✓: Service Signatures section present (service-type rows detected=false)
+[INFO] 2026-05-13T07:36:37.439Z - Scenario 4 ✓: Interactions monthly aggregate visible — "Total Time: 00:00"
+[INFO] 2026-05-13T07:36:38.199Z - Scenario 5 ✓: month filter applied (now "Mar 2026")
+[INFO] 2026-05-13T07:36:53.222Z - Scenario 6 ✓: Summary exported as "Summary Report.pdf"
+[INFO] 2026-05-13T07:36:53.245Z - Scenario 7 ✓: exported summary is a print-ready surface (window.print is callable)
+[INFO] 2026-05-13T07:36:53.245Z - AUT_PT_SUM_001 PASSED — full patient-wallet Summary workflow verified

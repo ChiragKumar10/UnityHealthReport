@@ -1,0 +1,15 @@
+[STEP] 2026-05-13T07:51:40.101Z - Test: Verify Activate Enrollment flow - Closed to Active
+[INFO] 2026-05-13T07:51:40.101Z - Logging in to Provider Portal
+[STEP] 2026-05-13T07:51:40.101Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:51:40.101Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:51:40.593Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:51:45.027Z - Login attempt completed
+[STEP] 2026-05-13T07:51:46.547Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:51:46.718Z - Navigated to Enrollment section
+[STEP] 2026-05-13T07:51:46.720Z - Applying status filter: Closed
+[INFO] 2026-05-13T07:51:52.913Z - Status filter 'Closed' applied successfully
+
+=== NO CLOSED ENROLLMENT FOUND — SKIPPING ===
+Re-enroll flow requires a pre-existing Closed enrollment
+in test data. Create-new fallback is unreliable due to
+backend sync lag and is skipped intentionally.

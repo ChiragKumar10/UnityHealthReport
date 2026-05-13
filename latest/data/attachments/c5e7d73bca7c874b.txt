@@ -1,0 +1,121 @@
+[STEP] 2026-05-13T07:19:59.336Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:19:59.336Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:19:59.451Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:20:05.228Z - Login attempt completed
+[STEP] 2026-05-13T07:20:06.753Z - Starting: Verify newly enrolled patient appears in Week 1
+[STEP] 2026-05-13T07:20:06.754Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:20:07.004Z - Navigated to Enrollment section
+[STEP] 2026-05-13T07:20:07.005Z - Adding new enrollment
+[INFO] 2026-05-13T07:20:13.368Z - Found 20 patients matching 't'
+[INFO] 2026-05-13T07:20:14.839Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 1/5
+Patient: Murphy, Bethany  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-05-13T07:20:20.717Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-05-13T07:20:20.730Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-05-13T07:20:25.399Z - Found 7 patients matching 'q'
+New patient selected: Gibson, Monique 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 2/5
+Patient: Gibson, Monique  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-05-13T07:20:29.498Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-05-13T07:20:29.509Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-05-13T07:20:34.162Z - Found 22 patients matching 'h'
+New patient selected: Crist, Hassie 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 3/5
+Patient: Crist, Hassie  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-05-13T07:20:38.246Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-05-13T07:20:53.302Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-05-13T07:20:57.436Z - Found 23 patients matching 'd'
+New patient selected: Marquardt, Orville 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 4/5
+Patient: Marquardt, Orville  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-05-13T07:21:01.499Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-05-13T07:21:01.510Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-05-13T07:21:06.153Z - Found 47 patients matching 'e'
+New patient selected: Bernhard, Cedric 
+Service type reselected: Remote Therapeutic Monitoring (RTM)
+
+Enrollment attempt 5/5
+Patient: Bernhard, Cedric  | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-05-13T07:21:10.198Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-05-13T07:21:10.223Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Reached maximum retry attempts (5)
+
+=== All retry attempts failed. Creating NEW patient and enrolling ===
+Closing enrollment form...
+
+New patient data generated:
+┌─────────┬────────────────────┐
+│ (index) │ Values             │
+├─────────┼────────────────────┤
+│ Name    │ 'Sally Smitham'    │
+│ DOB     │ 'November 2022 13' │
+│ Phone   │ '6997440904'       │
+└─────────┴────────────────────┘
+[STEP] 2026-05-13T07:21:12.411Z - Creating patient: Sally Smitham
+[INFO] 2026-05-13T07:21:17.712Z - Patient Sally Smitham created successfully
+✓ New patient created: Sally Smitham
+[STEP] 2026-05-13T07:21:17.751Z - Creating enrollment
+[INFO] 2026-05-13T07:21:19.878Z - Patient enrolled in Remote Patient Monitoring (RPM)
+[INFO] 2026-05-13T07:21:19.878Z - Provider: Anny vate
+[INFO] 2026-05-13T07:21:19.878Z - Care Manager: Annamae Quitzon
+✓ New patient enrolled successfully in Remote Patient Monitoring (RPM) program
+[INFO] 2026-05-13T07:21:21.881Z - Enrolled: Smitham, Sally in Remote Patient Monitoring (RPM)
+[STEP] 2026-05-13T07:21:21.882Z - Verifying patient in Worklist NEW section
+✓ Patient "Smitham, Sally" found in Worklist > RPM > NEW section
+[INFO] 2026-05-13T07:21:42.794Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-05-13T07:21:42.795Z - Patient verified in Work List > RTM > New section
+[STEP] 2026-05-13T07:21:47.025Z - Navigating to RTM tab
+[INFO] 2026-05-13T07:21:47.217Z - Successfully navigated to RTM tab
+[STEP] 2026-05-13T07:21:47.218Z - Selecting Week 1
+[INFO] 2026-05-13T07:21:48.315Z - Successfully selected Week 1
+[STEP] 2026-05-13T07:21:48.411Z - Selecting Week 2
+[INFO] 2026-05-13T07:21:49.323Z - Successfully selected Week 2
+[STEP] 2026-05-13T07:21:49.410Z - Selecting Week 3
+[INFO] 2026-05-13T07:21:50.331Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:21:50.459Z - Selecting Week 4
+[INFO] 2026-05-13T07:21:51.372Z - Successfully selected Week 4
+[INFO] 2026-05-13T07:21:51.508Z - Patient "Smitham, Sally" enrolled but not yet in any Week — consent not signed, enrollment verified in prior step

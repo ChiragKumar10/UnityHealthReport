@@ -1,0 +1,62 @@
+[STEP] 2026-05-13T07:26:52.850Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:26:52.850Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:26:52.938Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:26:57.720Z - Login attempt completed
+[STEP] 2026-05-13T07:26:59.285Z - Test: Delete task and verify removed from provider view and patient charting
+[STEP] 2026-05-13T07:26:59.285Z - Navigating to Task page
+[INFO] 2026-05-13T07:27:00.324Z - Navigated to Task page
+[STEP] 2026-05-13T07:27:00.324Z - Creating task: DeleteBoth 1778657220324
+[STEP] 2026-05-13T07:27:00.324Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:27:00.953Z - Add Task form opened
+[INFO] 2026-05-13T07:27:18.670Z - Task "DeleteBoth 1778657220324" created successfully
+[INFO] 2026-05-13T07:27:18.670Z - Task "DeleteBoth 1778657220324" created
+[STEP] 2026-05-13T07:27:18.670Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:27:20.240Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:27:20.241Z - Setting status filter to: All
+[INFO] 2026-05-13T07:27:22.656Z - Status filter set to: All
+[STEP] 2026-05-13T07:27:22.656Z - Searching for: DeleteBoth 1778657220324
+[INFO] 2026-05-13T07:27:24.732Z - Search completed for: DeleteBoth 1778657220324
+[STEP] 2026-05-13T07:27:24.732Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:27:25.738Z - TASK values: DeleteBoth 1778657220324
+[INFO] 2026-05-13T07:27:25.739Z - Task verified in task list before delete
+[STEP] 2026-05-13T07:27:25.739Z - Verifying task in Patient Charting before delete
+[STEP] 2026-05-13T07:27:25.739Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:27:27.986Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:27:45.515Z - Task verified in Patient Charting before delete
+[STEP] 2026-05-13T07:27:45.515Z - Deleting the task
+[STEP] 2026-05-13T07:27:45.515Z - Navigating to Task page
+[INFO] 2026-05-13T07:27:46.587Z - Navigated to Task page
+[STEP] 2026-05-13T07:27:46.588Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:27:48.178Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:27:48.178Z - Setting status filter to: All
+[INFO] 2026-05-13T07:27:50.662Z - Status filter set to: All
+[STEP] 2026-05-13T07:27:50.662Z - Searching for: DeleteBoth 1778657220324
+[INFO] 2026-05-13T07:27:52.728Z - Search completed for: DeleteBoth 1778657220324
+[STEP] 2026-05-13T07:27:52.728Z - Deleting task
+[STEP] 2026-05-13T07:27:52.728Z - Opening delete confirmation dialog
+[STEP] 2026-05-13T07:27:52.728Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:27:53.773Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:27:53.773Z - Clicking action menu item: Delete
+[INFO] 2026-05-13T07:27:55.319Z - Clicked: Delete
+[INFO] 2026-05-13T07:27:55.324Z - Delete confirmation dialog opened
+[STEP] 2026-05-13T07:27:55.324Z - Clicking Delete to confirm deletion
+[INFO] 2026-05-13T07:27:58.362Z - Task deleted
+[INFO] 2026-05-13T07:27:58.362Z - Task deleted
+[STEP] 2026-05-13T07:27:58.362Z - VERIFY 1: Task should not be in provider task list
+[STEP] 2026-05-13T07:27:58.362Z - Navigating to Task page
+[INFO] 2026-05-13T07:27:59.417Z - Navigated to Task page
+[STEP] 2026-05-13T07:27:59.417Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:27:59.420Z - My Tasks filter already unchecked
+[STEP] 2026-05-13T07:27:59.420Z - Setting status filter to: All
+[INFO] 2026-05-13T07:28:01.786Z - Status filter set to: All
+[STEP] 2026-05-13T07:28:01.786Z - Searching for: DeleteBoth 1778657220324
+[INFO] 2026-05-13T07:28:03.847Z - Search completed for: DeleteBoth 1778657220324
+[STEP] 2026-05-13T07:28:03.847Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:28:04.852Z - TASK values: 
+[INFO] 2026-05-13T07:28:04.855Z - No data found visible: true
+[INFO] 2026-05-13T07:28:04.856Z - ✓ VERIFY 1 PASSED: Deleted task not in provider task list
+[STEP] 2026-05-13T07:28:04.856Z - VERIFY 2: Task should not be in Patient Charting
+[STEP] 2026-05-13T07:28:04.856Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:28:06.379Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:28:24.990Z - ✓ VERIFY 2 PASSED: Deleted task not in Patient Charting
+[INFO] 2026-05-13T07:28:24.991Z - AUT_TSK_127 PASSED: Deleted task removed from BOTH provider task list and patient charting

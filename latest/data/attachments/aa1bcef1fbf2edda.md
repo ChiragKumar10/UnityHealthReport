@@ -1,0 +1,559 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: provider-portal/patient-wallet/patient-monitoring-workflow.spec.ts >> Patient Wallet - Patient Monitoring Full Workflow >> AUT_PT_MON_ALERT_001 - Generate + resolve an alert (AUT_PT_027, AUT_PT_028)
+- Location: tests/web/provider-portal/patient-wallet/patient-monitoring-workflow.spec.ts:842:9
+
+# Error details
+
+```
+Error: Monitoring timeline must show an "Alert Generated" entry after vital submission
+
+expect(received).toBeTruthy()
+
+Received: false
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e13]:
+            - img [ref=e15]
+            - combobox "Search Patient Name, DOB (MM-DD-YYYY), Phone" [ref=e17]
+            - button "Open" [ref=e19] [cursor=pointer]:
+              - img [ref=e20]
+            - group
+          - button "New Patient" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+            - paragraph [ref=e25]: New Patient
+          - button [ref=e27] [cursor=pointer]:
+            - img [ref=e29]
+    - generic [ref=e31]:
+      - list [ref=e33]:
+        - listitem [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e39]: Work List
+        - listitem [ref=e40] [cursor=pointer]:
+          - img [ref=e42]
+          - generic [ref=e45]: Enrollments
+        - listitem [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Alerts
+        - listitem [ref=e52] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e57]:
+            - text: Tasks
+            - generic [ref=e58]: "305"
+        - listitem [ref=e59] [cursor=pointer]:
+          - img [ref=e61]
+          - generic [ref=e64]: Billing
+        - listitem [ref=e65] [cursor=pointer]:
+          - img [ref=e67]
+          - generic [ref=e70]: Document Library
+        - listitem [ref=e71] [cursor=pointer]:
+          - img [ref=e73]
+          - generic [ref=e76]: RPM Library
+        - listitem [ref=e77] [cursor=pointer]:
+          - img [ref=e79]
+          - generic [ref=e82]: RTM Library
+        - listitem [ref=e83] [cursor=pointer]:
+          - img [ref=e85]
+          - generic [ref=e88]: CCM Library
+        - listitem [ref=e89] [cursor=pointer]:
+          - img [ref=e91]
+          - generic [ref=e94]: PCM Library
+        - listitem [ref=e95] [cursor=pointer]:
+          - img [ref=e97]
+          - generic [ref=e100]: Training Library
+        - listitem [ref=e101] [cursor=pointer]:
+          - img [ref=e103]
+          - generic [ref=e106]: Communications
+        - listitem [ref=e107] [cursor=pointer]:
+          - img [ref=e109]
+          - generic [ref=e112]: Settings
+        - listitem [ref=e113] [cursor=pointer]:
+          - img [ref=e115]
+          - generic [ref=e117]: Logout
+      - generic [ref=e118]:
+        - paragraph [ref=e119]: chirag kumar
+        - paragraph [ref=e120]: chirag.kumar@thinkitive.com
+        - generic [ref=e121]:
+          - img [ref=e122]
+          - paragraph
+      - listitem [ref=e125] [cursor=pointer]:
+        - img [ref=e127]
+    - main [ref=e129]:
+      - generic [ref=e131]:
+        - group "Platform" [ref=e132]:
+          - button "RPM" [disabled]
+          - button "RTM" [pressed] [ref=e133] [cursor=pointer]: RTM
+          - button "CCM" [disabled]
+          - button "PCM" [disabled]
+        - generic [ref=e134]:
+          - generic [ref=e136]:
+            - img [ref=e138]
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - heading "Smith, Jemimah" [level=5] [ref=e143]
+                - heading "Male | 04-20-1997 | RTM - Enrolled 04-20-2026" [level=6] [ref=e144]:
+                  - text: Male | 04-20-1997 |
+                  - heading "RTM - Enrolled 04-20-2026" [level=6] [ref=e145]
+              - generic [ref=e146]:
+                - heading "User hasn't logged in" [level=6] [ref=e147]
+                - generic [ref=e148]:
+                  - button "Profile" [ref=e149] [cursor=pointer]:
+                    - img [ref=e151]
+                    - text: Profile
+                  - img
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - paragraph [ref=e158]: Global Comment
+              - button "New" [ref=e159] [cursor=pointer]:
+                - img [ref=e161]
+                - text: New
+            - paragraph [ref=e164]: Type Your Comment...
+          - button "Text Message" [ref=e167] [cursor=pointer]:
+            - img [ref=e169]
+            - heading "Text Message" [level=6] [ref=e171]
+        - tablist [ref=e176]:
+          - tab "Monitoring" [selected] [ref=e177] [cursor=pointer]: Monitoring
+          - tab "Vitals" [ref=e178] [cursor=pointer]
+          - tab "Assessment" [ref=e179] [cursor=pointer]
+          - tab "Tasks" [ref=e180] [cursor=pointer]
+          - tab "Documents" [ref=e181] [cursor=pointer]
+          - tab "Home Exercise" [ref=e182] [cursor=pointer]
+          - tab "Medical History" [ref=e183] [cursor=pointer]
+          - tab "Enrollments" [ref=e184] [cursor=pointer]
+          - tab "Care Team" [ref=e185] [cursor=pointer]
+          - tab "Training Library" [ref=e186] [cursor=pointer]
+          - tab "Billing" [ref=e187] [cursor=pointer]
+          - tab "Summary" [ref=e188] [cursor=pointer]
+        - generic [ref=e191]:
+          - generic [ref=e194]:
+            - button "App Chat" [ref=e195]:
+              - generic [ref=e196]: App Chat
+              - img [ref=e197] [cursor=pointer]
+            - button "Text Message" [ref=e199]:
+              - generic [ref=e200]: Text Message
+              - img [ref=e201] [cursor=pointer]
+            - button "Incoming Text Message" [ref=e203]:
+              - generic [ref=e204]: Incoming Text Message
+              - img [ref=e205] [cursor=pointer]
+            - combobox "Select" [ref=e207]
+            - button "Open" [ref=e209] [cursor=pointer]:
+              - img [ref=e210]
+            - group
+          - generic [ref=e212]:
+            - generic [ref=e214]:
+              - progressbar [ref=e218]:
+                - img [ref=e219]
+              - separator [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - generic [ref=e225]:
+                    - textbox "Type your message..." [ref=e226]
+                    - group
+                  - button [ref=e227] [cursor=pointer]:
+                    - img [ref=e228]
+                  - button [disabled]:
+                    - img
+                  - generic [ref=e230]:
+                    - button [ref=e231] [cursor=pointer]:
+                      - img [ref=e232]
+                    - button [ref=e234] [cursor=pointer]:
+                      - img [ref=e235]
+                    - button [ref=e238] [cursor=pointer]:
+                      - img [ref=e239]
+                    - paragraph [ref=e242]: 00:05:00
+                - generic [ref=e243]:
+                  - button "Response Library" [ref=e244] [cursor=pointer]:
+                    - img [ref=e246]
+                    - generic [ref=e248]: Response Library
+                  - button "Escalate to Provider" [ref=e249] [cursor=pointer]:
+                    - img [ref=e251]
+                    - generic [ref=e253]: Escalate to Provider
+                  - button "Assign Enrollment" [ref=e254] [cursor=pointer]:
+                    - img [ref=e256]
+                    - generic [ref=e258]: Assign Enrollment
+                  - button "Add Note Summary" [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]: Add Note Summary
+                  - button "Send" [ref=e264] [cursor=pointer]:
+                    - img [ref=e266]
+                    - generic [ref=e269]: Send
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - generic [ref=e272]: 3/31 Days
+                - generic [ref=e274]:
+                  - generic [ref=e275]:
+                    - img [ref=e276]
+                    - generic [ref=e278]: 20 Apr - 20 May
+                    - img [ref=e279] [cursor=pointer]
+                  - progressbar [ref=e282]
+              - generic [ref=e285]:
+                - generic [ref=e289]:
+                  - button "Choose date, selected date is May 1, 2026" [ref=e291] [cursor=pointer]:
+                    - img [ref=e292]
+                  - textbox "Select Month" [ref=e294]: May 2026
+                  - button "Clear" [ref=e296] [cursor=pointer]:
+                    - img [ref=e297]
+                  - group
+                - generic [ref=e299]:
+                  - paragraph [ref=e300]: INTERACTIONS
+                  - paragraph [ref=e301]: "TOTAL TIME: 20:00"
+                - generic [ref=e303]:
+                  - progressbar [ref=e304]
+                  - paragraph [ref=e307]: "20"
+                  - paragraph [ref=e310]: "40"
+                  - paragraph [ref=e313]: "60"
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - paragraph [ref=e318]: test
+                    - generic [ref=e319]: 00:20:00
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: 05/08/2026 02:16 PM
+                    - generic [ref=e322]:
+                      - img [ref=e324] [cursor=pointer]
+                      - img [ref=e327] [cursor=pointer]
+                - button "Manual Time Entries" [ref=e329] [cursor=pointer]:
+                  - img [ref=e331]
+                  - text: Manual Time Entries
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - heading "LATEST READING" [level=5] [ref=e336]
+              - generic [ref=e337]:
+                - button "View All Data" [ref=e338] [cursor=pointer]:
+                  - img [ref=e340]
+                  - text: View All Data
+                - button "Add Data" [active] [ref=e342] [cursor=pointer]:
+                  - img [ref=e344]
+                  - text: Add Data
+            - grid [ref=e348]:
+              - row "VITAL NAME DATE LAST UPDATED CURRENT VALUE PREVIOUS VALUE ALERT MONTHLY AVG REVIEW ACTION" [ref=e349]:
+                - columnheader "VITAL NAME" [ref=e350]:
+                  - generic [ref=e352]: VITAL NAME
+                  - img [ref=e354]
+                - columnheader "DATE" [ref=e356]:
+                  - generic [ref=e358]: DATE
+                  - img [ref=e360]
+                - columnheader "LAST UPDATED" [ref=e362]:
+                  - generic [ref=e364]: LAST UPDATED
+                  - img [ref=e366]
+                - columnheader "CURRENT VALUE" [ref=e368]:
+                  - generic [ref=e370]: CURRENT VALUE
+                  - img [ref=e372]
+                - columnheader "PREVIOUS VALUE" [ref=e374]:
+                  - generic [ref=e376]: PREVIOUS VALUE
+                  - img [ref=e378]
+                - columnheader "ALERT" [ref=e380]:
+                  - generic [ref=e382]: ALERT
+                  - img [ref=e384]
+                - columnheader "MONTHLY AVG" [ref=e386]:
+                  - generic [ref=e388]: MONTHLY AVG
+                  - img [ref=e390]
+                - columnheader "REVIEW" [ref=e392]:
+                  - generic [ref=e394]: REVIEW
+                  - img [ref=e396]
+                - columnheader "ACTION" [ref=e398]:
+                  - generic [ref=e400]: ACTION
+                  - img [ref=e402]
+              - rowgroup [ref=e404]:
+                - row "Pain Scale 05-13-2026 05-13-2026 12 12 High 11.83 introduction checkbox" [ref=e405]:
+                  - gridcell "Pain Scale" [ref=e406]
+                  - gridcell "05-13-2026" [ref=e407]
+                  - gridcell "05-13-2026" [ref=e408]
+                  - gridcell "12" [ref=e409]
+                  - gridcell "12" [ref=e410]
+                  - gridcell "High" [ref=e411]:
+                    - heading "High" [level=6] [ref=e413]
+                  - gridcell "11.83" [ref=e414]
+                  - gridcell "introduction checkbox" [ref=e415]:
+                    - generic [ref=e416] [cursor=pointer]:
+                      - checkbox "introduction checkbox" [ref=e417]
+                      - img [ref=e418]
+                  - gridcell [ref=e420]:
+                    - img [ref=e422] [cursor=pointer]
+                - row "Height 04-20-2026 04-20-2026 1000 cm - - 1000 cm introduction checkbox" [ref=e424]:
+                  - gridcell "Height" [ref=e425]
+                  - gridcell "04-20-2026" [ref=e426]
+                  - gridcell "04-20-2026" [ref=e427]
+                  - gridcell "1000 cm" [ref=e428]
+                  - gridcell "-" [ref=e429]
+                  - gridcell "-" [ref=e430]:
+                    - paragraph [ref=e432]: "-"
+                  - gridcell "1000 cm" [ref=e433]
+                  - gridcell "introduction checkbox" [ref=e434]:
+                    - generic [ref=e435] [cursor=pointer]:
+                      - checkbox "introduction checkbox" [ref=e436]
+                      - img [ref=e437]
+                  - gridcell [ref=e439]:
+                    - img [ref=e441] [cursor=pointer]
+                - row "Heart Rate 04-20-2026 04-20-2026 110 BPM - High 110 BPM introduction checkbox" [ref=e443]:
+                  - gridcell "Heart Rate" [ref=e444]
+                  - gridcell "04-20-2026" [ref=e445]
+                  - gridcell "04-20-2026" [ref=e446]
+                  - gridcell "110 BPM" [ref=e447]
+                  - gridcell "-" [ref=e448]
+                  - gridcell "High" [ref=e449]:
+                    - heading "High" [level=6] [ref=e451]
+                  - gridcell "110 BPM" [ref=e452]
+                  - gridcell "introduction checkbox" [ref=e453]:
+                    - generic [ref=e454] [cursor=pointer]:
+                      - checkbox "introduction checkbox" [ref=e455]
+                      - img [ref=e456]
+                  - gridcell [ref=e458]:
+                    - img [ref=e460] [cursor=pointer]
+                - row "Pulse Rate 04-20-2026 04-20-2026 100 bpm 220 bpm - 176.4 bpm introduction checkbox" [ref=e462]:
+                  - gridcell "Pulse Rate" [ref=e463]
+                  - gridcell "04-20-2026" [ref=e464]
+                  - gridcell "04-20-2026" [ref=e465]
+                  - gridcell "100 bpm" [ref=e466]
+                  - gridcell "220 bpm" [ref=e467]
+                  - gridcell "-" [ref=e468]:
+                    - paragraph [ref=e470]: "-"
+                  - gridcell "176.4 bpm" [ref=e471]
+                  - gridcell "introduction checkbox" [ref=e472]:
+                    - generic [ref=e473] [cursor=pointer]:
+                      - checkbox "introduction checkbox" [ref=e474]
+                      - img [ref=e475]
+                  - gridcell [ref=e477]:
+                    - img [ref=e479] [cursor=pointer]
+                - row "Blood Pressure 04-20-2026 04-20-2026 82/122.0 mmHg - High 82 mmHg introduction checkbox" [ref=e481]:
+                  - gridcell "Blood Pressure" [ref=e482]
+                  - gridcell "04-20-2026" [ref=e483]
+                  - gridcell "04-20-2026" [ref=e484]
+                  - gridcell "82/122.0 mmHg" [ref=e485]
+                  - gridcell "-" [ref=e486]
+                  - gridcell "High" [ref=e487]:
+                    - heading "High" [level=6] [ref=e489]
+                  - gridcell "82 mmHg" [ref=e490]
+                  - gridcell "introduction checkbox" [ref=e491]:
+                    - generic [ref=e492] [cursor=pointer]:
+                      - checkbox "introduction checkbox" [ref=e493]
+                      - img [ref=e494]
+                  - gridcell [ref=e496]:
+                    - img [ref=e498] [cursor=pointer]
+  - alert [ref=e500]:
+    - img [ref=e502]
+    - generic [ref=e504]: Vitals Saved Successfully
+    - button "Close" [ref=e506] [cursor=pointer]:
+      - img [ref=e507]
+```
+
+# Test source
+
+```ts
+  890  |         if (await visible(monitoringTab, 3000)) {
+  891  |             await monitoringTab.click().catch(() => {});
+  892  |             await settle(page, 2500);
+  893  |         }
+  894  |         Logger.info('Setup ✓: on Smith Jemimah Monitoring view');
+  895  | 
+  896  |         // =====================================================================
+  897  |         // STEP 1 — Add vital beyond threshold via "+Add Data"
+  898  |         // =====================================================================
+  899  |         await test.step('Step 1: Add out-of-range vital reading to trigger alert', async () => {
+  900  |             const addData = page.getByRole('button', { name: /Add\s*Data/i }).first();
+  901  |             const addDataLink = page.getByText(/\+\s*Add\s*Data|Add\s*Data/i).first();
+  902  |             const target = (await visible(addData, 2500)) ? addData : addDataLink;
+  903  |             if (!(await visible(target, 3000))) {
+  904  |                 Logger.info('Step 1 note: no Add Data affordance — skipping');
+  905  |                 return;
+  906  |             }
+  907  |             await target.click({ force: true }).catch(() => {});
+  908  |             await settle(page, 2500);
+  909  | 
+  910  |             const drawer = page.locator(".MuiDrawer-modal, .MuiDialog-root").last();
+  911  |             if (!(await visible(drawer, 4000))) {
+  912  |                 Logger.info('Step 1 note: Add Data form did not open — skipping');
+  913  |                 return;
+  914  |             }
+  915  | 
+  916  |             // Pick Pain Scale (simplest out-of-range trigger — single numeric field).
+  917  |             const vitalTypeCombo = drawer.locator("[role='combobox']").first();
+  918  |             if (await visible(vitalTypeCombo, 2000)) {
+  919  |                 await vitalTypeCombo.click().catch(() => {});
+  920  |                 await settle(page, 800);
+  921  |                 const painScale = page.getByRole('option', { name: /Pain\s*Scale/i }).first();
+  922  |                 if (await visible(painScale, 1500)) {
+  923  |                     await painScale.click().catch(() => {});
+  924  |                 } else {
+  925  |                     await page.locator("li[role='option']").first().click().catch(() => {});
+  926  |                 }
+  927  |                 await settle(page, 800);
+  928  |             }
+  929  | 
+  930  |             // Pain Scale alert triggers at >11 — use 12.
+  931  |             const numericInput = drawer.locator("input[type='number'], input[type='text']").last();
+  932  |             if (await visible(numericInput, 2000)) {
+  933  |                 await numericInput.fill('12').catch(() => {});
+  934  |             }
+  935  | 
+  936  |             const saveBtn = drawer.getByRole('button', { name: /^(Save|Add|Submit)$/ }).first();
+  937  |             if (await visible(saveBtn, 2000)) {
+  938  |                 await saveBtn.click().catch(() => {});
+  939  |                 await page.waitForLoadState('networkidle').catch(() => {});
+  940  |                 await settle(page, 3000);
+  941  |             }
+  942  |             await dismissOverlays();
+  943  |             Logger.info('Step 1 ✓: out-of-range vital submitted');
+  944  |         });
+  945  | 
+  946  |         // =====================================================================
+  947  |         // Helper: apply a timeline filter by option label.
+  948  |         // =====================================================================
+  949  |         const selectTimelineFilter = async (optionLabel: RegExp): Promise<boolean> => {
+  950  |             const selectCombo = page.getByRole('combobox', { name: /^Select$/ }).first();
+  951  |             if (!(await visible(selectCombo, 3000))) return false;
+  952  |             await selectCombo.click().catch(() => {});
+  953  |             await settle(page, 1000);
+  954  |             const option = page.locator("li[role='option']").filter({ hasText: optionLabel }).first();
+  955  |             if (!(await visible(option, 2500))) {
+  956  |                 await page.keyboard.press('Escape').catch(() => {});
+  957  |                 return false;
+  958  |             }
+  959  |             await option.click().catch(() => {});
+  960  |             await settle(page, 1500);
+  961  |             await page.keyboard.press('Escape').catch(() => {});
+  962  |             await settle(page, 500);
+  963  |             return true;
+  964  |         };
+  965  | 
+  966  |         // =====================================================================
+  967  |         // STEP 2-4 — Monitoring → "Alert Generated" filter → verify
+  968  |         // =====================================================================
+  969  |         await test.step('Step 2-4: Apply "Alert Generated" filter and verify entry (AUT_PT_027)', async () => {
+  970  |             const monTab = page.getByRole('tab', { name: /^Monitoring$/ }).first();
+  971  |             if (await visible(monTab, 2000)) {
+  972  |                 await monTab.click().catch(() => {});
+  973  |                 await settle(page, 2500);
+  974  |             }
+  975  | 
+  976  |             const applied = await selectTimelineFilter(/Alert\s*Generated/i);
+  977  |             Logger.info(applied
+  978  |                 ? 'Step 2 ✓: "Alert Generated" filter applied'
+  979  |                 : 'Step 2 note: could not select "Alert Generated" filter — proceeding');
+  980  | 
+  981  |             await page.mouse.wheel(0, 600).catch(() => {});
+  982  |             await settle(page, 800);
+  983  |             await page.mouse.wheel(0, 600).catch(() => {});
+  984  |             await settle(page, 800);
+  985  | 
+  986  |             const body = (await page.locator('main').innerText()).toLowerCase();
+  987  |             const hasAlertGenerated = /alert\s*generated|new\s*alert|alert\s*triggered/i.test(body);
+  988  |             expect(hasAlertGenerated,
+  989  |                 'Monitoring timeline must show an "Alert Generated" entry after vital submission')
+> 990  |                 .toBeTruthy();
+       |                  ^ Error: Monitoring timeline must show an "Alert Generated" entry after vital submission
+  991  |             Logger.info('AUT_PT_027 ✓: Alert-Generated entry visible on Monitoring timeline');
+  992  |         });
+  993  | 
+  994  |         // =====================================================================
+  995  |         // STEP 5 — Medical History → Alerts → action → Resolve
+  996  |         // =====================================================================
+  997  |         let resolveTimestamp = '';
+  998  |         await test.step('Step 5: Resolve the alert via Medical History → Alerts', async () => {
+  999  |             await dismissOverlays();
+  1000 |             const medHistTab = page.getByRole('tab', { name: /^Medical History$/ }).first();
+  1001 |             await medHistTab.waitFor({ state: 'visible', timeout: 10000 });
+  1002 |             await medHistTab.click();
+  1003 |             await settle(page, 2500);
+  1004 | 
+  1005 |             const alertsBtn = page.getByRole('button', { name: /^Alerts$/ }).first();
+  1006 |             if (await visible(alertsBtn, 3000)) {
+  1007 |                 await alertsBtn.click().catch(() => {});
+  1008 |                 await settle(page, 2000);
+  1009 |             }
+  1010 | 
+  1011 |             // Alerts grid's ACTION cell has a plain clickable <img>, not a kebab.
+  1012 |             const notResolvedRow = page.locator("[role='row'], tr").filter({
+  1013 |                 hasText: /Not\s*Resolved/i,
+  1014 |             }).first();
+  1015 |             const rowActionImg = notResolvedRow.locator("img[cursor='pointer'], img").last();
+  1016 |             const fallbackActionImg = page.locator("*", { hasText: /Not\s*Resolved/i })
+  1017 |                 .locator("xpath=./ancestor::*[.//img][1]//img").last();
+  1018 |             const actionTarget = (await visible(rowActionImg, 3000))
+  1019 |                 ? rowActionImg
+  1020 |                 : fallbackActionImg;
+  1021 |             if (!(await visible(actionTarget, 4000))) {
+  1022 |                 Logger.info('Step 5 note: no Not-Resolved row action icon — skipping resolve');
+  1023 |                 return;
+  1024 |             }
+  1025 |             await actionTarget.click({ force: true }).catch(() => {});
+  1026 |             await settle(page, 2000);
+  1027 | 
+  1028 |             const resolveMenuItem = page.locator(
+  1029 |                 "[role='menuitem']:has-text('Resolve'), button:has-text('Resolve')"
+  1030 |             ).first();
+  1031 |             const resolveDrawer = page.getByRole('heading', { name: /^RESOLVE$/ }).first();
+  1032 |             if (!(await visible(resolveDrawer, 2000))
+  1033 |                 && (await visible(resolveMenuItem, 2500))) {
+  1034 |                 await resolveMenuItem.click().catch(() => {});
+  1035 |                 await settle(page, 2500);
+  1036 |             }
+  1037 | 
+  1038 |             const drawer = page.locator(".MuiDrawer-modal, .MuiDialog-root").last();
+  1039 |             await drawer.waitFor({ state: 'visible', timeout: 5000 }).catch(() => {});
+  1040 | 
+  1041 |             const resolveNote = drawer.getByPlaceholder(/Enter Note|Note|Resolution/i).first();
+  1042 |             if (await visible(resolveNote, 2500)) {
+  1043 |                 await resolveNote.fill(`Alert resolved via automation ${Date.now()}`).catch(() => {});
+  1044 |             }
+  1045 | 
+  1046 |             const resolveBtn = drawer.getByRole('button', { name: /^Resolve$/ }).first();
+  1047 |             const fallbackSave = drawer.getByRole('button', { name: /^Save$/ }).first();
+  1048 |             const submitBtn = (await visible(resolveBtn, 2000)) ? resolveBtn : fallbackSave;
+  1049 |             await submitBtn.click({ force: true }).catch(() => {});
+  1050 |             await settle(page, 2500);
+  1051 | 
+  1052 |             // Skip the follow-up TIME LOG / MANUAL TIME ENTRIES drawer via Cancel.
+  1053 |             const timeLogHeading = page.getByText(/TIME\s*LOG|MANUAL\s*TIME\s*ENTRIES|Manual\s*Time/i).first();
+  1054 |             if (await visible(timeLogHeading, 5000)) {
+  1055 |                 const timeDrawer = page.locator(".MuiDrawer-modal, .MuiDialog-root").last();
+  1056 |                 const cancelBtn = timeDrawer.getByRole('button', { name: /^Cancel$/ }).first();
+  1057 |                 if (await visible(cancelBtn, 2000)) {
+  1058 |                     await cancelBtn.click({ force: true }).catch(() => {});
+  1059 |                     await settle(page, 1500);
+  1060 |                 }
+  1061 |             }
+  1062 |             await page.waitForLoadState('networkidle').catch(() => {});
+  1063 |             await settle(page, 2000);
+  1064 | 
+  1065 |             // Force-close any lingering drawer.
+  1066 |             for (let i = 0; i < 10; i++) {
+  1067 |                 const still = await page.locator(".MuiDrawer-modal").first()
+  1068 |                     .isVisible({ timeout: 500 }).catch(() => false);
+  1069 |                 if (!still) break;
+  1070 |                 await page.keyboard.press('Escape').catch(() => {});
+  1071 |                 await settle(page, 800);
+  1072 |                 const backdrop = page.locator(".MuiBackdrop-root").first();
+  1073 |                 if (await backdrop.isVisible({ timeout: 300 }).catch(() => false)) {
+  1074 |                     await backdrop.click({ position: { x: 5, y: 5 } }).catch(() => {});
+  1075 |                     await settle(page, 600);
+  1076 |                 }
+  1077 |             }
+  1078 |             await page.locator(".MuiDrawer-modal").first()
+  1079 |                 .waitFor({ state: 'hidden', timeout: 5000 }).catch(() => {});
+  1080 |             await settle(page, 1000);
+  1081 | 
+  1082 |             resolveTimestamp = new Date().toLocaleTimeString('en-US', {
+  1083 |                 hour: 'numeric', minute: '2-digit', hour12: true,
+  1084 |             });
+  1085 |             Logger.info(`Step 5 ✓: alert resolved (expected timestamp ~"${resolveTimestamp}")`);
+  1086 |         });
+  1087 | 
+  1088 |         // =====================================================================
+  1089 |         // STEP 6-8 — Monitoring → "Resolved Generated" filter → verify (AUT_PT_028)
+  1090 |         // =====================================================================
+```

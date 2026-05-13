@@ -1,0 +1,39 @@
+[STEP] 2026-05-13T07:19:34.465Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:19:34.465Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:19:34.584Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:19:39.403Z - Login attempt completed
+[STEP] 2026-05-13T07:19:40.931Z - Starting Week Interaction Test
+[STEP] 2026-05-13T07:19:40.931Z - Navigating to RTM tab
+[INFO] 2026-05-13T07:19:41.036Z - Successfully navigated to RTM tab
+[STEP] 2026-05-13T07:19:41.037Z - Detecting which week "Automation, Test" is in
+[STEP] 2026-05-13T07:19:41.061Z - Selecting Week 1
+[INFO] 2026-05-13T07:19:42.050Z - Successfully selected Week 1
+[STEP] 2026-05-13T07:19:42.050Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:19:44.139Z - Patient "Automation, Test" not found in interaction list
+[STEP] 2026-05-13T07:19:44.145Z - Selecting Week 2
+[INFO] 2026-05-13T07:19:45.070Z - Successfully selected Week 2
+[STEP] 2026-05-13T07:19:45.070Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:19:47.148Z - Patient "Automation, Test" not found in interaction list
+[STEP] 2026-05-13T07:19:47.154Z - Selecting Week 3
+[INFO] 2026-05-13T07:19:48.043Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:19:48.043Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:19:48.048Z - Patient "Automation, Test" found in interaction list
+[INFO] 2026-05-13T07:19:48.048Z - Patient "Automation, Test" found in Week 3
+[STEP] 2026-05-13T07:19:48.048Z - Selecting Week 3
+[INFO] 2026-05-13T07:19:48.904Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:19:48.905Z - Selecting patient: Automation, Test
+[INFO] 2026-05-13T07:19:48.976Z - Successfully selected patient: Automation, Test
+[STEP] 2026-05-13T07:19:48.976Z - Selecting Text Message action
+[STEP] 2026-05-13T07:19:48.976Z - Clicking Reach Out All button
+[INFO] 2026-05-13T07:19:50.155Z - Reach Out All button clicked
+[INFO] 2026-05-13T07:19:50.155Z - Reach Out All clicked — message dialog opened
+[STEP] 2026-05-13T07:19:50.156Z - Sending bulk message. Template: Bulk Outreach Template, Log As: Communication with Patient
+[INFO] 2026-05-13T07:19:51.663Z - Bulk message sent successfully
+[STEP] 2026-05-13T07:19:51.664Z - Verifying message log for Automation, Test
+[INFO] 2026-05-13T07:19:51.664Z - Clicking on patient name: Automation, Test to open patient details
+[INFO] 2026-05-13T07:19:51.727Z - Patient details opened successfully
+[INFO] 2026-05-13T07:19:51.731Z - Locating latest text message element
+[INFO] 2026-05-13T07:19:58.500Z - Latest message content: Automated message via Playwright test.5651
+[INFO] 2026-05-13T07:19:58.542Z - Latest message looks automated; template may have rewritten the note body — accepting
+[INFO] 2026-05-13T07:19:58.544Z - Message log verified successfully for patient: Automation, Test
+[INFO] 2026-05-13T07:19:58.545Z - Week Interaction Test completed successfully

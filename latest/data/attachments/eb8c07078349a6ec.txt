@@ -1,0 +1,44 @@
+[STEP] 2026-05-13T07:31:26.813Z - Login to Provider Portal
+[STEP] 2026-05-13T07:31:27.589Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:31:27.589Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:31:27.687Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:31:32.585Z - Login attempt completed
+[STEP] 2026-05-13T07:31:34.104Z - Test: Verify edit page pre-filled data
+[STEP] 2026-05-13T07:31:34.104Z - Navigating to Task page
+[INFO] 2026-05-13T07:31:35.134Z - Navigated to Task page
+[INFO] 2026-05-13T07:31:35.138Z - Logged-in user: chirag kumar
+[STEP] 2026-05-13T07:31:35.138Z - Creating task: PreFilled 1778657495134
+[STEP] 2026-05-13T07:31:35.138Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:31:35.772Z - Add Task form opened
+[INFO] 2026-05-13T07:31:53.859Z - Task "PreFilled 1778657495134" created successfully
+[STEP] 2026-05-13T07:31:53.859Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:31:55.435Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:31:55.435Z - Setting status filter to: All
+[INFO] 2026-05-13T07:31:57.854Z - Status filter set to: All
+[STEP] 2026-05-13T07:31:57.854Z - Searching for: PreFilled 1778657495134
+[INFO] 2026-05-13T07:31:59.928Z - Search completed for: PreFilled 1778657495134
+[STEP] 2026-05-13T07:31:59.928Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T07:32:00.936Z - SERVICE values: RPM
+[STEP] 2026-05-13T07:32:00.936Z - Fetching column values for: PRIORITY
+[INFO] 2026-05-13T07:32:01.940Z - PRIORITY values: MEDIUM
+[STEP] 2026-05-13T07:32:01.941Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-05-13T07:32:02.945Z - ASSIGNED TO values: chirag kumar
+[STEP] 2026-05-13T07:32:02.945Z - Fetching column values for: DUE DATE
+[INFO] 2026-05-13T07:32:03.950Z - DUE DATE values: 05/20/2026
+[INFO] 2026-05-13T07:32:03.950Z - List values — Service: RPM, Priority: MEDIUM, Assigned: chirag kumar, Due: 05/20/2026
+[STEP] 2026-05-13T07:32:03.950Z - Opening Edit Task form
+[STEP] 2026-05-13T07:32:03.950Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:32:04.998Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:32:04.998Z - Clicking action menu item: Edit
+[INFO] 2026-05-13T07:32:06.576Z - Clicked: Edit
+[INFO] 2026-05-13T07:32:06.580Z - Edit Task form opened
+[STEP] 2026-05-13T07:32:06.584Z - Reading all edit form pre-filled values
+[INFO] 2026-05-13T07:32:06.639Z - Edit form values: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"PreFilled 1778657495134","assignee":"chirag kumar ","priority":"MEDIUM","dueDate":"20 May 2026 ","note":"Prefill test note"}
+[INFO] 2026-05-13T07:32:06.642Z - Service: RPM ✓
+[INFO] 2026-05-13T07:32:06.645Z - Patient: Simeon Becker  ✓
+[INFO] 2026-05-13T07:32:06.649Z - Action: CALL ✓
+[INFO] 2026-05-13T07:32:06.652Z - Task Name: PreFilled 1778657495134 ✓
+[INFO] 2026-05-13T07:32:06.655Z - Assignee: chirag kumar  ✓
+[INFO] 2026-05-13T07:32:06.658Z - Priority: MEDIUM ✓
+[INFO] 2026-05-13T07:32:06.661Z - Due Date: 20 May 2026  ✓
+[INFO] 2026-05-13T07:32:06.661Z - All edit form fields are pre-filled correctly

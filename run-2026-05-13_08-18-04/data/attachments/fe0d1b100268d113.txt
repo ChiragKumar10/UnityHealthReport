@@ -1,0 +1,69 @@
+[STEP] 2026-05-13T07:58:41.381Z - Login to Provider Portal
+[STEP] 2026-05-13T07:58:42.018Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:58:42.018Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:58:42.106Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:58:46.821Z - Login attempt completed
+[STEP] 2026-05-13T07:58:48.342Z - Test: Create tasks per service and verify isolation
+[STEP] 2026-05-13T07:58:48.342Z - Navigating to Task page
+[INFO] 2026-05-13T07:58:49.384Z - Navigated to Task page
+[STEP] 2026-05-13T07:58:49.384Z - Creating task: RPM Iso 1778659129384
+[STEP] 2026-05-13T07:58:49.384Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:58:50.008Z - Add Task form opened
+[INFO] 2026-05-13T07:59:07.486Z - Task "RPM Iso 1778659129384" created successfully
+[STEP] 2026-05-13T07:59:07.486Z - Creating task: RTM Iso 1778659129384
+[STEP] 2026-05-13T07:59:07.486Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:59:08.159Z - Add Task form opened
+[INFO] 2026-05-13T07:59:25.573Z - Task "RTM Iso 1778659129384" created successfully
+[STEP] 2026-05-13T07:59:25.573Z - Creating task: CCM Iso 1778659129384
+[STEP] 2026-05-13T07:59:25.573Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:59:26.229Z - Add Task form opened
+[INFO] 2026-05-13T07:59:43.884Z - Task "CCM Iso 1778659129384" created successfully
+[STEP] 2026-05-13T07:59:43.884Z - Creating task: PCM Iso 1778659129384
+[STEP] 2026-05-13T07:59:43.884Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:59:44.545Z - Add Task form opened
+[INFO] 2026-05-13T08:00:02.101Z - Task "PCM Iso 1778659129384" created successfully
+[STEP] 2026-05-13T08:00:02.101Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T08:00:03.666Z - My Tasks filter unchecked
+[STEP] 2026-05-13T08:00:03.666Z - Setting status filter to: All
+[INFO] 2026-05-13T08:00:06.078Z - Status filter set to: All
+[STEP] 2026-05-13T08:00:06.078Z - Setting service filter to: RPM
+[INFO] 2026-05-13T08:00:08.540Z - Service filter set to: RPM
+[STEP] 2026-05-13T08:00:08.540Z - Searching for: 1778659129384
+[INFO] 2026-05-13T08:00:10.597Z - Search completed for: 1778659129384
+[STEP] 2026-05-13T08:00:10.597Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T08:00:11.604Z - SERVICE values: RPM
+[STEP] 2026-05-13T08:00:11.604Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:00:12.608Z - TASK values: RPM Iso 1778659129384
+[STEP] 2026-05-13T08:00:12.613Z - Clearing search
+[INFO] 2026-05-13T08:00:14.184Z - Search cleared
+[STEP] 2026-05-13T08:00:14.184Z - Setting service filter to: RTM
+[INFO] 2026-05-13T08:00:16.595Z - Service filter set to: RTM
+[STEP] 2026-05-13T08:00:16.595Z - Searching for: 1778659129384
+[INFO] 2026-05-13T08:00:18.668Z - Search completed for: 1778659129384
+[STEP] 2026-05-13T08:00:18.668Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T08:00:19.674Z - SERVICE values: RTM
+[STEP] 2026-05-13T08:00:19.674Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:00:20.678Z - TASK values: RTM Iso 1778659129384
+[STEP] 2026-05-13T08:00:20.682Z - Clearing search
+[INFO] 2026-05-13T08:00:22.205Z - Search cleared
+[STEP] 2026-05-13T08:00:22.206Z - Setting service filter to: CCM
+[INFO] 2026-05-13T08:00:24.610Z - Service filter set to: CCM
+[STEP] 2026-05-13T08:00:24.610Z - Searching for: 1778659129384
+[INFO] 2026-05-13T08:00:26.681Z - Search completed for: 1778659129384
+[STEP] 2026-05-13T08:00:26.682Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T08:00:27.687Z - SERVICE values: CCM
+[STEP] 2026-05-13T08:00:27.687Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:00:28.692Z - TASK values: CCM Iso 1778659129384
+[STEP] 2026-05-13T08:00:28.695Z - Clearing search
+[INFO] 2026-05-13T08:00:30.213Z - Search cleared
+[STEP] 2026-05-13T08:00:30.213Z - Setting service filter to: PCM
+[INFO] 2026-05-13T08:00:32.626Z - Service filter set to: PCM
+[STEP] 2026-05-13T08:00:32.626Z - Searching for: 1778659129384
+[INFO] 2026-05-13T08:00:34.698Z - Search completed for: 1778659129384
+[STEP] 2026-05-13T08:00:34.698Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T08:00:35.704Z - SERVICE values: PCM
+[STEP] 2026-05-13T08:00:35.704Z - Fetching column values for: TASK
+[INFO] 2026-05-13T08:00:36.709Z - TASK values: PCM Iso 1778659129384
+[STEP] 2026-05-13T08:00:36.712Z - Clearing search
+[INFO] 2026-05-13T08:00:38.231Z - Search cleared
+[INFO] 2026-05-13T08:00:38.231Z - All service filters verified with isolation

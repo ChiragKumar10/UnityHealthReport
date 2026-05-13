@@ -1,0 +1,42 @@
+[STEP] 2026-05-13T07:26:21.413Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:26:21.413Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:26:21.516Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:26:26.051Z - Login attempt completed
+[STEP] 2026-05-13T07:26:27.579Z - Test: Document count update on assign
+[STEP] 2026-05-13T07:26:27.579Z - Navigating to Document Library
+[INFO] 2026-05-13T07:26:29.139Z - Navigated to Document Library via sidebar
+[STEP] 2026-05-13T07:26:29.139Z - Clicking folder: Education
+[INFO] 2026-05-13T07:26:30.688Z - Opened folder: Education
+[STEP] 2026-05-13T07:26:30.688Z - Uploading document: CountDoc 1778657190688
+[STEP] 2026-05-13T07:26:30.688Z - Clicking Upload Material button
+[INFO] 2026-05-13T07:26:32.336Z - Upload Material form opened
+[STEP] 2026-05-13T07:26:32.337Z - Selecting tag: Education
+[INFO] 2026-05-13T07:26:33.777Z - Tag selected: Education
+[STEP] 2026-05-13T07:26:33.777Z - Selecting speciality: Cardiologist
+[INFO] 2026-05-13T07:26:35.248Z - Speciality selected: Cardiologist
+[STEP] 2026-05-13T07:26:35.248Z - Filling file name: CountDoc 1778657190688
+[STEP] 2026-05-13T07:26:35.576Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-05-13T07:26:35.605Z - Waiting for file upload to complete...
+[INFO] 2026-05-13T07:26:36.653Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-05-13T07:26:36.653Z - Clicking Upload button
+[INFO] 2026-05-13T07:26:36.663Z - Upload button enabled — clicking
+[INFO] 2026-05-13T07:26:39.738Z - Upload completed
+[INFO] 2026-05-13T07:26:39.738Z - Document "CountDoc 1778657190688" uploaded successfully
+[INFO] 2026-05-13T07:26:39.738Z - Step 1 ✓: Uploaded "CountDoc 1778657190688"
+[STEP] 2026-05-13T07:26:39.738Z - Navigating to Document Library
+[INFO] 2026-05-13T07:26:41.367Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:26:41.367Z - Clicking folder: Education
+[INFO] 2026-05-13T07:26:42.993Z - Opened folder: Education
+[STEP] 2026-05-13T07:26:42.996Z - Searching document: CountDoc 1778657190688
+[INFO] 2026-05-13T07:26:45.089Z - Search completed: CountDoc 1778657190688
+[INFO] 2026-05-13T07:26:45.094Z - Step 2 ✓: Document found in Education folder
+[STEP] 2026-05-13T07:26:45.094Z - Assigning document (row 0) to patient: Automation
+[STEP] 2026-05-13T07:26:45.094Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:26:46.133Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:26:46.133Z - Clicking action item: Assign
+[INFO] 2026-05-13T07:26:47.697Z - Clicked: Assign
+[INFO] 2026-05-13T07:26:53.937Z - Document assigned to patient: Automation
+[INFO] 2026-05-13T07:26:53.937Z - Step 3 ✓: Document assigned to Automation, Test
+[STEP] 2026-05-13T07:26:53.937Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:26:56.322Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:26:57.673Z - AUT_DOC_019 PASSED: Document uploaded, assigned, and found in patient chart

@@ -1,0 +1,26 @@
+[STEP] 2026-05-13T07:33:47.523Z - Login to Provider Portal
+[STEP] 2026-05-13T07:33:48.158Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:33:48.158Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:33:48.251Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:33:53.109Z - Login attempt completed
+[STEP] 2026-05-13T07:33:54.627Z - Test: Verify provider selection is mandatory during reassignment
+[STEP] 2026-05-13T07:33:54.627Z - Navigating to Task page
+[INFO] 2026-05-13T07:33:55.658Z - Navigated to Task page
+[STEP] 2026-05-13T07:33:55.658Z - Creating task: ReassignVal 1778657635658
+[STEP] 2026-05-13T07:33:55.658Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:33:56.287Z - Add Task form opened
+[INFO] 2026-05-13T07:34:13.852Z - Task "ReassignVal 1778657635658" created successfully
+[STEP] 2026-05-13T07:34:13.852Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:34:15.415Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:34:15.415Z - Setting status filter to: All
+[INFO] 2026-05-13T07:34:17.836Z - Status filter set to: All
+[STEP] 2026-05-13T07:34:17.836Z - Searching for: ReassignVal 1778657635658
+[INFO] 2026-05-13T07:34:19.899Z - Search completed for: ReassignVal 1778657635658
+[STEP] 2026-05-13T07:34:19.899Z - Opening Edit Task form
+[STEP] 2026-05-13T07:34:19.899Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:34:20.943Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:34:20.943Z - Clicking action menu item: Edit
+[INFO] 2026-05-13T07:34:22.523Z - Clicked: Edit
+[INFO] 2026-05-13T07:34:22.528Z - Edit Task form opened
+[INFO] 2026-05-13T07:34:22.707Z - Validation messages: Assignee is required
+[INFO] 2026-05-13T07:34:22.707Z - Provider selection mandatory validation verified

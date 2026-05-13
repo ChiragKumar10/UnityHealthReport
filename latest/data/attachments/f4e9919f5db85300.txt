@@ -1,0 +1,64 @@
+[STEP] 2026-05-13T07:35:57.695Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:35:57.695Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:35:57.807Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:36:03.036Z - Login attempt completed
+[STEP] 2026-05-13T07:36:04.558Z - Test: Unarchive → Assign → Verify in patient chart
+[STEP] 2026-05-13T07:36:04.558Z - Navigating to Document Library
+[INFO] 2026-05-13T07:36:06.111Z - Navigated to Document Library via sidebar
+[STEP] 2026-05-13T07:36:06.112Z - Clicking folder: Education
+[INFO] 2026-05-13T07:36:07.676Z - Opened folder: Education
+[STEP] 2026-05-13T07:36:07.676Z - Uploading document: UnarcAssign 1778657767676
+[STEP] 2026-05-13T07:36:07.676Z - Clicking Upload Material button
+[INFO] 2026-05-13T07:36:09.303Z - Upload Material form opened
+[STEP] 2026-05-13T07:36:09.303Z - Selecting tag: Education
+[INFO] 2026-05-13T07:36:10.738Z - Tag selected: Education
+[STEP] 2026-05-13T07:36:10.738Z - Selecting speciality: Cardiologist
+[INFO] 2026-05-13T07:36:12.194Z - Speciality selected: Cardiologist
+[STEP] 2026-05-13T07:36:12.194Z - Filling file name: UnarcAssign 1778657767676
+[STEP] 2026-05-13T07:36:12.523Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-05-13T07:36:12.553Z - Waiting for file upload to complete...
+[INFO] 2026-05-13T07:36:13.603Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-05-13T07:36:13.603Z - Clicking Upload button
+[INFO] 2026-05-13T07:36:13.611Z - Upload button enabled — clicking
+[INFO] 2026-05-13T07:36:16.701Z - Upload completed
+[INFO] 2026-05-13T07:36:16.701Z - Document "UnarcAssign 1778657767676" uploaded successfully
+[STEP] 2026-05-13T07:36:16.701Z - Navigating to Document Library
+[INFO] 2026-05-13T07:36:18.313Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:36:18.313Z - Clicking folder: Education
+[INFO] 2026-05-13T07:36:19.928Z - Opened folder: Education
+[STEP] 2026-05-13T07:36:19.930Z - Searching document: UnarcAssign 1778657767676
+[INFO] 2026-05-13T07:36:22.030Z - Search completed: UnarcAssign 1778657767676
+[STEP] 2026-05-13T07:36:22.030Z - Archiving document at row 0
+[STEP] 2026-05-13T07:36:22.030Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:36:23.076Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:36:23.076Z - Clicking action item: Archive
+[INFO] 2026-05-13T07:36:24.616Z - Clicked: Archive
+[INFO] 2026-05-13T07:36:37.628Z - Document archived
+[INFO] 2026-05-13T07:36:37.628Z - Step 1 ✓: Document uploaded and archived
+[STEP] 2026-05-13T07:36:37.628Z - Navigating to Document Library
+[INFO] 2026-05-13T07:36:39.178Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:36:39.178Z - Clicking folder: Education
+[INFO] 2026-05-13T07:36:40.818Z - Opened folder: Education
+[STEP] 2026-05-13T07:36:40.819Z - Toggling Show Archived checkbox
+[INFO] 2026-05-13T07:36:42.898Z - Show Archived toggled — checked: true
+[STEP] 2026-05-13T07:36:42.900Z - Searching document: UnarcAssign 1778657767676
+[INFO] 2026-05-13T07:36:44.995Z - Search completed: UnarcAssign 1778657767676
+[STEP] 2026-05-13T07:36:44.995Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:36:46.031Z - Action menu opened on row 0
+[INFO] 2026-05-13T07:36:46.189Z - Step 2 ✓: Document unarchived
+[STEP] 2026-05-13T07:36:46.491Z - Clicking folder: Education
+[INFO] 2026-05-13T07:36:48.062Z - Opened folder: Education
+[STEP] 2026-05-13T07:36:48.067Z - Toggling Show Archived checkbox
+[INFO] 2026-05-13T07:36:50.119Z - Show Archived toggled — checked: false
+[STEP] 2026-05-13T07:36:50.121Z - Searching document: UnarcAssign 1778657767676
+[INFO] 2026-05-13T07:36:52.206Z - Search completed: UnarcAssign 1778657767676
+[STEP] 2026-05-13T07:36:52.206Z - Assigning document (row 0) to patient: Automation
+[STEP] 2026-05-13T07:36:52.206Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:36:53.246Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:36:53.246Z - Clicking action item: Assign
+[INFO] 2026-05-13T07:36:54.799Z - Clicked: Assign
+[INFO] 2026-05-13T07:37:01.013Z - Document assigned to patient: Automation
+[INFO] 2026-05-13T07:37:01.013Z - Step 3 ✓: Document assigned to Automation, Test
+[STEP] 2026-05-13T07:37:01.013Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:37:03.377Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:37:04.746Z - AUT_DOC_022 PASSED: Unarchived document assigned and verified in patient chart

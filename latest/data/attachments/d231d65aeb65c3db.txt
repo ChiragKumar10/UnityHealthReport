@@ -1,0 +1,52 @@
+[ERROR] 2026-05-13T07:35:49.607Z - Failed to navigate to Vitals tab
+page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//button[text()=\'Vitals\']') to be visible
+
+    at PatientChartPage.navigateToVitalsTab (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts:163:33)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:620:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts',
+      line: 163,
+      column: 33,
+      function: 'PatientChartPage.navigateToVitalsTab'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//button[text()=\\'Vitals\\']')",
+    apiName: 'page.waitForSelector',
+    params: {
+      selector: "//button[text()='Vitals']",
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@61',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@61',
+      _title: "Wait for selector locator('//button[text()=\\'Vitals\\']')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657749607,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//button[text()=\\'Vitals\\']') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//button[text()=\\'Vitals\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at PatientChartPage.navigateToVitalsTab (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts:163:33)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:620:9',
+      cause: undefined
+    }
+  }
+}

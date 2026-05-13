@@ -1,0 +1,68 @@
+[STEP] 2026-05-13T07:43:04.758Z - Test: Add new enrollment with program selection and validation
+[INFO] 2026-05-13T07:43:04.759Z - Logging in and navigating to Enrollment section
+[STEP] 2026-05-13T07:43:04.759Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:43:04.759Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:43:05.295Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:43:10.098Z - Login attempt completed
+[STEP] 2026-05-13T07:43:11.630Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:43:11.805Z - Navigated to Enrollment section
+
+--- Attempt 1/4: Trying program "Remote Patient Monitoring (RPM)" ---
+[STEP] 2026-05-13T07:43:11.808Z - Adding new enrollment
+[INFO] 2026-05-13T07:43:18.137Z - Found 20 patients matching 'z'
+[INFO] 2026-05-13T07:43:19.657Z - Selected specified program: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 1/5
+Patient: Mertz, Irma  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-05-13T07:43:25.468Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-05-13T07:43:25.479Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-05-13T07:43:30.122Z - Found 20 patients matching 'f'
+New patient selected: Aufderhar, Judith 
+Service type reselected: Remote Patient Monitoring (RPM)
+
+Enrollment attempt 2/5
+Patient: Aufderhar, Judith  | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-05-13T07:43:34.188Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-05-13T07:43:34.198Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Aufderhar, Judith
+  Program: Remote Patient Monitoring (RPM)
+  Provider: Anny vate
+  Care Manager: Autofirstarpuaf Autolastarpuaf
+[INFO] 2026-05-13T07:43:34.199Z - Enrollment form submitted successfully
+Selected patient: Aufderhar, Judith
+[STEP] 2026-05-13T07:43:34.200Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-05-13T07:43:34.210Z - Enrollment result: SUCCESS
+✓ Successfully enrolled patient in Remote Patient Monitoring (RPM)
+[STEP] 2026-05-13T07:43:34.213Z - Retrieving enrollment list data
+[INFO] 2026-05-13T07:43:34.756Z - Retrieved 25 enrollment records
+SUCCESS: Patient has been enrolled successfully.
+
+Enrollment Verified in List:
+  Patient: Aufderhar, Judith
+  Program: RPM
+  Status: new
+
+All enrollment details matched successfully!
+[STEP] 2026-05-13T07:43:34.765Z - Verifying patient in Worklist NEW section
+✓ Patient "Aufderhar, Judith" found in Worklist > RPM > NEW section
+[INFO] 2026-05-13T07:43:55.669Z - Patient verified in Worklist > RPM > NEW section
+[INFO] 2026-05-13T07:43:55.671Z - Enrollment verified successfully - Patient enrolled in Remote Patient Monitoring (RPM) and appears in both Enrollment List and Worklist

@@ -1,0 +1,34 @@
+[STEP] 2026-05-13T07:32:53.547Z - Login to Provider Portal
+[STEP] 2026-05-13T07:32:54.019Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:32:54.019Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:32:54.096Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:32:58.668Z - Login attempt completed
+[STEP] 2026-05-13T07:33:00.185Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-05-13T07:33:00.185Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:33:00.185Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:33:00.690Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:33:01.196Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:33:01.196Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:33:02.217Z - Successfully selected RTM tab
+[STEP] 2026-05-13T07:33:02.217Z - Clicking monitoring category: Data
+[STEP] 2026-05-13T07:33:03.341Z - Setting date filter to today
+[INFO] 2026-05-13T07:33:03.347Z - Changing date from "05-12-2026" to "05-13-2026"
+[INFO] 2026-05-13T07:33:04.425Z - Date filter set to: 05-13-2026
+[STEP] 2026-05-13T07:33:04.425Z - Clearing status filter
+[INFO] 2026-05-13T07:33:04.433Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-05-13T07:33:04.965Z - MUI Menu options: 3
+[INFO] 2026-05-13T07:33:04.969Z -   Option [0]: "Clear Selection"
+[INFO] 2026-05-13T07:33:06.041Z - Status filter cleared
+[INFO] 2026-05-13T07:33:06.041Z - Switched to Data monitoring view
+[STEP] 2026-05-13T07:33:06.042Z - Test: Review vitals from Action button
+[STEP] 2026-05-13T07:33:06.042Z - Getting first available patient from list
+[INFO] 2026-05-13T07:33:06.050Z - First available patient: "Automation, Test"
+[STEP] 2026-05-13T07:33:06.050Z - Getting visible row count
+[INFO] 2026-05-13T07:33:07.054Z - Visible row count: 1
+[STEP] 2026-05-13T07:33:07.055Z - Reviewing vital from action menu for: Automation, Test
+[STEP] 2026-05-13T07:33:07.055Z - Selecting action "Review" for: Automation, Test
+[STEP] 2026-05-13T07:33:07.055Z - Opening action menu for: Automation, Test
+[INFO] 2026-05-13T07:33:08.131Z - Action menu clicked for: Automation, Test (attempt 1)
+[STEP] 2026-05-13T07:33:13.136Z - Getting status for patient: Automation, Test
+[INFO] 2026-05-13T07:33:13.140Z - Patient "Automation, Test" status: Reviewed
+[INFO] 2026-05-13T07:33:13.140Z - Patient already has status: Reviewed

@@ -1,0 +1,51 @@
+[STEP] 2026-05-13T07:35:08.886Z - Login to Provider Portal
+[STEP] 2026-05-13T07:35:09.509Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:35:09.509Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:35:09.604Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:35:14.671Z - Login attempt completed
+[STEP] 2026-05-13T07:35:16.190Z - Test: Verify reassignment reflects in task list
+[STEP] 2026-05-13T07:35:16.190Z - Navigating to Task page
+[INFO] 2026-05-13T07:35:17.221Z - Navigated to Task page
+[INFO] 2026-05-13T07:35:17.227Z - Logged-in user: chirag kumar
+[STEP] 2026-05-13T07:35:17.227Z - Creating task: HistoryTrack 1778657717227
+[STEP] 2026-05-13T07:35:17.227Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:35:17.850Z - Add Task form opened
+[INFO] 2026-05-13T07:35:35.648Z - Task "HistoryTrack 1778657717227" created successfully
+[STEP] 2026-05-13T07:35:35.648Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:35:37.220Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:35:37.220Z - Setting status filter to: All
+[INFO] 2026-05-13T07:35:39.641Z - Status filter set to: All
+[STEP] 2026-05-13T07:35:39.641Z - Searching for: HistoryTrack 1778657717227
+[INFO] 2026-05-13T07:35:41.710Z - Search completed for: HistoryTrack 1778657717227
+[STEP] 2026-05-13T07:35:41.710Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-05-13T07:35:42.716Z - ASSIGNED TO values: chirag kumar
+[INFO] 2026-05-13T07:35:42.716Z - Original assignee: chirag kumar
+[STEP] 2026-05-13T07:35:42.716Z - Opening Edit Task form
+[STEP] 2026-05-13T07:35:42.717Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:35:43.754Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:35:43.755Z - Clicking action menu item: Edit
+[INFO] 2026-05-13T07:35:45.327Z - Clicked: Edit
+[INFO] 2026-05-13T07:35:45.331Z - Edit Task form opened
+[STEP] 2026-05-13T07:35:45.331Z - Changing assignee to: a
+[INFO] 2026-05-13T07:35:48.850Z - Assignee changed to: a
+[INFO] 2026-05-13T07:35:48.854Z - Current assignee in edit form: Annamae Quitzon 
+[INFO] 2026-05-13T07:35:48.854Z - New assignee selected in form: Annamae Quitzon
+[STEP] 2026-05-13T07:35:48.854Z - Filling edit note: Reassigned from chirag kumar at 2026-05-13T07:35:48.854Z
+[STEP] 2026-05-13T07:35:49.179Z - Saving edited task
+[INFO] 2026-05-13T07:35:49.184Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-05-13T07:35:49.187Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-05-13T07:35:49.195Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-05-13T07:35:49.200Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-05-13T07:35:49.204Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-05-13T07:35:49.204Z - Reading all edit form pre-filled values
+[INFO] 2026-05-13T07:35:49.227Z - Edit form values: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"HistoryTrack 1778657717227","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"20 May 2026 ","note":"Reassigned from chirag kumar at 2026-05-13T07:35:48.854Z"}
+[INFO] 2026-05-13T07:35:49.227Z - Form state before save: {"service":"RPM","patient":"Simeon Becker ","action":"CALL","taskName":"HistoryTrack 1778657717227","assignee":"Annamae Quitzon ","priority":"HIGH","dueDate":"20 May 2026 ","note":"Reassigned from chirag kumar at 2026-05-13T07:35:48.854Z"}
+[INFO] 2026-05-13T07:35:49.232Z - Validation errors before save: []
+[INFO] 2026-05-13T07:35:51.288Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-05-13T07:35:52.296Z - Edit task saved (drawer closed: true)
+[STEP] 2026-05-13T07:35:52.296Z - Searching for: HistoryTrack 1778657717227
+[INFO] 2026-05-13T07:35:54.373Z - Search completed for: HistoryTrack 1778657717227
+[STEP] 2026-05-13T07:35:54.373Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-05-13T07:35:55.390Z - ASSIGNED TO values: Annamae Quitzon
+[INFO] 2026-05-13T07:35:55.390Z - Assignee after reassignment: Annamae Quitzon
+[INFO] 2026-05-13T07:35:55.391Z - Task history verified: chirag kumar → Annamae Quitzon

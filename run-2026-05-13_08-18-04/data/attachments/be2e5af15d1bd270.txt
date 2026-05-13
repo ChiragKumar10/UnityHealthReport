@@ -1,0 +1,37 @@
+[STEP] 2026-05-13T07:35:55.640Z - Login to Provider Portal
+[STEP] 2026-05-13T07:35:56.407Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:35:56.407Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:35:56.497Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:36:01.670Z - Login attempt completed
+[STEP] 2026-05-13T07:36:03.236Z - Test: Verify task assigned to provider appears in their My Tasks
+[STEP] 2026-05-13T07:36:03.237Z - Navigating to Task page
+[INFO] 2026-05-13T07:36:04.270Z - Navigated to Task page
+[INFO] 2026-05-13T07:36:04.274Z - Logged-in user: chirag kumar
+[STEP] 2026-05-13T07:36:04.274Z - Creating task: WorklistMe 1778657764274
+[STEP] 2026-05-13T07:36:04.274Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:36:04.894Z - Add Task form opened
+[INFO] 2026-05-13T07:36:22.644Z - Task "WorklistMe 1778657764274" created successfully
+[STEP] 2026-05-13T07:36:22.644Z - Creating task: WorklistOther 1778657764274
+[STEP] 2026-05-13T07:36:22.644Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:36:23.328Z - Add Task form opened
+[INFO] 2026-05-13T07:36:40.774Z - Task "WorklistOther 1778657764274" created successfully
+[STEP] 2026-05-13T07:36:40.774Z - Navigating to Task page
+[INFO] 2026-05-13T07:36:41.880Z - Navigated to Task page
+[STEP] 2026-05-13T07:36:41.880Z - Searching for: 1778657764274
+[INFO] 2026-05-13T07:36:43.936Z - Search completed for: 1778657764274
+[STEP] 2026-05-13T07:36:43.937Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:36:44.942Z - TASK values: WorklistMe 1778657764274
+[STEP] 2026-05-13T07:36:44.943Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-05-13T07:36:45.948Z - ASSIGNED TO values: chirag kumar
+[INFO] 2026-05-13T07:36:45.948Z - My Tasks: WorklistMe 1778657764274 | Assigned: chirag kumar
+[STEP] 2026-05-13T07:36:45.949Z - Clearing search
+[INFO] 2026-05-13T07:36:47.468Z - Search cleared
+[STEP] 2026-05-13T07:36:47.468Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:36:49.009Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:36:49.010Z - Setting status filter to: All
+[INFO] 2026-05-13T07:36:51.415Z - Status filter set to: All
+[STEP] 2026-05-13T07:36:51.415Z - Searching for: 1778657764274
+[INFO] 2026-05-13T07:36:53.493Z - Search completed for: 1778657764274
+[STEP] 2026-05-13T07:36:53.493Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:36:54.498Z - TASK values: WorklistMe 1778657764274, WorklistOther 1778657764274
+[INFO] 2026-05-13T07:36:54.500Z - Worklist verified: My Tasks shows only chirag kumar's tasks, unchecked shows all

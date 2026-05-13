@@ -1,0 +1,56 @@
+[STEP] 2026-05-13T07:36:53.478Z - Setup: login and navigate to patient chart → CCM → Tasks
+[STEP] 2026-05-13T07:36:53.899Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:36:53.899Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:36:53.992Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:36:58.734Z - Login attempt completed
+[STEP] 2026-05-13T07:37:00.256Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:37:02.574Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:37:03.001Z - On patient chart → CCM → Tasks tab
+[STEP] 2026-05-13T07:37:03.001Z - Phase 1: Open Add Task form and inspect fields + dropdowns
+[INFO] 2026-05-13T07:37:03.400Z - Phase 1 ✓: Add Task form shows required field labels
+[INFO] 2026-05-13T07:37:03.710Z - Scenario 7 Service* options: (empty)
+[INFO] 2026-05-13T07:37:03.710Z - Scenario 7 note: missing in chart context: RPM, RTM, CCM
+[INFO] 2026-05-13T07:37:03.762Z - Scenario 8: Action* combobox not found — skipping
+[INFO] 2026-05-13T07:37:03.765Z - Scenario 9: Priority* combobox not found — skipping
+[INFO] 2026-05-13T07:37:03.812Z - Phase 1 ✓: Cancel closed the Add Task form
+[STEP] 2026-05-13T07:37:03.813Z - Phase 2: Create task via patient-chart Add Task drawer
+[INFO] 2026-05-13T07:37:07.782Z - Phase 2 ✓: Created task "PatientWalletTask 1778657823815"
+[INFO] 2026-05-13T07:37:08.201Z - Phase 2 ✓: Chart Tasks list shows required columns and the new task
+[STEP] 2026-05-13T07:37:08.202Z - Phase 3: Filters inside patient-chart Tasks tab
+[INFO] 2026-05-13T07:37:08.206Z - Phase 3 note: Active Task checkbox not visible in chart Tasks — skipping 26/27
+[INFO] 2026-05-13T07:37:08.332Z - Scenario 23 note: "CCM" option not offered on chart Tasks
+[INFO] 2026-05-13T07:37:09.085Z - Scenario 24 ✓: Applied filter Call
+[INFO] 2026-05-13T07:37:09.105Z - Phase 3 note: no explicit calendar toggle — DUE DATE column present instead
+[STEP] 2026-05-13T07:37:09.825Z - Phase 4: Edit task via chart row action menu
+[INFO] 2026-05-13T07:37:10.463Z - Phase 4 ✓: Edit form pre-populated
+[INFO] 2026-05-13T07:37:10.718Z - Phase 4 ✓: Edit Cancel preserved original data
+[INFO] 2026-05-13T07:37:11.919Z - Phase 4: Changed Priority High → Low
+[INFO] 2026-05-13T07:37:12.734Z - Phase 4 ✓: Edit saved — priority is now LOW
+[STEP] 2026-05-13T07:37:12.736Z - Phase 5: Reassign via Edit (change Assignee → Save)
+[INFO] 2026-05-13T07:37:13.661Z - Phase 5: cleared Assignee chip via Clear button
+[INFO] 2026-05-13T07:37:14.770Z - Phase 5 ✓: Reassigned to Anny Vate
+[INFO] 2026-05-13T07:37:14.770Z - Phase 5 note: scenarios 21 (notification) / 22 (auth) are out of E2E scope
+[STEP] 2026-05-13T07:37:14.770Z - Phase 6: Resolve task via chart row action menu
+[INFO] 2026-05-13T07:37:15.767Z - Phase 6 ✓: Cancel on Resolve preserved the task
+[INFO] 2026-05-13T07:37:16.558Z - Phase 6 ✓: Task resolved — status now Done
+[STEP] 2026-05-13T07:37:16.559Z - Phase 7: Delete task via chart row action menu
+[INFO] 2026-05-13T07:37:17.254Z - Phase 7 ✓: Cancel on delete preserved the task
+[INFO] 2026-05-13T07:37:18.367Z - Phase 7 ✓: Task deleted
+[INFO] 2026-05-13T07:37:18.367Z - AUT_PT_001 PASSED — full patient-wallet task workflow verified end-to-end
+[STEP] 2026-05-13T07:37:19.091Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:37:19.091Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:37:19.184Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:37:23.597Z - Login attempt completed
+[STEP] 2026-05-13T07:37:25.118Z - Navigating to Task page
+[INFO] 2026-05-13T07:37:26.215Z - Navigated to Task page
+[STEP] 2026-05-13T07:37:26.215Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:37:27.766Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:37:27.766Z - Setting status filter to: All
+[INFO] 2026-05-13T07:37:30.208Z - Status filter set to: All
+[STEP] 2026-05-13T07:37:30.208Z - Searching for: PatientWalletTask 1778657823815
+[INFO] 2026-05-13T07:37:32.300Z - Search completed for: PatientWalletTask 1778657823815
+[STEP] 2026-05-13T07:37:32.301Z - Deleting task
+[STEP] 2026-05-13T07:37:32.301Z - Opening delete confirmation dialog
+[STEP] 2026-05-13T07:37:32.301Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:37:32.305Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:37:32.305Z - Clicking action menu item: Delete

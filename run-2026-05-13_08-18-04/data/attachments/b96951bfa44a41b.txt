@@ -1,0 +1,25 @@
+[STEP] 2026-05-13T07:40:46.853Z - Login to Provider Portal
+[STEP] 2026-05-13T07:40:47.512Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:40:47.512Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:40:47.633Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:40:52.773Z - Login attempt completed
+[STEP] 2026-05-13T07:40:54.313Z - Test: Create task with Weekly recurrence
+[STEP] 2026-05-13T07:40:54.313Z - Navigating to Task page
+[INFO] 2026-05-13T07:40:55.362Z - Navigated to Task page
+[STEP] 2026-05-13T07:40:55.363Z - Creating recurring task: WeeklyRecur 1778658055363 (Weekly)
+[STEP] 2026-05-13T07:40:55.363Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:40:55.986Z - Add Task form opened
+[STEP] 2026-05-13T07:41:11.617Z - Selecting "Weekly" from combobox index 6
+[INFO] 2026-05-13T07:41:13.009Z - Selected "Weekly" from combobox 6
+[INFO] 2026-05-13T07:41:16.397Z - Recurring task "WeeklyRecur 1778658055363" (Weekly) created successfully
+[STEP] 2026-05-13T07:41:16.397Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:41:17.970Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:41:17.970Z - Setting status filter to: All
+[INFO] 2026-05-13T07:41:20.392Z - Status filter set to: All
+[STEP] 2026-05-13T07:41:20.392Z - Searching for: WeeklyRecur 1778658055363
+[INFO] 2026-05-13T07:41:22.466Z - Search completed for: WeeklyRecur 1778658055363
+[STEP] 2026-05-13T07:41:22.466Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:41:23.474Z - TASK values: WeeklyRecur 1778658055363
+[STEP] 2026-05-13T07:41:23.478Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T07:41:24.484Z - SERVICE values: RPM
+[INFO] 2026-05-13T07:41:24.485Z - Weekly recurring task "WeeklyRecur 1778658055363" created and verified

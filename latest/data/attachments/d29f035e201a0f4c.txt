@@ -1,0 +1,36 @@
+[STEP] 2026-05-13T07:18:16.892Z - Login to Provider Portal
+[STEP] 2026-05-13T07:18:17.555Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:18:17.556Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:18:17.664Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:18:22.151Z - Login attempt completed
+[STEP] 2026-05-13T07:18:23.675Z - Navigate to RTM
+[STEP] 2026-05-13T07:18:23.676Z - Navigating to RTM tab
+[INFO] 2026-05-13T07:18:23.822Z - Successfully navigated to RTM tab
+[STEP] 2026-05-13T07:18:23.822Z - Selecting Week 3
+[INFO] 2026-05-13T07:18:24.814Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:18:24.814Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:18:24.819Z - Patient "Automation, Test" found in interaction list
+[STEP] 2026-05-13T07:18:24.819Z - Selecting Week 3
+[INFO] 2026-05-13T07:18:25.669Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:18:25.670Z - Test: Send Text message — Week 3
+[STEP] 2026-05-13T07:18:25.671Z - Sending text message to: Automation, Test
+[STEP] 2026-05-13T07:18:25.671Z - Selecting action "Text Message" for: Automation, Test
+[STEP] 2026-05-13T07:18:25.671Z - Opening action menu for: Automation, Test
+[INFO] 2026-05-13T07:18:26.727Z - Action menu opened for: Automation, Test (attempt 1)
+[INFO] 2026-05-13T07:18:27.838Z - Action "Text Message" selected for: Automation, Test
+[STEP] 2026-05-13T07:18:27.838Z - Detecting and handling action dialog
+[INFO] 2026-05-13T07:18:29.853Z - Detected SEND MESSAGE dialog (first)
+[STEP] 2026-05-13T07:18:29.854Z - Handling SEND MESSAGE dialog
+[INFO] 2026-05-13T07:18:32.612Z - SEND MESSAGE dialog completed
+[INFO] 2026-05-13T07:18:34.121Z - Second dialog (TIME LOG) appeared after SEND MESSAGE
+[STEP] 2026-05-13T07:18:34.122Z - Handling TIME LOG dialog
+[INFO] 2026-05-13T07:18:37.411Z - TIME LOG dialog saved
+[INFO] 2026-05-13T07:18:37.411Z - Text message sent to: Automation, Test
+[INFO] 2026-05-13T07:18:37.411Z - Text message sent from Week 3
+[STEP] 2026-05-13T07:18:37.412Z - Navigating to RTM tab
+[INFO] 2026-05-13T07:18:37.540Z - Successfully navigated to RTM tab
+[STEP] 2026-05-13T07:18:37.541Z - Selecting Week 3
+[INFO] 2026-05-13T07:18:38.452Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:18:38.452Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:18:38.458Z - Patient "Automation, Test" found in interaction list
+[INFO] 2026-05-13T07:18:38.459Z - Patient still in Week 3 after text message

@@ -1,0 +1,49 @@
+[STEP] 2026-05-13T07:20:41.714Z - Login to Provider Portal
+[STEP] 2026-05-13T07:20:42.211Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:20:42.211Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:20:42.286Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:20:46.508Z - Login attempt completed
+[STEP] 2026-05-13T07:20:48.023Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-05-13T07:20:48.023Z - Opening CCM Library
+[INFO] 2026-05-13T07:20:49.055Z - Successfully opened CCM Library
+[STEP] 2026-05-13T07:20:49.055Z - Opening Care Plan section
+[INFO] 2026-05-13T07:20:50.094Z - Successfully opened Care Plan section
+[STEP] 2026-05-13T07:20:50.095Z - Test: Search functionality
+[STEP] 2026-05-13T07:20:50.095Z - Creating minimal care plan: SearchB 1778656850095
+[STEP] 2026-05-13T07:20:50.095Z - Clicking Create Care Plan button
+[INFO] 2026-05-13T07:20:52.182Z - Create Care Plan form opened
+[STEP] 2026-05-13T07:20:52.182Z - Selecting diagnosis code: A001
+[INFO] 2026-05-13T07:20:56.096Z - Diagnosis code 'A001' selected
+[STEP] 2026-05-13T07:20:56.096Z - Filling care plan name: SearchB 1778656850095
+[INFO] 2026-05-13T07:20:56.118Z - Care plan name filled: SearchB 1778656850095
+[STEP] 2026-05-13T07:20:56.118Z - Selecting section: Overview
+[INFO] 2026-05-13T07:20:56.469Z - Section 'Overview' selected
+[STEP] 2026-05-13T07:20:56.469Z - Selecting section: Long Term Goals
+[INFO] 2026-05-13T07:20:56.819Z - Section 'Long Term Goals' selected
+[STEP] 2026-05-13T07:20:56.819Z - Clicking Next button
+[INFO] 2026-05-13T07:20:58.876Z - Next button clicked
+[STEP] 2026-05-13T07:20:58.876Z - Filling Overview section
+[INFO] 2026-05-13T07:20:58.889Z - Care Plan header filled
+[INFO] 2026-05-13T07:20:58.905Z - Care Plan footer filled
+[STEP] 2026-05-13T07:20:58.905Z - Clicking Next button
+[INFO] 2026-05-13T07:21:00.970Z - Next button clicked
+[STEP] 2026-05-13T07:21:00.970Z - Filling goal section - Title: Search Goal, Type: Free Text
+[INFO] 2026-05-13T07:21:00.985Z - Section note filled
+[INFO] 2026-05-13T07:21:01.004Z - Goal title filled: Search Goal
+[INFO] 2026-05-13T07:21:02.617Z - Goal type selected: Free Text
+[STEP] 2026-05-13T07:21:02.618Z - Clicking Finish button
+[INFO] 2026-05-13T07:21:04.697Z - Finish button clicked - Care plan saved
+[INFO] 2026-05-13T07:21:04.697Z - Minimal care plan 'SearchB 1778656850095' created
+[INFO] 2026-05-13T07:21:04.697Z - Created 'SearchB 1778656850095' (using shared plan as planA)
+[STEP] 2026-05-13T07:21:04.697Z - Searching for care plan: Shared Plan 1778656491957
+[INFO] 2026-05-13T07:21:05.244Z - Search completed for care plan: Shared Plan 1778656491957
+[INFO] 2026-05-13T07:21:06.091Z - Search for shared plan returned correct result
+[STEP] 2026-05-13T07:21:06.091Z - Searching for care plan: SearchB 1778656850095
+[INFO] 2026-05-13T07:21:06.607Z - Search completed for care plan: SearchB 1778656850095
+[INFO] 2026-05-13T07:21:07.403Z - Search for 'SearchB 1778656850095' returned correct result
+[STEP] 2026-05-13T07:21:07.403Z - Searching for care plan: NonExistent1778656867403
+[INFO] 2026-05-13T07:21:07.919Z - Search completed for care plan: NonExistent1778656867403
+[INFO] 2026-05-13T07:21:07.928Z - Search for non-existent plan returned no results
+[STEP] 2026-05-13T07:21:07.928Z - Clearing search box
+[INFO] 2026-05-13T07:21:08.441Z - Search cleared
+[INFO] 2026-05-13T07:21:08.441Z - Search functionality test completed

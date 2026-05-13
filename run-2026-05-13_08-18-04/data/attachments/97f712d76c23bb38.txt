@@ -1,0 +1,73 @@
+[STEP] 2026-05-13T07:48:46.355Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:48:46.356Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:48:46.440Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:48:50.920Z - Login attempt completed
+[STEP] 2026-05-13T07:48:52.450Z - Opening CCM Library
+[INFO] 2026-05-13T07:48:53.481Z - Successfully opened CCM Library
+[STEP] 2026-05-13T07:48:53.481Z - Opening Care Plan section
+[INFO] 2026-05-13T07:48:54.528Z - Successfully opened Care Plan section
+[STEP] 2026-05-13T07:48:54.529Z - Creating minimal care plan: CP001 1778658525729
+[STEP] 2026-05-13T07:48:54.529Z - Clicking Create Care Plan button
+[INFO] 2026-05-13T07:48:56.633Z - Create Care Plan form opened
+[STEP] 2026-05-13T07:48:56.633Z - Selecting diagnosis code: D3190
+[INFO] 2026-05-13T07:49:01.063Z - Diagnosis code 'D3190' selected
+[STEP] 2026-05-13T07:49:01.063Z - Filling care plan name: CP001 1778658525729
+[INFO] 2026-05-13T07:49:01.082Z - Care plan name filled: CP001 1778658525729
+[STEP] 2026-05-13T07:49:01.083Z - Selecting section: Overview
+[INFO] 2026-05-13T07:49:01.473Z - Section 'Overview' selected
+[STEP] 2026-05-13T07:49:01.473Z - Selecting section: Long Term Goals
+[INFO] 2026-05-13T07:49:01.822Z - Section 'Long Term Goals' selected
+[STEP] 2026-05-13T07:49:01.822Z - Clicking Next button
+[INFO] 2026-05-13T07:49:03.913Z - Next button clicked
+[STEP] 2026-05-13T07:49:03.913Z - Filling Overview section
+[INFO] 2026-05-13T07:49:03.933Z - Care Plan header filled
+[INFO] 2026-05-13T07:49:03.954Z - Care Plan footer filled
+[STEP] 2026-05-13T07:49:03.954Z - Clicking Next button
+[INFO] 2026-05-13T07:49:06.024Z - Next button clicked
+[STEP] 2026-05-13T07:49:06.024Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-05-13T07:49:06.046Z - Section note filled
+[INFO] 2026-05-13T07:49:06.071Z - Goal title filled: Seed Goal
+[INFO] 2026-05-13T07:49:07.715Z - Goal type selected: Single Select
+[STEP] 2026-05-13T07:49:07.715Z - Filling Single Select with 3 options
+[INFO] 2026-05-13T07:49:07.736Z - Single Select option 1 filled
+[INFO] 2026-05-13T07:49:08.309Z - Single Select option 2 filled
+[INFO] 2026-05-13T07:49:08.899Z - Single Select option 3 filled
+[INFO] 2026-05-13T07:49:08.899Z - Single Select - 3 options added
+[STEP] 2026-05-13T07:49:08.899Z - Clicking Finish button
+[INFO] 2026-05-13T07:49:10.983Z - Finish button clicked - Care plan saved
+[INFO] 2026-05-13T07:49:10.983Z - Minimal care plan 'CP001 1778658525729' created
+[INFO] 2026-05-13T07:49:10.983Z - Seed care plan template created: CP001 1778658525729
+[STEP] 2026-05-13T07:49:11.574Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:49:11.574Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:49:11.649Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:49:15.826Z - Login attempt completed
+[STEP] 2026-05-13T07:49:17.343Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:49:19.602Z - Patient chart opened from global search for: Automation
+[STEP] 2026-05-13T07:49:23.922Z - Assigning Care Plan "CP001 1778658525729" to patient
+[INFO] 2026-05-13T07:49:42.639Z - Assignment complete: "CP001 1778658525729"
+[INFO] 2026-05-13T07:49:42.647Z - AUT_CP_001 PASSED
+[STEP] 2026-05-13T07:49:43.191Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:49:43.191Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:49:43.274Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:49:47.815Z - Login attempt completed
+[STEP] 2026-05-13T07:49:49.330Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:49:51.533Z - Patient chart opened from global search for: Automation
+[STEP] 2026-05-13T07:49:51.533Z - Closing assigned Care Plan "CP001 1778658525729"
+[INFO] 2026-05-13T07:50:02.346Z - Closed: CP001 1778658525729
+[STEP] 2026-05-13T07:50:06.270Z - Opening CCM Library
+[INFO] 2026-05-13T07:50:07.316Z - Successfully opened CCM Library
+[STEP] 2026-05-13T07:50:07.316Z - Opening Care Plan section
+[INFO] 2026-05-13T07:50:08.362Z - Successfully opened Care Plan section
+[STEP] 2026-05-13T07:50:08.363Z - Deleting care plan: CP001 1778658525729
+[STEP] 2026-05-13T07:50:08.363Z - Clicking Delete for: CP001 1778658525729
+[STEP] 2026-05-13T07:50:08.363Z - Searching for care plan: CP001 1778658525729
+[INFO] 2026-05-13T07:50:08.898Z - Search completed for care plan: CP001 1778658525729
+[STEP] 2026-05-13T07:50:08.899Z - Opening action menu for: CP001 1778658525729
+[INFO] 2026-05-13T07:50:10.726Z - Action menu opened
+[INFO] 2026-05-13T07:50:11.749Z - Delete dialog opened
+[STEP] 2026-05-13T07:50:11.749Z - Confirming delete
+[STEP] 2026-05-13T07:50:13.776Z - Clearing search box
+[INFO] 2026-05-13T07:50:14.291Z - Search cleared
+[INFO] 2026-05-13T07:50:14.291Z - Delete confirmed
+[INFO] 2026-05-13T07:50:14.292Z - Care plan 'CP001 1778658525729' deleted
+[INFO] 2026-05-13T07:50:14.292Z - Deleted template: CP001 1778658525729

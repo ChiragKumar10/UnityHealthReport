@@ -1,0 +1,21 @@
+[STEP] 2026-05-13T07:42:33.546Z - Login to Provider Portal with Practice Admin
+[STEP] 2026-05-13T07:42:33.995Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:42:33.995Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:42:34.088Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:42:38.355Z - Login attempt completed
+[STEP] 2026-05-13T07:42:39.880Z - Test: Verify mandatory field validations on Add
+[STEP] 2026-05-13T07:42:39.880Z - Navigating to Settings page
+[INFO] 2026-05-13T07:42:40.947Z - Navigated to Settings page
+[STEP] 2026-05-13T07:42:40.947Z - Clicking Unity Users tab
+[INFO] 2026-05-13T07:42:42.120Z - Unity Users tab clicked
+[STEP] 2026-05-13T07:42:42.120Z - Clicking Add Unity User button
+[INFO] 2026-05-13T07:42:43.299Z - Add Unity User form opened
+[STEP] 2026-05-13T07:42:43.299Z - Attempting to save without required fields
+[STEP] 2026-05-13T07:42:43.299Z - Clicking Save button
+[INFO] 2026-05-13T07:42:45.428Z - Save button clicked
+[INFO] 2026-05-13T07:42:46.436Z - Form still visible after save attempt: true
+[INFO] 2026-05-13T07:42:46.436Z - Validation prevented save with empty fields
+[INFO] 2026-05-13T07:42:46.942Z - Validation error visible: true
+[INFO] 2026-05-13T07:42:46.943Z - Mandatory field validation errors visible
+[STEP] 2026-05-13T07:42:46.943Z - Clicking Cancel button
+[INFO] 2026-05-13T07:42:48.092Z - Cancel button clicked

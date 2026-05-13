@@ -1,0 +1,48 @@
+[STEP] 2026-05-13T07:17:48.213Z - Setup: login → patient chart → RTM → Monitoring
+[STEP] 2026-05-13T07:17:48.671Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:17:48.671Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:17:48.792Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:17:53.194Z - Login attempt completed
+[STEP] 2026-05-13T07:17:54.726Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:17:57.094Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:17:57.408Z - Setup: on RTM platform
+[INFO] 2026-05-13T07:17:57.929Z - Setup ✓: on RTM Monitoring view
+[INFO] 2026-05-13T07:17:57.975Z - Scenario 1 ✓: patient profile fully displayed
+[INFO] 2026-05-13T07:17:58.013Z - Scenario 2 ✓: reading-days progress bar present
+[INFO] 2026-05-13T07:17:58.027Z - Scenario 3 ✓: interaction thresholds present (Total-Time + numeric marks)
+[INFO] 2026-05-13T07:17:58.075Z - Scenario 4 ✓: interaction bucket fill visible (TOTAL TIME: 820:00)
+[INFO] 2026-05-13T07:17:58.144Z - Scenario 5 ✓: month cycle present (May 2026)
+[INFO] 2026-05-13T07:18:02.278Z - Scenario 6 ✓: text message composed + send attempted via drawer
+[INFO] 2026-05-13T07:18:02.299Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-05-13T07:18:02.300Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:18:42.355Z - Scenario 7 ✓: App Chat channel affordance present on timeline
+[INFO] 2026-05-13T07:18:51.844Z - Scenario 8 ✓: attachment submitted with message
+[INFO] 2026-05-13T07:19:01.882Z - Scenario 9 ✓: Response Library template flow completed
+[INFO] 2026-05-13T07:19:01.889Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-05-13T07:19:01.889Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:19:03.496Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:19:05.859Z - Scenario 11 ✓: Latest Reading exposes all 9 required columns
+[INFO] 2026-05-13T07:19:06.692Z - Scenarios 10/12 ✓: vital REVIEW dialog opened and cancelled (no TIME LOG)
+[INFO] 2026-05-13T07:19:06.693Z - Scenario 13 skipped (REVIEW NOTE drawer interaction excluded)
+[INFO] 2026-05-13T07:19:06.739Z - Scenario 14 ✓: View All Data affordance present
+[INFO] 2026-05-13T07:19:07.191Z - Scenario 15 ✓: Add Data form opened
+[INFO] 2026-05-13T07:19:07.442Z - Scenario 16 skipped (manual time entry form excluded from automation)
+[INFO] 2026-05-13T07:19:07.477Z - Scenarios 17-19 ✓: Interaction bar ok — TOTAL TIME: 850:00
+[INFO] 2026-05-13T07:19:07.543Z - Scenario 20 ✓: logged-time viewer triggered
+[INFO] 2026-05-13T07:19:07.880Z - Scenario 21 ✓: time-entry delete flow completed
+[INFO] 2026-05-13T07:19:08.063Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-05-13T07:19:08.063Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:19:10.239Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:19:15.819Z - Scenario 22 ✓: global comment added ("PW-Mon comment 1778656747942")
+[INFO] 2026-05-13T07:19:17.676Z - Scenario 23 ✓: edit comment flow completed
+[INFO] 2026-05-13T07:19:19.307Z - Scenario 24 ✓: delete comment flow completed
+[INFO] 2026-05-13T07:19:19.307Z - Scenarios 25-26: covered by AUT_PT_MON_ALERT_001 in patient-monitoring-alert-workflow.spec.ts
+[INFO] 2026-05-13T07:19:19.458Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-05-13T07:19:19.459Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:19:22.652Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:19:28.698Z - Scenarios 27-28 ✓: escalation submitted
+[INFO] 2026-05-13T07:19:36.798Z - Scenarios 29-30 ✓: Assign Enrollment triggered (url=https://automation.stage.unityhealthwallet.com/provider/patient/07e5d4be-12f6-4040-a7a3-4a7bcbdcf105)
+[INFO] 2026-05-13T07:19:36.832Z - Scenarios 31-32 skipped (Add Note Summary form excluded from automation)
+[INFO] 2026-05-13T07:19:36.866Z - Scenario 33 ✓: Profile edit affordance present (pencil adjacent to Profile pill)
+[INFO] 2026-05-13T07:19:36.882Z - Scenario 34 ✓: Text Message affordance reachable from Profile area
+[INFO] 2026-05-13T07:19:36.883Z - AUT_PT_MON_001 PASSED — Patient Monitoring workflow verified

@@ -1,0 +1,65 @@
+[STEP] 2026-05-13T07:29:33.177Z - Login to Provider Portal
+[STEP] 2026-05-13T07:29:33.778Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:29:33.778Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:29:33.889Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:29:38.390Z - Login attempt completed
+[STEP] 2026-05-13T07:29:39.912Z - Test: Upload → Assign to 5 patients → Verify in each patient chart
+[STEP] 2026-05-13T07:29:39.912Z - Navigating to Document Library
+[INFO] 2026-05-13T07:29:41.469Z - Navigated to Document Library via sidebar
+[STEP] 2026-05-13T07:29:41.469Z - Clicking folder: Education
+[INFO] 2026-05-13T07:29:43.020Z - Opened folder: Education
+[STEP] 2026-05-13T07:29:43.020Z - Uploading document: MultiAssign 1778657383020
+[STEP] 2026-05-13T07:29:43.020Z - Clicking Upload Material button
+[INFO] 2026-05-13T07:29:44.694Z - Upload Material form opened
+[STEP] 2026-05-13T07:29:44.694Z - Selecting tag: Education
+[INFO] 2026-05-13T07:29:46.145Z - Tag selected: Education
+[STEP] 2026-05-13T07:29:46.145Z - Selecting speciality: Cardiologist
+[INFO] 2026-05-13T07:29:47.609Z - Speciality selected: Cardiologist
+[STEP] 2026-05-13T07:29:47.609Z - Filling file name: MultiAssign 1778657383020
+[STEP] 2026-05-13T07:29:47.942Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[INFO] 2026-05-13T07:29:47.972Z - Waiting for file upload to complete...
+[INFO] 2026-05-13T07:29:49.038Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[STEP] 2026-05-13T07:29:49.038Z - Filling description: Document for multi-patient assignment
+[STEP] 2026-05-13T07:29:49.370Z - Clicking Upload button
+[INFO] 2026-05-13T07:29:49.377Z - Upload button enabled — clicking
+[INFO] 2026-05-13T07:29:52.463Z - Upload completed
+[INFO] 2026-05-13T07:29:52.463Z - Document "MultiAssign 1778657383020" uploaded successfully
+[INFO] 2026-05-13T07:29:52.463Z - Step 1 ✓: Document "MultiAssign 1778657383020" uploaded
+[STEP] 2026-05-13T07:29:52.463Z - Step 2: Assigning document to 5 patients simultaneously
+[STEP] 2026-05-13T07:29:52.463Z - Navigating to Document Library
+[INFO] 2026-05-13T07:29:54.070Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:29:54.071Z - Clicking folder: Education
+[INFO] 2026-05-13T07:29:55.698Z - Opened folder: Education
+[STEP] 2026-05-13T07:29:55.700Z - Searching document: MultiAssign 1778657383020
+[INFO] 2026-05-13T07:29:57.797Z - Search completed: MultiAssign 1778657383020
+[STEP] 2026-05-13T07:29:57.799Z - Assigning document (row 0) to 5 patients
+[STEP] 2026-05-13T07:29:57.799Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:29:58.842Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:29:58.843Z - Clicking action item: Assign
+[INFO] 2026-05-13T07:30:00.405Z - Clicked: Assign
+[INFO] 2026-05-13T07:30:00.410Z - Selecting patient 1/5: Automation
+[INFO] 2026-05-13T07:30:03.587Z - Selecting patient 2/5: Carter
+[INFO] 2026-05-13T07:30:06.743Z - Selecting patient 3/5: Crist
+[INFO] 2026-05-13T07:30:09.903Z - Selecting patient 4/5: Collins
+[INFO] 2026-05-13T07:30:13.065Z - Selecting patient 5/5: Emmerich
+[INFO] 2026-05-13T07:30:16.239Z - All 5 patients selected
+[INFO] 2026-05-13T07:30:19.311Z - Document assigned to 5 patients
+[INFO] 2026-05-13T07:30:19.311Z - Step 2 ✓: Document assigned to 5 patients
+[STEP] 2026-05-13T07:30:19.311Z - Step 3: Verifying document in each patient chart
+[STEP] 2026-05-13T07:30:19.311Z - Verifying document in Automation's chart
+[STEP] 2026-05-13T07:30:19.311Z - Navigating to Document Library
+[INFO] 2026-05-13T07:30:20.958Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:30:20.960Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:30:23.413Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:30:24.796Z - ✓ Document found in Automation's chart
+[STEP] 2026-05-13T07:30:24.796Z - Verifying document in Crist's chart
+[STEP] 2026-05-13T07:30:24.797Z - Navigating to Document Library
+[INFO] 2026-05-13T07:30:26.374Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:30:26.376Z - Opening patient chart from global search for: Crist
+[INFO] 2026-05-13T07:30:28.770Z - Patient chart opened from global search for: Crist
+[INFO] 2026-05-13T07:30:29.423Z - ✓ Document found in Crist's chart
+[INFO] 2026-05-13T07:30:29.423Z - === MULTI-PATIENT ASSIGN RESULTS ===
+[INFO] 2026-05-13T07:30:29.423Z -   Automation: ✓ Found
+[INFO] 2026-05-13T07:30:29.423Z -   Crist: ✓ Found
+[INFO] 2026-05-13T07:30:29.423Z - Verified: 2/2 patient charts checked
+[INFO] 2026-05-13T07:30:29.425Z - AUT_DOC_006 PASSED: Document assigned to 5 patients, verified in 2 patient charts

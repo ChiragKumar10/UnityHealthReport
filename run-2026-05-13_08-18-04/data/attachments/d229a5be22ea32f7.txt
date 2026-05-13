@@ -1,0 +1,54 @@
+[ERROR] 2026-05-13T07:57:17.653Z - Assigned assessment not found in patient chart: Assign Test 1778658881633
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for getByText('Assign Test 1778658881633').first() to be visible
+
+    at PatientChartPage.verifyAssignedAssessmentPresent (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts:252:37)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/library/assessment.spec.ts:163:13 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts',
+      line: 252,
+      column: 37,
+      function: 'PatientChartPage.verifyAssignedAssessmentPresent'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Assign Test 1778658881633').first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Assign Test 1778658881633"i >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@400',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@400',
+      _title: "Wait for selector getByText('Assign Test 1778658881633').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778659037653,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Assign Test 1778658881633').first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Assign Test 1778658881633').first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at PatientChartPage.verifyAssignedAssessmentPresent (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-chart.page.ts:252:37)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/library/assessment.spec.ts:163:13',
+      cause: undefined
+    }
+  }
+}

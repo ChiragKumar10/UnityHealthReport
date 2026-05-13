@@ -1,0 +1,56 @@
+[ERROR] 2026-05-13T07:31:25.673Z - Failed to click View All Data
+locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//*[contains(text(),\'View All Data\')]').first() to be visible
+
+    at PatientMonitoringPage.scrollUntilVisible (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:105:23)
+    at PatientMonitoringPage.clickViewAllData (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:968:13)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:517:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts',
+      line: 105,
+      column: 23,
+      function: 'PatientMonitoringPage.scrollUntilVisible'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//*[contains(text(),\\'View All Data\\')]').first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//*[contains(text(),'View All Data')] >> nth=0",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@90',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@90',
+      _title: "Wait for selector locator('//*[contains(text(),\\'View All Data\\')]').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778657485673,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//*[contains(text(),\\'View All Data\\')]').first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//*[contains(text(),\\'View All Data\\')]').first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at PatientMonitoringPage.scrollUntilVisible (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:105:23)\n' +
+        '    at PatientMonitoringPage.clickViewAllData (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/patient-wallet/patient-monitoring.page.ts:968:13)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/patient-wallet/patient-monitoring.spec.ts:517:9',
+      cause: undefined
+    }
+  }
+}

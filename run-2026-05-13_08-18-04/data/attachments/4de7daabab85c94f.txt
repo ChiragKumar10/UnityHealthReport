@@ -1,0 +1,54 @@
+[ERROR] 2026-05-13T07:40:12.286Z - Failed to navigate to monitoring
+locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for getByRole('tab', { name: 'RTM' }).first() to be visible
+
+    at MonitoringPage.navigateToMonitoring (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:146:30)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/monitoring/monitoring-03-alerts.spec.ts:84:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts',
+      line: 146,
+      column: 30,
+      function: 'MonitoringPage.navigateToMonitoring'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByRole('tab', { name: 'RTM' }).first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:role=tab[name="RTM"i] >> nth=0',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 15000
+    },
+    group: undefined,
+    stepId: 'pw:api@62',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@62',
+      _title: "Wait for selector getByRole('tab', { name: 'RTM' }).first()",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1778658012286,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('tab', { name: 'RTM' }).first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('tab', { name: 'RTM' }).first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at MonitoringPage.navigateToMonitoring (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/monitoring/monitoring.page.ts:146:30)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/monitoring/monitoring-03-alerts.spec.ts:84:9',
+      cause: undefined
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[STEP] 2026-05-13T07:32:24.973Z - Login to Provider Portal
+[STEP] 2026-05-13T07:32:25.634Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:32:25.635Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:32:25.730Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:32:30.743Z - Login attempt completed
+[STEP] 2026-05-13T07:32:32.262Z - Navigate to RTM
+[STEP] 2026-05-13T07:32:32.262Z - Navigating to RTM tab
+[INFO] 2026-05-13T07:32:32.363Z - Successfully navigated to RTM tab
+[STEP] 2026-05-13T07:32:32.363Z - Detecting which week "Automation, Test" is in
+[STEP] 2026-05-13T07:32:32.366Z - Selecting Week 1
+[INFO] 2026-05-13T07:32:33.265Z - Successfully selected Week 1
+[STEP] 2026-05-13T07:32:33.265Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:32:35.339Z - Patient "Automation, Test" not found in interaction list
+[STEP] 2026-05-13T07:32:35.344Z - Selecting Week 2
+[INFO] 2026-05-13T07:32:36.213Z - Successfully selected Week 2
+[STEP] 2026-05-13T07:32:36.213Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:32:38.273Z - Patient "Automation, Test" not found in interaction list
+[STEP] 2026-05-13T07:32:38.278Z - Selecting Week 3
+[INFO] 2026-05-13T07:32:39.167Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:32:39.168Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:32:39.172Z - Patient "Automation, Test" found in interaction list
+[INFO] 2026-05-13T07:32:39.172Z - Patient "Automation, Test" found in Week 3
+[STEP] 2026-05-13T07:32:39.172Z - Selecting Week 3
+[INFO] 2026-05-13T07:32:40.004Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:32:40.005Z - Test: Bulk Reach Out for "Automation, Test" — Week 3
+[STEP] 2026-05-13T07:32:40.005Z - Selecting all patients
+[INFO] 2026-05-13T07:32:40.552Z - All patients selected
+[STEP] 2026-05-13T07:32:40.552Z - Clicking Reach Out All button
+[INFO] 2026-05-13T07:32:41.678Z - Reach Out All button clicked
+[STEP] 2026-05-13T07:32:41.678Z - Sending bulk message. Template: Bulk Outreach Template, Log As: Communication with Patient
+[INFO] 2026-05-13T07:32:43.131Z - Bulk message sent successfully
+[INFO] 2026-05-13T07:32:43.131Z - Bulk Reach Out text message sent
+[STEP] 2026-05-13T07:32:47.344Z - Navigating to RTM tab
+[INFO] 2026-05-13T07:32:47.414Z - Successfully navigated to RTM tab
+[STEP] 2026-05-13T07:32:47.414Z - Selecting Week 3
+[INFO] 2026-05-13T07:32:48.276Z - Successfully selected Week 3
+[STEP] 2026-05-13T07:32:48.276Z - Checking if patient "Automation, Test" is in the interaction list
+[INFO] 2026-05-13T07:32:48.280Z - Patient "Automation, Test" found in interaction list
+[INFO] 2026-05-13T07:32:48.281Z - Patient still in list after bulk Reach Out

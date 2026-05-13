@@ -1,0 +1,25 @@
+[STEP] 2026-05-13T07:41:24.637Z - Login to Provider Portal
+[STEP] 2026-05-13T07:41:25.263Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:41:25.264Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:41:25.355Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:41:30.374Z - Login attempt completed
+[STEP] 2026-05-13T07:41:31.897Z - Test: Create task with Monthly recurrence
+[STEP] 2026-05-13T07:41:31.897Z - Navigating to Task page
+[INFO] 2026-05-13T07:41:32.930Z - Navigated to Task page
+[STEP] 2026-05-13T07:41:32.930Z - Creating recurring task: MonthlyRecur 1778658092930 (Monthly)
+[STEP] 2026-05-13T07:41:32.930Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:41:33.552Z - Add Task form opened
+[STEP] 2026-05-13T07:41:49.051Z - Selecting "Monthly" from combobox index 6
+[INFO] 2026-05-13T07:41:50.454Z - Selected "Monthly" from combobox 6
+[INFO] 2026-05-13T07:41:53.848Z - Recurring task "MonthlyRecur 1778658092930" (Monthly) created successfully
+[STEP] 2026-05-13T07:41:53.848Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:41:55.415Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:41:55.416Z - Setting status filter to: All
+[INFO] 2026-05-13T07:41:57.834Z - Status filter set to: All
+[STEP] 2026-05-13T07:41:57.834Z - Searching for: MonthlyRecur 1778658092930
+[INFO] 2026-05-13T07:41:59.897Z - Search completed for: MonthlyRecur 1778658092930
+[STEP] 2026-05-13T07:41:59.897Z - Fetching column values for: TASK
+[INFO] 2026-05-13T07:42:00.903Z - TASK values: MonthlyRecur 1778658092930
+[STEP] 2026-05-13T07:42:00.904Z - Fetching column values for: SERVICE
+[INFO] 2026-05-13T07:42:01.909Z - SERVICE values: RPM
+[INFO] 2026-05-13T07:42:01.909Z - Monthly recurring task "MonthlyRecur 1778658092930" created and verified

@@ -1,0 +1,47 @@
+[STEP] 2026-05-13T07:52:17.369Z - Login to Provider Portal
+[STEP] 2026-05-13T07:52:18.105Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:52:18.105Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:52:18.193Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:52:23.239Z - Login attempt completed
+[STEP] 2026-05-13T07:52:24.758Z - Test: E2E Task Resolution
+[STEP] 2026-05-13T07:52:24.759Z - Navigating to Task page
+[INFO] 2026-05-13T07:52:25.798Z - Navigated to Task page
+[STEP] 2026-05-13T07:52:25.798Z - Creating task: Resolve E2E 1778658745798
+[STEP] 2026-05-13T07:52:25.798Z - Clicking + Add Task button
+[INFO] 2026-05-13T07:52:26.425Z - Add Task form opened
+[INFO] 2026-05-13T07:52:43.952Z - Task "Resolve E2E 1778658745798" created successfully
+[STEP] 2026-05-13T07:52:43.952Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:52:45.524Z - My Tasks filter unchecked
+[STEP] 2026-05-13T07:52:45.524Z - Setting status filter to: All
+[INFO] 2026-05-13T07:52:47.931Z - Status filter set to: All
+[STEP] 2026-05-13T07:52:47.931Z - Searching for: Resolve E2E 1778658745798
+[INFO] 2026-05-13T07:52:50.012Z - Search completed for: Resolve E2E 1778658745798
+[STEP] 2026-05-13T07:52:50.012Z - Fetching column values for: TASK STATUS
+[INFO] 2026-05-13T07:52:51.019Z - TASK STATUS values: ToDo
+[INFO] 2026-05-13T07:52:51.019Z - Status before resolve: ToDo
+[STEP] 2026-05-13T07:52:51.019Z - Resolving task
+[STEP] 2026-05-13T07:52:51.019Z - Opening Resolve Task dialog
+[STEP] 2026-05-13T07:52:51.020Z - Clicking action menu on row 0
+[INFO] 2026-05-13T07:52:52.046Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:52:52.047Z - Clicking action menu item: Resolve
+[INFO] 2026-05-13T07:52:53.596Z - Clicked: Resolve
+[INFO] 2026-05-13T07:52:53.600Z - Resolve Task dialog opened
+[STEP] 2026-05-13T07:52:53.600Z - Filling resolve note: Resolved by automation at 2026-05-13T07:52:51.019Z
+[STEP] 2026-05-13T07:52:53.919Z - Clicking Resolve button in dialog
+[INFO] 2026-05-13T07:52:57.954Z - Resolve button clicked. Drawer closed: true
+[STEP] 2026-05-13T07:52:57.955Z - Navigating to Task page
+[INFO] 2026-05-13T07:52:58.979Z - Navigated to Task page
+[STEP] 2026-05-13T07:52:58.979Z - Unchecking My Tasks filter
+[INFO] 2026-05-13T07:52:58.982Z - My Tasks filter already unchecked
+[STEP] 2026-05-13T07:52:58.982Z - Setting status filter to: All
+[INFO] 2026-05-13T07:53:01.343Z - Status filter set to: All
+[STEP] 2026-05-13T07:53:01.343Z - Searching for: Resolve E2E 1778658745798
+[INFO] 2026-05-13T07:53:03.408Z - Search completed for: Resolve E2E 1778658745798
+[STEP] 2026-05-13T07:53:03.408Z - Fetching column values for: TASK STATUS
+[INFO] 2026-05-13T07:53:04.416Z - TASK STATUS values: Done
+[INFO] 2026-05-13T07:53:04.416Z - Status after resolve: Done
+[STEP] 2026-05-13T07:53:04.418Z - Fetching column values for: COMPLETED DATE
+[INFO] 2026-05-13T07:53:05.425Z - COMPLETED DATE values: 05/13/2026
+[STEP] 2026-05-13T07:53:05.426Z - Fetching column values for: COMPLETED BY
+[INFO] 2026-05-13T07:53:06.432Z - COMPLETED BY values: kumar, chirag
+[INFO] 2026-05-13T07:53:06.433Z - E2E Resolution: Resolve E2E 1778658745798 → Done, date: 05/13/2026, by: kumar, chirag

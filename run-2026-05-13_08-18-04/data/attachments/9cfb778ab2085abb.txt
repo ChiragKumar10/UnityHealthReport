@@ -1,0 +1,50 @@
+[STEP] 2026-05-13T07:53:33.871Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:53:33.871Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:53:33.943Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:53:38.131Z - Login attempt completed
+[STEP] 2026-05-13T07:53:39.652Z - Opening CCM Library
+[INFO] 2026-05-13T07:53:40.688Z - Successfully opened CCM Library
+[STEP] 2026-05-13T07:53:40.688Z - Opening Care Plan section
+[INFO] 2026-05-13T07:53:41.734Z - Successfully opened Care Plan section
+[STEP] 2026-05-13T07:53:41.734Z - Creating minimal care plan: CPForm 1778658525731
+[STEP] 2026-05-13T07:53:41.734Z - Clicking Create Care Plan button
+[INFO] 2026-05-13T07:53:43.837Z - Create Care Plan form opened
+[STEP] 2026-05-13T07:53:43.838Z - Selecting diagnosis code: D3190
+[INFO] 2026-05-13T07:53:48.266Z - Diagnosis code 'D3190' selected
+[STEP] 2026-05-13T07:53:48.266Z - Filling care plan name: CPForm 1778658525731
+[INFO] 2026-05-13T07:53:48.289Z - Care plan name filled: CPForm 1778658525731
+[STEP] 2026-05-13T07:53:48.289Z - Selecting section: Overview
+[INFO] 2026-05-13T07:53:48.674Z - Section 'Overview' selected
+[STEP] 2026-05-13T07:53:48.674Z - Selecting section: Long Term Goals
+[INFO] 2026-05-13T07:53:49.022Z - Section 'Long Term Goals' selected
+[STEP] 2026-05-13T07:53:49.022Z - Clicking Next button
+[INFO] 2026-05-13T07:53:51.080Z - Next button clicked
+[STEP] 2026-05-13T07:53:51.080Z - Filling Overview section
+[INFO] 2026-05-13T07:53:51.095Z - Care Plan header filled
+[INFO] 2026-05-13T07:53:51.112Z - Care Plan footer filled
+[STEP] 2026-05-13T07:53:51.112Z - Clicking Next button
+[INFO] 2026-05-13T07:53:53.174Z - Next button clicked
+[STEP] 2026-05-13T07:53:53.174Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-05-13T07:53:53.189Z - Section note filled
+[INFO] 2026-05-13T07:53:53.208Z - Goal title filled: Seed Goal
+[INFO] 2026-05-13T07:53:54.818Z - Goal type selected: Single Select
+[STEP] 2026-05-13T07:53:54.818Z - Filling Single Select with 3 options
+[INFO] 2026-05-13T07:53:54.834Z - Single Select option 1 filled
+[INFO] 2026-05-13T07:53:55.386Z - Single Select option 2 filled
+[INFO] 2026-05-13T07:53:55.954Z - Single Select option 3 filled
+[INFO] 2026-05-13T07:53:55.954Z - Single Select - 3 options added
+[STEP] 2026-05-13T07:53:55.954Z - Clicking Finish button
+[INFO] 2026-05-13T07:53:58.034Z - Finish button clicked - Care plan saved
+[INFO] 2026-05-13T07:53:58.034Z - Minimal care plan 'CPForm 1778658525731' created
+[INFO] 2026-05-13T07:53:58.034Z - Seed care plan template created: CPForm 1778658525731
+[STEP] 2026-05-13T07:53:58.034Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:54:00.350Z - Patient chart opened from global search for: Automation
+[STEP] 2026-05-13T07:54:00.350Z - Assigning Care Plan "CPForm 1778658525731" to patient
+[INFO] 2026-05-13T07:54:19.131Z - Assignment complete: "CPForm 1778658525731"
+[STEP] 2026-05-13T07:54:19.645Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:54:19.645Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:54:19.719Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:54:23.912Z - Login attempt completed
+[STEP] 2026-05-13T07:54:25.429Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:54:27.623Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:54:34.030Z - AUT_CP_005 PASSED

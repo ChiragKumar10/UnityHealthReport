@@ -1,0 +1,53 @@
+[STEP] 2026-05-13T07:23:30.464Z - Login to Provider Portal
+[STEP] 2026-05-13T07:23:30.990Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:23:30.990Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:23:31.114Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:23:35.728Z - Login attempt completed
+[STEP] 2026-05-13T07:23:37.256Z - Test: Upload → Assign → Verify in Patient Charting Documents
+[STEP] 2026-05-13T07:23:37.256Z - Navigating to Document Library
+[INFO] 2026-05-13T07:23:38.802Z - Navigated to Document Library via sidebar
+[STEP] 2026-05-13T07:23:38.802Z - Clicking folder: Education
+[INFO] 2026-05-13T07:23:40.346Z - Opened folder: Education
+[STEP] 2026-05-13T07:23:40.346Z - Uploading document: AssignDoc 1778657020346
+[STEP] 2026-05-13T07:23:40.346Z - Clicking Upload Material button
+[INFO] 2026-05-13T07:23:42.007Z - Upload Material form opened
+[STEP] 2026-05-13T07:23:42.007Z - Selecting tag: Education
+[INFO] 2026-05-13T07:23:43.455Z - Tag selected: Education
+[STEP] 2026-05-13T07:23:43.455Z - Selecting speciality: Cardiologist
+[INFO] 2026-05-13T07:23:44.918Z - Speciality selected: Cardiologist
+[STEP] 2026-05-13T07:23:44.918Z - Filling file name: AssignDoc 1778657020346
+[STEP] 2026-05-13T07:23:45.246Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[INFO] 2026-05-13T07:23:45.278Z - Waiting for file upload to complete...
+[INFO] 2026-05-13T07:23:46.328Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[STEP] 2026-05-13T07:23:46.328Z - Filling description: Document to assign to patient
+[STEP] 2026-05-13T07:23:46.658Z - Clicking Upload button
+[INFO] 2026-05-13T07:23:46.669Z - Upload button enabled — clicking
+[INFO] 2026-05-13T07:23:49.757Z - Upload completed
+[INFO] 2026-05-13T07:23:49.757Z - Document "AssignDoc 1778657020346" uploaded successfully
+[INFO] 2026-05-13T07:23:49.757Z - Step 1 ✓: Document "AssignDoc 1778657020346" uploaded to Education
+[STEP] 2026-05-13T07:23:49.757Z - Navigating to Document Library
+[INFO] 2026-05-13T07:23:51.391Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-05-13T07:23:51.391Z - Clicking folder: Education
+[INFO] 2026-05-13T07:23:53.021Z - Opened folder: Education
+[STEP] 2026-05-13T07:23:53.023Z - Searching document: AssignDoc 1778657020346
+[INFO] 2026-05-13T07:23:55.131Z - Search completed: AssignDoc 1778657020346
+[INFO] 2026-05-13T07:23:55.133Z - Step 2 ✓: Document found in Education folder
+[STEP] 2026-05-13T07:23:55.133Z - Step 3: Assigning document to patient Automation, Test
+[STEP] 2026-05-13T07:23:55.134Z - Assigning document (row 0) to patient: Automation
+[STEP] 2026-05-13T07:23:55.134Z - Clicking action menu on document row 0
+[INFO] 2026-05-13T07:23:56.164Z - Action menu opened on row 0
+[STEP] 2026-05-13T07:23:56.164Z - Clicking action item: Assign
+[INFO] 2026-05-13T07:23:57.721Z - Clicked: Assign
+[INFO] 2026-05-13T07:24:03.956Z - Document assigned to patient: Automation
+[INFO] 2026-05-13T07:24:03.956Z - Step 3 ✓: Document assigned to patient Automation, Test
+[STEP] 2026-05-13T07:24:03.956Z - Step 4: Opening patient chart via global search
+[STEP] 2026-05-13T07:24:03.956Z - Opening patient chart from global search for: Automation
+[INFO] 2026-05-13T07:24:06.394Z - Patient chart opened from global search for: Automation
+[INFO] 2026-05-13T07:24:06.398Z - Step 4 ✓: Patient chart opened for Automation, Test
+[STEP] 2026-05-13T07:24:06.398Z - Step 5: Clicking Documents tab in patient chart
+[INFO] 2026-05-13T07:24:07.021Z - Step 5 ✓: Documents tab opened in patient charting
+[STEP] 2026-05-13T07:24:07.021Z - Step 6: Looking for Education folder in patient Documents
+[INFO] 2026-05-13T07:24:07.104Z - Education folder opened in patient charting
+[INFO] 2026-05-13T07:24:07.285Z - Checking for any documents in patient charting...
+[INFO] 2026-05-13T07:24:07.286Z - Step 6 ✓: Documents section has content — document assignment verified
+[INFO] 2026-05-13T07:24:07.286Z - AUT_DOC_004 PASSED: Document uploaded, assigned to patient, and verified in patient chart

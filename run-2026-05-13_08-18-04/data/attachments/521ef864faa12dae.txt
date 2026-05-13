@@ -1,0 +1,37 @@
+[STEP] 2026-05-13T07:33:48.087Z - Login to Provider Portal
+[STEP] 2026-05-13T07:33:48.577Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:33:48.577Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:33:48.650Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:33:53.021Z - Login attempt completed
+[STEP] 2026-05-13T07:33:54.537Z - Navigate to Monitoring > RTM > Data
+[STEP] 2026-05-13T07:33:54.537Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:33:54.537Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:33:55.041Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:33:55.546Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:33:55.546Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:33:56.565Z - Successfully selected RTM tab
+[STEP] 2026-05-13T07:33:56.565Z - Clicking monitoring category: Data
+[STEP] 2026-05-13T07:33:57.678Z - Setting date filter to today
+[INFO] 2026-05-13T07:33:57.684Z - Changing date from "05-12-2026" to "05-13-2026"
+[INFO] 2026-05-13T07:33:58.779Z - Date filter set to: 05-13-2026
+[STEP] 2026-05-13T07:33:58.779Z - Clearing status filter
+[INFO] 2026-05-13T07:33:58.785Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-05-13T07:33:59.329Z - MUI Menu options: 3
+[INFO] 2026-05-13T07:33:59.332Z -   Option [0]: "Clear Selection"
+[INFO] 2026-05-13T07:34:00.401Z - Status filter cleared
+[INFO] 2026-05-13T07:34:00.401Z - Switched to Data monitoring view
+[STEP] 2026-05-13T07:34:00.402Z - Test: Verify reviewed status in Patient Chart
+[STEP] 2026-05-13T07:34:00.402Z - Getting first available patient from list
+[INFO] 2026-05-13T07:34:00.410Z - First available patient: "Automation, Test"
+[STEP] 2026-05-13T07:34:00.410Z - Getting visible row count
+[INFO] 2026-05-13T07:34:01.415Z - Visible row count: 1
+[STEP] 2026-05-13T07:34:01.416Z - Verifying reviewed status in Patient Chart for: Automation, Test
+[INFO] 2026-05-13T07:34:01.450Z - Reviewed status in Patient Chart: true
+[INFO] 2026-05-13T07:34:01.450Z - Reviewed in Patient Chart: true
+[STEP] 2026-05-13T07:34:01.450Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-05-13T07:34:01.450Z - Dismissing any open drawer
+[INFO] 2026-05-13T07:34:01.961Z - No drawer backdrop in DOM
+[INFO] 2026-05-13T07:34:01.977Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-05-13T07:34:08.284Z - Successfully on Care Team Work List
+[STEP] 2026-05-13T07:34:08.284Z - Selecting program tab: RTM
+[INFO] 2026-05-13T07:34:09.317Z - Successfully selected RTM tab

@@ -1,0 +1,140 @@
+[STEP] 2026-05-13T07:49:47.957Z - Test 4: Verify modify enrollment - Status change NEW to ACTIVE
+[INFO] 2026-05-13T07:49:47.957Z - Logging in and navigating to Enrollment section
+[STEP] 2026-05-13T07:49:47.957Z - Attempting to login to provider portal
+[STEP] 2026-05-13T07:49:47.958Z - Navigating to provider portal login page
+[INFO] 2026-05-13T07:49:49.203Z - Successfully navigated to provider portal login page
+[INFO] 2026-05-13T07:49:53.968Z - Login attempt completed
+[STEP] 2026-05-13T07:49:55.489Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:49:55.741Z - Navigated to Enrollment section
+
+=== CREATING NEW PATIENT AND ENROLLMENT ===
+[STEP] 2026-05-13T07:49:55.744Z - Adding new enrollment
+[INFO] 2026-05-13T07:50:02.008Z - Found 17 patients matching 'a'
+[INFO] 2026-05-13T07:50:03.493Z - Selected random program: Chronic Care Management (CCM)
+
+Enrollment attempt 1/5
+Patient: Emmerich, Jack  | Program: Chronic Care Management (CCM)
+[STEP] 2026-05-13T07:50:09.248Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+ERROR: The patient is already enrolled.
+[INFO] 2026-05-13T07:50:09.257Z - Enrollment result: ALREADY_ENROLLED
+✗ Patient already enrolled in this program
+Closing error dialog and selecting different patient...
+[INFO] 2026-05-13T07:50:13.899Z - Found 20 patients matching 'u'
+New patient selected: Kuvalis, Jamie 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 2/5
+Patient: Kuvalis, Jamie  | Program: Chronic Care Management (CCM)
+[STEP] 2026-05-13T07:50:17.894Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-05-13T07:50:32.943Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-05-13T07:50:37.075Z - Found 23 patients matching 'c'
+New patient selected: Carter, Harriet 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 3/5
+Patient: Carter, Harriet  | Program: Chronic Care Management (CCM)
+[STEP] 2026-05-13T07:50:41.076Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+⚠️ No success or error message detected within 15 seconds.
+Taking screenshot to debug...
+Toast messages found: []
+Success-like messages found: []
+Enrollment form still visible? true
+[INFO] 2026-05-13T07:50:56.125Z - Enrollment result: UNKNOWN
+⚠ Unknown result - retrying...
+[INFO] 2026-05-13T07:51:00.274Z - Found 24 patients matching 'h'
+New patient selected: Bauch, Beulah 
+Service type reselected: Chronic Care Management (CCM)
+
+Enrollment attempt 4/5
+Patient: Bauch, Beulah  | Program: Chronic Care Management (CCM)
+[STEP] 2026-05-13T07:51:04.312Z - Validating enrollment result
+
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+Looking for success message: "Documents mapped successfully!"
+Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+SUCCESS: Enrollment completed successfully.
+[INFO] 2026-05-13T07:51:04.328Z - Enrollment result: SUCCESS
+✓ Enrollment created successfully!
+Final enrollment details:
+  Patient: Bauch, Beulah
+  Program: Chronic Care Management (CCM)
+  Provider: sarvesh test
+  Care Manager: Autofirstatthsi Autolastatthsi
+[INFO] 2026-05-13T07:51:04.328Z - Enrollment form submitted successfully
+
+=== NEW ENROLLMENT CREATED ===
+Patient: Bauch, Beulah
+Program: Chronic Care Management (CCM)
+Provider: sarvesh test
+Care Manager: Autofirstatthsi Autolastatthsi
+[STEP] 2026-05-13T07:51:04.328Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:51:04.443Z - Navigated to Enrollment section
+
+=== PROGRAM VALIDATION ===
+Full program text: "Chronic Care Management (CCM)"
+Extracted program short: "CCM"
+
+=== SELECTING PROGRAM TAB ===
+Looking for program tab: "CCM"
+✓ Program tab "CCM" found
+⏳ Waiting for data to load...
+
+=== SEARCHING FOR PATIENT IN NEW SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Bauch
+✓ Patient found in NEW section (attempt 1)
+
+=== WORKLIST NEW SECTION VALIDATION (BEFORE MOVE TO ACTIVE) ===
+✓ Patient found in NEW section at row 1
+[STEP] 2026-05-13T07:51:09.828Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:51:09.982Z - Navigated to Enrollment section
+
+=== STATUS CHANGED TO ACTIVE ===
+Navigating to NEW section first to trigger API call...
+Navigating to ACTIVE section to display patient...
+
+=== SEARCHING FOR PATIENT IN ACTIVE SECTION (with retry logic) ===
+Attempt 1/5 - Searching for patient: Bauch
+✓ Patient found in ACTIVE section (attempt 1)
+
+=== WORKLIST ACTIVE SECTION VALIDATION (AFTER REFRESH) ===
+✓ Patient found in ACTIVE section
+
+=== ACTIVE SECTION DATA VALIDATION ===
+✓ Patient Name: Bauch - Displayed
+✓ Provider: sarvesh test - Displayed
+✓ Care Manager: Autofirstatthsi Autolastatthsi - Displayed
+
+=== WORKLIST NEW SECTION VALIDATION (AFTER MOVE TO ACTIVE) ===
+✓ Patient NOT found in NEW section
+
+=== ATTEMPT 1/3: Checking enrollment list status ===
+[STEP] 2026-05-13T07:51:16.332Z - Navigating to Enrollment section
+[INFO] 2026-05-13T07:51:20.382Z - Navigated to Enrollment section
+[STEP] 2026-05-13T07:51:20.384Z - Applying status filter: Active
+[INFO] 2026-05-13T07:51:26.589Z - Status filter 'Active' applied successfully
+Enrollment row text: 01Bauch, BeulahCCM05-13-2026activeT02603-Aut...+1Autofirstatthsi Autolastatthsisarvesh test
+✓ Status is ACTIVE (attempt 1)
+
+=== ENROLLMENT LIST STATUS VALIDATION ===
+Final enrollment row text: 01Bauch, BeulahCCM05-13-2026activeT02603-Aut...+1Autofirstatthsi Autolastatthsisarvesh test
+✓ Enrollment status is ACTIVE
+✓ Status change validated successfully in all sections
+[INFO] 2026-05-13T07:51:26.600Z - Status change workflow completed successfully - Status changed from NEW to ACTIVE and reflected in Worklist and Enrollment List
