@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T08:45:22.481Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:45:22.450+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:45:22.864Z - Login to Provider Portal
+[INFO] 2026-08-24T08:45:24.959Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:45:25.878Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:45:25.895Z - Creating patient via UI: Koch, Alexandrea
+[STEP] 2026-08-24T08:45:25.895Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:45:28.234Z - Patient details drawer opened
+[STEP] 2026-08-24T08:45:28.236Z - Filling demographics for Alexandrea Koch
+[STEP] 2026-08-24T08:45:30.846Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:45:31.079Z - Setting location: Automation
+[STEP] 2026-08-24T08:45:31.593Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:45:32.116Z - Clicking Save & Next
+[INFO] 2026-08-24T08:45:33.994Z - [createPatientViaUI] created "Koch, Alexandrea"
+[STEP] 2026-08-24T08:45:33.995Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:45:49.096Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:45:49.097Z - Adding new enrollment
+[INFO] 2026-08-24T08:45:52.344Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:45:53.081Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:45:53.081Z - Patient: Koch, Alexandrea | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:45:53.562Z - Validating enrollment result
+[INFO] 2026-08-24T08:45:53.562Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:45:53.562Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:45:53.562Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:45:53.581Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:45:53.582Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:45:53.582Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:45:53.582Z - Final enrollment details:
+[INFO] 2026-08-24T08:45:53.582Z -   Patient: Koch, Alexandrea
+[INFO] 2026-08-24T08:45:53.582Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:45:53.582Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:45:53.582Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:45:53.582Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:45:53.582Z - Enrolled Koch, Alexandrea in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:45:53.582Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:46:08.696Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:46:08.696Z - Applying status filter: New
+[STEP] 2026-08-24T08:46:09.388Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:46:10.153Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:46:10.153Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:46:10.670Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:46:11.192Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:46:11.192Z - Moving enrollment to Active for "Koch" (RTM)
+[STEP] 2026-08-24T08:46:11.192Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:46:11.193Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:46:11.434Z - Date filter applied successfully
+[STEP] 2026-08-24T08:46:11.434Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:46:12.741Z - "Move to Active" confirmed for "Koch"
+[INFO] 2026-08-24T08:46:12.741Z - Moved Koch, Alexandrea to Active
+[INFO] 2026-08-24T08:46:12.741Z - [monitoring-03] seeded ACTIVE RTM patient: Koch, Alexandrea
+[STEP] 2026-08-24T08:46:12.744Z - Opening patient chart from global search for: Koch, Alexandrea
+[INFO] 2026-08-24T08:46:15.483Z - Patient chart opened from global search for: Koch, Alexandrea
+[STEP] 2026-08-24T08:46:17.392Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:46:17.645Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:46:17.645Z - Adding vital: Pain Scale with value 38
+[STEP] 2026-08-24T08:46:17.645Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:46:17.858Z - Add Vital form opened
+[STEP] 2026-08-24T08:46:17.858Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:46:18.315Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:46:18.316Z - Entering vital value: 38
+[INFO] 2026-08-24T08:46:18.416Z - Successfully entered vital value: 38
+[STEP] 2026-08-24T08:46:18.417Z - Saving vital
+[INFO] 2026-08-24T08:46:18.625Z - Successfully saved vital
+[INFO] 2026-08-24T08:46:18.625Z - Successfully added vital: Pain Scale with value 38
+[INFO] 2026-08-24T08:46:18.625Z - beforeEach: Abnormal Pain Scale (38) added for Koch, Alexandrea — polling Alerts counter
+[STEP] 2026-08-24T08:46:18.645Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:46:18.646Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:46:19.387Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:46:19.465Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:46:24.442Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:46:29.359Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:46:29.359Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:46:30.475Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:46:30.475Z - Getting count for Alerts
+[INFO] 2026-08-24T08:46:30.497Z - Alerts count: 0
+[STEP] 2026-08-24T08:46:35.508Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:46:35.508Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:46:36.027Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:46:36.543Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:46:36.543Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:46:37.637Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:46:37.637Z - Getting count for Alerts
+[INFO] 2026-08-24T08:46:37.670Z - Alerts count: 0
+[STEP] 2026-08-24T08:46:45.676Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:46:45.676Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:46:46.184Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:46:46.692Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:46:46.692Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:46:47.736Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:46:47.737Z - Getting count for Alerts
+[INFO] 2026-08-24T08:46:47.743Z - Alerts count: 0
+[STEP] 2026-08-24T08:46:57.744Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:46:57.744Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:46:58.261Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:46:58.788Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:46:58.788Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:46:59.833Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:46:59.834Z - Getting count for Alerts
+[INFO] 2026-08-24T08:46:59.841Z - Alerts count: 0
+[STEP] 2026-08-24T08:47:09.845Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:47:09.845Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:47:10.361Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:47:10.888Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:47:10.888Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:47:12.068Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:47:12.068Z - Getting count for Alerts
+[INFO] 2026-08-24T08:47:12.082Z - Alerts count: 0
+[STEP] 2026-08-24T08:47:22.086Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:47:22.086Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:47:22.597Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:47:23.109Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:47:23.109Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:47:24.175Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:47:24.175Z - Getting count for Alerts
+[INFO] 2026-08-24T08:47:24.185Z - Alerts count: 0
+[STEP] 2026-08-24T08:47:34.187Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:47:34.187Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:47:34.696Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:47:35.208Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:47:35.208Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:47:36.251Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:47:36.251Z - Getting count for Alerts
+[INFO] 2026-08-24T08:47:36.260Z - Alerts count: 0
+[STEP] 2026-08-24T08:47:46.262Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:47:46.262Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:47:46.769Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:47:47.281Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:47:47.281Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:47:48.335Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:47:48.336Z - Getting count for Alerts
+[INFO] 2026-08-24T08:47:48.343Z - Alerts count: 0

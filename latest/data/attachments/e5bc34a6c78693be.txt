@@ -1,0 +1,54 @@
+[STEP] 2026-08-24T08:26:30.420Z - Login to Provider Portal
+[INFO] 2026-08-24T08:26:34.428Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:34.438Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:26:34.442Z - Creating patient via UI: Corwin, Trycia
+[STEP] 2026-08-24T08:26:34.442Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:26:39.082Z - Patient details drawer opened
+[STEP] 2026-08-24T08:26:39.082Z - Filling demographics for Trycia Corwin
+[STEP] 2026-08-24T08:26:45.418Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:26:45.743Z - Setting location: Automation
+[STEP] 2026-08-24T08:26:46.278Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:26:47.291Z - Clicking Save & Next
+[INFO] 2026-08-24T08:26:50.514Z - [createPatientViaUI] created "Corwin, Trycia"
+[STEP] 2026-08-24T08:26:50.514Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:05.738Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:05.739Z - Adding new enrollment
+[INFO] 2026-08-24T08:27:10.427Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:27:12.206Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:27:12.206Z - Patient: Corwin, Trycia | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:13.615Z - Validating enrollment result
+[INFO] 2026-08-24T08:27:13.615Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:27:13.615Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:27:13.615Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:27:13.918Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:27:13.919Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:27:13.920Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:27:13.921Z - Final enrollment details:
+[INFO] 2026-08-24T08:27:13.921Z -   Patient: Corwin, Trycia
+[INFO] 2026-08-24T08:27:13.922Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:27:13.923Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:27:13.923Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:27:13.923Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:27:13.923Z - Enrolled Corwin, Trycia in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:13.923Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:29.199Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:29.201Z - Applying status filter: New
+[STEP] 2026-08-24T08:27:29.907Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:31.310Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:27:31.310Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:32.057Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:32.904Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:27:32.904Z - Moving enrollment to Active for "Corwin" (CCM)
+[STEP] 2026-08-24T08:27:32.904Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:32.904Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:33.490Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:33.490Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:35.071Z - "Move to Active" confirmed for "Corwin"
+[INFO] 2026-08-24T08:27:35.071Z - Moved Corwin, Trycia to Active
+[STEP] 2026-08-24T08:27:35.072Z - Test: Verify global search bar is visible on dashboard
+[STEP] 2026-08-24T08:27:35.072Z - Verifying global search bar is visible
+[INFO] 2026-08-24T08:27:35.099Z - Global search bar is visible
+[INFO] 2026-08-24T08:27:35.101Z - Search bar is visible on dashboard
+[INFO] 2026-08-24T08:27:35.118Z - Search bar placeholder text verified

@@ -1,0 +1,83 @@
+[STEP] 2026-08-24T08:32:45.966Z - Login to Provider Portal
+[INFO] 2026-08-24T08:32:52.036Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:32:52.049Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:32:52.177Z - Creating patient via UI: Balistreri, Madisyn
+[STEP] 2026-08-24T08:32:52.179Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:32:58.544Z - Patient details drawer opened
+[STEP] 2026-08-24T08:32:58.547Z - Filling demographics for Madisyn Balistreri
+[STEP] 2026-08-24T08:33:07.114Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:33:09.230Z - Setting location: Automation
+[STEP] 2026-08-24T08:33:09.869Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:33:10.557Z - Clicking Save & Next
+[INFO] 2026-08-24T08:33:13.871Z - [createPatientViaUI] created "Balistreri, Madisyn"
+[STEP] 2026-08-24T08:33:13.872Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:33:29.248Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:33:29.255Z - Adding new enrollment
+[INFO] 2026-08-24T08:33:33.645Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:33:34.772Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:33:34.772Z - Patient: Balistreri, Madisyn | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:33:36.048Z - Validating enrollment result
+[INFO] 2026-08-24T08:33:36.048Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:33:36.048Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:33:36.048Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:33:36.754Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:33:36.754Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:33:36.754Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:33:36.757Z - Final enrollment details:
+[INFO] 2026-08-24T08:33:36.757Z -   Patient: Balistreri, Madisyn
+[INFO] 2026-08-24T08:33:36.757Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:33:36.757Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:33:36.757Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:33:36.757Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:33:36.757Z - Enrolled Balistreri, Madisyn in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:33:36.757Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:33:52.673Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:33:52.674Z - Applying status filter: New
+[STEP] 2026-08-24T08:33:53.473Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:54.520Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:33:54.520Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:33:55.248Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:56.149Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:33:56.149Z - Moving enrollment to Active for "Balistreri" (RTM)
+[STEP] 2026-08-24T08:33:56.149Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:33:56.150Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:33:56.751Z - Date filter applied successfully
+[STEP] 2026-08-24T08:33:56.751Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:57.970Z - "Move to Active" confirmed for "Balistreri"
+[INFO] 2026-08-24T08:33:57.970Z - Moved Balistreri, Madisyn to Active
+[STEP] 2026-08-24T08:33:57.970Z - Test: E2E - Create Pain Scale alert and verify on Alerts page
+[STEP] 2026-08-24T08:33:57.971Z - Opening patient chart from global search for: Balistreri, Madisyn
+[INFO] 2026-08-24T08:34:00.768Z - Patient chart opened from global search for: Balistreri, Madisyn
+[INFO] 2026-08-24T08:34:00.768Z - Patient chart opened
+[INFO] 2026-08-24T08:34:00.789Z - Switched patient chart to RTM platform (if present)
+[STEP] 2026-08-24T08:34:00.790Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:34:03.947Z - Successfully navigated to Vitals tab
+[INFO] 2026-08-24T08:34:03.947Z - Vitals tab opened
+[STEP] 2026-08-24T08:34:03.947Z - Adding vital: Pain Scale with value 71
+[STEP] 2026-08-24T08:34:03.947Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:34:04.420Z - Add Vital form opened
+[STEP] 2026-08-24T08:34:04.432Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:34:05.323Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:34:05.326Z - Entering vital value: 71
+[INFO] 2026-08-24T08:34:05.578Z - Successfully entered vital value: 71
+[STEP] 2026-08-24T08:34:05.581Z - Saving vital
+[INFO] 2026-08-24T08:34:06.065Z - Successfully saved vital
+[INFO] 2026-08-24T08:34:06.065Z - Successfully added vital: Pain Scale with value 71
+[INFO] 2026-08-24T08:34:06.065Z - Pain Scale vital added with value: 71
+[STEP] 2026-08-24T08:34:06.073Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:34:08.128Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:34:08.129Z - Verifying alert exists for patient: Balistreri, Madisyn
+[STEP] 2026-08-24T08:34:08.131Z - Clearing search
+[INFO] 2026-08-24T08:34:09.801Z - Search cleared
+[STEP] 2026-08-24T08:34:09.802Z - Searching alerts for: Balistreri
+[INFO] 2026-08-24T08:34:11.452Z - Search completed for: Balistreri
+[STEP] 2026-08-24T08:34:11.452Z - Getting alert row count
+[INFO] 2026-08-24T08:34:12.478Z - Alert row count: 1
+[STEP] 2026-08-24T08:34:12.478Z - Getting cell text at row 1, column 2
+[INFO] 2026-08-24T08:34:12.540Z - Cell text: Pain Scale
+[INFO] 2026-08-24T08:34:12.541Z - Alert type "Pain Scale" found for patient: Balistreri, Madisyn
+[STEP] 2026-08-24T08:34:12.550Z - Verifying on Alerts page
+[INFO] 2026-08-24T08:34:12.572Z - Alerts page title verified
+[INFO] 2026-08-24T08:34:12.576Z - Pain Scale alert verified on Alerts page

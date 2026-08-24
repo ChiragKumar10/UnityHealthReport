@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T08:57:34.211Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:57:34.178+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:57:34.732Z - Login to Provider Portal
+[INFO] 2026-08-24T08:57:37.856Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:57:39.236Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:57:39.290Z - Creating patient via UI: Labadie, Trenton
+[STEP] 2026-08-24T08:57:39.291Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:57:41.802Z - Patient details drawer opened
+[STEP] 2026-08-24T08:57:41.802Z - Filling demographics for Trenton Labadie
+[STEP] 2026-08-24T08:57:47.125Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:57:47.828Z - Setting location: Automation
+[STEP] 2026-08-24T08:57:48.199Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:57:48.856Z - Clicking Save & Next
+[INFO] 2026-08-24T08:57:50.849Z - [createPatientViaUI] created "Labadie, Trenton"
+[STEP] 2026-08-24T08:57:50.849Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:58:05.955Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:58:05.958Z - Adding new enrollment
+[INFO] 2026-08-24T08:58:08.831Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:58:09.801Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:58:09.801Z - Patient: Labadie, Trenton | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:58:10.275Z - Validating enrollment result
+[INFO] 2026-08-24T08:58:10.275Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:58:10.276Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:58:10.276Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:58:10.300Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:58:10.300Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:58:10.300Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:58:10.300Z - Final enrollment details:
+[INFO] 2026-08-24T08:58:10.300Z -   Patient: Labadie, Trenton
+[INFO] 2026-08-24T08:58:10.300Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:58:10.301Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:58:10.301Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:58:10.301Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:58:10.301Z - Enrolled Labadie, Trenton in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:58:10.301Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:58:25.439Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:58:25.439Z - Applying status filter: New
+[STEP] 2026-08-24T08:58:25.914Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:58:26.432Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:58:26.432Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:58:26.833Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:58:27.413Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:58:27.414Z - Moving enrollment to Active for "Labadie" (RTM)
+[STEP] 2026-08-24T08:58:27.414Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:58:27.414Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:58:27.664Z - Date filter applied successfully
+[STEP] 2026-08-24T08:58:27.664Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:58:28.608Z - "Move to Active" confirmed for "Labadie"
+[INFO] 2026-08-24T08:58:28.608Z - Moved Labadie, Trenton to Active
+[INFO] 2026-08-24T08:58:28.608Z - [monitoring-03] seeded ACTIVE RTM patient: Labadie, Trenton
+[STEP] 2026-08-24T08:58:28.609Z - Opening patient chart from global search for: Labadie, Trenton
+[INFO] 2026-08-24T08:58:31.269Z - Patient chart opened from global search for: Labadie, Trenton
+[STEP] 2026-08-24T08:58:32.934Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:58:33.240Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:58:33.240Z - Adding vital: Pain Scale with value 35
+[STEP] 2026-08-24T08:58:33.240Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:58:33.422Z - Add Vital form opened
+[STEP] 2026-08-24T08:58:33.423Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:58:34.082Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:58:34.084Z - Entering vital value: 35
+[INFO] 2026-08-24T08:58:34.203Z - Successfully entered vital value: 35
+[STEP] 2026-08-24T08:58:34.204Z - Saving vital
+[INFO] 2026-08-24T08:58:34.383Z - Successfully saved vital
+[INFO] 2026-08-24T08:58:34.384Z - Successfully added vital: Pain Scale with value 35
+[INFO] 2026-08-24T08:58:34.384Z - beforeEach: Abnormal Pain Scale (35) added for Labadie, Trenton — polling Alerts counter
+[STEP] 2026-08-24T08:58:34.397Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:58:34.397Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:58:35.012Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:58:35.038Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:58:39.782Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:58:45.208Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:58:45.208Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:58:46.271Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:58:46.271Z - Getting count for Alerts
+[INFO] 2026-08-24T08:58:46.279Z - Alerts count: 0
+[STEP] 2026-08-24T08:58:51.283Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:58:51.283Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:58:51.789Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:58:52.297Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:58:52.297Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:58:53.335Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:58:53.335Z - Getting count for Alerts
+[INFO] 2026-08-24T08:58:53.342Z - Alerts count: 0
+[STEP] 2026-08-24T08:59:01.343Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:59:01.343Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:59:01.849Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:59:02.356Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:59:02.356Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:59:03.403Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:59:03.403Z - Getting count for Alerts
+[INFO] 2026-08-24T08:59:03.410Z - Alerts count: 0
+[STEP] 2026-08-24T08:59:13.411Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:59:13.411Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:59:13.919Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:59:14.427Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:59:14.427Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:59:15.472Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:59:15.472Z - Getting count for Alerts
+[INFO] 2026-08-24T08:59:15.479Z - Alerts count: 0
+[STEP] 2026-08-24T08:59:25.480Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:59:25.480Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:59:25.990Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:59:26.503Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:59:26.503Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:59:27.579Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:59:27.579Z - Getting count for Alerts
+[INFO] 2026-08-24T08:59:27.589Z - Alerts count: 0
+[STEP] 2026-08-24T08:59:37.590Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:59:37.590Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:59:38.100Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:59:38.612Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:59:38.612Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:59:39.656Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:59:39.656Z - Getting count for Alerts
+[INFO] 2026-08-24T08:59:39.665Z - Alerts count: 0
+[STEP] 2026-08-24T08:59:49.665Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:59:49.665Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:59:50.174Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:59:50.685Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:59:50.686Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:59:51.742Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:59:51.743Z - Getting count for Alerts
+[INFO] 2026-08-24T08:59:51.751Z - Alerts count: 0
+[STEP] 2026-08-24T09:00:01.753Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:00:01.753Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:00:02.261Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:00:02.771Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:00:02.772Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:00:03.827Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:00:03.827Z - Getting count for Alerts
+[INFO] 2026-08-24T09:00:03.839Z - Alerts count: 0

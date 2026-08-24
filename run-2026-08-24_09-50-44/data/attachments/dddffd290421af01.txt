@@ -1,0 +1,43 @@
+[STEP] 2026-08-24T08:50:42.022Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:50:43.643Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:50:44.485Z - Test: Verify deleted provider login restriction
+[STEP] 2026-08-24T08:50:44.488Z - Navigating to Settings page
+[INFO] 2026-08-24T08:50:46.754Z - Navigated to Settings page
+[STEP] 2026-08-24T08:50:46.754Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:50:48.190Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:50:49.742Z - Status filter set to All
+[STEP] 2026-08-24T08:50:49.743Z - Adding Unity User: Autofirstkljlso Autolastkljlso
+[STEP] 2026-08-24T08:50:49.743Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:50:50.894Z - Add Unity User form opened
+[STEP] 2026-08-24T08:50:50.895Z - Filling Unity User form for: Autofirstkljlso Autolastkljlso
+[STEP] 2026-08-24T08:50:50.895Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:50:51.963Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:50:52.085Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:50:52.118Z - Form filled for: Autofirstkljlso Autolastkljlso
+[STEP] 2026-08-24T08:50:52.118Z - Clicking Save button
+[INFO] 2026-08-24T08:50:54.252Z - Save button clicked
+[INFO] 2026-08-24T08:50:54.257Z - Unity User 'Autofirstkljlso Autolastkljlso' added — form closed
+[STEP] 2026-08-24T08:50:54.258Z - Verifying user 'Autofirstkljlso Autolastkljlso' is visible in the list
+[STEP] 2026-08-24T08:50:54.258Z - Searching for user: Autofirstkljlso Autolastkljlso
+[INFO] 2026-08-24T08:50:55.308Z - Search completed for: Autofirstkljlso Autolastkljlso
+[INFO] 2026-08-24T08:50:55.429Z - User 'Autofirstkljlso Autolastkljlso' is visible in the list
+[INFO] 2026-08-24T08:50:55.429Z - User created for delete login test
+[STEP] 2026-08-24T08:50:55.430Z - Deleting Unity User: Autofirstkljlso Autolastkljlso
+[STEP] 2026-08-24T08:50:55.430Z - Clicking Delete for: Autofirstkljlso Autolastkljlso
+[STEP] 2026-08-24T08:50:55.431Z - Opening action menu for: Autofirstkljlso Autolastkljlso
+[STEP] 2026-08-24T08:50:55.431Z - Searching for user: Autofirstkljlso Autolastkljlso
+[INFO] 2026-08-24T08:50:56.445Z - Search completed for: Autofirstkljlso Autolastkljlso
+[INFO] 2026-08-24T08:50:57.277Z - Action menu opened
+[INFO] 2026-08-24T08:50:58.335Z - Delete clicked from menu
+[INFO] 2026-08-24T08:50:58.356Z - Delete confirmation clicked
+[STEP] 2026-08-24T08:50:59.360Z - Clearing search box
+[INFO] 2026-08-24T08:50:59.884Z - Search cleared
+[INFO] 2026-08-24T08:50:59.884Z - Unity User 'Autofirstkljlso Autolastkljlso' deleted
+[STEP] 2026-08-24T08:50:59.884Z - Verifying user 'Autofirstkljlso Autolastkljlso' is NOT in the list
+[STEP] 2026-08-24T08:50:59.884Z - Clearing search box
+[INFO] 2026-08-24T08:51:00.398Z - Search cleared
+[STEP] 2026-08-24T08:51:00.399Z - Searching for user: Autofirstkljlso Autolastkljlso
+[INFO] 2026-08-24T08:51:01.421Z - Search completed for: Autofirstkljlso Autolastkljlso
+[INFO] 2026-08-24T08:51:01.443Z - User 'Autofirstkljlso Autolastkljlso' is not in the list
+[INFO] 2026-08-24T08:51:01.443Z - User deleted
+[STEP] 2026-08-24T08:51:01.443Z - Attempting login with username: autouser1787561444484

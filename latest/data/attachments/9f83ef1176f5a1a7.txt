@@ -1,0 +1,86 @@
+[INFO] 2026-08-24T08:33:06.060Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:33:05.994+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:33:13.318Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:33:13.358Z - Test: Document count update on assign
+[STEP] 2026-08-24T08:33:13.358Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:33:13.504Z - Creating patient via UI: Flatley, Lisa
+[STEP] 2026-08-24T08:33:13.504Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:33:19.952Z - Patient details drawer opened
+[STEP] 2026-08-24T08:33:19.953Z - Filling demographics for Lisa Flatley
+[STEP] 2026-08-24T08:33:27.617Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:33:28.484Z - Setting location: Automation
+[STEP] 2026-08-24T08:33:29.463Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:33:31.192Z - Clicking Save & Next
+[INFO] 2026-08-24T08:33:35.646Z - [createPatientViaUI] created "Flatley, Lisa"
+[STEP] 2026-08-24T08:33:35.649Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:33:50.904Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:33:50.905Z - Adding new enrollment
+[INFO] 2026-08-24T08:33:54.244Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:33:55.478Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:33:55.478Z - Patient: Flatley, Lisa | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:33:56.409Z - Validating enrollment result
+[INFO] 2026-08-24T08:33:56.409Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:33:56.409Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:33:56.409Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:33:56.435Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:33:56.436Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:33:56.436Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:33:56.436Z - Final enrollment details:
+[INFO] 2026-08-24T08:33:56.437Z -   Patient: Flatley, Lisa
+[INFO] 2026-08-24T08:33:56.437Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:33:56.437Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:33:56.437Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:33:56.437Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:33:56.438Z - Enrolled Flatley, Lisa in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:33:56.438Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:34:11.734Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:34:11.735Z - Applying status filter: New
+[STEP] 2026-08-24T08:34:12.459Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:13.347Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:34:13.347Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:34:14.111Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:14.867Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:34:14.868Z - Moving enrollment to Active for "Flatley" (CCM)
+[STEP] 2026-08-24T08:34:14.868Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:34:14.868Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:34:15.511Z - Date filter applied successfully
+[STEP] 2026-08-24T08:34:15.511Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:16.856Z - "Move to Active" confirmed for "Flatley"
+[INFO] 2026-08-24T08:34:16.857Z - Moved Flatley, Lisa to Active
+[STEP] 2026-08-24T08:34:16.858Z - Navigating to Document Library
+[INFO] 2026-08-24T08:34:19.321Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:34:19.321Z - Clicking folder: Education
+[INFO] 2026-08-24T08:34:20.937Z - Opened folder: Education
+[STEP] 2026-08-24T08:34:20.937Z - Uploading document: CountDoc 1787560460937
+[STEP] 2026-08-24T08:34:20.938Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:34:22.761Z - Upload Material form opened
+[STEP] 2026-08-24T08:34:22.761Z - Selecting tag: Education
+[INFO] 2026-08-24T08:34:24.435Z - Tag selected: Education
+[STEP] 2026-08-24T08:34:24.436Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:34:26.138Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:34:26.138Z - Filling file name: CountDoc 1787560460937
+[STEP] 2026-08-24T08:34:26.509Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-08-24T08:34:26.588Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:34:27.699Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-08-24T08:34:27.700Z - Clicking Upload button
+[INFO] 2026-08-24T08:34:27.717Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:34:30.805Z - Upload completed
+[INFO] 2026-08-24T08:34:30.805Z - Document "CountDoc 1787560460937" uploaded successfully
+[INFO] 2026-08-24T08:34:30.805Z - Step 1 ✓: Uploaded "CountDoc 1787560460937"
+[STEP] 2026-08-24T08:34:30.805Z - Navigating to Document Library
+[INFO] 2026-08-24T08:34:32.485Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:34:32.485Z - Clicking folder: Education
+[INFO] 2026-08-24T08:34:34.142Z - Opened folder: Education
+[STEP] 2026-08-24T08:34:34.149Z - Searching document: CountDoc 1787560460937
+[INFO] 2026-08-24T08:34:36.695Z - Search completed: CountDoc 1787560460937
+[INFO] 2026-08-24T08:34:36.742Z - Step 2 ✓: Document found in Education folder
+[STEP] 2026-08-24T08:34:36.742Z - Assigning document (row 0) to patient: Flatley
+[STEP] 2026-08-24T08:34:36.742Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:34:37.957Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:34:37.957Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:34:39.824Z - Clicked: Assign
+[INFO] 2026-08-24T08:34:46.532Z - Document assigned to patient: Flatley
+[INFO] 2026-08-24T08:34:46.532Z - Step 3 ✓: Document assigned to Automation, Test
+[STEP] 2026-08-24T08:34:46.533Z - Opening patient chart from global search for: Flatley, Lisa
+[INFO] 2026-08-24T08:34:49.012Z - Patient chart opened from global search for: Flatley, Lisa

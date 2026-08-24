@@ -1,0 +1,36 @@
+[INFO] 2026-08-24T08:23:10.874Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:10.819+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:23:12.518Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:20.666Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:20.679Z - Navigate to RTM
+[STEP] 2026-08-24T08:23:20.680Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:23:26.316Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:23:26.317Z - Selecting Week 1
+[INFO] 2026-08-24T08:23:31.555Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:23:31.556Z - Getting visible patient names
+[INFO] 2026-08-24T08:23:39.271Z - Found 11 visible patients: Mann, Ivah, Lakin, Grace, Medhurst, Darlene, Dickinson, Dejon, Johnson, Gwen, Veum, Oliver, Franey, Dorothy, Dibbert, Sedrick, Wilkinson, Burley, Franecki, Ted, Ortiz, Bethany
+[INFO] 2026-08-24T08:23:39.271Z - [interaction-bulk] using existing worklist patient: Mann, Ivah
+[STEP] 2026-08-24T08:23:39.272Z - Detecting which week "Mann, Ivah" is in
+[STEP] 2026-08-24T08:23:39.297Z - Selecting Week 1
+[INFO] 2026-08-24T08:23:39.994Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:23:39.996Z - Checking if patient "Mann, Ivah" is in the interaction list
+[INFO] 2026-08-24T08:23:40.038Z - Patient "Mann, Ivah" found in interaction list
+[INFO] 2026-08-24T08:23:40.038Z - Patient "Mann, Ivah" found in Week 1
+[STEP] 2026-08-24T08:23:40.038Z - Selecting Week 1
+[INFO] 2026-08-24T08:23:40.765Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:23:40.770Z - Test: Bulk Reach Out for "Mann, Ivah" — Week 1
+[STEP] 2026-08-24T08:23:40.770Z - Selecting all patients
+[INFO] 2026-08-24T08:23:41.608Z - All patients selected
+[STEP] 2026-08-24T08:23:41.608Z - Clicking Reach Out All button
+[INFO] 2026-08-24T08:23:43.525Z - Reach Out All button clicked
+[STEP] 2026-08-24T08:23:43.525Z - Sending bulk message. Template: Bulk Outreach Template, Log As: Communication with Patient
+[INFO] 2026-08-24T08:23:46.745Z - Send confirmation toast: "Your reach out was successfully delivered. Please note that it may take a few minutes for the recipient to receive it due to processing time."
+[INFO] 2026-08-24T08:23:46.768Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:23:47.787Z - Bulk message sent successfully
+[INFO] 2026-08-24T08:23:47.787Z - Bulk Reach Out text message sent
+[STEP] 2026-08-24T08:23:50.941Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:23:54.380Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:23:54.380Z - Selecting Week 1
+[INFO] 2026-08-24T08:23:55.529Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:23:55.529Z - Checking if patient "Mann, Ivah" is in the interaction list
+[INFO] 2026-08-24T08:23:55.825Z - Patient "Mann, Ivah" found in interaction list
+[INFO] 2026-08-24T08:23:55.835Z - Patient still in list after bulk Reach Out

@@ -1,0 +1,48 @@
+[STEP] 2026-08-24T08:46:04.693Z - Login to Provider Portal
+[INFO] 2026-08-24T08:46:07.777Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:46:09.548Z - Test: Verify reassignment reflects in task list
+[STEP] 2026-08-24T08:46:09.548Z - Navigating to Task page
+[INFO] 2026-08-24T08:46:17.655Z - Navigated to Task page
+[INFO] 2026-08-24T08:46:18.715Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:46:18.715Z - Creating task: HistoryTrack 1787561178715
+[STEP] 2026-08-24T08:46:18.715Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:46:22.681Z - Add Task form opened
+[INFO] 2026-08-24T08:46:40.887Z - Task "HistoryTrack 1787561178715" created successfully
+[STEP] 2026-08-24T08:46:40.887Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:46:42.686Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:46:42.686Z - Setting status filter to: All
+[INFO] 2026-08-24T08:46:51.281Z - Status filter set to: All
+[STEP] 2026-08-24T08:46:51.281Z - Searching for: HistoryTrack 1787561178715
+[INFO] 2026-08-24T08:46:51.808Z - Search completed for: HistoryTrack 1787561178715
+[STEP] 2026-08-24T08:46:51.808Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:46:52.826Z - ASSIGNED TO values: Jemes Cory
+[INFO] 2026-08-24T08:46:52.826Z - Original assignee: Jemes Cory
+[STEP] 2026-08-24T08:46:52.826Z - Opening Edit Task form
+[STEP] 2026-08-24T08:46:52.826Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:46:53.990Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:46:53.991Z - Clicking action menu item: Edit
+[INFO] 2026-08-24T08:46:55.700Z - Clicked: Edit
+[INFO] 2026-08-24T08:46:55.725Z - Edit Task form opened
+[STEP] 2026-08-24T08:46:55.725Z - Changing assignee to: a
+[INFO] 2026-08-24T08:46:57.654Z - Assignee changed to: a
+[INFO] 2026-08-24T08:46:57.671Z - Current assignee in edit form: Anny Vate 
+[INFO] 2026-08-24T08:46:57.671Z - New assignee selected in form: Anny Vate
+[STEP] 2026-08-24T08:46:57.672Z - Filling edit note: Reassigned from Jemes Cory at 2026-08-24T08:46:57.672Z
+[STEP] 2026-08-24T08:46:58.030Z - Saving edited task
+[INFO] 2026-08-24T08:46:58.053Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-08-24T08:46:58.082Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-08-24T08:46:58.110Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-08-24T08:46:58.148Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-08-24T08:46:58.170Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-08-24T08:46:58.170Z - Reading all edit form pre-filled values
+[INFO] 2026-08-24T08:46:58.258Z - Edit form values: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"HistoryTrack 1787561178715","assignee":"Anny Vate ","priority":"HIGH","dueDate":"31 August 2026 ","note":"Reassigned from Jemes Cory at 2026-08-24T08:46:57.672Z"}
+[INFO] 2026-08-24T08:46:58.258Z - Form state before save: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"HistoryTrack 1787561178715","assignee":"Anny Vate ","priority":"HIGH","dueDate":"31 August 2026 ","note":"Reassigned from Jemes Cory at 2026-08-24T08:46:57.672Z"}
+[INFO] 2026-08-24T08:46:58.285Z - Validation errors before save: []
+[INFO] 2026-08-24T08:47:00.422Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-08-24T08:47:01.452Z - Edit task saved (drawer closed: true)
+[STEP] 2026-08-24T08:47:01.452Z - Searching for: HistoryTrack 1787561178715
+[INFO] 2026-08-24T08:47:02.204Z - Search completed for: HistoryTrack 1787561178715
+[STEP] 2026-08-24T08:47:02.204Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:47:03.222Z - ASSIGNED TO values: Anny Vate
+[INFO] 2026-08-24T08:47:03.223Z - Assignee after reassignment: Anny Vate
+[INFO] 2026-08-24T08:47:03.225Z - Task history verified: Jemes Cory → Anny Vate

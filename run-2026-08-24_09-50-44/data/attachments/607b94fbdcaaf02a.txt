@@ -1,0 +1,37 @@
+[STEP] 2026-08-24T08:41:11.430Z - Login to Provider Portal
+[INFO] 2026-08-24T08:41:14.064Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:14.076Z - Test: Verify delete confirmation prompt
+[STEP] 2026-08-24T08:41:14.077Z - Navigating to Task page
+[INFO] 2026-08-24T08:41:22.292Z - Navigated to Task page
+[STEP] 2026-08-24T08:41:22.292Z - Creating task: DeleteConfirm 1787560882292
+[STEP] 2026-08-24T08:41:22.293Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:41:23.288Z - Add Task form opened
+[INFO] 2026-08-24T08:41:37.076Z - Task "DeleteConfirm 1787560882292" created successfully
+[STEP] 2026-08-24T08:41:37.076Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:41:38.685Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:41:38.685Z - Setting status filter to: All
+[INFO] 2026-08-24T08:41:47.177Z - Status filter set to: All
+[STEP] 2026-08-24T08:41:47.177Z - Searching for: DeleteConfirm 1787560882292
+[INFO] 2026-08-24T08:41:47.394Z - Search completed for: DeleteConfirm 1787560882292
+[STEP] 2026-08-24T08:41:47.395Z - Opening delete confirmation dialog
+[STEP] 2026-08-24T08:41:47.395Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:41:48.587Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:41:48.587Z - Clicking action menu item: Delete
+[INFO] 2026-08-24T08:41:50.244Z - Clicked: Delete
+[INFO] 2026-08-24T08:41:50.254Z - Delete confirmation dialog opened
+[STEP] 2026-08-24T08:41:50.265Z - Getting delete confirmation message
+[INFO] 2026-08-24T08:41:50.272Z - Delete confirmation message: Delete Confirmation
+Are you sure you want to delete Beahan, Charlotte Task?
+Cancel
+Delete
+[INFO] 2026-08-24T08:41:50.272Z - Confirmation message: Delete Confirmation
+Are you sure you want to delete Beahan, Charlotte Task?
+Cancel
+Delete
+[STEP] 2026-08-24T08:41:50.295Z - Clicking Cancel on delete confirmation
+[INFO] 2026-08-24T08:41:51.431Z - Delete cancelled
+[STEP] 2026-08-24T08:41:51.431Z - Searching for: DeleteConfirm 1787560882292
+[INFO] 2026-08-24T08:41:53.372Z - Search completed for: DeleteConfirm 1787560882292
+[STEP] 2026-08-24T08:41:53.375Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:54.395Z - TASK values: DeleteConfirm 1787560882292
+[INFO] 2026-08-24T08:41:54.400Z - Delete confirmation prompt verified — Cancel preserves the task

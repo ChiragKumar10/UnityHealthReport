@@ -1,0 +1,91 @@
+[STEP] 2026-08-24T08:28:02.845Z - === AUT_CROSS_002: ICD code / Condition cross-module relationship (create + edit) ===
+[STEP] 2026-08-24T08:28:03.181Z - Step 1: Login to admin portal
+[STEP] 2026-08-24T08:28:05.357Z - Attempting to login
+[INFO] 2026-08-24T08:28:06.566Z - Login attempt completed
+[INFO] 2026-08-24T08:28:06.566Z - Admin logged in
+[STEP] 2026-08-24T08:28:06.566Z - Step 2: Navigate to Library → Conditions
+[STEP] 2026-08-24T08:28:06.566Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:28:09.123Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:28:09.123Z - Step 3: Add a new condition (ICD "S28197", name "Condition-orig-aut8080-1787560082819")
+[STEP] 2026-08-24T08:28:09.123Z - Clicking Add Condition button
+[INFO] 2026-08-24T08:28:10.903Z - Add Condition form opened
+[STEP] 2026-08-24T08:28:10.906Z - Entering ICD Code: S28197
+[INFO] 2026-08-24T08:28:11.512Z - ICD Code entered: S28197
+[STEP] 2026-08-24T08:28:11.512Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-08-24T08:28:12.769Z - ICD Code Type selected: ICD 10 
+[STEP] 2026-08-24T08:28:12.770Z - Entering Condition Name: Condition-orig-aut8080-1787560082819
+[INFO] 2026-08-24T08:28:13.402Z - Condition Name entered: Condition-orig-aut8080-1787560082819
+[STEP] 2026-08-24T08:28:13.402Z - Entering Description: Automated test description - aut8080
+[INFO] 2026-08-24T08:28:13.948Z - Description entered: Automated test description - aut8080
+[STEP] 2026-08-24T08:28:13.948Z - Clicking Save button
+[INFO] 2026-08-24T08:28:15.019Z - Save button clicked
+[STEP] 2026-08-24T08:28:15.019Z - Step 4: Verify the new condition is visible in the admin Library list
+[STEP] 2026-08-24T08:28:15.019Z - Searching for condition: S28197
+[INFO] 2026-08-24T08:28:16.131Z - Search completed for: S28197
+[STEP] 2026-08-24T08:28:16.131Z - Verifying condition "S28197" in list
+[INFO] 2026-08-24T08:28:16.160Z - Condition "S28197" is visible in list
+[INFO] 2026-08-24T08:28:16.160Z - Admin-side condition with ICD "S28197" created and verified
+[STEP] 2026-08-24T08:28:16.529Z - Step 5: Login to provider portal
+[INFO] 2026-08-24T08:28:19.467Z - Reusing single saved provider session — no login performed
+[INFO] 2026-08-24T08:28:21.666Z - Provider logged in
+[STEP] 2026-08-24T08:28:21.666Z - Step 6: Navigate to Enrollments → open Add Enrollment form
+[STEP] 2026-08-24T08:28:21.666Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:37.342Z - Navigated to Enrollment section
+[INFO] 2026-08-24T08:28:38.238Z - Add Enrollment form opened
+[STEP] 2026-08-24T08:28:38.238Z - Step 7: Open the Condition/Diagnoses dropdown and verify ICD "S28197" is present
+[INFO] 2026-08-24T08:28:39.128Z - ICD "S28197" verified in provider Enrollment Condition dropdown
+[STEP] 2026-08-24T08:28:39.455Z - Step 8: Navigate to CCM Library → Care Plan section
+[STEP] 2026-08-24T08:28:39.458Z - Opening CCM Library
+[INFO] 2026-08-24T08:28:40.613Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:28:40.614Z - Opening Care Plan section
+[INFO] 2026-08-24T08:28:41.667Z - Successfully opened Care Plan section
+[INFO] 2026-08-24T08:28:41.667Z - On Care Plan list page
+[STEP] 2026-08-24T08:28:41.668Z - Step 9: Click Create Care Plan and search for ICD "S28197" in Diagnosis Codes dropdown
+[STEP] 2026-08-24T08:28:41.668Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:28:44.181Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:28:44.181Z - Selecting diagnosis code: S28197
+[INFO] 2026-08-24T08:28:47.210Z - Diagnosis code 'S28197' selected
+[INFO] 2026-08-24T08:28:47.210Z - ✓ Admin-created ICD "S28197" appears in provider Care Plan Diagnosis Codes dropdown and is selectable
+[STEP] 2026-08-24T08:28:47.210Z - Clicking Cancel button
+[INFO] 2026-08-24T08:28:48.660Z - Cancel button clicked
+[STEP] 2026-08-24T08:28:49.140Z - Step 10: Re-login to admin and edit the condition — change name "Condition-orig-aut8080-1787560082819" → "Condition-edited-aut8080-1787560082819"
+[STEP] 2026-08-24T08:28:51.897Z - Attempting to login
+[INFO] 2026-08-24T08:28:53.166Z - Login attempt completed
+[STEP] 2026-08-24T08:28:53.166Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:28:55.153Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:28:55.157Z - Searching for condition: S28197
+[INFO] 2026-08-24T08:28:56.569Z - Search completed for: S28197
+[STEP] 2026-08-24T08:28:56.570Z - Opening action menu
+[INFO] 2026-08-24T08:28:57.463Z - Action menu opened
+[STEP] 2026-08-24T08:28:57.465Z - Clicking Edit in action menu
+[INFO] 2026-08-24T08:28:58.682Z - Edit mode opened
+[STEP] 2026-08-24T08:28:58.683Z - Entering Condition Name: Condition-edited-aut8080-1787560082819
+[INFO] 2026-08-24T08:28:59.295Z - Condition Name entered: Condition-edited-aut8080-1787560082819
+[STEP] 2026-08-24T08:28:59.295Z - Clicking Save button
+[INFO] 2026-08-24T08:29:00.446Z - Save button clicked
+[INFO] 2026-08-24T08:29:00.446Z - Admin condition name edited: "Condition-orig-aut8080-1787560082819" → "Condition-edited-aut8080-1787560082819"
+[STEP] 2026-08-24T08:29:00.446Z - Step 11: Verify the edited condition is still indexed by the same ICD in the admin list
+[STEP] 2026-08-24T08:29:00.446Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:29:01.184Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:29:01.184Z - Searching for condition: S28197
+[INFO] 2026-08-24T08:29:02.284Z - Search completed for: S28197
+[STEP] 2026-08-24T08:29:02.284Z - Verifying condition "S28197" in list
+[INFO] 2026-08-24T08:29:02.292Z - Condition "S28197" is visible in list
+[STEP] 2026-08-24T08:29:02.340Z - Step 12: Re-login to provider and verify the EDITED name propagated to the Enrollment dropdown
+[INFO] 2026-08-24T08:29:05.048Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:07.342Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:23.243Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:34.817Z - afterAll: Cleanup — attempt to delete admin condition "S28197"
+[STEP] 2026-08-24T08:29:37.739Z - Attempting to login
+[INFO] 2026-08-24T08:29:39.160Z - Login attempt completed
+[STEP] 2026-08-24T08:29:39.160Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:29:42.638Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:29:42.638Z - Searching for condition: S28197
+[INFO] 2026-08-24T08:29:44.334Z - Search completed for: S28197
+[STEP] 2026-08-24T08:29:44.334Z - Opening action menu
+[INFO] 2026-08-24T08:29:45.150Z - Action menu opened
+[STEP] 2026-08-24T08:29:45.150Z - Clicking Delete in action menu
+[INFO] 2026-08-24T08:30:15.166Z - Cleanup could not delete admin condition "S28197" — locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Delete' })
+

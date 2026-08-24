@@ -1,0 +1,13 @@
+[INFO] 2026-08-24T08:43:02.246Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:43:02.264Z - Opening patient chart from global search for: Reynolds, Loma
+[INFO] 2026-08-24T08:43:07.998Z - Patient chart opened from global search for: Reynolds, Loma
+[STEP] 2026-08-24T08:43:08.117Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:43:18.341Z - beforeEach seed failed (continuing): page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//button[text()=\'Vitals\']') to be visible
+
+[STEP] 2026-08-24T08:43:18.341Z - Opening Escalate to Provider form
+[STEP] 2026-08-24T08:43:18.343Z - Clicking Escalate to Provider button
+[INFO] 2026-08-24T08:43:22.422Z - Escalate to Provider clicked
+[STEP] 2026-08-24T08:43:22.422Z - Checking if Escalate to Provider button is active
+[INFO] 2026-08-24T08:43:52.556Z - Escalate to Provider form opened

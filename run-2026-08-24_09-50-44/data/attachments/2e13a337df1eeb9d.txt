@@ -1,0 +1,57 @@
+[ERROR] 2026-08-24T08:41:36.923Z - Failed to click patient name: Wuckert, Brennon
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('span[class*=\'MuiTypography-title2\']').filter({ hasText: 'Wuckert, Brennon' }).first() to be visible
+
+    at AlertsPage.clickPatientName (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/alerts/alerts.page.ts:392:24)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/alerts/alerts.spec.ts:1251:30 {
+  log: [
+    "  - waiting for locator('span[class*=\\'MuiTypography-title2\\']').filter({ hasText: 'Wuckert, Brennon' }).first() to be visible"
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/alerts/alerts.page.ts',
+      line: 392,
+      column: 24,
+      function: 'AlertsPage.clickPatientName'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('span[class*=\\'MuiTypography-title2\\']').filter({ hasText: 'Wuckert, Brennon' }).first()",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: `span[class*='MuiTypography-title2'] >> internal:has-text="Wuckert, Brennon"i >> nth=0`,
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@232',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@232',
+      _title: "Wait for selector locator('span[class*=\\'MuiTypography-title2\\']').filter({ hasText: 'Wuckert, Brennon' }).first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560896923,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('span[class*=\\'MuiTypography-title2\\']').filter({ hasText: 'Wuckert, Brennon' }).first() to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('span[class*=\\'MuiTypography-title2\\']').filter({ hasText: 'Wuckert, Brennon' }).first() to be visible\x1B[22m\n" +
+        '\n' +
+        '    at AlertsPage.clickPatientName (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/alerts/alerts.page.ts:392:24)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/alerts/alerts.spec.ts:1251:30',
+      cause: undefined
+    }
+  }
+}

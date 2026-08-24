@@ -1,0 +1,77 @@
+[STEP] 2026-08-24T08:25:27.535Z - Test 2: Verify complete modify enrollment workflow - ICD, Care Manager, Provider, Insurance
+[INFO] 2026-08-24T08:25:27.535Z - Logging in and navigating to Enrollment section
+[INFO] 2026-08-24T08:25:32.502Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:32.502Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:25:32.516Z - Creating patient via UI: Pagac, Santa
+[STEP] 2026-08-24T08:25:32.516Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:25:38.907Z - Patient details drawer opened
+[STEP] 2026-08-24T08:25:38.907Z - Filling demographics for Santa Pagac
+[STEP] 2026-08-24T08:25:45.517Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:25:46.158Z - Setting location: Automation
+[STEP] 2026-08-24T08:25:46.690Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:25:47.403Z - Clicking Save & Next
+[INFO] 2026-08-24T08:25:49.391Z - [createPatientViaUI] created "Pagac, Santa"
+[STEP] 2026-08-24T08:25:49.391Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:04.502Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:04.502Z - Adding new enrollment
+[INFO] 2026-08-24T08:26:09.118Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:26:10.330Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:26:10.331Z - Patient: Pagac, Santa | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:10.985Z - Validating enrollment result
+[INFO] 2026-08-24T08:26:10.985Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:26:10.985Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:26:10.985Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:26:11.021Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:26:11.021Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:26:11.021Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:26:11.021Z - Final enrollment details:
+[INFO] 2026-08-24T08:26:11.022Z -   Patient: Pagac, Santa
+[INFO] 2026-08-24T08:26:11.022Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:26:11.022Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:26:11.022Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:26:11.022Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:26:11.022Z - Enrolled Pagac, Santa in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:11.022Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:26.154Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:26.154Z - Applying status filter: New
+[STEP] 2026-08-24T08:26:26.959Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:28.111Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:26:28.111Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:29.052Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:29.618Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:26:29.618Z - Moving enrollment to Active for "Pagac" (RPM)
+[STEP] 2026-08-24T08:26:29.618Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:29.619Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:30.187Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:30.187Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:32.191Z - "Move to Active" confirmed for "Pagac"
+[INFO] 2026-08-24T08:26:32.191Z - Moved Pagac, Santa to Active
+[STEP] 2026-08-24T08:26:32.191Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:48.053Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:48.054Z - Applying status filter: Active
+[STEP] 2026-08-24T08:26:48.769Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:49.480Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:26:49.481Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:59.485Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:59.486Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:59.645Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:59.646Z - Waiting for enrollment list to finish loading
+Operating on seeded ACTIVE enrollment: Pagac, Santa (RPM), CM: Autofirstarnnuw Autolastarnnuw, Provider: Anny Vate
+
+=== CAPTURING INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: 
+Initial Provider: 
+
+=== UPDATED ENROLLMENT ===
+Updated ICD Code: (H66457) - Condition-edited-aut8729-1787292816645 - Automated test description - aut8729
+Updated Care Manager: Autofirstlatvjs Autolastlatvjs
+Updated Provider: Anny Vate
+✓ Update Plan clicked - Returned to Enrollment List
+
+=== ENROLLMENT LIST VALIDATION ===
+⚠️  LIMITATION: Multiple ICDs present - cannot verify specific ICD in truncated display
+✓ ICD update completed in form
+✓ Care Manager and Provider updated successfully

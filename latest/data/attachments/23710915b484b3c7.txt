@@ -1,0 +1,57 @@
+[STEP] 2026-08-24T08:34:04.091Z - Login to Provider Portal
+[INFO] 2026-08-24T08:34:06.511Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:34:08.241Z - Navigate to RTM Library > Assessment
+[STEP] 2026-08-24T08:34:08.241Z - Opening RPM Library
+[INFO] 2026-08-24T08:34:09.775Z - Successfully opened RTM Library
+[STEP] 2026-08-24T08:34:09.775Z - Opening Assessment section
+[INFO] 2026-08-24T08:34:15.175Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:34:15.176Z - Test: Search functionality
+[STEP] 2026-08-24T08:34:15.176Z - Creating assessment: SearchA 1787560455176
+[STEP] 2026-08-24T08:34:15.176Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:34:16.544Z - Add Assessment form opened
+[STEP] 2026-08-24T08:34:16.544Z - Filling assessment title: SearchA 1787560455176
+[INFO] 2026-08-24T08:34:16.574Z - Assessment title filled: SearchA 1787560455176
+[STEP] 2026-08-24T08:34:16.575Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:34:17.522Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:34:17.522Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:34:18.562Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:34:18.562Z - Clicking Next button
+[INFO] 2026-08-24T08:34:19.729Z - Next button clicked
+[STEP] 2026-08-24T08:34:19.732Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-08-24T08:34:21.112Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-08-24T08:34:21.112Z - Clicking Next button
+[INFO] 2026-08-24T08:34:22.292Z - Next button clicked
+[STEP] 2026-08-24T08:34:22.292Z - Clicking Finish button
+[INFO] 2026-08-24T08:34:23.337Z - Finish button clicked
+[INFO] 2026-08-24T08:34:23.337Z - Assessment 'SearchA 1787560455176' created successfully
+[STEP] 2026-08-24T08:34:23.337Z - Creating assessment: SearchB 1787560455176
+[STEP] 2026-08-24T08:34:23.337Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:34:24.657Z - Add Assessment form opened
+[STEP] 2026-08-24T08:34:24.657Z - Filling assessment title: SearchB 1787560455176
+[INFO] 2026-08-24T08:34:24.685Z - Assessment title filled: SearchB 1787560455176
+[STEP] 2026-08-24T08:34:24.685Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:34:25.521Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:34:25.521Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:34:26.332Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:34:26.332Z - Clicking Next button
+[INFO] 2026-08-24T08:34:27.429Z - Next button clicked
+[STEP] 2026-08-24T08:34:27.429Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-08-24T08:34:28.536Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-08-24T08:34:28.536Z - Clicking Next button
+[INFO] 2026-08-24T08:34:29.647Z - Next button clicked
+[STEP] 2026-08-24T08:34:29.647Z - Clicking Finish button
+[INFO] 2026-08-24T08:34:30.704Z - Finish button clicked
+[INFO] 2026-08-24T08:34:30.705Z - Assessment 'SearchB 1787560455176' created successfully
+[INFO] 2026-08-24T08:34:30.705Z - Created 'SearchA 1787560455176' and 'SearchB 1787560455176'
+[STEP] 2026-08-24T08:34:30.705Z - Searching for assessment: SearchA 1787560455176
+[INFO] 2026-08-24T08:34:31.477Z - Search completed for assessment: SearchA 1787560455176
+[INFO] 2026-08-24T08:34:31.483Z - Search for 'SearchA 1787560455176' returned correct result
+[STEP] 2026-08-24T08:34:31.483Z - Searching for assessment: SearchB 1787560455176
+[INFO] 2026-08-24T08:34:32.202Z - Search completed for assessment: SearchB 1787560455176
+[INFO] 2026-08-24T08:34:32.206Z - Search for 'SearchB 1787560455176' returned correct result
+[STEP] 2026-08-24T08:34:32.206Z - Searching for assessment: NonExistent1787560455176
+[INFO] 2026-08-24T08:34:32.956Z - Search completed for assessment: NonExistent1787560455176
+[INFO] 2026-08-24T08:34:32.979Z - Search for non-existent assessment returned no results
+[STEP] 2026-08-24T08:34:32.979Z - Clearing search box
+[INFO] 2026-08-24T08:34:33.554Z - Search cleared
+[INFO] 2026-08-24T08:34:33.554Z - Search functionality test completed

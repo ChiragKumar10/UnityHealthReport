@@ -1,0 +1,94 @@
+[INFO] 2026-08-24T08:46:11.930Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:46:11.941Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:46:11.953Z - Creating patient via UI: Runolfsdottir, Leon
+[STEP] 2026-08-24T08:46:11.955Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:46:17.231Z - Patient details drawer opened
+[STEP] 2026-08-24T08:46:17.232Z - Filling demographics for Leon Runolfsdottir
+[STEP] 2026-08-24T08:46:25.947Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:46:27.459Z - Setting location: Automation
+[STEP] 2026-08-24T08:46:28.093Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:46:28.734Z - Clicking Save & Next
+[INFO] 2026-08-24T08:46:31.726Z - [createPatientViaUI] created "Runolfsdottir, Leon"
+[STEP] 2026-08-24T08:46:31.726Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:46:46.954Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:46:46.954Z - Adding new enrollment
+[INFO] 2026-08-24T08:46:50.038Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:46:51.570Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:46:51.570Z - Patient: Runolfsdottir, Leon | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:52.377Z - Validating enrollment result
+[INFO] 2026-08-24T08:46:52.377Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:46:52.377Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:46:52.377Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:46:52.416Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:46:52.416Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:46:52.416Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:46:52.416Z - Final enrollment details:
+[INFO] 2026-08-24T08:46:52.417Z -   Patient: Runolfsdottir, Leon
+[INFO] 2026-08-24T08:46:52.417Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:46:52.417Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:46:52.417Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:46:52.417Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:46:52.418Z - Enrolled Runolfsdottir, Leon in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:52.418Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:47:07.702Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:47:07.702Z - Applying status filter: New
+[STEP] 2026-08-24T08:47:08.400Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:47:09.479Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:47:09.479Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:47:10.106Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:47:11.107Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:47:11.114Z - Moving enrollment to Active for "Runolfsdottir" (CCM)
+[STEP] 2026-08-24T08:47:11.114Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:47:11.114Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:47:11.605Z - Date filter applied successfully
+[STEP] 2026-08-24T08:47:11.605Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:47:13.261Z - "Move to Active" confirmed for "Runolfsdottir"
+[INFO] 2026-08-24T08:47:13.261Z - Moved Runolfsdottir, Leon to Active
+[INFO] 2026-08-24T08:47:18.202Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:47:18.218Z - Opening CCM Library
+[INFO] 2026-08-24T08:47:21.456Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:47:21.457Z - Opening Care Plan section
+[INFO] 2026-08-24T08:47:22.604Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:47:22.604Z - Creating minimal care plan: CPReview 1787559959311
+[STEP] 2026-08-24T08:47:22.604Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:47:27.646Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:47:27.646Z - Selecting diagnosis code: D3190
+[INFO] 2026-08-24T08:47:33.007Z - Diagnosis code 'D3190' selected
+[STEP] 2026-08-24T08:47:33.007Z - Filling care plan name: CPReview 1787559959311
+[INFO] 2026-08-24T08:47:33.151Z - Care plan name filled: CPReview 1787559959311
+[STEP] 2026-08-24T08:47:33.152Z - Selecting section: Overview
+[INFO] 2026-08-24T08:47:33.717Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:47:33.717Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:47:34.232Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:47:34.232Z - Clicking Next button
+[INFO] 2026-08-24T08:47:36.643Z - Next button clicked
+[STEP] 2026-08-24T08:47:36.644Z - Filling Overview section
+[INFO] 2026-08-24T08:47:36.663Z - Care Plan header filled
+[INFO] 2026-08-24T08:47:36.694Z - Care Plan footer filled
+[STEP] 2026-08-24T08:47:36.694Z - Clicking Next button
+[INFO] 2026-08-24T08:47:38.836Z - Next button clicked
+[STEP] 2026-08-24T08:47:38.838Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-08-24T08:47:38.886Z - Section note filled
+[INFO] 2026-08-24T08:47:38.953Z - Goal title filled: Seed Goal
+[INFO] 2026-08-24T08:47:40.718Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:47:40.718Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:47:40.772Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:47:41.683Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:47:42.620Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:47:42.620Z - Single Select - 3 options added
+[STEP] 2026-08-24T08:47:42.620Z - Clicking Finish button
+[INFO] 2026-08-24T08:47:44.838Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:47:44.838Z - Minimal care plan 'CPReview 1787559959311' created
+[INFO] 2026-08-24T08:47:44.838Z - Seed care plan template created: CPReview 1787559959311
+[STEP] 2026-08-24T08:47:44.838Z - Opening patient chart from global search for: Runolfsdottir, Leon
+[INFO] 2026-08-24T08:47:46.615Z - Patient chart opened from global search for: Runolfsdottir, Leon
+[STEP] 2026-08-24T08:47:46.615Z - Assigning Care Plan "CPReview 1787559959311" to patient
+[INFO] 2026-08-24T08:48:06.793Z - Assignment complete: "CPReview 1787559959311"
+[STEP] 2026-08-24T08:48:06.793Z - Seeding progress entries via Modify → Next → answer → Finish
+[INFO] 2026-08-24T08:48:18.976Z - Progress entries seeded via Modify workflow
+[INFO] 2026-08-24T08:48:21.773Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:48:22.750Z - Opening patient chart from global search for: Runolfsdottir, Leon
+[INFO] 2026-08-24T08:48:27.771Z - Patient chart opened from global search for: Runolfsdottir, Leon
+[INFO] 2026-08-24T08:48:36.990Z - AUT_CP_015 PASSED

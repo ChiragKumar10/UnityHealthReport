@@ -1,0 +1,59 @@
+[INFO] 2026-08-24T08:28:40.419Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:28:40.376+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:28:40.859Z - Setup: login → patient chart → CCM → Care Team
+[INFO] 2026-08-24T08:28:43.097Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:28:45.336Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:28:45.386Z - Creating patient via UI: Balistreri, Hugo
+[STEP] 2026-08-24T08:28:45.389Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:28:48.222Z - Patient details drawer opened
+[STEP] 2026-08-24T08:28:48.222Z - Filling demographics for Hugo Balistreri
+[STEP] 2026-08-24T08:28:49.379Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:28:49.641Z - Setting location: Automation
+[STEP] 2026-08-24T08:28:50.027Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:28:50.631Z - Clicking Save & Next
+[INFO] 2026-08-24T08:28:53.008Z - [createPatientViaUI] created "Balistreri, Hugo"
+[STEP] 2026-08-24T08:28:53.009Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:08.181Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:08.193Z - Adding new enrollment
+[INFO] 2026-08-24T08:29:12.427Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:29:14.099Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:29:14.099Z - Patient: Balistreri, Hugo | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:29:15.454Z - Validating enrollment result
+[INFO] 2026-08-24T08:29:15.454Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:29:15.454Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:29:15.457Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:29:15.763Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:29:15.763Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:29:15.763Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:29:15.763Z - Final enrollment details:
+[INFO] 2026-08-24T08:29:15.766Z -   Patient: Balistreri, Hugo
+[INFO] 2026-08-24T08:29:15.766Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:29:15.766Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:29:15.766Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:29:15.766Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:29:15.766Z - Enrolled Balistreri, Hugo in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:29:15.766Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:31.177Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:31.177Z - Applying status filter: New
+[STEP] 2026-08-24T08:29:31.875Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:32.975Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:29:32.980Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:29:33.606Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:34.734Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:29:34.738Z - Moving enrollment to Active for "Balistreri" (CCM)
+[STEP] 2026-08-24T08:29:34.738Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:29:34.739Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:29:35.343Z - Date filter applied successfully
+[STEP] 2026-08-24T08:29:35.343Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:36.862Z - "Move to Active" confirmed for "Balistreri"
+[INFO] 2026-08-24T08:29:36.862Z - Moved Balistreri, Hugo to Active
+[STEP] 2026-08-24T08:29:36.863Z - Opening patient chart from global search for: Balistreri, Hugo
+[INFO] 2026-08-24T08:29:39.509Z - Patient chart opened from global search for: Balistreri, Hugo
+[INFO] 2026-08-24T08:29:42.850Z - Setup ✓: on patient-chart CCM → Care Team
+[INFO] 2026-08-24T08:29:42.919Z - Scenario 1 ✓: Care Team list shows all required columns
+[INFO] 2026-08-24T08:29:50.446Z - Scenario 2 ✓: Care team member saved ("Autofirstbfstuw Autolastbfstuw")
+[INFO] 2026-08-24T08:29:50.478Z - Scenario 4 ✓: "Autofirstbfstuw Autolastbfstuw" present in list at row index 0
+[INFO] 2026-08-24T08:29:50.635Z - Scenario 5 ✓: search filters care-team list (matched=true, empty=false, changed=false)
+[INFO] 2026-08-24T08:29:51.099Z - Scenario 3 ✓: "Autofirstbfstuw Autolastbfstuw" deleted — top row now: "01"
+[INFO] 2026-08-24T08:29:51.102Z - AUT_PT_CT_001 PASSED — full patient-wallet Care Team workflow verified

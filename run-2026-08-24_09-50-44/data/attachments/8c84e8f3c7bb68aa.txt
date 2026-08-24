@@ -1,0 +1,61 @@
+[STEP] 2026-08-24T08:30:58.411Z - Setup: login → patient chart → CCM → Medical History
+[INFO] 2026-08-24T08:31:01.693Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:03.687Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:31:03.699Z - Creating patient via UI: SkilesWeimann, Chloe
+[STEP] 2026-08-24T08:31:03.699Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:31:11.468Z - Patient details drawer opened
+[STEP] 2026-08-24T08:31:11.468Z - Filling demographics for Chloe SkilesWeimann
+[STEP] 2026-08-24T08:31:17.996Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:31:19.322Z - Setting location: Automation
+[STEP] 2026-08-24T08:31:20.295Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:31:21.845Z - Clicking Save & Next
+[INFO] 2026-08-24T08:31:26.393Z - [createPatientViaUI] created "SkilesWeimann, Chloe"
+[STEP] 2026-08-24T08:31:26.394Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:42.023Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:31:42.023Z - Adding new enrollment
+[INFO] 2026-08-24T08:31:46.662Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:31:48.158Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:31:48.158Z - Patient: SkilesWeimann, Chloe | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:31:49.157Z - Validating enrollment result
+[INFO] 2026-08-24T08:31:49.157Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:31:49.157Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:31:49.157Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:31:49.403Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:31:49.404Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:31:49.404Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:31:49.404Z - Final enrollment details:
+[INFO] 2026-08-24T08:31:49.404Z -   Patient: SkilesWeimann, Chloe
+[INFO] 2026-08-24T08:31:49.404Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:31:49.404Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:31:49.404Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:31:49.404Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:31:49.404Z - Enrolled SkilesWeimann, Chloe in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:31:49.404Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:32:04.914Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:04.914Z - Applying status filter: New
+[STEP] 2026-08-24T08:32:05.570Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:06.370Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:32:06.371Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:32:06.920Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:07.453Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:32:07.453Z - Moving enrollment to Active for "SkilesWeimann" (CCM)
+[STEP] 2026-08-24T08:32:07.453Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:32:07.453Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:32:07.655Z - Date filter applied successfully
+[STEP] 2026-08-24T08:32:07.655Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:08.641Z - "Move to Active" confirmed for "SkilesWeimann"
+[INFO] 2026-08-24T08:32:08.642Z - Moved SkilesWeimann, Chloe to Active
+[STEP] 2026-08-24T08:32:08.642Z - Opening patient chart from global search for: SkilesWeimann, Chloe
+[INFO] 2026-08-24T08:32:11.780Z - Patient chart opened from global search for: SkilesWeimann, Chloe
+[INFO] 2026-08-24T08:32:13.565Z - Setup ✓: on patient-chart CCM → Medical History
+[INFO] 2026-08-24T08:32:13.789Z - Scenario 1 ✓: Conditions list view is present
+[INFO] 2026-08-24T08:32:13.793Z - Scenario 2 attempt 1: trying ICD "B01"
+[INFO] 2026-08-24T08:32:24.686Z - Scenario 2 ✓: saved condition with ICD "B01"
+[INFO] 2026-08-24T08:32:25.421Z - Scenario 4: Edit-form note value = "PW-MH test 1787560333565"
+[INFO] 2026-08-24T08:32:25.428Z - Scenario 4 ✓: Edit form pre-populated with existing data
+[INFO] 2026-08-24T08:32:25.915Z - Scenario 6 ✓: Updated-at date (08/24/2026) visible in list
+[INFO] 2026-08-24T08:32:25.915Z - Scenario 6 note: updated-by provider name not surfaced in the list view
+[INFO] 2026-08-24T08:32:25.915Z - Scenario 3 ✓: Edit saved and condition persists in the list
+[INFO] 2026-08-24T08:32:28.079Z - Scenario 5 ✓: condition deleted and removed from list

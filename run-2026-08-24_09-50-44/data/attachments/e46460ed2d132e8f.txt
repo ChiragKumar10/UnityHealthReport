@@ -1,0 +1,147 @@
+[INFO] 2026-08-24T08:40:24.057Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:24.069Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:40:24.073Z - Creating patient via UI: Schumm, Carole
+[STEP] 2026-08-24T08:40:24.074Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:40:26.731Z - Patient details drawer opened
+[STEP] 2026-08-24T08:40:26.731Z - Filling demographics for Carole Schumm
+[STEP] 2026-08-24T08:40:29.721Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:40:30.919Z - Setting location: Automation
+[STEP] 2026-08-24T08:40:31.326Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:40:31.929Z - Clicking Save & Next
+[INFO] 2026-08-24T08:40:33.952Z - [createPatientViaUI] created "Schumm, Carole"
+[STEP] 2026-08-24T08:40:33.952Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:49.046Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:49.046Z - Adding new enrollment
+[INFO] 2026-08-24T08:40:50.553Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:40:51.718Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:40:51.719Z - Patient: Schumm, Carole | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:40:52.472Z - Validating enrollment result
+[INFO] 2026-08-24T08:40:52.472Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:40:52.472Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:40:52.472Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:40:52.511Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:40:52.511Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:40:52.511Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:40:52.511Z - Final enrollment details:
+[INFO] 2026-08-24T08:40:52.511Z -   Patient: Schumm, Carole
+[INFO] 2026-08-24T08:40:52.512Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:40:52.512Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:40:52.512Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:40:52.512Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:40:52.512Z - Enrolled Schumm, Carole in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:40:52.512Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:41:07.722Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:41:07.723Z - Applying status filter: New
+[STEP] 2026-08-24T08:41:08.540Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:09.794Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:41:09.796Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:41:10.551Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:11.351Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:41:11.351Z - Moving enrollment to Active for "Schumm" (CCM)
+[STEP] 2026-08-24T08:41:11.351Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:41:11.351Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:41:11.941Z - Date filter applied successfully
+[STEP] 2026-08-24T08:41:11.941Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:13.331Z - "Move to Active" confirmed for "Schumm"
+[INFO] 2026-08-24T08:41:13.331Z - Moved Schumm, Carole to Active
+[STEP] 2026-08-24T08:41:13.332Z - Navigating to Document Library
+[INFO] 2026-08-24T08:41:15.870Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:41:15.870Z - Clicking folder: Home Exercise
+[INFO] 2026-08-24T08:41:17.605Z - Opened folder: Home Exercise
+[STEP] 2026-08-24T08:41:17.605Z - Uploading document: FHome Exercise 1787560873331
+[STEP] 2026-08-24T08:41:17.605Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:41:19.519Z - Upload Material form opened
+[STEP] 2026-08-24T08:41:19.519Z - Selecting tag: Home Exercises
+[INFO] 2026-08-24T08:41:21.198Z - Tag selected: Home Exercises
+[STEP] 2026-08-24T08:41:21.198Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:41:23.025Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:41:23.025Z - Filling file name: FHome Exercise 1787560873331
+[STEP] 2026-08-24T08:41:23.450Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-08-24T08:41:23.547Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:41:24.638Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-08-24T08:41:24.638Z - Clicking Upload button
+[INFO] 2026-08-24T08:41:24.665Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:41:27.749Z - Upload completed
+[INFO] 2026-08-24T08:41:27.749Z - Document "FHome Exercise 1787560873331" uploaded successfully
+[STEP] 2026-08-24T08:41:27.749Z - Navigating to Document Library
+[INFO] 2026-08-24T08:41:29.341Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:41:29.341Z - Clicking folder: Home Exercise
+[INFO] 2026-08-24T08:41:30.944Z - Opened folder: Home Exercise
+[STEP] 2026-08-24T08:41:30.945Z - Searching document: FHome Exercise 1787560873331
+[INFO] 2026-08-24T08:41:33.029Z - Search completed: FHome Exercise 1787560873331
+[STEP] 2026-08-24T08:41:33.029Z - Assigning document (row 0) to patient: Schumm
+[STEP] 2026-08-24T08:41:33.029Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:41:34.067Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:41:34.067Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:41:35.673Z - Clicked: Assign
+[INFO] 2026-08-24T08:41:41.839Z - Document assigned to patient: Schumm
+[INFO] 2026-08-24T08:41:41.840Z - ✓ Assigned from Home Exercise
+[STEP] 2026-08-24T08:41:41.840Z - Navigating to Document Library
+[INFO] 2026-08-24T08:41:43.418Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:41:43.418Z - Clicking folder: Education
+[INFO] 2026-08-24T08:41:44.966Z - Opened folder: Education
+[STEP] 2026-08-24T08:41:44.966Z - Uploading document: FEducation 1787560873331
+[STEP] 2026-08-24T08:41:44.966Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:41:46.561Z - Upload Material form opened
+[STEP] 2026-08-24T08:41:46.561Z - Selecting tag: Education
+[INFO] 2026-08-24T08:41:47.981Z - Tag selected: Education
+[STEP] 2026-08-24T08:41:47.981Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:41:49.409Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:41:49.409Z - Filling file name: FEducation 1787560873331
+[STEP] 2026-08-24T08:41:49.730Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[INFO] 2026-08-24T08:41:49.749Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:41:50.771Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[STEP] 2026-08-24T08:41:50.772Z - Clicking Upload button
+[INFO] 2026-08-24T08:41:50.779Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:41:53.844Z - Upload completed
+[INFO] 2026-08-24T08:41:53.844Z - Document "FEducation 1787560873331" uploaded successfully
+[STEP] 2026-08-24T08:41:53.844Z - Navigating to Document Library
+[INFO] 2026-08-24T08:41:55.439Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:41:55.439Z - Clicking folder: Education
+[INFO] 2026-08-24T08:41:56.979Z - Opened folder: Education
+[STEP] 2026-08-24T08:41:56.980Z - Searching document: FEducation 1787560873331
+[INFO] 2026-08-24T08:41:59.057Z - Search completed: FEducation 1787560873331
+[STEP] 2026-08-24T08:41:59.058Z - Assigning document (row 0) to patient: Schumm
+[STEP] 2026-08-24T08:41:59.058Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:42:00.090Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:42:00.091Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:42:01.636Z - Clicked: Assign
+[INFO] 2026-08-24T08:42:07.788Z - Document assigned to patient: Schumm
+[INFO] 2026-08-24T08:42:07.788Z - ✓ Assigned from Education
+[STEP] 2026-08-24T08:42:07.788Z - Navigating to Document Library
+[INFO] 2026-08-24T08:42:09.361Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:42:09.361Z - Clicking folder: Care Plan
+[INFO] 2026-08-24T08:42:10.896Z - Opened folder: Care Plan
+[STEP] 2026-08-24T08:42:10.896Z - Uploading document: FCare Plan 1787560873331
+[STEP] 2026-08-24T08:42:10.896Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:42:12.502Z - Upload Material form opened
+[STEP] 2026-08-24T08:42:12.502Z - Selecting tag: Care Plan
+[INFO] 2026-08-24T08:42:13.924Z - Tag selected: Care Plan
+[STEP] 2026-08-24T08:42:13.924Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:42:15.394Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:42:15.394Z - Filling file name: FCare Plan 1787560873331
+[STEP] 2026-08-24T08:42:15.717Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.doc
+[INFO] 2026-08-24T08:42:15.740Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:42:16.763Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.doc
+[STEP] 2026-08-24T08:42:16.764Z - Clicking Upload button
+[INFO] 2026-08-24T08:42:16.771Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:42:19.830Z - Upload completed
+[INFO] 2026-08-24T08:42:19.830Z - Document "FCare Plan 1787560873331" uploaded successfully
+[STEP] 2026-08-24T08:42:19.830Z - Navigating to Document Library
+[INFO] 2026-08-24T08:42:21.420Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:42:21.420Z - Clicking folder: Care Plan
+[INFO] 2026-08-24T08:42:22.961Z - Opened folder: Care Plan
+[STEP] 2026-08-24T08:42:22.963Z - Searching document: FCare Plan 1787560873331
+[INFO] 2026-08-24T08:42:25.049Z - Search completed: FCare Plan 1787560873331
+[STEP] 2026-08-24T08:42:25.050Z - Assigning document (row 0) to patient: Schumm
+[STEP] 2026-08-24T08:42:25.050Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:42:26.098Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:42:26.098Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:42:27.637Z - Clicked: Assign
+[INFO] 2026-08-24T08:42:33.843Z - Document assigned to patient: Schumm
+[INFO] 2026-08-24T08:42:33.843Z - ✓ Assigned from Care Plan
+[STEP] 2026-08-24T08:42:33.843Z - Opening patient chart from global search for: Schumm, Carole
+[INFO] 2026-08-24T08:42:35.407Z - Patient chart opened from global search for: Schumm, Carole
+[INFO] 2026-08-24T08:42:36.657Z - AUT_DOC_016 PASSED: Multi-folder assign verified

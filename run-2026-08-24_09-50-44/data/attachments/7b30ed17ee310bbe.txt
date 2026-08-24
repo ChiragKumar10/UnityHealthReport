@@ -1,0 +1,125 @@
+[INFO] 2026-08-24T08:34:40.677Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:34:40.599+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:34:41.887Z - Login to Provider Portal
+[INFO] 2026-08-24T08:34:47.994Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:34:48.009Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:34:48.144Z - Creating patient via UI: Predovic, Jeannie
+[STEP] 2026-08-24T08:34:48.144Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:34:55.550Z - Patient details drawer opened
+[STEP] 2026-08-24T08:34:55.550Z - Filling demographics for Jeannie Predovic
+[STEP] 2026-08-24T08:34:58.669Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:35:02.932Z - Setting location: Automation
+[STEP] 2026-08-24T08:35:03.545Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:35:04.344Z - Clicking Save & Next
+[INFO] 2026-08-24T08:35:06.748Z - [createPatientViaUI] created "Predovic, Jeannie"
+[STEP] 2026-08-24T08:35:06.748Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:35:21.934Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:35:21.934Z - Adding new enrollment
+[INFO] 2026-08-24T08:35:27.010Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:35:28.582Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:35:28.586Z - Patient: Predovic, Jeannie | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:35:30.025Z - Validating enrollment result
+[INFO] 2026-08-24T08:35:30.025Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:35:30.025Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:35:30.025Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:35:30.291Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:35:30.292Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:35:30.292Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:35:30.292Z - Final enrollment details:
+[INFO] 2026-08-24T08:35:30.292Z -   Patient: Predovic, Jeannie
+[INFO] 2026-08-24T08:35:30.292Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:35:30.292Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:35:30.292Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:35:30.292Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:35:30.292Z - Enrolled Predovic, Jeannie in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:35:30.292Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:35:45.705Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:35:45.705Z - Applying status filter: New
+[STEP] 2026-08-24T08:35:46.365Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:47.315Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:35:47.319Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:35:47.923Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:49.158Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:35:49.158Z - Moving enrollment to Active for "Predovic" (RTM)
+[STEP] 2026-08-24T08:35:49.159Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:35:49.162Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:35:49.545Z - Date filter applied successfully
+[STEP] 2026-08-24T08:35:49.546Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:50.730Z - "Move to Active" confirmed for "Predovic"
+[INFO] 2026-08-24T08:35:50.730Z - Moved Predovic, Jeannie to Active
+[INFO] 2026-08-24T08:35:50.731Z - [monitoring-03] seeded ACTIVE RTM patient: Predovic, Jeannie
+[STEP] 2026-08-24T08:35:50.731Z - Opening patient chart from global search for: Predovic, Jeannie
+[INFO] 2026-08-24T08:35:53.322Z - Patient chart opened from global search for: Predovic, Jeannie
+[STEP] 2026-08-24T08:35:56.649Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:35:57.767Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:35:57.767Z - Adding vital: Pain Scale with value 25
+[STEP] 2026-08-24T08:35:57.767Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:35:58.094Z - Add Vital form opened
+[STEP] 2026-08-24T08:35:58.094Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:35:58.777Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:35:58.784Z - Entering vital value: 25
+[INFO] 2026-08-24T08:35:59.133Z - Successfully entered vital value: 25
+[STEP] 2026-08-24T08:35:59.136Z - Saving vital
+[INFO] 2026-08-24T08:35:59.378Z - Successfully saved vital
+[INFO] 2026-08-24T08:35:59.378Z - Successfully added vital: Pain Scale with value 25
+[INFO] 2026-08-24T08:35:59.379Z - beforeEach: Abnormal Pain Scale (25) added for Predovic, Jeannie — polling Alerts counter
+[STEP] 2026-08-24T08:35:59.405Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:35:59.417Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:00.017Z - Found 2 backdrop(s) — attempting to dismiss
+[INFO] 2026-08-24T08:36:01.133Z - Drawer closed via Escape
+[INFO] 2026-08-24T08:36:01.154Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:36:06.644Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:36:13.532Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:13.534Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:36:15.361Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:36:15.362Z - Getting count for Alerts
+[INFO] 2026-08-24T08:36:15.369Z - Alerts count: 0
+[STEP] 2026-08-24T08:36:20.372Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:20.373Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:20.899Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:21.439Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:21.439Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:36:22.569Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:36:22.569Z - Getting count for Alerts
+[INFO] 2026-08-24T08:36:22.586Z - Alerts count: 0
+[STEP] 2026-08-24T08:36:30.592Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:30.593Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:31.113Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:31.646Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:31.647Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:36:32.704Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:36:32.705Z - Getting count for Alerts
+[INFO] 2026-08-24T08:36:32.714Z - Alerts count: 0
+[STEP] 2026-08-24T08:36:42.717Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:42.717Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:43.241Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:43.758Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:43.758Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:36:44.846Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:36:44.846Z - Getting count for Alerts
+[INFO] 2026-08-24T08:36:44.883Z - Alerts count: 0
+[STEP] 2026-08-24T08:36:54.893Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:54.893Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:55.444Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:55.997Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:55.997Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:36:57.220Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:36:57.220Z - Getting count for Alerts
+[INFO] 2026-08-24T08:36:57.268Z - Alerts count: 0
+[STEP] 2026-08-24T08:37:07.272Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:37:07.274Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:37:07.822Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:37:08.371Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:37:08.371Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:37:09.431Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:37:09.431Z - Getting count for Alerts
+[INFO] 2026-08-24T08:37:09.441Z - Alerts count: 0
+[STEP] 2026-08-24T08:37:19.445Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:37:19.445Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:37:19.968Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:37:20.526Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:37:20.526Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:37:21.699Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:37:21.699Z - Getting count for Alerts
+[INFO] 2026-08-24T08:37:21.718Z - Alerts count: 0

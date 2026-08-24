@@ -1,0 +1,124 @@
+[INFO] 2026-08-24T08:37:24.389Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:37:24.358+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:37:25.008Z - Login to Provider Portal
+[INFO] 2026-08-24T08:37:27.707Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:37:29.570Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:37:29.710Z - Creating patient via UI: Quitzon, Dante
+[STEP] 2026-08-24T08:37:29.717Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:37:32.116Z - Patient details drawer opened
+[STEP] 2026-08-24T08:37:32.116Z - Filling demographics for Dante Quitzon
+[STEP] 2026-08-24T08:37:36.353Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:37:36.700Z - Setting location: Automation
+[STEP] 2026-08-24T08:37:37.129Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:37:37.893Z - Clicking Save & Next
+[INFO] 2026-08-24T08:37:40.890Z - [createPatientViaUI] created "Quitzon, Dante"
+[STEP] 2026-08-24T08:37:40.890Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:37:56.154Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:37:56.161Z - Adding new enrollment
+[INFO] 2026-08-24T08:38:00.268Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:38:01.738Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:38:01.738Z - Patient: Quitzon, Dante | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:38:02.668Z - Validating enrollment result
+[INFO] 2026-08-24T08:38:02.669Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:38:02.669Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:38:02.669Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:38:02.693Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:38:02.694Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:38:02.695Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:38:02.695Z - Final enrollment details:
+[INFO] 2026-08-24T08:38:02.695Z -   Patient: Quitzon, Dante
+[INFO] 2026-08-24T08:38:02.696Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:38:02.696Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:38:02.696Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:38:02.696Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:38:02.697Z - Enrolled Quitzon, Dante in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:38:02.698Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:38:18.074Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:38:18.074Z - Applying status filter: New
+[STEP] 2026-08-24T08:38:18.510Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:38:19.238Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:38:19.239Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:38:19.837Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:38:21.074Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:38:21.074Z - Moving enrollment to Active for "Quitzon" (RTM)
+[STEP] 2026-08-24T08:38:21.074Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:38:21.074Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:38:21.666Z - Date filter applied successfully
+[STEP] 2026-08-24T08:38:21.666Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:38:23.109Z - "Move to Active" confirmed for "Quitzon"
+[INFO] 2026-08-24T08:38:23.109Z - Moved Quitzon, Dante to Active
+[INFO] 2026-08-24T08:38:23.109Z - [monitoring-03] seeded ACTIVE RTM patient: Quitzon, Dante
+[STEP] 2026-08-24T08:38:23.123Z - Opening patient chart from global search for: Quitzon, Dante
+[INFO] 2026-08-24T08:38:25.802Z - Patient chart opened from global search for: Quitzon, Dante
+[STEP] 2026-08-24T08:38:27.883Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:38:28.248Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:38:28.248Z - Adding vital: Pain Scale with value 34
+[STEP] 2026-08-24T08:38:28.250Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:38:28.608Z - Add Vital form opened
+[STEP] 2026-08-24T08:38:28.608Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:38:29.117Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:38:29.117Z - Entering vital value: 34
+[INFO] 2026-08-24T08:38:29.209Z - Successfully entered vital value: 34
+[STEP] 2026-08-24T08:38:29.209Z - Saving vital
+[INFO] 2026-08-24T08:38:29.362Z - Successfully saved vital
+[INFO] 2026-08-24T08:38:29.363Z - Successfully added vital: Pain Scale with value 34
+[INFO] 2026-08-24T08:38:29.363Z - beforeEach: Abnormal Pain Scale (34) added for Quitzon, Dante — polling Alerts counter
+[STEP] 2026-08-24T08:38:29.370Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:38:29.370Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:38:30.017Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:38:30.045Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:38:38.373Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:38:45.644Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:38:45.645Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:38:47.472Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:38:47.472Z - Getting count for Alerts
+[INFO] 2026-08-24T08:38:47.483Z - Alerts count: 0
+[STEP] 2026-08-24T08:38:52.486Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:38:52.487Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:38:53.002Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:38:53.521Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:38:53.521Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:38:54.581Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:38:54.581Z - Getting count for Alerts
+[INFO] 2026-08-24T08:38:54.593Z - Alerts count: 0
+[STEP] 2026-08-24T08:39:02.596Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:39:02.596Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:39:03.106Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:39:03.628Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:39:03.628Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:39:04.844Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:39:04.844Z - Getting count for Alerts
+[INFO] 2026-08-24T08:39:04.873Z - Alerts count: 0
+[STEP] 2026-08-24T08:39:14.877Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:39:14.877Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:39:15.388Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:39:15.897Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:39:15.897Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:39:16.960Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:39:16.960Z - Getting count for Alerts
+[INFO] 2026-08-24T08:39:17.007Z - Alerts count: 0
+[STEP] 2026-08-24T08:39:27.011Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:39:27.012Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:39:27.525Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:39:28.038Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:39:28.038Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:39:29.099Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:39:29.099Z - Getting count for Alerts
+[INFO] 2026-08-24T08:39:29.110Z - Alerts count: 0
+[STEP] 2026-08-24T08:39:39.113Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:39:39.113Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:39:39.627Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:39:40.143Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:39:40.143Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:39:41.265Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:39:41.266Z - Getting count for Alerts
+[INFO] 2026-08-24T08:39:41.299Z - Alerts count: 0
+[STEP] 2026-08-24T08:39:51.308Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:39:51.308Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:39:51.820Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:39:52.329Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:39:52.329Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:39:53.403Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:39:53.404Z - Getting count for Alerts
+[INFO] 2026-08-24T08:39:53.412Z - Alerts count: 0

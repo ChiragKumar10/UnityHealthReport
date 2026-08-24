@@ -1,0 +1,85 @@
+[STEP] 2026-08-24T08:25:10.560Z - Test: Re-enroll a UI-seeded CLOSED enrollment
+[INFO] 2026-08-24T08:25:18.831Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:18.831Z - Seeding Closed enrollment via UI (create → enroll → activate → close)
+[STEP] 2026-08-24T08:25:18.844Z - Creating patient via UI: McLaughlin, Carson
+[STEP] 2026-08-24T08:25:18.844Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:25:28.290Z - Patient details drawer opened
+[STEP] 2026-08-24T08:25:28.290Z - Filling demographics for Carson McLaughlin
+[STEP] 2026-08-24T08:25:38.608Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:25:39.822Z - Setting location: Automation
+[STEP] 2026-08-24T08:25:41.048Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:25:42.654Z - Clicking Save & Next
+[INFO] 2026-08-24T08:25:45.698Z - [createPatientViaUI] created "McLaughlin, Carson"
+[STEP] 2026-08-24T08:25:45.699Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:00.960Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:00.960Z - Adding new enrollment
+[INFO] 2026-08-24T08:26:05.579Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:26:07.424Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:26:07.424Z - Patient: McLaughlin, Carson | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:26:08.433Z - Validating enrollment result
+[INFO] 2026-08-24T08:26:08.434Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:26:08.434Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:26:08.434Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:26:08.512Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:26:08.512Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:26:08.512Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:26:08.512Z - Final enrollment details:
+[INFO] 2026-08-24T08:26:08.512Z -   Patient: McLaughlin, Carson
+[INFO] 2026-08-24T08:26:08.512Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:26:08.512Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:26:08.512Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:26:08.513Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:26:08.513Z - Enrolled McLaughlin, Carson in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:26:08.513Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:24.082Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:24.082Z - Applying status filter: New
+[STEP] 2026-08-24T08:26:24.712Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:25.769Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:26:25.769Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:26:26.290Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:27.155Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:26:27.157Z - Moving enrollment to Active for "McLaughlin" (CCM)
+[STEP] 2026-08-24T08:26:27.158Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:27.161Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:27.699Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:27.700Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:29.316Z - "Move to Active" confirmed for "McLaughlin"
+[INFO] 2026-08-24T08:26:29.321Z - Moved McLaughlin, Carson to Active
+[STEP] 2026-08-24T08:26:29.323Z - Close CCM enrollment for McLaughlin, Carson
+[STEP] 2026-08-24T08:26:31.456Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:50.116Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:50.116Z - Applying status filter: Active
+[STEP] 2026-08-24T08:26:50.913Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:51.715Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:26:51.715Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:51.716Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:52.266Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:52.266Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:53.061Z - No active CCM row — nothing to close
+[INFO] 2026-08-24T08:26:53.061Z - Closed McLaughlin, Carson's CCM enrollment
+[STEP] 2026-08-24T08:26:53.061Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:08.199Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:08.199Z - Applying status filter: Closed
+[STEP] 2026-08-24T08:27:08.915Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:09.473Z - Status filter 'Closed' applied successfully
+[STEP] 2026-08-24T08:27:09.473Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:10.067Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:10.589Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:27:10.592Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:10.593Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:10.787Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:10.788Z - Waiting for enrollment list to finish loading
+[STEP] 2026-08-24T08:27:20.786Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:36.502Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:36.503Z - Applying status filter: New
+[STEP] 2026-08-24T08:27:37.018Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:37.582Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:27:37.582Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:47.617Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:47.617Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:47.855Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:47.856Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:48.378Z - Enrollment status verified as NEW in Enrollment List
+[INFO] 2026-08-24T08:27:52.409Z - Re-enrollment workflow validated — patient appears in Enrollment List + Worklist with New status

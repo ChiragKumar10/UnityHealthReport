@@ -1,0 +1,79 @@
+[STEP] 2026-08-24T08:34:13.395Z - Login to Provider Portal
+[INFO] 2026-08-24T08:34:16.866Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:34:26.872Z - Test: E2E - Create Heart Rate alert and verify on Alerts page
+[STEP] 2026-08-24T08:34:26.872Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:34:26.873Z - Creating patient via UI: Rempel, Jennifer
+[STEP] 2026-08-24T08:34:26.873Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:34:30.665Z - Patient details drawer opened
+[STEP] 2026-08-24T08:34:30.665Z - Filling demographics for Jennifer Rempel
+[STEP] 2026-08-24T08:34:33.159Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:34:34.108Z - Setting location: Automation
+[STEP] 2026-08-24T08:34:35.342Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:34:36.707Z - Clicking Save & Next
+[INFO] 2026-08-24T08:34:40.486Z - [createPatientViaUI] created "Rempel, Jennifer"
+[STEP] 2026-08-24T08:34:40.486Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:35:05.839Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:35:05.839Z - Adding new enrollment
+[INFO] 2026-08-24T08:35:09.200Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:35:11.009Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:35:11.009Z - Patient: Rempel, Jennifer | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:35:12.275Z - Validating enrollment result
+[INFO] 2026-08-24T08:35:12.275Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:35:12.275Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:35:12.275Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:35:12.348Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:35:12.348Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:35:12.348Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:35:12.348Z - Final enrollment details:
+[INFO] 2026-08-24T08:35:12.349Z -   Patient: Rempel, Jennifer
+[INFO] 2026-08-24T08:35:12.349Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:35:12.349Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:35:12.349Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:35:12.349Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:35:12.349Z - Enrolled Rempel, Jennifer in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:35:12.349Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:35:38.048Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:35:38.048Z - Applying status filter: New
+[STEP] 2026-08-24T08:35:38.652Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:39.258Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:35:39.258Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:35:39.716Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:40.249Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:35:40.249Z - Moving enrollment to Active for "Rempel" (RPM)
+[STEP] 2026-08-24T08:35:40.249Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:35:40.249Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:35:40.626Z - Date filter applied successfully
+[STEP] 2026-08-24T08:35:40.626Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:41.833Z - "Move to Active" confirmed for "Rempel"
+[INFO] 2026-08-24T08:35:41.835Z - Moved Rempel, Jennifer to Active
+[STEP] 2026-08-24T08:35:41.836Z - Opening patient chart from global search for: Rempel, Jennifer
+[INFO] 2026-08-24T08:35:45.023Z - Patient chart opened from global search for: Rempel, Jennifer
+[INFO] 2026-08-24T08:35:45.033Z - Switched patient chart to RPM platform
+[STEP] 2026-08-24T08:35:45.033Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:35:46.317Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:35:46.318Z - Adding vital: Heart Rate with value 3798
+[STEP] 2026-08-24T08:35:46.318Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:35:46.516Z - Add Vital form opened
+[STEP] 2026-08-24T08:35:46.518Z - Selecting vital type: Heart Rate
+[INFO] 2026-08-24T08:35:46.803Z - Successfully selected vital type: Heart Rate
+[STEP] 2026-08-24T08:35:46.804Z - Entering vital value: 3798
+[INFO] 2026-08-24T08:35:46.850Z - Successfully entered vital value: 3798
+[STEP] 2026-08-24T08:35:46.850Z - Saving vital
+[INFO] 2026-08-24T08:35:46.916Z - Successfully saved vital
+[INFO] 2026-08-24T08:35:46.916Z - Successfully added vital: Heart Rate with value 3798
+[INFO] 2026-08-24T08:35:46.916Z - Heart Rate vital added with value: 3798
+[STEP] 2026-08-24T08:35:46.917Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:35:48.336Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:35:48.336Z - Verifying alert exists for patient: Rempel, Jennifer
+[STEP] 2026-08-24T08:35:48.336Z - Clearing search
+[INFO] 2026-08-24T08:35:49.894Z - Search cleared
+[STEP] 2026-08-24T08:35:49.894Z - Searching alerts for: Rempel
+[INFO] 2026-08-24T08:35:51.457Z - Search completed for: Rempel
+[STEP] 2026-08-24T08:35:51.457Z - Getting alert row count
+[INFO] 2026-08-24T08:35:52.462Z - Alert row count: 2
+[STEP] 2026-08-24T08:35:52.463Z - Getting cell text at row 1, column 2
+[INFO] 2026-08-24T08:35:52.476Z - Cell text: Heart Rate
+[INFO] 2026-08-24T08:35:52.476Z - Alert type "Heart Rate" found for patient: Rempel, Jennifer
+[INFO] 2026-08-24T08:35:52.477Z - Heart Rate alert verified on Alerts page

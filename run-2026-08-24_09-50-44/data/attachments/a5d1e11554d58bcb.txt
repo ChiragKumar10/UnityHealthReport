@@ -1,0 +1,33 @@
+[STEP] 2026-08-24T08:27:17.138Z - === Re-enrolled patient: receives alerts + appears in Monitoring/Interaction ===
+[STEP] 2026-08-24T08:27:17.138Z - Phase 0: Login + find or seed a Closed enrollment
+[INFO] 2026-08-24T08:27:21.890Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:21.893Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:38.891Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:38.894Z - Applying status filter: Closed
+[STEP] 2026-08-24T08:27:39.512Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:40.191Z - Status filter 'Closed' applied successfully
+[INFO] 2026-08-24T08:27:40.241Z - Phase 0 ✓ Closed enrollment ready → Pagac, Santa (RPM)
+[STEP] 2026-08-24T08:27:40.241Z - Phase 1: Activate enrollment for "Pagac, Santa"
+[INFO] 2026-08-24T08:27:40.742Z - Phase 1 ✓ Activate confirmed
+[STEP] 2026-08-24T08:27:40.744Z - Phase 2: Open patient chart and add Blood Glucose=150
+[STEP] 2026-08-24T08:27:40.744Z - Opening patient chart from global search for: Pagac, Santa
+[INFO] 2026-08-24T08:27:43.025Z - Patient chart opened from global search for: Pagac, Santa
+[STEP] 2026-08-24T08:27:46.339Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:27:46.585Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:27:46.586Z - Adding vital: Blood Glucose with value 150
+[STEP] 2026-08-24T08:27:46.586Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:27:46.806Z - Add Vital form opened
+[STEP] 2026-08-24T08:27:46.806Z - Selecting vital type: Blood Glucose
+[INFO] 2026-08-24T08:27:47.430Z - Successfully selected vital type: Blood Glucose
+[STEP] 2026-08-24T08:27:47.430Z - Entering vital value: 150
+[INFO] 2026-08-24T08:27:47.600Z - Successfully entered vital value: 150
+[STEP] 2026-08-24T08:27:47.601Z - Saving vital
+[INFO] 2026-08-24T08:27:47.898Z - Successfully saved vital
+[INFO] 2026-08-24T08:27:47.898Z - Successfully added vital: Blood Glucose with value 150
+[INFO] 2026-08-24T08:27:47.898Z - Phase 2 ✓ Added Blood Glucose=150
+[STEP] 2026-08-24T08:27:47.898Z - Phase 3: Verify alert on Medical History → Alerts
+[INFO] 2026-08-24T08:27:51.976Z - Phase 3 ✓ Alert verified on chart (Blood Glucose 150)
+[STEP] 2026-08-24T08:27:51.976Z - Phase 4: Verify patient in Care Team WL → RPM → Monitoring drilldown
+[INFO] 2026-08-24T08:27:57.718Z - Set Monitoring date filter to today (08-24-2026)
+[INFO] 2026-08-24T08:28:02.997Z - Phase 4 ✓ Patient visible in Monitoring → RPM
+[STEP] 2026-08-24T08:28:02.997Z - Phase 5: Verify patient in Care Team WL → RPM → Interaction drilldown

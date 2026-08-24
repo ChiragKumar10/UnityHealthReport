@@ -1,0 +1,92 @@
+[INFO] 2026-08-24T08:36:14.707Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:36:14.712Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:36:14.726Z - Creating patient via UI: Ernser, Otto
+[STEP] 2026-08-24T08:36:14.726Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:36:17.478Z - Patient details drawer opened
+[STEP] 2026-08-24T08:36:17.479Z - Filling demographics for Otto Ernser
+[STEP] 2026-08-24T08:36:22.110Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:36:25.875Z - Setting location: Automation
+[STEP] 2026-08-24T08:36:26.665Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:36:27.940Z - Clicking Save & Next
+[INFO] 2026-08-24T08:36:30.414Z - [createPatientViaUI] created "Ernser, Otto"
+[STEP] 2026-08-24T08:36:30.414Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:36:45.525Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:36:45.526Z - Adding new enrollment
+[INFO] 2026-08-24T08:36:49.261Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:36:50.080Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:36:50.080Z - Patient: Ernser, Otto | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:50.831Z - Validating enrollment result
+[INFO] 2026-08-24T08:36:50.831Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:36:50.832Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:36:50.832Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:36:50.860Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:36:50.861Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:36:50.861Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:36:50.861Z - Final enrollment details:
+[INFO] 2026-08-24T08:36:50.861Z -   Patient: Ernser, Otto
+[INFO] 2026-08-24T08:36:50.862Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:36:50.862Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:36:50.862Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:36:50.862Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:36:50.863Z - Enrolled Ernser, Otto in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:50.863Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:37:06.136Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:37:06.136Z - Applying status filter: New
+[STEP] 2026-08-24T08:37:06.730Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:07.331Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:37:07.331Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:37:07.791Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:08.862Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:37:08.865Z - Moving enrollment to Active for "Ernser" (CCM)
+[STEP] 2026-08-24T08:37:08.865Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:37:08.865Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:37:09.208Z - Date filter applied successfully
+[STEP] 2026-08-24T08:37:09.208Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:10.337Z - "Move to Active" confirmed for "Ernser"
+[INFO] 2026-08-24T08:37:10.338Z - Moved Ernser, Otto to Active
+[INFO] 2026-08-24T08:37:14.075Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:37:16.626Z - Opening CCM Library
+[INFO] 2026-08-24T08:37:19.044Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:37:19.044Z - Opening Care Plan section
+[INFO] 2026-08-24T08:37:22.536Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:37:22.536Z - Creating minimal care plan: CPForm 1787559959309
+[STEP] 2026-08-24T08:37:22.536Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:37:24.754Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:37:24.754Z - Selecting diagnosis code: D3190
+[INFO] 2026-08-24T08:37:29.395Z - Diagnosis code 'D3190' selected
+[STEP] 2026-08-24T08:37:29.396Z - Filling care plan name: CPForm 1787559959309
+[INFO] 2026-08-24T08:37:29.498Z - Care plan name filled: CPForm 1787559959309
+[STEP] 2026-08-24T08:37:29.499Z - Selecting section: Overview
+[INFO] 2026-08-24T08:37:29.942Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:37:29.942Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:37:30.530Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:37:30.530Z - Clicking Next button
+[INFO] 2026-08-24T08:37:32.807Z - Next button clicked
+[STEP] 2026-08-24T08:37:32.807Z - Filling Overview section
+[INFO] 2026-08-24T08:37:32.869Z - Care Plan header filled
+[INFO] 2026-08-24T08:37:32.937Z - Care Plan footer filled
+[STEP] 2026-08-24T08:37:32.937Z - Clicking Next button
+[INFO] 2026-08-24T08:37:35.123Z - Next button clicked
+[STEP] 2026-08-24T08:37:35.123Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-08-24T08:37:35.232Z - Section note filled
+[INFO] 2026-08-24T08:37:35.358Z - Goal title filled: Seed Goal
+[INFO] 2026-08-24T08:37:37.385Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:37:37.385Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:37:37.473Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:37:38.473Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:37:39.470Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:37:39.470Z - Single Select - 3 options added
+[STEP] 2026-08-24T08:37:39.470Z - Clicking Finish button
+[INFO] 2026-08-24T08:37:41.848Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:37:41.849Z - Minimal care plan 'CPForm 1787559959309' created
+[INFO] 2026-08-24T08:37:41.849Z - Seed care plan template created: CPForm 1787559959309
+[STEP] 2026-08-24T08:37:41.849Z - Opening patient chart from global search for: Ernser, Otto
+[INFO] 2026-08-24T08:37:43.909Z - Patient chart opened from global search for: Ernser, Otto
+[STEP] 2026-08-24T08:37:43.909Z - Assigning Care Plan "CPForm 1787559959309" to patient
+[INFO] 2026-08-24T08:38:05.958Z - Assignment complete: "CPForm 1787559959309"
+[INFO] 2026-08-24T08:38:09.779Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:09.793Z - Opening patient chart from global search for: Ernser, Otto
+[INFO] 2026-08-24T08:38:15.385Z - Patient chart opened from global search for: Ernser, Otto
+[INFO] 2026-08-24T08:38:26.930Z - AUT_CP_005 PASSED

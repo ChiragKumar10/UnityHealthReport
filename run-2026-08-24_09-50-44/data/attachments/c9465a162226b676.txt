@@ -1,0 +1,55 @@
+[INFO] 2026-08-24T08:23:10.827Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:10.786+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:23:12.347Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:19.698Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:19.743Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:23:20.102Z - Creating patient via UI: Champlin, Maryam
+[STEP] 2026-08-24T08:23:20.103Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:27.435Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:27.438Z - Filling demographics for Maryam Champlin
+[STEP] 2026-08-24T08:23:41.175Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:42.460Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:43.929Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:45.599Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:51.116Z - [createPatientViaUI] created "Champlin, Maryam"
+[STEP] 2026-08-24T08:23:51.117Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:06.864Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:06.865Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:13.905Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:19.244Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:19.246Z - Patient: Champlin, Maryam | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:21.157Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:21.157Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:21.157Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:21.157Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:21.627Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:21.628Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:21.628Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:21.628Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:21.628Z -   Patient: Champlin, Maryam
+[INFO] 2026-08-24T08:24:21.628Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:21.629Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:21.629Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:21.630Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:21.630Z - Enrolled Champlin, Maryam in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:21.630Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:37.159Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:37.159Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:38.176Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:39.107Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:39.107Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:39.987Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:40.979Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:24:40.979Z - Moving enrollment to Active for "Champlin" (RTM)
+[STEP] 2026-08-24T08:24:40.980Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:40.980Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:41.574Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:41.574Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:43.258Z - "Move to Active" confirmed for "Champlin"
+[INFO] 2026-08-24T08:24:43.258Z - Moved Champlin, Maryam to Active
+[STEP] 2026-08-24T08:24:43.275Z - Navigate to /provider/billing directly
+[STEP] 2026-08-24T08:24:47.753Z - Click "RTM" cell under "Enrollments" section
+[INFO] 2026-08-24T08:24:51.197Z - Champlin, Maryam not in current month's Billing > Enrollments > RTM — trying previous month
+[STEP] 2026-08-24T08:24:51.199Z - Set Billing month filter to "Jul 2026"
+[STEP] 2026-08-24T08:24:54.615Z - Click "RTM" cell under "Enrollments" section

@@ -1,0 +1,65 @@
+[INFO] 2026-08-24T08:32:05.191Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:32:05.133+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:32:06.398Z - Login to Provider Portal
+[INFO] 2026-08-24T08:32:11.186Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:32:11.199Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:32:11.302Z - Creating patient via UI: Streich, Janie
+[STEP] 2026-08-24T08:32:11.350Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:32:16.788Z - Patient details drawer opened
+[STEP] 2026-08-24T08:32:16.789Z - Filling demographics for Janie Streich
+[STEP] 2026-08-24T08:32:25.310Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:32:26.332Z - Setting location: Automation
+[STEP] 2026-08-24T08:32:27.305Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:32:29.303Z - Clicking Save & Next
+[INFO] 2026-08-24T08:32:33.768Z - [createPatientViaUI] created "Streich, Janie"
+[STEP] 2026-08-24T08:32:33.768Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:32:49.059Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:49.065Z - Adding new enrollment
+[INFO] 2026-08-24T08:32:55.118Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:32:57.319Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:32:57.319Z - Patient: Streich, Janie | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:32:59.174Z - Validating enrollment result
+[INFO] 2026-08-24T08:32:59.174Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:32:59.174Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:32:59.175Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:33:00.063Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:33:00.063Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:33:00.063Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:33:00.063Z - Final enrollment details:
+[INFO] 2026-08-24T08:33:00.065Z -   Patient: Streich, Janie
+[INFO] 2026-08-24T08:33:00.065Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:33:00.065Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:33:00.065Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:33:00.065Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:33:00.065Z - Enrolled Streich, Janie in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:33:00.065Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:33:16.641Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:33:16.641Z - Applying status filter: New
+[STEP] 2026-08-24T08:33:17.188Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:17.881Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:33:17.882Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:33:18.332Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:19.896Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:33:19.897Z - Moving enrollment to Active for "Streich" (RTM)
+[STEP] 2026-08-24T08:33:19.897Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:33:19.897Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:33:20.253Z - Date filter applied successfully
+[STEP] 2026-08-24T08:33:20.253Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:21.661Z - "Move to Active" confirmed for "Streich"
+[INFO] 2026-08-24T08:33:21.661Z - Moved Streich, Janie to Active
+[INFO] 2026-08-24T08:33:21.661Z - [interaction-week1] seeded Active RTM patient: Streich, Janie
+[STEP] 2026-08-24T08:33:21.661Z - Navigate to RTM > Week 1
+[STEP] 2026-08-24T08:33:21.662Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:33:27.506Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:33:27.506Z - Selecting Week 1
+[INFO] 2026-08-24T08:33:28.360Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:33:28.360Z - Checking if patient "Streich, Janie" is in the interaction list
+[INFO] 2026-08-24T08:33:32.139Z - Patient "Streich, Janie" found via search
+[STEP] 2026-08-24T08:33:32.140Z - Test: Verify patient enrolled in RTM Interaction Week 1
+[STEP] 2026-08-24T08:33:32.140Z - Checking if patient "Streich, Janie" is in the interaction list
+[INFO] 2026-08-24T08:33:35.738Z - Patient "Streich, Janie" found via search
+[INFO] 2026-08-24T08:33:35.749Z - Patient found in Week 1 interaction list
+[STEP] 2026-08-24T08:33:35.749Z - Getting count for Week 1 tab
+[INFO] 2026-08-24T08:33:36.467Z - Week 1 tab count: 26
+[INFO] 2026-08-24T08:33:36.471Z - Week 1 tab count: 26

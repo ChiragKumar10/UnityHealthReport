@@ -1,0 +1,16 @@
+[INFO] 2026-08-24T08:26:16.787Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:26:16.717+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:26:17.573Z - Login to Provider Portal
+[INFO] 2026-08-24T08:26:23.681Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:23.692Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:26:27.674Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:26:27.684Z - Test: Clear search restores all results
+[STEP] 2026-08-24T08:26:27.684Z - Getting alert row count
+[INFO] 2026-08-24T08:26:28.967Z - Alert row count: 25
+[STEP] 2026-08-24T08:26:29.006Z - Getting first patient name
+[STEP] 2026-08-24T08:26:29.007Z - Getting cell text at row 1, column 1
+[INFO] 2026-08-24T08:26:30.200Z - Cell text: Ankunding, Jarred
+[INFO] 2026-08-24T08:26:30.200Z - First patient name: Ankunding, Jarred
+[STEP] 2026-08-24T08:26:30.202Z - Searching alerts for: Ankunding
+[INFO] 2026-08-24T08:26:40.538Z - Search completed for: Ankunding
+[STEP] 2026-08-24T08:26:40.539Z - Getting alert row count
+[INFO] 2026-08-24T08:26:41.555Z - Alert row count: 0

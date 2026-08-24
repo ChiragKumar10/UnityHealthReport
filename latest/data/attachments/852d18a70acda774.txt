@@ -1,0 +1,41 @@
+[INFO] 2026-08-24T08:39:05.167Z - Reusing single saved provider session — no login performed
+[INFO] 2026-08-24T08:39:05.169Z - Recovery: provider password is already the original value
+[STEP] 2026-08-24T08:39:06.913Z - Login to Provider Portal
+[INFO] 2026-08-24T08:39:10.325Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:10.334Z - Test: Verify profile field validations
+[STEP] 2026-08-24T08:39:10.334Z - Navigating to Settings page
+[INFO] 2026-08-24T08:39:16.657Z - Navigated to Settings page
+[STEP] 2026-08-24T08:39:16.657Z - Clicking Edit Profile button
+[INFO] 2026-08-24T08:39:19.298Z - Edit Profile form opened
+[STEP] 2026-08-24T08:39:19.301Z - Capturing original profile values from edit form
+[STEP] 2026-08-24T08:39:19.301Z - Getting edit form value for: firstName
+[INFO] 2026-08-24T08:39:19.335Z - Edit form field 'firstName' value: Jemes
+[STEP] 2026-08-24T08:39:19.338Z - Getting edit form value for: lastName
+[INFO] 2026-08-24T08:39:19.351Z - Edit form field 'lastName' value: Cory
+[STEP] 2026-08-24T08:39:19.351Z - Getting edit form value for: email
+[INFO] 2026-08-24T08:39:19.364Z - Edit form field 'email' value: Jemes
+[INFO] 2026-08-24T08:39:19.365Z - Captured original values: {"firstName":"Jemes","lastName":"Cory","email":"Jemes"}
+[STEP] 2026-08-24T08:39:19.366Z - Clearing edit form field: firstName
+[INFO] 2026-08-24T08:39:20.054Z - Edit form field 'firstName' cleared
+[STEP] 2026-08-24T08:39:20.054Z - Clicking Save on Edit Profile form
+[INFO] 2026-08-24T08:39:21.206Z - Edit Profile saved
+[INFO] 2026-08-24T08:39:21.238Z - Validation prevented save with empty First Name
+[STEP] 2026-08-24T08:39:21.238Z - Filling edit form field 'firstName' with: Jemes
+[INFO] 2026-08-24T08:39:21.404Z - Edit form field 'firstName' filled
+[STEP] 2026-08-24T08:39:21.404Z - Clearing edit form field: lastName
+[INFO] 2026-08-24T08:39:22.088Z - Edit form field 'lastName' cleared
+[STEP] 2026-08-24T08:39:22.088Z - Clicking Save on Edit Profile form
+[INFO] 2026-08-24T08:39:23.274Z - Edit Profile saved
+[INFO] 2026-08-24T08:39:23.284Z - Validation prevented save with empty Last Name
+[STEP] 2026-08-24T08:39:23.284Z - Filling edit form field 'lastName' with: Cory
+[INFO] 2026-08-24T08:39:23.433Z - Edit form field 'lastName' filled
+[STEP] 2026-08-24T08:39:23.433Z - Clearing edit form field: email
+[INFO] 2026-08-24T08:39:24.167Z - Edit form field 'email' cleared
+[STEP] 2026-08-24T08:39:24.167Z - Clicking Save on Edit Profile form
+[INFO] 2026-08-24T08:39:25.319Z - Edit Profile saved
+[INFO] 2026-08-24T08:39:25.337Z - Validation prevented save with empty Email
+[STEP] 2026-08-24T08:39:25.337Z - Filling edit form field 'email' with: Jemes
+[INFO] 2026-08-24T08:39:25.597Z - Edit form field 'email' filled
+[STEP] 2026-08-24T08:39:25.597Z - Clicking Cancel on Edit Profile form
+[INFO] 2026-08-24T08:39:26.894Z - Edit Profile cancelled
+[INFO] 2026-08-24T08:39:26.894Z - Profile field validations test completed

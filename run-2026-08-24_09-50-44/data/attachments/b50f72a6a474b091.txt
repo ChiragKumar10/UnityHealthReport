@@ -1,0 +1,50 @@
+[STEP] 2026-08-24T08:27:51.402Z - === AUT_CROSS_009: Provider-to-Provider escalation with note ===
+[STEP] 2026-08-24T08:27:51.794Z - Phase 0: Anny seeds an alert
+[INFO] 2026-08-24T08:27:53.490Z - Different user "anny123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:27:54.074Z - Performing provider login
+[STEP] 2026-08-24T08:27:54.074Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:27:55.282Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:27:59.545Z - Login completed
+[STEP] 2026-08-24T08:27:59.545Z - Seeding alert by saving Pain Scale 15 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:27:59.546Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:28:11.094Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:28:11.401Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:28:20.025Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:28:20.025Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:28:20.025Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:28:20.370Z - Add Vital form opened
+[STEP] 2026-08-24T08:28:20.370Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:28:21.516Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:28:21.516Z - Entering vital value: 15
+[INFO] 2026-08-24T08:28:21.680Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:28:21.680Z - Saving vital
+[INFO] 2026-08-24T08:28:21.887Z - Successfully saved vital
+[INFO] 2026-08-24T08:28:21.888Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:28:21.888Z - Abnormal Pain Scale (15) saved — waiting 30000ms for backend alert generation
+[INFO] 2026-08-24T08:28:51.895Z - Phase 0 ✓ Alert seeded
+[STEP] 2026-08-24T08:28:52.006Z - Phase 1: Login as Provider A (john)
+[INFO] 2026-08-24T08:28:52.848Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:28:53.043Z - Performing provider login
+[STEP] 2026-08-24T08:28:53.043Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:28:53.833Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:28:57.568Z - Login completed
+[INFO] 2026-08-24T08:28:57.575Z - Phase 1 ✓ Logged in as john
+[STEP] 2026-08-24T08:28:57.575Z - Phase 2: john escalates patient's alert to "Anny" with note
+[STEP] 2026-08-24T08:28:57.575Z - Escalating top alert (search="Block") to provider matching "Anny"
+[STEP] 2026-08-24T08:28:57.575Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:28:58.914Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:28:58.914Z - Searching alerts for: Block
+[INFO] 2026-08-24T08:29:00.754Z - Search completed for: Block
+[STEP] 2026-08-24T08:29:00.755Z - Escalating alert at row 0 to provider matching "Anny"
+[STEP] 2026-08-24T08:29:00.755Z - Opening action menu for row 0
+[INFO] 2026-08-24T08:29:01.773Z - Action menu opened for row 0
+[STEP] 2026-08-24T08:29:01.773Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-08-24T08:29:02.564Z - Escalate to Provider clicked
+[INFO] 2026-08-24T08:29:05.542Z - Selected provider "Anny Vate" for search term "Anny"
+[STEP] 2026-08-24T08:29:06.787Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:29:13.774Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:29:13.775Z - Alert at row 0 escalated to "Anny Vate"
+[INFO] 2026-08-24T08:29:13.775Z - Phase 2 ✓ Escalation completed (orchestrator returned without error)
+[STEP] 2026-08-24T08:29:13.775Z - Phase 3: Verify Escalate drawer is no longer visible
+[INFO] 2026-08-24T08:29:13.801Z - Phase 3 ✓ Escalate drawer is closed
+[INFO] 2026-08-24T08:29:14.051Z - === AUT_CROSS_009 verified: Provider escalates alert to another Provider with note ===

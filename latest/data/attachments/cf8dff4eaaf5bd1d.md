@@ -1,0 +1,836 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: provider-portal/patient-wallet/cpt-99457-below-threshold-no-qualification.spec.ts >> Interaction Billing (RPM) — below-threshold does not qualify CPT 99457 >> logging 15 min on RPM keeps the patient OUT of Billing > Interaction > RPM (no CPT 99457 qualification)
+- Location: tests/web/provider-portal/patient-wallet/cpt-99457-below-threshold-no-qualification.spec.ts:83:9
+
+# Error details
+
+```
+TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('//h5[text()="NEW ENROLLMENT"]') to be visible
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - banner [ref=f1e5]:
+      - generic [ref=f1e10]:
+        - generic [ref=f1e13]:
+          - combobox [ref=f1e17]
+          - button [ref=f1e19] [cursor=pointer]
+          - group
+        - button [ref=f1e22] [cursor=pointer]:
+          - paragraph [ref=f1e25]: New Patient
+        - generic [ref=f1e26]:
+          - button [ref=f1e27] [cursor=pointer]
+          - button [ref=f1e31] [cursor=pointer]
+    - generic [ref=f1e36]:
+      - list [ref=f1e38]:
+        - generic [ref=f1e39]:
+          - listitem [ref=f1e41] [cursor=pointer]:
+            - generic [ref=f1e45]: Virtual Services
+          - list [ref=f1e54]:
+            - listitem [ref=f1e56] [cursor=pointer]:
+              - generic [ref=f1e57]: Care Team Work List
+            - listitem [ref=f1e64] [cursor=pointer]:
+              - generic [ref=f1e65]: Enrollments
+            - listitem [ref=f1e72] [cursor=pointer]:
+              - generic [ref=f1e73]: Patient Assessments
+            - generic [ref=f1e79]:
+              - listitem [ref=f1e80] [cursor=pointer]:
+                - generic [ref=f1e81]: Alerts
+              - separator [ref=f1e87]
+            - listitem [ref=f1e89] [cursor=pointer]:
+              - generic [ref=f1e94]:
+                - generic [ref=f1e95]: Tasks
+                - generic [ref=f1e96]: "164"
+            - generic [ref=f1e97]:
+              - listitem [ref=f1e98] [cursor=pointer]:
+                - generic [ref=f1e99]: Communications
+              - separator [ref=f1e105]
+            - generic [ref=f1e106]:
+              - listitem [ref=f1e107] [cursor=pointer]:
+                - generic [ref=f1e108]: Billing
+              - separator [ref=f1e114]
+            - generic [ref=f1e115]:
+              - listitem [ref=f1e116] [cursor=pointer]:
+                - generic [ref=f1e117]: Reports
+              - separator [ref=f1e123]
+            - listitem [ref=f1e125] [cursor=pointer]:
+              - generic [ref=f1e126]: Document Library
+            - listitem [ref=f1e133] [cursor=pointer]:
+              - generic [ref=f1e134]: CCM Library
+            - listitem [ref=f1e141] [cursor=pointer]:
+              - generic [ref=f1e142]: PCM Library
+            - listitem [ref=f1e149] [cursor=pointer]:
+              - generic [ref=f1e150]: RPM Library
+            - generic [ref=f1e156]:
+              - listitem [ref=f1e157] [cursor=pointer]:
+                - generic [ref=f1e158]: RTM Library
+              - separator [ref=f1e164]
+            - listitem [ref=f1e166] [cursor=pointer]:
+              - generic [ref=f1e167]: Training Library
+        - listitem [ref=f1e175] [cursor=pointer]:
+          - generic [ref=f1e179]: Call Center
+        - listitem [ref=f1e186] [cursor=pointer]:
+          - generic [ref=f1e190]: Revenue Cycle Management
+        - listitem [ref=f1e197] [cursor=pointer]:
+          - generic [ref=f1e201]: Omni Channel
+        - separator [ref=f1e206]
+        - listitem [ref=f1e207] [cursor=pointer]:
+          - generic [ref=f1e211]: Settings
+      - paragraph [ref=f1e215]: Jemes Cory
+      - list [ref=f1e217]:
+        - listitem [ref=f1e218] [cursor=pointer]:
+          - generic [ref=f1e222]: Logout
+      - generic:
+        - listitem
+    - main [ref=f1e223]:
+      - generic [ref=f1e228]:
+        - tablist [ref=f1e231]:
+          - tab [ref=f1e232] [cursor=pointer]:
+            - generic [ref=f1e233]:
+              - generic [ref=f1e234]: RPM
+              - button [ref=f1e235]
+          - tab [selected] [ref=f1e238] [cursor=pointer]:
+            - generic [ref=f1e239]:
+              - generic [ref=f1e240]: RTM
+              - button [ref=f1e241]
+          - tab [ref=f1e244] [cursor=pointer]:
+            - generic [ref=f1e245]:
+              - generic [ref=f1e246]: CCM
+              - button [ref=f1e247]
+          - tab [ref=f1e250] [cursor=pointer]:
+            - generic [ref=f1e251]:
+              - generic [ref=f1e252]: PCM
+              - button [ref=f1e253]
+        - generic [ref=f1e257]:
+          - generic [ref=f1e259]:
+            - paragraph [ref=f1e261]: Enrollments
+            - table [ref=f1e263]:
+              - rowgroup [ref=f1e264]:
+                - row [ref=f1e265]:
+                  - cell [ref=f1e266]:
+                    - paragraph [ref=f1e267] [cursor=pointer]: Requests
+                  - cell [ref=f1e268]:
+                    - paragraph [ref=f1e269] [cursor=pointer]: "0"
+                - row [ref=f1e270]:
+                  - cell [ref=f1e271]:
+                    - paragraph [ref=f1e272] [cursor=pointer]: New
+                  - cell [ref=f1e273]:
+                    - paragraph [ref=f1e274] [cursor=pointer]: "26"
+                - row [ref=f1e275]:
+                  - cell [ref=f1e276]:
+                    - paragraph [ref=f1e277] [cursor=pointer]: Active
+                  - cell [ref=f1e278]:
+                    - paragraph [ref=f1e279] [cursor=pointer]: "561"
+                - row [ref=f1e280]:
+                  - cell [ref=f1e281]:
+                    - paragraph [ref=f1e282] [cursor=pointer]: Closed
+                  - cell [ref=f1e283]:
+                    - paragraph [ref=f1e284] [cursor=pointer]: "68"
+          - generic [ref=f1e286]:
+            - paragraph [ref=f1e288]: Monitoring
+            - table [ref=f1e290]:
+              - rowgroup [ref=f1e291]:
+                - row [ref=f1e292]:
+                  - cell [ref=f1e293]:
+                    - paragraph [ref=f1e294] [cursor=pointer]: 0 Alerts
+                  - cell [ref=f1e295]:
+                    - paragraph [ref=f1e296] [cursor=pointer]: 0 Resolved
+                  - cell [ref=f1e297]:
+                    - paragraph [ref=f1e298] [cursor=pointer]: 0 Not Resolved
+                - row [ref=f1e299]:
+                  - cell [ref=f1e300]:
+                    - paragraph [ref=f1e301] [cursor=pointer]: 549 No Data
+                  - cell [ref=f1e302]:
+                    - paragraph [ref=f1e303] [cursor=pointer]: 0 Complete
+                  - cell [ref=f1e304]:
+                    - paragraph [ref=f1e305] [cursor=pointer]: 549 Not Complete
+                - row [ref=f1e306]:
+                  - cell [ref=f1e307]:
+                    - paragraph [ref=f1e308] [cursor=pointer]: 0 Data
+                  - cell [ref=f1e309]:
+                    - paragraph [ref=f1e310] [cursor=pointer]: 0 Reviewed
+                  - cell [ref=f1e311]:
+                    - paragraph [ref=f1e312] [cursor=pointer]: 0 Unreviewed
+          - generic [ref=f1e314]:
+            - paragraph [ref=f1e316]: Interaction
+            - table [ref=f1e318]:
+              - rowgroup [ref=f1e319]:
+                - row [ref=f1e320]:
+                  - cell [ref=f1e321]:
+                    - paragraph [ref=f1e322] [cursor=pointer]: Week 1
+                  - cell [ref=f1e323]:
+                    - paragraph [ref=f1e324] [cursor=pointer]: "11"
+                - row [ref=f1e325]:
+                  - cell [ref=f1e326]:
+                    - paragraph [ref=f1e327] [cursor=pointer]: Week 2
+                  - cell [ref=f1e328]:
+                    - paragraph [ref=f1e329] [cursor=pointer]: "0"
+                - row [ref=f1e330]:
+                  - cell [ref=f1e331]:
+                    - paragraph [ref=f1e332] [cursor=pointer]: Week 3
+                  - cell [ref=f1e333]:
+                    - paragraph [ref=f1e334] [cursor=pointer]: "0"
+                - row [ref=f1e335]:
+                  - cell [ref=f1e336]:
+                    - paragraph [ref=f1e337] [cursor=pointer]: Week 4
+                  - cell [ref=f1e338]:
+                    - paragraph [ref=f1e339] [cursor=pointer]: "550"
+        - generic [ref=f1e343]:
+          - generic [ref=f1e344]:
+            - heading [level=5] [ref=f1e345]: ENROLLMENTS (NEW-RTM)
+            - generic [ref=f1e346]:
+              - generic [ref=f1e351]:
+                - combobox [ref=f1e352]
+                - button [ref=f1e354] [cursor=pointer]
+                - group
+              - generic [ref=f1e358] [cursor=pointer]:
+                - checkbox [ref=f1e360]
+                - generic [ref=f1e363]: SelfPay
+              - generic [ref=f1e364]:
+                - generic [ref=f1e367]:
+                  - textbox [ref=f1e371]:
+                    - /placeholder: Search by Patient Name
+                  - group
+                - generic [ref=f1e376]:
+                  - combobox [ref=f1e377]: All Provider
+                  - button [ref=f1e379] [cursor=pointer]
+                  - group
+                - generic [ref=f1e386]:
+                  - combobox [ref=f1e387]: All Care Manager
+                  - button [ref=f1e389] [cursor=pointer]
+                  - group
+          - generic [ref=f1e394]:
+            - generic [ref=f1e395]:
+              - checkbox [ref=f1e398] [cursor=pointer]
+              - generic [ref=f1e401] [cursor=pointer]: NAME ▲
+              - generic [ref=f1e403]: CONTACT NUMBER
+              - generic [ref=f1e405]: DATE ADDED
+              - generic [ref=f1e407]: INSURANCE NAME
+              - generic [ref=f1e409]: CONSENT
+              - generic [ref=f1e411]: INSURANCE
+              - generic [ref=f1e413]: CONDITIONS
+              - generic [ref=f1e415]: INTRODUCTION
+              - generic [ref=f1e417]: EDUCATION
+              - generic [ref=f1e419]: ACTION
+            - generic [ref=f1e421]:
+              - checkbox [ref=f1e424] [cursor=pointer]
+              - generic [ref=f1e427]: Ankunding, Sidney
+              - generic [ref=f1e429]: 926-486-3309
+              - generic [ref=f1e431]: 08-19-2026
+              - generic [ref=f1e433]: SelfPay
+              - checkbox [ref=f1e438] [cursor=pointer]
+              - checkbox [checked] [ref=f1e444] [cursor=pointer]
+              - checkbox [checked] [ref=f1e450] [cursor=pointer]
+              - checkbox [checked] [ref=f1e456] [cursor=pointer]
+              - checkbox [ref=f1e462] [cursor=pointer]
+              - generic [ref=f1e468] [cursor=pointer]
+            - generic [ref=f1e471]:
+              - checkbox [ref=f1e474] [cursor=pointer]
+              - generic [ref=f1e477]: Zemlak, Andreane
+              - generic [ref=f1e479]: 941-400-5354
+              - generic [ref=f1e481]: 08-24-2026
+              - generic [ref=f1e483]: SelfPay
+              - checkbox [ref=f1e488] [cursor=pointer]
+              - checkbox [checked] [ref=f1e494] [cursor=pointer]
+              - checkbox [checked] [ref=f1e500] [cursor=pointer]
+              - checkbox [ref=f1e506] [cursor=pointer]
+              - checkbox [ref=f1e512] [cursor=pointer]
+              - generic [ref=f1e518] [cursor=pointer]
+            - generic [ref=f1e521]:
+              - checkbox [ref=f1e524] [cursor=pointer]
+              - generic [ref=f1e527]: King, Angelina
+              - generic [ref=f1e529]: 917-643-3636
+              - generic [ref=f1e531]: 08-21-2026
+              - generic [ref=f1e533]: SelfPay
+              - checkbox [ref=f1e538] [cursor=pointer]
+              - checkbox [checked] [ref=f1e544] [cursor=pointer]
+              - checkbox [checked] [ref=f1e550] [cursor=pointer]
+              - checkbox [ref=f1e556] [cursor=pointer]
+              - checkbox [ref=f1e562] [cursor=pointer]
+              - generic [ref=f1e568] [cursor=pointer]
+            - generic [ref=f1e571]:
+              - checkbox [ref=f1e574] [cursor=pointer]
+              - generic [ref=f1e577]: Bogisich, Kendra
+              - generic [ref=f1e579]: 642-874-8272
+              - generic [ref=f1e581]: 08-21-2026
+              - generic [ref=f1e583]: SelfPay
+              - checkbox [ref=f1e588] [cursor=pointer]
+              - checkbox [checked] [ref=f1e594] [cursor=pointer]
+              - checkbox [checked] [ref=f1e600] [cursor=pointer]
+              - checkbox [ref=f1e606] [cursor=pointer]
+              - checkbox [ref=f1e612] [cursor=pointer]
+              - generic [ref=f1e618] [cursor=pointer]
+            - generic [ref=f1e621]:
+              - checkbox [ref=f1e624] [cursor=pointer]
+              - generic [ref=f1e627]: Cruickshank, Kristen
+              - generic [ref=f1e629]: 775-025-4515
+              - generic [ref=f1e631]: 08-19-2026
+              - generic [ref=f1e633]: SelfPay
+              - checkbox [ref=f1e638] [cursor=pointer]
+              - checkbox [checked] [ref=f1e644] [cursor=pointer]
+              - checkbox [checked] [ref=f1e650] [cursor=pointer]
+              - checkbox [checked] [ref=f1e656] [cursor=pointer]
+              - checkbox [ref=f1e662] [cursor=pointer]
+              - generic [ref=f1e668] [cursor=pointer]
+            - generic [ref=f1e671]:
+              - checkbox [ref=f1e674] [cursor=pointer]
+              - generic [ref=f1e677]: Wunsch, Todd
+              - generic [ref=f1e679]: 783-124-3838
+              - generic [ref=f1e681]: 08-19-2026
+              - generic [ref=f1e683]: SelfPay
+              - checkbox [ref=f1e688] [cursor=pointer]
+              - checkbox [checked] [ref=f1e694] [cursor=pointer]
+              - checkbox [checked] [ref=f1e700] [cursor=pointer]
+              - checkbox [ref=f1e706] [cursor=pointer]
+              - checkbox [ref=f1e712] [cursor=pointer]
+              - generic [ref=f1e718] [cursor=pointer]
+            - generic [ref=f1e721]:
+              - checkbox [ref=f1e724] [cursor=pointer]
+              - generic [ref=f1e727]: Schowalter, Emelia
+              - generic [ref=f1e729]: 770-523-5512
+              - generic [ref=f1e731]: 08-19-2026
+              - generic [ref=f1e733]: SelfPay
+              - checkbox [ref=f1e738] [cursor=pointer]
+              - checkbox [checked] [ref=f1e744] [cursor=pointer]
+              - checkbox [checked] [ref=f1e750] [cursor=pointer]
+              - checkbox [ref=f1e756] [cursor=pointer]
+              - checkbox [ref=f1e762] [cursor=pointer]
+              - generic [ref=f1e768] [cursor=pointer]
+            - generic [ref=f1e771]:
+              - checkbox [ref=f1e774] [cursor=pointer]
+              - generic [ref=f1e777]: Bins, Edmond
+              - generic [ref=f1e779]: 885-100-0422
+              - generic [ref=f1e781]: 08-19-2026
+              - generic [ref=f1e783]: SelfPay
+              - checkbox [ref=f1e788] [cursor=pointer]
+              - checkbox [checked] [ref=f1e794] [cursor=pointer]
+              - checkbox [checked] [ref=f1e800] [cursor=pointer]
+              - checkbox [checked] [ref=f1e806] [cursor=pointer]
+              - checkbox [ref=f1e812] [cursor=pointer]
+              - generic [ref=f1e818] [cursor=pointer]
+            - generic [ref=f1e821]:
+              - checkbox [ref=f1e824] [cursor=pointer]
+              - generic [ref=f1e827]: Rempel, Kathryn
+              - generic [ref=f1e829]: 619-442-8656
+              - generic [ref=f1e831]: 08-19-2026
+              - generic [ref=f1e833]: SelfPay
+              - checkbox [ref=f1e838] [cursor=pointer]
+              - checkbox [checked] [ref=f1e844] [cursor=pointer]
+              - checkbox [checked] [ref=f1e850] [cursor=pointer]
+              - checkbox [ref=f1e856] [cursor=pointer]
+              - checkbox [ref=f1e862] [cursor=pointer]
+              - generic [ref=f1e868] [cursor=pointer]
+            - generic [ref=f1e871]:
+              - checkbox [ref=f1e874] [cursor=pointer]
+              - generic [ref=f1e877]: Christiansen, Taylor
+              - generic [ref=f1e879]: 991-158-7160
+              - generic [ref=f1e881]: 08-19-2026
+              - generic [ref=f1e883]: SelfPay
+              - checkbox [ref=f1e888] [cursor=pointer]
+              - checkbox [checked] [ref=f1e894] [cursor=pointer]
+              - checkbox [checked] [ref=f1e900] [cursor=pointer]
+              - checkbox [ref=f1e906] [cursor=pointer]
+              - checkbox [ref=f1e912] [cursor=pointer]
+              - generic [ref=f1e918] [cursor=pointer]
+            - generic [ref=f1e921]:
+              - checkbox [ref=f1e924] [cursor=pointer]
+              - generic [ref=f1e927]: VonRueden, Cleo
+              - generic [ref=f1e929]: 938-429-2666
+              - generic [ref=f1e931]: 08-19-2026
+              - generic [ref=f1e933]: SelfPay
+              - checkbox [ref=f1e938] [cursor=pointer]
+              - checkbox [checked] [ref=f1e944] [cursor=pointer]
+              - checkbox [checked] [ref=f1e950] [cursor=pointer]
+              - checkbox [ref=f1e956] [cursor=pointer]
+              - checkbox [ref=f1e962] [cursor=pointer]
+              - generic [ref=f1e968] [cursor=pointer]
+            - generic [ref=f1e971]:
+              - checkbox [ref=f1e974] [cursor=pointer]
+              - generic [ref=f1e977]: Stokes, Mafalda
+              - generic [ref=f1e979]: 679-176-3556
+              - generic [ref=f1e981]: 08-19-2026
+              - generic [ref=f1e983]: SelfPay
+              - checkbox [ref=f1e988] [cursor=pointer]
+              - checkbox [checked] [ref=f1e994] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1000] [cursor=pointer]
+              - checkbox [ref=f1e1006] [cursor=pointer]
+              - checkbox [ref=f1e1012] [cursor=pointer]
+              - generic [ref=f1e1018] [cursor=pointer]
+            - generic [ref=f1e1021]:
+              - checkbox [ref=f1e1024] [cursor=pointer]
+              - generic [ref=f1e1027]: Haag, Jeffery
+              - generic [ref=f1e1029]: 912-626-9585
+              - generic [ref=f1e1031]: 08-19-2026
+              - generic [ref=f1e1033]: SelfPay
+              - checkbox [ref=f1e1038] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1044] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1050] [cursor=pointer]
+              - checkbox [ref=f1e1056] [cursor=pointer]
+              - checkbox [ref=f1e1062] [cursor=pointer]
+              - generic [ref=f1e1068] [cursor=pointer]
+            - generic [ref=f1e1071]:
+              - checkbox [ref=f1e1074] [cursor=pointer]
+              - generic [ref=f1e1077]: Wuckert, Wilbert
+              - generic [ref=f1e1079]: 699-182-9866
+              - generic [ref=f1e1081]: 08-18-2026
+              - generic [ref=f1e1083]: SelfPay
+              - checkbox [ref=f1e1088] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1094] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1100] [cursor=pointer]
+              - checkbox [ref=f1e1106] [cursor=pointer]
+              - checkbox [ref=f1e1112] [cursor=pointer]
+              - generic [ref=f1e1118] [cursor=pointer]
+            - generic [ref=f1e1121]:
+              - checkbox [ref=f1e1124] [cursor=pointer]
+              - generic [ref=f1e1127]: Bailey, Travis
+              - generic [ref=f1e1129]: 864-536-8485
+              - generic [ref=f1e1131]: 08-17-2026
+              - generic [ref=f1e1133]: SelfPay
+              - checkbox [ref=f1e1138] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1144] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1150] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1156] [cursor=pointer]
+              - checkbox [ref=f1e1162] [cursor=pointer]
+              - generic [ref=f1e1168] [cursor=pointer]
+            - generic [ref=f1e1171]:
+              - checkbox [ref=f1e1174] [cursor=pointer]
+              - generic [ref=f1e1177]: Goyette, Kayleigh
+              - generic [ref=f1e1179]: 716-647-3143
+              - generic [ref=f1e1181]: 08-17-2026
+              - generic [ref=f1e1183]: SelfPay
+              - checkbox [ref=f1e1188] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1194] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1200] [cursor=pointer]
+              - checkbox [ref=f1e1206] [cursor=pointer]
+              - checkbox [ref=f1e1212] [cursor=pointer]
+              - generic [ref=f1e1218] [cursor=pointer]
+            - generic [ref=f1e1221]:
+              - checkbox [ref=f1e1224] [cursor=pointer]
+              - generic [ref=f1e1227]: Cremin, Wade
+              - generic [ref=f1e1229]: 799-467-8681
+              - generic [ref=f1e1231]: 08-17-2026
+              - generic [ref=f1e1233]: SelfPay
+              - checkbox [ref=f1e1238] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1244] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1250] [cursor=pointer]
+              - checkbox [ref=f1e1256] [cursor=pointer]
+              - checkbox [ref=f1e1262] [cursor=pointer]
+              - generic [ref=f1e1268] [cursor=pointer]
+            - generic [ref=f1e1271]:
+              - checkbox [ref=f1e1274] [cursor=pointer]
+              - generic [ref=f1e1277]: Walsh, Aubrey
+              - generic [ref=f1e1279]: 912-040-3864
+              - generic [ref=f1e1281]: 08-10-2026
+              - generic [ref=f1e1283]: SelfPay
+              - checkbox [ref=f1e1288] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1294] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1300] [cursor=pointer]
+              - checkbox [ref=f1e1306] [cursor=pointer]
+              - checkbox [ref=f1e1312] [cursor=pointer]
+              - generic [ref=f1e1318] [cursor=pointer]
+            - generic [ref=f1e1321]:
+              - checkbox [ref=f1e1324] [cursor=pointer]
+              - generic [ref=f1e1327]: Maggio, Theodore
+              - generic [ref=f1e1329]: 860-397-1215
+              - generic [ref=f1e1331]: 08-10-2026
+              - generic [ref=f1e1333]: SelfPay
+              - checkbox [ref=f1e1338] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1344] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1350] [cursor=pointer]
+              - checkbox [ref=f1e1356] [cursor=pointer]
+              - checkbox [ref=f1e1362] [cursor=pointer]
+              - generic [ref=f1e1368] [cursor=pointer]
+            - generic [ref=f1e1371]:
+              - checkbox [ref=f1e1374] [cursor=pointer]
+              - generic [ref=f1e1377]: Gleason, Brandt
+              - generic [ref=f1e1379]: 716-004-0856
+              - generic [ref=f1e1381]: 08-10-2026
+              - generic [ref=f1e1383]: SelfPay
+              - checkbox [ref=f1e1388] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1394] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1400] [cursor=pointer]
+              - checkbox [ref=f1e1406] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1412] [cursor=pointer]
+              - generic [ref=f1e1418] [cursor=pointer]
+            - generic [ref=f1e1421]:
+              - checkbox [ref=f1e1424] [cursor=pointer]
+              - generic [ref=f1e1427]: Auer, Daniela
+              - generic [ref=f1e1429]: 653-987-5172
+              - generic [ref=f1e1431]: 08-10-2026
+              - generic [ref=f1e1433]: SelfPay
+              - checkbox [ref=f1e1438] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1444] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1450] [cursor=pointer]
+              - checkbox [ref=f1e1456] [cursor=pointer]
+              - checkbox [ref=f1e1462] [cursor=pointer]
+              - generic [ref=f1e1468] [cursor=pointer]
+            - generic [ref=f1e1471]:
+              - checkbox [ref=f1e1474] [cursor=pointer]
+              - generic [ref=f1e1477]: Pfeffer, Anne
+              - generic [ref=f1e1479]: 851-410-8271
+              - generic [ref=f1e1481]: 08-10-2026
+              - generic [ref=f1e1483]: SelfPay
+              - checkbox [ref=f1e1488] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1494] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1500] [cursor=pointer]
+              - checkbox [ref=f1e1506] [cursor=pointer]
+              - checkbox [ref=f1e1512] [cursor=pointer]
+              - generic [ref=f1e1518] [cursor=pointer]
+            - generic [ref=f1e1521]:
+              - checkbox [ref=f1e1524] [cursor=pointer]
+              - generic [ref=f1e1527]: Christiansen, Preston
+              - generic [ref=f1e1529]: 938-392-0957
+              - generic [ref=f1e1531]: 08-06-2026
+              - generic [ref=f1e1533]: SelfPay
+              - checkbox [ref=f1e1538] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1544] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1550] [cursor=pointer]
+              - checkbox [ref=f1e1556] [cursor=pointer]
+              - checkbox [ref=f1e1562] [cursor=pointer]
+              - generic [ref=f1e1568] [cursor=pointer]
+            - generic [ref=f1e1571]:
+              - checkbox [ref=f1e1574] [cursor=pointer]
+              - generic [ref=f1e1577]: Lockman, Jo
+              - generic [ref=f1e1579]: 623-584-5260
+              - generic [ref=f1e1581]: 08-05-2026
+              - generic [ref=f1e1583]: SelfPay
+              - checkbox [ref=f1e1588] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1594] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1600] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1606] [cursor=pointer]
+              - checkbox [ref=f1e1612] [cursor=pointer]
+              - generic [ref=f1e1618] [cursor=pointer]
+            - generic [ref=f1e1621]:
+              - checkbox [ref=f1e1624] [cursor=pointer]
+              - generic [ref=f1e1627]: Schneider, Adriana
+              - generic [ref=f1e1629]: 678-185-2190
+              - generic [ref=f1e1631]: 08-05-2026
+              - generic [ref=f1e1633]: SelfPay
+              - checkbox [ref=f1e1638] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1644] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1650] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1656] [cursor=pointer]
+              - checkbox [checked] [ref=f1e1662] [cursor=pointer]
+              - generic [ref=f1e1668] [cursor=pointer]
+            - generic [ref=f1e1671]:
+              - progressbar [ref=f1e1672]
+              - generic [ref=f1e1675]: Loading more...
+  - generic [ref=f1e1682]:
+    - generic [ref=f1e1683]:
+      - heading "NEW ENROLLMENT" [level=6] [ref=f1e1686]
+      - generic [ref=f1e1687]:
+        - button [ref=f1e1688] [cursor=pointer]:
+          - heading "Cancel" [level=6] [ref=f1e1689]
+        - button [ref=f1e1690] [cursor=pointer]:
+          - heading "Add Plan" [level=6] [ref=f1e1691]
+    - generic [ref=f1e1693]:
+      - generic [ref=f1e1694]:
+        - heading [level=3] [ref=f1e1695]:
+          - button "1 New Enrollment" [expanded] [ref=f1e1696] [cursor=pointer]:
+            - generic [ref=f1e1698]:
+              - generic [ref=f1e1699]: "1"
+              - generic [ref=f1e1700]: New Enrollment
+        - region [ref=f1e1707]:
+          - generic [ref=f1e1710]:
+            - generic [ref=f1e1712]:
+              - generic [ref=f1e1713]: Select Patient*
+              - generic [ref=f1e1717]:
+                - combobox "Search" [ref=f1e1718]: MacGyver, Gregoria
+                - button "Open" [ref=f1e1720] [cursor=pointer]
+                - group
+            - generic [ref=f1e1723]:
+              - generic [ref=f1e1724]: Date Of Birth*
+              - generic [ref=f1e1727]:
+                - button "Choose date, selected date is Sep 12, 2023" [ref=f1e1729] [cursor=pointer]
+                - textbox "MM-DD-YYYY" [ref=f1e1732]: 09-12-2023
+                - group
+            - generic [ref=f1e1733]:
+              - generic [ref=f1e1734]: Phone Number*
+              - generic [ref=f1e1736]:
+                - generic [ref=f1e1739]:
+                  - combobox [ref=f1e1740]: "+1"
+                  - group
+                - textbox "Enter Number" [ref=f1e1742]: 891-224-6790
+            - generic [ref=f1e1743]:
+              - generic [ref=f1e1744]: Email Address
+              - textbox "Enter Email" [ref=f1e1746]
+            - generic [ref=f1e1747]:
+              - generic [ref=f1e1748]:
+                - generic [ref=f1e1749]: Insurance
+                - button "Add New Insurance" [ref=f1e1750] [cursor=pointer]
+              - generic [ref=f1e1757]:
+                - combobox "Search & Select Insurance" [ref=f1e1758]
+                - button "Open" [ref=f1e1760] [cursor=pointer]
+                - group
+            - generic [ref=f1e1763]:
+              - generic [ref=f1e1764]: Service*
+              - generic [ref=f1e1766]:
+                - combobox "Remote Therapeutic Monitoring (RTM)" [ref=f1e1767] [cursor=pointer]
+                - textbox: RTM
+                - group
+            - generic [ref=f1e1769]:
+              - generic [ref=f1e1770]: Provider*
+              - generic [ref=f1e1774]:
+                - combobox "Search & Select Provider" [ref=f1e1775]
+                - button "Open" [ref=f1e1777] [cursor=pointer]
+                - group
+            - generic [ref=f1e1780]:
+              - generic [ref=f1e1781]: Condition*
+              - generic [ref=f1e1784]:
+                - combobox "Search & Select Diagnoses" [ref=f1e1785]
+                - button "Open" [ref=f1e1787] [cursor=pointer]
+                - group
+            - generic [ref=f1e1792]:
+              - generic [ref=f1e1793]: Primary Care Manager*
+              - generic [ref=f1e1797]:
+                - combobox "Search & Select Primary Care Manager" [ref=f1e1798]
+                - button "Open" [ref=f1e1800] [cursor=pointer]
+                - group
+            - generic [ref=f1e1803]:
+              - generic [ref=f1e1804]: Secondary Care Manager
+              - generic [ref=f1e1806]:
+                - combobox "Search & Select Secondary Care Manager" [ref=f1e1807]
+                - button "Open" [ref=f1e1809] [cursor=pointer]
+                - group
+            - generic [ref=f1e1813]:
+              - generic [ref=f1e1814]: Location*
+              - generic [ref=f1e1818]:
+                - combobox "Search & Select Location" [ref=f1e1819]
+                - button "Open" [ref=f1e1821] [cursor=pointer]
+                - group
+            - generic [ref=f1e1824]:
+              - generic [ref=f1e1825] [cursor=pointer]:
+                - checkbox "Send Consent" [ref=f1e1827]
+                - generic [ref=f1e1830]: Send Consent
+              - paragraph [ref=f1e1831]: Consent is sent automatically. Only use this if automated consent is offline.
+      - heading [level=3] [ref=f1e1833]:
+        - button "2 Create Plan" [ref=f1e1834] [cursor=pointer]:
+          - generic [ref=f1e1836]:
+            - generic [ref=f1e1837]: "2"
+            - generic [ref=f1e1838]: Create Plan
+      - heading [level=3] [ref=f1e1843]:
+        - button "3 Manage Devices" [ref=f1e1844] [cursor=pointer]:
+          - generic [ref=f1e1846]:
+            - generic [ref=f1e1847]: "3"
+            - generic [ref=f1e1848]: Manage Devices
+```
+
+# Test source
+
+```ts
+  17  | //
+  18  | // Why a NEW patient: the env-config test patient (Automation, Test)
+  19  | // already has 1000+ accumulated minutes — adding 15 more min would
+  20  | // still leave them above the 20-min floor. A fresh patient gives a
+  21  | // clean monthly bucket so the negative assertion is meaningful.
+  22  | //
+  23  | // Flow:
+  24  | //   1. Create patient + enroll in RPM + Move New → Active (only
+  25  | //      Active patients can log manual time / qualify CPT codes).
+  26  | //   2. On the patient chart's RPM tab, log 15 min via Manual Time
+  27  | //      Entries (below the 99457 floor).
+  28  | //   3. Navigate to Billing > Interaction > RPM for the current month.
+  29  | //   4. Assert the new patient is NOT present in the qualified list.
+  30  | // ====================================================================
+  31  | 
+  32  | const { providerCredentials, providerPortalUrl } = getEnvironmentConfig();
+  33  | 
+  34  | const MINUTES_TO_LOG = 15;
+  35  | 
+  36  | function todayShortMonthYear(): string {
+  37  |     const d = new Date();
+  38  |     return d.toLocaleString('en-US', { month: 'short' }) + ' ' + d.getFullYear();
+  39  | }
+  40  | 
+  41  | async function logManualTime(page: Page, minutes: number, summary: string): Promise<void> {
+  42  |     Logger.step(`Log ${minutes} min manual time on patient chart (RPM)`);
+  43  |     const manualBtn = page.getByRole('button', { name: /Manual Time Entries/i }).first();
+  44  |     await manualBtn.waitFor({ state: 'visible', timeout: 15000 });
+  45  |     await manualBtn.click();
+  46  | 
+  47  |     const drawerHeading = page.getByRole('heading', { name: /MANUAL TIME ENTRIES/i }).first();
+  48  |     await drawerHeading.waitFor({ state: 'visible', timeout: 15000 });
+  49  | 
+  50  |     const logAs = page.getByRole('combobox', { name: /^Log As$/i }).first();
+  51  |     await logAs.click();
+  52  |     await logAs.pressSequentially('test', { delay: 50 });
+  53  |     const addOption = page
+  54  |         .getByRole('option', { name: /^Add\s+["']?test["']?/i })
+  55  |         .or(page.locator('//li[@role="option" and starts-with(normalize-space(.), "Add")]'))
+  56  |         .first();
+  57  |     await addOption.waitFor({ state: 'visible', timeout: 8000 });
+  58  |     await addOption.click();
+  59  |     await expect(logAs).toHaveValue(/test/i, { timeout: 5000 });
+  60  | 
+  61  |     const summaryEl = page.getByPlaceholder('Enter Summary').first();
+  62  |     if (await summaryEl.isVisible({ timeout: 3000 }).catch(() => false)) {
+  63  |         await summaryEl.fill(summary);
+  64  |     }
+  65  | 
+  66  |     const duration = page.getByPlaceholder('e.g. 45').first();
+  67  |     if (await duration.isVisible({ timeout: 3000 }).catch(() => false)) {
+  68  |         await duration.fill(String(minutes));
+  69  |     }
+  70  | 
+  71  |     const save = page.getByRole('button', { name: /^Save$/i }).first();
+  72  |     await save.click();
+  73  |     await drawerHeading.waitFor({ state: 'hidden', timeout: 20000 });
+  74  |     await page
+  75  |         .locator('.MuiBackdrop-root.MuiModal-backdrop')
+  76  |         .first()
+  77  |         .waitFor({ state: 'hidden', timeout: 10000 })
+  78  |         .catch(() => { /* noop */ });
+  79  |     await page.waitForLoadState('networkidle').catch(() => { /* noop */ });
+  80  | }
+  81  | 
+  82  | test.describe('Interaction Billing (RPM) — below-threshold does not qualify CPT 99457', () => {
+  83  |     test('logging 15 min on RPM keeps the patient OUT of Billing > Interaction > RPM (no CPT 99457 qualification)', async ({
+  84  |         page,
+  85  |     }) => {
+  86  |         test.setTimeout(420000);
+  87  | 
+  88  |         const login = new ProviderLoginPage(page);
+  89  |         const patientMgmt = new PatientManagementPage(page);
+  90  |         const enrollment = new ProviderEnrollmentsPage(page);
+  91  |         const chart = new PatientChartPage(page);
+  92  | 
+  93  |         Logger.step('=== CPT 99457: below-threshold negative case ===');
+  94  | 
+  95  |         // ── Step 1: Login + create new patient + RPM enrollment ─────────
+  96  |         Logger.step('Step 1: Login + create new patient + RPM enrollment');
+  97  |         await page.goto(providerPortalUrl);
+  98  |         await login.login(providerCredentials.username, providerCredentials.password);
+  99  | 
+  100 |         const patient = PatientDataFactory.createPatient();
+  101 |         const patientFullName = `${patient.lastName}, ${patient.firstName}`;
+  102 |         const patientLastName = patient.lastName;
+  103 |         Logger.info(`New patient: ${patientFullName}`);
+  104 |         await patientMgmt.patientCreation(patient.firstName, patient.lastName, patient.dob, patient.phoneNumber);
+  105 | 
+  106 |         const enrollPromptVisible = await page
+  107 |             .getByText(/DO YOU WANT TO ENROLL THIS PATIENT/i)
+  108 |             .isVisible({ timeout: 5000 })
+  109 |             .catch(() => false);
+  110 |         if (enrollPromptVisible) {
+  111 |             await page
+  112 |                 .getByRole('button', { name: /^(Yes|Enroll|Add)$/i })
+  113 |                 .or(page.locator("//div[contains(.,'DO YOU WANT TO ENROLL')]//button"))
+  114 |                 .first()
+  115 |                 .click();
+  116 |         }
+> 117 |         await page.locator('//h5[text()="NEW ENROLLMENT"]').waitFor({ state: 'visible', timeout: 15000 });
+      |                                                             ^ TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+  118 | 
+  119 |         const rpmService = 'Remote Patient Monitoring (RPM)';
+  120 |         await enrollment.serviceDropdown.click();
+  121 |         await page.locator(`//li[text()="${rpmService}"]`).first().click();
+  122 |         await settle(page, 800);
+  123 |         await enrollment.providerDropdown.click();
+  124 |         await page.locator('//ul[@role="listbox"]//li').first().waitFor({ state: 'visible', timeout: 5000 });
+  125 |         await page.locator('//ul[@role="listbox"]//li').first().click();
+  126 |         await settle(page, 500);
+  127 |         await enrollment.careMangerDropdown.click();
+  128 |         await page.locator('//ul[@role="listbox"]//li').first().waitFor({ state: 'visible', timeout: 5000 });
+  129 |         await page.locator('//ul[@role="listbox"]//li').first().click();
+  130 |         await settle(page, 500);
+  131 |         await enrollment.conditionsDropdown.click();
+  132 |         await page.locator("//li[@id='tags-standard-option-0']//input").first().click();
+  133 |         await page.locator("//li[@id='tags-standard-option-2']//input").first().click();
+  134 |         await page.keyboard.press('Escape');
+  135 |         await settle(page, 500);
+  136 |         await page.evaluate(() => {
+  137 |             const dialog = document.querySelector('[role="dialog"], .MuiDialog-paper, .MuiDrawer-paper');
+  138 |             if (dialog) (dialog as HTMLElement).scrollTop = 0;
+  139 |         });
+  140 |         await settle(page, 500);
+  141 |         await page
+  142 |             .getByRole('button', { name: /^Add Plan$/i })
+  143 |             .or(page.locator("//button[normalize-space()='Add Plan']"))
+  144 |             .first()
+  145 |             .click();
+  146 |         const submitResult = await enrollment.validateEnrollmentResult();
+  147 |         expect(submitResult, `Enrollment submit should succeed; got "${submitResult}"`).toBe('SUCCESS');
+  148 |         Logger.info('Step 1 ✓ Enrollment submitted; patient is in NEW status');
+  149 | 
+  150 |         // ── Step 2: Move New → Active ────────────────────────────────────
+  151 |         Logger.step('Step 2: Move New → Active so Manual Time Entries is unlocked');
+  152 |         await enrollment.worklistSection.click({ force: true });
+  153 |         await page.waitForLoadState('domcontentloaded');
+  154 |         await settle(page, 1500);
+  155 |         await enrollment.ensureCareTeamWorkListActive();
+  156 |         await enrollment.careManagerFilterDropdown.click();
+  157 |         await settle(page, 500);
+  158 |         await enrollment.allCareManagerOption.click();
+  159 |         await settle(page, 1500);
+  160 |         await page.locator(`//span[text()="RPM"]`).first().click();
+  161 |         await settle(page, 1000);
+  162 |         await enrollment.newSection.click();
+  163 |         await page.waitForLoadState('domcontentloaded');
+  164 |         await settle(page, 2000);
+  165 | 
+  166 |         const wlSearch = page.locator('//input[@placeholder="Type here to search"]').first();
+  167 |         await wlSearch.click();
+  168 |         await wlSearch.fill(patientLastName);
+  169 |         await settle(page, 2000);
+  170 | 
+  171 |         const newRow = page
+  172 |             .locator(`//*[contains(text(), "${patientLastName}")]/ancestor::div[contains(@class,'MuiBox-root')][1]`)
+  173 |             .first();
+  174 |         await newRow.waitFor({ state: 'visible', timeout: 10000 });
+  175 |         await newRow
+  176 |             .locator("[data-testid='MoreVertIcon']")
+  177 |             .or(newRow.locator('img[alt*="more" i], img[src*="MoreVert" i]'))
+  178 |             .first()
+  179 |             .click();
+  180 |         await settle(page, 500);
+  181 |         await page
+  182 |             .getByRole('menuitem', { name: /move\s*to\s*active/i })
+  183 |             .or(page.getByRole('button', { name: /move\s*to\s*active/i }))
+  184 |             .first()
+  185 |             .click();
+  186 |         await settle(page, 1000);
+  187 |         await page.getByText(/Are you sure you want to move/i).first().waitFor({ state: 'visible', timeout: 10000 });
+  188 |         await page.getByRole('button', { name: /^Move to Active$/i }).last().click();
+  189 |         await page.waitForLoadState('domcontentloaded');
+  190 |         await settle(page, 3000);
+  191 |         const modalBackdrop = page.locator('.MuiBackdrop-root');
+  192 |         if (await modalBackdrop.isVisible().catch(() => false)) await modalBackdrop.click({ force: true });
+  193 |         await settle(page, 500);
+  194 |         await page.keyboard.press('Escape');
+  195 |         await settle(page, 1500);
+  196 |         Logger.info('Step 2 ✓ Patient moved to Active');
+  197 | 
+  198 |         // ── Step 3: Open chart + log MINUTES_TO_LOG (< 20) ──────────────
+  199 |         Logger.step(`Step 3: Open patient chart and log ${MINUTES_TO_LOG} min (below CPT 99457 floor)`);
+  200 |         await page.reload({ waitUntil: 'domcontentloaded', timeout: 60000 });
+  201 |         await settle(page, 1500);
+  202 |         await chart.openPatientChartFromGlobalSearch(patientFullName);
+  203 |         const rpmBtn = page.getByRole('button', { name: /^RPM$/i }).first();
+  204 |         await rpmBtn.waitFor({ state: 'visible', timeout: 15000 });
+  205 |         await rpmBtn.click().catch(() => { /* may already be on RPM */ });
+  206 |         await page.waitForLoadState('networkidle').catch(() => { /* noop */ });
+  207 | 
+  208 |         await logManualTime(page, MINUTES_TO_LOG, 'Auto entry — below-threshold negative case');
+  209 |         Logger.info(`Step 3 ✓ ${MINUTES_TO_LOG} min logged (below 20-min CPT 99457 floor)`);
+  210 | 
+  211 |         // ── Step 4: Billing > Interaction > RPM — patient must NOT appear ─
+  212 |         Logger.step('Step 4: Navigate to Billing > Interaction > RPM (current month) and assert patient is absent');
+  213 |         const origin = new URL(page.url()).origin;
+  214 |         await page.goto(`${origin}/provider/billing`, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  215 |         await page.waitForLoadState('networkidle').catch(() => { /* noop */ });
+  216 | 
+  217 |         const monthInput = page.getByPlaceholder('Select Month').first();
+```

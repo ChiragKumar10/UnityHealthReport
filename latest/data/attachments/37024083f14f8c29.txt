@@ -1,0 +1,60 @@
+[INFO] 2026-08-24T08:25:46.172Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:25:46.124+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:25:46.932Z - Login to Provider Portal
+[INFO] 2026-08-24T08:25:49.415Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:49.418Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:25:49.470Z - Creating patient via UI: Reilly, Sheryl
+[STEP] 2026-08-24T08:25:49.470Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:25:52.093Z - Patient details drawer opened
+[STEP] 2026-08-24T08:25:52.093Z - Filling demographics for Sheryl Reilly
+[STEP] 2026-08-24T08:25:54.796Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:25:55.624Z - Setting location: Automation
+[STEP] 2026-08-24T08:25:56.066Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:25:57.323Z - Clicking Save & Next
+[INFO] 2026-08-24T08:26:00.293Z - [createPatientViaUI] created "Reilly, Sheryl"
+[STEP] 2026-08-24T08:26:00.294Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:15.700Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:15.701Z - Adding new enrollment
+[INFO] 2026-08-24T08:26:19.909Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:26:22.138Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:26:22.138Z - Patient: Reilly, Sheryl | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:23.306Z - Validating enrollment result
+[INFO] 2026-08-24T08:26:23.306Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:26:23.307Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:26:23.307Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:26:23.661Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:26:23.661Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:26:23.661Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:26:23.661Z - Final enrollment details:
+[INFO] 2026-08-24T08:26:23.661Z -   Patient: Reilly, Sheryl
+[INFO] 2026-08-24T08:26:23.661Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:26:23.661Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:26:23.661Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:26:23.661Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:26:23.662Z - Enrolled Reilly, Sheryl in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:23.662Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:39.265Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:39.265Z - Applying status filter: New
+[STEP] 2026-08-24T08:26:40.050Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:41.023Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:26:41.023Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:26:41.736Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:42.303Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:26:42.304Z - Moving enrollment to Active for "Reilly" (RPM)
+[STEP] 2026-08-24T08:26:42.305Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:42.305Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:42.713Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:42.717Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:43.949Z - "Move to Active" confirmed for "Reilly"
+[INFO] 2026-08-24T08:26:43.950Z - Moved Reilly, Sheryl to Active
+[STEP] 2026-08-24T08:26:43.950Z - Searching for: Sheryl
+[INFO] 2026-08-24T08:26:46.036Z - Search performed for: Sheryl
+[STEP] 2026-08-24T08:26:46.036Z - Checking if patient 'Reilly, Sheryl' is in dropdown
+[INFO] 2026-08-24T08:26:46.041Z - Patient 'Reilly, Sheryl' found in dropdown
+[STEP] 2026-08-24T08:26:46.046Z - Selecting patient 'Reilly, Sheryl' from dropdown
+[INFO] 2026-08-24T08:26:46.149Z - Patient 'Reilly, Sheryl' selected from dropdown
+[STEP] 2026-08-24T08:26:47.499Z - Logging 10 minutes of manual time
+[STEP] 2026-08-24T08:26:50.401Z - Opening sidebar: Billing
+[STEP] 2026-08-24T08:26:51.255Z - Selecting "RPM" cell under "Interaction" section
+[INFO] 2026-08-24T08:26:51.893Z - Interaction RPM buckets — To Be Billed: 0, Submitted: 0

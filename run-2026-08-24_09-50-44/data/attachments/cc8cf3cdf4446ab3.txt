@@ -1,0 +1,27 @@
+[STEP] 2026-08-24T08:41:08.074Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:41:10.629Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:12.408Z - Test: Verify view profile from action menu
+[STEP] 2026-08-24T08:41:12.409Z - Navigating to Settings page
+[INFO] 2026-08-24T08:41:13.793Z - Navigated to Settings page
+[STEP] 2026-08-24T08:41:13.794Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:41:22.159Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:41:23.935Z - Status filter set to All
+[STEP] 2026-08-24T08:41:23.935Z - Clicking View Profile for: practice admin
+[STEP] 2026-08-24T08:41:23.935Z - Opening action menu for: practice admin
+[STEP] 2026-08-24T08:41:23.936Z - Searching for user: practice admin
+[INFO] 2026-08-24T08:41:25.051Z - Search completed for: practice admin
+[INFO] 2026-08-24T08:41:31.055Z - Attempt 1 error: locator.waitFor: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator('//main//*[@data-testid=\'MoreVertIcon\']').first() to be visible
+
+[INFO] 2026-08-24T08:41:31.055Z - Action menu not visible on attempt 1, retrying...
+[INFO] 2026-08-24T08:41:37.559Z - Attempt 2 error: locator.waitFor: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator('//main//*[@data-testid=\'MoreVertIcon\']').first() to be visible
+
+[INFO] 2026-08-24T08:41:37.559Z - Action menu not visible on attempt 2, retrying...
+[INFO] 2026-08-24T08:41:44.061Z - Attempt 3 error: locator.waitFor: Timeout 6000ms exceeded.
+Call log:
+  - waiting for locator('//main//*[@data-testid=\'MoreVertIcon\']').first() to be visible
+
+[INFO] 2026-08-24T08:41:44.062Z - Action menu not visible on attempt 3, retrying...

@@ -1,0 +1,64 @@
+[STEP] 2026-08-24T08:24:20.692Z - Test: Enroll the seeded patient, verify New, then move to Active
+[INFO] 2026-08-24T08:24:26.078Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:24:26.078Z - Seeding patient (no enrollment) via UI onboarding (single session)
+[STEP] 2026-08-24T08:24:26.079Z - Creating patient via UI: Doyle, Dorian
+[STEP] 2026-08-24T08:24:26.079Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:24:29.061Z - Patient details drawer opened
+[STEP] 2026-08-24T08:24:29.061Z - Filling demographics for Dorian Doyle
+[STEP] 2026-08-24T08:24:34.553Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:24:36.561Z - Setting location: Automation
+[STEP] 2026-08-24T08:24:37.631Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:24:39.169Z - Clicking Save & Next
+[INFO] 2026-08-24T08:24:42.518Z - [createPatientViaUI] created "Doyle, Dorian"
+[INFO] 2026-08-24T08:24:42.518Z - Seeded patient via UI: Doyle, Dorian
+[STEP] 2026-08-24T08:24:42.519Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:57.663Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:57.668Z - Adding new enrollment
+[INFO] 2026-08-24T08:25:01.625Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:25:03.439Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:25:03.439Z - Patient: Doyle, Dorian | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:25:04.873Z - Validating enrollment result
+[INFO] 2026-08-24T08:25:04.873Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:25:04.873Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:25:04.873Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:25:04.947Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:25:04.947Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:25:04.948Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:25:04.948Z - Final enrollment details:
+[INFO] 2026-08-24T08:25:04.948Z -   Patient: Doyle, Dorian
+[INFO] 2026-08-24T08:25:04.948Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:25:04.948Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:25:04.948Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:25:04.948Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:25:04.948Z - Enrolled "Doyle, Dorian" in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:25:04.948Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:20.536Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:20.537Z - Applying status filter: New
+[STEP] 2026-08-24T08:25:22.350Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:24.253Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:25:24.254Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:25:25.344Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:26.466Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:25:26.466Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:26.466Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:27.537Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:27.537Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:28.119Z - Verified "Doyle" is in the New section (RTM)
+[STEP] 2026-08-24T08:25:28.120Z - Moving enrollment to Active for "Doyle" (RTM)
+[STEP] 2026-08-24T08:25:28.121Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:28.123Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:28.468Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:28.468Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:30.121Z - "Move to Active" confirmed for "Doyle"
+[STEP] 2026-08-24T08:25:30.121Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:45.349Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:45.349Z - Applying status filter: Active
+[STEP] 2026-08-24T08:25:45.916Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:46.522Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:25:46.523Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:25:56.528Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:56.528Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:56.752Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:56.752Z - Waiting for enrollment list to finish loading

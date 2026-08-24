@@ -1,0 +1,118 @@
+[INFO] 2026-08-24T08:27:20.478Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:20.496Z - Test: Upload, assign, view in library, verify same in patient charting
+[STEP] 2026-08-24T08:27:20.496Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:27:20.502Z - Creating patient via UI: Bosco, Antoinette
+[STEP] 2026-08-24T08:27:20.502Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:27:26.122Z - Patient details drawer opened
+[STEP] 2026-08-24T08:27:26.124Z - Filling demographics for Antoinette Bosco
+[STEP] 2026-08-24T08:27:33.423Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:27:34.111Z - Setting location: Automation
+[STEP] 2026-08-24T08:27:35.192Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:27:37.245Z - Clicking Save & Next
+[INFO] 2026-08-24T08:27:42.131Z - [createPatientViaUI] created "Bosco, Antoinette"
+[STEP] 2026-08-24T08:27:42.131Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:57.417Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:57.418Z - Adding new enrollment
+[INFO] 2026-08-24T08:28:02.842Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:28:04.628Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:28:04.628Z - Patient: Bosco, Antoinette | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:06.435Z - Validating enrollment result
+[INFO] 2026-08-24T08:28:06.436Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:28:06.436Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:28:06.436Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:28:07.371Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:28:07.371Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:28:07.371Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:28:07.371Z - Final enrollment details:
+[INFO] 2026-08-24T08:28:07.371Z -   Patient: Bosco, Antoinette
+[INFO] 2026-08-24T08:28:07.371Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:28:07.371Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:28:07.371Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:28:07.371Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:28:07.371Z - Enrolled Bosco, Antoinette in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:07.371Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:23.370Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:23.370Z - Applying status filter: New
+[STEP] 2026-08-24T08:28:24.301Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:25.513Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:28:25.513Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:26.369Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:27.289Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:28:27.289Z - Moving enrollment to Active for "Bosco" (CCM)
+[STEP] 2026-08-24T08:28:27.289Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:28:27.289Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:28:27.946Z - Date filter applied successfully
+[STEP] 2026-08-24T08:28:27.946Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:29.573Z - "Move to Active" confirmed for "Bosco"
+[INFO] 2026-08-24T08:28:29.573Z - Moved Bosco, Antoinette to Active
+[STEP] 2026-08-24T08:28:29.573Z - Navigating to Document Library
+[INFO] 2026-08-24T08:28:32.355Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:28:32.355Z - Clicking folder: Education
+[INFO] 2026-08-24T08:28:34.090Z - Opened folder: Education
+[STEP] 2026-08-24T08:28:34.090Z - Uploading document: Consistency 1787560114090
+[STEP] 2026-08-24T08:28:34.090Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:28:36.019Z - Upload Material form opened
+[STEP] 2026-08-24T08:28:36.019Z - Selecting tag: Education
+[INFO] 2026-08-24T08:28:37.582Z - Tag selected: Education
+[STEP] 2026-08-24T08:28:37.582Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:28:39.367Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:28:39.367Z - Filling file name: Consistency 1787560114090
+[STEP] 2026-08-24T08:28:39.869Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/test-image.jpg
+[INFO] 2026-08-24T08:28:39.989Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:28:41.082Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/test-image.jpg
+[STEP] 2026-08-24T08:28:41.082Z - Clicking Upload button
+[INFO] 2026-08-24T08:28:41.106Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:28:44.290Z - Upload completed
+[INFO] 2026-08-24T08:28:44.290Z - Document "Consistency 1787560114090" uploaded successfully
+[INFO] 2026-08-24T08:28:44.290Z - Step 1: Uploaded "Consistency 1787560114090"
+[STEP] 2026-08-24T08:28:44.290Z - Navigating to Document Library
+[INFO] 2026-08-24T08:28:46.074Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:28:46.074Z - Clicking folder: Education
+[INFO] 2026-08-24T08:28:48.384Z - Opened folder: Education
+[STEP] 2026-08-24T08:28:48.393Z - Searching document: Consistency 1787560114090
+[INFO] 2026-08-24T08:28:50.827Z - Search completed: Consistency 1787560114090
+[STEP] 2026-08-24T08:28:50.841Z - Viewing document at row 0
+[STEP] 2026-08-24T08:28:50.843Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:28:52.054Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:28:52.054Z - Clicking action item: View Material
+[INFO] 2026-08-24T08:28:53.774Z - Clicked: View Material
+[INFO] 2026-08-24T08:28:56.784Z - View Material clicked
+[INFO] 2026-08-24T08:28:56.818Z - View panel visible: true
+[STEP] 2026-08-24T08:28:56.836Z - Getting View Material panel details
+[INFO] 2026-08-24T08:28:58.850Z - View panel has file: false
+[INFO] 2026-08-24T08:28:58.854Z - Step 2: View panel shows uploaded document
+[STEP] 2026-08-24T08:28:58.855Z - Closing View panel
+[INFO] 2026-08-24T08:29:00.011Z - View panel closed
+[STEP] 2026-08-24T08:29:00.020Z - Navigating to Document Library
+[INFO] 2026-08-24T08:29:01.671Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:29:01.671Z - Clicking folder: Education
+[INFO] 2026-08-24T08:29:04.012Z - Opened folder: Education
+[STEP] 2026-08-24T08:29:04.018Z - Searching document: Consistency 1787560114090
+[INFO] 2026-08-24T08:29:06.391Z - Search completed: Consistency 1787560114090
+[STEP] 2026-08-24T08:29:06.391Z - Assigning document (row 0) to patient: Bosco
+[STEP] 2026-08-24T08:29:06.391Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:29:07.537Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:29:07.537Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:29:09.252Z - Clicked: Assign
+[INFO] 2026-08-24T08:29:16.043Z - Document assigned to patient: Bosco
+[INFO] 2026-08-24T08:29:16.043Z - Step 3: Document assigned to Automation, Test
+[STEP] 2026-08-24T08:29:16.043Z - Opening patient chart from global search for: Bosco, Antoinette
+[INFO] 2026-08-24T08:29:18.767Z - Patient chart opened from global search for: Bosco, Antoinette
+[INFO] 2026-08-24T08:29:24.629Z - Step 4: Document "Consistency 1787560114090" verified in patient charting
+[INFO] 2026-08-24T08:29:24.629Z - AUT_DOC_024 PASSED: Uploaded and assigned document consistency verified
+[INFO] 2026-08-24T08:29:31.477Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:31.495Z - Navigating to Document Library
+[INFO] 2026-08-24T08:29:36.236Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:29:36.236Z - Clicking folder: Education
+[INFO] 2026-08-24T08:29:41.238Z - Opened folder: Education
+[STEP] 2026-08-24T08:29:41.238Z - Searching document: Consistency 1787560114090
+[INFO] 2026-08-24T08:29:46.431Z - Search completed: Consistency 1787560114090
+[STEP] 2026-08-24T08:29:46.431Z - Deleting document at row 0
+[STEP] 2026-08-24T08:29:46.431Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:29:47.670Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:29:47.670Z - Clicking action item: Delete
+[INFO] 2026-08-24T08:29:49.414Z - Clicked: Delete
+[INFO] 2026-08-24T08:29:49.428Z - Delete confirmation dialog opened
+[INFO] 2026-08-24T08:29:49.428Z - Cleanup: deleted "Consistency 1787560114090"

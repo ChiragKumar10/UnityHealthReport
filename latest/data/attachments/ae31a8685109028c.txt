@@ -1,0 +1,60 @@
+[STEP] 2026-08-24T08:39:14.581Z - Login to Provider Portal
+[INFO] 2026-08-24T08:39:16.357Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:17.616Z - Test: Create tasks per action and verify isolation
+[STEP] 2026-08-24T08:39:17.616Z - Navigating to Task page
+[INFO] 2026-08-24T08:39:18.040Z - Navigated to Task page
+[STEP] 2026-08-24T08:39:18.041Z - Creating task: Call Iso 1787560758040
+[STEP] 2026-08-24T08:39:18.041Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:39:18.490Z - Add Task form opened
+[INFO] 2026-08-24T08:39:33.084Z - Task "Call Iso 1787560758040" created successfully
+[STEP] 2026-08-24T08:39:33.084Z - Creating task: Message Iso 1787560758040
+[STEP] 2026-08-24T08:39:33.084Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:39:33.312Z - Add Task form opened
+[INFO] 2026-08-24T08:39:47.490Z - Task "Message Iso 1787560758040" created successfully
+[STEP] 2026-08-24T08:39:47.490Z - Creating task: Email Iso 1787560758040
+[STEP] 2026-08-24T08:39:47.490Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:39:47.930Z - Add Task form opened
+[INFO] 2026-08-24T08:40:01.877Z - Task "Email Iso 1787560758040" created successfully
+[STEP] 2026-08-24T08:40:01.878Z - Creating task: SMS Iso 1787560758040
+[STEP] 2026-08-24T08:40:01.878Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:40:02.090Z - Add Task form opened
+[INFO] 2026-08-24T08:40:15.733Z - Task "SMS Iso 1787560758040" created successfully
+[STEP] 2026-08-24T08:40:15.733Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:40:17.333Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:40:17.333Z - Setting status filter to: All
+[INFO] 2026-08-24T08:40:25.786Z - Status filter set to: All
+[STEP] 2026-08-24T08:40:25.786Z - Setting service filter to: All
+[INFO] 2026-08-24T08:40:34.156Z - Service filter set to: All
+[STEP] 2026-08-24T08:40:34.156Z - Setting action filter to: Call
+[INFO] 2026-08-24T08:40:42.512Z - Action filter set to: Call
+[STEP] 2026-08-24T08:40:42.512Z - Searching for: 1787560758040
+[INFO] 2026-08-24T08:40:42.786Z - Search completed for: 1787560758040
+[STEP] 2026-08-24T08:40:42.787Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:40:43.791Z - TASK values: Call Iso 1787560758040
+[STEP] 2026-08-24T08:40:43.798Z - Clearing search
+[INFO] 2026-08-24T08:40:51.996Z - Search cleared
+[STEP] 2026-08-24T08:40:51.996Z - Setting action filter to: Message
+[INFO] 2026-08-24T08:41:00.350Z - Action filter set to: Message
+[STEP] 2026-08-24T08:41:00.350Z - Searching for: 1787560758040
+[INFO] 2026-08-24T08:41:00.631Z - Search completed for: 1787560758040
+[STEP] 2026-08-24T08:41:00.631Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:01.635Z - TASK values: Message Iso 1787560758040
+[STEP] 2026-08-24T08:41:01.638Z - Clearing search
+[INFO] 2026-08-24T08:41:09.753Z - Search cleared
+[STEP] 2026-08-24T08:41:09.753Z - Setting action filter to: Mail
+[INFO] 2026-08-24T08:41:10.378Z - Action filter set to: Mail
+[STEP] 2026-08-24T08:41:10.378Z - Searching for: 1787560758040
+[INFO] 2026-08-24T08:41:10.691Z - Search completed for: 1787560758040
+[STEP] 2026-08-24T08:41:10.691Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:11.697Z - TASK values: Email Iso 1787560758040
+[STEP] 2026-08-24T08:41:11.700Z - Clearing search
+[INFO] 2026-08-24T08:41:11.986Z - Search cleared
+[STEP] 2026-08-24T08:41:11.986Z - Setting action filter to: SMS
+[INFO] 2026-08-24T08:41:12.535Z - Action filter set to: SMS
+[STEP] 2026-08-24T08:41:12.535Z - Searching for: 1787560758040
+[INFO] 2026-08-24T08:41:12.806Z - Search completed for: 1787560758040
+[STEP] 2026-08-24T08:41:12.806Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:13.812Z - TASK values: SMS Iso 1787560758040
+[STEP] 2026-08-24T08:41:13.815Z - Clearing search
+[INFO] 2026-08-24T08:41:14.710Z - Search cleared
+[INFO] 2026-08-24T08:41:14.710Z - All action filters verified with isolation

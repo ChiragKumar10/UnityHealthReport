@@ -1,0 +1,64 @@
+[INFO] 2026-08-24T08:34:43.127Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:34:43.070+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:34:43.935Z - Setup: login → patient chart → CCM → Documents
+[INFO] 2026-08-24T08:34:47.896Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:34:49.971Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:34:50.001Z - Creating patient via UI: Lemke, Noble
+[STEP] 2026-08-24T08:34:50.003Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:34:56.902Z - Patient details drawer opened
+[STEP] 2026-08-24T08:34:56.902Z - Filling demographics for Noble Lemke
+[STEP] 2026-08-24T08:34:59.984Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:35:00.649Z - Setting location: Automation
+[STEP] 2026-08-24T08:35:01.456Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:35:02.591Z - Clicking Save & Next
+[INFO] 2026-08-24T08:35:05.690Z - [createPatientViaUI] created "Lemke, Noble"
+[STEP] 2026-08-24T08:35:05.693Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:35:20.952Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:35:20.960Z - Adding new enrollment
+[INFO] 2026-08-24T08:35:26.847Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:35:28.776Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:35:28.776Z - Patient: Lemke, Noble | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:35:29.894Z - Validating enrollment result
+[INFO] 2026-08-24T08:35:29.895Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:35:29.896Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:35:29.896Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:35:29.953Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:35:29.956Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:35:29.957Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:35:29.958Z - Final enrollment details:
+[INFO] 2026-08-24T08:35:29.959Z -   Patient: Lemke, Noble
+[INFO] 2026-08-24T08:35:29.961Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:35:29.961Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:35:29.962Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:35:29.963Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:35:29.965Z - Enrolled Lemke, Noble in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:35:29.965Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:35:45.840Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:35:45.840Z - Applying status filter: New
+[STEP] 2026-08-24T08:35:46.642Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:47.777Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:35:47.777Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:35:48.604Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:49.452Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:35:49.454Z - Moving enrollment to Active for "Lemke" (CCM)
+[STEP] 2026-08-24T08:35:49.457Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:35:49.457Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:35:50.000Z - Date filter applied successfully
+[STEP] 2026-08-24T08:35:50.000Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:35:51.535Z - "Move to Active" confirmed for "Lemke"
+[INFO] 2026-08-24T08:35:51.535Z - Moved Lemke, Noble to Active
+[STEP] 2026-08-24T08:35:51.543Z - Opening patient chart from global search for: Lemke, Noble
+[INFO] 2026-08-24T08:35:54.810Z - Patient chart opened from global search for: Lemke, Noble
+[INFO] 2026-08-24T08:35:59.432Z - Setup ✓: on patient-chart CCM → Documents
+[INFO] 2026-08-24T08:35:59.717Z - Scenario 1 ✓: root shows all 5 folders
+[INFO] 2026-08-24T08:36:00.192Z - Scenario 3 ✓: Folder "Home Exercise" accessible
+[INFO] 2026-08-24T08:36:00.889Z - Scenario 3 ✓: Folder "Education" accessible
+[INFO] 2026-08-24T08:36:01.338Z - Scenario 3 ✓: Folder "Challenges" accessible
+[INFO] 2026-08-24T08:36:01.583Z - Scenario 3 ✓: Folder "Care Plan" accessible
+[INFO] 2026-08-24T08:36:01.996Z - Scenario 3 ✓: Folder "Consent" accessible
+[INFO] 2026-08-24T08:36:02.291Z - Scenario 2 ✓: all chart-context columns present (plus breadcrumb)
+[STEP] 2026-08-24T08:36:02.294Z - Uploading "PWDoc-JPG-1787560562292" to "Home Exercise"
+[INFO] 2026-08-24T08:37:06.894Z - Upload drawer did not close on first click — retrying
+[INFO] 2026-08-24T08:38:06.979Z - Uploaded "PWDoc-JPG-1787560562292" to "Home Exercise"
+[STEP] 2026-08-24T08:38:06.981Z - Uploading "PWDoc-PDF-1787560562292" to "Education"

@@ -1,0 +1,23 @@
+[INFO] 2026-08-24T08:24:26.962Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:24:26.898+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:24:27.599Z - Login to Provider Portal
+[INFO] 2026-08-24T08:24:30.882Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:24:32.635Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:24:34.028Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:24:34.029Z - Test: Search by patient name
+[STEP] 2026-08-24T08:24:34.029Z - Getting first available alert
+[STEP] 2026-08-24T08:24:34.029Z - Getting alert row count
+[INFO] 2026-08-24T08:24:35.212Z - Alert row count: 25
+[STEP] 2026-08-24T08:24:35.212Z - Getting first patient name
+[STEP] 2026-08-24T08:24:35.220Z - Getting cell text at row 1, column 1
+[INFO] 2026-08-24T08:24:35.864Z - Cell text: Stroman, Vivian
+[INFO] 2026-08-24T08:24:35.864Z - First patient name: Stroman, Vivian
+[STEP] 2026-08-24T08:24:35.865Z - Getting alert row count
+[INFO] 2026-08-24T08:24:37.169Z - Alert row count: 25
+[STEP] 2026-08-24T08:24:37.186Z - Searching alerts for: Stroman
+[INFO] 2026-08-24T08:24:42.522Z - Search completed for: Stroman
+[STEP] 2026-08-24T08:24:42.522Z - Verifying search results contain: Stroman
+[STEP] 2026-08-24T08:24:42.527Z - Getting all patient names from table
+[STEP] 2026-08-24T08:24:43.545Z - Getting alert row count
+[INFO] 2026-08-24T08:24:44.578Z - Alert row count: 0
+[INFO] 2026-08-24T08:24:44.578Z - Found 0 patient names
+[INFO] 2026-08-24T08:24:44.578Z - Search results match "Stroman": false

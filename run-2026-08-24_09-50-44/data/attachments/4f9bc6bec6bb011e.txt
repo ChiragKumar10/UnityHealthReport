@@ -1,0 +1,42 @@
+[STEP] 2026-08-24T08:31:21.805Z - Login to Provider Portal
+[INFO] 2026-08-24T08:31:27.573Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:27.580Z - Navigate to RTM > Week 4
+[STEP] 2026-08-24T08:31:27.580Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:31:29.617Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:31:29.619Z - Selecting Week 4
+[INFO] 2026-08-24T08:31:30.352Z - Successfully selected Week 4
+[STEP] 2026-08-24T08:31:30.353Z - Checking if patient "Jose, Mark" is in the interaction list
+[INFO] 2026-08-24T08:31:34.739Z - Patient "Jose, Mark" found via search
+[STEP] 2026-08-24T08:31:34.741Z - Test: Multiple time entries — cumulative in Week 4
+[STEP] 2026-08-24T08:31:34.741Z - Getting total time logged for: Jose, Mark
+[INFO] 2026-08-24T08:31:37.783Z - Total time logged for "Jose, Mark": 310:00
+[STEP] 2026-08-24T08:31:37.783Z - Performing activity workflow: Reach Out for Jose, Mark
+[STEP] 2026-08-24T08:31:38.065Z - Clicking "Reach Out" checkbox for patient: Jose, Mark
+[INFO] 2026-08-24T08:31:48.621Z - "Reach Out" checkbox clicked for: Jose, Mark
+[INFO] 2026-08-24T08:31:52.295Z - Send confirmation toast: "Time Log Saved Successfully"
+[INFO] 2026-08-24T08:31:52.319Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:31:53.345Z - Activity workflow completed: Reach Out for Jose, Mark
+[STEP] 2026-08-24T08:31:53.345Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:31:54.108Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:31:54.108Z - Selecting Week 4
+[INFO] 2026-08-24T08:31:54.836Z - Successfully selected Week 4
+[STEP] 2026-08-24T08:31:54.836Z - Getting total time logged for: Jose, Mark
+[INFO] 2026-08-24T08:31:55.072Z - Total time logged for "Jose, Mark": 315:00
+[STEP] 2026-08-24T08:31:55.073Z - Verifying time incremented: 310:00 -> 315:00
+[INFO] 2026-08-24T08:31:55.073Z - Time incremented: true (310:00 → 315:00)
+[INFO] 2026-08-24T08:31:55.075Z - After 1st entry: 310:00 → 315:00
+[STEP] 2026-08-24T08:31:55.075Z - Performing activity workflow: Reach Out for Jose, Mark
+[STEP] 2026-08-24T08:31:55.407Z - Clicking "Reach Out" checkbox for patient: Jose, Mark
+[INFO] 2026-08-24T08:32:06.156Z - "Reach Out" checkbox clicked for: Jose, Mark
+[INFO] 2026-08-24T08:32:09.043Z - Send confirmation toast: "Time Log Saved Successfully"
+[INFO] 2026-08-24T08:32:09.065Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:32:10.086Z - Activity workflow completed: Reach Out for Jose, Mark
+[STEP] 2026-08-24T08:32:10.086Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:32:10.896Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:32:10.896Z - Selecting Week 4
+[INFO] 2026-08-24T08:32:11.770Z - Successfully selected Week 4
+[STEP] 2026-08-24T08:32:11.770Z - Getting total time logged for: Jose, Mark
+[INFO] 2026-08-24T08:32:12.314Z - Total time logged for "Jose, Mark": 320:00
+[STEP] 2026-08-24T08:32:12.314Z - Verifying time incremented: 315:00 -> 320:00
+[INFO] 2026-08-24T08:32:12.314Z - Time incremented: true (315:00 → 320:00)
+[INFO] 2026-08-24T08:32:12.315Z - After 2nd entry: 315:00 → 320:00

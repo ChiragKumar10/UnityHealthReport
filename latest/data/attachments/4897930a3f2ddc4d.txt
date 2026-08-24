@@ -1,0 +1,68 @@
+[INFO] 2026-08-24T08:30:36.506Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:30:39.809Z - Starting vital add and review test
+[INFO] 2026-08-24T08:30:39.810Z - Generated vital value: 188
+[STEP] 2026-08-24T08:30:39.810Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:30:39.810Z - Creating patient via UI: Runolfsdottir, Rhonda
+[STEP] 2026-08-24T08:30:39.810Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:30:44.966Z - Patient details drawer opened
+[STEP] 2026-08-24T08:30:44.968Z - Filling demographics for Rhonda Runolfsdottir
+[STEP] 2026-08-24T08:30:47.177Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:30:48.013Z - Setting location: Automation
+[STEP] 2026-08-24T08:30:48.744Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:30:49.467Z - Clicking Save & Next
+[INFO] 2026-08-24T08:30:52.345Z - [createPatientViaUI] created "Runolfsdottir, Rhonda"
+[STEP] 2026-08-24T08:30:52.345Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:07.447Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:31:07.448Z - Adding new enrollment
+[INFO] 2026-08-24T08:31:12.288Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:31:14.610Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:31:14.615Z - Patient: Runolfsdottir, Rhonda | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:31:16.519Z - Validating enrollment result
+[INFO] 2026-08-24T08:31:16.520Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:31:16.520Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:31:16.520Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:31:17.264Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:31:17.266Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:31:17.266Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:31:17.266Z - Final enrollment details:
+[INFO] 2026-08-24T08:31:17.266Z -   Patient: Runolfsdottir, Rhonda
+[INFO] 2026-08-24T08:31:17.266Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:31:17.266Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:31:17.266Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:31:17.274Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:31:17.274Z - Enrolled Runolfsdottir, Rhonda in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:31:17.274Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:33.615Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:31:33.615Z - Applying status filter: New
+[STEP] 2026-08-24T08:31:34.427Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:31:35.328Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:31:35.328Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:31:36.045Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:31:37.094Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:31:37.094Z - Moving enrollment to Active for "Runolfsdottir" (RTM)
+[STEP] 2026-08-24T08:31:37.094Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:31:37.094Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:31:37.436Z - Date filter applied successfully
+[STEP] 2026-08-24T08:31:37.436Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:31:38.701Z - "Move to Active" confirmed for "Runolfsdottir"
+[INFO] 2026-08-24T08:31:38.701Z - Moved Runolfsdottir, Rhonda to Active
+[STEP] 2026-08-24T08:31:38.701Z - Opening patient chart from global search for: Runolfsdottir, Rhonda
+[INFO] 2026-08-24T08:31:41.856Z - Patient chart opened from global search for: Runolfsdottir, Rhonda
+[STEP] 2026-08-24T08:31:41.881Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:31:44.211Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:31:44.217Z - Adding vital: Steps with value 188
+[STEP] 2026-08-24T08:31:44.218Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:31:44.458Z - Add Vital form opened
+[STEP] 2026-08-24T08:31:44.458Z - Selecting vital type: Steps
+[INFO] 2026-08-24T08:31:44.858Z - Successfully selected vital type: Steps
+[STEP] 2026-08-24T08:31:44.858Z - Entering vital value: 188
+[INFO] 2026-08-24T08:31:44.925Z - Successfully entered vital value: 188
+[STEP] 2026-08-24T08:31:44.925Z - Saving vital
+[INFO] 2026-08-24T08:31:45.016Z - Successfully saved vital
+[INFO] 2026-08-24T08:31:45.016Z - Successfully added vital: Steps with value 188
+[INFO] 2026-08-24T08:31:45.037Z - Vital "Steps" (188) persists on the chart
+[STEP] 2026-08-24T08:31:45.037Z - Navigating to Work List
+[INFO] 2026-08-24T08:31:45.590Z - Successfully navigated to Work List
+[INFO] 2026-08-24T08:31:45.773Z - Vital add and Care Team RTM monitoring view loaded successfully

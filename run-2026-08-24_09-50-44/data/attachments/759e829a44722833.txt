@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T08:29:19.280Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:19.288Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:29:19.296Z - Creating patient via UI: Kling, Elsie
+[STEP] 2026-08-24T08:29:19.297Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:29:26.608Z - Patient details drawer opened
+[STEP] 2026-08-24T08:29:26.608Z - Filling demographics for Elsie Kling
+[STEP] 2026-08-24T08:29:35.307Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:29:35.978Z - Setting location: Automation
+[STEP] 2026-08-24T08:29:37.002Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:29:38.286Z - Clicking Save & Next
+[INFO] 2026-08-24T08:29:42.205Z - [createPatientViaUI] created "Kling, Elsie"
+[STEP] 2026-08-24T08:29:42.206Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:57.473Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:57.473Z - Adding new enrollment
+[INFO] 2026-08-24T08:30:01.870Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:30:03.099Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:30:03.099Z - Patient: Kling, Elsie | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:04.157Z - Validating enrollment result
+[INFO] 2026-08-24T08:30:04.158Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:30:04.158Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:30:04.158Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:30:04.175Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:30:04.176Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:30:04.176Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:30:04.176Z - Final enrollment details:
+[INFO] 2026-08-24T08:30:04.176Z -   Patient: Kling, Elsie
+[INFO] 2026-08-24T08:30:04.177Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:30:04.177Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:30:04.177Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:30:04.177Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:30:04.178Z - Enrolled Kling, Elsie in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:04.178Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:19.378Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:19.378Z - Applying status filter: New
+[STEP] 2026-08-24T08:30:19.805Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:20.824Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:30:20.824Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:20.989Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:21.617Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:30:21.617Z - Moving enrollment to Active for "Kling" (CCM)
+[STEP] 2026-08-24T08:30:21.617Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:21.617Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:21.861Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:21.862Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:23.073Z - "Move to Active" confirmed for "Kling"
+[INFO] 2026-08-24T08:30:23.073Z - Moved Kling, Elsie to Active
+[INFO] 2026-08-24T08:30:27.006Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:30:27.019Z - Opening CCM Library
+[INFO] 2026-08-24T08:30:29.144Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:30:29.144Z - Opening Care Plan section
+[INFO] 2026-08-24T08:30:30.328Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:30:30.328Z - Creating minimal care plan: CPListA 1787559959308
+[STEP] 2026-08-24T08:30:30.328Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:30:34.207Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:30:34.207Z - Selecting diagnosis code: D3190
+[INFO] 2026-08-24T08:30:38.986Z - Diagnosis code 'D3190' selected
+[STEP] 2026-08-24T08:30:38.986Z - Filling care plan name: CPListA 1787559959308
+[INFO] 2026-08-24T08:30:39.105Z - Care plan name filled: CPListA 1787559959308
+[STEP] 2026-08-24T08:30:39.105Z - Selecting section: Overview
+[INFO] 2026-08-24T08:30:39.729Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:30:39.729Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:30:40.196Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:30:40.196Z - Clicking Next button
+[INFO] 2026-08-24T08:30:42.384Z - Next button clicked
+[STEP] 2026-08-24T08:30:42.384Z - Filling Overview section
+[INFO] 2026-08-24T08:30:42.494Z - Care Plan header filled
+[INFO] 2026-08-24T08:30:42.609Z - Care Plan footer filled
+[STEP] 2026-08-24T08:30:42.609Z - Clicking Next button
+[INFO] 2026-08-24T08:30:44.909Z - Next button clicked
+[STEP] 2026-08-24T08:30:44.909Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-08-24T08:30:45.054Z - Section note filled
+[INFO] 2026-08-24T08:30:45.212Z - Goal title filled: Seed Goal
+[INFO] 2026-08-24T08:30:47.319Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:30:47.319Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:30:47.484Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:30:48.526Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:30:49.565Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:30:49.565Z - Single Select - 3 options added
+[STEP] 2026-08-24T08:30:49.565Z - Clicking Finish button
+[INFO] 2026-08-24T08:30:51.818Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:30:51.818Z - Minimal care plan 'CPListA 1787559959308' created
+[INFO] 2026-08-24T08:30:51.818Z - Seed care plan template created: CPListA 1787559959308
+[STEP] 2026-08-24T08:30:51.818Z - Opening patient chart from global search for: Kling, Elsie
+[INFO] 2026-08-24T08:30:54.275Z - Patient chart opened from global search for: Kling, Elsie
+[STEP] 2026-08-24T08:30:54.275Z - Assigning Care Plan "CPListA 1787559959308" to patient
+[INFO] 2026-08-24T08:31:17.381Z - Assignment complete: "CPListA 1787559959308"
+[INFO] 2026-08-24T08:31:23.681Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:23.692Z - Opening CCM Library
+[INFO] 2026-08-24T08:31:27.147Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:31:27.148Z - Opening Care Plan section
+[INFO] 2026-08-24T08:31:33.977Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:31:33.977Z - Creating minimal care plan: CPListB 1787559959309
+[STEP] 2026-08-24T08:31:33.977Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:31:37.763Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:31:37.763Z - Selecting diagnosis code: D3190
+[INFO] 2026-08-24T08:31:42.468Z - Diagnosis code 'D3190' selected
+[STEP] 2026-08-24T08:31:42.469Z - Filling care plan name: CPListB 1787559959309
+[INFO] 2026-08-24T08:31:42.606Z - Care plan name filled: CPListB 1787559959309
+[STEP] 2026-08-24T08:31:42.606Z - Selecting section: Overview
+[INFO] 2026-08-24T08:31:43.156Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:31:43.157Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:31:43.636Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:31:43.636Z - Clicking Next button
+[INFO] 2026-08-24T08:31:45.847Z - Next button clicked
+[STEP] 2026-08-24T08:31:45.847Z - Filling Overview section
+[INFO] 2026-08-24T08:31:45.961Z - Care Plan header filled
+[INFO] 2026-08-24T08:31:46.040Z - Care Plan footer filled
+[STEP] 2026-08-24T08:31:46.040Z - Clicking Next button
+[INFO] 2026-08-24T08:31:48.413Z - Next button clicked
+[STEP] 2026-08-24T08:31:48.413Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-08-24T08:31:48.494Z - Section note filled
+[INFO] 2026-08-24T08:31:48.645Z - Goal title filled: Seed Goal
+[INFO] 2026-08-24T08:31:50.657Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:31:50.657Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:31:50.761Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:31:51.773Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:31:52.797Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:31:52.797Z - Single Select - 3 options added
+[STEP] 2026-08-24T08:31:52.797Z - Clicking Finish button
+[INFO] 2026-08-24T08:31:55.041Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:31:55.041Z - Minimal care plan 'CPListB 1787559959309' created
+[INFO] 2026-08-24T08:31:55.041Z - Seed care plan template created: CPListB 1787559959309
+[STEP] 2026-08-24T08:31:55.041Z - Opening patient chart from global search for: Kling, Elsie
+[INFO] 2026-08-24T08:31:57.772Z - Patient chart opened from global search for: Kling, Elsie
+[STEP] 2026-08-24T08:31:57.772Z - Assigning Care Plan "CPListB 1787559959309" to patient
+[INFO] 2026-08-24T08:32:18.425Z - Assignment complete: "CPListB 1787559959309"
+[INFO] 2026-08-24T08:32:20.904Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:32:30.913Z - Opening patient chart from global search for: Kling, Elsie
+[INFO] 2026-08-24T08:32:37.907Z - Patient chart opened from global search for: Kling, Elsie
+[INFO] 2026-08-24T08:32:54.603Z - AUT_CP_002 PASSED

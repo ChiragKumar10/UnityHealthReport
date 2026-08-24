@@ -1,0 +1,41 @@
+[STEP] 2026-08-24T08:50:39.001Z - Login to Provider Portal
+[INFO] 2026-08-24T08:50:40.673Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:50:41.909Z - Test: E2E Document Upload Workflow
+[STEP] 2026-08-24T08:50:41.912Z - Navigating to Document Library
+[INFO] 2026-08-24T08:50:43.756Z - Navigated to Document Library via sidebar
+[INFO] 2026-08-24T08:50:44.021Z - Step 1 ✓: Navigated to Document Library
+[INFO] 2026-08-24T08:50:44.623Z - Visible folders: Home Exercise, Education, Challenges, Care Plan, Consent
+[INFO] 2026-08-24T08:50:44.632Z - Step 2 ✓: All 5 folders visible: Home Exercise, Education, Challenges, Care Plan, Consent
+[STEP] 2026-08-24T08:50:44.632Z - Clicking folder: Education
+[INFO] 2026-08-24T08:50:46.812Z - Opened folder: Education
+[INFO] 2026-08-24T08:50:46.948Z - Step 3 ✓: Education folder opened
+[STEP] 2026-08-24T08:50:46.948Z - Uploading document: AutoDoc 1787561446948
+[STEP] 2026-08-24T08:50:46.948Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:50:48.705Z - Upload Material form opened
+[STEP] 2026-08-24T08:50:48.705Z - Selecting tag: Education
+[INFO] 2026-08-24T08:50:50.140Z - Tag selected: Education
+[STEP] 2026-08-24T08:50:50.141Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:50:51.608Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:50:51.608Z - Filling file name: AutoDoc 1787561446948
+[STEP] 2026-08-24T08:50:51.945Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[INFO] 2026-08-24T08:50:51.975Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:50:53.009Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[STEP] 2026-08-24T08:50:53.009Z - Filling description: Automated upload test at 2026-08-24T08:50:46.948Z
+[STEP] 2026-08-24T08:50:53.333Z - Clicking Upload button
+[INFO] 2026-08-24T08:50:53.371Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:50:56.451Z - Upload completed
+[INFO] 2026-08-24T08:50:56.451Z - Document "AutoDoc 1787561446948" uploaded successfully
+[INFO] 2026-08-24T08:50:56.451Z - Step 4 ✓: Document "AutoDoc 1787561446948" uploaded with tag=Education, speciality=Cardiologist
+[STEP] 2026-08-24T08:50:56.451Z - Navigating to Document Library
+[INFO] 2026-08-24T08:50:58.051Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:50:58.051Z - Clicking folder: Education
+[INFO] 2026-08-24T08:50:59.607Z - Opened folder: Education
+[STEP] 2026-08-24T08:50:59.685Z - Verifying uploaded document in Education folder
+[STEP] 2026-08-24T08:50:59.685Z - Searching document: AutoDoc 1787561446948
+[INFO] 2026-08-24T08:51:01.775Z - Search completed: AutoDoc 1787561446948
+[STEP] 2026-08-24T08:51:01.775Z - Fetching document list column: SPECIALITY
+[INFO] 2026-08-24T08:51:02.801Z - SPECIALITY values: Cardiologist
+[INFO] 2026-08-24T08:51:02.801Z - Documents in Education: specialities = Cardiologist
+[INFO] 2026-08-24T08:51:02.807Z - Step 6 ✓: Document "AutoDoc 1787561446948" found in Education folder
+[INFO] 2026-08-24T08:51:02.808Z - Step 7 ✓: Document metadata — Speciality values: Cardiologist
+[INFO] 2026-08-24T08:51:02.810Z - AUT_DOC_001 PASSED: Document uploaded to Education folder with all fields and verified

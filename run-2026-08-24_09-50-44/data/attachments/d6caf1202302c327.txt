@@ -1,0 +1,95 @@
+[INFO] 2026-08-24T08:49:34.985Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:49:34.912+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:49:39.584Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:49:49.611Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:49:49.721Z - Creating patient via UI: Koss, Jermaine
+[STEP] 2026-08-24T08:49:49.721Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:49:51.692Z - Patient details drawer opened
+[STEP] 2026-08-24T08:49:51.694Z - Filling demographics for Jermaine Koss
+[STEP] 2026-08-24T08:49:52.896Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:49:53.441Z - Setting location: Automation
+[STEP] 2026-08-24T08:49:54.179Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:49:55.554Z - Clicking Save & Next
+[INFO] 2026-08-24T08:49:58.618Z - [createPatientViaUI] created "Koss, Jermaine"
+[STEP] 2026-08-24T08:49:58.623Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:50:23.849Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:50:23.849Z - Adding new enrollment
+[INFO] 2026-08-24T08:50:27.221Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:50:28.604Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:50:28.604Z - Patient: Koss, Jermaine | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:50:29.535Z - Validating enrollment result
+[INFO] 2026-08-24T08:50:29.535Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:50:29.536Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:50:29.536Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:50:29.628Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:50:29.628Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:50:29.628Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:50:29.629Z - Final enrollment details:
+[INFO] 2026-08-24T08:50:29.629Z -   Patient: Koss, Jermaine
+[INFO] 2026-08-24T08:50:29.629Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:50:29.629Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:50:29.629Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:50:29.629Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:50:29.629Z - Enrolled Koss, Jermaine in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:50:29.629Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:50:55.065Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:50:55.065Z - Applying status filter: New
+[STEP] 2026-08-24T08:50:55.782Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:50:56.692Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:50:56.692Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:50:57.442Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:50:58.297Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:50:58.298Z - Moving enrollment to Active for "Koss" (CCM)
+[STEP] 2026-08-24T08:50:58.298Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:50:58.300Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:50:58.799Z - Date filter applied successfully
+[STEP] 2026-08-24T08:50:58.799Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:51:00.182Z - "Move to Active" confirmed for "Koss"
+[INFO] 2026-08-24T08:51:00.183Z - Moved Koss, Jermaine to Active
+[INFO] 2026-08-24T08:51:05.139Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:51:05.148Z - Opening CCM Library
+[INFO] 2026-08-24T08:51:08.088Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:51:08.089Z - Opening Care Plan section
+[INFO] 2026-08-24T08:51:09.390Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:51:09.390Z - Creating minimal care plan: CPReview 1787561374482
+[STEP] 2026-08-24T08:51:09.390Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:51:14.878Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:51:14.879Z - Selecting diagnosis code: D3190
+[INFO] 2026-08-24T08:51:19.710Z - Diagnosis code 'D3190' selected
+[STEP] 2026-08-24T08:51:19.710Z - Filling care plan name: CPReview 1787561374482
+[INFO] 2026-08-24T08:51:19.787Z - Care plan name filled: CPReview 1787561374482
+[STEP] 2026-08-24T08:51:19.787Z - Selecting section: Overview
+[INFO] 2026-08-24T08:51:20.256Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:51:20.257Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:51:20.703Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:51:20.703Z - Clicking Next button
+[INFO] 2026-08-24T08:51:22.964Z - Next button clicked
+[STEP] 2026-08-24T08:51:22.965Z - Filling Overview section
+[INFO] 2026-08-24T08:51:23.015Z - Care Plan header filled
+[INFO] 2026-08-24T08:51:23.073Z - Care Plan footer filled
+[STEP] 2026-08-24T08:51:23.073Z - Clicking Next button
+[INFO] 2026-08-24T08:51:25.251Z - Next button clicked
+[STEP] 2026-08-24T08:51:25.253Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-08-24T08:51:25.332Z - Section note filled
+[INFO] 2026-08-24T08:51:25.404Z - Goal title filled: Seed Goal
+[INFO] 2026-08-24T08:51:27.222Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:51:27.223Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:51:27.262Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:51:28.111Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:51:28.966Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:51:28.967Z - Single Select - 3 options added
+[STEP] 2026-08-24T08:51:28.968Z - Clicking Finish button
+[INFO] 2026-08-24T08:51:31.155Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:51:31.156Z - Minimal care plan 'CPReview 1787561374482' created
+[INFO] 2026-08-24T08:51:31.156Z - Seed care plan template created: CPReview 1787561374482
+[STEP] 2026-08-24T08:51:31.156Z - Opening patient chart from global search for: Koss, Jermaine
+[INFO] 2026-08-24T08:51:32.950Z - Patient chart opened from global search for: Koss, Jermaine
+[STEP] 2026-08-24T08:51:32.950Z - Assigning Care Plan "CPReview 1787561374482" to patient
+[INFO] 2026-08-24T08:51:53.808Z - Assignment complete: "CPReview 1787561374482"
+[STEP] 2026-08-24T08:51:53.808Z - Seeding progress entries via Modify → Next → answer → Finish
+[INFO] 2026-08-24T08:52:06.459Z - Progress entries seeded via Modify workflow
+[INFO] 2026-08-24T08:52:09.495Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:52:09.504Z - Opening patient chart from global search for: Koss, Jermaine
+[INFO] 2026-08-24T08:52:14.714Z - Patient chart opened from global search for: Koss, Jermaine
+[INFO] 2026-08-24T08:52:24.544Z - AUT_CP_015 PASSED

@@ -1,0 +1,40 @@
+[STEP] 2026-08-24T08:26:09.811Z - Phase 0: CM logs in and seeds an alert (Pain Scale 15 on RTM)
+[INFO] 2026-08-24T08:26:11.827Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:11.828Z - Seeding alert by saving Pain Scale 15 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:26:11.828Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:26:15.503Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:26:15.532Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:26:16.938Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:26:16.938Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:26:16.944Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:26:17.384Z - Add Vital form opened
+[STEP] 2026-08-24T08:26:17.387Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:26:17.811Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:26:17.811Z - Entering vital value: 15
+[INFO] 2026-08-24T08:26:17.860Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:26:17.860Z - Saving vital
+[INFO] 2026-08-24T08:26:17.964Z - Successfully saved vital
+[INFO] 2026-08-24T08:26:17.964Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:26:17.964Z - Abnormal Pain Scale (15) saved — waiting 30000ms for backend alert generation
+[STEP] 2026-08-24T08:26:47.968Z - Phase 1: CM verifies vital+value in Medical History → Alerts, escalates to VATE (Anny) with note "Test"
+[STEP] 2026-08-24T08:26:47.969Z - Escalate via Medical History → Alerts to provider "Anny"
+[INFO] 2026-08-24T08:26:54.020Z - Escalated "Pain Scale" alert to "Anny Vate" via Medical History → Alerts
+[INFO] 2026-08-24T08:26:54.020Z - Phase 1 ✓ CM escalated to VATE user via Medical History
+[STEP] 2026-08-24T08:26:54.892Z - Phase 2: VATE user logs in, verifies the alert, escalates to John
+[INFO] 2026-08-24T08:26:56.390Z - Different user "anny123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:26:56.699Z - Performing provider login
+[STEP] 2026-08-24T08:26:56.700Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:26:57.560Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:27:04.789Z - Login completed
+[STEP] 2026-08-24T08:27:04.795Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:27:09.644Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:27:09.691Z - Escalate via Medical History → Alerts to provider "John"
+[INFO] 2026-08-24T08:27:21.543Z - Escalated "Pain Scale" alert to "John Doe" via Medical History → Alerts
+[INFO] 2026-08-24T08:27:21.543Z - Phase 2 ✓ VATE user escalated to John via Medical History
+[STEP] 2026-08-24T08:27:22.637Z - Phase 3: John logs in → Provider Worklist → Escalation section → resolve via pencil → Show Closed
+[INFO] 2026-08-24T08:27:25.484Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:27:26.012Z - Performing provider login
+[STEP] 2026-08-24T08:27:26.012Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:27:27.359Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:27:30.776Z - Login completed
+[STEP] 2026-08-24T08:27:30.778Z - Open Provider Work List → Escalation section

@@ -1,0 +1,42 @@
+[STEP] 2026-08-24T08:28:19.983Z - Login to Provider Portal
+[INFO] 2026-08-24T08:28:23.362Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:28:25.499Z - Navigate to RTM > Week 1
+[STEP] 2026-08-24T08:28:25.499Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:28:27.860Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:28:27.860Z - Selecting Week 1
+[INFO] 2026-08-24T08:28:30.510Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:28:30.510Z - Checking if patient "Murazik, Kiera" is in the interaction list
+[INFO] 2026-08-24T08:28:30.643Z - Patient "Murazik, Kiera" found in interaction list
+[STEP] 2026-08-24T08:28:30.644Z - Test: Multiple time entries — cumulative
+[STEP] 2026-08-24T08:28:30.644Z - Getting total time logged for: Murazik, Kiera
+[INFO] 2026-08-24T08:28:30.770Z - Total time logged for "Murazik, Kiera": 25:00
+[STEP] 2026-08-24T08:28:30.770Z - Performing activity workflow: Reach Out for Murazik, Kiera
+[STEP] 2026-08-24T08:28:30.852Z - Clicking "Reach Out" checkbox for patient: Murazik, Kiera
+[INFO] 2026-08-24T08:28:41.151Z - "Reach Out" checkbox clicked for: Murazik, Kiera
+[INFO] 2026-08-24T08:28:42.554Z - Send confirmation toast: "Time Log Saved Successfully"
+[INFO] 2026-08-24T08:28:42.558Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:28:43.561Z - Activity workflow completed: Reach Out for Murazik, Kiera
+[STEP] 2026-08-24T08:28:43.561Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:28:44.077Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:28:44.077Z - Selecting Week 1
+[INFO] 2026-08-24T08:28:44.809Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:28:44.809Z - Getting total time logged for: Murazik, Kiera
+[INFO] 2026-08-24T08:28:45.189Z - Total time logged for "Murazik, Kiera": 30:00
+[STEP] 2026-08-24T08:28:45.189Z - Verifying time incremented: 25:00 -> 30:00
+[INFO] 2026-08-24T08:28:45.189Z - Time incremented: true (25:00 → 30:00)
+[INFO] 2026-08-24T08:28:45.191Z - After 1st entry: 25:00 → 30:00
+[STEP] 2026-08-24T08:28:45.191Z - Performing activity workflow: Reach Out for Murazik, Kiera
+[STEP] 2026-08-24T08:28:45.392Z - Clicking "Reach Out" checkbox for patient: Murazik, Kiera
+[INFO] 2026-08-24T08:28:55.876Z - "Reach Out" checkbox clicked for: Murazik, Kiera
+[INFO] 2026-08-24T08:28:58.013Z - Send confirmation toast: "Time Log Saved Successfully"
+[INFO] 2026-08-24T08:28:58.054Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:28:59.093Z - Activity workflow completed: Reach Out for Murazik, Kiera
+[STEP] 2026-08-24T08:28:59.094Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:28:59.645Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:28:59.646Z - Selecting Week 1
+[INFO] 2026-08-24T08:29:00.375Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:29:00.376Z - Getting total time logged for: Murazik, Kiera
+[INFO] 2026-08-24T08:29:00.785Z - Total time logged for "Murazik, Kiera": 35:00
+[STEP] 2026-08-24T08:29:00.786Z - Verifying time incremented: 30:00 -> 35:00
+[INFO] 2026-08-24T08:29:00.786Z - Time incremented: true (30:00 → 35:00)
+[INFO] 2026-08-24T08:29:00.793Z - After 2nd entry: 30:00 → 35:00 (cumulative)

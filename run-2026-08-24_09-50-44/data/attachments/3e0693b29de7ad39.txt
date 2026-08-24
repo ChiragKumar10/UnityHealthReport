@@ -1,0 +1,172 @@
+[INFO] 2026-08-24T08:36:18.447Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:36:18.413+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:36:21.671Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:36:21.676Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:36:21.751Z - Creating patient via UI: Marquardt, Archie
+[STEP] 2026-08-24T08:36:21.752Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:36:23.395Z - Patient details drawer opened
+[STEP] 2026-08-24T08:36:23.396Z - Filling demographics for Archie Marquardt
+[STEP] 2026-08-24T08:36:25.768Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:36:27.653Z - Setting location: Automation
+[STEP] 2026-08-24T08:36:28.249Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:36:28.805Z - Clicking Save & Next
+[INFO] 2026-08-24T08:36:30.932Z - [createPatientViaUI] created "Marquardt, Archie"
+[STEP] 2026-08-24T08:36:30.933Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:36:46.041Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:36:46.041Z - Adding new enrollment
+[INFO] 2026-08-24T08:36:50.341Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:36:52.485Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:36:52.489Z - Patient: Marquardt, Archie | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:53.437Z - Validating enrollment result
+[INFO] 2026-08-24T08:36:53.439Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:36:53.442Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:36:53.442Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:36:53.512Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:36:53.513Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:36:53.513Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:36:53.513Z - Final enrollment details:
+[INFO] 2026-08-24T08:36:53.513Z -   Patient: Marquardt, Archie
+[INFO] 2026-08-24T08:36:53.513Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:36:53.513Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:36:53.513Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:36:53.513Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:36:53.513Z - Enrolled Marquardt, Archie in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:53.513Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:37:09.304Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:37:09.305Z - Applying status filter: New
+[STEP] 2026-08-24T08:37:09.688Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:10.365Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:37:10.366Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:37:10.736Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:11.753Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:37:11.754Z - Moving enrollment to Active for "Marquardt" (CCM)
+[STEP] 2026-08-24T08:37:11.754Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:37:11.754Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:37:11.930Z - Date filter applied successfully
+[STEP] 2026-08-24T08:37:11.930Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:12.857Z - "Move to Active" confirmed for "Marquardt"
+[INFO] 2026-08-24T08:37:12.857Z - Moved Marquardt, Archie to Active
+[INFO] 2026-08-24T08:37:15.079Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:37:16.380Z - Opening CCM Library
+[INFO] 2026-08-24T08:37:17.547Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:37:17.548Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:37:20.286Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:37:20.287Z - Creating assessment: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:37:20.287Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:37:21.617Z - Add Assessment form opened
+[STEP] 2026-08-24T08:37:21.618Z - Filling assessment title: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:37:21.646Z - Assessment title filled: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:37:21.647Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:37:22.530Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:37:22.530Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:37:23.362Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:37:23.362Z - Clicking Next button
+[INFO] 2026-08-24T08:37:24.754Z - Next button clicked
+[STEP] 2026-08-24T08:37:24.758Z - Adding question 1: Single select Q (SINGLE_SELECT)
+[INFO] 2026-08-24T08:37:27.318Z - 3 options added
+[INFO] 2026-08-24T08:37:27.318Z - Question 1 added: Single select Q (SINGLE_SELECT)
+[STEP] 2026-08-24T08:37:27.318Z - Adding question 2: Multi select Q (MULTI_SELECT)
+[INFO] 2026-08-24T08:37:30.873Z - 3 options added
+[INFO] 2026-08-24T08:37:30.874Z - Question 2 added: Multi select Q (MULTI_SELECT)
+[STEP] 2026-08-24T08:37:30.874Z - Clicking Next button
+[INFO] 2026-08-24T08:37:32.277Z - Next button clicked
+[STEP] 2026-08-24T08:37:32.278Z - Clicking Finish button
+[INFO] 2026-08-24T08:37:33.363Z - Finish button clicked
+[INFO] 2026-08-24T08:37:33.363Z - Assessment 'E2EAsm 1787560578030' created successfully
+[INFO] 2026-08-24T08:37:33.363Z - Seed assessment template created: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:37:33.367Z - Assigning assessment: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:37:33.370Z - Searching for assessment: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:37:34.183Z - Search completed for assessment: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:37:34.206Z - Action button found for assessment: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:37:34.305Z - Action button clicked
+[INFO] 2026-08-24T08:37:34.624Z - Assign button clicked
+[INFO] 2026-08-24T08:37:34.942Z - Patient dropdown clicked
+[INFO] 2026-08-24T08:37:34.942Z - Searching for patient by first name: Marquardt (from 'Marquardt, Archie')
+[INFO] 2026-08-24T08:37:35.946Z - Patient checkbox selected: "Marquardt, Archie" (target: "Marquardt, Archie")
+[INFO] 2026-08-24T08:37:36.057Z - Assign to patient button clicked
+[INFO] 2026-08-24T08:37:36.057Z - Assessment 'E2EAsm 1787560578030' assigned successfully
+[INFO] 2026-08-24T08:37:41.494Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:37:41.501Z - Opening CCM Library
+[INFO] 2026-08-24T08:37:43.412Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:37:43.412Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:37:45.826Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:37:45.826Z - Creating assessment: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:37:45.826Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:37:47.511Z - Add Assessment form opened
+[STEP] 2026-08-24T08:37:47.511Z - Filling assessment title: ViewAsm 1787560578031
+[INFO] 2026-08-24T08:37:47.551Z - Assessment title filled: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:37:47.551Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:37:48.387Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:37:48.387Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:37:49.084Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:37:49.084Z - Clicking Next button
+[INFO] 2026-08-24T08:37:50.173Z - Next button clicked
+[STEP] 2026-08-24T08:37:50.173Z - Adding question 1: Single select Q (SINGLE_SELECT)
+[INFO] 2026-08-24T08:37:52.149Z - 3 options added
+[INFO] 2026-08-24T08:37:52.149Z - Question 1 added: Single select Q (SINGLE_SELECT)
+[STEP] 2026-08-24T08:37:52.149Z - Adding question 2: Multi select Q (MULTI_SELECT)
+[INFO] 2026-08-24T08:37:55.232Z - 3 options added
+[INFO] 2026-08-24T08:37:55.232Z - Question 2 added: Multi select Q (MULTI_SELECT)
+[STEP] 2026-08-24T08:37:55.232Z - Clicking Next button
+[INFO] 2026-08-24T08:37:56.368Z - Next button clicked
+[STEP] 2026-08-24T08:37:56.368Z - Clicking Finish button
+[INFO] 2026-08-24T08:37:57.495Z - Finish button clicked
+[INFO] 2026-08-24T08:37:57.495Z - Assessment 'ViewAsm 1787560578031' created successfully
+[INFO] 2026-08-24T08:37:57.495Z - Seed assessment template created: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:37:57.495Z - Assigning assessment: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:37:57.495Z - Searching for assessment: ViewAsm 1787560578031
+[INFO] 2026-08-24T08:37:58.473Z - Search completed for assessment: ViewAsm 1787560578031
+[INFO] 2026-08-24T08:37:58.511Z - Action button found for assessment: ViewAsm 1787560578031
+[INFO] 2026-08-24T08:37:58.756Z - Action button clicked
+[INFO] 2026-08-24T08:37:59.173Z - Assign button clicked
+[INFO] 2026-08-24T08:37:59.657Z - Patient dropdown clicked
+[INFO] 2026-08-24T08:37:59.657Z - Searching for patient by first name: Marquardt (from 'Marquardt, Archie')
+[INFO] 2026-08-24T08:38:00.901Z - Patient checkbox selected: "Marquardt, Archie" (target: "Marquardt, Archie")
+[INFO] 2026-08-24T08:38:01.036Z - Assign to patient button clicked
+[INFO] 2026-08-24T08:38:01.036Z - Assessment 'ViewAsm 1787560578031' assigned successfully
+[INFO] 2026-08-24T08:38:05.619Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:07.249Z - Opening patient chart from global search for: Marquardt, Archie
+[INFO] 2026-08-24T08:38:09.947Z - Patient chart opened from global search for: Marquardt, Archie
+[STEP] 2026-08-24T08:38:12.509Z - Navigating to Assessment tab
+[INFO] 2026-08-24T08:38:12.645Z - Successfully navigated to Assessment tab
+[STEP] 2026-08-24T08:38:12.645Z - Opening current month assessment folder
+[INFO] 2026-08-24T08:38:12.846Z - Opened assessment folder: August 2026
+[INFO] 2026-08-24T08:38:14.875Z - Targeting INCOMPLETE assessment: "E2EAsm 1787560578030"
+[STEP] 2026-08-24T08:38:14.876Z - Completing assigned assessment "E2EAsm 1787560578030" via API
+[INFO] 2026-08-24T08:38:17.201Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:18.778Z - Opening CCM Library
+[INFO] 2026-08-24T08:38:20.031Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:38:20.031Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:38:26.251Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:38:26.252Z - Deleting assessment: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:38:26.253Z - Clicking Delete for: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:38:26.254Z - Searching for assessment: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:38:27.127Z - Search completed for assessment: E2EAsm 1787560578030
+[STEP] 2026-08-24T08:38:27.127Z - Opening action menu for: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:38:28.288Z - Action menu opened
+[INFO] 2026-08-24T08:38:29.451Z - Delete dialog opened
+[STEP] 2026-08-24T08:38:29.451Z - Confirming delete
+[STEP] 2026-08-24T08:38:31.586Z - Clearing search box
+[INFO] 2026-08-24T08:38:32.227Z - Search cleared
+[INFO] 2026-08-24T08:38:32.227Z - Delete confirmed
+[INFO] 2026-08-24T08:38:32.228Z - Assessment 'E2EAsm 1787560578030' deleted
+[INFO] 2026-08-24T08:38:32.228Z - Deleted assessment: E2EAsm 1787560578030
+[INFO] 2026-08-24T08:38:37.431Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:37.446Z - Opening CCM Library
+[INFO] 2026-08-24T08:38:40.545Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:38:40.545Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:38:43.419Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:38:43.419Z - Deleting assessment: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:38:43.419Z - Clicking Delete for: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:38:43.419Z - Searching for assessment: ViewAsm 1787560578031
+[INFO] 2026-08-24T08:38:46.800Z - Search completed for assessment: ViewAsm 1787560578031
+[STEP] 2026-08-24T08:38:46.801Z - Opening action menu for: ViewAsm 1787560578031
+[INFO] 2026-08-24T08:38:48.000Z - Action menu opened
+[INFO] 2026-08-24T08:38:49.049Z - Delete dialog opened
+[STEP] 2026-08-24T08:38:49.049Z - Confirming delete
+[STEP] 2026-08-24T08:38:51.090Z - Clearing search box
+[INFO] 2026-08-24T08:38:51.664Z - Search cleared
+[INFO] 2026-08-24T08:38:51.664Z - Delete confirmed
+[INFO] 2026-08-24T08:38:51.664Z - Assessment 'ViewAsm 1787560578031' deleted
+[INFO] 2026-08-24T08:38:51.664Z - Deleted assessment: ViewAsm 1787560578031

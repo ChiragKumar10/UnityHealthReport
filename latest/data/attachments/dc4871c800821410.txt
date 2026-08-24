@@ -1,0 +1,19 @@
+[STEP] 2026-08-24T08:45:19.306Z - Login to Provider Portal
+[INFO] 2026-08-24T08:45:21.551Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:45:23.047Z - Test: Verify task assigned to logged-in care manager
+[STEP] 2026-08-24T08:45:23.047Z - Navigating to Task page
+[INFO] 2026-08-24T08:45:29.541Z - Navigated to Task page
+[INFO] 2026-08-24T08:45:29.872Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:45:29.873Z - Creating task: MyAssigned 1787561129873
+[STEP] 2026-08-24T08:45:29.873Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:45:32.073Z - Add Task form opened
+[INFO] 2026-08-24T08:45:50.264Z - Task "MyAssigned 1787561129873" created successfully
+[STEP] 2026-08-24T08:45:50.264Z - Navigating to Task page
+[INFO] 2026-08-24T08:45:50.613Z - Navigated to Task page
+[STEP] 2026-08-24T08:45:50.613Z - Searching for: 1787561129873
+[INFO] 2026-08-24T08:45:51.346Z - Search completed for: 1787561129873
+[STEP] 2026-08-24T08:45:51.346Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:45:52.357Z - ASSIGNED TO values: Jemes Cory
+[STEP] 2026-08-24T08:45:52.357Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:45:53.381Z - TASK values: MyAssigned 1787561129873
+[INFO] 2026-08-24T08:45:53.390Z - Task "MyAssigned 1787561129873" verified under My Tasks for Jemes Cory

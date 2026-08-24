@@ -1,0 +1,57 @@
+[INFO] 2026-08-24T08:24:33.240Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:24:33.258Z - Test: Verify View, Download, Assign, Unarchive, Delete on archived documents
+[STEP] 2026-08-24T08:24:33.258Z - Navigating to Document Library
+[INFO] 2026-08-24T08:24:37.150Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:24:37.150Z - Clicking folder: Education
+[INFO] 2026-08-24T08:24:39.088Z - Opened folder: Education
+[STEP] 2026-08-24T08:24:39.088Z - Uploading document: ArcActions 1787559879088
+[STEP] 2026-08-24T08:24:39.088Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:24:42.999Z - Upload Material form opened
+[STEP] 2026-08-24T08:24:42.999Z - Selecting tag: Education
+[INFO] 2026-08-24T08:24:44.643Z - Tag selected: Education
+[STEP] 2026-08-24T08:24:44.643Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:24:46.261Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:24:46.261Z - Filling file name: ArcActions 1787559879088
+[STEP] 2026-08-24T08:24:46.591Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-08-24T08:24:46.651Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:24:47.720Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-08-24T08:24:47.720Z - Clicking Upload button
+[INFO] 2026-08-24T08:24:47.764Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:24:50.896Z - Upload completed
+[INFO] 2026-08-24T08:24:50.896Z - Document "ArcActions 1787559879088" uploaded successfully
+[STEP] 2026-08-24T08:24:50.896Z - Navigating to Document Library
+[INFO] 2026-08-24T08:24:52.575Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:24:52.575Z - Clicking folder: Education
+[INFO] 2026-08-24T08:24:54.611Z - Opened folder: Education
+[STEP] 2026-08-24T08:24:54.612Z - Searching document: ArcActions 1787559879088
+[INFO] 2026-08-24T08:24:56.894Z - Search completed: ArcActions 1787559879088
+[STEP] 2026-08-24T08:24:56.894Z - Archiving document at row 0
+[STEP] 2026-08-24T08:24:56.894Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:24:58.034Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:24:58.034Z - Clicking action item: Archive
+[INFO] 2026-08-24T08:24:59.712Z - Clicked: Archive
+[INFO] 2026-08-24T08:25:02.732Z - Document archived
+[INFO] 2026-08-24T08:25:02.732Z - Step 1 ✓: Document archived
+[STEP] 2026-08-24T08:25:02.732Z - Navigating to Document Library
+[INFO] 2026-08-24T08:25:04.286Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:25:04.286Z - Clicking folder: Education
+[INFO] 2026-08-24T08:25:06.280Z - Opened folder: Education
+[STEP] 2026-08-24T08:25:06.281Z - Toggling Show Archived checkbox
+[INFO] 2026-08-24T08:25:10.852Z - Show Archived toggled — checked: true
+[STEP] 2026-08-24T08:25:10.857Z - Searching document: ArcActions 1787559879088
+[INFO] 2026-08-24T08:25:13.141Z - Search completed: ArcActions 1787559879088
+[INFO] 2026-08-24T08:25:13.141Z - Step 2 ✓: Show Archived enabled, document found
+[STEP] 2026-08-24T08:25:13.141Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:25:14.260Z - Action menu opened on row 0
+[INFO] 2026-08-24T08:25:14.275Z - Archived document actions: View Material
+Download
+Assign
+Unarchive
+Delete
+[INFO] 2026-08-24T08:25:14.281Z - ✓ Action available: View Material
+[INFO] 2026-08-24T08:25:14.282Z - ✓ Action available: Download
+[INFO] 2026-08-24T08:25:14.289Z - ✓ Action available: Assign
+[INFO] 2026-08-24T08:25:14.293Z - ✓ Action available: Delete
+[INFO] 2026-08-24T08:25:14.293Z - Unarchive available: true
+[INFO] 2026-08-24T08:25:14.329Z - Unarchive available: true
+[INFO] 2026-08-24T08:25:14.329Z - AUT_DOC_023 PASSED: All actions verified on archived documents

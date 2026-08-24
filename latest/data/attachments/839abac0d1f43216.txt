@@ -1,0 +1,98 @@
+[STEP] 2026-08-24T08:48:15.484Z - Login to Provider Portal
+[INFO] 2026-08-24T08:48:18.850Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:48:18.876Z - Test: Complete reassignment flow — provider accounts + patient charting
+[STEP] 2026-08-24T08:48:18.876Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:48:18.881Z - Creating patient via UI: Cartwright, Arnaldo
+[STEP] 2026-08-24T08:48:18.881Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:48:23.747Z - Patient details drawer opened
+[STEP] 2026-08-24T08:48:23.747Z - Filling demographics for Arnaldo Cartwright
+[STEP] 2026-08-24T08:48:29.547Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:48:31.539Z - Setting location: Automation
+[STEP] 2026-08-24T08:48:32.068Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:48:32.811Z - Clicking Save & Next
+[INFO] 2026-08-24T08:48:35.313Z - [createPatientViaUI] created "Cartwright, Arnaldo"
+[STEP] 2026-08-24T08:48:35.313Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:48:50.507Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:48:50.508Z - Adding new enrollment
+[INFO] 2026-08-24T08:48:53.922Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:48:55.243Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:48:55.243Z - Patient: Cartwright, Arnaldo | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:48:55.965Z - Validating enrollment result
+[INFO] 2026-08-24T08:48:55.965Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:48:55.965Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:48:55.965Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:48:55.992Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:48:55.992Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:48:55.992Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:48:55.992Z - Final enrollment details:
+[INFO] 2026-08-24T08:48:55.992Z -   Patient: Cartwright, Arnaldo
+[INFO] 2026-08-24T08:48:55.992Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:48:55.992Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:48:55.992Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:48:55.995Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:48:55.995Z - Enrolled Cartwright, Arnaldo in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:48:55.995Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:49:11.286Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:49:11.286Z - Applying status filter: New
+[STEP] 2026-08-24T08:49:11.822Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:49:12.888Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:49:12.890Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:49:13.347Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:49:13.988Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:49:13.988Z - Moving enrollment to Active for "Cartwright" (CCM)
+[STEP] 2026-08-24T08:49:13.988Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:49:13.988Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:49:14.234Z - Date filter applied successfully
+[STEP] 2026-08-24T08:49:14.234Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:49:15.344Z - "Move to Active" confirmed for "Cartwright"
+[INFO] 2026-08-24T08:49:15.345Z - Moved Cartwright, Arnaldo to Active
+[STEP] 2026-08-24T08:49:15.345Z - Navigating to Task page
+[INFO] 2026-08-24T08:49:16.500Z - Navigated to Task page
+[INFO] 2026-08-24T08:49:16.513Z - Logged-in user: Jemes Cory
+[INFO] 2026-08-24T08:49:16.514Z - Reassign target (logged-in care manager): "Jemes Cory" (search: "Jemes")
+[STEP] 2026-08-24T08:49:16.515Z - Creating task: Reassign 1787561356515
+[STEP] 2026-08-24T08:49:16.516Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:49:17.046Z - Add Task form opened
+[INFO] 2026-08-24T08:49:39.366Z - Task "Reassign 1787561356515" created successfully
+[INFO] 2026-08-24T08:49:39.366Z - Step 1 ✓: Task "Reassign 1787561356515" created — assigned to John Doe
+[STEP] 2026-08-24T08:49:39.366Z - Step 2: Logging in as John Doe to verify task
+[STEP] 2026-08-24T08:49:39.366Z - Logging out from provider portal
+[INFO] 2026-08-24T08:49:42.321Z - Logout completed
+[INFO] 2026-08-24T08:49:42.325Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:49:42.831Z - Performing provider login
+[STEP] 2026-08-24T08:49:42.831Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:49:43.575Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:49:49.422Z - Login completed
+[STEP] 2026-08-24T08:49:49.430Z - Navigating to Task page
+[INFO] 2026-08-24T08:49:50.565Z - Navigated to Task page
+[STEP] 2026-08-24T08:49:50.566Z - Setting status filter to: All
+[INFO] 2026-08-24T08:49:51.262Z - Status filter set to: All
+[STEP] 2026-08-24T08:49:51.262Z - Searching for: Reassign 1787561356515
+[INFO] 2026-08-24T08:49:52.108Z - Search completed for: Reassign 1787561356515
+[STEP] 2026-08-24T08:49:52.108Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:49:53.123Z - TASK values: Reassign 1787561356515
+[INFO] 2026-08-24T08:49:53.128Z - Step 2 ✓: Task found in John Doe's account
+[STEP] 2026-08-24T08:49:53.128Z - Step 3: Logging back as Chirag to reassign task
+[STEP] 2026-08-24T08:49:53.128Z - Logging out from provider portal
+[INFO] 2026-08-24T08:49:55.745Z - Logout completed
+[STEP] 2026-08-24T08:50:04.499Z - Performing provider login
+[STEP] 2026-08-24T08:50:04.499Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:50:05.247Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:50:09.634Z - Login completed
+[STEP] 2026-08-24T08:50:09.638Z - Navigating to Task page
+[INFO] 2026-08-24T08:50:14.524Z - Navigated to Task page
+[STEP] 2026-08-24T08:50:14.524Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:50:16.161Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:50:16.162Z - Setting status filter to: All
+[INFO] 2026-08-24T08:50:24.659Z - Status filter set to: All
+[STEP] 2026-08-24T08:50:24.659Z - Searching for: Reassign 1787561356515
+[INFO] 2026-08-24T08:50:25.148Z - Search completed for: Reassign 1787561356515
+[STEP] 2026-08-24T08:50:25.149Z - Opening Edit Task form
+[STEP] 2026-08-24T08:50:25.149Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:50:26.265Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:50:26.266Z - Clicking action menu item: Edit
+[INFO] 2026-08-24T08:50:28.046Z - Clicked: Edit
+[INFO] 2026-08-24T08:50:28.087Z - Edit Task form opened
+[STEP] 2026-08-24T08:50:28.087Z - Changing assignee to: Jemes

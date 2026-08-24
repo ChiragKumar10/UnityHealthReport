@@ -1,0 +1,36 @@
+[STEP] 2026-08-24T08:35:50.881Z - Login to Provider Portal
+[INFO] 2026-08-24T08:35:55.088Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:35:55.098Z - Navigate to Monitoring > RTM > No Data
+[STEP] 2026-08-24T08:35:55.098Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:35:55.098Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:35:55.791Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:35:56.682Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:35:56.684Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:35:59.006Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:35:59.006Z - Clicking monitoring category: No Data
+[STEP] 2026-08-24T08:36:04.472Z - Setting date filter to today
+[INFO] 2026-08-24T08:36:05.512Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:36:14.990Z - Date filter set to: 08-24-2026
+[STEP] 2026-08-24T08:36:14.990Z - Clearing status filter
+[INFO] 2026-08-24T08:36:15.221Z - Current status filter: "Not Complete" — opening dropdown
+[INFO] 2026-08-24T08:36:15.966Z - MUI Menu options: 3
+[INFO] 2026-08-24T08:36:15.983Z -   Option [0]: "Clear Selection"
+[INFO] 2026-08-24T08:36:17.640Z - Status filter cleared
+[INFO] 2026-08-24T08:36:17.640Z - Switched to No Data monitoring view
+[STEP] 2026-08-24T08:36:17.640Z - Test: Send SMS from No Data page
+[STEP] 2026-08-24T08:36:17.640Z - Getting visible row count
+[INFO] 2026-08-24T08:36:18.665Z - Visible row count: 25
+[STEP] 2026-08-24T08:36:18.670Z - Getting first available patient from list
+[INFO] 2026-08-24T08:36:18.807Z - First available patient: "LemkeHarvey, Rachael"
+[STEP] 2026-08-24T08:36:18.810Z - Sending text message to: LemkeHarvey, Rachael
+[STEP] 2026-08-24T08:36:18.810Z - Selecting action "Text Message" for: LemkeHarvey, Rachael
+[STEP] 2026-08-24T08:36:18.810Z - Opening action menu for: LemkeHarvey, Rachael
+[INFO] 2026-08-24T08:36:20.165Z - Action menu clicked for: LemkeHarvey, Rachael (attempt 1)
+[INFO] 2026-08-24T08:36:22.188Z - Action "Text Message" selected for: LemkeHarvey, Rachael
+[STEP] 2026-08-24T08:36:22.189Z - Handling messaging / time log dialog
+[INFO] 2026-08-24T08:36:23.230Z - Detected SEND MESSAGE dialog
+[INFO] 2026-08-24T08:36:24.527Z - Message sent via SEND dialog
+[STEP] 2026-08-24T08:36:24.534Z - Closing all overlays
+[INFO] 2026-08-24T08:36:26.758Z - All overlays closed
+[INFO] 2026-08-24T08:36:26.759Z - Text message sent to: LemkeHarvey, Rachael
+[INFO] 2026-08-24T08:36:26.759Z - Text message send flow completed for "LemkeHarvey, Rachael"

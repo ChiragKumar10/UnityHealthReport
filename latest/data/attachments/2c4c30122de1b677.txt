@@ -1,0 +1,57 @@
+[STEP] 2026-08-24T08:31:35.555Z - Login to Provider Portal
+[INFO] 2026-08-24T08:31:40.382Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:40.394Z - Navigate to CCM Library > Care Plan
+[STEP] 2026-08-24T08:31:40.394Z - Opening CCM Library
+[INFO] 2026-08-24T08:31:43.911Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:31:43.911Z - Opening Care Plan section
+[INFO] 2026-08-24T08:31:55.505Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:31:55.506Z - Test: Delete with confirmation
+[STEP] 2026-08-24T08:31:55.506Z - Creating minimal care plan: Delete Plan 1787560315506
+[STEP] 2026-08-24T08:31:55.506Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:31:58.236Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:31:58.236Z - Selecting diagnosis code: A001
+[INFO] 2026-08-24T08:32:03.351Z - Diagnosis code 'A001' selected
+[STEP] 2026-08-24T08:32:03.351Z - Filling care plan name: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:03.551Z - Care plan name filled: Delete Plan 1787560315506
+[STEP] 2026-08-24T08:32:03.551Z - Selecting section: Overview
+[INFO] 2026-08-24T08:32:04.262Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:32:04.262Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:32:04.955Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:32:04.955Z - Clicking Next button
+[INFO] 2026-08-24T08:32:07.347Z - Next button clicked
+[STEP] 2026-08-24T08:32:07.347Z - Filling Overview section
+[INFO] 2026-08-24T08:32:07.543Z - Care Plan header filled
+[INFO] 2026-08-24T08:32:07.712Z - Care Plan footer filled
+[STEP] 2026-08-24T08:32:07.712Z - Clicking Next button
+[INFO] 2026-08-24T08:32:10.014Z - Next button clicked
+[STEP] 2026-08-24T08:32:10.014Z - Filling goal section - Title: Delete Goal, Type: Free Text
+[INFO] 2026-08-24T08:32:10.188Z - Section note filled
+[INFO] 2026-08-24T08:32:10.351Z - Goal title filled: Delete Goal
+[INFO] 2026-08-24T08:32:12.357Z - Goal type selected: Free Text
+[STEP] 2026-08-24T08:32:12.357Z - Clicking Finish button
+[INFO] 2026-08-24T08:32:14.641Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:32:14.642Z - Minimal care plan 'Delete Plan 1787560315506' created
+[STEP] 2026-08-24T08:32:14.642Z - Verifying care plan 'Delete Plan 1787560315506' is visible in the list
+[STEP] 2026-08-24T08:32:14.642Z - Searching for care plan: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:15.518Z - Search completed for care plan: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:16.360Z - Care plan 'Delete Plan 1787560315506' is visible in the list
+[INFO] 2026-08-24T08:32:16.360Z - Care plan 'Delete Plan 1787560315506' created for deletion
+[STEP] 2026-08-24T08:32:16.361Z - Clicking Delete for: Delete Plan 1787560315506
+[STEP] 2026-08-24T08:32:16.361Z - Searching for care plan: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:16.940Z - Search completed for care plan: Delete Plan 1787560315506
+[STEP] 2026-08-24T08:32:16.940Z - Opening action menu for: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:18.049Z - Action menu opened
+[INFO] 2026-08-24T08:32:19.208Z - Delete dialog opened
+[INFO] 2026-08-24T08:32:19.275Z - Delete confirmation message: Are you sure you want to delete Delete Plan 1787560315506 Care Plan?
+[STEP] 2026-08-24T08:32:19.276Z - Confirming delete
+[STEP] 2026-08-24T08:32:21.378Z - Clearing search box
+[INFO] 2026-08-24T08:32:21.981Z - Search cleared
+[INFO] 2026-08-24T08:32:21.981Z - Delete confirmed
+[INFO] 2026-08-24T08:32:21.981Z - Deletion confirmed
+[STEP] 2026-08-24T08:32:21.981Z - Verifying care plan 'Delete Plan 1787560315506' is NOT in the list
+[STEP] 2026-08-24T08:32:21.981Z - Clearing search box
+[INFO] 2026-08-24T08:32:22.528Z - Search cleared
+[STEP] 2026-08-24T08:32:22.528Z - Searching for care plan: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:24.208Z - Search completed for care plan: Delete Plan 1787560315506
+[INFO] 2026-08-24T08:32:24.240Z - Care plan 'Delete Plan 1787560315506' is not in the list
+[INFO] 2026-08-24T08:32:24.240Z - Delete with confirmation test completed

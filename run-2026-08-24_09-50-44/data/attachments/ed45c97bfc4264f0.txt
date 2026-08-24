@@ -1,0 +1,48 @@
+[STEP] 2026-08-24T08:42:58.709Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:43:03.878Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:43:03.897Z - Test: E2E Edit Unity User
+[STEP] 2026-08-24T08:43:03.897Z - Navigating to Settings page
+[INFO] 2026-08-24T08:43:07.746Z - Navigated to Settings page
+[STEP] 2026-08-24T08:43:07.746Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:43:17.240Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:43:19.154Z - Status filter set to All
+[STEP] 2026-08-24T08:43:19.154Z - Adding Unity User: Autofirstncelro Autolastncelro
+[STEP] 2026-08-24T08:43:19.154Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:43:20.364Z - Add Unity User form opened
+[STEP] 2026-08-24T08:43:20.368Z - Filling Unity User form for: Autofirstncelro Autolastncelro
+[STEP] 2026-08-24T08:43:20.372Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:43:21.782Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:43:22.020Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:43:22.061Z - Form filled for: Autofirstncelro Autolastncelro
+[STEP] 2026-08-24T08:43:22.062Z - Clicking Save button
+[INFO] 2026-08-24T08:43:24.218Z - Save button clicked
+[INFO] 2026-08-24T08:43:24.226Z - Unity User 'Autofirstncelro Autolastncelro' added — form closed
+[STEP] 2026-08-24T08:43:24.226Z - Verifying user 'Autofirstncelro Autolastncelro' is visible in the list
+[STEP] 2026-08-24T08:43:24.226Z - Searching for user: Autofirstncelro Autolastncelro
+[INFO] 2026-08-24T08:43:25.312Z - Search completed for: Autofirstncelro Autolastncelro
+[INFO] 2026-08-24T08:43:25.525Z - User 'Autofirstncelro Autolastncelro' is visible in the list
+[INFO] 2026-08-24T08:43:25.525Z - User created for edit test
+[STEP] 2026-08-24T08:43:25.525Z - Editing Unity User: Autofirstncelro Autolastncelro
+[STEP] 2026-08-24T08:43:25.526Z - Clicking Edit for: Autofirstncelro Autolastncelro
+[STEP] 2026-08-24T08:43:25.526Z - Opening action menu for: Autofirstncelro Autolastncelro
+[STEP] 2026-08-24T08:43:25.526Z - Searching for user: Autofirstncelro Autolastncelro
+[INFO] 2026-08-24T08:43:26.547Z - Search completed for: Autofirstncelro Autolastncelro
+[INFO] 2026-08-24T08:43:27.438Z - Action menu opened
+[INFO] 2026-08-24T08:43:28.605Z - Edit form opened from menu
+[STEP] 2026-08-24T08:43:28.607Z - Filling edit form field 'lastName' with: Editedncelro
+[INFO] 2026-08-24T08:43:28.770Z - Edit form field 'lastName' filled
+[STEP] 2026-08-24T08:43:28.771Z - Clicking Save button
+[INFO] 2026-08-24T08:43:30.956Z - Save button clicked
+[INFO] 2026-08-24T08:43:30.956Z - Unity User 'Autofirstncelro Autolastncelro' edited successfully
+[STEP] 2026-08-24T08:43:30.957Z - Verifying user 'Autofirstncelro Editedncelro' is visible in the list
+[STEP] 2026-08-24T08:43:30.957Z - Searching for user: Autofirstncelro Editedncelro
+[INFO] 2026-08-24T08:43:32.044Z - Search completed for: Autofirstncelro Editedncelro
+[INFO] 2026-08-24T08:43:32.344Z - User 'Autofirstncelro Editedncelro' is visible in the list
+[INFO] 2026-08-24T08:43:32.344Z - Edited user visible in list
+[STEP] 2026-08-24T08:43:32.344Z - Verifying user 'Autofirstncelro Autolastncelro' is NOT in the list
+[STEP] 2026-08-24T08:43:32.345Z - Clearing search box
+[INFO] 2026-08-24T08:43:33.012Z - Search cleared
+[STEP] 2026-08-24T08:43:33.012Z - Searching for user: Autofirstncelro Autolastncelro
+[INFO] 2026-08-24T08:43:34.091Z - Search completed for: Autofirstncelro Autolastncelro
+[INFO] 2026-08-24T08:43:34.104Z - User 'Autofirstncelro Autolastncelro' is not in the list
+[INFO] 2026-08-24T08:43:34.104Z - E2E Edit Unity User verified

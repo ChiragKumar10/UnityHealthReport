@@ -1,0 +1,52 @@
+[STEP] 2026-08-24T08:25:04.903Z - === AUT_CROSS_008: alert details correctness on Alerts page ===
+[STEP] 2026-08-24T08:25:05.687Z - Phase 0: Anny logs in and seeds an alert via abnormal Pain Scale
+[INFO] 2026-08-24T08:25:09.196Z - Different user "anny123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:25:10.291Z - Performing provider login
+[STEP] 2026-08-24T08:25:10.294Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:25:12.603Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:25:17.607Z - Login completed
+[STEP] 2026-08-24T08:25:17.607Z - Seeding alert by saving Pain Scale 15 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:25:17.614Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:25:37.980Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:25:38.046Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:25:45.836Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:25:45.836Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:25:45.836Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:25:46.732Z - Add Vital form opened
+[STEP] 2026-08-24T08:25:46.732Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:25:47.665Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:25:47.665Z - Entering vital value: 15
+[INFO] 2026-08-24T08:25:48.453Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:25:48.453Z - Saving vital
+[INFO] 2026-08-24T08:25:48.917Z - Successfully saved vital
+[INFO] 2026-08-24T08:25:48.917Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:25:48.917Z - Abnormal Pain Scale (15) saved — waiting 30000ms for backend alert generation
+[STEP] 2026-08-24T08:26:18.925Z - Phase 1: Open Alerts page and locate the freshly-seeded alert row
+[STEP] 2026-08-24T08:26:18.925Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:26:20.055Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:26:20.055Z - Searching alerts for: Block
+[INFO] 2026-08-24T08:26:21.726Z - Search completed for: Block
+[STEP] 2026-08-24T08:26:21.726Z - Getting alert row count
+[INFO] 2026-08-24T08:26:22.761Z - Alert row count: 4
+[INFO] 2026-08-24T08:26:22.761Z - Alerts table shows 4 row(s) for "Block"
+[STEP] 2026-08-24T08:26:22.777Z - Getting cell text at row 1, column 2
+[INFO] 2026-08-24T08:26:22.815Z - Cell text: Pain Scale
+[STEP] 2026-08-24T08:26:22.815Z - Getting cell text at row 1, column 3
+[INFO] 2026-08-24T08:26:22.886Z - Cell text: 15
+[STEP] 2026-08-24T08:26:22.887Z - Getting cell text at row 1, column 6
+[INFO] 2026-08-24T08:26:22.926Z - Cell text: 08-24-2026, 08:26 AM
+[INFO] 2026-08-24T08:26:22.926Z - Seeded alert found at row 1: alertType="Pain Scale", value="15", generated="08-24-2026, 08:26 AM"
+[STEP] 2026-08-24T08:26:22.926Z - Phase 2: Verify patient name, vital name, vital value, and last-connected date on the row
+[STEP] 2026-08-24T08:26:22.926Z - Getting cell text at row 1, column 1
+[INFO] 2026-08-24T08:26:22.967Z - Cell text: Block, Micheal
+[INFO] 2026-08-24T08:26:22.972Z - ✓ Patient name: "Block, Micheal"
+[STEP] 2026-08-24T08:26:22.972Z - Getting cell text at row 1, column 2
+[INFO] 2026-08-24T08:26:23.001Z - Cell text: Pain Scale
+[INFO] 2026-08-24T08:26:23.005Z - ✓ Vital name: "Pain Scale"
+[STEP] 2026-08-24T08:26:23.005Z - Getting cell text at row 1, column 3
+[INFO] 2026-08-24T08:26:23.029Z - Cell text: 15
+[INFO] 2026-08-24T08:26:23.033Z - ✓ Vital value: "15"
+[STEP] 2026-08-24T08:26:23.033Z - Getting cell text at row 1, column 6
+[INFO] 2026-08-24T08:26:23.053Z - Cell text: 08-24-2026, 08:26 AM
+[INFO] 2026-08-24T08:26:23.058Z - ✓ Last connected date (Generated): "08-24-2026, 08:26 AM"
+[INFO] 2026-08-24T08:26:23.345Z - === AUT_CROSS_008 verified: alert row shows correct patient, vital, value, and last-connected date ===

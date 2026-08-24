@@ -1,0 +1,107 @@
+[STEP] 2026-08-24T08:27:53.492Z - Test: Activate a UI-seeded CLOSED enrollment
+[INFO] 2026-08-24T08:27:56.999Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:56.999Z - Seeding Closed enrollment via UI (create → enroll → activate → close)
+[STEP] 2026-08-24T08:27:56.999Z - Creating patient via UI: Bartell, Robb
+[STEP] 2026-08-24T08:27:57.000Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:28:00.799Z - Patient details drawer opened
+[STEP] 2026-08-24T08:28:00.799Z - Filling demographics for Robb Bartell
+[STEP] 2026-08-24T08:28:07.531Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:28:08.535Z - Setting location: Automation
+[STEP] 2026-08-24T08:28:08.932Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:28:09.921Z - Clicking Save & Next
+[INFO] 2026-08-24T08:28:14.104Z - [createPatientViaUI] created "Bartell, Robb"
+[STEP] 2026-08-24T08:28:14.104Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:29.473Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:29.474Z - Adding new enrollment
+[INFO] 2026-08-24T08:28:32.931Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:28:34.223Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:28:34.223Z - Patient: Bartell, Robb | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:34.992Z - Validating enrollment result
+[INFO] 2026-08-24T08:28:34.992Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:28:34.992Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:28:34.992Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:28:35.055Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:28:35.055Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:28:35.055Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:28:35.055Z - Final enrollment details:
+[INFO] 2026-08-24T08:28:35.055Z -   Patient: Bartell, Robb
+[INFO] 2026-08-24T08:28:35.055Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:28:35.055Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:28:35.056Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:28:35.056Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:28:35.056Z - Enrolled Bartell, Robb in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:35.056Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:50.295Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:50.295Z - Applying status filter: New
+[STEP] 2026-08-24T08:28:50.877Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:51.913Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:28:51.914Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:52.368Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:53.042Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:28:53.043Z - Moving enrollment to Active for "Bartell" (CCM)
+[STEP] 2026-08-24T08:28:53.043Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:28:53.043Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:28:53.331Z - Date filter applied successfully
+[STEP] 2026-08-24T08:28:53.331Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:54.309Z - "Move to Active" confirmed for "Bartell"
+[INFO] 2026-08-24T08:28:54.309Z - Moved Bartell, Robb to Active
+[STEP] 2026-08-24T08:28:54.309Z - Close CCM enrollment for Bartell, Robb
+[STEP] 2026-08-24T08:28:55.087Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:12.942Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:12.942Z - Applying status filter: Active
+[STEP] 2026-08-24T08:29:13.663Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:14.819Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:29:14.819Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:29:14.819Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:29:15.541Z - Date filter applied successfully
+[STEP] 2026-08-24T08:29:15.542Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:19.063Z - Closed one Active CCM row for Bartell, Robb (iteration 1)
+[STEP] 2026-08-24T08:29:21.073Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:39.174Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:39.175Z - Applying status filter: Active
+[STEP] 2026-08-24T08:29:40.059Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:41.126Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:29:41.126Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:29:41.126Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:29:41.834Z - Date filter applied successfully
+[STEP] 2026-08-24T08:29:41.837Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:29:43.520Z - All Active CCM rows for Bartell, Robb are closed
+[STEP] 2026-08-24T08:29:44.744Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:02.255Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:02.255Z - Applying status filter: Active
+[STEP] 2026-08-24T08:30:02.872Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:04.425Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:30:04.425Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:04.425Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:04.884Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:04.886Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:06.122Z - All Active CCM enrollments closed for Bartell, Robb
+[INFO] 2026-08-24T08:30:06.124Z - Closed Bartell, Robb's CCM enrollment
+[STEP] 2026-08-24T08:30:06.125Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:21.346Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:21.346Z - Applying status filter: Closed
+[STEP] 2026-08-24T08:30:21.811Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:22.447Z - Status filter 'Closed' applied successfully
+[STEP] 2026-08-24T08:30:22.447Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:22.937Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:23.571Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:30:23.572Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:23.572Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:23.868Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:23.868Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:25.436Z - Activate Enrollment confirmed
+[STEP] 2026-08-24T08:30:25.436Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:40.599Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:40.599Z - Applying status filter: Active
+[STEP] 2026-08-24T08:30:41.258Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:42.617Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:30:42.617Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:52.633Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:52.633Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:52.761Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:52.761Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:53.396Z - Enrollment status verified as ACTIVE in Enrollment List
+[INFO] 2026-08-24T08:30:57.312Z - Verified in Worklist Active section
+[INFO] 2026-08-24T08:30:57.312Z - Activate Enrollment workflow validated — closed patient moved to Active

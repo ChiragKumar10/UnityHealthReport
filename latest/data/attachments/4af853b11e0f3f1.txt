@@ -1,0 +1,16 @@
+[STEP] 2026-08-24T08:23:15.297Z - Test: Verify Cancel button in Add Enrollment form
+[INFO] 2026-08-24T08:23:22.478Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:22.482Z - Seeding patient (no enrollment) via UI onboarding (single session)
+[STEP] 2026-08-24T08:23:22.772Z - Creating patient via UI: ReingerCassin, Tavares
+[STEP] 2026-08-24T08:23:22.773Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:31.011Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:31.012Z - Filling demographics for Tavares ReingerCassin
+[STEP] 2026-08-24T08:23:44.804Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:47.131Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:48.586Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:50.633Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:56.732Z - [createPatientViaUI] created "ReingerCassin, Tavares"
+[INFO] 2026-08-24T08:23:56.732Z - Seeded patient via UI: ReingerCassin, Tavares
+[STEP] 2026-08-24T08:23:56.733Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:12.146Z - Navigated to Enrollment section
+[INFO] 2026-08-24T08:24:19.500Z - Cancel button verified — form closed and navigated back to Enrollment List

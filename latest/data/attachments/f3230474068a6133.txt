@@ -1,0 +1,21 @@
+[STEP] 2026-08-24T08:26:58.109Z - Login to Provider Portal and navigate to Enrollment section
+[INFO] 2026-08-24T08:27:00.693Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:00.693Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:18.159Z - Navigated to Enrollment section
+[INFO] 2026-08-24T08:27:18.159Z - Successfully logged in and navigated to Enrollment section
+[STEP] 2026-08-24T08:27:18.161Z - Test 6: Verify combined Status + Program filter
+[INFO] 2026-08-24T08:27:18.161Z - Selected random status: New
+[INFO] 2026-08-24T08:27:18.161Z - Selected random program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:27:18.161Z - Applying combined filters - Status: New, Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:27:18.161Z - Applying status filter: New
+[STEP] 2026-08-24T08:27:18.919Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:20.043Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:27:20.043Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:27:20.877Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:21.435Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:27:23.935Z - Retrieving filtered enrollment results
+[INFO] 2026-08-24T08:27:24.393Z - Retrieved 3 filtered enrollment records
+Record 1 Verified: Herzog, Kamron - RPM - new
+Record 2 Verified: Kemmer, Lorenzo - RPM - new
+Record 3 Verified: Hoppe, Dulce - RPM - new
+[INFO] 2026-08-24T08:27:24.417Z - Combined Status + Program filter verification completed - 3 records verified

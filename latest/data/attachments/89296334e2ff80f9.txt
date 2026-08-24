@@ -1,0 +1,37 @@
+[INFO] 2026-08-24T08:24:52.324Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:24:52.248+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:24:53.653Z - Login to Provider Portal
+[INFO] 2026-08-24T08:24:59.923Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:24:59.937Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:25:02.895Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:25:02.903Z - Test: Search by partial name
+[STEP] 2026-08-24T08:25:02.906Z - Getting first available alert
+[STEP] 2026-08-24T08:25:02.907Z - Getting alert row count
+[INFO] 2026-08-24T08:25:04.124Z - Alert row count: 25
+[STEP] 2026-08-24T08:25:04.128Z - Getting first patient name
+[STEP] 2026-08-24T08:25:04.128Z - Getting cell text at row 1, column 1
+[INFO] 2026-08-24T08:25:04.206Z - Cell text: Ankunding, Sidney
+[INFO] 2026-08-24T08:25:04.209Z - First patient name: Ankunding, Sidney
+[STEP] 2026-08-24T08:25:04.209Z - Getting alert row count
+[INFO] 2026-08-24T08:25:05.625Z - Alert row count: 25
+[STEP] 2026-08-24T08:25:05.658Z - Searching alerts for: Ankunding
+[INFO] 2026-08-24T08:25:14.641Z - Search completed for: Ankunding
+[STEP] 2026-08-24T08:25:14.641Z - Getting alert row count
+[INFO] 2026-08-24T08:25:15.687Z - Alert row count: 0
+[INFO] 2026-08-24T08:25:15.687Z - Search 'Ankunding' returned 0 rows (attempt 1) — retrying
+[STEP] 2026-08-24T08:25:15.687Z - Searching alerts for: 
+[INFO] 2026-08-24T08:25:17.456Z - Search completed for: 
+[STEP] 2026-08-24T08:25:17.457Z - Searching alerts for: Ankunding
+[INFO] 2026-08-24T08:25:19.637Z - Search completed for: Ankunding
+[STEP] 2026-08-24T08:25:19.637Z - Getting alert row count
+[INFO] 2026-08-24T08:25:20.751Z - Alert row count: 0
+[INFO] 2026-08-24T08:25:20.751Z - Search 'Ankunding' returned 0 rows (attempt 2) — retrying
+[STEP] 2026-08-24T08:25:20.751Z - Searching alerts for: 
+[INFO] 2026-08-24T08:25:22.486Z - Search completed for: 
+[STEP] 2026-08-24T08:25:22.487Z - Searching alerts for: Ankunding
+[INFO] 2026-08-24T08:25:24.260Z - Search completed for: Ankunding
+[STEP] 2026-08-24T08:25:24.261Z - Getting alert row count
+[INFO] 2026-08-24T08:25:25.306Z - Alert row count: 0
+[INFO] 2026-08-24T08:25:25.306Z - Search 'Ankunding' returned 0 rows (attempt 3) — retrying
+[STEP] 2026-08-24T08:25:25.306Z - Searching alerts for: 
+[INFO] 2026-08-24T08:25:27.044Z - Search completed for: 
+[INFO] 2026-08-24T08:25:27.044Z - Search by partial name 'Ankunding' returned 0 rows

@@ -1,0 +1,95 @@
+[INFO] 2026-08-24T08:40:52.053Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:40:51.987+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:40:57.711Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:57.723Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:40:57.814Z - Creating patient via UI: Bins, Ashlynn
+[STEP] 2026-08-24T08:40:57.818Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:41:04.312Z - Patient details drawer opened
+[STEP] 2026-08-24T08:41:04.315Z - Filling demographics for Ashlynn Bins
+[STEP] 2026-08-24T08:41:18.045Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:41:23.401Z - Setting location: Automation
+[STEP] 2026-08-24T08:41:24.812Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:41:26.950Z - Clicking Save & Next
+[INFO] 2026-08-24T08:41:32.374Z - [createPatientViaUI] created "Bins, Ashlynn"
+[STEP] 2026-08-24T08:41:32.376Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:41:47.956Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:41:47.957Z - Adding new enrollment
+[INFO] 2026-08-24T08:41:54.530Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:41:56.487Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:41:56.488Z - Patient: Bins, Ashlynn | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:41:58.075Z - Validating enrollment result
+[INFO] 2026-08-24T08:41:58.075Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:41:58.075Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:41:58.075Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:41:58.890Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:41:58.891Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:41:58.892Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:41:58.892Z - Final enrollment details:
+[INFO] 2026-08-24T08:41:58.892Z -   Patient: Bins, Ashlynn
+[INFO] 2026-08-24T08:41:58.893Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:41:58.893Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:41:58.893Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:41:58.893Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:41:58.893Z - Enrolled Bins, Ashlynn in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:41:58.893Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:42:14.874Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:42:14.874Z - Applying status filter: New
+[STEP] 2026-08-24T08:42:15.656Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:16.593Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:42:16.593Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:42:17.360Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:18.420Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:42:18.426Z - Moving enrollment to Active for "Bins" (CCM)
+[STEP] 2026-08-24T08:42:18.426Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:42:18.427Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:42:19.009Z - Date filter applied successfully
+[STEP] 2026-08-24T08:42:19.009Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:20.213Z - "Move to Active" confirmed for "Bins"
+[INFO] 2026-08-24T08:42:20.213Z - Moved Bins, Ashlynn to Active
+[STEP] 2026-08-24T08:42:20.217Z - Test: Complete task and verify in provider view + patient charting
+[STEP] 2026-08-24T08:42:20.220Z - Navigating to Task page
+[INFO] 2026-08-24T08:42:23.201Z - Navigated to Task page
+[STEP] 2026-08-24T08:42:23.201Z - Creating task: Complete 1787560943201
+[STEP] 2026-08-24T08:42:23.201Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:42:23.637Z - Add Task form opened
+[INFO] 2026-08-24T08:42:49.635Z - Task "Complete 1787560943201" created successfully
+[INFO] 2026-08-24T08:42:49.635Z - Task "Complete 1787560943201" created
+[STEP] 2026-08-24T08:42:49.635Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:42:51.585Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:42:51.590Z - Setting status filter to: All
+[INFO] 2026-08-24T08:43:00.046Z - Status filter set to: All
+[STEP] 2026-08-24T08:43:00.050Z - Searching for: Complete 1787560943201
+[INFO] 2026-08-24T08:43:00.928Z - Search completed for: Complete 1787560943201
+[STEP] 2026-08-24T08:43:00.930Z - Resolving task
+[STEP] 2026-08-24T08:43:00.931Z - Opening Resolve Task dialog
+[STEP] 2026-08-24T08:43:00.933Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:43:02.076Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:43:02.077Z - Clicking action menu item: Resolve
+[INFO] 2026-08-24T08:43:03.928Z - Clicked: Resolve
+[INFO] 2026-08-24T08:43:03.962Z - Resolve Task dialog opened
+[STEP] 2026-08-24T08:43:03.962Z - Filling resolve note: Completed at 2026-08-24T08:43:00.928Z
+[STEP] 2026-08-24T08:43:04.396Z - Clicking Resolve button in dialog
+[INFO] 2026-08-24T08:43:08.639Z - Resolve button clicked. Drawer closed: true
+[INFO] 2026-08-24T08:43:08.639Z - Task resolved/completed
+[STEP] 2026-08-24T08:43:08.639Z - VERIFY 1: Checking completed task in provider view
+[STEP] 2026-08-24T08:43:08.639Z - Navigating to Task page
+[INFO] 2026-08-24T08:43:09.004Z - Navigated to Task page
+[STEP] 2026-08-24T08:43:09.007Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:43:09.039Z - My Tasks filter already unchecked
+[STEP] 2026-08-24T08:43:09.042Z - Setting status filter to: Done
+[INFO] 2026-08-24T08:43:09.806Z - Status filter set to: Done
+[STEP] 2026-08-24T08:43:09.806Z - Searching for: Complete 1787560943201
+[INFO] 2026-08-24T08:43:10.528Z - Search completed for: Complete 1787560943201
+[STEP] 2026-08-24T08:43:10.532Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:43:11.568Z - TASK STATUS values: Done
+[STEP] 2026-08-24T08:43:11.588Z - Fetching column values for: COMPLETED DATE
+[INFO] 2026-08-24T08:43:12.612Z - COMPLETED DATE values: 08/24/2026
+[STEP] 2026-08-24T08:43:12.616Z - Fetching column values for: COMPLETED BY
+[INFO] 2026-08-24T08:43:13.630Z - COMPLETED BY values: Cory, Jemes
+[INFO] 2026-08-24T08:43:13.631Z - ✓ VERIFY 1 PASSED: Status=Done, Date=08/24/2026, By=Cory, Jemes
+[STEP] 2026-08-24T08:43:13.631Z - VERIFY 2: Checking completed task in Patient Charting
+[STEP] 2026-08-24T08:43:13.634Z - Opening patient chart from global search for: Bins, Ashlynn
+[INFO] 2026-08-24T08:43:15.911Z - Patient chart opened from global search for: Bins, Ashlynn
+[INFO] 2026-08-24T08:43:21.671Z - ✓ VERIFY 2 PASSED: Completed task found in Patient Charting
+[INFO] 2026-08-24T08:43:21.672Z - AUT_TSK_125 PASSED: Completed task updated in BOTH provider view and patient charting

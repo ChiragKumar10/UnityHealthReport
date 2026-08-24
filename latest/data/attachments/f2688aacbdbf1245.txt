@@ -1,0 +1,97 @@
+[STEP] 2026-08-24T08:25:15.375Z - Login to Provider Portal
+[INFO] 2026-08-24T08:25:21.733Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:21.767Z - Test: Upload → Assign → Verify in Patient Charting Documents
+[STEP] 2026-08-24T08:25:21.768Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:25:21.922Z - Creating patient via UI: Kilback, Richmond
+[STEP] 2026-08-24T08:25:21.922Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:25:27.965Z - Patient details drawer opened
+[STEP] 2026-08-24T08:25:27.965Z - Filling demographics for Richmond Kilback
+[STEP] 2026-08-24T08:25:34.161Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:25:34.959Z - Setting location: Automation
+[STEP] 2026-08-24T08:25:35.710Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:25:36.932Z - Clicking Save & Next
+[INFO] 2026-08-24T08:25:40.283Z - [createPatientViaUI] created "Kilback, Richmond"
+[STEP] 2026-08-24T08:25:40.283Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:55.877Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:55.878Z - Adding new enrollment
+[INFO] 2026-08-24T08:25:59.860Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:26:02.111Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:26:02.111Z - Patient: Kilback, Richmond | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:26:03.364Z - Validating enrollment result
+[INFO] 2026-08-24T08:26:03.365Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:26:03.365Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:26:03.365Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:26:04.338Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:26:04.338Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:26:04.338Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:26:04.338Z - Final enrollment details:
+[INFO] 2026-08-24T08:26:04.338Z -   Patient: Kilback, Richmond
+[INFO] 2026-08-24T08:26:04.338Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:26:04.338Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:26:04.338Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:26:04.338Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:26:04.338Z - Enrolled Kilback, Richmond in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:26:04.338Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:19.978Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:19.979Z - Applying status filter: New
+[STEP] 2026-08-24T08:26:20.697Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:21.639Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:26:21.639Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:26:22.650Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:23.744Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:26:23.745Z - Moving enrollment to Active for "Kilback" (CCM)
+[STEP] 2026-08-24T08:26:23.745Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:23.746Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:24.222Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:24.222Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:26.271Z - "Move to Active" confirmed for "Kilback"
+[INFO] 2026-08-24T08:26:26.272Z - Moved Kilback, Richmond to Active
+[STEP] 2026-08-24T08:26:26.272Z - Navigating to Document Library
+[INFO] 2026-08-24T08:26:28.911Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:26:28.911Z - Clicking folder: Education
+[INFO] 2026-08-24T08:26:30.766Z - Opened folder: Education
+[STEP] 2026-08-24T08:26:30.766Z - Uploading document: AssignDoc 1787559990766
+[STEP] 2026-08-24T08:26:30.766Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:26:32.621Z - Upload Material form opened
+[STEP] 2026-08-24T08:26:32.621Z - Selecting tag: Education
+[INFO] 2026-08-24T08:26:34.366Z - Tag selected: Education
+[STEP] 2026-08-24T08:26:34.366Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:26:36.158Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:26:36.158Z - Filling file name: AssignDoc 1787559990766
+[STEP] 2026-08-24T08:26:36.549Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[INFO] 2026-08-24T08:26:36.640Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:26:37.778Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[STEP] 2026-08-24T08:26:37.779Z - Filling description: Document to assign to patient
+[STEP] 2026-08-24T08:26:38.174Z - Clicking Upload button
+[INFO] 2026-08-24T08:26:38.228Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:26:41.511Z - Upload completed
+[INFO] 2026-08-24T08:26:41.511Z - Document "AssignDoc 1787559990766" uploaded successfully
+[INFO] 2026-08-24T08:26:41.511Z - Step 1 ✓: Document "AssignDoc 1787559990766" uploaded to Education
+[STEP] 2026-08-24T08:26:41.511Z - Navigating to Document Library
+[INFO] 2026-08-24T08:26:43.440Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:26:43.442Z - Clicking folder: Education
+[INFO] 2026-08-24T08:26:45.225Z - Opened folder: Education
+[STEP] 2026-08-24T08:26:45.226Z - Searching document: AssignDoc 1787559990766
+[INFO] 2026-08-24T08:26:47.478Z - Search completed: AssignDoc 1787559990766
+[INFO] 2026-08-24T08:26:47.479Z - Step 2 ✓: Document found in Education folder
+[STEP] 2026-08-24T08:26:47.479Z - Step 3: Assigning document to patient Automation, Test
+[STEP] 2026-08-24T08:26:47.480Z - Assigning document (row 0) to patient: Kilback
+[STEP] 2026-08-24T08:26:47.480Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:26:48.640Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:26:48.640Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:26:50.255Z - Clicked: Assign
+[INFO] 2026-08-24T08:26:56.762Z - Document assigned to patient: Kilback
+[INFO] 2026-08-24T08:26:56.762Z - Step 3 ✓: Document assigned to patient Automation, Test
+[STEP] 2026-08-24T08:26:56.762Z - Step 4: Opening patient chart via global search
+[STEP] 2026-08-24T08:26:56.763Z - Opening patient chart from global search for: Kilback, Richmond
+[INFO] 2026-08-24T08:26:58.676Z - Patient chart opened from global search for: Kilback, Richmond
+[INFO] 2026-08-24T08:26:58.682Z - Step 4 ✓: Patient chart opened for Automation, Test
+[STEP] 2026-08-24T08:26:58.682Z - Step 5: Clicking Documents tab in patient chart
+[INFO] 2026-08-24T08:27:01.221Z - Step 5 ✓: Documents tab opened in patient charting
+[STEP] 2026-08-24T08:27:01.221Z - Step 6: Looking for Education folder in patient Documents
+[INFO] 2026-08-24T08:27:01.360Z - Education folder opened in patient charting
+[INFO] 2026-08-24T08:27:01.608Z - Checking for any documents in patient charting...
+[INFO] 2026-08-24T08:27:01.612Z - Step 6 ✓: Documents section has content — document assignment verified
+[INFO] 2026-08-24T08:27:01.612Z - AUT_DOC_004 PASSED: Document uploaded, assigned to patient, and verified in patient chart

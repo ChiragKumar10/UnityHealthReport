@@ -1,0 +1,45 @@
+[INFO] 2026-08-24T08:27:31.742Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:27:31.703+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:27:32.490Z - Login to Provider Portal
+[INFO] 2026-08-24T08:27:37.051Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:37.057Z - Navigate to RTM Library > Assessment
+[STEP] 2026-08-24T08:27:37.059Z - Opening RPM Library
+[INFO] 2026-08-24T08:27:39.719Z - Successfully opened RTM Library
+[STEP] 2026-08-24T08:27:39.719Z - Opening Assessment section
+[INFO] 2026-08-24T08:27:51.246Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:27:51.257Z - Test: Complete E2E assessment creation
+[STEP] 2026-08-24T08:27:51.258Z - Creating assessment: E2E Assessment 1787560071257
+[STEP] 2026-08-24T08:27:51.258Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:27:53.009Z - Add Assessment form opened
+[STEP] 2026-08-24T08:27:53.009Z - Filling assessment title: E2E Assessment 1787560071257
+[INFO] 2026-08-24T08:27:53.074Z - Assessment title filled: E2E Assessment 1787560071257
+[STEP] 2026-08-24T08:27:53.075Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:27:53.993Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:27:53.994Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:27:54.790Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:27:54.791Z - Clicking Next button
+[INFO] 2026-08-24T08:27:55.999Z - Next button clicked
+[STEP] 2026-08-24T08:27:56.001Z - Adding question 1: Single Select Question (SINGLE_SELECT)
+[INFO] 2026-08-24T08:27:59.222Z - 4 options added
+[INFO] 2026-08-24T08:27:59.222Z - Question 1 added: Single Select Question (SINGLE_SELECT)
+[STEP] 2026-08-24T08:27:59.222Z - Adding question 2: Multi Select Question (MULTI_SELECT)
+[INFO] 2026-08-24T08:28:02.805Z - 3 options added
+[INFO] 2026-08-24T08:28:02.805Z - Question 2 added: Multi Select Question (MULTI_SELECT)
+[STEP] 2026-08-24T08:28:02.805Z - Adding question 3: Free Text Question (FREE_TEXT)
+[INFO] 2026-08-24T08:28:05.161Z - Question 3 added: Free Text Question (FREE_TEXT)
+[STEP] 2026-08-24T08:28:05.161Z - Adding question 4: Rating with Note Question (RATING_NOTE)
+[INFO] 2026-08-24T08:28:08.095Z - Question 4 added: Rating with Note Question (RATING_NOTE)
+[STEP] 2026-08-24T08:28:08.095Z - Adding question 5: File Upload with Note Question (FILE_UPLOAD_WITH_NOTE)
+[INFO] 2026-08-24T08:28:10.640Z - Question 5 added: File Upload with Note Question (FILE_UPLOAD_WITH_NOTE)
+[STEP] 2026-08-24T08:28:10.640Z - Adding question 6: Signature Question (SIGNATURE)
+[INFO] 2026-08-24T08:28:13.047Z - Question 6 added: Signature Question (SIGNATURE)
+[STEP] 2026-08-24T08:28:13.048Z - Clicking Next button
+[INFO] 2026-08-24T08:28:14.358Z - Next button clicked
+[STEP] 2026-08-24T08:28:14.358Z - Clicking Finish button
+[INFO] 2026-08-24T08:28:15.493Z - Finish button clicked
+[INFO] 2026-08-24T08:28:15.493Z - Assessment 'E2E Assessment 1787560071257' created successfully
+[INFO] 2026-08-24T08:28:15.493Z - Assessment 'E2E Assessment 1787560071257' created with all question types
+[STEP] 2026-08-24T08:28:15.494Z - Verifying assessment 'E2E Assessment 1787560071257' is visible in the list
+[STEP] 2026-08-24T08:28:15.495Z - Searching for assessment: E2E Assessment 1787560071257
+[INFO] 2026-08-24T08:28:16.385Z - Search completed for assessment: E2E Assessment 1787560071257
+[INFO] 2026-08-24T08:28:16.420Z - Assessment 'E2E Assessment 1787560071257' is visible in the list
+[INFO] 2026-08-24T08:28:16.422Z - E2E assessment creation test completed

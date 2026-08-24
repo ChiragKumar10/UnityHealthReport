@@ -1,0 +1,29 @@
+[INFO] 2026-08-24T08:23:24.534Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:24.490+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:23:34.573Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:34.606Z - Starting Week Interaction Test
+[STEP] 2026-08-24T08:23:34.606Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:23:37.836Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:23:37.837Z - Picking the first patient available in any active RTM week
+[STEP] 2026-08-24T08:23:38.119Z - Selecting Week 1
+[INFO] 2026-08-24T08:23:41.208Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:23:41.208Z - Getting visible patient names
+[INFO] 2026-08-24T08:23:52.376Z - Found 11 visible patients: Mann, Ivah, Lakin, Grace, Medhurst, Darlene, Dickinson, Dejon, Johnson, Gwen, Veum, Oliver, Franey, Dorothy, Dibbert, Sedrick, Wilkinson, Burley, Franecki, Ted, Ortiz, Bethany
+[INFO] 2026-08-24T08:23:52.376Z - Found patient "Mann, Ivah" in Week 1
+[INFO] 2026-08-24T08:23:52.386Z - Running week interaction for "Mann, Ivah" in Week 1
+[STEP] 2026-08-24T08:23:52.387Z - Selecting Week 1
+[INFO] 2026-08-24T08:23:53.097Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:23:53.097Z - Selecting patient: Mann, Ivah
+[INFO] 2026-08-24T08:23:53.330Z - Successfully selected patient: Mann, Ivah
+[STEP] 2026-08-24T08:23:53.330Z - Selecting Text Message action
+[STEP] 2026-08-24T08:23:53.330Z - Clicking Reach Out All button
+[INFO] 2026-08-24T08:23:54.960Z - Reach Out All button clicked
+[INFO] 2026-08-24T08:23:54.960Z - Reach Out All clicked — message dialog opened
+[STEP] 2026-08-24T08:23:54.960Z - Sending bulk message. Template: Bulk Outreach Template, Log As: Communication with Patient
+[INFO] 2026-08-24T08:23:59.760Z - Send confirmation toast: "App Messages Send Successfully."
+[INFO] 2026-08-24T08:23:59.784Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:24:00.810Z - Bulk message sent successfully
+[STEP] 2026-08-24T08:24:00.810Z - Verifying message log for Mann, Ivah
+[INFO] 2026-08-24T08:24:00.816Z - Send confirmed for "Mann, Ivah" (toast: "App Messages Send Successfully.")
+[INFO] 2026-08-24T08:24:06.270Z - No chat-history panel for this patient yet — send already confirmed via toast/dialog, skipping read-back
+[INFO] 2026-08-24T08:24:06.270Z - Message log verified successfully for patient: Mann, Ivah
+[INFO] 2026-08-24T08:24:06.270Z - Week Interaction Test completed successfully

@@ -1,0 +1,93 @@
+[INFO] 2026-08-24T08:45:35.975Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:45:35.983Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:45:35.984Z - Creating patient via UI: Schaden, August
+[STEP] 2026-08-24T08:45:35.984Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:45:41.097Z - Patient details drawer opened
+[STEP] 2026-08-24T08:45:41.097Z - Filling demographics for August Schaden
+[STEP] 2026-08-24T08:45:50.743Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:45:53.095Z - Setting location: Automation
+[STEP] 2026-08-24T08:45:53.868Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:45:54.960Z - Clicking Save & Next
+[INFO] 2026-08-24T08:45:58.450Z - [createPatientViaUI] created "Schaden, August"
+[STEP] 2026-08-24T08:45:58.450Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:46:13.665Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:46:13.665Z - Adding new enrollment
+[INFO] 2026-08-24T08:46:18.656Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:46:21.168Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:46:21.168Z - Patient: Schaden, August | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:22.381Z - Validating enrollment result
+[INFO] 2026-08-24T08:46:22.381Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:46:22.381Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:46:22.381Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:46:22.888Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:46:22.888Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:46:22.888Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:46:22.888Z - Final enrollment details:
+[INFO] 2026-08-24T08:46:22.889Z -   Patient: Schaden, August
+[INFO] 2026-08-24T08:46:22.889Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:46:22.889Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:46:22.889Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:46:22.889Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:46:22.889Z - Enrolled Schaden, August in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:22.889Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:46:39.293Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:46:39.293Z - Applying status filter: New
+[STEP] 2026-08-24T08:46:39.865Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:46:40.553Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:46:40.553Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:41.053Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:46:41.840Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:46:41.840Z - Moving enrollment to Active for "Schaden" (CCM)
+[STEP] 2026-08-24T08:46:41.840Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:46:41.840Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:46:42.113Z - Date filter applied successfully
+[STEP] 2026-08-24T08:46:42.113Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:46:43.477Z - "Move to Active" confirmed for "Schaden"
+[INFO] 2026-08-24T08:46:43.477Z - Moved Schaden, August to Active
+[STEP] 2026-08-24T08:46:43.482Z - Test: Status update ToDo → Done reflected in provider and patient charting
+[STEP] 2026-08-24T08:46:43.482Z - Navigating to Task page
+[INFO] 2026-08-24T08:46:45.119Z - Navigated to Task page
+[STEP] 2026-08-24T08:46:45.120Z - Creating task: StatusUpdate 1787561205119
+[STEP] 2026-08-24T08:46:45.120Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:46:45.373Z - Add Task form opened
+[INFO] 2026-08-24T08:47:06.784Z - Task "StatusUpdate 1787561205119" created successfully
+[INFO] 2026-08-24T08:47:06.785Z - Task "StatusUpdate 1787561205119" created
+[STEP] 2026-08-24T08:47:06.786Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:47:08.643Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:47:08.643Z - Setting status filter to: All
+[INFO] 2026-08-24T08:47:17.260Z - Status filter set to: All
+[STEP] 2026-08-24T08:47:17.260Z - Searching for: StatusUpdate 1787561205119
+[INFO] 2026-08-24T08:47:17.811Z - Search completed for: StatusUpdate 1787561205119
+[STEP] 2026-08-24T08:47:17.811Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:47:18.849Z - TASK STATUS values: ToDo
+[INFO] 2026-08-24T08:47:18.850Z - ✓ Status before resolve: ToDo
+[STEP] 2026-08-24T08:47:18.850Z - Resolving task to change status to Done
+[STEP] 2026-08-24T08:47:18.850Z - Resolving task
+[STEP] 2026-08-24T08:47:18.860Z - Opening Resolve Task dialog
+[STEP] 2026-08-24T08:47:18.861Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:47:20.067Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:47:20.068Z - Clicking action menu item: Resolve
+[INFO] 2026-08-24T08:47:21.744Z - Clicked: Resolve
+[INFO] 2026-08-24T08:47:21.755Z - Resolve Task dialog opened
+[STEP] 2026-08-24T08:47:21.757Z - Filling resolve note: Resolved at 2026-08-24T08:47:18.850Z
+[STEP] 2026-08-24T08:47:22.193Z - Clicking Resolve button in dialog
+[INFO] 2026-08-24T08:47:26.353Z - Resolve button clicked. Drawer closed: true
+[STEP] 2026-08-24T08:47:26.353Z - VERIFY 1: Checking Done status in provider task list
+[STEP] 2026-08-24T08:47:26.354Z - Navigating to Task page
+[INFO] 2026-08-24T08:47:26.536Z - Navigated to Task page
+[STEP] 2026-08-24T08:47:26.536Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:47:26.550Z - My Tasks filter already unchecked
+[STEP] 2026-08-24T08:47:26.550Z - Setting status filter to: All
+[INFO] 2026-08-24T08:47:27.031Z - Status filter set to: All
+[STEP] 2026-08-24T08:47:27.034Z - Searching for: StatusUpdate 1787561205119
+[INFO] 2026-08-24T08:47:28.540Z - Search completed for: StatusUpdate 1787561205119
+[STEP] 2026-08-24T08:47:28.540Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:47:29.561Z - TASK STATUS values: Done
+[INFO] 2026-08-24T08:47:29.565Z - ✓ VERIFY 1 PASSED: Status in provider view = Done
+[STEP] 2026-08-24T08:47:29.565Z - VERIFY 2: Checking Done status in Patient Charting
+[STEP] 2026-08-24T08:47:29.566Z - Opening patient chart from global search for: Schaden, August
+[INFO] 2026-08-24T08:47:31.189Z - Patient chart opened from global search for: Schaden, August
+[INFO] 2026-08-24T08:47:34.188Z - ✓ VERIFY 2 PASSED: Task found in Patient Charting with Done status
+[INFO] 2026-08-24T08:47:34.188Z - AUT_TSK_123 PASSED: Status update ToDo → Done reflected in BOTH places

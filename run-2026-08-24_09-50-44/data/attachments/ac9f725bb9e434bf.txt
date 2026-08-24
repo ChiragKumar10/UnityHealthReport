@@ -1,0 +1,80 @@
+[INFO] 2026-08-24T08:43:25.012Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:43:24.956+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:43:26.231Z - Login to Provider Portal as Chirag
+[INFO] 2026-08-24T08:43:32.360Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:43:32.372Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:43:32.501Z - Creating patient via UI: Kovacek, Katlynn
+[STEP] 2026-08-24T08:43:32.501Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:43:38.147Z - Patient details drawer opened
+[STEP] 2026-08-24T08:43:38.150Z - Filling demographics for Katlynn Kovacek
+[STEP] 2026-08-24T08:43:48.661Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:43:50.573Z - Setting location: Automation
+[STEP] 2026-08-24T08:43:51.391Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:43:52.604Z - Clicking Save & Next
+[INFO] 2026-08-24T08:43:57.018Z - [createPatientViaUI] created "Kovacek, Katlynn"
+[STEP] 2026-08-24T08:43:57.018Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:44:12.359Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:44:12.371Z - Adding new enrollment
+[INFO] 2026-08-24T08:44:17.611Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:44:19.210Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:44:19.210Z - Patient: Kovacek, Katlynn | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:44:20.791Z - Validating enrollment result
+[INFO] 2026-08-24T08:44:20.793Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:44:20.793Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:44:20.793Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:44:21.889Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:44:21.889Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:44:21.889Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:44:21.889Z - Final enrollment details:
+[INFO] 2026-08-24T08:44:21.889Z -   Patient: Kovacek, Katlynn
+[INFO] 2026-08-24T08:44:21.889Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:44:21.889Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:44:21.889Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:44:21.889Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:44:21.889Z - Enrolled Kovacek, Katlynn in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:44:21.889Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:44:37.759Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:44:37.760Z - Applying status filter: New
+[STEP] 2026-08-24T08:44:38.549Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:44:39.694Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:44:39.694Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:44:40.589Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:44:41.762Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:44:41.766Z - Moving enrollment to Active for "Kovacek" (CCM)
+[STEP] 2026-08-24T08:44:41.767Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:44:41.767Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:44:42.631Z - Date filter applied successfully
+[STEP] 2026-08-24T08:44:42.631Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:44:44.304Z - "Move to Active" confirmed for "Kovacek"
+[INFO] 2026-08-24T08:44:44.304Z - Moved Kovacek, Katlynn to Active
+[STEP] 2026-08-24T08:44:44.315Z - Test: Create task for patient Automation,Test and verify in Patient Charting
+[STEP] 2026-08-24T08:44:44.315Z - Navigating to Task page
+[INFO] 2026-08-24T08:44:46.409Z - Navigated to Task page
+[STEP] 2026-08-24T08:44:46.412Z - Creating task: PatientChart 1787561086409
+[STEP] 2026-08-24T08:44:46.412Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:44:47.778Z - Add Task form opened
+[INFO] 2026-08-24T08:45:10.309Z - Task "PatientChart 1787561086409" created successfully
+[INFO] 2026-08-24T08:45:10.309Z - Task "PatientChart 1787561086409" created with CCM service for patient Automation, Test
+[STEP] 2026-08-24T08:45:10.310Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:45:12.158Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:45:12.159Z - Setting status filter to: All
+[INFO] 2026-08-24T08:45:20.605Z - Status filter set to: All
+[STEP] 2026-08-24T08:45:20.606Z - Searching for: PatientChart 1787561086409
+[INFO] 2026-08-24T08:45:21.361Z - Search completed for: PatientChart 1787561086409
+[STEP] 2026-08-24T08:45:21.363Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:45:22.398Z - TASK values: PatientChart 1787561086409
+[INFO] 2026-08-24T08:45:22.421Z - Task verified in task list
+[STEP] 2026-08-24T08:45:22.421Z - Opening patient chart for Automation, Test
+[STEP] 2026-08-24T08:45:22.436Z - Opening patient chart from global search for: Kovacek, Katlynn
+[INFO] 2026-08-24T08:45:24.658Z - Patient chart opened from global search for: Kovacek, Katlynn
+[STEP] 2026-08-24T08:45:24.674Z - Selecting CCM service tab
+[STEP] 2026-08-24T08:45:24.929Z - Clicking Tasks tab in patient chart
+[STEP] 2026-08-24T08:45:27.685Z - Filtering by ToDo status in patient charting
+[INFO] 2026-08-24T08:45:28.657Z - Status filter set to ToDo
+[STEP] 2026-08-24T08:45:28.657Z - Filtering by Call action in patient charting
+[INFO] 2026-08-24T08:45:29.603Z - Action filter set to Call
+[INFO] 2026-08-24T08:45:30.160Z - Tasks in patient charting: PatientChart 1787561086409
+[INFO] 2026-08-24T08:45:30.189Z - Service in patient charting: CCM ✓
+[INFO] 2026-08-24T08:45:30.211Z - Assigned To in patient charting: John Doe
+[INFO] 2026-08-24T08:45:30.215Z - AUT_TSK_121 PASSED: Task displayed in Patient Charting — CCM → Tasks → ToDo + Call → John Doe

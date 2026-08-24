@@ -1,0 +1,48 @@
+[INFO] 2026-08-24T08:27:39.101Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:27:39.062+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:27:39.559Z - Login to Provider Portal
+[INFO] 2026-08-24T08:27:41.538Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:41.559Z - Seeding Closed enrollment via UI (create → enroll → activate → close)
+[STEP] 2026-08-24T08:27:41.632Z - Creating patient via UI: Balistreri, Thelma
+[STEP] 2026-08-24T08:27:41.633Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:27:43.211Z - Patient details drawer opened
+[STEP] 2026-08-24T08:27:43.212Z - Filling demographics for Thelma Balistreri
+[STEP] 2026-08-24T08:27:46.317Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:27:48.231Z - Setting location: Automation
+[STEP] 2026-08-24T08:27:48.740Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:27:49.364Z - Clicking Save & Next
+[INFO] 2026-08-24T08:27:52.856Z - [createPatientViaUI] created "Balistreri, Thelma"
+[STEP] 2026-08-24T08:27:52.856Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:08.052Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:08.055Z - Adding new enrollment
+[INFO] 2026-08-24T08:28:13.102Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:28:15.780Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:28:15.780Z - Patient: Balistreri, Thelma | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:28:17.650Z - Validating enrollment result
+[INFO] 2026-08-24T08:28:17.650Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:28:17.650Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:28:17.650Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:28:18.187Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:28:18.187Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:28:18.187Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:28:18.187Z - Final enrollment details:
+[INFO] 2026-08-24T08:28:18.195Z -   Patient: Balistreri, Thelma
+[INFO] 2026-08-24T08:28:18.195Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:28:18.195Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:28:18.195Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:28:18.195Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:28:18.195Z - Enrolled Balistreri, Thelma in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:28:18.195Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:34.283Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:34.283Z - Applying status filter: New
+[STEP] 2026-08-24T08:28:34.789Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:35.419Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:28:35.419Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:28:35.851Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:36.508Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:28:36.509Z - Moving enrollment to Active for "Balistreri" (RTM)
+[STEP] 2026-08-24T08:28:36.510Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:28:36.510Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:28:36.916Z - Date filter applied successfully
+[STEP] 2026-08-24T08:28:36.916Z - Waiting for enrollment list to finish loading

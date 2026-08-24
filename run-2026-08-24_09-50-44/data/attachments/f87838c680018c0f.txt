@@ -1,0 +1,75 @@
+[STEP] 2026-08-24T08:38:38.583Z - Login to Provider Portal
+[INFO] 2026-08-24T08:38:40.355Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:41.988Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:38:41.989Z - Creating patient via UI: Price, Ivah
+[STEP] 2026-08-24T08:38:41.989Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:38:44.225Z - Patient details drawer opened
+[STEP] 2026-08-24T08:38:44.225Z - Filling demographics for Ivah Price
+[STEP] 2026-08-24T08:38:46.168Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:38:46.395Z - Setting location: Automation
+[STEP] 2026-08-24T08:38:46.895Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:38:47.391Z - Clicking Save & Next
+[INFO] 2026-08-24T08:38:49.374Z - [createPatientViaUI] created "Price, Ivah"
+[STEP] 2026-08-24T08:38:49.374Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:04.467Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:04.468Z - Adding new enrollment
+[INFO] 2026-08-24T08:39:08.183Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:39:09.679Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:39:09.679Z - Patient: Price, Ivah | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:39:10.290Z - Validating enrollment result
+[INFO] 2026-08-24T08:39:10.291Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:39:10.291Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:39:10.291Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:39:10.319Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:39:10.319Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:39:10.319Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:39:10.320Z - Final enrollment details:
+[INFO] 2026-08-24T08:39:10.320Z -   Patient: Price, Ivah
+[INFO] 2026-08-24T08:39:10.320Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:39:10.320Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:39:10.320Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:39:10.321Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:39:10.321Z - Enrolled Price, Ivah in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:39:10.321Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:25.443Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:25.444Z - Applying status filter: New
+[STEP] 2026-08-24T08:39:25.876Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:26.448Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:39:26.448Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:39:26.816Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:27.407Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:39:27.407Z - Moving enrollment to Active for "Price" (RTM)
+[STEP] 2026-08-24T08:39:27.407Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:39:27.407Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:39:27.640Z - Date filter applied successfully
+[STEP] 2026-08-24T08:39:27.640Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:28.569Z - "Move to Active" confirmed for "Price"
+[INFO] 2026-08-24T08:39:28.569Z - Moved Price, Ivah to Active
+[STEP] 2026-08-24T08:39:28.571Z - Test: Action menu shows View Resolved Note for resolved alerts
+[STEP] 2026-08-24T08:39:28.571Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:39:30.670Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:39:30.670Z - Selecting status filter: All
+[INFO] 2026-08-24T08:39:32.816Z - Status filter set to: All
+[STEP] 2026-08-24T08:39:32.816Z - Finding first resolved row
+[STEP] 2026-08-24T08:39:32.816Z - Getting alert row count
+[INFO] 2026-08-24T08:39:33.821Z - Alert row count: 25
+[STEP] 2026-08-24T08:39:33.821Z - Getting cell text at row 1, column 8
+[INFO] 2026-08-24T08:39:33.832Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:33.832Z - Getting cell text at row 2, column 8
+[INFO] 2026-08-24T08:39:33.841Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:33.841Z - Getting cell text at row 3, column 8
+[INFO] 2026-08-24T08:39:33.853Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:33.853Z - Getting cell text at row 4, column 8
+[INFO] 2026-08-24T08:39:33.862Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:33.863Z - Getting cell text at row 5, column 8
+[INFO] 2026-08-24T08:39:33.873Z - Cell text: Resolved
+[INFO] 2026-08-24T08:39:33.873Z - First resolved row found at index: 5 (attempt 1)
+[STEP] 2026-08-24T08:39:33.874Z - Opening action menu for row 5
+[INFO] 2026-08-24T08:39:34.426Z - Action menu opened for row 5
+[STEP] 2026-08-24T08:39:34.427Z - Checking if View Resolved Note option is visible
+[INFO] 2026-08-24T08:39:34.437Z - View Resolved Note visible: true
+[STEP] 2026-08-24T08:39:34.439Z - Checking if Resolve option is visible
+[INFO] 2026-08-24T08:39:34.444Z - Resolve option visible: false
+[INFO] 2026-08-24T08:39:34.453Z - Verified: Resolved alert shows View Resolved Note, not Resolve

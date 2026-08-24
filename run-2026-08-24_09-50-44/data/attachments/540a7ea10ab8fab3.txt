@@ -1,0 +1,110 @@
+[ERROR] 2026-08-24T08:31:30.775Z - Failed to click element with selector: button:has-text("Add Template")
+page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button:has-text("Add Template")') to be visible
+
+    at LibraryTemplatePage.waitForElement (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:29:25)
+    at LibraryTemplatePage.click (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:34:24)
+    at LibraryTemplatePage.clickAddTemplate (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/admin-portal/library/libraytemplate.page.ts:95:24)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/library/library-cross-portal-workflows.spec.ts:216:31 {
+  log: [
+    `  - waiting for locator('button:has-text("Add Template")') to be visible`
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts',
+      line: 29,
+      column: 25,
+      function: 'LibraryTemplatePage.waitForElement'
+    },
+    category: 'pw:api',
+    title: `Wait for selector locator('button:has-text("Add Template")')`,
+    apiName: 'page.waitForSelector',
+    params: { selector: 'button:has-text("Add Template")', timeout: 10000 },
+    group: undefined,
+    stepId: 'pw:api@78',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@78',
+      _title: `Wait for selector locator('button:has-text("Add Template")')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560290774,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button:has-text("Add Template")') to be visible\x1B[22m\n`,
+      stack: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button:has-text("Add Template")') to be visible\x1B[22m\n` +
+        '\n' +
+        '    at LibraryTemplatePage.waitForElement (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:29:25)\n' +
+        '    at LibraryTemplatePage.click (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:34:24)\n' +
+        '    at LibraryTemplatePage.clickAddTemplate (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/admin-portal/library/libraytemplate.page.ts:95:24)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/library/library-cross-portal-workflows.spec.ts:216:31',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-08-24T08:31:30.779Z - Failed to open Add Template form
+page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button:has-text("Add Template")') to be visible
+
+    at LibraryTemplatePage.waitForElement (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:29:25)
+    at LibraryTemplatePage.click (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:34:24)
+    at LibraryTemplatePage.clickAddTemplate (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/admin-portal/library/libraytemplate.page.ts:95:24)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/library/library-cross-portal-workflows.spec.ts:216:31 {
+  log: [
+    `  - waiting for locator('button:has-text("Add Template")') to be visible`
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts',
+      line: 29,
+      column: 25,
+      function: 'LibraryTemplatePage.waitForElement'
+    },
+    category: 'pw:api',
+    title: `Wait for selector locator('button:has-text("Add Template")')`,
+    apiName: 'page.waitForSelector',
+    params: { selector: 'button:has-text("Add Template")', timeout: 10000 },
+    group: undefined,
+    stepId: 'pw:api@78',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@78',
+      _title: `Wait for selector locator('button:has-text("Add Template")')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560290774,
+    error: {
+      message: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button:has-text("Add Template")') to be visible\x1B[22m\n`,
+      stack: 'TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button:has-text("Add Template")') to be visible\x1B[22m\n` +
+        '\n' +
+        '    at LibraryTemplatePage.waitForElement (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:29:25)\n' +
+        '    at LibraryTemplatePage.click (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/base.page.ts:34:24)\n' +
+        '    at LibraryTemplatePage.clickAddTemplate (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/admin-portal/library/libraytemplate.page.ts:95:24)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/library/library-cross-portal-workflows.spec.ts:216:31',
+      cause: undefined
+    }
+  }
+}

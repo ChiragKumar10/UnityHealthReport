@@ -1,0 +1,46 @@
+[STEP] 2026-08-24T08:35:52.755Z - Login to Provider Portal
+[INFO] 2026-08-24T08:35:56.674Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:35:56.682Z - Test: E2E - Create alert, resolve, verify resolved
+[STEP] 2026-08-24T08:35:56.682Z - Opening patient chart from global search for: Balistreri, Madisyn
+[INFO] 2026-08-24T08:36:04.427Z - Patient chart opened from global search for: Balistreri, Madisyn
+[STEP] 2026-08-24T08:36:04.797Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:36:09.184Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:36:09.185Z - Adding vital: Pain Scale with value 418
+[STEP] 2026-08-24T08:36:09.186Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:36:09.437Z - Add Vital form opened
+[STEP] 2026-08-24T08:36:09.437Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:36:09.819Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:36:09.819Z - Entering vital value: 418
+[INFO] 2026-08-24T08:36:09.865Z - Successfully entered vital value: 418
+[STEP] 2026-08-24T08:36:09.865Z - Saving vital
+[INFO] 2026-08-24T08:36:09.930Z - Successfully saved vital
+[INFO] 2026-08-24T08:36:09.931Z - Successfully added vital: Pain Scale with value 418
+[INFO] 2026-08-24T08:36:09.931Z - Pain Scale vital added with value: 418
+[STEP] 2026-08-24T08:36:09.931Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:36:11.515Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:36:11.517Z - Searching alerts for: Balistreri
+[INFO] 2026-08-24T08:36:13.100Z - Search completed for: Balistreri
+[STEP] 2026-08-24T08:36:13.101Z - Getting alert row count
+[INFO] 2026-08-24T08:36:14.109Z - Alert row count: 2
+[STEP] 2026-08-24T08:36:14.110Z - Resolving alert at row 1
+[STEP] 2026-08-24T08:36:14.110Z - Opening action menu for row 1
+[INFO] 2026-08-24T08:36:14.640Z - Action menu opened for row 1
+[STEP] 2026-08-24T08:36:14.640Z - Clicking Resolve from action menu
+[INFO] 2026-08-24T08:36:15.202Z - Resolve clicked
+[STEP] 2026-08-24T08:36:15.202Z - Filling resolve note and saving
+[INFO] 2026-08-24T08:36:16.275Z - Resolve note saved
+[STEP] 2026-08-24T08:36:16.275Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:36:29.792Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:36:29.793Z - Alert at row 1 resolved
+[INFO] 2026-08-24T08:36:29.793Z - Alert resolved
+[STEP] 2026-08-24T08:36:29.793Z - Selecting status filter: All
+[INFO] 2026-08-24T08:36:42.124Z - Status filter set to: All
+[STEP] 2026-08-24T08:36:42.125Z - Searching alerts for: Balistreri
+[INFO] 2026-08-24T08:36:53.716Z - Search completed for: Balistreri
+[STEP] 2026-08-24T08:36:53.716Z - Getting alert row count
+[INFO] 2026-08-24T08:36:54.725Z - Alert row count: 2
+[STEP] 2026-08-24T08:36:54.729Z - Getting cell text at row 1, column 9
+[INFO] 2026-08-24T08:36:54.756Z - Cell text: Jemes Cory
+[STEP] 2026-08-24T08:36:54.759Z - Getting cell text at row 1, column 10
+[INFO] 2026-08-24T08:36:54.789Z - Cell text: 08-24-2026
+[INFO] 2026-08-24T08:36:54.794Z - E2E complete: Alert created, resolved. By=Jemes Cory, Date=08-24-2026

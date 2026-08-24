@@ -1,0 +1,110 @@
+[INFO] 2026-08-24T08:23:11.015Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:10.914+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:23:12.627Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:20.031Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:20.090Z - Seeding Closed enrollment via UI (create → enroll → activate → close)
+[STEP] 2026-08-24T08:23:20.393Z - Creating patient via UI: Oberbrunner, Vito
+[STEP] 2026-08-24T08:23:20.393Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:27.634Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:27.635Z - Filling demographics for Vito Oberbrunner
+[STEP] 2026-08-24T08:23:41.855Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:43.001Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:44.287Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:46.131Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:52.407Z - [createPatientViaUI] created "Oberbrunner, Vito"
+[STEP] 2026-08-24T08:23:52.412Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:07.890Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:07.894Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:15.370Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:19.844Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:19.844Z - Patient: Oberbrunner, Vito | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:21.502Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:21.502Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:21.502Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:21.502Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:21.607Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:21.607Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:21.608Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:21.610Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:21.610Z -   Patient: Oberbrunner, Vito
+[INFO] 2026-08-24T08:24:21.610Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:21.610Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:21.610Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:21.610Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:21.610Z - Enrolled Oberbrunner, Vito in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:21.610Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:37.207Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:37.213Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:38.247Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:39.582Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:39.583Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:40.516Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:41.694Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:24:41.694Z - Moving enrollment to Active for "Oberbrunner" (RTM)
+[STEP] 2026-08-24T08:24:41.694Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:41.694Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:42.463Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:42.463Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:43.978Z - "Move to Active" confirmed for "Oberbrunner"
+[INFO] 2026-08-24T08:24:43.978Z - Moved Oberbrunner, Vito to Active
+[STEP] 2026-08-24T08:24:43.978Z - Close RTM enrollment for Oberbrunner, Vito
+[STEP] 2026-08-24T08:24:46.245Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:05.499Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:05.499Z - Applying status filter: Active
+[STEP] 2026-08-24T08:25:06.517Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:07.495Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:25:07.495Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:07.495Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:08.363Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:08.373Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:11.665Z - Closed one Active RTM row for Oberbrunner, Vito (iteration 1)
+[STEP] 2026-08-24T08:25:13.961Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:32.268Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:32.269Z - Applying status filter: Active
+[STEP] 2026-08-24T08:25:33.340Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:34.585Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:25:34.585Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:34.585Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:35.435Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:35.435Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:39.296Z - Closed one Active RTM row for Oberbrunner, Vito (iteration 2)
+[STEP] 2026-08-24T08:25:41.736Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:02.030Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:02.030Z - Applying status filter: Active
+[STEP] 2026-08-24T08:26:02.883Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:03.880Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:26:03.883Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:03.883Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:04.556Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:04.556Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:08.148Z - Closed one Active RTM row for Oberbrunner, Vito (iteration 3)
+[STEP] 2026-08-24T08:26:09.500Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:26.715Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:26.715Z - Applying status filter: Active
+[STEP] 2026-08-24T08:26:27.767Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:28.596Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:26:28.596Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:28.596Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:29.434Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:29.434Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:33.508Z - Closed one Active RTM row for Oberbrunner, Vito (iteration 4)
+[STEP] 2026-08-24T08:26:35.650Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:53.799Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:53.799Z - Applying status filter: Active
+[STEP] 2026-08-24T08:26:54.617Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:55.372Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:26:55.372Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:55.372Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:55.803Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:55.803Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:58.272Z - Closed one Active RTM row for Oberbrunner, Vito (iteration 5)
+[STEP] 2026-08-24T08:26:59.239Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:17.788Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:17.788Z - Applying status filter: Active
+[STEP] 2026-08-24T08:27:18.955Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:20.272Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:27:20.277Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:20.277Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:21.238Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:21.238Z - Waiting for enrollment list to finish loading

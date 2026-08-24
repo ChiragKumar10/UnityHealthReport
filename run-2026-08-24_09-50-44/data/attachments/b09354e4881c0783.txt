@@ -1,0 +1,46 @@
+[STEP] 2026-08-24T08:43:22.832Z - Login to Provider Portal
+[INFO] 2026-08-24T08:43:27.718Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:43:27.727Z - Test: E2E Task Reassignment
+[STEP] 2026-08-24T08:43:27.727Z - Navigating to Task page
+[INFO] 2026-08-24T08:43:35.930Z - Navigated to Task page
+[INFO] 2026-08-24T08:43:37.769Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:43:37.769Z - Creating task: Reassign E2E 1787561017769
+[STEP] 2026-08-24T08:43:37.769Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:43:42.607Z - Add Task form opened
+[INFO] 2026-08-24T08:44:03.402Z - Task "Reassign E2E 1787561017769" created successfully
+[STEP] 2026-08-24T08:44:03.402Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:44:05.198Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:44:05.198Z - Setting status filter to: All
+[INFO] 2026-08-24T08:44:13.749Z - Status filter set to: All
+[STEP] 2026-08-24T08:44:13.749Z - Searching for: Reassign E2E 1787561017769
+[INFO] 2026-08-24T08:44:14.514Z - Search completed for: Reassign E2E 1787561017769
+[STEP] 2026-08-24T08:44:14.514Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:44:15.545Z - ASSIGNED TO values: Jemes Cory
+[INFO] 2026-08-24T08:44:15.547Z - Task initially assigned to: Jemes Cory
+[STEP] 2026-08-24T08:44:15.547Z - Opening Edit Task form
+[STEP] 2026-08-24T08:44:15.547Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:44:16.714Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:44:16.715Z - Clicking action menu item: Edit
+[INFO] 2026-08-24T08:44:18.661Z - Clicked: Edit
+[INFO] 2026-08-24T08:44:18.675Z - Edit Task form opened
+[STEP] 2026-08-24T08:44:18.694Z - Changing assignee to: a
+[INFO] 2026-08-24T08:44:21.030Z - Assignee changed to: a
+[STEP] 2026-08-24T08:44:21.030Z - Filling edit note: Reassigned by Jemes Cory at 2026-08-24T08:44:21.030Z
+[STEP] 2026-08-24T08:44:21.453Z - Saving edited task
+[INFO] 2026-08-24T08:44:21.479Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-08-24T08:44:21.501Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-08-24T08:44:21.540Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-08-24T08:44:21.588Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-08-24T08:44:21.628Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-08-24T08:44:21.629Z - Reading all edit form pre-filled values
+[INFO] 2026-08-24T08:44:21.821Z - Edit form values: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"Reassign E2E 1787561017769","assignee":"Anny Vate ","priority":"HIGH","dueDate":"31 August 2026 ","note":"Reassigned by Jemes Cory at 2026-08-24T08:44:21.030Z"}
+[INFO] 2026-08-24T08:44:21.821Z - Form state before save: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"Reassign E2E 1787561017769","assignee":"Anny Vate ","priority":"HIGH","dueDate":"31 August 2026 ","note":"Reassigned by Jemes Cory at 2026-08-24T08:44:21.030Z"}
+[INFO] 2026-08-24T08:44:21.855Z - Validation errors before save: []
+[INFO] 2026-08-24T08:44:24.119Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-08-24T08:44:25.163Z - Edit task saved (drawer closed: true)
+[STEP] 2026-08-24T08:44:25.163Z - Searching for: Reassign E2E 1787561017769
+[INFO] 2026-08-24T08:44:26.531Z - Search completed for: Reassign E2E 1787561017769
+[STEP] 2026-08-24T08:44:26.535Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:44:27.556Z - ASSIGNED TO values: Anny Vate
+[INFO] 2026-08-24T08:44:27.556Z - Task reassigned to: Anny Vate
+[INFO] 2026-08-24T08:44:27.564Z - E2E Reassignment complete: Jemes Cory → Anny Vate

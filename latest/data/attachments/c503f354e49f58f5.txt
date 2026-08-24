@@ -1,0 +1,20 @@
+[STEP] 2026-08-24T08:25:01.377Z - Test: Verify Care Manager assignment and multi-diagnoses selection
+[INFO] 2026-08-24T08:25:04.206Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:04.206Z - Seeding patient (no enrollment) via UI onboarding (single session)
+[STEP] 2026-08-24T08:25:04.217Z - Creating patient via UI: Purdy, Okey
+[STEP] 2026-08-24T08:25:04.218Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:25:09.375Z - Patient details drawer opened
+[STEP] 2026-08-24T08:25:09.375Z - Filling demographics for Okey Purdy
+[STEP] 2026-08-24T08:25:27.467Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:25:28.914Z - Setting location: Automation
+[STEP] 2026-08-24T08:25:30.249Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:25:31.924Z - Clicking Save & Next
+[INFO] 2026-08-24T08:25:37.775Z - [createPatientViaUI] created "Purdy, Okey"
+[INFO] 2026-08-24T08:25:37.775Z - Seeded patient via UI: Purdy, Okey
+[STEP] 2026-08-24T08:25:37.775Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:53.123Z - Navigated to Enrollment section
+[INFO] 2026-08-24T08:25:57.065Z - Provider selected
+[INFO] 2026-08-24T08:25:57.254Z - Primary Care Manager assigned
+[INFO] 2026-08-24T08:25:57.615Z - Assigned 2 secondary care manager(s) (max allowed: 3)
+[INFO] 2026-08-24T08:25:57.957Z - Selected 3 diagnoses
+[INFO] 2026-08-24T08:25:58.069Z - Care Manager assignment + multi-diagnoses selection verified in the enrollment form

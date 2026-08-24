@@ -1,0 +1,97 @@
+[STEP] 2026-08-24T08:38:59.998Z - Login to Provider Portal as Chirag
+[INFO] 2026-08-24T08:39:04.922Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:04.926Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:39:04.930Z - Creating patient via UI: Lebsack, Stanford
+[STEP] 2026-08-24T08:39:04.932Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:39:09.572Z - Patient details drawer opened
+[STEP] 2026-08-24T08:39:09.572Z - Filling demographics for Stanford Lebsack
+[STEP] 2026-08-24T08:39:20.158Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:39:21.394Z - Setting location: Automation
+[STEP] 2026-08-24T08:39:22.445Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:39:23.517Z - Clicking Save & Next
+[INFO] 2026-08-24T08:39:28.929Z - [createPatientViaUI] created "Lebsack, Stanford"
+[STEP] 2026-08-24T08:39:28.929Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:44.286Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:44.286Z - Adding new enrollment
+[INFO] 2026-08-24T08:39:49.639Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:39:51.721Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:39:51.721Z - Patient: Lebsack, Stanford | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:53.252Z - Validating enrollment result
+[INFO] 2026-08-24T08:39:53.252Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:39:53.252Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:39:53.252Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:39:53.818Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:39:53.819Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:39:53.819Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:39:53.819Z - Final enrollment details:
+[INFO] 2026-08-24T08:39:53.819Z -   Patient: Lebsack, Stanford
+[INFO] 2026-08-24T08:39:53.819Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:39:53.819Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:39:53.819Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:39:53.819Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:39:53.819Z - Enrolled Lebsack, Stanford in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:53.819Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:10.439Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:10.439Z - Applying status filter: New
+[STEP] 2026-08-24T08:40:11.229Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:12.749Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:40:12.749Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:40:13.757Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:14.848Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:40:14.848Z - Moving enrollment to Active for "Lebsack" (CCM)
+[STEP] 2026-08-24T08:40:14.848Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:40:14.849Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:40:15.762Z - Date filter applied successfully
+[STEP] 2026-08-24T08:40:15.764Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:17.540Z - "Move to Active" confirmed for "Lebsack"
+[INFO] 2026-08-24T08:40:17.540Z - Moved Lebsack, Stanford to Active
+[STEP] 2026-08-24T08:40:17.549Z - Test: Verify task in logged-in user task list, Patient Charting, and assigned provider account
+[STEP] 2026-08-24T08:40:17.550Z - Navigating to Task page
+[INFO] 2026-08-24T08:40:19.274Z - Navigated to Task page
+[STEP] 2026-08-24T08:40:19.279Z - Creating task: BothPlace 1787560819274
+[STEP] 2026-08-24T08:40:19.282Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:40:20.507Z - Add Task form opened
+[INFO] 2026-08-24T08:40:43.775Z - Task "BothPlace 1787560819274" created successfully
+[INFO] 2026-08-24T08:40:43.776Z - Task "BothPlace 1787560819274" created — CCM, Automation Test, John Doe
+[STEP] 2026-08-24T08:40:43.781Z - VERIFY 1: Checking task in Chirag task list
+[STEP] 2026-08-24T08:40:43.781Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:40:45.585Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:40:45.585Z - Setting status filter to: All
+[INFO] 2026-08-24T08:40:53.955Z - Status filter set to: All
+[STEP] 2026-08-24T08:40:53.956Z - Searching for: BothPlace 1787560819274
+[INFO] 2026-08-24T08:40:54.598Z - Search completed for: BothPlace 1787560819274
+[STEP] 2026-08-24T08:40:54.600Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:40:55.626Z - TASK values: BothPlace 1787560819274
+[STEP] 2026-08-24T08:40:55.630Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:40:56.655Z - ASSIGNED TO values: John Doe
+[INFO] 2026-08-24T08:40:56.666Z - ✓ VERIFY 1 PASSED: Task found in Chirag task list, Assigned To = John Doe
+[STEP] 2026-08-24T08:40:56.666Z - VERIFY 2: Checking task in Patient Charting (as Chirag)
+[STEP] 2026-08-24T08:40:56.666Z - Opening patient chart from global search for: Lebsack, Stanford
+[INFO] 2026-08-24T08:40:58.713Z - Patient chart opened from global search for: Lebsack, Stanford
+[INFO] 2026-08-24T08:41:05.196Z - Tasks in patient charting: BothPlace 1787560819274
+[INFO] 2026-08-24T08:41:05.208Z - ✓ VERIFY 2 PASSED: Task found in Patient Charting — CCM → Tasks → ToDo + Call
+[STEP] 2026-08-24T08:41:05.208Z - VERIFY 3: Logging out from Chirag, logging in as John Doe
+[STEP] 2026-08-24T08:41:05.208Z - Logging out from provider portal
+[INFO] 2026-08-24T08:41:08.751Z - Logout completed
+[INFO] 2026-08-24T08:41:08.755Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:41:09.967Z - Performing provider login
+[STEP] 2026-08-24T08:41:09.967Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:41:11.286Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:41:15.412Z - Login completed
+[INFO] 2026-08-24T08:41:15.414Z - Logged in as John Doe
+[STEP] 2026-08-24T08:41:15.416Z - Navigating to Task page
+[INFO] 2026-08-24T08:41:19.177Z - Navigated to Task page
+[STEP] 2026-08-24T08:41:19.177Z - Setting status filter to: All
+[INFO] 2026-08-24T08:41:20.113Z - Status filter set to: All
+[STEP] 2026-08-24T08:41:20.113Z - Searching for: BothPlace 1787560819274
+[INFO] 2026-08-24T08:41:21.618Z - Search completed for: BothPlace 1787560819274
+[STEP] 2026-08-24T08:41:21.619Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:22.659Z - TASK values: BothPlace 1787560819274
+[STEP] 2026-08-24T08:41:22.660Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:41:23.694Z - ASSIGNED TO values: John Doe
+[STEP] 2026-08-24T08:41:23.700Z - Fetching column values for: SERVICE
+[INFO] 2026-08-24T08:41:24.731Z - SERVICE values: CCM
+[INFO] 2026-08-24T08:41:24.740Z - ✓ VERIFY 3 PASSED: Task found in John Doe's account — Service=CCM, Assigned=John Doe
+[INFO] 2026-08-24T08:41:24.741Z - AUT_TSK_122 PASSED: Task verified in ALL 3 places — Chirag task list, Patient Charting, John Doe account

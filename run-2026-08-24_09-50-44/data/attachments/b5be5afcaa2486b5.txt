@@ -1,0 +1,10 @@
+[STEP] 2026-08-24T08:32:47.038Z - Step 1: Login and open Billing > Enrollments > RPM
+[INFO] 2026-08-24T08:32:55.256Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:32:55.256Z - Open Billing > Enrollments > RPM
+[STEP] 2026-08-24T08:33:01.357Z - Step 2: Capture the default month signature
+[INFO] 2026-08-24T08:33:01.808Z - Default month "Aug 2026": 25 row(s), first ENROLL DATE = 08-24-2026
+[STEP] 2026-08-24T08:33:01.808Z - Step 3: Switch the month filter to the previous month
+[INFO] 2026-08-24T08:33:01.901Z - Setting month filter to "Jul 2026"
+[STEP] 2026-08-24T08:33:04.598Z - Step 4: Verify the table data changed (different month → different data set)
+[INFO] 2026-08-24T08:33:06.438Z - New month "Jul 2026": 0 row(s), first ENROLL DATE = null
+[INFO] 2026-08-24T08:33:06.438Z - === Month filter verified: switching from "Aug 2026" to "Jul 2026" loaded different data ===

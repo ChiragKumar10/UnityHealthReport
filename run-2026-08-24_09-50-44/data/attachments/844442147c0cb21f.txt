@@ -1,0 +1,29 @@
+[STEP] 2026-08-24T08:24:59.071Z - Login to Provider Portal
+[INFO] 2026-08-24T08:25:04.576Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:04.584Z - Navigate to RTM > Week 1
+[STEP] 2026-08-24T08:25:04.584Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:25:07.211Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:25:07.211Z - Selecting Week 1
+[INFO] 2026-08-24T08:25:08.401Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:25:08.401Z - Checking if patient "Murazik, Kiera" is in the interaction list
+[INFO] 2026-08-24T08:25:08.918Z - Patient "Murazik, Kiera" found in interaction list
+[STEP] 2026-08-24T08:25:08.924Z - Test: Reach Out activity — Week 1
+[STEP] 2026-08-24T08:25:08.925Z - Verifying "Reach Out" completed for: Murazik, Kiera
+[INFO] 2026-08-24T08:25:16.103Z - "Reach Out" for "Murazik, Kiera" is not completed
+[STEP] 2026-08-24T08:25:16.103Z - Getting total time logged for: Murazik, Kiera
+[INFO] 2026-08-24T08:25:19.544Z - Total time logged for "Murazik, Kiera": 00:00
+[INFO] 2026-08-24T08:25:19.546Z - Time before Reach Out: 00:00 (alreadyDone=false)
+[STEP] 2026-08-24T08:25:19.550Z - Performing activity workflow: Reach Out for Murazik, Kiera
+[STEP] 2026-08-24T08:25:20.292Z - Clicking "Reach Out" checkbox for patient: Murazik, Kiera
+[INFO] 2026-08-24T08:25:31.442Z - "Reach Out" checkbox clicked for: Murazik, Kiera
+[INFO] 2026-08-24T08:25:35.626Z - Send confirmation toast: "Time Log Saved Successfully"
+[INFO] 2026-08-24T08:25:35.791Z - SEND dialog closed after Send — message send confirmed
+[INFO] 2026-08-24T08:25:36.817Z - Activity workflow completed: Reach Out for Murazik, Kiera
+[STEP] 2026-08-24T08:25:36.817Z - Verifying "Reach Out" completed for: Murazik, Kiera
+[INFO] 2026-08-24T08:25:37.259Z - "Reach Out" for "Murazik, Kiera" is completed
+[INFO] 2026-08-24T08:25:37.268Z - Reach Out activity completed
+[STEP] 2026-08-24T08:25:37.268Z - Getting total time logged for: Murazik, Kiera
+[INFO] 2026-08-24T08:25:37.922Z - Total time logged for "Murazik, Kiera": 5:00
+[STEP] 2026-08-24T08:25:37.922Z - Verifying time incremented: 00:00 -> 5:00
+[INFO] 2026-08-24T08:25:37.923Z - Time incremented: true (00:00 → 5:00)
+[INFO] 2026-08-24T08:25:37.930Z - Time after Reach Out: 5:00

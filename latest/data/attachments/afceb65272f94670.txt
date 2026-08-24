@@ -1,0 +1,28 @@
+[STEP] 2026-08-24T08:25:28.364Z - === Re-enrolled patient: receives alerts + appears in Monitoring/Interaction ===
+[STEP] 2026-08-24T08:25:28.366Z - Phase 0: Login + find or seed a Closed enrollment
+[INFO] 2026-08-24T08:25:32.077Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:32.082Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:49.219Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:49.230Z - Applying status filter: Closed
+[STEP] 2026-08-24T08:25:50.419Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:51.524Z - Status filter 'Closed' applied successfully
+[INFO] 2026-08-24T08:25:51.688Z - Phase 0 ✓ Closed enrollment ready → Doyle, Dorian (RTM)
+[STEP] 2026-08-24T08:25:51.688Z - Phase 1: Activate enrollment for "Doyle, Dorian"
+[INFO] 2026-08-24T08:25:52.917Z - Phase 1 ✓ Activate confirmed
+[STEP] 2026-08-24T08:25:52.919Z - Phase 2: Open patient chart and add Blood Glucose=150
+[STEP] 2026-08-24T08:25:52.919Z - Opening patient chart from global search for: Doyle, Dorian
+[INFO] 2026-08-24T08:25:57.135Z - Patient chart opened from global search for: Doyle, Dorian
+[STEP] 2026-08-24T08:26:01.774Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:26:02.654Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:26:02.655Z - Adding vital: Blood Glucose with value 150
+[STEP] 2026-08-24T08:26:02.655Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:26:03.267Z - Add Vital form opened
+[STEP] 2026-08-24T08:26:03.267Z - Selecting vital type: Blood Glucose
+[INFO] 2026-08-24T08:26:03.705Z - Successfully selected vital type: Blood Glucose
+[STEP] 2026-08-24T08:26:03.705Z - Entering vital value: 150
+[INFO] 2026-08-24T08:26:03.917Z - Successfully entered vital value: 150
+[STEP] 2026-08-24T08:26:03.917Z - Saving vital
+[INFO] 2026-08-24T08:26:04.320Z - Successfully saved vital
+[INFO] 2026-08-24T08:26:04.320Z - Successfully added vital: Blood Glucose with value 150
+[INFO] 2026-08-24T08:26:04.320Z - Phase 2 ✓ Added Blood Glucose=150
+[STEP] 2026-08-24T08:26:04.320Z - Phase 3: Verify alert on Medical History → Alerts

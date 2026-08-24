@@ -1,0 +1,58 @@
+[INFO] 2026-08-24T08:29:50.155Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:29:50.094+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:29:51.113Z - Login to Provider Portal
+[INFO] 2026-08-24T08:29:58.687Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:58.687Z - Open CCM Library > Care Plan
+[STEP] 2026-08-24T08:29:58.690Z - Opening CCM Library
+[INFO] 2026-08-24T08:30:02.501Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:30:02.502Z - Opening Care Plan section
+[INFO] 2026-08-24T08:30:11.446Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:30:11.448Z - Create care plan with Allergies + Medication sections
+[STEP] 2026-08-24T08:30:11.448Z - Creating care plan: Allergy+Med Plan 1787560211448 with 3 sections
+[STEP] 2026-08-24T08:30:11.448Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:30:16.316Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:30:16.316Z - Selecting diagnosis code: A001
+[INFO] 2026-08-24T08:30:21.307Z - Diagnosis code 'A001' selected
+[STEP] 2026-08-24T08:30:21.307Z - Filling care plan name: Allergy+Med Plan 1787560211448
+[INFO] 2026-08-24T08:30:21.392Z - Care plan name filled: Allergy+Med Plan 1787560211448
+[STEP] 2026-08-24T08:30:21.392Z - Selecting section: Overview
+[INFO] 2026-08-24T08:30:21.869Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:30:21.869Z - Selecting section: Allergies
+[INFO] 2026-08-24T08:30:22.383Z - Section 'Allergies' selected
+[STEP] 2026-08-24T08:30:22.383Z - Selecting section: Medication
+[INFO] 2026-08-24T08:30:22.894Z - Section 'Medication' selected
+[STEP] 2026-08-24T08:30:22.894Z - Clicking Next button
+[INFO] 2026-08-24T08:30:25.429Z - Next button clicked
+[STEP] 2026-08-24T08:30:25.429Z - Filling Overview section
+[INFO] 2026-08-24T08:30:25.650Z - Care Plan header filled
+[INFO] 2026-08-24T08:30:25.815Z - Care Plan footer filled
+[STEP] 2026-08-24T08:30:25.815Z - Clicking Next button
+[INFO] 2026-08-24T08:30:28.220Z - Next button clicked
+[STEP] 2026-08-24T08:30:28.220Z - Filling section 2/3: Allergies (Type: Free Text)
+[STEP] 2026-08-24T08:30:28.220Z - Filling goal section - Title: Allergy Management Goal, Type: Free Text
+[INFO] 2026-08-24T08:30:28.297Z - Section note filled
+[INFO] 2026-08-24T08:30:28.366Z - Goal title filled: Allergy Management Goal
+[INFO] 2026-08-24T08:30:30.167Z - Goal type selected: Free Text
+[STEP] 2026-08-24T08:30:30.167Z - Clicking Next button
+[INFO] 2026-08-24T08:30:32.322Z - Next button clicked
+[STEP] 2026-08-24T08:30:32.322Z - Filling section 3/3: Medication (Type: Free Text)
+[STEP] 2026-08-24T08:30:32.322Z - Filling goal section - Title: Medication Adherence Goal, Type: Free Text
+[INFO] 2026-08-24T08:30:32.342Z - Section note filled
+[INFO] 2026-08-24T08:30:32.375Z - Goal title filled: Medication Adherence Goal
+[INFO] 2026-08-24T08:30:34.122Z - Goal type selected: Free Text
+[STEP] 2026-08-24T08:30:34.130Z - Clicking Finish button
+[INFO] 2026-08-24T08:30:36.428Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:30:36.428Z - Care plan 'Allergy+Med Plan 1787560211448' created successfully
+[STEP] 2026-08-24T08:30:36.428Z - Verifying care plan 'Allergy+Med Plan 1787560211448' is visible in the list
+[STEP] 2026-08-24T08:30:36.428Z - Searching for care plan: Allergy+Med Plan 1787560211448
+[INFO] 2026-08-24T08:30:37.000Z - Search completed for care plan: Allergy+Med Plan 1787560211448
+[INFO] 2026-08-24T08:30:37.015Z - Care plan 'Allergy+Med Plan 1787560211448' is visible in the list
+[STEP] 2026-08-24T08:30:37.016Z - Open the plan in view-only mode and verify Allergies + Medication content persists
+[STEP] 2026-08-24T08:30:37.016Z - Clicking View Only for: Allergy+Med Plan 1787560211448
+[STEP] 2026-08-24T08:30:37.017Z - Searching for care plan: Allergy+Med Plan 1787560211448
+[INFO] 2026-08-24T08:30:37.545Z - Search completed for care plan: Allergy+Med Plan 1787560211448
+[STEP] 2026-08-24T08:30:37.545Z - Opening action menu for: Allergy+Med Plan 1787560211448
+[INFO] 2026-08-24T08:30:39.393Z - Action menu opened
+[INFO] 2026-08-24T08:30:42.546Z - Preview Care Plan page opened
+[STEP] 2026-08-24T08:30:42.559Z - Clicking Cancel button
+[INFO] 2026-08-24T08:30:43.597Z - Cancel button clicked
+[INFO] 2026-08-24T08:30:43.603Z - Care plan 'Allergy+Med Plan 1787560211448' persists with Allergies + Medication sections

@@ -1,0 +1,64 @@
+[STEP] 2026-08-24T08:26:33.878Z - Test: Enroll the seeded patient, verify New, then move to Active
+[INFO] 2026-08-24T08:26:39.807Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:39.807Z - Seeding patient (no enrollment) via UI onboarding (single session)
+[STEP] 2026-08-24T08:26:39.936Z - Creating patient via UI: Nikolaus, Juston
+[STEP] 2026-08-24T08:26:39.942Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:26:45.295Z - Patient details drawer opened
+[STEP] 2026-08-24T08:26:45.295Z - Filling demographics for Juston Nikolaus
+[STEP] 2026-08-24T08:26:52.349Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:26:53.101Z - Setting location: Automation
+[STEP] 2026-08-24T08:26:53.768Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:26:54.407Z - Clicking Save & Next
+[INFO] 2026-08-24T08:26:56.770Z - [createPatientViaUI] created "Nikolaus, Juston"
+[INFO] 2026-08-24T08:26:56.770Z - Seeded patient via UI: Nikolaus, Juston
+[STEP] 2026-08-24T08:26:56.771Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:11.987Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:11.997Z - Adding new enrollment
+[INFO] 2026-08-24T08:27:16.980Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:27:18.784Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:27:18.784Z - Patient: Nikolaus, Juston | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:20.073Z - Validating enrollment result
+[INFO] 2026-08-24T08:27:20.076Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:27:20.076Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:27:20.076Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:27:20.158Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:27:20.158Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:27:20.158Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:27:20.158Z - Final enrollment details:
+[INFO] 2026-08-24T08:27:20.158Z -   Patient: Nikolaus, Juston
+[INFO] 2026-08-24T08:27:20.158Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:27:20.158Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:27:20.158Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:27:20.158Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:27:20.158Z - Enrolled "Nikolaus, Juston" in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:20.158Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:35.926Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:35.926Z - Applying status filter: New
+[STEP] 2026-08-24T08:27:36.479Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:37.516Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:27:37.520Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:38.213Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:39.008Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:27:39.008Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:39.010Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:39.522Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:39.522Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:40.118Z - Verified "Nikolaus" is in the New section (CCM)
+[STEP] 2026-08-24T08:27:40.118Z - Moving enrollment to Active for "Nikolaus" (CCM)
+[STEP] 2026-08-24T08:27:40.118Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:40.118Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:40.356Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:40.356Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:41.625Z - "Move to Active" confirmed for "Nikolaus"
+[STEP] 2026-08-24T08:27:41.625Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:56.800Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:56.800Z - Applying status filter: Active
+[STEP] 2026-08-24T08:27:57.487Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:58.073Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:27:58.073Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:28:08.081Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:28:08.081Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:28:08.261Z - Date filter applied successfully
+[STEP] 2026-08-24T08:28:08.263Z - Waiting for enrollment list to finish loading

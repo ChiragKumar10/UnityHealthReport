@@ -1,0 +1,35 @@
+[STEP] 2026-08-24T08:39:27.583Z - Login to Provider Portal
+[INFO] 2026-08-24T08:39:31.132Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:31.136Z - Test: Verify profile data persistence
+[STEP] 2026-08-24T08:39:31.137Z - Navigating to Settings page
+[INFO] 2026-08-24T08:39:35.198Z - Navigated to Settings page
+[STEP] 2026-08-24T08:39:35.198Z - Clicking Edit Profile button
+[INFO] 2026-08-24T08:39:38.883Z - Edit Profile form opened
+[STEP] 2026-08-24T08:39:38.883Z - Capturing original profile values from edit form
+[STEP] 2026-08-24T08:39:38.883Z - Getting edit form value for: bio
+[INFO] 2026-08-24T08:39:39.005Z - Edit form field 'bio' value: 
+[INFO] 2026-08-24T08:39:39.005Z - Captured original values: {"bio":""}
+[STEP] 2026-08-24T08:39:39.006Z - Filling edit form field 'bio' with: Persist Test 1787560771136
+[INFO] 2026-08-24T08:39:39.170Z - Edit form field 'bio' filled
+[STEP] 2026-08-24T08:39:39.170Z - Clicking Save on Edit Profile form
+[INFO] 2026-08-24T08:39:40.437Z - Edit Profile saved
+[STEP] 2026-08-24T08:39:42.887Z - Navigating to Settings page
+[INFO] 2026-08-24T08:39:43.272Z - Navigated to Settings page
+[STEP] 2026-08-24T08:39:43.273Z - Getting value for field: Bio
+[INFO] 2026-08-24T08:39:43.307Z - Field 'Bio' value: Persist Test 1787560771136
+[INFO] 2026-08-24T08:39:43.315Z - Bio updated to: Persist Test 1787560771136
+[INFO] 2026-08-24T08:39:47.684Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:47.702Z - Navigating to Settings page
+[INFO] 2026-08-24T08:39:54.968Z - Navigated to Settings page
+[INFO] 2026-08-24T08:39:55.551Z - Bio persisted after re-login: Persist Test 1787560771136
+[STEP] 2026-08-24T08:39:55.552Z - Restoring original bio value
+[STEP] 2026-08-24T08:39:55.552Z - Restoring original profile values
+[STEP] 2026-08-24T08:39:55.552Z - Clicking Edit Profile button
+[INFO] 2026-08-24T08:39:57.740Z - Edit Profile form opened
+[STEP] 2026-08-24T08:39:57.740Z - Filling edit form field 'bio' with: 
+[INFO] 2026-08-24T08:39:57.965Z - Edit form field 'bio' filled
+[STEP] 2026-08-24T08:39:57.965Z - Clicking Save on Edit Profile form
+[INFO] 2026-08-24T08:39:59.089Z - Edit Profile saved
+[INFO] 2026-08-24T08:39:59.089Z - Profile values restored
+[INFO] 2026-08-24T08:39:59.089Z - Original bio restored
+[INFO] 2026-08-24T08:39:59.212Z - Profile data persistence test completed

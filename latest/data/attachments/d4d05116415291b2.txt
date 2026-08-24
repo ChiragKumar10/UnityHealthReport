@@ -1,0 +1,91 @@
+[STEP] 2026-08-24T08:28:01.556Z - === AUT_CROSS_001: Care Plan → Patient Chart data flow ===
+[STEP] 2026-08-24T08:28:01.560Z - Step 1: Login as provider
+[INFO] 2026-08-24T08:28:04.509Z - Reusing single saved provider session — no login performed
+[INFO] 2026-08-24T08:28:04.536Z - Logged in
+[STEP] 2026-08-24T08:28:04.536Z - Step 2: Open CCM Library → Care Plan section
+[STEP] 2026-08-24T08:28:04.537Z - Opening CCM Library
+[INFO] 2026-08-24T08:28:08.162Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:28:08.163Z - Opening Care Plan section
+[INFO] 2026-08-24T08:28:14.106Z - Successfully opened Care Plan section
+[INFO] 2026-08-24T08:28:14.106Z - On Care Plan list page
+[STEP] 2026-08-24T08:28:14.106Z - Step 3: Click Create Care Plan and fill basic fields (name "CrossSync-1787560080952", diagnosis "A001")
+[STEP] 2026-08-24T08:28:14.106Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:28:16.423Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:28:16.426Z - Selecting diagnosis code: A001
+[INFO] 2026-08-24T08:28:21.290Z - Diagnosis code 'A001' selected
+[STEP] 2026-08-24T08:28:21.291Z - Filling care plan name: CrossSync-1787560080952
+[INFO] 2026-08-24T08:28:21.395Z - Care plan name filled: CrossSync-1787560080952
+[INFO] 2026-08-24T08:28:21.395Z - Care plan name + diagnosis code captured
+[STEP] 2026-08-24T08:28:21.395Z - Step 4: Select the sections to include — Overview, Allergies, Medication
+[STEP] 2026-08-24T08:28:21.395Z - Selecting section: Overview
+[INFO] 2026-08-24T08:28:21.835Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:28:21.835Z - Selecting section: Allergies
+[INFO] 2026-08-24T08:28:22.318Z - Section 'Allergies' selected
+[STEP] 2026-08-24T08:28:22.319Z - Selecting section: Medication
+[INFO] 2026-08-24T08:28:22.829Z - Section 'Medication' selected
+[INFO] 2026-08-24T08:28:22.831Z - Sections selected on Step 1
+[STEP] 2026-08-24T08:28:22.831Z - Step 5: Click Next → fill the Overview header + footer
+[STEP] 2026-08-24T08:28:22.831Z - Clicking Next button
+[INFO] 2026-08-24T08:28:25.126Z - Next button clicked
+[STEP] 2026-08-24T08:28:25.128Z - Filling Overview section
+[INFO] 2026-08-24T08:28:25.197Z - Care Plan header filled
+[INFO] 2026-08-24T08:28:25.267Z - Care Plan footer filled
+[STEP] 2026-08-24T08:28:25.267Z - Step 6: Click Next → fill the Allergies section
+[STEP] 2026-08-24T08:28:25.267Z - Clicking Next button
+[INFO] 2026-08-24T08:28:27.514Z - Next button clicked
+[STEP] 2026-08-24T08:28:27.514Z - Filling goal section - Title: Penicillin-1787560080952, Type: Single Select
+[INFO] 2026-08-24T08:28:27.564Z - Section note filled
+[INFO] 2026-08-24T08:28:27.597Z - Goal title filled: Penicillin-1787560080952
+[INFO] 2026-08-24T08:28:29.428Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:28:29.428Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:28:29.474Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:28:30.351Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:28:31.247Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:28:31.247Z - Single Select - 3 options added
+[INFO] 2026-08-24T08:28:31.247Z - Allergies section filled: Allergy: Penicillin-1787560080952 | Severity: Severe | Reaction: Hives + difficulty breathing
+[STEP] 2026-08-24T08:28:31.247Z - Step 7: Click Next → fill the Medication section
+[STEP] 2026-08-24T08:28:31.247Z - Clicking Next button
+[INFO] 2026-08-24T08:28:33.394Z - Next button clicked
+[STEP] 2026-08-24T08:28:33.394Z - Filling goal section - Title: Lisinopril-1787560080952, Type: Single Select
+[INFO] 2026-08-24T08:28:33.449Z - Section note filled
+[INFO] 2026-08-24T08:28:33.484Z - Goal title filled: Lisinopril-1787560080952
+[INFO] 2026-08-24T08:28:35.260Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:28:35.260Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:28:35.297Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:28:36.140Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:28:36.941Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:28:36.942Z - Single Select - 3 options added
+[INFO] 2026-08-24T08:28:36.942Z - Medication section filled: Medication: Lisinopril-1787560080952 | Dose: 10 mg | Frequency: Once daily
+[STEP] 2026-08-24T08:28:36.942Z - Step 8: Click Finish to save the care plan
+[STEP] 2026-08-24T08:28:36.942Z - Clicking Finish button
+[INFO] 2026-08-24T08:28:39.121Z - Finish button clicked - Care plan saved
+[STEP] 2026-08-24T08:28:39.121Z - Verifying care plan 'CrossSync-1787560080952' is visible in the list
+[STEP] 2026-08-24T08:28:39.121Z - Searching for care plan: CrossSync-1787560080952
+[INFO] 2026-08-24T08:28:39.747Z - Search completed for care plan: CrossSync-1787560080952
+[INFO] 2026-08-24T08:28:39.768Z - Care plan 'CrossSync-1787560080952' is visible in the list
+[INFO] 2026-08-24T08:28:39.768Z - Care plan "CrossSync-1787560080952" saved and visible in list
+[STEP] 2026-08-24T08:28:39.768Z - Step 9: Open patient chart for "Block, Micheal" and assign the care plan from CCM › Care Plan tab
+[STEP] 2026-08-24T08:28:39.772Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:28:41.477Z - Patient chart opened from global search for: Block, Micheal
+[INFO] 2026-08-24T08:28:41.477Z - Patient chart opened
+[STEP] 2026-08-24T08:28:41.477Z - Assigning Care Plan "CrossSync-1787560080952" to patient
+[STEP] 2026-08-24T08:29:12.745Z - afterAll: Cleanup — delete care plans created during this run
+[INFO] 2026-08-24T08:29:16.953Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:20.566Z - Opening CCM Library
+[INFO] 2026-08-24T08:29:22.116Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:29:22.116Z - Opening Care Plan section
+[INFO] 2026-08-24T08:29:23.199Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:29:23.199Z - Deleting care plan: CrossSync-1787560080952
+[STEP] 2026-08-24T08:29:23.199Z - Clicking Delete for: CrossSync-1787560080952
+[STEP] 2026-08-24T08:29:23.199Z - Searching for care plan: CrossSync-1787560080952
+[INFO] 2026-08-24T08:29:23.766Z - Search completed for care plan: CrossSync-1787560080952
+[STEP] 2026-08-24T08:29:23.766Z - Opening action menu for: CrossSync-1787560080952
+[INFO] 2026-08-24T08:29:24.881Z - Action menu not visible on attempt 1, retrying...
+[INFO] 2026-08-24T08:29:26.430Z - Action menu opened
+[INFO] 2026-08-24T08:29:27.512Z - Delete dialog opened
+[STEP] 2026-08-24T08:29:27.512Z - Confirming delete
+[STEP] 2026-08-24T08:29:29.632Z - Clearing search box
+[INFO] 2026-08-24T08:29:30.211Z - Search cleared
+[INFO] 2026-08-24T08:29:30.212Z - Delete confirmed
+[INFO] 2026-08-24T08:29:30.212Z - Care plan 'CrossSync-1787560080952' deleted
+[INFO] 2026-08-24T08:29:30.212Z - Cleanup: deleted "CrossSync-1787560080952"

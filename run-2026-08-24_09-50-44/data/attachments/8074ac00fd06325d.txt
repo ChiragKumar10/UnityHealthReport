@@ -1,0 +1,81 @@
+[STEP] 2026-08-24T08:47:02.734Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:47:05.298Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:47:15.307Z - Test: Verify inactive provider login restriction
+[STEP] 2026-08-24T08:47:15.307Z - Navigating to Settings page
+[INFO] 2026-08-24T08:47:26.531Z - Navigated to Settings page
+[STEP] 2026-08-24T08:47:26.531Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:47:37.812Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:47:47.527Z - Status filter set to All
+[STEP] 2026-08-24T08:47:47.527Z - Adding Unity User: Autofirstdamzro Autolastdamzro
+[STEP] 2026-08-24T08:47:47.527Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:47:48.997Z - Add Unity User form opened
+[STEP] 2026-08-24T08:47:48.997Z - Filling Unity User form for: Autofirstdamzro Autolastdamzro
+[STEP] 2026-08-24T08:47:48.997Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:47:50.312Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:47:50.758Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:47:50.834Z - Form filled for: Autofirstdamzro Autolastdamzro
+[STEP] 2026-08-24T08:47:50.834Z - Clicking Save button
+[INFO] 2026-08-24T08:48:03.072Z - Save button clicked
+[INFO] 2026-08-24T08:48:03.080Z - Unity User 'Autofirstdamzro Autolastdamzro' added — form closed
+[STEP] 2026-08-24T08:48:03.080Z - Verifying user 'Autofirstdamzro Autolastdamzro' is visible in the list
+[STEP] 2026-08-24T08:48:03.080Z - Searching for user: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:14.174Z - Search completed for: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:14.180Z - User 'Autofirstdamzro Autolastdamzro' is visible in the list
+[INFO] 2026-08-24T08:48:14.180Z - User created for inactive login test
+[STEP] 2026-08-24T08:48:14.180Z - Searching for user: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:25.209Z - Search completed for: Autofirstdamzro Autolastdamzro
+[STEP] 2026-08-24T08:48:25.210Z - Toggling status for: Autofirstdamzro Autolastdamzro
+[STEP] 2026-08-24T08:48:25.214Z - Getting status for: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:26.271Z - User 'Autofirstdamzro Autolastdamzro' status: Active
+[STEP] 2026-08-24T08:48:26.271Z - Opening action menu for: Autofirstdamzro Autolastdamzro
+[STEP] 2026-08-24T08:48:26.272Z - Searching for user: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:37.335Z - Search completed for: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:38.184Z - Action menu opened
+[INFO] 2026-08-24T08:48:50.568Z - Status toggled for: Autofirstdamzro Autolastdamzro (was Active)
+[STEP] 2026-08-24T08:48:50.568Z - Getting status for: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:48:51.579Z - User 'Autofirstdamzro Autolastdamzro' status: Inactive
+[INFO] 2026-08-24T08:48:51.581Z - User deactivated
+[STEP] 2026-08-24T08:48:51.581Z - Attempting login with username: autouser1787561235307
+[STEP] 2026-08-24T08:49:05.290Z - afterAll: Cleanup — deleting all created Unity Users
+[INFO] 2026-08-24T08:49:06.984Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:49:07.913Z - Navigating to Settings page
+[INFO] 2026-08-24T08:49:09.090Z - Navigated to Settings page
+[STEP] 2026-08-24T08:49:09.090Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:49:12.442Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:49:13.930Z - Status filter set to All
+[STEP] 2026-08-24T08:49:13.931Z - Searching for user: Autofirstncelro Editedncelro
+[INFO] 2026-08-24T08:49:15.043Z - Search completed for: Autofirstncelro Editedncelro
+[INFO] 2026-08-24T08:49:15.049Z - afterAll: Skipped 'Autofirstncelro Editedncelro' (not found)
+[STEP] 2026-08-24T08:49:15.049Z - Clearing search box
+[INFO] 2026-08-24T08:49:15.579Z - Search cleared
+[STEP] 2026-08-24T08:49:15.579Z - Searching for user: Autofirsthlfnro Autolasthlfnro
+[INFO] 2026-08-24T08:49:16.614Z - Search completed for: Autofirsthlfnro Autolasthlfnro
+[INFO] 2026-08-24T08:49:16.648Z - afterAll: Skipped 'Autofirsthlfnro Autolasthlfnro' (not found)
+[STEP] 2026-08-24T08:49:16.648Z - Clearing search box
+[INFO] 2026-08-24T08:49:17.184Z - Search cleared
+[STEP] 2026-08-24T08:49:17.185Z - Searching for user: Autofirstivooro Autolastivooro
+[INFO] 2026-08-24T08:49:18.219Z - Search completed for: Autofirstivooro Autolastivooro
+[INFO] 2026-08-24T08:49:18.223Z - afterAll: Skipped 'Autofirstivooro Autolastivooro' (not found)
+[STEP] 2026-08-24T08:49:18.223Z - Clearing search box
+[INFO] 2026-08-24T08:49:18.742Z - Search cleared
+[STEP] 2026-08-24T08:49:18.742Z - Searching for user: Autofirstdwcqro Autolastdwcqro
+[INFO] 2026-08-24T08:49:19.766Z - Search completed for: Autofirstdwcqro Autolastdwcqro
+[INFO] 2026-08-24T08:49:19.775Z - afterAll: Skipped 'Autofirstdwcqro Autolastdwcqro' (not found)
+[STEP] 2026-08-24T08:49:19.777Z - Clearing search box
+[INFO] 2026-08-24T08:49:20.298Z - Search cleared
+[STEP] 2026-08-24T08:49:20.298Z - Searching for user: Autofirstoxdvro Autolastoxdvro
+[INFO] 2026-08-24T08:49:21.325Z - Search completed for: Autofirstoxdvro Autolastoxdvro
+[INFO] 2026-08-24T08:49:21.331Z - afterAll: Skipped 'Autofirstoxdvro Autolastoxdvro' (not found)
+[STEP] 2026-08-24T08:49:21.331Z - Clearing search box
+[INFO] 2026-08-24T08:49:21.851Z - Search cleared
+[STEP] 2026-08-24T08:49:21.851Z - Searching for user: Autofirstkbzwro Autolastkbzwro
+[INFO] 2026-08-24T08:49:22.885Z - Search completed for: Autofirstkbzwro Autolastkbzwro
+[INFO] 2026-08-24T08:49:22.891Z - afterAll: Skipped 'Autofirstkbzwro Autolastkbzwro' (not found)
+[STEP] 2026-08-24T08:49:22.891Z - Clearing search box
+[INFO] 2026-08-24T08:49:23.414Z - Search cleared
+[STEP] 2026-08-24T08:49:23.414Z - Searching for user: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:49:24.443Z - Search completed for: Autofirstdamzro Autolastdamzro
+[INFO] 2026-08-24T08:49:24.448Z - afterAll: Skipped 'Autofirstdamzro Autolastdamzro' (not found)
+[STEP] 2026-08-24T08:49:24.448Z - Clearing search box
+[INFO] 2026-08-24T08:49:24.971Z - Search cleared
+[INFO] 2026-08-24T08:49:24.971Z - afterAll: Cleanup completed. Processed 7 users.

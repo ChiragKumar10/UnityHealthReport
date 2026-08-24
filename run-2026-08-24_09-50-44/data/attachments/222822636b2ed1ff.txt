@@ -1,0 +1,96 @@
+[INFO] 2026-08-24T08:23:24.362Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:24.324+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:23:25.930Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:33.109Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:33.141Z - Seeding Closed enrollment via UI (create → enroll → activate → close)
+[STEP] 2026-08-24T08:23:34.060Z - Creating patient via UI: Stroman, Vivian
+[STEP] 2026-08-24T08:23:34.060Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:40.575Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:40.575Z - Filling demographics for Vivian Stroman
+[STEP] 2026-08-24T08:23:46.101Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:55.213Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:56.712Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:58.562Z - Clicking Save & Next
+[INFO] 2026-08-24T08:24:03.668Z - [createPatientViaUI] created "Stroman, Vivian"
+[STEP] 2026-08-24T08:24:03.668Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:19.010Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:19.011Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:25.186Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:28.812Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:28.813Z - Patient: Stroman, Vivian | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:30.592Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:30.593Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:30.595Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:30.595Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:31.380Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:31.380Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:31.380Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:31.380Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:31.381Z -   Patient: Stroman, Vivian
+[INFO] 2026-08-24T08:24:31.381Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:31.381Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:31.382Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:31.383Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:31.383Z - Enrolled Stroman, Vivian in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:31.383Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:47.772Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:47.772Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:48.359Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:49.114Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:49.114Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:49.561Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:50.125Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:24:50.126Z - Moving enrollment to Active for "Stroman" (RTM)
+[STEP] 2026-08-24T08:24:50.127Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:50.128Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:50.479Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:50.479Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:51.557Z - "Move to Active" confirmed for "Stroman"
+[INFO] 2026-08-24T08:24:51.557Z - Moved Stroman, Vivian to Active
+[STEP] 2026-08-24T08:24:51.559Z - Close RTM enrollment for Stroman, Vivian
+[STEP] 2026-08-24T08:24:52.440Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:10.028Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:10.029Z - Applying status filter: Active
+[STEP] 2026-08-24T08:25:10.934Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:11.837Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:25:11.837Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:11.837Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:12.566Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:12.566Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:15.620Z - Closed one Active RTM row for Stroman, Vivian (iteration 1)
+[STEP] 2026-08-24T08:25:17.634Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:36.214Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:36.214Z - Applying status filter: Active
+[STEP] 2026-08-24T08:25:37.091Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:37.941Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:25:37.942Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:37.942Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:38.524Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:38.524Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:39.389Z - All Active RTM rows for Stroman, Vivian are closed
+[STEP] 2026-08-24T08:25:40.298Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:25:58.546Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:25:58.546Z - Applying status filter: Active
+[STEP] 2026-08-24T08:25:59.724Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:01.077Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:26:01.077Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:01.077Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:01.865Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:01.865Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:03.579Z - All Active RTM enrollments closed for Stroman, Vivian
+[INFO] 2026-08-24T08:26:03.579Z - Closed Stroman, Vivian's RTM enrollment
+[STEP] 2026-08-24T08:26:03.580Z - Clear browser storage and reload to drop any cached enrollment state
+[STEP] 2026-08-24T08:26:13.016Z - Performing provider login
+[STEP] 2026-08-24T08:26:13.018Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:26:13.769Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:26:18.693Z - Login completed
+[STEP] 2026-08-24T08:26:18.693Z - Open patient chart for Stroman, Vivian (post-cache-clear)
+[STEP] 2026-08-24T08:26:18.697Z - Opening patient chart from global search for: Stroman, Vivian
+[INFO] 2026-08-24T08:26:25.383Z - Patient chart opened from global search for: Stroman, Vivian
+[STEP] 2026-08-24T08:26:25.383Z - Switch to RTM program tab on the patient chart
+[STEP] 2026-08-24T08:26:28.324Z - Navigate to Vitals tab
+[STEP] 2026-08-24T08:26:28.325Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:26:29.139Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:26:29.139Z - Verify Add Vital button is disabled (closed RTM cannot accept new readings/alerts)
+[INFO] 2026-08-24T08:26:29.292Z - Add Vital is disabled for Stroman, Vivian on closed RTM — no path to generate new alerts

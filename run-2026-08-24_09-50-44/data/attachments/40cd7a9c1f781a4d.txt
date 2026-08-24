@@ -1,0 +1,44 @@
+[STEP] 2026-08-24T08:45:22.855Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:45:26.848Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:45:26.855Z - Test: Verify delete removes user from list
+[STEP] 2026-08-24T08:45:26.855Z - Navigating to Settings page
+[INFO] 2026-08-24T08:45:30.037Z - Navigated to Settings page
+[STEP] 2026-08-24T08:45:30.037Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:45:38.375Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:45:40.213Z - Status filter set to All
+[STEP] 2026-08-24T08:45:40.213Z - Adding Unity User: Autofirstxohtro Autolastxohtro
+[STEP] 2026-08-24T08:45:40.213Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:45:41.747Z - Add Unity User form opened
+[STEP] 2026-08-24T08:45:41.747Z - Filling Unity User form for: Autofirstxohtro Autolastxohtro
+[STEP] 2026-08-24T08:45:41.747Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:45:43.068Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:45:43.353Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:45:43.397Z - Form filled for: Autofirstxohtro Autolastxohtro
+[STEP] 2026-08-24T08:45:43.397Z - Clicking Save button
+[INFO] 2026-08-24T08:45:45.709Z - Save button clicked
+[INFO] 2026-08-24T08:45:45.735Z - Unity User 'Autofirstxohtro Autolastxohtro' added — form closed
+[STEP] 2026-08-24T08:45:45.735Z - Verifying user 'Autofirstxohtro Autolastxohtro' is visible in the list
+[STEP] 2026-08-24T08:45:45.735Z - Searching for user: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:47.063Z - Search completed for: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:47.301Z - User 'Autofirstxohtro Autolastxohtro' is visible in the list
+[STEP] 2026-08-24T08:45:47.301Z - Deleting Unity User: Autofirstxohtro Autolastxohtro
+[STEP] 2026-08-24T08:45:47.301Z - Clicking Delete for: Autofirstxohtro Autolastxohtro
+[STEP] 2026-08-24T08:45:47.301Z - Opening action menu for: Autofirstxohtro Autolastxohtro
+[STEP] 2026-08-24T08:45:47.301Z - Searching for user: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:48.660Z - Search completed for: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:49.576Z - Action menu opened
+[INFO] 2026-08-24T08:45:50.685Z - Delete clicked from menu
+[INFO] 2026-08-24T08:45:50.800Z - Delete confirmation clicked
+[STEP] 2026-08-24T08:45:51.806Z - Clearing search box
+[INFO] 2026-08-24T08:45:52.370Z - Search cleared
+[INFO] 2026-08-24T08:45:52.370Z - Unity User 'Autofirstxohtro Autolastxohtro' deleted
+[STEP] 2026-08-24T08:45:52.370Z - Verifying user 'Autofirstxohtro Autolastxohtro' is NOT in the list
+[STEP] 2026-08-24T08:45:52.370Z - Clearing search box
+[INFO] 2026-08-24T08:45:52.900Z - Search cleared
+[STEP] 2026-08-24T08:45:52.901Z - Searching for user: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:53.957Z - Search completed for: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:54.040Z - User 'Autofirstxohtro Autolastxohtro' is not in the list
+[INFO] 2026-08-24T08:45:54.041Z - User removed from list after delete
+[STEP] 2026-08-24T08:45:54.042Z - Searching for user: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:55.260Z - Search completed for: Autofirstxohtro Autolastxohtro
+[INFO] 2026-08-24T08:45:55.271Z - Delete action verified — user no longer in system

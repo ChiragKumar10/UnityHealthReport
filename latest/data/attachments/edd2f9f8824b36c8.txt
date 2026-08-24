@@ -1,0 +1,41 @@
+[STEP] 2026-08-24T08:39:19.326Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:39:22.003Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:22.013Z - Test: Verify duplicate username/email handling
+[STEP] 2026-08-24T08:39:22.013Z - Navigating to Settings page
+[INFO] 2026-08-24T08:39:24.442Z - Navigated to Settings page
+[STEP] 2026-08-24T08:39:24.442Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:39:28.438Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:39:32.222Z - Status filter set to All
+[STEP] 2026-08-24T08:39:32.222Z - Adding Unity User: Autofirstnwnyqo Autolastnwnyqo
+[STEP] 2026-08-24T08:39:32.222Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:39:33.738Z - Add Unity User form opened
+[STEP] 2026-08-24T08:39:33.738Z - Filling Unity User form for: Autofirstnwnyqo Autolastnwnyqo
+[STEP] 2026-08-24T08:39:33.738Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:39:35.142Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:39:35.751Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:39:35.884Z - Form filled for: Autofirstnwnyqo Autolastnwnyqo
+[STEP] 2026-08-24T08:39:35.884Z - Clicking Save button
+[INFO] 2026-08-24T08:39:38.113Z - Save button clicked
+[INFO] 2026-08-24T08:39:38.125Z - Unity User 'Autofirstnwnyqo Autolastnwnyqo' added — form closed
+[STEP] 2026-08-24T08:39:38.125Z - Verifying user 'Autofirstnwnyqo Autolastnwnyqo' is visible in the list
+[STEP] 2026-08-24T08:39:38.125Z - Searching for user: Autofirstnwnyqo Autolastnwnyqo
+[INFO] 2026-08-24T08:39:39.334Z - Search completed for: Autofirstnwnyqo Autolastnwnyqo
+[INFO] 2026-08-24T08:39:39.542Z - User 'Autofirstnwnyqo Autolastnwnyqo' is visible in the list
+[INFO] 2026-08-24T08:39:39.542Z - First user created
+[STEP] 2026-08-24T08:39:39.542Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:39:40.905Z - Add Unity User form opened
+[STEP] 2026-08-24T08:39:40.905Z - Filling Unity User form for: Dup1787560779542 User1787560779542
+[STEP] 2026-08-24T08:39:40.905Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:39:42.257Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:39:42.646Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:39:42.687Z - Form filled for: Dup1787560779542 User1787560779542
+[STEP] 2026-08-24T08:39:42.687Z - Clicking Save button
+[INFO] 2026-08-24T08:39:44.833Z - Save button clicked
+[INFO] 2026-08-24T08:39:44.854Z - Duplicate rejected — form stayed open
+[STEP] 2026-08-24T08:39:44.857Z - Clicking Cancel button
+[INFO] 2026-08-24T08:39:46.059Z - Cancel button clicked
+[STEP] 2026-08-24T08:39:46.059Z - Verifying user 'Autofirstnwnyqo Autolastnwnyqo' is visible in the list
+[STEP] 2026-08-24T08:39:46.059Z - Searching for user: Autofirstnwnyqo Autolastnwnyqo
+[INFO] 2026-08-24T08:39:47.104Z - Search completed for: Autofirstnwnyqo Autolastnwnyqo
+[INFO] 2026-08-24T08:39:47.114Z - User 'Autofirstnwnyqo Autolastnwnyqo' is visible in the list
+[INFO] 2026-08-24T08:39:47.115Z - Duplicate handling verified

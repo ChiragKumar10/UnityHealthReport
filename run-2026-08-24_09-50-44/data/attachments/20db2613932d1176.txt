@@ -1,0 +1,27 @@
+[INFO] 2026-08-24T08:29:38.593Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:29:38.535+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:29:39.707Z - Login to Provider Portal
+[INFO] 2026-08-24T08:29:44.625Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:44.633Z - Navigate to RTM
+[STEP] 2026-08-24T08:29:44.637Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:29:46.681Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:29:46.681Z - Selecting Week 1
+[INFO] 2026-08-24T08:29:47.553Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:29:47.554Z - Getting visible patient names
+[INFO] 2026-08-24T08:29:58.804Z - Found 19 visible patients: Ankunding, Sidney, Mann, Ivah, Lakin, Grace, Medhurst, Darlene, Dickinson, Dejon, Johnson, Gwen, Veum, Oliver, Franey, Dorothy, Dibbert, Sedrick, Wilkinson, Burley, Franecki, Ted, Ortiz, Bethany, Champlin, Maryam, Oberbrunner, Vito, Murazik, Kiera, Ullrich, Becky, Dibbert, Carson, WehnerPfeffer, Khalid, Balistreri, Thelma
+[INFO] 2026-08-24T08:29:58.804Z - [interaction] using existing worklist patient: Ankunding, Sidney
+[STEP] 2026-08-24T08:29:58.808Z - Detecting which week "Ankunding, Sidney" is in
+[STEP] 2026-08-24T08:29:58.876Z - Selecting Week 1
+[INFO] 2026-08-24T08:29:59.846Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:29:59.847Z - Checking if patient "Ankunding, Sidney" is in the interaction list
+[INFO] 2026-08-24T08:29:59.886Z - Patient "Ankunding, Sidney" found in interaction list
+[INFO] 2026-08-24T08:29:59.886Z - Patient "Ankunding, Sidney" found in Week 1
+[STEP] 2026-08-24T08:29:59.886Z - Selecting Week 1
+[INFO] 2026-08-24T08:30:00.654Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:30:00.662Z - Test: Detect patient current week
+[STEP] 2026-08-24T08:30:00.664Z - Detecting which week "Ankunding, Sidney" is in
+[STEP] 2026-08-24T08:30:00.693Z - Selecting Week 1
+[INFO] 2026-08-24T08:30:01.476Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:30:01.476Z - Checking if patient "Ankunding, Sidney" is in the interaction list
+[INFO] 2026-08-24T08:30:01.536Z - Patient "Ankunding, Sidney" found in interaction list
+[INFO] 2026-08-24T08:30:01.536Z - Patient "Ankunding, Sidney" found in Week 1
+[INFO] 2026-08-24T08:30:01.564Z - Active patient: "Ankunding, Sidney" in Week 1

@@ -1,0 +1,55 @@
+[INFO] 2026-08-24T08:25:19.275Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:25:19.210+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:25:20.574Z - Login to Provider Portal
+[INFO] 2026-08-24T08:25:25.845Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:25.861Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:25:25.937Z - Creating patient via UI: Ankunding, Jarred
+[STEP] 2026-08-24T08:25:25.940Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:25:30.204Z - Patient details drawer opened
+[STEP] 2026-08-24T08:25:30.204Z - Filling demographics for Jarred Ankunding
+[STEP] 2026-08-24T08:25:44.713Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:25:47.476Z - Setting location: Automation
+[STEP] 2026-08-24T08:25:49.225Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:25:51.096Z - Clicking Save & Next
+[INFO] 2026-08-24T08:25:55.475Z - [createPatientViaUI] created "Ankunding, Jarred"
+[STEP] 2026-08-24T08:25:55.475Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:10.815Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:10.815Z - Adding new enrollment
+[INFO] 2026-08-24T08:26:15.774Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:26:17.630Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:26:17.630Z - Patient: Ankunding, Jarred | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:26:19.446Z - Validating enrollment result
+[INFO] 2026-08-24T08:26:19.446Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:26:19.446Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:26:19.446Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:26:20.170Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:26:20.170Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:26:20.170Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:26:20.170Z - Final enrollment details:
+[INFO] 2026-08-24T08:26:20.170Z -   Patient: Ankunding, Jarred
+[INFO] 2026-08-24T08:26:20.170Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:26:20.170Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:26:20.171Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:26:20.171Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:26:20.171Z - Enrolled Ankunding, Jarred in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:26:20.171Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:36.474Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:36.475Z - Applying status filter: New
+[STEP] 2026-08-24T08:26:37.429Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:38.490Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:26:38.497Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:26:39.349Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:40.764Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:26:40.765Z - Moving enrollment to Active for "Ankunding" (RTM)
+[STEP] 2026-08-24T08:26:40.765Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:26:40.765Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:26:41.401Z - Date filter applied successfully
+[STEP] 2026-08-24T08:26:41.402Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:42.772Z - "Move to Active" confirmed for "Ankunding"
+[INFO] 2026-08-24T08:26:42.772Z - Moved Ankunding, Jarred to Active
+[STEP] 2026-08-24T08:26:42.779Z - Navigate to /provider/billing directly
+[STEP] 2026-08-24T08:26:47.562Z - Click "RTM" cell under "Enrollments" section
+[INFO] 2026-08-24T08:26:49.261Z - Ankunding, Jarred not in current month's Billing > Enrollments > RTM — trying previous month
+[STEP] 2026-08-24T08:26:49.263Z - Set Billing month filter to "Jul 2026"
+[STEP] 2026-08-24T08:26:51.674Z - Click "RTM" cell under "Enrollments" section

@@ -1,0 +1,67 @@
+[INFO] 2026-08-24T08:32:41.388Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:32:41.348+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:32:41.872Z - Setup: login → patient chart → CCM → Medical History
+[INFO] 2026-08-24T08:32:44.365Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:32:46.034Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:32:46.079Z - Creating patient via UI: Smitham, Mattie
+[STEP] 2026-08-24T08:32:46.080Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:32:50.059Z - Patient details drawer opened
+[STEP] 2026-08-24T08:32:50.059Z - Filling demographics for Mattie Smitham
+[STEP] 2026-08-24T08:32:52.843Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:32:53.554Z - Setting location: Automation
+[STEP] 2026-08-24T08:32:54.399Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:32:55.680Z - Clicking Save & Next
+[INFO] 2026-08-24T08:33:01.742Z - [createPatientViaUI] created "Smitham, Mattie"
+[STEP] 2026-08-24T08:33:01.745Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:33:17.146Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:33:17.147Z - Adding new enrollment
+[INFO] 2026-08-24T08:33:22.156Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:33:24.151Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:33:24.151Z - Patient: Smitham, Mattie | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:33:25.843Z - Validating enrollment result
+[INFO] 2026-08-24T08:33:25.843Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:33:25.843Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:33:25.843Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:33:25.945Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:33:25.945Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:33:25.945Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:33:25.945Z - Final enrollment details:
+[INFO] 2026-08-24T08:33:25.945Z -   Patient: Smitham, Mattie
+[INFO] 2026-08-24T08:33:25.945Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:33:25.946Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:33:25.946Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:33:25.946Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:33:25.946Z - Enrolled Smitham, Mattie in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:33:25.946Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:33:41.286Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:33:41.286Z - Applying status filter: New
+[STEP] 2026-08-24T08:33:42.034Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:43.524Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:33:43.524Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:33:44.487Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:45.567Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:33:45.568Z - Moving enrollment to Active for "Smitham" (CCM)
+[STEP] 2026-08-24T08:33:45.568Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:33:45.578Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:33:46.462Z - Date filter applied successfully
+[STEP] 2026-08-24T08:33:46.462Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:33:48.114Z - "Move to Active" confirmed for "Smitham"
+[INFO] 2026-08-24T08:33:48.114Z - Moved Smitham, Mattie to Active
+[STEP] 2026-08-24T08:33:48.118Z - Opening patient chart from global search for: Smitham, Mattie
+[INFO] 2026-08-24T08:33:51.310Z - Patient chart opened from global search for: Smitham, Mattie
+[INFO] 2026-08-24T08:33:56.034Z - Setup ✓: on patient-chart CCM → Medical History
+[INFO] 2026-08-24T08:33:56.490Z - Scenario 1 ✓: Conditions list view is present
+[INFO] 2026-08-24T08:33:56.497Z - Scenario 2 attempt 1: trying ICD "B03"
+[INFO] 2026-08-24T08:34:08.232Z - Scenario 2 ✓: saved condition with ICD "B03"
+[INFO] 2026-08-24T08:34:08.650Z - Scenario 4: Edit-form note value = "PW-MH test 1787560436034"
+[INFO] 2026-08-24T08:34:08.656Z - Scenario 4 ✓: Edit form pre-populated with existing data
+[INFO] 2026-08-24T08:34:08.971Z - Scenario 6 ✓: Updated-at date (08/24/2026) visible in list
+[INFO] 2026-08-24T08:34:08.972Z - Scenario 6 note: updated-by provider name not surfaced in the list view
+[INFO] 2026-08-24T08:34:08.972Z - Scenario 3 ✓: Edit saved and condition persists in the list
+[INFO] 2026-08-24T08:34:10.816Z - Scenario 5 ✓: condition deleted and removed from list
+[INFO] 2026-08-24T08:34:11.675Z - Scenario 7 ✓: all required escalation columns present
+[INFO] 2026-08-24T08:34:11.767Z - Scenario 11 ✓: search filters escalations list (matched=false, empty=true, changed=false)
+[INFO] 2026-08-24T08:34:11.798Z - Scenario 10 note: no "Show Closed" checkbox on Escalations view — skipping
+[INFO] 2026-08-24T08:34:11.819Z - Scenarios 8/9 note: no escalation rows with action menu — skipping
+[INFO] 2026-08-24T08:34:11.820Z - AUT_PT_MH_001 PASSED — full patient-wallet Medical History workflow verified

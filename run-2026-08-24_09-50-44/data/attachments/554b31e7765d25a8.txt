@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T09:16:53.265Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T09:16:53.234+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T09:16:53.617Z - Login to Provider Portal
+[INFO] 2026-08-24T09:16:55.714Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T09:16:56.645Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T09:16:56.665Z - Creating patient via UI: Cummerata, Coty
+[STEP] 2026-08-24T09:16:56.665Z - Opening New Patient drawer
+[INFO] 2026-08-24T09:16:57.705Z - Patient details drawer opened
+[STEP] 2026-08-24T09:16:57.705Z - Filling demographics for Coty Cummerata
+[STEP] 2026-08-24T09:17:00.028Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T09:17:00.860Z - Setting location: Automation
+[STEP] 2026-08-24T09:17:01.355Z - Setting Self Pay = true
+[STEP] 2026-08-24T09:17:01.881Z - Clicking Save & Next
+[INFO] 2026-08-24T09:17:04.073Z - [createPatientViaUI] created "Cummerata, Coty"
+[STEP] 2026-08-24T09:17:04.074Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:17:19.167Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:17:19.168Z - Adding new enrollment
+[INFO] 2026-08-24T09:17:21.819Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:17:22.537Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T09:17:22.537Z - Patient: Cummerata, Coty | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:17:22.959Z - Validating enrollment result
+[INFO] 2026-08-24T09:17:22.959Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T09:17:22.959Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T09:17:22.959Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T09:17:22.981Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T09:17:22.981Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T09:17:22.981Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T09:17:22.981Z - Final enrollment details:
+[INFO] 2026-08-24T09:17:22.981Z -   Patient: Cummerata, Coty
+[INFO] 2026-08-24T09:17:22.981Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:17:22.982Z -   Provider: Anny Vate
+[INFO] 2026-08-24T09:17:22.982Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T09:17:22.982Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T09:17:22.982Z - Enrolled Cummerata, Coty in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:17:22.982Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:17:38.117Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:17:38.117Z - Applying status filter: New
+[STEP] 2026-08-24T09:17:38.512Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:17:39.079Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T09:17:39.079Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:17:39.495Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:17:40.009Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T09:17:40.009Z - Moving enrollment to Active for "Cummerata" (RTM)
+[STEP] 2026-08-24T09:17:40.009Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T09:17:40.010Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T09:17:40.177Z - Date filter applied successfully
+[STEP] 2026-08-24T09:17:40.177Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:17:41.111Z - "Move to Active" confirmed for "Cummerata"
+[INFO] 2026-08-24T09:17:41.111Z - Moved Cummerata, Coty to Active
+[INFO] 2026-08-24T09:17:41.111Z - [monitoring-03] seeded ACTIVE RTM patient: Cummerata, Coty
+[STEP] 2026-08-24T09:17:41.111Z - Opening patient chart from global search for: Cummerata, Coty
+[INFO] 2026-08-24T09:17:43.517Z - Patient chart opened from global search for: Cummerata, Coty
+[STEP] 2026-08-24T09:17:44.666Z - Navigating to Vitals tab
+[INFO] 2026-08-24T09:17:44.833Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T09:17:44.834Z - Adding vital: Pain Scale with value 37
+[STEP] 2026-08-24T09:17:44.834Z - Clicking Add Vital button
+[INFO] 2026-08-24T09:17:44.949Z - Add Vital form opened
+[STEP] 2026-08-24T09:17:44.949Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T09:17:45.321Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T09:17:45.321Z - Entering vital value: 37
+[INFO] 2026-08-24T09:17:45.374Z - Successfully entered vital value: 37
+[STEP] 2026-08-24T09:17:45.374Z - Saving vital
+[INFO] 2026-08-24T09:17:45.455Z - Successfully saved vital
+[INFO] 2026-08-24T09:17:45.455Z - Successfully added vital: Pain Scale with value 37
+[INFO] 2026-08-24T09:17:45.455Z - beforeEach: Abnormal Pain Scale (37) added for Cummerata, Coty — polling Alerts counter
+[STEP] 2026-08-24T09:17:45.464Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:17:45.465Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:17:45.994Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:17:45.999Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T09:17:49.796Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T09:17:54.398Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:17:54.398Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:17:55.463Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:17:55.463Z - Getting count for Alerts
+[INFO] 2026-08-24T09:17:55.470Z - Alerts count: 0
+[STEP] 2026-08-24T09:18:00.473Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:18:00.474Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:18:00.982Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:18:01.490Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:18:01.490Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:18:02.522Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:18:02.523Z - Getting count for Alerts
+[INFO] 2026-08-24T09:18:02.531Z - Alerts count: 0
+[STEP] 2026-08-24T09:18:10.533Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:18:10.533Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:18:11.039Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:18:11.549Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:18:11.550Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:18:12.634Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:18:12.634Z - Getting count for Alerts
+[INFO] 2026-08-24T09:18:12.643Z - Alerts count: 0
+[STEP] 2026-08-24T09:18:22.646Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:18:22.646Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:18:23.154Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:18:23.668Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:18:23.668Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:18:24.717Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:18:24.717Z - Getting count for Alerts
+[INFO] 2026-08-24T09:18:24.724Z - Alerts count: 0
+[STEP] 2026-08-24T09:18:34.726Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:18:34.726Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:18:35.233Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:18:35.740Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:18:35.741Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:18:36.790Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:18:36.790Z - Getting count for Alerts
+[INFO] 2026-08-24T09:18:36.799Z - Alerts count: 0
+[STEP] 2026-08-24T09:18:46.800Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:18:46.800Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:18:47.318Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:18:47.829Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:18:47.829Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:18:48.881Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:18:48.881Z - Getting count for Alerts
+[INFO] 2026-08-24T09:18:48.889Z - Alerts count: 0
+[STEP] 2026-08-24T09:18:58.890Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:18:58.890Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:18:59.400Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:18:59.912Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:18:59.912Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:19:00.962Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:19:00.962Z - Getting count for Alerts
+[INFO] 2026-08-24T09:19:00.971Z - Alerts count: 0
+[STEP] 2026-08-24T09:19:10.974Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:19:10.974Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:19:11.483Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:19:12.020Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:19:12.020Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:19:13.070Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:19:13.071Z - Getting count for Alerts
+[INFO] 2026-08-24T09:19:13.078Z - Alerts count: 0

@@ -1,0 +1,51 @@
+[INFO] 2026-08-24T08:39:22.890Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:39:22.829+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:39:29.420Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:29.438Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:39:29.587Z - Creating patient via UI: Champlin, Aliza
+[STEP] 2026-08-24T08:39:29.588Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:39:36.329Z - Patient details drawer opened
+[STEP] 2026-08-24T08:39:36.333Z - Filling demographics for Aliza Champlin
+[STEP] 2026-08-24T08:39:48.535Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:39:51.027Z - Setting location: Automation
+[STEP] 2026-08-24T08:39:52.262Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:39:54.146Z - Clicking Save & Next
+[INFO] 2026-08-24T08:39:57.773Z - [createPatientViaUI] created "Champlin, Aliza"
+[STEP] 2026-08-24T08:39:57.773Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:13.197Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:13.228Z - Adding new enrollment
+[INFO] 2026-08-24T08:40:19.731Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:40:21.672Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:40:21.672Z - Patient: Champlin, Aliza | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:40:23.134Z - Validating enrollment result
+[INFO] 2026-08-24T08:40:23.135Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:40:23.137Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:40:23.137Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:40:23.639Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:40:23.639Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:40:23.639Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:40:23.639Z - Final enrollment details:
+[INFO] 2026-08-24T08:40:23.639Z -   Patient: Champlin, Aliza
+[INFO] 2026-08-24T08:40:23.639Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:40:23.639Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:40:23.640Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:40:23.640Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:40:23.640Z - Enrolled Champlin, Aliza in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:40:23.640Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:40.301Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:40.301Z - Applying status filter: New
+[STEP] 2026-08-24T08:40:41.079Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:42.099Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:40:42.099Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:40:42.993Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:43.539Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:40:43.540Z - Moving enrollment to Active for "Champlin" (RPM)
+[STEP] 2026-08-24T08:40:43.540Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:40:43.541Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:40:43.920Z - Date filter applied successfully
+[STEP] 2026-08-24T08:40:43.920Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:44.967Z - "Move to Active" confirmed for "Champlin"
+[INFO] 2026-08-24T08:40:44.967Z - Moved Champlin, Aliza to Active
+[STEP] 2026-08-24T08:40:44.967Z - Opening patient chart from global search for: Champlin, Aliza
+[INFO] 2026-08-24T08:40:47.484Z - Patient chart opened from global search for: Champlin, Aliza

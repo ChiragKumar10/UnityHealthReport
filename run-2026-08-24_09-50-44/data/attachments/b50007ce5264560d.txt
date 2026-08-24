@@ -1,0 +1,98 @@
+[STEP] 2026-08-24T08:35:36.440Z - Setup: login and navigate to patient chart → CCM → Tasks
+[INFO] 2026-08-24T08:35:42.115Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:35:42.117Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:35:42.128Z - Creating patient via UI: Stamm, Graciela
+[STEP] 2026-08-24T08:35:42.128Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:35:45.533Z - Patient details drawer opened
+[STEP] 2026-08-24T08:35:45.534Z - Filling demographics for Graciela Stamm
+[STEP] 2026-08-24T08:35:53.029Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:35:56.518Z - Setting location: Automation
+[STEP] 2026-08-24T08:35:57.629Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:35:59.480Z - Clicking Save & Next
+[INFO] 2026-08-24T08:36:05.630Z - [createPatientViaUI] created "Stamm, Graciela"
+[STEP] 2026-08-24T08:36:05.630Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:36:20.942Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:36:20.942Z - Adding new enrollment
+[INFO] 2026-08-24T08:36:25.389Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:36:27.223Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:36:27.224Z - Patient: Stamm, Graciela | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:28.292Z - Validating enrollment result
+[INFO] 2026-08-24T08:36:28.292Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:36:28.293Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:36:28.293Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:36:28.612Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:36:28.613Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:36:28.614Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:36:28.616Z - Final enrollment details:
+[INFO] 2026-08-24T08:36:28.618Z -   Patient: Stamm, Graciela
+[INFO] 2026-08-24T08:36:28.618Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:36:28.618Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:36:28.618Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:36:28.620Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:36:28.621Z - Enrolled Stamm, Graciela in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:28.621Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:36:44.116Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:36:44.116Z - Applying status filter: New
+[STEP] 2026-08-24T08:36:44.615Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:36:45.136Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:36:45.136Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:36:45.509Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:36:46.538Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:36:46.538Z - Moving enrollment to Active for "Stamm" (CCM)
+[STEP] 2026-08-24T08:36:46.538Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:36:46.538Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:36:46.784Z - Date filter applied successfully
+[STEP] 2026-08-24T08:36:46.784Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:36:47.713Z - "Move to Active" confirmed for "Stamm"
+[INFO] 2026-08-24T08:36:47.713Z - Moved Stamm, Graciela to Active
+[STEP] 2026-08-24T08:36:47.713Z - Opening patient chart from global search for: Stamm, Graciela
+[INFO] 2026-08-24T08:36:50.337Z - Patient chart opened from global search for: Stamm, Graciela
+[INFO] 2026-08-24T08:36:52.598Z - On patient chart → CCM → Tasks tab
+[STEP] 2026-08-24T08:36:52.598Z - Phase 1: Open Add Task form and inspect fields + dropdowns
+[INFO] 2026-08-24T08:36:52.988Z - Phase 1 ✓: Add Task form shows required field labels
+[INFO] 2026-08-24T08:36:53.443Z - Scenario 7 Service* options: (empty)
+[INFO] 2026-08-24T08:36:53.443Z - Scenario 7 note: missing in chart context: RPM, RTM, CCM
+[INFO] 2026-08-24T08:36:53.495Z - Scenario 8: Action* combobox not found — skipping
+[INFO] 2026-08-24T08:36:53.506Z - Scenario 9: Priority* combobox not found — skipping
+[INFO] 2026-08-24T08:36:53.561Z - Phase 1 ✓: Cancel closed the Add Task form
+[STEP] 2026-08-24T08:36:53.561Z - Phase 2: Create task via patient-chart Add Task drawer
+[INFO] 2026-08-24T08:36:57.413Z - Phase 2 ✓: Created task "PatientWalletTask 1787560613562"
+[INFO] 2026-08-24T08:36:58.345Z - Phase 2 ✓: Chart Tasks list shows required columns and the new task
+[STEP] 2026-08-24T08:36:58.346Z - Phase 3: Filters inside patient-chart Tasks tab
+[INFO] 2026-08-24T08:36:58.349Z - Phase 3 note: Active Task checkbox not visible in chart Tasks — skipping 26/27
+[INFO] 2026-08-24T08:36:58.448Z - Scenario 23 note: "CCM" option not offered on chart Tasks
+[INFO] 2026-08-24T08:36:59.114Z - Scenario 24 ✓: Applied filter Call
+[INFO] 2026-08-24T08:36:59.124Z - Phase 3 note: no explicit calendar toggle — DUE DATE column present instead
+[STEP] 2026-08-24T08:36:59.707Z - Phase 4: Edit task via chart row action menu
+[INFO] 2026-08-24T08:37:00.384Z - Phase 4 ✓: Edit form pre-populated
+[INFO] 2026-08-24T08:37:00.646Z - Phase 4 ✓: Edit Cancel preserved original data
+[INFO] 2026-08-24T08:37:01.762Z - Phase 4: Priority committed as "Low"
+[INFO] 2026-08-24T08:37:02.064Z - Phase 4: Changed Priority High → Low
+[INFO] 2026-08-24T08:37:02.716Z - Phase 4 ✓: Edit saved — priority is now LOW
+[STEP] 2026-08-24T08:37:02.716Z - Phase 5: Reassign via Edit (change Assignee → Save)
+[INFO] 2026-08-24T08:37:03.693Z - Phase 5: cleared Assignee chip via Clear button
+[INFO] 2026-08-24T08:37:04.864Z - Phase 5 ✓: Reassigned to Anny Vate
+[INFO] 2026-08-24T08:37:04.864Z - Phase 5 note: scenarios 21 (notification) / 22 (auth) are out of E2E scope
+[STEP] 2026-08-24T08:37:04.864Z - Phase 6: Resolve task via chart row action menu
+[INFO] 2026-08-24T08:37:05.547Z - Phase 6 ✓: Cancel on Resolve preserved the task
+[INFO] 2026-08-24T08:37:06.425Z - Phase 6 ✓: Task resolved — status now Done
+[STEP] 2026-08-24T08:37:06.425Z - Phase 7: Delete task via chart row action menu
+[INFO] 2026-08-24T08:37:07.048Z - Phase 7 ✓: Cancel on delete preserved the task
+[INFO] 2026-08-24T08:37:08.644Z - Phase 7 ✓: Task deleted
+[INFO] 2026-08-24T08:37:08.644Z - AUT_PT_001 PASSED — full patient-wallet task workflow verified end-to-end
+[INFO] 2026-08-24T08:37:12.164Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:37:14.319Z - Navigating to Task page
+[INFO] 2026-08-24T08:37:16.217Z - Navigated to Task page
+[STEP] 2026-08-24T08:37:16.219Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:37:19.796Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:37:19.796Z - Setting status filter to: All
+[INFO] 2026-08-24T08:37:29.047Z - Status filter set to: All
+[STEP] 2026-08-24T08:37:29.047Z - Searching for: PatientWalletTask 1787560613562
+[INFO] 2026-08-24T08:37:29.489Z - Search completed for: PatientWalletTask 1787560613562
+[STEP] 2026-08-24T08:37:29.492Z - Deleting task
+[STEP] 2026-08-24T08:37:29.492Z - Opening delete confirmation dialog
+[STEP] 2026-08-24T08:37:29.493Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:37:29.513Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:37:29.513Z - Clicking action menu item: Delete

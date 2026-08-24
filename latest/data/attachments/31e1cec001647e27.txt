@@ -1,0 +1,60 @@
+[INFO] 2026-08-24T08:23:24.500Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:24.426+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:23:26.489Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:34.547Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:34.547Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:23:34.708Z - Creating patient via UI: Marvin, Kelly
+[STEP] 2026-08-24T08:23:34.708Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:41.707Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:41.708Z - Filling demographics for Kelly Marvin
+[STEP] 2026-08-24T08:23:54.902Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:56.110Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:57.197Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:59.291Z - Clicking Save & Next
+[INFO] 2026-08-24T08:24:04.766Z - [createPatientViaUI] created "Marvin, Kelly"
+[STEP] 2026-08-24T08:24:04.768Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:20.152Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:20.156Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:25.379Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:24:29.440Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:29.440Z - Patient: Marvin, Kelly | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:24:32.024Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:32.026Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:32.026Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:32.026Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:33.546Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:33.546Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:33.546Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:33.546Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:33.546Z -   Patient: Marvin, Kelly
+[INFO] 2026-08-24T08:24:33.546Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:24:33.547Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:33.547Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:33.547Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:33.548Z - Enrolled Marvin, Kelly in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:24:33.548Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:49.594Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:49.594Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:50.214Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:50.801Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:50.801Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:24:51.211Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:51.747Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:24:51.747Z - Moving enrollment to Active for "Marvin" (RPM)
+[STEP] 2026-08-24T08:24:51.747Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:51.748Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:52.049Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:52.049Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:53.562Z - "Move to Active" confirmed for "Marvin"
+[INFO] 2026-08-24T08:24:53.562Z - Moved Marvin, Kelly to Active
+[STEP] 2026-08-24T08:24:53.563Z - Searching for: Kelly
+[INFO] 2026-08-24T08:24:56.072Z - Search performed for: Kelly
+[STEP] 2026-08-24T08:24:56.072Z - Checking if patient 'Marvin, Kelly' is in dropdown
+[INFO] 2026-08-24T08:24:56.090Z - Patient 'Marvin, Kelly' found in dropdown
+[STEP] 2026-08-24T08:24:56.114Z - Selecting patient 'Marvin, Kelly' from dropdown
+[INFO] 2026-08-24T08:24:56.296Z - Patient 'Marvin, Kelly' selected from dropdown
+[STEP] 2026-08-24T08:24:57.537Z - Logging 10 minutes of manual time
+[STEP] 2026-08-24T08:25:00.982Z - Opening sidebar: Billing
+[STEP] 2026-08-24T08:25:01.431Z - Selecting "RPM" cell under "Interaction" section
+[INFO] 2026-08-24T08:25:02.232Z - Interaction RPM buckets — To Be Billed: 0, Submitted: 0

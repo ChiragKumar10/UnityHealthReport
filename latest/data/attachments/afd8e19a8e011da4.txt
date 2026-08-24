@@ -1,0 +1,47 @@
+[STEP] 2026-08-24T08:40:09.246Z - Login to Provider Portal as Chirag
+[INFO] 2026-08-24T08:40:11.015Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:12.156Z - Test: Assign task to John Doe and verify in their account
+[STEP] 2026-08-24T08:40:12.156Z - Navigating to Task page
+[INFO] 2026-08-24T08:40:16.352Z - Navigated to Task page
+[STEP] 2026-08-24T08:40:16.353Z - Creating task: AssignProvider 1787560816352
+[STEP] 2026-08-24T08:40:16.353Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:40:17.282Z - Add Task form opened
+[INFO] 2026-08-24T08:40:36.768Z - Task "AssignProvider 1787560816352" created successfully
+[INFO] 2026-08-24T08:40:36.768Z - Task "AssignProvider 1787560816352" created and assigned to John Doe
+[STEP] 2026-08-24T08:40:36.769Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:40:38.448Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:40:38.448Z - Setting status filter to: All
+[INFO] 2026-08-24T08:40:39.015Z - Status filter set to: All
+[STEP] 2026-08-24T08:40:39.015Z - Searching for: AssignProvider 1787560816352
+[INFO] 2026-08-24T08:40:39.761Z - Search completed for: AssignProvider 1787560816352
+[STEP] 2026-08-24T08:40:39.761Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:40:40.778Z - ASSIGNED TO values: John Doe
+[INFO] 2026-08-24T08:40:40.778Z - Task assigned to: John Doe
+[STEP] 2026-08-24T08:40:40.782Z - Logging out from Chirag account
+[STEP] 2026-08-24T08:40:40.782Z - Logging out from provider portal
+[INFO] 2026-08-24T08:40:42.960Z - Logout completed
+[STEP] 2026-08-24T08:40:42.960Z - Logging in as John Doe
+[INFO] 2026-08-24T08:40:42.962Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:40:43.447Z - Performing provider login
+[STEP] 2026-08-24T08:40:43.448Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:40:44.229Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:40:47.437Z - Login completed
+[INFO] 2026-08-24T08:40:47.461Z - Logged in as John Doe
+[STEP] 2026-08-24T08:40:47.461Z - Navigating to Task page
+[INFO] 2026-08-24T08:40:49.372Z - Navigated to Task page
+[STEP] 2026-08-24T08:40:49.372Z - Verifying task appears in John Doe Task section
+[STEP] 2026-08-24T08:40:49.372Z - Setting status filter to: All
+[INFO] 2026-08-24T08:40:49.927Z - Status filter set to: All
+[STEP] 2026-08-24T08:40:49.928Z - Searching for: AssignProvider 1787560816352
+[INFO] 2026-08-24T08:40:50.659Z - Search completed for: AssignProvider 1787560816352
+[STEP] 2026-08-24T08:40:50.659Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:40:51.674Z - TASK values: AssignProvider 1787560816352
+[STEP] 2026-08-24T08:40:51.683Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:40:52.700Z - ASSIGNED TO values: John Doe
+[STEP] 2026-08-24T08:40:52.711Z - Fetching column values for: SERVICE
+[INFO] 2026-08-24T08:40:53.725Z - SERVICE values: RPM
+[STEP] 2026-08-24T08:40:53.725Z - Fetching column values for: PRIORITY
+[INFO] 2026-08-24T08:40:54.737Z - PRIORITY values: HIGH
+[STEP] 2026-08-24T08:40:54.737Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:40:55.745Z - TASK STATUS values: ToDo
+[INFO] 2026-08-24T08:40:55.750Z - AUT_TSK_120 PASSED: Task verified in John Doe's account — Service=RPM, Priority=HIGH, Status=ToDo

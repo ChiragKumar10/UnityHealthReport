@@ -1,0 +1,47 @@
+[STEP] 2026-08-24T08:40:18.537Z - Login to Provider Portal
+[INFO] 2026-08-24T08:40:23.186Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:23.201Z - Test: Create tasks and verify alphabetical sorting
+[STEP] 2026-08-24T08:40:23.201Z - Navigating to Task page
+[INFO] 2026-08-24T08:40:33.476Z - Navigated to Task page
+[STEP] 2026-08-24T08:40:33.476Z - Creating task: Delta Task 1787560833476
+[STEP] 2026-08-24T08:40:33.476Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:40:35.320Z - Add Task form opened
+[INFO] 2026-08-24T08:40:51.095Z - Task "Delta Task 1787560833476" created successfully
+[STEP] 2026-08-24T08:40:51.095Z - Creating task: Alpha Task 1787560833476
+[STEP] 2026-08-24T08:40:51.095Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:40:51.528Z - Add Task form opened
+[INFO] 2026-08-24T08:41:05.933Z - Task "Alpha Task 1787560833476" created successfully
+[STEP] 2026-08-24T08:41:05.933Z - Creating task: Charlie Task 1787560833476
+[STEP] 2026-08-24T08:41:05.933Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:41:06.303Z - Add Task form opened
+[INFO] 2026-08-24T08:41:22.180Z - Task "Charlie Task 1787560833476" created successfully
+[STEP] 2026-08-24T08:41:22.180Z - Creating task: Bravo Task 1787560833476
+[STEP] 2026-08-24T08:41:22.180Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:41:22.617Z - Add Task form opened
+[INFO] 2026-08-24T08:41:36.334Z - Task "Bravo Task 1787560833476" created successfully
+[STEP] 2026-08-24T08:41:36.334Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:41:38.033Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:41:38.033Z - Setting status filter to: All
+[INFO] 2026-08-24T08:41:38.422Z - Status filter set to: All
+[STEP] 2026-08-24T08:41:38.422Z - Fetching column values for: NAME
+[INFO] 2026-08-24T08:41:39.427Z - NAME values: Ankunding, Sammy, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Bashirian, Christop, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Baumbach, Austin, Beahan, Charlotte
+[INFO] 2026-08-24T08:41:39.440Z - NAME column is sorted alphabetically (A → Z)
+[STEP] 2026-08-24T08:41:39.440Z - Searching for: Delta Task 1787560833476
+[INFO] 2026-08-24T08:41:39.592Z - Search completed for: Delta Task 1787560833476
+[STEP] 2026-08-24T08:41:39.592Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:40.601Z - TASK values: Delta Task 1787560833476
+[STEP] 2026-08-24T08:41:40.602Z - Searching for: Alpha Task 1787560833476
+[INFO] 2026-08-24T08:41:40.778Z - Search completed for: Alpha Task 1787560833476
+[STEP] 2026-08-24T08:41:40.778Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:41.782Z - TASK values: Alpha Task 1787560833476
+[STEP] 2026-08-24T08:41:41.783Z - Searching for: Charlie Task 1787560833476
+[INFO] 2026-08-24T08:41:42.142Z - Search completed for: Charlie Task 1787560833476
+[STEP] 2026-08-24T08:41:42.143Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:43.148Z - TASK values: Charlie Task 1787560833476
+[STEP] 2026-08-24T08:41:43.149Z - Searching for: Bravo Task 1787560833476
+[INFO] 2026-08-24T08:41:43.364Z - Search completed for: Bravo Task 1787560833476
+[STEP] 2026-08-24T08:41:43.364Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:44.373Z - TASK values: Bravo Task 1787560833476
+[STEP] 2026-08-24T08:41:44.374Z - Clearing search
+[INFO] 2026-08-24T08:41:52.514Z - Search cleared
+[INFO] 2026-08-24T08:41:52.514Z - All created tasks verified and NAME column sorted alphabetically

@@ -1,0 +1,109 @@
+[INFO] 2026-08-24T08:48:33.918Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:48:33.883+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:48:36.158Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:48:37.543Z - Test: Unarchive → Assign → Verify in patient chart
+[STEP] 2026-08-24T08:48:37.543Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:48:37.572Z - Creating patient via UI: Hettinger, Ena
+[STEP] 2026-08-24T08:48:37.573Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:48:39.303Z - Patient details drawer opened
+[STEP] 2026-08-24T08:48:39.304Z - Filling demographics for Ena Hettinger
+[STEP] 2026-08-24T08:48:43.034Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:48:43.461Z - Setting location: Automation
+[STEP] 2026-08-24T08:48:43.911Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:48:44.648Z - Clicking Save & Next
+[INFO] 2026-08-24T08:48:47.370Z - [createPatientViaUI] created "Hettinger, Ena"
+[STEP] 2026-08-24T08:48:47.373Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:49:02.551Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:49:02.552Z - Adding new enrollment
+[INFO] 2026-08-24T08:49:05.792Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:49:06.992Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:49:06.993Z - Patient: Hettinger, Ena | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:49:07.742Z - Validating enrollment result
+[INFO] 2026-08-24T08:49:07.742Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:49:07.742Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:49:07.742Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:49:07.809Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:49:07.809Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:49:07.809Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:49:07.809Z - Final enrollment details:
+[INFO] 2026-08-24T08:49:07.809Z -   Patient: Hettinger, Ena
+[INFO] 2026-08-24T08:49:07.809Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:49:07.809Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:49:07.809Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:49:07.809Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:49:07.809Z - Enrolled Hettinger, Ena in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:49:07.809Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:49:23.249Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:49:23.249Z - Applying status filter: New
+[STEP] 2026-08-24T08:49:23.750Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:49:24.302Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:49:24.303Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:49:24.660Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:49:25.174Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:49:25.175Z - Moving enrollment to Active for "Hettinger" (CCM)
+[STEP] 2026-08-24T08:49:25.175Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:49:25.175Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:49:25.339Z - Date filter applied successfully
+[STEP] 2026-08-24T08:49:25.339Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:49:26.259Z - "Move to Active" confirmed for "Hettinger"
+[INFO] 2026-08-24T08:49:26.259Z - Moved Hettinger, Ena to Active
+[STEP] 2026-08-24T08:49:26.259Z - Navigating to Document Library
+[INFO] 2026-08-24T08:49:28.783Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:49:28.783Z - Clicking folder: Education
+[INFO] 2026-08-24T08:49:30.323Z - Opened folder: Education
+[STEP] 2026-08-24T08:49:30.324Z - Uploading document: UnarcAssign 1787561370324
+[STEP] 2026-08-24T08:49:30.324Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:49:31.975Z - Upload Material form opened
+[STEP] 2026-08-24T08:49:31.975Z - Selecting tag: Education
+[INFO] 2026-08-24T08:49:33.400Z - Tag selected: Education
+[STEP] 2026-08-24T08:49:33.400Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:49:34.950Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:49:34.950Z - Filling file name: UnarcAssign 1787561370324
+[STEP] 2026-08-24T08:49:35.270Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-08-24T08:49:35.303Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:49:36.338Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-08-24T08:49:36.339Z - Clicking Upload button
+[INFO] 2026-08-24T08:49:36.349Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:49:39.415Z - Upload completed
+[INFO] 2026-08-24T08:49:39.415Z - Document "UnarcAssign 1787561370324" uploaded successfully
+[STEP] 2026-08-24T08:49:39.415Z - Navigating to Document Library
+[INFO] 2026-08-24T08:49:41.003Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:49:41.003Z - Clicking folder: Education
+[INFO] 2026-08-24T08:49:42.549Z - Opened folder: Education
+[STEP] 2026-08-24T08:49:42.551Z - Searching document: UnarcAssign 1787561370324
+[INFO] 2026-08-24T08:49:44.631Z - Search completed: UnarcAssign 1787561370324
+[STEP] 2026-08-24T08:49:44.631Z - Archiving document at row 0
+[STEP] 2026-08-24T08:49:44.631Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:49:45.677Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:49:45.677Z - Clicking action item: Archive
+[INFO] 2026-08-24T08:49:47.210Z - Clicked: Archive
+[INFO] 2026-08-24T08:50:00.221Z - Document archived
+[INFO] 2026-08-24T08:50:00.221Z - Step 1 ✓: Document uploaded and archived
+[STEP] 2026-08-24T08:50:00.221Z - Navigating to Document Library
+[INFO] 2026-08-24T08:50:01.767Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:50:01.767Z - Clicking folder: Education
+[INFO] 2026-08-24T08:50:03.490Z - Opened folder: Education
+[STEP] 2026-08-24T08:50:03.494Z - Toggling Show Archived checkbox
+[INFO] 2026-08-24T08:50:05.594Z - Show Archived toggled — checked: true
+[STEP] 2026-08-24T08:50:05.595Z - Searching document: UnarcAssign 1787561370324
+[INFO] 2026-08-24T08:50:07.693Z - Search completed: UnarcAssign 1787561370324
+[STEP] 2026-08-24T08:50:07.693Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:50:08.727Z - Action menu opened on row 0
+[INFO] 2026-08-24T08:50:08.947Z - Step 2 ✓: Document unarchived
+[STEP] 2026-08-24T08:50:09.138Z - Clicking folder: Education
+[INFO] 2026-08-24T08:50:10.737Z - Opened folder: Education
+[STEP] 2026-08-24T08:50:10.743Z - Toggling Show Archived checkbox
+[INFO] 2026-08-24T08:50:12.798Z - Show Archived toggled — checked: false
+[STEP] 2026-08-24T08:50:12.799Z - Searching document: UnarcAssign 1787561370324
+[INFO] 2026-08-24T08:50:14.926Z - Search completed: UnarcAssign 1787561370324
+[STEP] 2026-08-24T08:50:14.926Z - Assigning document (row 0) to patient: Hettinger
+[STEP] 2026-08-24T08:50:14.927Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:50:15.992Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:50:15.992Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:50:17.615Z - Clicked: Assign
+[INFO] 2026-08-24T08:50:23.945Z - Document assigned to patient: Hettinger
+[INFO] 2026-08-24T08:50:23.946Z - Step 3 ✓: Document assigned to Automation, Test
+[STEP] 2026-08-24T08:50:23.947Z - Opening patient chart from global search for: Hettinger, Ena
+[INFO] 2026-08-24T08:50:25.517Z - Patient chart opened from global search for: Hettinger, Ena
+[INFO] 2026-08-24T08:50:27.334Z - AUT_DOC_022 PASSED: Unarchived document assigned and verified in patient chart

@@ -1,0 +1,104 @@
+[STEP] 2026-08-24T08:29:03.313Z - Login to Provider Portal
+[INFO] 2026-08-24T08:29:07.618Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:07.623Z - Navigate to RTM Library > Assessment
+[STEP] 2026-08-24T08:29:07.623Z - Opening RPM Library
+[INFO] 2026-08-24T08:29:11.272Z - Successfully opened RTM Library
+[STEP] 2026-08-24T08:29:11.272Z - Opening Assessment section
+[INFO] 2026-08-24T08:29:22.452Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:29:22.476Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:29:22.613Z - Creating patient via UI: Cruickshank, Allene
+[STEP] 2026-08-24T08:29:22.618Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:29:26.198Z - Patient details drawer opened
+[STEP] 2026-08-24T08:29:26.199Z - Filling demographics for Allene Cruickshank
+[STEP] 2026-08-24T08:29:29.037Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:29:30.028Z - Setting location: Automation
+[STEP] 2026-08-24T08:29:31.348Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:29:32.865Z - Clicking Save & Next
+[INFO] 2026-08-24T08:29:36.356Z - [createPatientViaUI] created "Cruickshank, Allene"
+[STEP] 2026-08-24T08:29:36.356Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:51.724Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:51.724Z - Adding new enrollment
+[INFO] 2026-08-24T08:29:57.650Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:30:00.418Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:30:00.418Z - Patient: Cruickshank, Allene | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:30:02.213Z - Validating enrollment result
+[INFO] 2026-08-24T08:30:02.213Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:30:02.213Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:30:02.213Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:30:02.353Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:30:02.353Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:30:02.353Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:30:02.353Z - Final enrollment details:
+[INFO] 2026-08-24T08:30:02.353Z -   Patient: Cruickshank, Allene
+[INFO] 2026-08-24T08:30:02.357Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:30:02.357Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:30:02.357Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:30:02.357Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:30:02.357Z - Enrolled Cruickshank, Allene in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:30:02.360Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:18.226Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:18.226Z - Applying status filter: New
+[STEP] 2026-08-24T08:30:18.957Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:20.172Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:30:20.172Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:30:21.048Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:21.874Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:30:21.875Z - Moving enrollment to Active for "Cruickshank" (RTM)
+[STEP] 2026-08-24T08:30:21.875Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:21.879Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:22.376Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:22.376Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:24.101Z - "Move to Active" confirmed for "Cruickshank"
+[INFO] 2026-08-24T08:30:24.108Z - Moved Cruickshank, Allene to Active
+[STEP] 2026-08-24T08:30:24.108Z - Opening RPM Library
+[INFO] 2026-08-24T08:30:25.303Z - Successfully opened RTM Library
+[STEP] 2026-08-24T08:30:25.303Z - Opening Assessment section
+[INFO] 2026-08-24T08:30:27.408Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:30:27.408Z - Test: Assessment assignment to seeded patient (Cruickshank, Allene)
+[STEP] 2026-08-24T08:30:27.408Z - Creating assessment: Assign Test 1787560162475
+[STEP] 2026-08-24T08:30:27.408Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:30:28.854Z - Add Assessment form opened
+[STEP] 2026-08-24T08:30:28.855Z - Filling assessment title: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:28.928Z - Assessment title filled: Assign Test 1787560162475
+[STEP] 2026-08-24T08:30:28.928Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:30:29.695Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:30:29.695Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:30:30.518Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:30:30.518Z - Clicking Next button
+[INFO] 2026-08-24T08:30:31.672Z - Next button clicked
+[STEP] 2026-08-24T08:30:31.672Z - Adding question 1: Default question for automation test (FREE_TEXT)
+[INFO] 2026-08-24T08:30:32.678Z - Question 1 added: Default question for automation test (FREE_TEXT)
+[STEP] 2026-08-24T08:30:32.679Z - Clicking Next button
+[INFO] 2026-08-24T08:30:33.738Z - Next button clicked
+[STEP] 2026-08-24T08:30:33.739Z - Clicking Finish button
+[INFO] 2026-08-24T08:30:34.779Z - Finish button clicked
+[INFO] 2026-08-24T08:30:34.779Z - Assessment 'Assign Test 1787560162475' created successfully
+[STEP] 2026-08-24T08:30:34.779Z - Verifying assessment 'Assign Test 1787560162475' is visible in the list
+[STEP] 2026-08-24T08:30:34.779Z - Searching for assessment: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:35.654Z - Search completed for assessment: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:35.668Z - Assessment 'Assign Test 1787560162475' is visible in the list
+[INFO] 2026-08-24T08:30:35.668Z - Assessment 'Assign Test 1787560162475' created
+[STEP] 2026-08-24T08:30:35.669Z - Assigning assessment: Assign Test 1787560162475
+[STEP] 2026-08-24T08:30:35.669Z - Searching for assessment: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:36.245Z - Search completed for assessment: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:36.261Z - Action button found for assessment: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:36.355Z - Action button clicked
+[INFO] 2026-08-24T08:30:36.664Z - Assign button clicked
+[INFO] 2026-08-24T08:30:36.963Z - Patient dropdown clicked
+[INFO] 2026-08-24T08:30:36.963Z - Searching for patient by first name: Cruickshank (from 'Cruickshank, Allene')
+[INFO] 2026-08-24T08:30:38.098Z - Patient checkbox selected: "Cruickshank, Allene" (target: "Cruickshank, Allene")
+[INFO] 2026-08-24T08:30:38.257Z - Assign to patient button clicked
+[INFO] 2026-08-24T08:30:38.258Z - Assessment 'Assign Test 1787560162475' assigned successfully
+[INFO] 2026-08-24T08:30:42.169Z - Assessment assigned to patient
+[STEP] 2026-08-24T08:30:42.169Z - Opening patient chart from global search for: Cruickshank, Allene
+[INFO] 2026-08-24T08:30:43.731Z - Patient chart opened from global search for: Cruickshank, Allene
+[STEP] 2026-08-24T08:30:43.731Z - Navigating to Assessment tab
+[INFO] 2026-08-24T08:30:46.234Z - Successfully navigated to Assessment tab
+[STEP] 2026-08-24T08:30:46.236Z - Opening current month assessment folder
+[INFO] 2026-08-24T08:30:46.673Z - Opened assessment folder: August 2026
+[STEP] 2026-08-24T08:30:46.686Z - Verifying assigned assessment is present: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:47.587Z - Assigned assessment found in patient chart: Assign Test 1787560162475
+[INFO] 2026-08-24T08:30:47.587Z - Assignment verified in patient chart
+[INFO] 2026-08-24T08:30:47.587Z - Assignment verification test completed

@@ -1,0 +1,34 @@
+[STEP] 2026-08-24T08:47:03.762Z - Login to Provider Portal
+[INFO] 2026-08-24T08:47:07.506Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:47:09.679Z - Test: Verify task assigned to provider appears in their My Tasks
+[STEP] 2026-08-24T08:47:09.686Z - Navigating to Task page
+[INFO] 2026-08-24T08:47:11.866Z - Navigated to Task page
+[INFO] 2026-08-24T08:47:12.238Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:47:12.238Z - Creating task: WorklistMe 1787561232238
+[STEP] 2026-08-24T08:47:12.238Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:47:16.151Z - Add Task form opened
+[INFO] 2026-08-24T08:47:36.891Z - Task "WorklistMe 1787561232238" created successfully
+[STEP] 2026-08-24T08:47:36.891Z - Creating task: WorklistOther 1787561232238
+[STEP] 2026-08-24T08:47:36.891Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:47:37.306Z - Add Task form opened
+[INFO] 2026-08-24T08:47:52.020Z - Task "WorklistOther 1787561232238" created successfully
+[STEP] 2026-08-24T08:47:52.020Z - Navigating to Task page
+[INFO] 2026-08-24T08:47:52.319Z - Navigated to Task page
+[STEP] 2026-08-24T08:47:52.319Z - Searching for: 1787561232238
+[INFO] 2026-08-24T08:47:53.136Z - Search completed for: 1787561232238
+[STEP] 2026-08-24T08:47:53.136Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:47:54.161Z - TASK values: WorklistMe 1787561232238
+[STEP] 2026-08-24T08:47:54.161Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:47:55.176Z - ASSIGNED TO values: Jemes Cory
+[INFO] 2026-08-24T08:47:55.176Z - My Tasks: WorklistMe 1787561232238 | Assigned: Jemes Cory
+[STEP] 2026-08-24T08:47:55.179Z - Clearing search
+[INFO] 2026-08-24T08:48:03.521Z - Search cleared
+[STEP] 2026-08-24T08:48:03.521Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:48:05.165Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:48:05.167Z - Setting status filter to: All
+[INFO] 2026-08-24T08:48:13.604Z - Status filter set to: All
+[STEP] 2026-08-24T08:48:13.604Z - Searching for: 1787561232238
+[INFO] 2026-08-24T08:48:13.913Z - Search completed for: 1787561232238
+[STEP] 2026-08-24T08:48:13.915Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:48:14.924Z - TASK values: WorklistMe 1787561232238, WorklistOther 1787561232238
+[INFO] 2026-08-24T08:48:14.929Z - Worklist verified: My Tasks shows only Jemes Cory's tasks, unchecked shows all

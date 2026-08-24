@@ -1,0 +1,171 @@
+[INFO] 2026-08-24T08:38:53.909Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:55.288Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:38:55.290Z - Creating patient via UI: Waelchi, Demetris
+[STEP] 2026-08-24T08:38:55.290Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:38:57.600Z - Patient details drawer opened
+[STEP] 2026-08-24T08:38:57.600Z - Filling demographics for Demetris Waelchi
+[STEP] 2026-08-24T08:38:59.443Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:38:59.833Z - Setting location: Automation
+[STEP] 2026-08-24T08:39:00.446Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:39:01.131Z - Clicking Save & Next
+[INFO] 2026-08-24T08:39:04.600Z - [createPatientViaUI] created "Waelchi, Demetris"
+[STEP] 2026-08-24T08:39:04.601Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:19.824Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:19.824Z - Adding new enrollment
+[INFO] 2026-08-24T08:39:23.120Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:39:24.231Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:39:24.231Z - Patient: Waelchi, Demetris | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:24.679Z - Validating enrollment result
+[INFO] 2026-08-24T08:39:24.679Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:39:24.679Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:39:24.679Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:39:24.705Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:39:24.706Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:39:24.706Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:39:24.706Z - Final enrollment details:
+[INFO] 2026-08-24T08:39:24.706Z -   Patient: Waelchi, Demetris
+[INFO] 2026-08-24T08:39:24.706Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:39:24.706Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:39:24.706Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:39:24.706Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:39:24.706Z - Enrolled Waelchi, Demetris in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:24.706Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:39.836Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:39.836Z - Applying status filter: New
+[STEP] 2026-08-24T08:39:40.286Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:40.860Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:39:40.860Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:41.026Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:41.551Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:39:41.551Z - Moving enrollment to Active for "Waelchi" (CCM)
+[STEP] 2026-08-24T08:39:41.551Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:39:41.551Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:39:41.770Z - Date filter applied successfully
+[STEP] 2026-08-24T08:39:41.770Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:42.762Z - "Move to Active" confirmed for "Waelchi"
+[INFO] 2026-08-24T08:39:42.763Z - Moved Waelchi, Demetris to Active
+[INFO] 2026-08-24T08:39:45.084Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:46.261Z - Opening CCM Library
+[INFO] 2026-08-24T08:39:47.487Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:39:47.487Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:39:49.992Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:39:49.993Z - Creating assessment: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:39:49.993Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:39:51.115Z - Add Assessment form opened
+[STEP] 2026-08-24T08:39:51.115Z - Filling assessment title: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:39:51.149Z - Assessment title filled: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:39:51.149Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:39:51.897Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:39:51.897Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:39:52.593Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:39:52.594Z - Clicking Next button
+[INFO] 2026-08-24T08:39:53.670Z - Next button clicked
+[STEP] 2026-08-24T08:39:53.670Z - Adding question 1: Single select Q (SINGLE_SELECT)
+[INFO] 2026-08-24T08:39:56.288Z - 3 options added
+[INFO] 2026-08-24T08:39:56.288Z - Question 1 added: Single select Q (SINGLE_SELECT)
+[STEP] 2026-08-24T08:39:56.288Z - Adding question 2: Multi select Q (MULTI_SELECT)
+[INFO] 2026-08-24T08:40:00.071Z - 3 options added
+[INFO] 2026-08-24T08:40:00.071Z - Question 2 added: Multi select Q (MULTI_SELECT)
+[STEP] 2026-08-24T08:40:00.071Z - Clicking Next button
+[INFO] 2026-08-24T08:40:01.292Z - Next button clicked
+[STEP] 2026-08-24T08:40:01.292Z - Clicking Finish button
+[INFO] 2026-08-24T08:40:02.426Z - Finish button clicked
+[INFO] 2026-08-24T08:40:02.426Z - Assessment 'E2EAsm 1787560731868' created successfully
+[INFO] 2026-08-24T08:40:02.426Z - Seed assessment template created: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:40:02.426Z - Assigning assessment: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:40:02.426Z - Searching for assessment: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:40:03.529Z - Search completed for assessment: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:40:03.565Z - Action button found for assessment: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:40:03.836Z - Action button clicked
+[INFO] 2026-08-24T08:40:04.301Z - Assign button clicked
+[INFO] 2026-08-24T08:40:04.703Z - Patient dropdown clicked
+[INFO] 2026-08-24T08:40:04.705Z - Searching for patient by first name: Waelchi (from 'Waelchi, Demetris')
+[INFO] 2026-08-24T08:40:05.830Z - Patient checkbox selected: "Waelchi, Demetris" (target: "Waelchi, Demetris")
+[INFO] 2026-08-24T08:40:05.996Z - Assign to patient button clicked
+[INFO] 2026-08-24T08:40:05.996Z - Assessment 'E2EAsm 1787560731868' assigned successfully
+[INFO] 2026-08-24T08:40:14.160Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:14.168Z - Opening CCM Library
+[INFO] 2026-08-24T08:40:17.094Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:40:17.094Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:40:19.216Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:40:19.216Z - Creating assessment: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:40:19.216Z - Clicking Add Assessment button
+[INFO] 2026-08-24T08:40:24.865Z - Add Assessment form opened
+[STEP] 2026-08-24T08:40:24.865Z - Filling assessment title: ViewAsm 1787560731869
+[INFO] 2026-08-24T08:40:25.536Z - Assessment title filled: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:40:25.538Z - Selecting assessment type: SURVEY
+[INFO] 2026-08-24T08:40:26.647Z - Assessment type selected: SURVEY
+[STEP] 2026-08-24T08:40:26.649Z - Selecting frequency: DAILY
+[INFO] 2026-08-24T08:40:27.473Z - Frequency selected: DAILY
+[STEP] 2026-08-24T08:40:27.473Z - Clicking Next button
+[INFO] 2026-08-24T08:40:28.577Z - Next button clicked
+[STEP] 2026-08-24T08:40:28.579Z - Adding question 1: Single select Q (SINGLE_SELECT)
+[INFO] 2026-08-24T08:40:30.646Z - 3 options added
+[INFO] 2026-08-24T08:40:30.646Z - Question 1 added: Single select Q (SINGLE_SELECT)
+[STEP] 2026-08-24T08:40:30.646Z - Adding question 2: Multi select Q (MULTI_SELECT)
+[INFO] 2026-08-24T08:40:33.339Z - 3 options added
+[INFO] 2026-08-24T08:40:33.339Z - Question 2 added: Multi select Q (MULTI_SELECT)
+[STEP] 2026-08-24T08:40:33.339Z - Clicking Next button
+[INFO] 2026-08-24T08:40:34.478Z - Next button clicked
+[STEP] 2026-08-24T08:40:34.478Z - Clicking Finish button
+[INFO] 2026-08-24T08:40:35.513Z - Finish button clicked
+[INFO] 2026-08-24T08:40:35.514Z - Assessment 'ViewAsm 1787560731869' created successfully
+[INFO] 2026-08-24T08:40:35.514Z - Seed assessment template created: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:40:35.514Z - Assigning assessment: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:40:35.514Z - Searching for assessment: ViewAsm 1787560731869
+[INFO] 2026-08-24T08:40:36.259Z - Search completed for assessment: ViewAsm 1787560731869
+[INFO] 2026-08-24T08:40:36.267Z - Action button found for assessment: ViewAsm 1787560731869
+[INFO] 2026-08-24T08:40:36.344Z - Action button clicked
+[INFO] 2026-08-24T08:40:36.630Z - Assign button clicked
+[INFO] 2026-08-24T08:40:37.007Z - Patient dropdown clicked
+[INFO] 2026-08-24T08:40:37.007Z - Searching for patient by first name: Waelchi (from 'Waelchi, Demetris')
+[INFO] 2026-08-24T08:40:38.006Z - Patient checkbox selected: "Waelchi, Demetris" (target: "Waelchi, Demetris")
+[INFO] 2026-08-24T08:40:38.095Z - Assign to patient button clicked
+[INFO] 2026-08-24T08:40:38.096Z - Assessment 'ViewAsm 1787560731869' assigned successfully
+[INFO] 2026-08-24T08:40:42.037Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:43.787Z - Opening patient chart from global search for: Waelchi, Demetris
+[INFO] 2026-08-24T08:40:46.363Z - Patient chart opened from global search for: Waelchi, Demetris
+[STEP] 2026-08-24T08:40:48.690Z - Navigating to Assessment tab
+[INFO] 2026-08-24T08:40:48.826Z - Successfully navigated to Assessment tab
+[STEP] 2026-08-24T08:40:48.826Z - Opening current month assessment folder
+[INFO] 2026-08-24T08:40:49.007Z - Opened assessment folder: August 2026
+[INFO] 2026-08-24T08:40:51.024Z - Targeting INCOMPLETE assessment: "E2EAsm 1787560731868"
+[STEP] 2026-08-24T08:40:51.025Z - Completing assigned assessment "E2EAsm 1787560731868" via API
+[INFO] 2026-08-24T08:40:54.196Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:55.358Z - Opening CCM Library
+[INFO] 2026-08-24T08:40:56.621Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:40:56.621Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:40:58.967Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:40:58.967Z - Deleting assessment: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:40:58.967Z - Clicking Delete for: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:40:58.967Z - Searching for assessment: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:40:59.748Z - Search completed for assessment: E2EAsm 1787560731868
+[STEP] 2026-08-24T08:40:59.748Z - Opening action menu for: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:41:00.850Z - Action menu opened
+[INFO] 2026-08-24T08:41:01.962Z - Delete dialog opened
+[STEP] 2026-08-24T08:41:01.963Z - Confirming delete
+[STEP] 2026-08-24T08:41:04.001Z - Clearing search box
+[INFO] 2026-08-24T08:41:04.527Z - Search cleared
+[INFO] 2026-08-24T08:41:04.528Z - Delete confirmed
+[INFO] 2026-08-24T08:41:04.528Z - Assessment 'E2EAsm 1787560731868' deleted
+[INFO] 2026-08-24T08:41:04.528Z - Deleted assessment: E2EAsm 1787560731868
+[INFO] 2026-08-24T08:41:08.312Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:08.318Z - Opening CCM Library
+[INFO] 2026-08-24T08:41:10.623Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:41:10.623Z - Opening Assessment section (CCM)
+[INFO] 2026-08-24T08:41:12.435Z - Successfully opened Assessment section
+[STEP] 2026-08-24T08:41:12.435Z - Deleting assessment: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:41:12.435Z - Clicking Delete for: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:41:12.435Z - Searching for assessment: ViewAsm 1787560731869
+[INFO] 2026-08-24T08:41:16.934Z - Search completed for assessment: ViewAsm 1787560731869
+[STEP] 2026-08-24T08:41:16.934Z - Opening action menu for: ViewAsm 1787560731869
+[INFO] 2026-08-24T08:41:20.253Z - Action menu opened
+[INFO] 2026-08-24T08:41:21.408Z - Delete dialog opened
+[STEP] 2026-08-24T08:41:21.408Z - Confirming delete
+[STEP] 2026-08-24T08:41:23.527Z - Clearing search box
+[INFO] 2026-08-24T08:41:24.113Z - Search cleared
+[INFO] 2026-08-24T08:41:24.113Z - Delete confirmed
+[INFO] 2026-08-24T08:41:24.113Z - Assessment 'ViewAsm 1787560731869' deleted
+[INFO] 2026-08-24T08:41:24.113Z - Deleted assessment: ViewAsm 1787560731869

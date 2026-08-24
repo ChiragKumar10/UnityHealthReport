@@ -1,0 +1,85 @@
+[INFO] 2026-08-24T08:31:04.682Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:04.695Z - Test: Document count update on assign
+[STEP] 2026-08-24T08:31:04.695Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:31:04.699Z - Creating patient via UI: Torphy, Dustin
+[STEP] 2026-08-24T08:31:04.699Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:31:11.152Z - Patient details drawer opened
+[STEP] 2026-08-24T08:31:11.152Z - Filling demographics for Dustin Torphy
+[STEP] 2026-08-24T08:31:20.325Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:31:21.642Z - Setting location: Automation
+[STEP] 2026-08-24T08:31:22.167Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:31:23.025Z - Clicking Save & Next
+[INFO] 2026-08-24T08:31:26.347Z - [createPatientViaUI] created "Torphy, Dustin"
+[STEP] 2026-08-24T08:31:26.347Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:41.495Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:31:41.495Z - Adding new enrollment
+[INFO] 2026-08-24T08:31:47.539Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:31:49.604Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:31:49.606Z - Patient: Torphy, Dustin | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:31:52.019Z - Validating enrollment result
+[INFO] 2026-08-24T08:31:52.019Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:31:52.020Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:31:52.020Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:31:52.490Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:31:52.490Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:31:52.490Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:31:52.490Z - Final enrollment details:
+[INFO] 2026-08-24T08:31:52.490Z -   Patient: Torphy, Dustin
+[INFO] 2026-08-24T08:31:52.493Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:31:52.493Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:31:52.496Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:31:52.496Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:31:52.496Z - Enrolled Torphy, Dustin in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:31:52.496Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:32:08.114Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:08.114Z - Applying status filter: New
+[STEP] 2026-08-24T08:32:08.824Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:09.593Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:32:09.593Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:32:10.176Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:11.260Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:32:11.260Z - Moving enrollment to Active for "Torphy" (CCM)
+[STEP] 2026-08-24T08:32:11.260Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:32:11.260Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:32:11.684Z - Date filter applied successfully
+[STEP] 2026-08-24T08:32:11.684Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:12.955Z - "Move to Active" confirmed for "Torphy"
+[INFO] 2026-08-24T08:32:12.955Z - Moved Torphy, Dustin to Active
+[STEP] 2026-08-24T08:32:12.955Z - Navigating to Document Library
+[INFO] 2026-08-24T08:32:15.420Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:32:15.420Z - Clicking folder: Education
+[INFO] 2026-08-24T08:32:17.210Z - Opened folder: Education
+[STEP] 2026-08-24T08:32:17.210Z - Uploading document: CountDoc 1787560337210
+[STEP] 2026-08-24T08:32:17.210Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:32:19.153Z - Upload Material form opened
+[STEP] 2026-08-24T08:32:19.154Z - Selecting tag: Education
+[INFO] 2026-08-24T08:32:20.692Z - Tag selected: Education
+[STEP] 2026-08-24T08:32:20.692Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:32:22.430Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:32:22.432Z - Filling file name: CountDoc 1787560337210
+[STEP] 2026-08-24T08:32:22.776Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-08-24T08:32:22.831Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:32:23.913Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-08-24T08:32:23.913Z - Clicking Upload button
+[INFO] 2026-08-24T08:32:23.923Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:32:27.039Z - Upload completed
+[INFO] 2026-08-24T08:32:27.039Z - Document "CountDoc 1787560337210" uploaded successfully
+[INFO] 2026-08-24T08:32:27.040Z - Step 1 ✓: Uploaded "CountDoc 1787560337210"
+[STEP] 2026-08-24T08:32:27.040Z - Navigating to Document Library
+[INFO] 2026-08-24T08:32:28.674Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:32:28.674Z - Clicking folder: Education
+[INFO] 2026-08-24T08:32:30.295Z - Opened folder: Education
+[STEP] 2026-08-24T08:32:30.300Z - Searching document: CountDoc 1787560337210
+[INFO] 2026-08-24T08:32:32.462Z - Search completed: CountDoc 1787560337210
+[INFO] 2026-08-24T08:32:32.470Z - Step 2 ✓: Document found in Education folder
+[STEP] 2026-08-24T08:32:32.470Z - Assigning document (row 0) to patient: Torphy
+[STEP] 2026-08-24T08:32:32.470Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:32:33.577Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:32:33.577Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:32:35.188Z - Clicked: Assign
+[INFO] 2026-08-24T08:32:41.687Z - Document assigned to patient: Torphy
+[INFO] 2026-08-24T08:32:41.687Z - Step 3 ✓: Document assigned to Automation, Test
+[STEP] 2026-08-24T08:32:41.687Z - Opening patient chart from global search for: Torphy, Dustin
+[INFO] 2026-08-24T08:32:43.263Z - Patient chart opened from global search for: Torphy, Dustin

@@ -1,0 +1,30 @@
+[STEP] 2026-08-24T08:39:34.876Z - Login to Provider Portal
+[INFO] 2026-08-24T08:39:36.827Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:38.281Z - Test: View Resolved Note displays the resolution note
+[STEP] 2026-08-24T08:39:38.281Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:39:39.356Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:39:39.356Z - Selecting status filter: All
+[INFO] 2026-08-24T08:39:43.133Z - Status filter set to: All
+[STEP] 2026-08-24T08:39:43.134Z - Finding first resolved row
+[STEP] 2026-08-24T08:39:43.134Z - Getting alert row count
+[INFO] 2026-08-24T08:39:44.140Z - Alert row count: 25
+[STEP] 2026-08-24T08:39:44.141Z - Getting cell text at row 1, column 8
+[INFO] 2026-08-24T08:39:44.155Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:44.155Z - Getting cell text at row 2, column 8
+[INFO] 2026-08-24T08:39:44.164Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:44.164Z - Getting cell text at row 3, column 8
+[INFO] 2026-08-24T08:39:44.173Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:44.173Z - Getting cell text at row 4, column 8
+[INFO] 2026-08-24T08:39:44.194Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:39:44.194Z - Getting cell text at row 5, column 8
+[INFO] 2026-08-24T08:39:44.205Z - Cell text: Resolved
+[INFO] 2026-08-24T08:39:44.205Z - First resolved row found at index: 5 (attempt 1)
+[STEP] 2026-08-24T08:39:44.206Z - Opening action menu for row 5
+[INFO] 2026-08-24T08:39:44.772Z - Action menu opened for row 5
+[STEP] 2026-08-24T08:39:44.772Z - Clicking View Resolved Note from action menu
+[INFO] 2026-08-24T08:39:45.993Z - View Resolved Note clicked
+[STEP] 2026-08-24T08:39:45.994Z - Getting resolved note text
+[INFO] 2026-08-24T08:39:46.501Z - Resolved note text (textarea): Resolved from Alerts page - cross-feature test
+[INFO] 2026-08-24T08:39:46.502Z - Resolved note displayed: Resolved from Alerts page - cross-feature test
+[STEP] 2026-08-24T08:39:46.502Z - Dismissing resolved note dialog
+[INFO] 2026-08-24T08:39:47.010Z - Resolved note dialog dismissed

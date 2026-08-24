@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T09:04:56.152Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T09:04:56.121+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T09:04:56.525Z - Login to Provider Portal
+[INFO] 2026-08-24T09:04:58.302Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T09:04:59.455Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T09:04:59.496Z - Creating patient via UI: Donnelly, Coy
+[STEP] 2026-08-24T09:04:59.497Z - Opening New Patient drawer
+[INFO] 2026-08-24T09:05:00.718Z - Patient details drawer opened
+[STEP] 2026-08-24T09:05:00.721Z - Filling demographics for Coy Donnelly
+[STEP] 2026-08-24T09:05:03.668Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T09:05:03.897Z - Setting location: Automation
+[STEP] 2026-08-24T09:05:04.385Z - Setting Self Pay = true
+[STEP] 2026-08-24T09:05:04.888Z - Clicking Save & Next
+[INFO] 2026-08-24T09:05:06.832Z - [createPatientViaUI] created "Donnelly, Coy"
+[STEP] 2026-08-24T09:05:06.832Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:05:21.930Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:05:21.931Z - Adding new enrollment
+[INFO] 2026-08-24T09:05:24.703Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:05:25.434Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T09:05:25.434Z - Patient: Donnelly, Coy | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:05:25.940Z - Validating enrollment result
+[INFO] 2026-08-24T09:05:25.940Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T09:05:25.940Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T09:05:25.941Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T09:05:25.969Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T09:05:25.969Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T09:05:25.969Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T09:05:25.969Z - Final enrollment details:
+[INFO] 2026-08-24T09:05:25.969Z -   Patient: Donnelly, Coy
+[INFO] 2026-08-24T09:05:25.969Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:05:25.969Z -   Provider: Anny Vate
+[INFO] 2026-08-24T09:05:25.969Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T09:05:25.971Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T09:05:25.971Z - Enrolled Donnelly, Coy in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:05:25.971Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:05:41.094Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:05:41.094Z - Applying status filter: New
+[STEP] 2026-08-24T09:05:41.479Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:05:41.993Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T09:05:41.993Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:05:42.361Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:05:42.891Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T09:05:42.891Z - Moving enrollment to Active for "Donnelly" (RTM)
+[STEP] 2026-08-24T09:05:42.892Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T09:05:42.892Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T09:05:43.071Z - Date filter applied successfully
+[STEP] 2026-08-24T09:05:43.072Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:05:44.025Z - "Move to Active" confirmed for "Donnelly"
+[INFO] 2026-08-24T09:05:44.025Z - Moved Donnelly, Coy to Active
+[INFO] 2026-08-24T09:05:44.025Z - [monitoring-03] seeded ACTIVE RTM patient: Donnelly, Coy
+[STEP] 2026-08-24T09:05:44.026Z - Opening patient chart from global search for: Donnelly, Coy
+[INFO] 2026-08-24T09:05:46.447Z - Patient chart opened from global search for: Donnelly, Coy
+[STEP] 2026-08-24T09:05:48.201Z - Navigating to Vitals tab
+[INFO] 2026-08-24T09:05:48.401Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T09:05:48.403Z - Adding vital: Pain Scale with value 33
+[STEP] 2026-08-24T09:05:48.405Z - Clicking Add Vital button
+[INFO] 2026-08-24T09:05:48.548Z - Add Vital form opened
+[STEP] 2026-08-24T09:05:48.548Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T09:05:48.902Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T09:05:48.902Z - Entering vital value: 33
+[INFO] 2026-08-24T09:05:48.945Z - Successfully entered vital value: 33
+[STEP] 2026-08-24T09:05:48.946Z - Saving vital
+[INFO] 2026-08-24T09:05:49.017Z - Successfully saved vital
+[INFO] 2026-08-24T09:05:49.017Z - Successfully added vital: Pain Scale with value 33
+[INFO] 2026-08-24T09:05:49.017Z - beforeEach: Abnormal Pain Scale (33) added for Donnelly, Coy — polling Alerts counter
+[STEP] 2026-08-24T09:05:49.026Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:05:49.027Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:05:49.576Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:05:49.589Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T09:05:53.521Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T09:05:58.181Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:05:58.182Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:05:59.234Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:05:59.234Z - Getting count for Alerts
+[INFO] 2026-08-24T09:05:59.242Z - Alerts count: 0
+[STEP] 2026-08-24T09:06:04.244Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:06:04.244Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:06:04.751Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:06:05.260Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:06:05.260Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:06:06.301Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:06:06.301Z - Getting count for Alerts
+[INFO] 2026-08-24T09:06:06.310Z - Alerts count: 0
+[STEP] 2026-08-24T09:06:14.313Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:06:14.315Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:06:14.833Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:06:15.397Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:06:15.397Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:06:16.455Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:06:16.455Z - Getting count for Alerts
+[INFO] 2026-08-24T09:06:16.489Z - Alerts count: 0
+[STEP] 2026-08-24T09:06:26.496Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:06:26.496Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:06:27.002Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:06:27.511Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:06:27.511Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:06:28.551Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:06:28.551Z - Getting count for Alerts
+[INFO] 2026-08-24T09:06:28.558Z - Alerts count: 0
+[STEP] 2026-08-24T09:06:38.559Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:06:38.559Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:06:39.071Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:06:39.583Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:06:39.583Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:06:40.645Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:06:40.645Z - Getting count for Alerts
+[INFO] 2026-08-24T09:06:40.659Z - Alerts count: 0
+[STEP] 2026-08-24T09:06:50.662Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:06:50.662Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:06:51.172Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:06:51.683Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:06:51.684Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:06:52.747Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:06:52.747Z - Getting count for Alerts
+[INFO] 2026-08-24T09:06:52.757Z - Alerts count: 0
+[STEP] 2026-08-24T09:07:02.759Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:07:02.759Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:07:03.274Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:07:03.798Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:07:03.798Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:07:04.883Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:07:04.883Z - Getting count for Alerts
+[INFO] 2026-08-24T09:07:04.909Z - Alerts count: 0
+[STEP] 2026-08-24T09:07:14.914Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:07:14.915Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:07:15.423Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:07:15.934Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:07:15.934Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:07:16.988Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:07:16.988Z - Getting count for Alerts
+[INFO] 2026-08-24T09:07:17.017Z - Alerts count: 0

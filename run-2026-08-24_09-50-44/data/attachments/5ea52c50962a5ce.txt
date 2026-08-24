@@ -1,0 +1,140 @@
+[INFO] 2026-08-24T09:34:17.873Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T09:34:17.841+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T09:34:18.336Z - Login to Provider Portal
+[INFO] 2026-08-24T09:34:20.212Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T09:34:21.540Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T09:34:21.565Z - Creating patient via UI: Fisher, Shelia
+[STEP] 2026-08-24T09:34:21.565Z - Opening New Patient drawer
+[INFO] 2026-08-24T09:34:24.189Z - Patient details drawer opened
+[STEP] 2026-08-24T09:34:24.190Z - Filling demographics for Shelia Fisher
+[STEP] 2026-08-24T09:34:27.108Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T09:34:27.382Z - Setting location: Automation
+[STEP] 2026-08-24T09:34:28.007Z - Setting Self Pay = true
+[STEP] 2026-08-24T09:34:28.800Z - Clicking Save & Next
+[INFO] 2026-08-24T09:34:31.300Z - [createPatientViaUI] created "Fisher, Shelia"
+[STEP] 2026-08-24T09:34:31.300Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:34:46.506Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:34:46.507Z - Adding new enrollment
+[INFO] 2026-08-24T09:34:49.269Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:34:50.148Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T09:34:50.148Z - Patient: Fisher, Shelia | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:34:50.610Z - Validating enrollment result
+[INFO] 2026-08-24T09:34:50.610Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T09:34:50.610Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T09:34:50.611Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T09:34:50.632Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T09:34:50.632Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T09:34:50.632Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T09:34:50.632Z - Final enrollment details:
+[INFO] 2026-08-24T09:34:50.632Z -   Patient: Fisher, Shelia
+[INFO] 2026-08-24T09:34:50.632Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:34:50.633Z -   Provider: Anny Vate
+[INFO] 2026-08-24T09:34:50.633Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T09:34:50.633Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T09:34:50.633Z - Enrolled Fisher, Shelia in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:34:50.633Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:35:05.756Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:35:05.756Z - Applying status filter: New
+[STEP] 2026-08-24T09:35:06.150Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:35:06.664Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T09:35:06.664Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:35:07.024Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:35:07.537Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T09:35:07.538Z - Moving enrollment to Active for "Fisher" (RTM)
+[STEP] 2026-08-24T09:35:07.538Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T09:35:07.538Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T09:35:07.683Z - Date filter applied successfully
+[STEP] 2026-08-24T09:35:07.683Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:35:08.614Z - "Move to Active" confirmed for "Fisher"
+[INFO] 2026-08-24T09:35:08.614Z - Moved Fisher, Shelia to Active
+[INFO] 2026-08-24T09:35:08.614Z - [monitoring-02] seeded ACTIVE RTM patient: Fisher, Shelia
+[STEP] 2026-08-24T09:35:08.616Z - Opening patient chart from global search for: Fisher, Shelia
+[INFO] 2026-08-24T09:35:11.030Z - Patient chart opened from global search for: Fisher, Shelia
+[STEP] 2026-08-24T09:35:12.136Z - Navigating to Vitals tab
+[INFO] 2026-08-24T09:35:12.290Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T09:35:12.290Z - Adding vital: Pain Scale with value 26
+[STEP] 2026-08-24T09:35:12.291Z - Clicking Add Vital button
+[INFO] 2026-08-24T09:35:12.394Z - Add Vital form opened
+[STEP] 2026-08-24T09:35:12.394Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T09:35:12.778Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T09:35:12.779Z - Entering vital value: 26
+[INFO] 2026-08-24T09:35:12.829Z - Successfully entered vital value: 26
+[STEP] 2026-08-24T09:35:12.829Z - Saving vital
+[INFO] 2026-08-24T09:35:12.888Z - Successfully saved vital
+[INFO] 2026-08-24T09:35:12.889Z - Successfully added vital: Pain Scale with value 26
+[INFO] 2026-08-24T09:35:12.889Z - beforeEach: seeded Pain Scale vital (26) for Fisher, Shelia
+[STEP] 2026-08-24T09:35:12.895Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:35:12.895Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:35:13.417Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:35:13.422Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T09:35:17.197Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T09:35:21.567Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:35:21.567Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:35:22.626Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:35:22.626Z - Getting count for Data
+[INFO] 2026-08-24T09:35:22.634Z - Data count: 0
+[STEP] 2026-08-24T09:35:25.636Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:35:25.636Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:35:26.143Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:35:26.652Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:35:26.652Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:35:27.702Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:35:27.702Z - Getting count for Data
+[INFO] 2026-08-24T09:35:27.711Z - Data count: 0
+[STEP] 2026-08-24T09:35:32.712Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:35:32.713Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:35:33.218Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:35:33.728Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:35:33.728Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:35:34.780Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:35:34.780Z - Getting count for Data
+[INFO] 2026-08-24T09:35:34.787Z - Data count: 0
+[STEP] 2026-08-24T09:35:42.789Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:35:42.789Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:35:43.295Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:35:43.802Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:35:43.802Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:35:44.846Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:35:44.846Z - Getting count for Data
+[INFO] 2026-08-24T09:35:44.852Z - Data count: 0
+[STEP] 2026-08-24T09:35:54.853Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:35:54.854Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:35:55.362Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:35:55.870Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:35:55.870Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:35:56.912Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:35:56.912Z - Getting count for Data
+[INFO] 2026-08-24T09:35:56.919Z - Data count: 0
+[STEP] 2026-08-24T09:36:11.923Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:36:11.924Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:36:12.433Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:36:12.943Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:36:12.943Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:36:14.001Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:36:14.001Z - Getting count for Data
+[INFO] 2026-08-24T09:36:14.010Z - Data count: 0
+[STEP] 2026-08-24T09:36:29.012Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:36:29.012Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:36:29.542Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:36:30.059Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:36:30.059Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:36:31.147Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:36:31.147Z - Getting count for Data
+[INFO] 2026-08-24T09:36:31.173Z - Data count: 0
+[STEP] 2026-08-24T09:36:46.179Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:36:46.179Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:36:46.696Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:36:47.206Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:36:47.206Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:36:48.244Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:36:48.244Z - Getting count for Data
+[INFO] 2026-08-24T09:36:48.252Z - Data count: 0
+[STEP] 2026-08-24T09:37:03.257Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:37:03.257Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:37:03.765Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:37:04.273Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:37:04.273Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:37:05.311Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:37:05.311Z - Getting count for Data
+[INFO] 2026-08-24T09:37:05.319Z - Data count: 0

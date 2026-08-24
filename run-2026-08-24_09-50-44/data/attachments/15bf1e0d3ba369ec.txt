@@ -1,0 +1,94 @@
+[STEP] 2026-08-24T08:40:17.602Z - Login to Provider Portal
+[INFO] 2026-08-24T08:40:19.555Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:20.898Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:40:20.899Z - Creating patient via UI: Wuckert, Brennon
+[STEP] 2026-08-24T08:40:20.899Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:40:21.715Z - Patient details drawer opened
+[STEP] 2026-08-24T08:40:21.715Z - Filling demographics for Brennon Wuckert
+[STEP] 2026-08-24T08:40:24.596Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:40:24.911Z - Setting location: Automation
+[STEP] 2026-08-24T08:40:25.298Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:40:25.818Z - Clicking Save & Next
+[INFO] 2026-08-24T08:40:27.743Z - [createPatientViaUI] created "Wuckert, Brennon"
+[STEP] 2026-08-24T08:40:27.743Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:42.842Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:42.843Z - Adding new enrollment
+[INFO] 2026-08-24T08:40:44.699Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:40:45.705Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:40:45.705Z - Patient: Wuckert, Brennon | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:40:46.588Z - Validating enrollment result
+[INFO] 2026-08-24T08:40:46.588Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:40:46.588Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:40:46.588Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:40:46.602Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:40:46.603Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:40:46.603Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:40:46.603Z - Final enrollment details:
+[INFO] 2026-08-24T08:40:46.603Z -   Patient: Wuckert, Brennon
+[INFO] 2026-08-24T08:40:46.603Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:40:46.603Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:40:46.603Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:40:46.603Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:40:46.603Z - Enrolled Wuckert, Brennon in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:40:46.603Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:41:01.733Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:41:01.733Z - Applying status filter: New
+[STEP] 2026-08-24T08:41:02.151Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:03.168Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:41:03.168Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:41:03.536Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:04.553Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:41:04.553Z - Moving enrollment to Active for "Wuckert" (RTM)
+[STEP] 2026-08-24T08:41:04.553Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:41:04.553Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:41:04.726Z - Date filter applied successfully
+[STEP] 2026-08-24T08:41:04.726Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:05.647Z - "Move to Active" confirmed for "Wuckert"
+[INFO] 2026-08-24T08:41:05.649Z - Moved Wuckert, Brennon to Active
+[STEP] 2026-08-24T08:41:05.650Z - Test: Escalate alert and verify in Patient 360 Escalation section
+[STEP] 2026-08-24T08:41:05.650Z - Opening patient chart from global search for: Wuckert, Brennon
+[INFO] 2026-08-24T08:41:08.032Z - Patient chart opened from global search for: Wuckert, Brennon
+[STEP] 2026-08-24T08:41:08.058Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:41:08.850Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:41:08.850Z - Adding vital: Pain Scale with value 236
+[STEP] 2026-08-24T08:41:08.850Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:41:09.041Z - Add Vital form opened
+[STEP] 2026-08-24T08:41:09.041Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:41:09.420Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:41:09.420Z - Entering vital value: 236
+[INFO] 2026-08-24T08:41:09.464Z - Successfully entered vital value: 236
+[STEP] 2026-08-24T08:41:09.464Z - Saving vital
+[INFO] 2026-08-24T08:41:09.535Z - Successfully saved vital
+[INFO] 2026-08-24T08:41:09.535Z - Successfully added vital: Pain Scale with value 236
+[INFO] 2026-08-24T08:41:09.535Z - Pain Scale vital added with value: 236
+[STEP] 2026-08-24T08:41:09.535Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:41:10.985Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:41:10.986Z - Searching alerts for: Wuckert
+[INFO] 2026-08-24T08:41:12.550Z - Search completed for: Wuckert
+[STEP] 2026-08-24T08:41:12.551Z - Getting alert row count
+[INFO] 2026-08-24T08:41:13.556Z - Alert row count: 1
+[STEP] 2026-08-24T08:41:13.557Z - Escalating alert at row 1 and capturing provider name
+[STEP] 2026-08-24T08:41:13.557Z - Opening action menu for row 1
+[INFO] 2026-08-24T08:41:14.086Z - Action menu opened for row 1
+[STEP] 2026-08-24T08:41:14.087Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-08-24T08:41:14.669Z - Escalate to Provider clicked
+[INFO] 2026-08-24T08:41:17.369Z - Escalated to provider: Anny Vate
+[STEP] 2026-08-24T08:41:18.505Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:41:25.340Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:41:25.340Z - Alert at row 1 escalated to Anny Vate
+[INFO] 2026-08-24T08:41:25.340Z - Alert escalated to provider: Anny Vate
+[STEP] 2026-08-24T08:41:25.340Z - Searching alerts for: Wuckert
+[INFO] 2026-08-24T08:41:26.921Z - Search completed for: Wuckert
+[STEP] 2026-08-24T08:41:26.922Z - Clicking patient name: Wuckert, Brennon
+[INFO] 2026-08-24T08:41:36.929Z - Patient 360 escalation-section check skipped (locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  -) — verifying via Alerts list
+[INFO] 2026-08-24T08:41:36.929Z - Verifying escalation via the Alerts list (source of truth)
+[STEP] 2026-08-24T08:41:36.929Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:41:38.031Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:41:38.031Z - Searching alerts for: Wuckert
+[INFO] 2026-08-24T08:41:39.583Z - Search completed for: Wuckert
+[STEP] 2026-08-24T08:41:39.584Z - Getting alert row count
+[INFO] 2026-08-24T08:41:40.589Z - Alert row count: 0

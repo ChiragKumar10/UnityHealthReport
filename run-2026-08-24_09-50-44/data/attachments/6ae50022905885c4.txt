@@ -1,0 +1,24 @@
+[STEP] 2026-08-24T08:41:55.338Z - Login to Provider Portal
+[INFO] 2026-08-24T08:42:02.010Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:42:02.018Z - Test: E2E Create task with reminder
+[STEP] 2026-08-24T08:42:02.018Z - Navigating to Task page
+[INFO] 2026-08-24T08:42:10.977Z - Navigated to Task page
+[STEP] 2026-08-24T08:42:10.977Z - Creating task with reminder: Reminder E2E 1787560930977
+[STEP] 2026-08-24T08:42:10.977Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:42:15.225Z - Add Task form opened
+[STEP] 2026-08-24T08:42:30.492Z - Selecting "Email" from combobox index 7
+[INFO] 2026-08-24T08:42:31.930Z - Selected "Email" from combobox 7
+[STEP] 2026-08-24T08:42:31.930Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:42:33.368Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:42:36.862Z - Task "Reminder E2E 1787560930977" with reminder created successfully
+[STEP] 2026-08-24T08:42:36.863Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:42:38.538Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:42:38.538Z - Setting status filter to: All
+[INFO] 2026-08-24T08:42:38.937Z - Status filter set to: All
+[STEP] 2026-08-24T08:42:38.937Z - Searching for: Reminder E2E 1787560930977
+[INFO] 2026-08-24T08:42:39.492Z - Search completed for: Reminder E2E 1787560930977
+[STEP] 2026-08-24T08:42:39.492Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:42:40.512Z - TASK values: Reminder E2E 1787560930977
+[STEP] 2026-08-24T08:42:40.517Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:42:41.530Z - TASK STATUS values: ToDo
+[INFO] 2026-08-24T08:42:41.535Z - E2E Reminder task "Reminder E2E 1787560930977" created and verified in list

@@ -1,0 +1,119 @@
+[STEP] 2026-08-24T08:25:12.251Z - === AUT_CROSS_004: alert escalation chain (CM → A → B → Resolve) ===
+[STEP] 2026-08-24T08:25:12.969Z - Phase 0: CM logs in and seeds an alert (abnormal Pain Scale)
+[INFO] 2026-08-24T08:25:23.988Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:25:23.988Z - Seeding alert by saving Pain Scale 15 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:25:23.989Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:25:37.840Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:25:38.161Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:25:48.730Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:25:48.730Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:25:48.730Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:25:49.483Z - Add Vital form opened
+[STEP] 2026-08-24T08:25:49.483Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:25:50.201Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:25:50.204Z - Entering vital value: 15
+[INFO] 2026-08-24T08:25:50.498Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:25:50.498Z - Saving vital
+[INFO] 2026-08-24T08:25:50.948Z - Successfully saved vital
+[INFO] 2026-08-24T08:25:50.960Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:25:50.960Z - Abnormal Pain Scale (15) saved — waiting 30000ms for backend alert generation
+[STEP] 2026-08-24T08:26:20.974Z - Phase 1: CM escalates alert to Provider A ("John")
+[STEP] 2026-08-24T08:26:20.975Z - Escalating top alert (search="Block") to provider matching "John"
+[STEP] 2026-08-24T08:26:20.976Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:26:22.261Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:26:22.261Z - Searching alerts for: Block
+[INFO] 2026-08-24T08:26:23.948Z - Search completed for: Block
+[STEP] 2026-08-24T08:26:23.949Z - Escalating alert at row 0 to provider matching "John"
+[STEP] 2026-08-24T08:26:23.949Z - Opening action menu for row 0
+[INFO] 2026-08-24T08:26:25.946Z - Action menu opened for row 0
+[STEP] 2026-08-24T08:26:25.946Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-08-24T08:26:26.694Z - Escalate to Provider clicked
+[INFO] 2026-08-24T08:26:29.569Z - Selected provider "John Doe" for search term "John"
+[STEP] 2026-08-24T08:26:30.908Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:26:38.481Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:26:38.481Z - Alert at row 0 escalated to "John Doe"
+[INFO] 2026-08-24T08:26:38.481Z - Phase 1 ✓ CM escalated to Provider A
+[STEP] 2026-08-24T08:26:39.910Z - Phase 2: Provider A logs in, re-escalates to Provider B with notes
+[INFO] 2026-08-24T08:26:42.773Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:26:43.332Z - Performing provider login
+[STEP] 2026-08-24T08:26:43.333Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:26:44.496Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:26:48.060Z - Login completed
+[STEP] 2026-08-24T08:26:48.067Z - Escalating top alert (search="Block") to provider matching "Anny"
+[STEP] 2026-08-24T08:26:48.067Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:26:50.487Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:26:50.487Z - Searching alerts for: Block
+[INFO] 2026-08-24T08:26:55.913Z - Search completed for: Block
+[STEP] 2026-08-24T08:26:55.913Z - Escalating alert at row 0 to provider matching "Anny"
+[STEP] 2026-08-24T08:26:55.913Z - Opening action menu for row 0
+[INFO] 2026-08-24T08:26:56.612Z - Action menu opened for row 0
+[STEP] 2026-08-24T08:26:56.612Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-08-24T08:26:57.415Z - Escalate to Provider clicked
+[INFO] 2026-08-24T08:27:00.322Z - Selected provider "Anny Vate" for search term "Anny"
+[STEP] 2026-08-24T08:27:01.568Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:27:06.541Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:27:06.541Z - Alert at row 0 escalated to "Anny Vate"
+[INFO] 2026-08-24T08:27:06.541Z - Phase 2 ✓ Provider A escalated to Provider B with notes
+[STEP] 2026-08-24T08:27:07.420Z - Phase 3: Provider B logs in, resolves alert from Monitoring view
+[INFO] 2026-08-24T08:27:09.017Z - Different user "anny123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:27:09.301Z - Performing provider login
+[STEP] 2026-08-24T08:27:09.301Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:27:10.294Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:27:18.004Z - Login completed
+[STEP] 2026-08-24T08:27:18.005Z - Opening Monitoring → RTM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:27:18.006Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:27:18.028Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:27:19.332Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:27:20.573Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:27:20.574Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:27:25.790Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:27:25.791Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:27:27.906Z - Setting date filter to today
+[INFO] 2026-08-24T08:27:27.934Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:27:29.537Z - Date filter set to: 08-24-2026
+[INFO] 2026-08-24T08:27:29.537Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:27:29.538Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:27:29.709Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:27:31.379Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:27:31.380Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:27:32.375Z - Provider filter cleared (was "Anny Vate ")
+[STEP] 2026-08-24T08:27:32.568Z - Resolving alert from Monitoring for "Block, Micheal" with note: "Provider B resolving alert with notes — aut1787559911523"
+[STEP] 2026-08-24T08:27:32.570Z - Resolving alert from action menu for: Block, Micheal
+[STEP] 2026-08-24T08:27:32.570Z - Opening action menu for: Block, Micheal
+[INFO] 2026-08-24T08:27:34.062Z - Action menu clicked for: Block, Micheal (attempt 1)
+[STEP] 2026-08-24T08:27:36.299Z - Filling resolve form and saving
+[INFO] 2026-08-24T08:27:36.304Z - Resolve drawer visible: true
+[INFO] 2026-08-24T08:27:36.339Z - Resolution note filled: "Provider B resolving alert with notes — aut1787559911523"
+[INFO] 2026-08-24T08:27:36.346Z - Clicking Resolve to open time entries section
+[INFO] 2026-08-24T08:27:38.433Z - MANUAL TIME ENTRIES form visible: true
+[INFO] 2026-08-24T08:27:39.556Z - Resolve button exists for final click: true
+[INFO] 2026-08-24T08:27:39.556Z - Using evaluate() to click Resolve button directly (bypass overlap)
+[INFO] 2026-08-24T08:27:42.609Z - Post-resolve toast: "Alert Resolved Successfully"
+[INFO] 2026-08-24T08:27:42.621Z - Post-resolve open drawers: 3
+[INFO] 2026-08-24T08:27:42.621Z - Drawer still open after resolve — dismissing
+[STEP] 2026-08-24T08:27:42.621Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:27:43.133Z - Found 2 backdrop(s) — attempting to dismiss
+[INFO] 2026-08-24T08:27:45.844Z - Drawer closed via Cancel button
+[INFO] 2026-08-24T08:27:45.844Z - Resolve form completed
+[INFO] 2026-08-24T08:27:45.844Z - Alert resolved from action for: Block, Micheal
+[INFO] 2026-08-24T08:27:45.844Z - Phase 3 ✓ Provider B resolved alert via Monitoring
+[STEP] 2026-08-24T08:27:45.844Z - Phase 4: Verify alert moves to Resolved in Monitoring view (poll for backend latency)
+[STEP] 2026-08-24T08:27:45.844Z - Opening Monitoring → RTM → Alerts (status="Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:27:45.844Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:27:45.844Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:27:46.355Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:27:46.867Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:27:46.867Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:27:47.984Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:27:47.985Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:27:49.222Z - Setting date filter to today
+[INFO] 2026-08-24T08:27:49.233Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:27:49.233Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:27:49.233Z - Setting alert status filter to: Resolved
+[INFO] 2026-08-24T08:27:49.301Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:27:51.035Z - Alert status filter set to: Resolved
+[STEP] 2026-08-24T08:27:51.035Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:27:51.061Z - No non-default Provider filter to clear
+[STEP] 2026-08-24T08:27:51.072Z - Polling for "Block, Micheal" in Monitoring → RTM → Resolved view
+[INFO] 2026-08-24T08:27:51.093Z - Phase 4 ✓ Patient appears in Resolved-filtered Monitoring view
+[INFO] 2026-08-24T08:27:51.308Z - === AUT_CROSS_004 verified: alert traversed CM → A → B → Resolved and surfaced in Monitoring ===

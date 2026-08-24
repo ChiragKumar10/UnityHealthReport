@@ -1,0 +1,38 @@
+[STEP] 2026-08-24T08:38:16.246Z - Login to Provider Portal
+[INFO] 2026-08-24T08:38:18.498Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:19.463Z - Test: Create alert → Verify appears in both Alerts page and Monitoring summary
+[STEP] 2026-08-24T08:38:19.463Z - Navigating to Monitoring Alerts (Work List > Care Team Work List > RTM > Alerts)
+[INFO] 2026-08-24T08:38:25.171Z - Navigated to Monitoring Alerts
+[INFO] 2026-08-24T08:38:25.174Z - Monitoring Alerts summary before: Alerts
+[STEP] 2026-08-24T08:38:25.174Z - Opening patient chart from global search for: Paucek, Gina
+[INFO] 2026-08-24T08:38:26.640Z - Patient chart opened from global search for: Paucek, Gina
+[STEP] 2026-08-24T08:38:26.661Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:38:27.803Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:38:27.803Z - Adding vital: Pain Scale with value 50
+[STEP] 2026-08-24T08:38:27.803Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:38:28.110Z - Add Vital form opened
+[STEP] 2026-08-24T08:38:28.111Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:38:28.347Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:38:28.348Z - Entering vital value: 50
+[INFO] 2026-08-24T08:38:28.413Z - Successfully entered vital value: 50
+[STEP] 2026-08-24T08:38:28.413Z - Saving vital
+[INFO] 2026-08-24T08:38:28.478Z - Successfully saved vital
+[INFO] 2026-08-24T08:38:28.478Z - Successfully added vital: Pain Scale with value 50
+[INFO] 2026-08-24T08:38:28.478Z - Pain Scale vital added with value: 50
+[STEP] 2026-08-24T08:38:28.479Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:38:29.957Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:38:29.958Z - Verifying alert exists for patient: Paucek, Gina
+[STEP] 2026-08-24T08:38:29.958Z - Clearing search
+[INFO] 2026-08-24T08:38:31.513Z - Search cleared
+[STEP] 2026-08-24T08:38:31.513Z - Searching alerts for: Paucek
+[INFO] 2026-08-24T08:38:33.080Z - Search completed for: Paucek
+[STEP] 2026-08-24T08:38:33.080Z - Getting alert row count
+[INFO] 2026-08-24T08:38:34.086Z - Alert row count: 1
+[STEP] 2026-08-24T08:38:34.086Z - Getting cell text at row 1, column 2
+[INFO] 2026-08-24T08:38:34.100Z - Cell text: Pain Scale
+[INFO] 2026-08-24T08:38:34.101Z - Alert type "Pain Scale" found for patient: Paucek, Gina
+[INFO] 2026-08-24T08:38:34.101Z - Alert verified on Alerts page
+[STEP] 2026-08-24T08:38:34.102Z - Navigating to Monitoring Alerts (Work List > Care Team Work List > RTM > Alerts)
+[INFO] 2026-08-24T08:38:38.307Z - Navigated to Monitoring Alerts
+[INFO] 2026-08-24T08:38:38.313Z - Monitoring Alerts summary after: 0 Alerts
+[INFO] 2026-08-24T08:38:38.314Z - Cross-feature verified: Alert visible on both Alerts page and Monitoring summary

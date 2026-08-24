@@ -1,0 +1,53 @@
+✗ Test 1 failed: locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//span[text()="Select Service"]')
+
+[ERROR] 2026-08-24T08:25:50.018Z - Test 1 failed
+locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//span[text()="Select Service"]')
+
+    at PatientManagementPage.enrollmentCreation (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/patient-management.page.ts:198:32)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/CreateNEnrollPatient.spec.ts:53:34 {
+  log: [ `  - waiting for locator('//span[text()="Select Service"]')` ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/patient-management.page.ts',
+      line: 198,
+      column: 32,
+      function: 'PatientManagementPage.enrollmentCreation'
+    },
+    category: 'pw:api',
+    title: `Click locator('//span[text()="Select Service"]')`,
+    apiName: 'locator.click',
+    params: { selector: '//span[text()="Select Service"]', strict: true },
+    group: undefined,
+    stepId: 'pw:api@63',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@63',
+      _title: `Click locator('//span[text()="Select Service"]')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787559950017,
+    error: {
+      message: 'TimeoutError: locator.click: Timeout 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('//span[text()="Select Service"]')\x1B[22m\n`,
+      stack: 'TimeoutError: locator.click: Timeout 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('//span[text()="Select Service"]')\x1B[22m\n` +
+        '\n' +
+        '    at PatientManagementPage.enrollmentCreation (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/patient-management.page.ts:198:32)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/enrollment/CreateNEnrollPatient.spec.ts:53:34',
+      cause: undefined
+    }
+  }
+}

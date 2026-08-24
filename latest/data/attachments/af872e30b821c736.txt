@@ -1,0 +1,65 @@
+[INFO] 2026-08-24T08:43:58.329Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:44:00.492Z - Test: Upload with Signature Required and Notes, verify saved correctly
+[STEP] 2026-08-24T08:44:00.493Z - Navigating to Document Library
+[INFO] 2026-08-24T08:44:02.796Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:44:02.797Z - Clicking folder: Education
+[INFO] 2026-08-24T08:44:08.029Z - Opened folder: Education
+[STEP] 2026-08-24T08:44:08.029Z - Uploading document: SigNotes 1787561048029
+[STEP] 2026-08-24T08:44:08.030Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:44:10.046Z - Upload Material form opened
+[STEP] 2026-08-24T08:44:10.046Z - Selecting tag: Education
+[INFO] 2026-08-24T08:44:11.651Z - Tag selected: Education
+[STEP] 2026-08-24T08:44:11.651Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:44:13.433Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:44:13.433Z - Filling file name: SigNotes 1787561048029
+[STEP] 2026-08-24T08:44:13.820Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/test-image.jpg
+[INFO] 2026-08-24T08:44:13.902Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:44:15.010Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/test-image.jpg
+[STEP] 2026-08-24T08:44:15.010Z - Checking Signature Required checkbox
+[INFO] 2026-08-24T08:44:15.590Z - Signature Required checked
+[STEP] 2026-08-24T08:44:15.591Z - Filling notes: SigNotesVerify-1787561048029
+[INFO] 2026-08-24T08:44:15.941Z - Notes filled
+[STEP] 2026-08-24T08:44:15.941Z - Clicking Upload button
+[INFO] 2026-08-24T08:44:15.985Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:44:19.148Z - Upload completed
+[INFO] 2026-08-24T08:44:19.149Z - Document "SigNotes 1787561048029" uploaded successfully
+[INFO] 2026-08-24T08:44:19.149Z - Step 1: Uploaded "SigNotes 1787561048029" with Signature Required + notes
+[STEP] 2026-08-24T08:44:19.149Z - Navigating to Document Library
+[INFO] 2026-08-24T08:44:20.821Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:44:20.821Z - Clicking folder: Education
+[INFO] 2026-08-24T08:44:22.456Z - Opened folder: Education
+[STEP] 2026-08-24T08:44:22.458Z - Searching document: SigNotes 1787561048029
+[INFO] 2026-08-24T08:44:24.550Z - Search completed: SigNotes 1787561048029
+[INFO] 2026-08-24T08:44:24.555Z - Step 2: Document appears in folder
+[STEP] 2026-08-24T08:44:24.555Z - Viewing document at row 0
+[STEP] 2026-08-24T08:44:24.555Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:44:25.593Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:44:25.593Z - Clicking action item: View Material
+[INFO] 2026-08-24T08:44:27.136Z - Clicked: View Material
+[INFO] 2026-08-24T08:44:30.140Z - View Material clicked
+[INFO] 2026-08-24T08:44:30.147Z - View panel visible: true
+[INFO] 2026-08-24T08:44:30.158Z - Step 3: File name + preview render verified in drawer
+[STEP] 2026-08-24T08:44:30.158Z - Closing View panel
+[INFO] 2026-08-24T08:44:31.188Z - View panel closed
+[STEP] 2026-08-24T08:44:31.189Z - Navigating to Document Library
+[INFO] 2026-08-24T08:44:32.725Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:44:32.726Z - Clicking folder: Education
+[INFO] 2026-08-24T08:44:34.353Z - Opened folder: Education
+[STEP] 2026-08-24T08:44:34.355Z - Searching document: SigNotes 1787561048029
+[INFO] 2026-08-24T08:44:36.436Z - Search completed: SigNotes 1787561048029
+[INFO] 2026-08-24T08:44:36.440Z - Step 4: Document durable after view/close cycle
+[INFO] 2026-08-24T08:44:36.440Z - AUT_DOC_025 PASSED: Signature required + notes verified
+[INFO] 2026-08-24T08:44:38.491Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:44:39.963Z - Navigating to Document Library
+[INFO] 2026-08-24T08:44:43.200Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:44:43.200Z - Clicking folder: Education
+[INFO] 2026-08-24T08:44:44.759Z - Opened folder: Education
+[STEP] 2026-08-24T08:44:44.759Z - Searching document: SigNotes 1787561048029
+[INFO] 2026-08-24T08:44:46.883Z - Search completed: SigNotes 1787561048029
+[STEP] 2026-08-24T08:44:46.884Z - Deleting document at row 0
+[STEP] 2026-08-24T08:44:46.884Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:44:47.960Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:44:47.960Z - Clicking action item: Delete
+[INFO] 2026-08-24T08:44:49.507Z - Clicked: Delete
+[INFO] 2026-08-24T08:44:49.513Z - Delete confirmation dialog opened
+[INFO] 2026-08-24T08:44:49.513Z - Cleanup: deleted "SigNotes 1787561048029"

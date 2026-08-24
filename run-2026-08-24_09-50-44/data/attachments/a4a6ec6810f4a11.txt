@@ -1,0 +1,91 @@
+[STEP] 2026-08-24T08:30:19.824Z - === AUT_CROSS_002: ICD code / Condition cross-module relationship (create + edit) ===
+[STEP] 2026-08-24T08:30:20.419Z - Step 1: Login to admin portal
+[STEP] 2026-08-24T08:30:22.869Z - Attempting to login
+[INFO] 2026-08-24T08:30:24.660Z - Login attempt completed
+[INFO] 2026-08-24T08:30:24.660Z - Admin logged in
+[STEP] 2026-08-24T08:30:24.660Z - Step 2: Navigate to Library → Conditions
+[STEP] 2026-08-24T08:30:24.661Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:30:28.100Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:30:28.100Z - Step 3: Add a new condition (ICD "R91163", name "Condition-orig-aut1565-1787560219116")
+[STEP] 2026-08-24T08:30:28.100Z - Clicking Add Condition button
+[INFO] 2026-08-24T08:30:29.822Z - Add Condition form opened
+[STEP] 2026-08-24T08:30:29.822Z - Entering ICD Code: R91163
+[INFO] 2026-08-24T08:30:30.479Z - ICD Code entered: R91163
+[STEP] 2026-08-24T08:30:30.480Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-08-24T08:30:31.977Z - ICD Code Type selected: ICD 10 
+[STEP] 2026-08-24T08:30:31.978Z - Entering Condition Name: Condition-orig-aut1565-1787560219116
+[INFO] 2026-08-24T08:30:32.641Z - Condition Name entered: Condition-orig-aut1565-1787560219116
+[STEP] 2026-08-24T08:30:32.641Z - Entering Description: Automated test description - aut1565
+[INFO] 2026-08-24T08:30:33.262Z - Description entered: Automated test description - aut1565
+[STEP] 2026-08-24T08:30:33.264Z - Clicking Save button
+[INFO] 2026-08-24T08:30:34.439Z - Save button clicked
+[STEP] 2026-08-24T08:30:34.439Z - Step 4: Verify the new condition is visible in the admin Library list
+[STEP] 2026-08-24T08:30:34.439Z - Searching for condition: R91163
+[INFO] 2026-08-24T08:30:35.647Z - Search completed for: R91163
+[STEP] 2026-08-24T08:30:35.649Z - Verifying condition "R91163" in list
+[INFO] 2026-08-24T08:30:35.679Z - Condition "R91163" is visible in list
+[INFO] 2026-08-24T08:30:35.679Z - Admin-side condition with ICD "R91163" created and verified
+[STEP] 2026-08-24T08:30:36.350Z - Step 5: Login to provider portal
+[INFO] 2026-08-24T08:30:41.512Z - Reusing single saved provider session — no login performed
+[INFO] 2026-08-24T08:30:41.516Z - Provider logged in
+[STEP] 2026-08-24T08:30:41.522Z - Step 6: Navigate to Enrollments → open Add Enrollment form
+[STEP] 2026-08-24T08:30:41.522Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:58.954Z - Navigated to Enrollment section
+[INFO] 2026-08-24T08:30:59.876Z - Add Enrollment form opened
+[STEP] 2026-08-24T08:30:59.877Z - Step 7: Open the Condition/Diagnoses dropdown and verify ICD "R91163" is present
+[INFO] 2026-08-24T08:31:01.374Z - ICD "R91163" verified in provider Enrollment Condition dropdown
+[STEP] 2026-08-24T08:31:01.712Z - Step 8: Navigate to CCM Library → Care Plan section
+[STEP] 2026-08-24T08:31:01.713Z - Opening CCM Library
+[INFO] 2026-08-24T08:31:02.945Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:31:02.945Z - Opening Care Plan section
+[INFO] 2026-08-24T08:31:04.138Z - Successfully opened Care Plan section
+[INFO] 2026-08-24T08:31:04.138Z - On Care Plan list page
+[STEP] 2026-08-24T08:31:04.138Z - Step 9: Click Create Care Plan and search for ICD "R91163" in Diagnosis Codes dropdown
+[STEP] 2026-08-24T08:31:04.138Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:31:06.724Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:31:06.724Z - Selecting diagnosis code: R91163
+[INFO] 2026-08-24T08:31:09.953Z - Diagnosis code 'R91163' selected
+[INFO] 2026-08-24T08:31:09.954Z - ✓ Admin-created ICD "R91163" appears in provider Care Plan Diagnosis Codes dropdown and is selectable
+[STEP] 2026-08-24T08:31:09.954Z - Clicking Cancel button
+[INFO] 2026-08-24T08:31:11.303Z - Cancel button clicked
+[STEP] 2026-08-24T08:31:11.745Z - Step 10: Re-login to admin and edit the condition — change name "Condition-orig-aut1565-1787560219116" → "Condition-edited-aut1565-1787560219116"
+[STEP] 2026-08-24T08:31:14.971Z - Attempting to login
+[INFO] 2026-08-24T08:31:16.295Z - Login attempt completed
+[STEP] 2026-08-24T08:31:16.295Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:31:19.366Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:31:19.366Z - Searching for condition: R91163
+[INFO] 2026-08-24T08:31:20.704Z - Search completed for: R91163
+[STEP] 2026-08-24T08:31:20.704Z - Opening action menu
+[INFO] 2026-08-24T08:31:21.764Z - Action menu opened
+[STEP] 2026-08-24T08:31:21.764Z - Clicking Edit in action menu
+[INFO] 2026-08-24T08:31:23.099Z - Edit mode opened
+[STEP] 2026-08-24T08:31:23.099Z - Entering Condition Name: Condition-edited-aut1565-1787560219116
+[INFO] 2026-08-24T08:31:23.732Z - Condition Name entered: Condition-edited-aut1565-1787560219116
+[STEP] 2026-08-24T08:31:23.733Z - Clicking Save button
+[INFO] 2026-08-24T08:31:24.994Z - Save button clicked
+[INFO] 2026-08-24T08:31:24.994Z - Admin condition name edited: "Condition-orig-aut1565-1787560219116" → "Condition-edited-aut1565-1787560219116"
+[STEP] 2026-08-24T08:31:24.994Z - Step 11: Verify the edited condition is still indexed by the same ICD in the admin list
+[STEP] 2026-08-24T08:31:24.994Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:31:26.536Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:31:26.536Z - Searching for condition: R91163
+[INFO] 2026-08-24T08:31:27.873Z - Search completed for: R91163
+[STEP] 2026-08-24T08:31:27.873Z - Verifying condition "R91163" in list
+[INFO] 2026-08-24T08:31:27.902Z - Condition "R91163" is visible in list
+[STEP] 2026-08-24T08:31:28.072Z - Step 12: Re-login to provider and verify the EDITED name propagated to the Enrollment dropdown
+[INFO] 2026-08-24T08:31:32.613Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:32.622Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:49.749Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:04.540Z - afterAll: Cleanup — attempt to delete admin condition "R91163"
+[STEP] 2026-08-24T08:32:06.848Z - Attempting to login
+[INFO] 2026-08-24T08:32:08.069Z - Login attempt completed
+[STEP] 2026-08-24T08:32:08.069Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:32:10.531Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:32:10.531Z - Searching for condition: R91163
+[INFO] 2026-08-24T08:32:12.028Z - Search completed for: R91163
+[STEP] 2026-08-24T08:32:12.028Z - Opening action menu
+[INFO] 2026-08-24T08:32:12.744Z - Action menu opened
+[STEP] 2026-08-24T08:32:12.744Z - Clicking Delete in action menu
+[INFO] 2026-08-24T08:32:42.756Z - Cleanup could not delete admin condition "R91163" — locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Delete' })
+

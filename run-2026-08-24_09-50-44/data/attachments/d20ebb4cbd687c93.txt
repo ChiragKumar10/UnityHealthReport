@@ -1,0 +1,28 @@
+[STEP] 2026-08-24T08:47:46.743Z - Login to Provider Portal
+[INFO] 2026-08-24T08:47:48.579Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:47:50.002Z - Test: Verify reminder task details in list
+[STEP] 2026-08-24T08:47:50.002Z - Navigating to Task page
+[INFO] 2026-08-24T08:47:53.053Z - Navigated to Task page
+[STEP] 2026-08-24T08:47:53.053Z - Creating task with reminder: ReminderContent 1787561273053
+[STEP] 2026-08-24T08:47:53.053Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:47:54.101Z - Add Task form opened
+[STEP] 2026-08-24T08:48:07.468Z - Selecting "Email" from combobox index 7
+[INFO] 2026-08-24T08:48:08.869Z - Selected "Email" from combobox 7
+[STEP] 2026-08-24T08:48:08.869Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:48:10.272Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:48:13.714Z - Task "ReminderContent 1787561273053" with reminder created successfully
+[STEP] 2026-08-24T08:48:13.714Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:48:15.301Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:48:15.301Z - Setting status filter to: All
+[INFO] 2026-08-24T08:48:15.465Z - Status filter set to: All
+[STEP] 2026-08-24T08:48:15.465Z - Searching for: ReminderContent 1787561273053
+[INFO] 2026-08-24T08:48:15.900Z - Search completed for: ReminderContent 1787561273053
+[STEP] 2026-08-24T08:48:15.900Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:48:16.904Z - TASK values: ReminderContent 1787561273053
+[STEP] 2026-08-24T08:48:16.905Z - Fetching column values for: DUE DATE
+[INFO] 2026-08-24T08:48:17.909Z - DUE DATE values: 09/03/2026
+[STEP] 2026-08-24T08:48:17.910Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:48:18.914Z - TASK STATUS values: ToDo
+[STEP] 2026-08-24T08:48:18.915Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:48:19.921Z - ASSIGNED TO values: Anny Vate
+[INFO] 2026-08-24T08:48:19.922Z - Reminder task content verified: name=ReminderContent 1787561273053, date=09/03/2026, status=ToDo

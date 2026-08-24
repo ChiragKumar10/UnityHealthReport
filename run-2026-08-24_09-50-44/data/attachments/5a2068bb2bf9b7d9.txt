@@ -1,0 +1,54 @@
+[INFO] 2026-08-24T08:29:53.749Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:55.223Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:29:55.224Z - Creating patient via UI: Schaden, Keshawn
+[STEP] 2026-08-24T08:29:55.224Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:29:57.430Z - Patient details drawer opened
+[STEP] 2026-08-24T08:29:57.431Z - Filling demographics for Keshawn Schaden
+[STEP] 2026-08-24T08:30:00.181Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:30:00.476Z - Setting location: Automation
+[STEP] 2026-08-24T08:30:00.897Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:30:01.507Z - Clicking Save & Next
+[INFO] 2026-08-24T08:30:06.984Z - [createPatientViaUI] created "Schaden, Keshawn"
+[STEP] 2026-08-24T08:30:06.984Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:22.115Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:22.115Z - Adding new enrollment
+[INFO] 2026-08-24T08:30:26.162Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:30:28.002Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:30:28.003Z - Patient: Schaden, Keshawn | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:29.030Z - Validating enrollment result
+[INFO] 2026-08-24T08:30:29.030Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:30:29.030Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:30:29.030Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:30:29.049Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:30:29.049Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:30:29.049Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:30:29.049Z - Final enrollment details:
+[INFO] 2026-08-24T08:30:29.049Z -   Patient: Schaden, Keshawn
+[INFO] 2026-08-24T08:30:29.049Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:30:29.049Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:30:29.049Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:30:29.049Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:30:29.049Z - Enrolled Schaden, Keshawn in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:29.049Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:44.344Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:44.344Z - Applying status filter: New
+[STEP] 2026-08-24T08:30:44.962Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:46.117Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:30:46.117Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:30:46.705Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:48.274Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:30:48.274Z - Moving enrollment to Active for "Schaden" (CCM)
+[STEP] 2026-08-24T08:30:48.274Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:48.274Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:48.793Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:48.793Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:50.227Z - "Move to Active" confirmed for "Schaden"
+[INFO] 2026-08-24T08:30:50.227Z - Moved Schaden, Keshawn to Active
+[STEP] 2026-08-24T08:30:50.227Z - Starting patient chat test
+[STEP] 2026-08-24T08:30:50.227Z - Opening patient chart from global search for: Schaden, Keshawn
+[INFO] 2026-08-24T08:30:53.159Z - Patient chart opened from global search for: Schaden, Keshawn
+[STEP] 2026-08-24T08:30:53.210Z - Sending chat message: Hello, this is a test message
+[INFO] 2026-08-24T08:30:57.612Z - Message sent successfully
+[INFO] 2026-08-24T08:30:57.612Z - Patient chat test completed successfully

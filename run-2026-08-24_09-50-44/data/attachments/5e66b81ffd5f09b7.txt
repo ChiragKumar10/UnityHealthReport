@@ -1,0 +1,124 @@
+[INFO] 2026-08-24T08:39:56.465Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:39:56.430+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:39:57.242Z - Login to Provider Portal
+[INFO] 2026-08-24T08:40:00.914Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:00.938Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:40:01.024Z - Creating patient via UI: Klocko, Kendall
+[STEP] 2026-08-24T08:40:01.025Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:40:05.114Z - Patient details drawer opened
+[STEP] 2026-08-24T08:40:05.114Z - Filling demographics for Kendall Klocko
+[STEP] 2026-08-24T08:40:12.427Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:40:15.472Z - Setting location: Automation
+[STEP] 2026-08-24T08:40:16.304Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:40:17.745Z - Clicking Save & Next
+[INFO] 2026-08-24T08:40:21.503Z - [createPatientViaUI] created "Klocko, Kendall"
+[STEP] 2026-08-24T08:40:21.503Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:36.886Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:36.888Z - Adding new enrollment
+[INFO] 2026-08-24T08:40:40.392Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:40:42.224Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:40:42.225Z - Patient: Klocko, Kendall | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:40:43.423Z - Validating enrollment result
+[INFO] 2026-08-24T08:40:43.425Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:40:43.425Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:40:43.425Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:40:43.586Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:40:43.586Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:40:43.586Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:40:43.586Z - Final enrollment details:
+[INFO] 2026-08-24T08:40:43.586Z -   Patient: Klocko, Kendall
+[INFO] 2026-08-24T08:40:43.586Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:40:43.586Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:40:43.586Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:40:43.586Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:40:43.586Z - Enrolled Klocko, Kendall in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:40:43.586Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:40:58.887Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:40:58.887Z - Applying status filter: New
+[STEP] 2026-08-24T08:40:59.290Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:40:59.846Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:40:59.846Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:41:00.216Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:00.857Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:41:00.866Z - Moving enrollment to Active for "Klocko" (RTM)
+[STEP] 2026-08-24T08:41:00.867Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:41:00.868Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:41:01.293Z - Date filter applied successfully
+[STEP] 2026-08-24T08:41:01.293Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:41:02.365Z - "Move to Active" confirmed for "Klocko"
+[INFO] 2026-08-24T08:41:02.365Z - Moved Klocko, Kendall to Active
+[INFO] 2026-08-24T08:41:02.365Z - [monitoring-03] seeded ACTIVE RTM patient: Klocko, Kendall
+[STEP] 2026-08-24T08:41:02.366Z - Opening patient chart from global search for: Klocko, Kendall
+[INFO] 2026-08-24T08:41:05.005Z - Patient chart opened from global search for: Klocko, Kendall
+[STEP] 2026-08-24T08:41:08.438Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:41:08.920Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:41:08.921Z - Adding vital: Pain Scale with value 18
+[STEP] 2026-08-24T08:41:08.923Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:41:09.439Z - Add Vital form opened
+[STEP] 2026-08-24T08:41:09.439Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:41:10.294Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:41:10.297Z - Entering vital value: 18
+[INFO] 2026-08-24T08:41:10.437Z - Successfully entered vital value: 18
+[STEP] 2026-08-24T08:41:10.439Z - Saving vital
+[INFO] 2026-08-24T08:41:10.633Z - Successfully saved vital
+[INFO] 2026-08-24T08:41:10.633Z - Successfully added vital: Pain Scale with value 18
+[INFO] 2026-08-24T08:41:10.633Z - beforeEach: Abnormal Pain Scale (18) added for Klocko, Kendall — polling Alerts counter
+[STEP] 2026-08-24T08:41:10.665Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:41:10.668Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:41:11.506Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:41:11.552Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:41:16.931Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:41:23.795Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:41:23.798Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:41:25.356Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:41:25.359Z - Getting count for Alerts
+[INFO] 2026-08-24T08:41:25.377Z - Alerts count: 0
+[STEP] 2026-08-24T08:41:30.385Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:41:30.385Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:41:30.891Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:41:31.399Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:41:31.399Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:41:32.426Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:41:32.426Z - Getting count for Alerts
+[INFO] 2026-08-24T08:41:32.434Z - Alerts count: 0
+[STEP] 2026-08-24T08:41:40.437Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:41:40.437Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:41:40.951Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:41:41.461Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:41:41.461Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:41:42.513Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:41:42.513Z - Getting count for Alerts
+[INFO] 2026-08-24T08:41:42.520Z - Alerts count: 0
+[STEP] 2026-08-24T08:41:52.521Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:41:52.522Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:41:53.030Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:41:53.541Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:41:53.541Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:41:54.594Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:41:54.594Z - Getting count for Alerts
+[INFO] 2026-08-24T08:41:54.602Z - Alerts count: 0
+[STEP] 2026-08-24T08:42:04.604Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:42:04.604Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:42:05.114Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:42:05.623Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:42:05.623Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:42:06.667Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:42:06.667Z - Getting count for Alerts
+[INFO] 2026-08-24T08:42:06.676Z - Alerts count: 0
+[STEP] 2026-08-24T08:42:16.678Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:42:16.678Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:42:17.205Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:42:17.726Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:42:17.726Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:42:18.777Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:42:18.777Z - Getting count for Alerts
+[INFO] 2026-08-24T08:42:18.785Z - Alerts count: 0
+[STEP] 2026-08-24T08:42:28.788Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:42:28.788Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:42:29.296Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:42:29.806Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:42:29.807Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:42:30.850Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:42:30.850Z - Getting count for Alerts
+[INFO] 2026-08-24T08:42:30.878Z - Alerts count: 0

@@ -1,0 +1,41 @@
+[STEP] 2026-08-24T08:42:52.423Z - Login to Provider Portal
+[INFO] 2026-08-24T08:42:56.498Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:42:56.506Z - Test: Verify edit page pre-filled data
+[STEP] 2026-08-24T08:42:56.506Z - Navigating to Task page
+[INFO] 2026-08-24T08:43:06.428Z - Navigated to Task page
+[INFO] 2026-08-24T08:43:07.909Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:43:07.909Z - Creating task: PreFilled 1787560986428
+[STEP] 2026-08-24T08:43:07.909Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:43:11.151Z - Add Task form opened
+[INFO] 2026-08-24T08:43:29.519Z - Task "PreFilled 1787560986428" created successfully
+[STEP] 2026-08-24T08:43:29.519Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:43:31.322Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:43:31.322Z - Setting status filter to: All
+[INFO] 2026-08-24T08:43:31.764Z - Status filter set to: All
+[STEP] 2026-08-24T08:43:31.765Z - Searching for: PreFilled 1787560986428
+[INFO] 2026-08-24T08:43:32.275Z - Search completed for: PreFilled 1787560986428
+[STEP] 2026-08-24T08:43:32.276Z - Fetching column values for: SERVICE
+[INFO] 2026-08-24T08:43:33.291Z - SERVICE values: RPM
+[STEP] 2026-08-24T08:43:33.293Z - Fetching column values for: PRIORITY
+[INFO] 2026-08-24T08:43:34.312Z - PRIORITY values: MEDIUM
+[STEP] 2026-08-24T08:43:34.312Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:43:35.326Z - ASSIGNED TO values: Jemes Cory
+[STEP] 2026-08-24T08:43:35.326Z - Fetching column values for: DUE DATE
+[INFO] 2026-08-24T08:43:36.336Z - DUE DATE values: 08/31/2026
+[INFO] 2026-08-24T08:43:36.336Z - List values — Service: RPM, Priority: MEDIUM, Assigned: Jemes Cory, Due: 08/31/2026
+[STEP] 2026-08-24T08:43:36.337Z - Opening Edit Task form
+[STEP] 2026-08-24T08:43:36.337Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:43:37.482Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:43:37.482Z - Clicking action menu item: Edit
+[INFO] 2026-08-24T08:43:39.193Z - Clicked: Edit
+[INFO] 2026-08-24T08:43:39.213Z - Edit Task form opened
+[STEP] 2026-08-24T08:43:39.233Z - Reading all edit form pre-filled values
+[INFO] 2026-08-24T08:43:39.291Z - Edit form values: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"PreFilled 1787560986428","assignee":"Jemes Cory ","priority":"MEDIUM","dueDate":"31 August 2026 ","note":"Prefill test note"}
+[INFO] 2026-08-24T08:43:39.292Z - Service: RPM ✓
+[INFO] 2026-08-24T08:43:39.295Z - Patient: Charlotte Beahan  ✓
+[INFO] 2026-08-24T08:43:39.303Z - Action: CALL ✓
+[INFO] 2026-08-24T08:43:39.307Z - Task Name: PreFilled 1787560986428 ✓
+[INFO] 2026-08-24T08:43:39.311Z - Assignee: Jemes Cory  ✓
+[INFO] 2026-08-24T08:43:39.317Z - Priority: MEDIUM ✓
+[INFO] 2026-08-24T08:43:39.319Z - Due Date: 31 August 2026  ✓
+[INFO] 2026-08-24T08:43:39.319Z - All edit form fields are pre-filled correctly

@@ -1,0 +1,38 @@
+[STEP] 2026-08-24T08:33:21.295Z - Login to Provider Portal
+[INFO] 2026-08-24T08:33:25.911Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:33:25.925Z - Test: Verify resolved task shows Done status
+[STEP] 2026-08-24T08:33:25.925Z - Navigating to Task page
+[INFO] 2026-08-24T08:33:30.879Z - Navigated to Task page
+[STEP] 2026-08-24T08:33:30.879Z - Creating task: ResolveStatus 1787560410879
+[STEP] 2026-08-24T08:33:30.879Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:33:34.641Z - Add Task form opened
+[INFO] 2026-08-24T08:33:53.802Z - Task "ResolveStatus 1787560410879" created successfully
+[STEP] 2026-08-24T08:33:53.802Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:33:55.619Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:33:55.619Z - Setting status filter to: All
+[INFO] 2026-08-24T08:34:04.348Z - Status filter set to: All
+[STEP] 2026-08-24T08:34:04.355Z - Searching for: ResolveStatus 1787560410879
+[INFO] 2026-08-24T08:34:04.970Z - Search completed for: ResolveStatus 1787560410879
+[STEP] 2026-08-24T08:34:04.971Z - Resolving task
+[STEP] 2026-08-24T08:34:04.971Z - Opening Resolve Task dialog
+[STEP] 2026-08-24T08:34:04.972Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:34:06.169Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:34:06.169Z - Clicking action menu item: Resolve
+[INFO] 2026-08-24T08:34:07.872Z - Clicked: Resolve
+[INFO] 2026-08-24T08:34:07.887Z - Resolve Task dialog opened
+[STEP] 2026-08-24T08:34:07.887Z - Filling resolve note: Resolution note for status verification
+[STEP] 2026-08-24T08:34:08.257Z - Clicking Resolve button in dialog
+[INFO] 2026-08-24T08:34:12.396Z - Resolve button clicked. Drawer closed: true
+[STEP] 2026-08-24T08:34:12.397Z - Navigating to Task page
+[INFO] 2026-08-24T08:34:12.673Z - Navigated to Task page
+[STEP] 2026-08-24T08:34:12.673Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:34:12.711Z - My Tasks filter already unchecked
+[STEP] 2026-08-24T08:34:12.711Z - Setting status filter to: Done
+[INFO] 2026-08-24T08:34:13.488Z - Status filter set to: Done
+[STEP] 2026-08-24T08:34:13.488Z - Searching for: ResolveStatus 1787560410879
+[INFO] 2026-08-24T08:34:13.871Z - Search completed for: ResolveStatus 1787560410879
+[STEP] 2026-08-24T08:34:13.871Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:34:14.895Z - TASK values: ResolveStatus 1787560410879
+[STEP] 2026-08-24T08:34:14.904Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:34:15.919Z - TASK STATUS values: Done
+[INFO] 2026-08-24T08:34:15.924Z - Resolved task "ResolveStatus 1787560410879" verified under Done filter: Done

@@ -1,0 +1,50 @@
+[INFO] 2026-08-24T08:38:04.390Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:04.399Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:38:04.400Z - Creating patient via UI: Beatty, Electa
+[STEP] 2026-08-24T08:38:04.400Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:38:07.687Z - Patient details drawer opened
+[STEP] 2026-08-24T08:38:07.687Z - Filling demographics for Electa Beatty
+[STEP] 2026-08-24T08:38:17.561Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:38:21.766Z - Setting location: Automation
+[STEP] 2026-08-24T08:38:22.978Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:38:24.278Z - Clicking Save & Next
+[INFO] 2026-08-24T08:38:28.401Z - [createPatientViaUI] created "Beatty, Electa"
+[STEP] 2026-08-24T08:38:28.401Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:38:43.771Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:38:43.772Z - Adding new enrollment
+[INFO] 2026-08-24T08:38:49.654Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:38:52.175Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:38:52.175Z - Patient: Beatty, Electa | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:38:53.519Z - Validating enrollment result
+[INFO] 2026-08-24T08:38:53.519Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:38:53.519Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:38:53.519Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:38:53.971Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:38:53.971Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:38:53.971Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:38:53.972Z - Final enrollment details:
+[INFO] 2026-08-24T08:38:53.972Z -   Patient: Beatty, Electa
+[INFO] 2026-08-24T08:38:53.972Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:38:53.975Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:38:53.975Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:38:53.975Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:38:53.976Z - Enrolled Beatty, Electa in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:38:53.976Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:09.785Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:09.785Z - Applying status filter: New
+[STEP] 2026-08-24T08:39:10.486Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:11.407Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:39:11.409Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:39:12.154Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:12.739Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:39:12.739Z - Moving enrollment to Active for "Beatty" (RPM)
+[STEP] 2026-08-24T08:39:12.740Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:39:12.740Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:39:13.245Z - Date filter applied successfully
+[STEP] 2026-08-24T08:39:13.245Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:14.629Z - "Move to Active" confirmed for "Beatty"
+[INFO] 2026-08-24T08:39:14.629Z - Moved Beatty, Electa to Active
+[STEP] 2026-08-24T08:39:14.629Z - Opening patient chart from global search for: Beatty, Electa
+[INFO] 2026-08-24T08:39:17.659Z - Patient chart opened from global search for: Beatty, Electa

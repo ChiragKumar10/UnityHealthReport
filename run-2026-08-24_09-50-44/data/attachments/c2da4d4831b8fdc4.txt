@@ -1,0 +1,88 @@
+[STEP] 2026-08-24T08:33:30.063Z - Setup: login → patient chart → RTM → Monitoring
+[INFO] 2026-08-24T08:33:34.105Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:33:34.112Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:33:34.113Z - Creating patient via UI: OKon, Willie
+[STEP] 2026-08-24T08:33:34.113Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:33:37.346Z - Patient details drawer opened
+[STEP] 2026-08-24T08:33:37.346Z - Filling demographics for Willie OKon
+[STEP] 2026-08-24T08:33:42.483Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:33:47.296Z - Setting location: Automation
+[STEP] 2026-08-24T08:33:48.570Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:33:50.224Z - Clicking Save & Next
+[INFO] 2026-08-24T08:33:54.815Z - [createPatientViaUI] created "OKon, Willie"
+[STEP] 2026-08-24T08:33:54.815Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:34:10.051Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:34:10.051Z - Adding new enrollment
+[INFO] 2026-08-24T08:34:14.025Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:34:16.198Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:34:16.198Z - Patient: OKon, Willie | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:34:17.753Z - Validating enrollment result
+[INFO] 2026-08-24T08:34:17.753Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:34:17.753Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:34:17.753Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:34:18.177Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:34:18.177Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:34:18.177Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:34:18.177Z - Final enrollment details:
+[INFO] 2026-08-24T08:34:18.178Z -   Patient: OKon, Willie
+[INFO] 2026-08-24T08:34:18.178Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:34:18.178Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:34:18.178Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:34:18.178Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:34:18.178Z - Enrolled OKon, Willie in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:34:18.178Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:34:33.883Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:34:33.883Z - Applying status filter: New
+[STEP] 2026-08-24T08:34:34.303Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:34.878Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:34:34.879Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:34:35.266Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:36.286Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:34:36.286Z - Moving enrollment to Active for "OKon" (RTM)
+[STEP] 2026-08-24T08:34:36.286Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:34:36.286Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:34:36.480Z - Date filter applied successfully
+[STEP] 2026-08-24T08:34:36.480Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:37.503Z - "Move to Active" confirmed for "OKon"
+[INFO] 2026-08-24T08:34:37.503Z - Moved OKon, Willie to Active
+[STEP] 2026-08-24T08:34:37.503Z - Opening patient chart from global search for: OKon, Willie
+[INFO] 2026-08-24T08:34:39.553Z - Patient chart opened from global search for: OKon, Willie
+[INFO] 2026-08-24T08:34:41.116Z - Setup ✓: on RTM Monitoring view
+[INFO] 2026-08-24T08:34:41.136Z - Scenario 1 ✓: patient profile fully displayed
+[INFO] 2026-08-24T08:34:41.151Z - Scenario 2 ✓: reading-days progress bar present
+[INFO] 2026-08-24T08:34:41.184Z - Scenario 3 ✓: interaction thresholds present (Total-Time + numeric marks)
+[INFO] 2026-08-24T08:34:41.205Z - Scenario 4 ✓: interaction bucket fill visible (TOTAL TIME: 00:00)
+[INFO] 2026-08-24T08:34:41.249Z - Scenario 5 ✓: month cycle present (Aug 2026)
+[INFO] 2026-08-24T08:34:46.025Z - Scenario 6 ✓: text message composed + send attempted via drawer
+[INFO] 2026-08-24T08:34:46.070Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-08-24T08:34:46.070Z - Opening patient chart from global search for: OKon, Willie
+[INFO] 2026-08-24T08:35:26.264Z - Scenario 7 ✓: App Chat channel affordance present on timeline
+[INFO] 2026-08-24T08:35:36.053Z - Scenario 8 ✓: attachment submitted with message
+[INFO] 2026-08-24T08:35:38.991Z - Scenario 9 ✓: Response Library template flow completed
+[INFO] 2026-08-24T08:35:39.446Z - Scenario 11 ✓: Latest Reading exposes all 9 required columns
+[INFO] 2026-08-24T08:35:39.517Z - Scenarios 10/12 note: no REVIEW checkbox found — skipping
+[INFO] 2026-08-24T08:35:39.518Z - Scenario 13 skipped (REVIEW NOTE drawer interaction excluded)
+[INFO] 2026-08-24T08:35:39.592Z - Scenario 14 ✓: View All Data affordance present
+[INFO] 2026-08-24T08:35:39.918Z - Scenario 15 ✓: Add Data form opened
+[INFO] 2026-08-24T08:35:40.324Z - Scenario 16 skipped (manual time entry form excluded from automation)
+[INFO] 2026-08-24T08:35:40.513Z - Scenarios 17-19 ✓: Interaction bar ok — TOTAL TIME: 05:00
+[INFO] 2026-08-24T08:35:40.625Z - Scenario 20 ✓: logged-time viewer triggered
+[INFO] 2026-08-24T08:35:41.173Z - Scenario 21 ✓: time-entry delete flow completed
+[INFO] 2026-08-24T08:35:41.450Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-08-24T08:35:41.450Z - Opening patient chart from global search for: OKon, Willie
+[INFO] 2026-08-24T08:36:22.572Z - Scenario 22 ✓: global comment added ("PW-Mon comment 1787560541300")
+[INFO] 2026-08-24T08:36:22.861Z - Scenario 23 note: no edit pencil on comments — skipping
+[INFO] 2026-08-24T08:36:23.644Z - Scenario 24 ✓: delete comment flow completed
+[INFO] 2026-08-24T08:36:23.644Z - Scenarios 25-26: covered by AUT_PT_MON_ALERT_001 in patient-monitoring-alert-workflow.spec.ts
+[INFO] 2026-08-24T08:36:23.876Z - ensureOnMonitoring: not on Monitoring — re-navigating
+[STEP] 2026-08-24T08:36:23.878Z - Opening patient chart from global search for: OKon, Willie
+[INFO] 2026-08-24T08:37:20.016Z - Scenarios 27-28 ✓: escalation submitted
+[INFO] 2026-08-24T08:37:28.079Z - Scenarios 29-30 ✓: Assign Enrollment triggered (url=https://playwrightautomation.stage.unityhealthwallet.com/provider/patient/6b25ff80-66da-4ef1-95f1-015e4366c4db)
+[INFO] 2026-08-24T08:37:28.115Z - Scenarios 31-32 skipped (Add Note Summary form excluded from automation)
+[STEP] 2026-08-24T08:37:28.120Z - Opening patient chart from global search for: OKon, Willie
+[INFO] 2026-08-24T08:37:30.111Z - Patient chart opened from global search for: OKon, Willie
+[INFO] 2026-08-24T08:37:31.067Z - Scenario 33 ✓: Profile edit affordance present (pencil adjacent to Profile pill)
+[INFO] 2026-08-24T08:37:31.460Z - Scenario 34 ✓: Text Message affordance reachable from Profile area
+[INFO] 2026-08-24T08:37:31.460Z - AUT_PT_MON_001 PASSED — Patient Monitoring workflow verified

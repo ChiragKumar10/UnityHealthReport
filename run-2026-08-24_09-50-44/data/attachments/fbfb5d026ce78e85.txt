@@ -1,0 +1,232 @@
+[ERROR] 2026-08-24T08:34:19.767Z - Failed to verify "Update EHR Chart" for: Streich, Janie
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible
+
+    at WeekInteractionPage.verifyActivityCompleted (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:726:23)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:115:54 {
+  log: [
+    "  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible"
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 726,
+      column: 23,
+      function: 'WeekInteractionPage.verifyActivityCompleted'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Streich, Janie"s >> xpath=ancestor::div[count(*) > 5][1]',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@56',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@56',
+      _title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560459767,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.verifyActivityCompleted (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:726:23)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:115:54',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-08-24T08:34:29.820Z - Failed to get time logged for: Streich, Janie
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible
+
+    at WeekInteractionPage.getTotalTimeLogged (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:771:23)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:116:50 {
+  log: [
+    "  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible"
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 771,
+      column: 23,
+      function: 'WeekInteractionPage.getTotalTimeLogged'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Streich, Janie"s >> xpath=ancestor::div[count(*) > 5][1]',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@57',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@57',
+      _title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560469819,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.getTotalTimeLogged (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:771:23)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:116:50',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-08-24T08:34:40.660Z - Failed to click "Update EHR Chart" checkbox for: Streich, Janie
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible
+
+    at WeekInteractionPage.clickActivityCheckbox (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:633:23)
+    at WeekInteractionPage.performActivityWorkflow (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:710:24)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:118:9 {
+  log: [
+    "  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible"
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 633,
+      column: 23,
+      function: 'WeekInteractionPage.clickActivityCheckbox'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Streich, Janie"s >> xpath=ancestor::div[count(*) > 5][1]',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@69',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@69',
+      _title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560480659,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.clickActivityCheckbox (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:633:23)\n' +
+        '    at WeekInteractionPage.performActivityWorkflow (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:710:24)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:118:9',
+      cause: undefined
+    }
+  }
+}
+[ERROR] 2026-08-24T08:34:40.663Z - Failed activity workflow "Update EHR Chart" for: Streich, Janie
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible
+
+    at WeekInteractionPage.clickActivityCheckbox (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:633:23)
+    at WeekInteractionPage.performActivityWorkflow (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:710:24)
+    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:118:9 {
+  log: [
+    "  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible"
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: '/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts',
+      line: 633,
+      column: 23,
+      function: 'WeekInteractionPage.clickActivityCheckbox'
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Streich, Janie"s >> xpath=ancestor::div[count(*) > 5][1]',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@69',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@69',
+      _title: "Wait for selector getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1787560480659,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Streich, Janie', { exact: true }).locator('xpath=ancestor::div[count(*) > 5][1]') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at WeekInteractionPage.clickActivityCheckbox (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:633:23)\n' +
+        '    at WeekInteractionPage.performActivityWorkflow (/__w/Unity-Health-Automation/Unity-Health-Automation/pages/web/provider-portal/care-team-worklist/week-interaction.page.ts:710:24)\n' +
+        '    at /__w/Unity-Health-Automation/Unity-Health-Automation/tests/web/provider-portal/care-team-worklist/interaction-week1.spec.ts:118:9',
+      cause: undefined
+    }
+  }
+}

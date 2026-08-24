@@ -1,0 +1,119 @@
+[STEP] 2026-08-24T08:29:06.872Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-08-24T08:29:06.874Z - Logging in and navigating to Enrollment section
+[INFO] 2026-08-24T08:29:09.520Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:09.520Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:29:09.629Z - Creating patient via UI: Zieme, Dawn
+[STEP] 2026-08-24T08:29:09.630Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:29:11.010Z - Patient details drawer opened
+[STEP] 2026-08-24T08:29:11.011Z - Filling demographics for Dawn Zieme
+[STEP] 2026-08-24T08:29:13.390Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:29:18.996Z - Setting location: Automation
+[STEP] 2026-08-24T08:29:20.601Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:29:22.329Z - Clicking Save & Next
+[INFO] 2026-08-24T08:29:27.014Z - [createPatientViaUI] created "Zieme, Dawn"
+[STEP] 2026-08-24T08:29:27.014Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:29:42.325Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:29:42.326Z - Adding new enrollment
+[INFO] 2026-08-24T08:29:47.966Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:29:49.732Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:29:49.733Z - Patient: Zieme, Dawn | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:29:50.699Z - Validating enrollment result
+[INFO] 2026-08-24T08:29:50.699Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:29:50.699Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:29:50.699Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:29:50.906Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:29:50.907Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:29:50.907Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:29:50.907Z - Final enrollment details:
+[INFO] 2026-08-24T08:29:50.907Z -   Patient: Zieme, Dawn
+[INFO] 2026-08-24T08:29:50.907Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:29:50.908Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:29:50.908Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:29:50.908Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:29:50.908Z - Enrolled Zieme, Dawn in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:29:50.908Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:06.260Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:06.262Z - Applying status filter: New
+[STEP] 2026-08-24T08:30:06.944Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:07.996Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:30:07.996Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:30:08.485Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:09.005Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:30:09.005Z - Moving enrollment to Active for "Zieme" (RPM)
+[STEP] 2026-08-24T08:30:09.006Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:09.006Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:09.192Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:09.192Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:10.399Z - "Move to Active" confirmed for "Zieme"
+[INFO] 2026-08-24T08:30:10.399Z - Moved Zieme, Dawn to Active
+[STEP] 2026-08-24T08:30:10.401Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:25.515Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:25.515Z - Applying status filter: Active
+[STEP] 2026-08-24T08:30:26.156Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:26.760Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:30:26.760Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:30:36.762Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:36.762Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:37.133Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:37.133Z - Waiting for enrollment list to finish loading
+Operating on seeded ACTIVE enrollment: Zieme, Dawn (RPM)
+
+=== ACTIVE ENROLLMENT FOUND ===
+Patient: Zieme, Dawn
+Program: RPM
+Care Manager: Autofirstarnnuw Autolastarnnuw
+Provider: Anny Vate
+Service Type Short: RPM
+
+=== ICD DROPDOWN DEBUG ===
+Total ICD options found: 21
+Total checked ICDs: 0
+
+=== INITIAL VALUES FROM UPDATE FORM ===
+Initial ICD Code: undefined
+Initial Care Manager: 
+Initial Provider: 
+Global search picked: "Zieme, Dawn
+DOB: 02-17-2024
+Phone: 7287640737" (target: "Zieme, Dawn")
+
+=== PATIENT 360 - INITIAL DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERLOCATIONDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDCLOSING NOTEPLANACTION
+Row 2 text: RPMAutofirstarnnuw AutolastarnnuwAnny VateAutomationA111-Test ...+108-24-2026-08-24-2026-ACTIVE
+
+✓ Enrollment record found in row 2
+Row contains Service Type: RPM
+Checking for Provider: Anny Vate
+Checking for Care Manager: Autofirstarnnuw Autolastarnnuw
+Checking for ICD: undefined
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format
+✓ Initial enrollment check complete in Patient 360
+[STEP] 2026-08-24T08:30:48.184Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:03.344Z - Navigated to Enrollment section
+Checked new ICD: (T72908) - Condition-orig-aut2277-1787146877290 - Automated test description - aut2277
+
+=== UPDATED ENROLLMENT ===
+Updated Provider: John Doe
+Updated Care Manager: Autofirsthlffby Autolasthlffby
+Updated ICD Code: (T72908) - Condition-orig-aut2277-1787146877290 - Automated test description - aut2277
+✓ Update Plan clicked - Returned to Enrollment List
+Post-update global search picked: "Zieme, Dawn
+DOB: 02-17-2024
+Phone: 7287640737" (target: "Zieme, Dawn")
+
+=== PATIENT 360 - UPDATED DATA VALIDATION ===
+Total enrollment rows found: 2
+Row 1 text: SERVICECARE MANAGERPROVIDERLOCATIONDIAGNOSISCREATED DATECLOSED DATELAST MODIFIEDCLOSING NOTEPLANACTION
+Row 2 text: RPMAutofirsthlffby AutolasthlffbyJohn DoeAutomationT72908-Aut...+208-24-2026-08-24-2026-ACTIVE
+
+✓ Updated enrollment record found in row 2
+Row contains Service Type: RPM
+✓ Updated Provider "John Doe" visible in row
+✓ Updated Care Manager "Autofirsthlffby Autolasthlffby" visible in row
+⚠️  LIMITATION: Patient 360 shows multiple ICDs in truncated format (e.g., "R10.9-Abdo...+1")
+   Cannot verify specific ICD codes when not displayed as the first ICD
+✓ Updated Provider and Care Manager verified in Patient 360
+✓ No old Provider/Care Manager values remain in Patient 360

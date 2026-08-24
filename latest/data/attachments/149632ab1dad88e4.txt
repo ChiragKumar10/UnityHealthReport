@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T09:21:38.770Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T09:21:38.740+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T09:21:39.165Z - Login to Provider Portal
+[INFO] 2026-08-24T09:21:41.089Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T09:21:42.134Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T09:21:42.150Z - Creating patient via UI: Auer, Frederique
+[STEP] 2026-08-24T09:21:42.150Z - Opening New Patient drawer
+[INFO] 2026-08-24T09:21:43.744Z - Patient details drawer opened
+[STEP] 2026-08-24T09:21:43.745Z - Filling demographics for Frederique Auer
+[STEP] 2026-08-24T09:21:46.028Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T09:21:46.295Z - Setting location: Automation
+[STEP] 2026-08-24T09:21:46.772Z - Setting Self Pay = true
+[STEP] 2026-08-24T09:21:47.274Z - Clicking Save & Next
+[INFO] 2026-08-24T09:21:49.124Z - [createPatientViaUI] created "Auer, Frederique"
+[STEP] 2026-08-24T09:21:49.125Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:22:04.226Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:22:04.227Z - Adding new enrollment
+[INFO] 2026-08-24T09:22:07.470Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:22:08.375Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T09:22:08.376Z - Patient: Auer, Frederique | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:22:08.843Z - Validating enrollment result
+[INFO] 2026-08-24T09:22:08.843Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T09:22:08.843Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T09:22:08.843Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T09:22:08.864Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T09:22:08.864Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T09:22:08.864Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T09:22:08.864Z - Final enrollment details:
+[INFO] 2026-08-24T09:22:08.864Z -   Patient: Auer, Frederique
+[INFO] 2026-08-24T09:22:08.865Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:22:08.865Z -   Provider: Anny Vate
+[INFO] 2026-08-24T09:22:08.865Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T09:22:08.865Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T09:22:08.865Z - Enrolled Auer, Frederique in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:22:08.865Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:22:23.978Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:22:23.978Z - Applying status filter: New
+[STEP] 2026-08-24T09:22:24.362Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:22:24.933Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T09:22:24.935Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:22:25.114Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:22:25.667Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T09:22:25.667Z - Moving enrollment to Active for "Auer" (RTM)
+[STEP] 2026-08-24T09:22:25.667Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T09:22:25.668Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T09:22:25.839Z - Date filter applied successfully
+[STEP] 2026-08-24T09:22:25.840Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:22:26.782Z - "Move to Active" confirmed for "Auer"
+[INFO] 2026-08-24T09:22:26.782Z - Moved Auer, Frederique to Active
+[INFO] 2026-08-24T09:22:26.782Z - [monitoring-03] seeded ACTIVE RTM patient: Auer, Frederique
+[STEP] 2026-08-24T09:22:26.783Z - Opening patient chart from global search for: Auer, Frederique
+[INFO] 2026-08-24T09:22:29.165Z - Patient chart opened from global search for: Auer, Frederique
+[STEP] 2026-08-24T09:22:30.217Z - Navigating to Vitals tab
+[INFO] 2026-08-24T09:22:30.360Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T09:22:30.360Z - Adding vital: Pain Scale with value 36
+[STEP] 2026-08-24T09:22:30.360Z - Clicking Add Vital button
+[INFO] 2026-08-24T09:22:30.473Z - Add Vital form opened
+[STEP] 2026-08-24T09:22:30.473Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T09:22:30.822Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T09:22:30.822Z - Entering vital value: 36
+[INFO] 2026-08-24T09:22:30.858Z - Successfully entered vital value: 36
+[STEP] 2026-08-24T09:22:30.859Z - Saving vital
+[INFO] 2026-08-24T09:22:30.937Z - Successfully saved vital
+[INFO] 2026-08-24T09:22:30.937Z - Successfully added vital: Pain Scale with value 36
+[INFO] 2026-08-24T09:22:30.937Z - beforeEach: Abnormal Pain Scale (36) added for Auer, Frederique — polling Alerts counter
+[STEP] 2026-08-24T09:22:30.943Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:22:30.943Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:22:31.463Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:22:31.468Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T09:22:35.270Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T09:22:39.698Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:22:39.698Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:22:40.762Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:22:40.762Z - Getting count for Alerts
+[INFO] 2026-08-24T09:22:40.769Z - Alerts count: 0
+[STEP] 2026-08-24T09:22:45.773Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:22:45.773Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:22:46.280Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:22:46.786Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:22:46.787Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:22:47.826Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:22:47.826Z - Getting count for Alerts
+[INFO] 2026-08-24T09:22:47.834Z - Alerts count: 0
+[STEP] 2026-08-24T09:22:55.835Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:22:55.835Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:22:56.340Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:22:56.846Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:22:56.846Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:22:57.877Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:22:57.877Z - Getting count for Alerts
+[INFO] 2026-08-24T09:22:57.883Z - Alerts count: 0
+[STEP] 2026-08-24T09:23:07.885Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:23:07.886Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:23:08.405Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:23:08.927Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:23:08.927Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:23:10.019Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:23:10.019Z - Getting count for Alerts
+[INFO] 2026-08-24T09:23:10.029Z - Alerts count: 0
+[STEP] 2026-08-24T09:23:20.030Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:23:20.030Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:23:20.537Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:23:21.045Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:23:21.045Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:23:22.077Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:23:22.077Z - Getting count for Alerts
+[INFO] 2026-08-24T09:23:22.085Z - Alerts count: 0
+[STEP] 2026-08-24T09:23:32.087Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:23:32.087Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:23:32.599Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:23:33.119Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:23:33.119Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:23:34.217Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:23:34.217Z - Getting count for Alerts
+[INFO] 2026-08-24T09:23:34.225Z - Alerts count: 0
+[STEP] 2026-08-24T09:23:44.227Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:23:44.227Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:23:44.737Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:23:45.250Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:23:45.250Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:23:46.293Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:23:46.293Z - Getting count for Alerts
+[INFO] 2026-08-24T09:23:46.303Z - Alerts count: 0
+[STEP] 2026-08-24T09:23:56.306Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:23:56.306Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:23:56.836Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:23:57.374Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:23:57.374Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:23:58.490Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:23:58.490Z - Getting count for Alerts
+[INFO] 2026-08-24T09:23:58.510Z - Alerts count: 0

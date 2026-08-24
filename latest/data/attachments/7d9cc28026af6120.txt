@@ -1,0 +1,60 @@
+[STEP] 2026-08-24T08:37:32.083Z - Setup: login → create RTM patient → chart → RTM → Monitoring
+[INFO] 2026-08-24T08:37:35.538Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:37:35.539Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:37:35.555Z - Creating patient via UI: Schinner, Kiel
+[STEP] 2026-08-24T08:37:35.556Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:37:38.778Z - Patient details drawer opened
+[STEP] 2026-08-24T08:37:38.778Z - Filling demographics for Kiel Schinner
+[STEP] 2026-08-24T08:37:45.089Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:37:47.761Z - Setting location: Automation
+[STEP] 2026-08-24T08:37:48.312Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:37:49.181Z - Clicking Save & Next
+[INFO] 2026-08-24T08:37:52.601Z - [createPatientViaUI] created "Schinner, Kiel"
+[STEP] 2026-08-24T08:37:52.601Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:38:07.877Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:38:07.877Z - Adding new enrollment
+[INFO] 2026-08-24T08:38:12.781Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:38:15.041Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:38:15.041Z - Patient: Schinner, Kiel | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:38:16.483Z - Validating enrollment result
+[INFO] 2026-08-24T08:38:16.483Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:38:16.483Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:38:16.483Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:38:16.825Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:38:16.825Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:38:16.825Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:38:16.825Z - Final enrollment details:
+[INFO] 2026-08-24T08:38:16.826Z -   Patient: Schinner, Kiel
+[INFO] 2026-08-24T08:38:16.826Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:38:16.826Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:38:16.827Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:38:16.827Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:38:16.827Z - Enrolled Schinner, Kiel in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:38:16.827Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:38:32.478Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:38:32.478Z - Applying status filter: New
+[STEP] 2026-08-24T08:38:33.448Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:38:34.903Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:38:34.903Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:38:35.605Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:38:36.652Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:38:36.652Z - Moving enrollment to Active for "Schinner" (RTM)
+[STEP] 2026-08-24T08:38:36.652Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:38:36.652Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:38:37.358Z - Date filter applied successfully
+[STEP] 2026-08-24T08:38:37.360Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:38:38.885Z - "Move to Active" confirmed for "Schinner"
+[INFO] 2026-08-24T08:38:38.889Z - Moved Schinner, Kiel to Active
+[STEP] 2026-08-24T08:38:38.889Z - Opening patient chart from global search for: Schinner, Kiel
+[INFO] 2026-08-24T08:38:42.034Z - Patient chart opened from global search for: Schinner, Kiel
+[INFO] 2026-08-24T08:38:46.455Z - Setup ✓: on Smith Jemimah Monitoring view
+[INFO] 2026-08-24T08:38:48.962Z - Step 1 ✓: out-of-range vital submitted
+[INFO] 2026-08-24T08:38:49.526Z - Step 2 note: could not select "Alert Generated" filter — proceeding
+[INFO] 2026-08-24T08:38:56.681Z - AUT_PT_027 ✓: Alert-Generated entry visible on Monitoring timeline
+[INFO] 2026-08-24T08:38:57.289Z - Step 5 note: no Not-Resolved row action icon — skipping resolve
+[INFO] 2026-08-24T08:38:59.020Z - Step 6 ✓: "Resolved Generated" filter applied
+[INFO] 2026-08-24T08:38:59.113Z - AUT_PT_028 ✓: Alert-Resolved entry visible on Monitoring timeline
+[INFO] 2026-08-24T08:38:59.119Z - AUT_PT_028 ✓: automated timestamp verified (resolve time ~"")
+[INFO] 2026-08-24T08:38:59.123Z - AUT_PT_MON_ALERT_001 PASSED — alert generated + resolved + timestamp verified

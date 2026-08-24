@@ -1,0 +1,427 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: provider-portal/provider-worklist/resolution-note-sync.spec.ts >> Resolution note syncs across worklist views >> Note written when resolving in Care Team Worklist appears via the Alerts page View Resolved Note
+- Location: tests/web/provider-portal/provider-worklist/resolution-note-sync.spec.ts:28:9
+
+# Error details
+
+```
+Error: Unresolved alert for "Block, Micheal" should appear in Care Team → RPM → Monitoring (Alerts)
+
+Unresolved alert for "Block, Micheal" should appear in Care Team → RPM → Monitoring (Alerts)
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+
+Call Log:
+- Timeout 180000ms exceeded while waiting on the predicate
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f3e4]:
+  - banner [ref=f3e5]:
+    - generic [ref=f3e7]:
+      - img "Logo" [ref=f3e9]
+      - generic [ref=f3e10]:
+        - generic [ref=f3e13]:
+          - combobox "Search Patient Name, DOB (MM-DD-YYYY), Phone" [ref=f3e17]
+          - button "Open" [ref=f3e19] [cursor=pointer]
+          - group
+        - button [ref=f3e22] [cursor=pointer]:
+          - paragraph [ref=f3e25]: New Patient
+        - generic [ref=f3e26]:
+          - button [ref=f3e27] [cursor=pointer]
+          - button [ref=f3e31] [cursor=pointer]
+  - generic [ref=f3e36]:
+    - list [ref=f3e38]:
+      - generic [ref=f3e39]:
+        - generic "Virtual Services" [ref=f3e40]:
+          - listitem [ref=f3e41] [cursor=pointer]:
+            - generic [ref=f3e45]: Virtual Services
+        - list [ref=f3e54]:
+          - listitem [ref=f3e56] [cursor=pointer]:
+            - generic [ref=f3e57]: Care Team Work List
+          - listitem [ref=f3e64] [cursor=pointer]:
+            - generic [ref=f3e65]: Enrollments
+          - listitem [ref=f3e72] [cursor=pointer]:
+            - generic [ref=f3e73]: Patient Assessments
+          - generic [ref=f3e79]:
+            - listitem [ref=f3e80] [cursor=pointer]:
+              - generic [ref=f3e81]: Alerts
+            - separator [ref=f3e87]
+          - listitem [ref=f3e89] [cursor=pointer]:
+            - generic [ref=f3e94]:
+              - generic [ref=f3e95]: Tasks
+              - generic [ref=f3e96]: "164"
+          - generic [ref=f3e97]:
+            - listitem [ref=f3e98] [cursor=pointer]:
+              - generic [ref=f3e99]: Communications
+            - separator [ref=f3e105]
+          - generic [ref=f3e106]:
+            - listitem [ref=f3e107] [cursor=pointer]:
+              - generic [ref=f3e108]: Billing
+            - separator [ref=f3e114]
+          - generic [ref=f3e115]:
+            - listitem [ref=f3e116] [cursor=pointer]:
+              - generic [ref=f3e117]: Reports
+            - separator [ref=f3e123]
+          - listitem [ref=f3e125] [cursor=pointer]:
+            - generic [ref=f3e126]: Document Library
+          - listitem [ref=f3e133] [cursor=pointer]:
+            - generic [ref=f3e134]: CCM Library
+          - listitem [ref=f3e141] [cursor=pointer]:
+            - generic [ref=f3e142]: PCM Library
+          - listitem [ref=f3e149] [cursor=pointer]:
+            - generic [ref=f3e150]: RPM Library
+          - generic [ref=f3e156]:
+            - listitem [ref=f3e157] [cursor=pointer]:
+              - generic [ref=f3e158]: RTM Library
+            - separator [ref=f3e164]
+          - listitem [ref=f3e166] [cursor=pointer]:
+            - generic [ref=f3e167]: Training Library
+      - generic "Call Center" [ref=f3e174]:
+        - listitem [ref=f3e175] [cursor=pointer]:
+          - generic [ref=f3e179]: Call Center
+      - generic "Revenue Cycle Management" [ref=f3e185]:
+        - listitem [ref=f3e186] [cursor=pointer]:
+          - generic [ref=f3e190]: Revenue Cycle Management
+      - generic "Omni Channel" [ref=f3e196]:
+        - listitem [ref=f3e197] [cursor=pointer]:
+          - generic [ref=f3e201]: Omni Channel
+      - separator [ref=f3e206]
+      - listitem [ref=f3e207] [cursor=pointer]:
+        - generic [ref=f3e211]: Settings
+    - paragraph [ref=f3e215]: Jemes Cory
+    - list [ref=f3e217]:
+      - listitem [ref=f3e218] [cursor=pointer]:
+        - generic [ref=f3e222]: Logout
+    - generic "Collapse sidebar":
+      - listitem
+  - main [ref=f3e223]:
+    - generic [ref=f3e225]:
+      - generic [ref=f3e226]:
+        - generic:
+          - generic:
+            - tablist
+      - generic [ref=f3e228]:
+        - tablist "program tabs" [ref=f3e231]:
+          - tab "RPM" [selected] [ref=f3e232] [cursor=pointer]:
+            - generic [ref=f3e233]:
+              - generic [ref=f3e234]: RPM
+              - button [ref=f3e235]
+          - tab "RTM" [ref=f3e238] [cursor=pointer]:
+            - generic [ref=f3e239]:
+              - generic [ref=f3e240]: RTM
+              - button [ref=f3e241]
+          - tab "CCM" [ref=f3e244] [cursor=pointer]:
+            - generic [ref=f3e245]:
+              - generic [ref=f3e246]: CCM
+              - button [ref=f3e247]
+          - tab "PCM" [ref=f3e250] [cursor=pointer]:
+            - generic [ref=f3e251]:
+              - generic [ref=f3e252]: PCM
+              - button [ref=f3e253]
+        - generic [ref=f3e257]:
+          - generic [ref=f3e259]:
+            - paragraph [ref=f3e261]: Enrollments
+            - table "simple table" [ref=f3e263]:
+              - rowgroup [ref=f3e264]:
+                - row [ref=f3e265]:
+                  - cell [ref=f3e266]:
+                    - paragraph [ref=f3e267] [cursor=pointer]: Requests
+                  - cell [ref=f3e268]:
+                    - paragraph [ref=f3e269] [cursor=pointer]: "0"
+                - row [ref=f3e270]:
+                  - cell [ref=f3e271]:
+                    - paragraph [ref=f3e272] [cursor=pointer]: New
+                  - cell [ref=f3e273]:
+                    - paragraph [ref=f3e274] [cursor=pointer]: "3"
+                - row [ref=f3e275]:
+                  - cell [ref=f3e276]:
+                    - paragraph [ref=f3e277] [cursor=pointer]: Active
+                  - cell [ref=f3e278]:
+                    - paragraph [ref=f3e279] [cursor=pointer]: "105"
+                - row [ref=f3e280]:
+                  - cell [ref=f3e281]:
+                    - paragraph [ref=f3e282] [cursor=pointer]: Closed
+                  - cell [ref=f3e283]:
+                    - paragraph [ref=f3e284] [cursor=pointer]: "12"
+          - generic [ref=f3e286]:
+            - paragraph [ref=f3e288]: Monitoring
+            - table "simple table" [ref=f3e290]:
+              - rowgroup [ref=f3e291]:
+                - row [ref=f3e292]:
+                  - cell [ref=f3e293]:
+                    - paragraph [ref=f3e294] [cursor=pointer]: 3 Alerts
+                  - cell [ref=f3e295]:
+                    - paragraph [ref=f3e296] [cursor=pointer]: 1 Resolved
+                  - cell [ref=f3e297]:
+                    - paragraph [ref=f3e298] [cursor=pointer]: 2 Not Resolved
+                - row [ref=f3e299]:
+                  - cell [ref=f3e300]:
+                    - paragraph [ref=f3e301] [cursor=pointer]: 102 No Data
+                  - cell [ref=f3e302]:
+                    - paragraph [ref=f3e303] [cursor=pointer]: 0 Complete
+                  - cell [ref=f3e304]:
+                    - paragraph [ref=f3e305] [cursor=pointer]: 102 Not Complete
+                - row [ref=f3e306]:
+                  - cell [ref=f3e307]:
+                    - paragraph [ref=f3e308] [cursor=pointer]: 3 Data
+                  - cell [ref=f3e309]:
+                    - paragraph [ref=f3e310] [cursor=pointer]: 0 Reviewed
+                  - cell [ref=f3e311]:
+                    - paragraph [ref=f3e312] [cursor=pointer]: 3 Unreviewed
+          - generic [ref=f3e314]:
+            - paragraph [ref=f3e316]: Interaction
+            - table "simple table" [ref=f3e318]:
+              - rowgroup [ref=f3e319]:
+                - row [ref=f3e320]:
+                  - cell [ref=f3e321]:
+                    - paragraph [ref=f3e322] [cursor=pointer]: Week 1
+                  - cell [ref=f3e323]:
+                    - paragraph [ref=f3e324] [cursor=pointer]: "8"
+                - row [ref=f3e325]:
+                  - cell [ref=f3e326]:
+                    - paragraph [ref=f3e327] [cursor=pointer]: Week 2
+                  - cell [ref=f3e328]:
+                    - paragraph [ref=f3e329] [cursor=pointer]: "0"
+                - row [ref=f3e330]:
+                  - cell [ref=f3e331]:
+                    - paragraph [ref=f3e332] [cursor=pointer]: Week 3
+                  - cell [ref=f3e333]:
+                    - paragraph [ref=f3e334] [cursor=pointer]: "0"
+                - row [ref=f3e335]:
+                  - cell [ref=f3e336]:
+                    - paragraph [ref=f3e337] [cursor=pointer]: Week 4
+                  - cell [ref=f3e338]:
+                    - paragraph [ref=f3e339] [cursor=pointer]: "97"
+        - generic [ref=f3e343]:
+          - generic [ref=f3e344]:
+            - heading "MONITORING (ALERTS)" [level=5] [ref=f3e345]
+            - generic [ref=f3e346]:
+              - generic [ref=f3e347]:
+                - combobox "Not Resolved" [active] [ref=f3e348] [cursor=pointer]
+                - textbox: Unresolved
+                - group
+              - generic [ref=f3e349]:
+                - generic [ref=f3e352]:
+                  - textbox "Search by Patient Name" [ref=f3e356]
+                  - group
+                - generic [ref=f3e359]:
+                  - button "Choose date, selected date is Aug 24, 2026" [ref=f3e361] [cursor=pointer]
+                  - textbox "MM-DD-YYYY" [ref=f3e364]: 08-24-2026
+                  - button "Clear" [ref=f3e366] [cursor=pointer]
+                  - group
+                - generic [ref=f3e373]:
+                  - combobox "Select" [ref=f3e374]: All Provider
+                  - button "Open" [ref=f3e376] [cursor=pointer]
+                  - group
+                - generic [ref=f3e383]:
+                  - combobox "Select" [ref=f3e384]: All Care Manager
+                  - button "Open" [ref=f3e386] [cursor=pointer]
+                  - group
+          - generic [ref=f3e391]:
+            - generic [ref=f3e392]:
+              - checkbox "select all rows" [ref=f3e395] [cursor=pointer]
+              - generic "NAME" [ref=f3e399] [cursor=pointer]: NAME ▲
+              - generic "CARE MANAGER" [ref=f3e401]
+              - generic "PROVIDER" [ref=f3e403]
+              - generic "# OF ALERTS" [ref=f3e405]
+              - generic "DUE DATE" [ref=f3e407]
+              - generic "STATUS" [ref=f3e409]
+              - generic "RESOLVED BY" [ref=f3e411]
+              - generic "RESOLVED DATE" [ref=f3e413]
+              - generic "MOBILE" [ref=f3e415]
+              - generic "VERSION" [ref=f3e417]
+              - generic "HEALTH CONNECT" [ref=f3e419]
+              - generic "ACTION" [ref=f3e421]
+            - generic [ref=f3e422]:
+              - checkbox [ref=f3e425] [cursor=pointer]
+              - generic "Marks, Doreen" [ref=f3e429] [cursor=pointer]
+              - generic "Autofirstarnnuw Autolastarnnuw" [ref=f3e431] [cursor=pointer]
+              - generic "Anny Vate" [ref=f3e433] [cursor=pointer]
+              - generic [ref=f3e434]: "1"
+              - generic "08-25-2026" [ref=f3e437] [cursor=pointer]
+              - generic [ref=f3e438]: Not Resolved
+              - generic "-" [ref=f3e442] [cursor=pointer]
+              - generic "-" [ref=f3e444] [cursor=pointer]
+              - generic "-" [ref=f3e447] [cursor=pointer]
+              - generic [ref=f3e448]: "-"
+              - generic [ref=f3e453] [cursor=pointer]
+            - generic [ref=f3e456]:
+              - checkbox [ref=f3e459] [cursor=pointer]
+              - generic "Johnson, Clemmie" [ref=f3e463] [cursor=pointer]
+              - generic "Autofirstarnnuw Autolastarnnuw" [ref=f3e465] [cursor=pointer]
+              - generic "Anny Vate" [ref=f3e467] [cursor=pointer]
+              - generic [ref=f3e468]: "1"
+              - generic "08-25-2026" [ref=f3e471] [cursor=pointer]
+              - generic [ref=f3e472]: Not Resolved
+              - generic "-" [ref=f3e476] [cursor=pointer]
+              - generic "-" [ref=f3e478] [cursor=pointer]
+              - generic "-" [ref=f3e481] [cursor=pointer]
+              - generic [ref=f3e482]: "-"
+              - generic [ref=f3e487] [cursor=pointer]
+  - button [ref=f3e491] [cursor=pointer]
+  - button [ref=f3e495] [cursor=pointer]
+```
+
+# Test source
+
+```ts
+  1   | import { test, expect } from '@playwright/test';
+  2   | import { ProviderLoginPage } from '../../../../pages/web/provider-portal/login.page';
+  3   | import { ProviderWorklistPage } from '../../../../pages/web/provider-portal/provider-worklist/provider-worklist.page';
+  4   | import { getEnvironmentConfig } from '../../../../config/environment.config';
+  5   | import { Logger } from '../../../../utils/logger';
+  6   | 
+  7   | /**
+  8   |  * Verify a resolution note syncs across views: a note written when resolving
+  9   |  * an alert in the Care Team Worklist (Monitoring) is the same note surfaced
+  10  |  * elsewhere for that alert.
+  11  |  *
+  12  |  * The Provider Worklist's MONITORING ALERTS panel does NOT expose a resolved
+  13  |  * note (its row ACTION menu only offers "Escalate"), so the reliable place to
+  14  |  * read the synced note is the global Alerts page ("View Resolved Note").
+  15  |  */
+  16  | test.describe('Resolution note syncs across worklist views', () => {
+  17  |     test.describe.configure({ mode: 'serial' });
+  18  |     test.use({ viewport: { width: 1920, height: 1080 } });
+  19  | 
+  20  |     const env = getEnvironmentConfig();
+  21  |     const chirag = env.providerCredentials;
+  22  |     const anny = env.secondaryProviders.anny;
+  23  |     // Patient whose RPM care team is Provider=Anny Vate / Care Coordinator=Chirag.
+  24  |     const patientName = getEnvironmentConfig().testPatientName;
+  25  |     const patientLastName = getEnvironmentConfig().testPatientName.split(',')[0].trim();
+  26  |     const BLOOD_GLUCOSE_VALUE = 200; // > 100 → triggers a Blood Glucose alert
+  27  | 
+  28  |     test('Note written when resolving in Care Team Worklist appears via the Alerts page View Resolved Note', async ({ browser }) => {
+  29  |         test.setTimeout(360000);
+  30  | 
+  31  |         const syncToken = `SYNCNOTE${Date.now()}`;
+  32  |         const resolutionNote = `${syncToken} resolution-note-sync-check`;
+  33  | 
+  34  |         const ctx = await browser.newContext({ viewport: { width: 1920, height: 1080 } });
+  35  |         const page = await ctx.newPage();
+  36  |         const login = new ProviderLoginPage(page);
+  37  |         const worklist = new ProviderWorklistPage(page);
+  38  | 
+  39  |         // ── PHASE 1: chart an alert, then resolve it in Care Team Worklist ──
+  40  |         Logger.step('Phase 1: Chirag charts a Blood Glucose alert, then resolves it with a unique note');
+  41  |         await page.goto(env.providerPortalUrl);
+  42  |         await login.login(chirag.username, chirag.password);
+  43  |         await worklist.seedAlertViaAbnormalBloodGlucose(patientName, 45000, BLOOD_GLUCOSE_VALUE);
+  44  | 
+  45  |         // Open Care Team → RPM → Monitoring (Alerts); poll until the patient's
+  46  |         // unresolved alert is present, then resolve it with the unique note.
+  47  |         await worklist.openAlertsForPatient('RPM', patientLastName, 'Not Resolved');
+  48  |         await expect
+  49  |             .poll(
+  50  |                 async () => {
+  51  |                     const visible = await worklist.monitoring
+  52  |                         .patientRow(patientName)
+  53  |                         .isVisible({ timeout: 2000 })
+  54  |                         .catch(() => false);
+  55  |                     if (visible) return true;
+  56  |                     Logger.info('Alert not yet in Monitoring "Not Resolved" view — re-opening');
+  57  |                     await worklist.openAlertsForPatient('RPM', patientLastName, 'Not Resolved');
+  58  |                     return false;
+  59  |                 },
+  60  |                 {
+  61  |                     message: `Unresolved alert for "${patientName}" should appear in Care Team → RPM → Monitoring (Alerts)`,
+  62  |                     timeout: 180000,
+  63  |                     intervals: [10000, 10000, 15000, 15000, 15000, 15000, 15000],
+  64  |                 },
+  65  |             )
+> 66  |             .toBe(true);
+      |              ^ Error: Unresolved alert for "Block, Micheal" should appear in Care Team → RPM → Monitoring (Alerts)
+  67  | 
+  68  |         await worklist.resolveAlertFromMonitoringWithNote(patientName, resolutionNote);
+  69  |         Logger.info(`Phase 1 ✓ Resolved an alert in Care Team Worklist with note "${resolutionNote}"`);
+  70  | 
+  71  |         // ── PHASE 2: confirm the SAME note via the Alerts page ─────────────
+  72  |         Logger.step('Phase 2: Verify the resolution note synced through to the Alerts page');
+  73  |         await worklist.alerts.navigateToAlerts();
+  74  |         await worklist.alerts.searchAlerts(patientLastName);
+  75  |         await worklist.alerts.selectStatus('All');
+  76  | 
+  77  |         const found = await worklist.alerts.verifyResolvedNoteContains(syncToken);
+  78  |         expect(
+  79  |             found,
+  80  |             `The resolution note ("${syncToken}…") written in the Care Team Worklist must sync to the Alerts page View Resolved Note`,
+  81  |         ).toBe(true);
+  82  | 
+  83  |         await ctx.close();
+  84  |         Logger.info(`=== Verified: resolution note "${syncToken}…" syncs from Care Team Worklist to the Alerts page ===`);
+  85  |     });
+  86  | 
+  87  |     // test.fixme — NOT force-passed. The pencil-resolve mechanism itself now
+  88  |     // works (see provider-resolves-escalated-visit + alert-escalation-resolve
+  89  |     // "steps 18-20", both passing) and the resolver below is correctly Anny
+  90  |     // (the escalation target). The remaining blocker is a product-behavior
+  91  |     // mismatch in WHAT this test asserts: the ESCALATION resolution note does
+  92  |     // NOT surface on the global Alerts page "View Resolved Note" — verified at
+  93  |     // runtime, the Alerts page shows the Care-Team alert-resolution note
+  94  |     // ("SYNCNOTE…") while the escalation-resolve note ("ESCSYNC…") lands in the
+  95  |     // escalation's read-only "Previous Note" view instead. Re-enable once the
+  96  |     // assertion targets the correct surface for the escalation-resolve note
+  97  |     // (the closed escalation's Previous Note / chart Escalations sub-tab).
+  98  |     test.fixme('Note written when resolving the escalation in the Provider Worklist appears in the Care Team Worklist', async ({ browser }) => {
+  99  |         test.setTimeout(360000);
+  100 | 
+  101 |         const syncToken = `ESCSYNC${Date.now()}`;
+  102 |         const escalationNote = `${syncToken} escalation-resolution-note`;
+  103 | 
+  104 |         // ── PHASE 1: Chirag seeds + escalates to Anny ──────────────────────
+  105 |         const cmCtx = await browser.newContext({ viewport: { width: 1920, height: 1080 } });
+  106 |         const cmPage = await cmCtx.newPage();
+  107 |         const cmLogin = new ProviderLoginPage(cmPage);
+  108 |         const cmWorklist = new ProviderWorklistPage(cmPage);
+  109 | 
+  110 |         Logger.step('Phase 1: Chirag charts a Blood Glucose alert and escalates it to Anny');
+  111 |         await cmPage.goto(env.providerPortalUrl);
+  112 |         await cmLogin.login(chirag.username, chirag.password);
+  113 |         await cmWorklist.seedAlertViaAbnormalBloodGlucose(patientName, 45000, BLOOD_GLUCOSE_VALUE);
+  114 |         await cmWorklist.escalateAlertFromMedicalHistory('Anny', escalationNote, 'Blood Glucose', BLOOD_GLUCOSE_VALUE);
+  115 |         await cmCtx.close();
+  116 | 
+  117 |         // ── PHASE 2: Anny (the escalation target) resolves it via the pencil ─
+  118 |         // The escalation lives in Anny's Provider Worklist (she's the target),
+  119 |         // so she is the one who can resolve it via the ESCALATION pencil.
+  120 |         Logger.step('Phase 2: Anny resolves the escalation via the Provider Worklist pencil with the unique note');
+  121 |         const annyCtx = await browser.newContext({ viewport: { width: 1920, height: 1080 } });
+  122 |         const annyPage = await annyCtx.newPage();
+  123 |         const annyLogin = new ProviderLoginPage(annyPage);
+  124 |         const annyWorklist = new ProviderWorklistPage(annyPage);
+  125 | 
+  126 |         await annyPage.goto(env.providerPortalUrl);
+  127 |         await annyLogin.login(anny.username, anny.password);
+  128 |         await annyWorklist.openEscalationSection();
+  129 |         await annyWorklist.resolveEscalationViaPencil(patientName, escalationNote);
+  130 | 
+  131 |         // ── PHASE 3: confirm the same note via the Alerts page ─────────────
+  132 |         Logger.step('Phase 3: Verify the escalation-resolution note synced through to the Alerts page');
+  133 |         await annyWorklist.alerts.navigateToAlerts();
+  134 |         await annyWorklist.alerts.searchAlerts(patientLastName);
+  135 |         await annyWorklist.alerts.selectStatus('All');
+  136 |         expect(
+  137 |             await annyWorklist.alerts.verifyResolvedNoteContains(syncToken),
+  138 |             `The escalation-resolution note ("${syncToken}…") must sync to the Alerts page View Resolved Note`,
+  139 |         ).toBe(true);
+  140 | 
+  141 |         await annyCtx.close();
+  142 |         Logger.info(`=== Verified: escalation-resolution note "${syncToken}…" syncs to the Alerts page ===`);
+  143 |     });
+  144 | });
+  145 | 
+```

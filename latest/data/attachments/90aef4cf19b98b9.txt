@@ -1,0 +1,68 @@
+[INFO] 2026-08-24T08:41:01.721Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:01.753Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:41:01.928Z - Creating patient via UI: Kemmer, Harvey
+[STEP] 2026-08-24T08:41:01.928Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:41:08.858Z - Patient details drawer opened
+[STEP] 2026-08-24T08:41:08.859Z - Filling demographics for Harvey Kemmer
+[STEP] 2026-08-24T08:41:21.508Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:41:25.962Z - Setting location: Automation
+[STEP] 2026-08-24T08:41:27.512Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:41:29.308Z - Clicking Save & Next
+[INFO] 2026-08-24T08:41:34.799Z - [createPatientViaUI] created "Kemmer, Harvey"
+[STEP] 2026-08-24T08:41:34.800Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:41:50.256Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:41:50.257Z - Adding new enrollment
+[INFO] 2026-08-24T08:41:54.950Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:41:56.987Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:41:56.987Z - Patient: Kemmer, Harvey | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:41:58.337Z - Validating enrollment result
+[INFO] 2026-08-24T08:41:58.337Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:41:58.337Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:41:58.338Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:41:58.848Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:41:58.848Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:41:58.848Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:41:58.848Z - Final enrollment details:
+[INFO] 2026-08-24T08:41:58.849Z -   Patient: Kemmer, Harvey
+[INFO] 2026-08-24T08:41:58.849Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:41:58.849Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:41:58.849Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:41:58.849Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:41:58.850Z - Enrolled Kemmer, Harvey in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:41:58.850Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:42:14.975Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:42:14.975Z - Applying status filter: New
+[STEP] 2026-08-24T08:42:15.779Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:16.745Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:42:16.745Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:42:17.534Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:18.824Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:42:18.825Z - Moving enrollment to Active for "Kemmer" (CCM)
+[STEP] 2026-08-24T08:42:18.825Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:42:18.825Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:42:19.367Z - Date filter applied successfully
+[STEP] 2026-08-24T08:42:19.367Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:20.594Z - "Move to Active" confirmed for "Kemmer"
+[INFO] 2026-08-24T08:42:20.595Z - Moved Kemmer, Harvey to Active
+[STEP] 2026-08-24T08:42:20.602Z - Test: Delete task and verify removed from provider view and patient charting
+[STEP] 2026-08-24T08:42:20.602Z - Navigating to Task page
+[INFO] 2026-08-24T08:42:22.612Z - Navigated to Task page
+[STEP] 2026-08-24T08:42:22.613Z - Creating task: DeleteBoth 1787560942612
+[STEP] 2026-08-24T08:42:22.613Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:42:23.402Z - Add Task form opened
+[INFO] 2026-08-24T08:42:45.913Z - Task "DeleteBoth 1787560942612" created successfully
+[INFO] 2026-08-24T08:42:45.913Z - Task "DeleteBoth 1787560942612" created
+[STEP] 2026-08-24T08:42:45.913Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:42:47.716Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:42:47.716Z - Setting status filter to: All
+[INFO] 2026-08-24T08:42:56.316Z - Status filter set to: All
+[STEP] 2026-08-24T08:42:56.316Z - Searching for: DeleteBoth 1787560942612
+[INFO] 2026-08-24T08:42:56.791Z - Search completed for: DeleteBoth 1787560942612
+[STEP] 2026-08-24T08:42:56.792Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:42:57.813Z - TASK values: DeleteBoth 1787560942612
+[INFO] 2026-08-24T08:42:57.824Z - Task verified in task list before delete
+[STEP] 2026-08-24T08:42:57.824Z - Verifying task in Patient Charting before delete
+[STEP] 2026-08-24T08:42:57.826Z - Opening patient chart from global search for: Kemmer, Harvey
+[INFO] 2026-08-24T08:42:59.505Z - Patient chart opened from global search for: Kemmer, Harvey

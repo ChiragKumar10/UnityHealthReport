@@ -1,0 +1,70 @@
+[INFO] 2026-08-24T08:33:38.529Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:33:38.484+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:33:43.973Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:33:43.995Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:33:44.116Z - Creating patient via UI: Reynolds, Loma
+[STEP] 2026-08-24T08:33:44.122Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:33:51.004Z - Patient details drawer opened
+[STEP] 2026-08-24T08:33:51.005Z - Filling demographics for Loma Reynolds
+[STEP] 2026-08-24T08:34:00.678Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:34:01.617Z - Setting location: Automation
+[STEP] 2026-08-24T08:34:02.418Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:34:03.334Z - Clicking Save & Next
+[INFO] 2026-08-24T08:34:05.812Z - [createPatientViaUI] created "Reynolds, Loma"
+[STEP] 2026-08-24T08:34:05.813Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:34:20.988Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:34:20.988Z - Adding new enrollment
+[INFO] 2026-08-24T08:34:24.732Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:34:26.114Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:34:26.117Z - Patient: Reynolds, Loma | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:34:26.816Z - Validating enrollment result
+[INFO] 2026-08-24T08:34:26.816Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:34:26.816Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:34:26.816Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:34:26.885Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:34:26.885Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:34:26.885Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:34:26.885Z - Final enrollment details:
+[INFO] 2026-08-24T08:34:26.885Z -   Patient: Reynolds, Loma
+[INFO] 2026-08-24T08:34:26.885Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:34:26.885Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:34:26.885Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:34:26.885Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:34:26.886Z - Enrolled Reynolds, Loma in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:34:26.886Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:34:42.202Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:34:42.202Z - Applying status filter: New
+[STEP] 2026-08-24T08:34:42.918Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:43.904Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:34:43.905Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:34:44.823Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:45.871Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:34:45.874Z - Moving enrollment to Active for "Reynolds" (RTM)
+[STEP] 2026-08-24T08:34:45.875Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:34:45.875Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:34:46.462Z - Date filter applied successfully
+[STEP] 2026-08-24T08:34:46.464Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:34:47.983Z - "Move to Active" confirmed for "Reynolds"
+[INFO] 2026-08-24T08:34:47.983Z - Moved Reynolds, Loma to Active
+[INFO] 2026-08-24T08:34:47.983Z - [patient-monitoring] seeded shared RTM patient for this worker: Reynolds, Loma
+[STEP] 2026-08-24T08:34:47.988Z - Opening patient chart from global search for: Reynolds, Loma
+[INFO] 2026-08-24T08:34:51.118Z - Patient chart opened from global search for: Reynolds, Loma
+[STEP] 2026-08-24T08:34:51.164Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:34:54.182Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:34:54.183Z - Adding vital: Steps with value 352
+[STEP] 2026-08-24T08:34:54.183Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:34:54.550Z - Add Vital form opened
+[STEP] 2026-08-24T08:34:54.550Z - Selecting vital type: Steps
+[INFO] 2026-08-24T08:34:55.076Z - Successfully selected vital type: Steps
+[STEP] 2026-08-24T08:34:55.076Z - Entering vital value: 352
+[INFO] 2026-08-24T08:34:55.214Z - Successfully entered vital value: 352
+[STEP] 2026-08-24T08:34:55.214Z - Saving vital
+[INFO] 2026-08-24T08:34:55.350Z - Successfully saved vital
+[INFO] 2026-08-24T08:34:55.350Z - Successfully added vital: Steps with value 352
+[INFO] 2026-08-24T08:34:55.351Z - beforeEach: seeded Steps vital (352)
+[STEP] 2026-08-24T08:34:55.351Z - Navigating to Monitoring tab
+[INFO] 2026-08-24T08:34:57.116Z - Successfully navigated to Monitoring tab
+[STEP] 2026-08-24T08:34:57.117Z - Verifying Monitoring tab is active by default
+[STEP] 2026-08-24T08:34:57.117Z - Checking if Monitoring tab is active
+[INFO] 2026-08-24T08:34:57.278Z - Monitoring tab is active by default - verified

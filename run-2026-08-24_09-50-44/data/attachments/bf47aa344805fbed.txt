@@ -1,0 +1,35 @@
+[STEP] 2026-08-24T08:41:14.989Z - Login to Provider Portal
+[INFO] 2026-08-24T08:41:16.787Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:18.408Z - Test: Verify My Tasks shows only assigned care manager tasks
+[STEP] 2026-08-24T08:41:18.408Z - Navigating to Task page
+[INFO] 2026-08-24T08:41:20.411Z - Navigated to Task page
+[INFO] 2026-08-24T08:41:21.485Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:41:21.486Z - Creating task: MyCM 1787560881486
+[STEP] 2026-08-24T08:41:21.486Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:41:22.587Z - Add Task form opened
+[INFO] 2026-08-24T08:41:38.399Z - Task "MyCM 1787560881486" created successfully
+[STEP] 2026-08-24T08:41:38.399Z - Creating task: OtherCM 1787560881486
+[STEP] 2026-08-24T08:41:38.399Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:41:38.618Z - Add Task form opened
+[INFO] 2026-08-24T08:41:52.736Z - Task "OtherCM 1787560881486" created successfully
+[STEP] 2026-08-24T08:41:52.737Z - Navigating to Task page
+[INFO] 2026-08-24T08:41:52.926Z - Navigated to Task page
+[STEP] 2026-08-24T08:41:52.926Z - Searching for: 1787560881486
+[INFO] 2026-08-24T08:41:53.321Z - Search completed for: 1787560881486
+[STEP] 2026-08-24T08:41:53.321Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:41:54.330Z - ASSIGNED TO values: Jemes Cory
+[STEP] 2026-08-24T08:41:54.330Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:55.336Z - TASK values: MyCM 1787560881486
+[STEP] 2026-08-24T08:41:55.337Z - Clearing search
+[INFO] 2026-08-24T08:42:03.369Z - Search cleared
+[STEP] 2026-08-24T08:42:03.369Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:42:04.936Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:42:04.936Z - Setting status filter to: All
+[INFO] 2026-08-24T08:42:13.289Z - Status filter set to: All
+[STEP] 2026-08-24T08:42:13.289Z - Searching for: 1787560881486
+[INFO] 2026-08-24T08:42:13.676Z - Search completed for: 1787560881486
+[STEP] 2026-08-24T08:42:13.676Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:42:14.687Z - TASK values: OtherCM 1787560881486, MyCM 1787560881486
+[STEP] 2026-08-24T08:42:14.687Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:42:15.693Z - ASSIGNED TO values: Anny Vate, Jemes Cory
+[INFO] 2026-08-24T08:42:15.695Z - Assigned care manager filter verified

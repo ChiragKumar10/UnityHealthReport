@@ -1,0 +1,65 @@
+[INFO] 2026-08-24T08:26:47.239Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:26:47.189+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:26:48.208Z - Login to Provider Portal
+[INFO] 2026-08-24T08:26:52.893Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:52.904Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:26:54.890Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:26:54.894Z - Test: Filter by Active status
+[STEP] 2026-08-24T08:26:54.894Z - Selecting status filter: Active
+[INFO] 2026-08-24T08:26:57.856Z - Status filter set to: Active
+[STEP] 2026-08-24T08:26:57.856Z - Getting alert row count
+[INFO] 2026-08-24T08:26:59.072Z - Alert row count: 25
+[STEP] 2026-08-24T08:26:59.085Z - Verifying all rows have status: Not Resolved
+[STEP] 2026-08-24T08:26:59.087Z - Getting alert row count
+[INFO] 2026-08-24T08:27:00.224Z - Alert row count: 25
+[STEP] 2026-08-24T08:27:00.224Z - Getting cell text at row 1, column 8
+[INFO] 2026-08-24T08:27:00.592Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:00.592Z - Getting cell text at row 2, column 8
+[INFO] 2026-08-24T08:27:00.923Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:00.925Z - Getting cell text at row 3, column 8
+[INFO] 2026-08-24T08:27:01.315Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.315Z - Getting cell text at row 4, column 8
+[INFO] 2026-08-24T08:27:01.390Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.390Z - Getting cell text at row 5, column 8
+[INFO] 2026-08-24T08:27:01.473Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.473Z - Getting cell text at row 6, column 8
+[INFO] 2026-08-24T08:27:01.532Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.532Z - Getting cell text at row 7, column 8
+[INFO] 2026-08-24T08:27:01.553Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.553Z - Getting cell text at row 8, column 8
+[INFO] 2026-08-24T08:27:01.567Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.568Z - Getting cell text at row 9, column 8
+[INFO] 2026-08-24T08:27:01.584Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.585Z - Getting cell text at row 10, column 8
+[INFO] 2026-08-24T08:27:01.599Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.599Z - Getting cell text at row 11, column 8
+[INFO] 2026-08-24T08:27:01.608Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.608Z - Getting cell text at row 12, column 8
+[INFO] 2026-08-24T08:27:01.633Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.633Z - Getting cell text at row 13, column 8
+[INFO] 2026-08-24T08:27:01.640Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.640Z - Getting cell text at row 14, column 8
+[INFO] 2026-08-24T08:27:01.651Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.652Z - Getting cell text at row 15, column 8
+[INFO] 2026-08-24T08:27:01.663Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.663Z - Getting cell text at row 16, column 8
+[INFO] 2026-08-24T08:27:01.671Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.671Z - Getting cell text at row 17, column 8
+[INFO] 2026-08-24T08:27:01.683Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.683Z - Getting cell text at row 18, column 8
+[INFO] 2026-08-24T08:27:01.691Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.691Z - Getting cell text at row 19, column 8
+[INFO] 2026-08-24T08:27:01.703Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.703Z - Getting cell text at row 20, column 8
+[INFO] 2026-08-24T08:27:01.719Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.719Z - Getting cell text at row 21, column 8
+[INFO] 2026-08-24T08:27:01.736Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.737Z - Getting cell text at row 22, column 8
+[INFO] 2026-08-24T08:27:01.753Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.754Z - Getting cell text at row 23, column 8
+[INFO] 2026-08-24T08:27:01.772Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.772Z - Getting cell text at row 24, column 8
+[INFO] 2026-08-24T08:27:01.799Z - Cell text: Not Resolved
+[STEP] 2026-08-24T08:27:01.799Z - Getting cell text at row 25, column 8
+[INFO] 2026-08-24T08:27:01.840Z - Cell text: Not Resolved
+[INFO] 2026-08-24T08:27:01.842Z - All 25 rows have status: Not Resolved
+[INFO] 2026-08-24T08:27:01.851Z - Active filter shows only Not Resolved alerts

@@ -1,0 +1,98 @@
+[STEP] 2026-08-24T08:36:55.274Z - Login to Provider Portal
+[INFO] 2026-08-24T08:36:57.612Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:36:59.490Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:36:59.494Z - Creating patient via UI: Paucek, Gina
+[STEP] 2026-08-24T08:36:59.494Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:37:02.073Z - Patient details drawer opened
+[STEP] 2026-08-24T08:37:02.073Z - Filling demographics for Gina Paucek
+[STEP] 2026-08-24T08:37:04.546Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:37:04.806Z - Setting location: Automation
+[STEP] 2026-08-24T08:37:05.313Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:37:05.944Z - Clicking Save & Next
+[INFO] 2026-08-24T08:37:08.199Z - [createPatientViaUI] created "Paucek, Gina"
+[STEP] 2026-08-24T08:37:08.199Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:37:23.332Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:37:23.333Z - Adding new enrollment
+[INFO] 2026-08-24T08:37:26.874Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:37:27.900Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:37:27.900Z - Patient: Paucek, Gina | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:37:28.799Z - Validating enrollment result
+[INFO] 2026-08-24T08:37:28.799Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:37:28.799Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:37:28.799Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:37:28.813Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:37:28.813Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:37:28.813Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:37:28.813Z - Final enrollment details:
+[INFO] 2026-08-24T08:37:28.813Z -   Patient: Paucek, Gina
+[INFO] 2026-08-24T08:37:28.813Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:37:28.813Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:37:28.813Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:37:28.813Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:37:28.813Z - Enrolled Paucek, Gina in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:37:28.814Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:37:43.953Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:37:43.953Z - Applying status filter: New
+[STEP] 2026-08-24T08:37:44.351Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:45.373Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:37:45.373Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:37:45.759Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:46.779Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:37:46.780Z - Moving enrollment to Active for "Paucek" (RTM)
+[STEP] 2026-08-24T08:37:46.780Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:37:46.780Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:37:46.951Z - Date filter applied successfully
+[STEP] 2026-08-24T08:37:46.951Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:37:47.948Z - "Move to Active" confirmed for "Paucek"
+[INFO] 2026-08-24T08:37:47.948Z - Moved Paucek, Gina to Active
+[STEP] 2026-08-24T08:37:47.949Z - Test: Create alert → Resolve on Alerts page → Verify Resolved count in Monitoring
+[STEP] 2026-08-24T08:37:47.949Z - Opening patient chart from global search for: Paucek, Gina
+[INFO] 2026-08-24T08:37:50.324Z - Patient chart opened from global search for: Paucek, Gina
+[STEP] 2026-08-24T08:37:50.349Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:37:51.637Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:37:51.638Z - Adding vital: Pain Scale with value 64
+[STEP] 2026-08-24T08:37:51.638Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:37:51.852Z - Add Vital form opened
+[STEP] 2026-08-24T08:37:51.852Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:37:52.249Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:37:52.249Z - Entering vital value: 64
+[INFO] 2026-08-24T08:37:52.295Z - Successfully entered vital value: 64
+[STEP] 2026-08-24T08:37:52.295Z - Saving vital
+[INFO] 2026-08-24T08:37:52.378Z - Successfully saved vital
+[INFO] 2026-08-24T08:37:52.378Z - Successfully added vital: Pain Scale with value 64
+[INFO] 2026-08-24T08:37:52.378Z - Pain Scale vital added with value: 64
+[STEP] 2026-08-24T08:37:52.378Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:37:53.822Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:37:53.823Z - Searching alerts for: Paucek
+[INFO] 2026-08-24T08:37:55.410Z - Search completed for: Paucek
+[STEP] 2026-08-24T08:37:55.411Z - Getting alert row count
+[INFO] 2026-08-24T08:37:56.416Z - Alert row count: 1
+[STEP] 2026-08-24T08:37:56.417Z - Resolving alert at row 1
+[STEP] 2026-08-24T08:37:56.417Z - Opening action menu for row 1
+[INFO] 2026-08-24T08:37:56.946Z - Action menu opened for row 1
+[STEP] 2026-08-24T08:37:56.947Z - Clicking Resolve from action menu
+[INFO] 2026-08-24T08:37:57.541Z - Resolve clicked
+[STEP] 2026-08-24T08:37:57.541Z - Filling resolve note and saving
+[INFO] 2026-08-24T08:37:58.622Z - Resolve note saved
+[STEP] 2026-08-24T08:37:58.622Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:38:05.905Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:38:05.905Z - Alert at row 1 resolved
+[INFO] 2026-08-24T08:38:05.905Z - Alert resolved from Alerts page
+[STEP] 2026-08-24T08:38:05.905Z - Selecting status filter: All
+[INFO] 2026-08-24T08:38:08.078Z - Status filter set to: All
+[STEP] 2026-08-24T08:38:08.078Z - Searching alerts for: Paucek
+[INFO] 2026-08-24T08:38:09.659Z - Search completed for: Paucek
+[STEP] 2026-08-24T08:38:09.659Z - Getting alert row count
+[INFO] 2026-08-24T08:38:10.665Z - Alert row count: 1
+[STEP] 2026-08-24T08:38:10.666Z - Finding first resolved row
+[STEP] 2026-08-24T08:38:10.666Z - Getting alert row count
+[INFO] 2026-08-24T08:38:11.670Z - Alert row count: 1
+[STEP] 2026-08-24T08:38:11.670Z - Getting cell text at row 1, column 8
+[INFO] 2026-08-24T08:38:11.680Z - Cell text: Resolved
+[INFO] 2026-08-24T08:38:11.680Z - First resolved row found at index: 1 (attempt 1)
+[INFO] 2026-08-24T08:38:11.682Z - Cross-feature verified: Alert resolved from Alerts page, confirmed in All filter view
+[STEP] 2026-08-24T08:38:11.682Z - Navigating to Monitoring Alerts (Work List > Care Team Work List > RTM > Alerts)
+[INFO] 2026-08-24T08:38:15.975Z - Navigated to Monitoring Alerts
+[INFO] 2026-08-24T08:38:15.983Z - Monitoring shows: 0 Resolved

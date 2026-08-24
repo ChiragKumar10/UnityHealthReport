@@ -1,0 +1,95 @@
+[INFO] 2026-08-24T08:41:42.143Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:41:42.104+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:41:42.526Z - Login to Provider Portal
+[INFO] 2026-08-24T08:41:44.459Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:45.896Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:41:45.916Z - Creating patient via UI: Larkin, Isabelle
+[STEP] 2026-08-24T08:41:45.916Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:41:47.015Z - Patient details drawer opened
+[STEP] 2026-08-24T08:41:47.015Z - Filling demographics for Isabelle Larkin
+[STEP] 2026-08-24T08:41:50.481Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:41:50.821Z - Setting location: Automation
+[STEP] 2026-08-24T08:41:51.296Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:41:51.835Z - Clicking Save & Next
+[INFO] 2026-08-24T08:41:53.810Z - [createPatientViaUI] created "Larkin, Isabelle"
+[STEP] 2026-08-24T08:41:53.810Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:42:08.906Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:42:08.907Z - Adding new enrollment
+[INFO] 2026-08-24T08:42:12.085Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:42:12.886Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:42:12.886Z - Patient: Larkin, Isabelle | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:42:13.480Z - Validating enrollment result
+[INFO] 2026-08-24T08:42:13.481Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:42:13.482Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:42:13.482Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:42:13.504Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:42:13.504Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:42:13.504Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:42:13.504Z - Final enrollment details:
+[INFO] 2026-08-24T08:42:13.504Z -   Patient: Larkin, Isabelle
+[INFO] 2026-08-24T08:42:13.505Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:42:13.505Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:42:13.505Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:42:13.505Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:42:13.507Z - Enrolled Larkin, Isabelle in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:42:13.507Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:42:28.669Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:42:28.669Z - Applying status filter: New
+[STEP] 2026-08-24T08:42:29.063Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:29.610Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:42:29.610Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:42:29.981Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:30.519Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:42:30.519Z - Moving enrollment to Active for "Larkin" (RTM)
+[STEP] 2026-08-24T08:42:30.520Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:42:30.520Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:42:30.690Z - Date filter applied successfully
+[STEP] 2026-08-24T08:42:30.690Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:31.629Z - "Move to Active" confirmed for "Larkin"
+[INFO] 2026-08-24T08:42:31.629Z - Moved Larkin, Isabelle to Active
+[STEP] 2026-08-24T08:42:31.630Z - Test: Escalate alert and verify in Patient 360 Escalation section
+[STEP] 2026-08-24T08:42:31.630Z - Opening patient chart from global search for: Larkin, Isabelle
+[INFO] 2026-08-24T08:42:34.070Z - Patient chart opened from global search for: Larkin, Isabelle
+[STEP] 2026-08-24T08:42:34.077Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:42:35.060Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:42:35.062Z - Adding vital: Pain Scale with value 328
+[STEP] 2026-08-24T08:42:35.062Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:42:35.364Z - Add Vital form opened
+[STEP] 2026-08-24T08:42:35.371Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:42:35.611Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:42:35.612Z - Entering vital value: 328
+[INFO] 2026-08-24T08:42:35.676Z - Successfully entered vital value: 328
+[STEP] 2026-08-24T08:42:35.677Z - Saving vital
+[INFO] 2026-08-24T08:42:35.766Z - Successfully saved vital
+[INFO] 2026-08-24T08:42:35.766Z - Successfully added vital: Pain Scale with value 328
+[INFO] 2026-08-24T08:42:35.766Z - Pain Scale vital added with value: 328
+[STEP] 2026-08-24T08:42:35.767Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:42:37.419Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:42:37.427Z - Searching alerts for: Larkin
+[INFO] 2026-08-24T08:42:39.099Z - Search completed for: Larkin
+[STEP] 2026-08-24T08:42:39.104Z - Getting alert row count
+[INFO] 2026-08-24T08:42:40.112Z - Alert row count: 1
+[STEP] 2026-08-24T08:42:40.114Z - Escalating alert at row 1 and capturing provider name
+[STEP] 2026-08-24T08:42:40.114Z - Opening action menu for row 1
+[INFO] 2026-08-24T08:42:40.695Z - Action menu opened for row 1
+[STEP] 2026-08-24T08:42:40.695Z - Clicking Escalate to Provider from action menu
+[INFO] 2026-08-24T08:42:41.305Z - Escalate to Provider clicked
+[INFO] 2026-08-24T08:42:43.947Z - Escalated to provider: Anny Vate
+[STEP] 2026-08-24T08:42:45.049Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:42:58.603Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:42:58.603Z - Alert at row 1 escalated to Anny Vate
+[INFO] 2026-08-24T08:42:58.603Z - Alert escalated to provider: Anny Vate
+[STEP] 2026-08-24T08:42:58.603Z - Searching alerts for: Larkin
+[INFO] 2026-08-24T08:43:10.185Z - Search completed for: Larkin
+[STEP] 2026-08-24T08:43:12.196Z - Clicking patient name: Larkin, Isabelle
+[INFO] 2026-08-24T08:43:22.213Z - Patient 360 escalation-section check skipped (locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  -) — verifying via Alerts list
+[INFO] 2026-08-24T08:43:22.213Z - Verifying escalation via the Alerts list (source of truth)
+[STEP] 2026-08-24T08:43:22.213Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:43:33.396Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:43:33.396Z - Searching alerts for: Larkin
+[INFO] 2026-08-24T08:43:44.962Z - Search completed for: Larkin
+[STEP] 2026-08-24T08:43:46.968Z - Getting alert row count
+[INFO] 2026-08-24T08:43:47.978Z - Alert row count: 0

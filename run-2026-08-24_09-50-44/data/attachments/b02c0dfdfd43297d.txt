@@ -1,0 +1,28 @@
+[STEP] 2026-08-24T08:28:29.049Z - Test: Verify care manager filter - validate via patient chart enrollment section
+[INFO] 2026-08-24T08:28:30.816Z - Reusing single saved provider session — no login performed
+[INFO] 2026-08-24T08:28:33.879Z - Switched to Care Team Work List tab
+[INFO] 2026-08-24T08:28:35.196Z - Found 56 care managers: Autofirstarnnuw Autolastarnnuw, Autofirstbfstuw Autolastbfstuw, Autofirstbuwpuw Autolastbuwpuw, Autofirstcbaicg Autolastcbaicg, Autofirstccnubg Autolastccnubg, Autofirstcengby Autolastcengby, Autofirstdpgivw Autolastdpgivw, Autofirsteeyagl Autolasteeyagl, Autofirstejvngl Autolastejvngl, Autofirsteqzijs Autolasteqzijs, Autofirstfvscfl Autolastfvscfl, Autofirstgirgcg Autolastgirgcg, Autofirstgsuncg Autolastgsuncg, Autofirsthlffby Autolasthlffby, Autofirstjdqzis Autolastjdqzis, Autofirstkhqouw Autolastkhqouw, Autofirstkifmff Autolastkifmff, Autofirstkjpwuw Autolastkjpwuw, Autofirstklwqbg Autolastklwqbg, Autofirstlatvjs Autolastlatvjs, Autofirstldnbby Autolastldnbby, Autofirstmdbwis Editedmdbwis, Autofirstmdpguw Editedmdpguw, Autofirstmqvvtw Autolastmqvvtw, Autofirstmwizjs Autolastmwizjs, Autofirstnampcg Autolastnampcg, Autofirstnhepis Autolastnhepis, Autofirstnljstw Autolastnljstw, Autofirstnrhmcg Autolastnrhmcg, Autofirstpmkcgl Autolastpmkcgl, Autofirstpmstjs Autolastpmstjs, Autofirstpuyrjs Autolastpuyrjs, Autofirstquihgl Autolastquihgl, Autofirstrcwfff Autolastrcwfff, Autofirsttdbgjs Autolasttdbgjs, Autofirsttgciby Autolasttgciby, Autofirsttwdkay Autolasttwdkay, Autofirsttytref Autolasttytref, Autofirstuqxwel Autolastuqxwel, Autofirstvqvxis Autolastvqvxis, Autofirstvvyscg Autolastvvyscg, Autofirstvxuadg Autolastvxuadg, Autofirstwbexhs Autolastwbexhs, Autofirstwcofcg Autolastwcofcg, Autofirstwkgaby Autolastwkgaby, Autofirstwkmnay Autolastwkmnay, Autofirstxbmjgl Autolastxbmjgl, Autofirstxfzuuw Autolastxfzuuw, Autofirstxmcecg Editedymcecg, Autofirstxnwnff Autolastxnwnff, Autofirstxtlhff Autolastxtlhff, Autofirstziupff Autolastziupff, Autofirstzjrwby Autolastzjrwby, Autofirstzofcgf Autolastzofcgf, chirag kumar, Dinesh Bharote
+[INFO] 2026-08-24T08:28:35.211Z - Active program tab: RTM
+[STEP] 2026-08-24T08:28:35.213Z - 
+=== Filtering by care manager: "Autofirstarnnuw Autolastarnnuw" ===
+[INFO] 2026-08-24T08:28:35.931Z - "Autofirstarnnuw Autolastarnnuw" filter: 14 rows found (incl. header)
+[INFO] 2026-08-24T08:28:35.940Z - Opening chart for patient: "Zemlak, Andreane" (first data record)
+[STEP] 2026-08-24T08:28:35.941Z - Opening patient chart from global search for: Zemlak, Andreane
+[INFO] 2026-08-24T08:28:37.555Z - Patient chart opened from global search for: Zemlak, Andreane
+[STEP] 2026-08-24T08:28:37.559Z - Step 5: Navigate to Enrollments section for "Zemlak, Andreane"
+[INFO] 2026-08-24T08:28:39.488Z - Navigated to Enrollments section
+[STEP] 2026-08-24T08:28:39.488Z - Step 6: Validate care manager for Remote Therapeutic Monitoring enrollment
+[INFO] 2026-08-24T08:28:39.563Z - Found 1 care manager fields in enrollment section
+[INFO] 2026-08-24T08:28:41.117Z - Care manager VALIDATED (grid scan): "autofirstarnnuw"
+[STEP] 2026-08-24T08:28:41.118Z - Navigate back to Care Team Worklist
+[INFO] 2026-08-24T08:28:41.597Z - === Care manager "Autofirstarnnuw Autolastarnnuw" validated successfully ===
+
+[STEP] 2026-08-24T08:28:41.598Z - 
+=== Filtering by care manager: "Autofirstbfstuw Autolastbfstuw" ===
+[INFO] 2026-08-24T08:28:43.157Z - "Autofirstbfstuw Autolastbfstuw" filter: 2 rows found (incl. header)
+[INFO] 2026-08-24T08:28:43.263Z - No patient name cell for "Autofirstbfstuw Autolastbfstuw" — skipping validation
+[STEP] 2026-08-24T08:28:43.266Z - 
+=== Filtering by care manager: "Autofirstbuwpuw Autolastbuwpuw" ===
+[INFO] 2026-08-24T08:28:44.563Z - "Autofirstbuwpuw Autolastbuwpuw" filter: 2 rows found (incl. header)
+[INFO] 2026-08-24T08:28:44.578Z - No patient name cell for "Autofirstbuwpuw Autolastbuwpuw" — skipping validation
+[INFO] 2026-08-24T08:28:44.578Z - Test passed — Care manager filter validated for 3 care managers via patient chart

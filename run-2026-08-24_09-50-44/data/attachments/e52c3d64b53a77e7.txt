@@ -1,0 +1,28 @@
+[STEP] 2026-08-24T08:33:00.013Z - Phase 1: CM seeds an alert and escalates it to John
+[INFO] 2026-08-24T08:33:01.598Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:33:01.598Z - Seeding alert by saving Pain Scale 15 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:33:01.598Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:33:04.803Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:33:04.837Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:33:06.653Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:33:06.653Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:33:06.653Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:33:06.775Z - Add Vital form opened
+[STEP] 2026-08-24T08:33:06.775Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:33:07.203Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:33:07.204Z - Entering vital value: 15
+[INFO] 2026-08-24T08:33:07.248Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:33:07.250Z - Saving vital
+[INFO] 2026-08-24T08:33:07.315Z - Successfully saved vital
+[INFO] 2026-08-24T08:33:07.315Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:33:07.315Z - Abnormal Pain Scale (15) saved — waiting 30000ms for backend alert generation
+[STEP] 2026-08-24T08:33:37.318Z - Escalate via Medical History → Alerts to provider "John"
+[INFO] 2026-08-24T08:33:41.029Z - Escalated "Pain Scale" alert to "John Doe" via Medical History → Alerts
+[INFO] 2026-08-24T08:33:41.029Z - Phase 1 ✓ CM escalated an alert to John
+[STEP] 2026-08-24T08:33:41.200Z - Phase 2: John logs in and resolves the escalated visit with note + status
+[INFO] 2026-08-24T08:33:41.870Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:33:42.007Z - Performing provider login
+[STEP] 2026-08-24T08:33:42.007Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:33:42.386Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:33:46.615Z - Login completed
+[STEP] 2026-08-24T08:33:46.616Z - Open Provider Work List → Escalation section

@@ -1,0 +1,60 @@
+[STEP] 2026-08-24T08:27:06.947Z - Test 3: Verify modify enrollment - Changes reflected in Patient 360
+[INFO] 2026-08-24T08:27:06.948Z - Logging in and navigating to Enrollment section
+[INFO] 2026-08-24T08:27:09.736Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:27:09.736Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:27:09.741Z - Creating patient via UI: Dicki, Jamie
+[STEP] 2026-08-24T08:27:09.742Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:27:11.723Z - Patient details drawer opened
+[STEP] 2026-08-24T08:27:11.723Z - Filling demographics for Jamie Dicki
+[STEP] 2026-08-24T08:27:20.392Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:27:21.580Z - Setting location: Automation
+[STEP] 2026-08-24T08:27:22.039Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:27:22.594Z - Clicking Save & Next
+[INFO] 2026-08-24T08:27:24.846Z - [createPatientViaUI] created "Dicki, Jamie"
+[STEP] 2026-08-24T08:27:24.846Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:39.990Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:39.990Z - Adding new enrollment
+[INFO] 2026-08-24T08:27:43.548Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:27:44.743Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:27:44.744Z - Patient: Dicki, Jamie | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:27:45.676Z - Validating enrollment result
+[INFO] 2026-08-24T08:27:45.676Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:27:45.676Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:27:45.676Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:27:45.709Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:27:45.710Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:27:45.710Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:27:45.710Z - Final enrollment details:
+[INFO] 2026-08-24T08:27:45.710Z -   Patient: Dicki, Jamie
+[INFO] 2026-08-24T08:27:45.710Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:27:45.710Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:27:45.711Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:27:45.711Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:27:45.711Z - Enrolled Dicki, Jamie in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:27:45.711Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:01.041Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:01.041Z - Applying status filter: New
+[STEP] 2026-08-24T08:28:01.776Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:03.567Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:28:03.567Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:28:04.323Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:05.005Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:28:05.005Z - Moving enrollment to Active for "Dicki" (RPM)
+[STEP] 2026-08-24T08:28:05.006Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:28:05.006Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:28:05.439Z - Date filter applied successfully
+[STEP] 2026-08-24T08:28:05.439Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:06.947Z - "Move to Active" confirmed for "Dicki"
+[INFO] 2026-08-24T08:28:06.947Z - Moved Dicki, Jamie to Active
+[STEP] 2026-08-24T08:28:06.947Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:28:22.159Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:28:22.159Z - Applying status filter: Active
+[STEP] 2026-08-24T08:28:22.550Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:28:23.569Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:28:23.569Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:28:33.574Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:28:33.574Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:28:33.808Z - Date filter applied successfully
+[STEP] 2026-08-24T08:28:33.808Z - Waiting for enrollment list to finish loading

@@ -1,0 +1,107 @@
+[INFO] 2026-08-24T08:46:30.344Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:46:31.703Z - Test: Unarchive → Assign → Verify in patient chart
+[STEP] 2026-08-24T08:46:31.703Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:46:31.704Z - Creating patient via UI: Spencer, Tanner
+[STEP] 2026-08-24T08:46:31.705Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:46:33.253Z - Patient details drawer opened
+[STEP] 2026-08-24T08:46:33.254Z - Filling demographics for Tanner Spencer
+[STEP] 2026-08-24T08:46:35.789Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:46:36.012Z - Setting location: Automation
+[STEP] 2026-08-24T08:46:36.408Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:46:36.979Z - Clicking Save & Next
+[INFO] 2026-08-24T08:46:38.990Z - [createPatientViaUI] created "Spencer, Tanner"
+[STEP] 2026-08-24T08:46:38.990Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:46:54.075Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:46:54.075Z - Adding new enrollment
+[INFO] 2026-08-24T08:46:56.709Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:46:57.683Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:46:57.683Z - Patient: Spencer, Tanner | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:58.223Z - Validating enrollment result
+[INFO] 2026-08-24T08:46:58.224Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:46:58.224Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:46:58.224Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:46:58.282Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:46:58.282Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:46:58.282Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:46:58.282Z - Final enrollment details:
+[INFO] 2026-08-24T08:46:58.282Z -   Patient: Spencer, Tanner
+[INFO] 2026-08-24T08:46:58.282Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:46:58.282Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:46:58.282Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:46:58.282Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:46:58.282Z - Enrolled Spencer, Tanner in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:46:58.282Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:47:13.410Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:47:13.410Z - Applying status filter: New
+[STEP] 2026-08-24T08:47:13.885Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:47:14.398Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:47:14.398Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:47:14.765Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:47:15.280Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:47:15.280Z - Moving enrollment to Active for "Spencer" (CCM)
+[STEP] 2026-08-24T08:47:15.280Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:47:15.280Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:47:15.460Z - Date filter applied successfully
+[STEP] 2026-08-24T08:47:15.460Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:47:16.395Z - "Move to Active" confirmed for "Spencer"
+[INFO] 2026-08-24T08:47:16.395Z - Moved Spencer, Tanner to Active
+[STEP] 2026-08-24T08:47:16.395Z - Navigating to Document Library
+[INFO] 2026-08-24T08:47:18.889Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:47:18.889Z - Clicking folder: Education
+[INFO] 2026-08-24T08:47:20.431Z - Opened folder: Education
+[STEP] 2026-08-24T08:47:20.431Z - Uploading document: UnarcAssign 1787561240431
+[STEP] 2026-08-24T08:47:20.431Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:47:22.041Z - Upload Material form opened
+[STEP] 2026-08-24T08:47:22.041Z - Selecting tag: Education
+[INFO] 2026-08-24T08:47:23.445Z - Tag selected: Education
+[STEP] 2026-08-24T08:47:23.445Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:47:24.903Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:47:24.903Z - Filling file name: UnarcAssign 1787561240431
+[STEP] 2026-08-24T08:47:25.225Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[INFO] 2026-08-24T08:47:25.252Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:47:26.280Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.jpg
+[STEP] 2026-08-24T08:47:26.280Z - Clicking Upload button
+[INFO] 2026-08-24T08:47:26.291Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:47:29.348Z - Upload completed
+[INFO] 2026-08-24T08:47:29.348Z - Document "UnarcAssign 1787561240431" uploaded successfully
+[STEP] 2026-08-24T08:47:29.348Z - Navigating to Document Library
+[INFO] 2026-08-24T08:47:30.946Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:47:30.946Z - Clicking folder: Education
+[INFO] 2026-08-24T08:47:32.482Z - Opened folder: Education
+[STEP] 2026-08-24T08:47:32.483Z - Searching document: UnarcAssign 1787561240431
+[INFO] 2026-08-24T08:47:34.566Z - Search completed: UnarcAssign 1787561240431
+[STEP] 2026-08-24T08:47:34.566Z - Archiving document at row 0
+[STEP] 2026-08-24T08:47:34.567Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:47:35.617Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:47:35.617Z - Clicking action item: Archive
+[INFO] 2026-08-24T08:47:37.191Z - Clicked: Archive
+[INFO] 2026-08-24T08:47:50.199Z - Document archived
+[INFO] 2026-08-24T08:47:50.200Z - Step 1 ✓: Document uploaded and archived
+[STEP] 2026-08-24T08:47:50.200Z - Navigating to Document Library
+[INFO] 2026-08-24T08:47:51.785Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:47:51.785Z - Clicking folder: Education
+[INFO] 2026-08-24T08:47:53.576Z - Opened folder: Education
+[STEP] 2026-08-24T08:47:53.578Z - Toggling Show Archived checkbox
+[INFO] 2026-08-24T08:47:55.687Z - Show Archived toggled — checked: true
+[STEP] 2026-08-24T08:47:55.689Z - Searching document: UnarcAssign 1787561240431
+[INFO] 2026-08-24T08:47:57.886Z - Search completed: UnarcAssign 1787561240431
+[STEP] 2026-08-24T08:47:57.886Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:47:58.965Z - Action menu opened on row 0
+[INFO] 2026-08-24T08:47:59.273Z - Step 2 ✓: Document unarchived
+[STEP] 2026-08-24T08:47:59.501Z - Clicking folder: Education
+[INFO] 2026-08-24T08:48:01.183Z - Opened folder: Education
+[STEP] 2026-08-24T08:48:01.203Z - Toggling Show Archived checkbox
+[INFO] 2026-08-24T08:48:03.341Z - Show Archived toggled — checked: false
+[STEP] 2026-08-24T08:48:03.342Z - Searching document: UnarcAssign 1787561240431
+[INFO] 2026-08-24T08:48:05.437Z - Search completed: UnarcAssign 1787561240431
+[STEP] 2026-08-24T08:48:05.437Z - Assigning document (row 0) to patient: Spencer
+[STEP] 2026-08-24T08:48:05.437Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:48:06.481Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:48:06.481Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:48:08.023Z - Clicked: Assign
+[INFO] 2026-08-24T08:48:14.216Z - Document assigned to patient: Spencer
+[INFO] 2026-08-24T08:48:14.216Z - Step 3 ✓: Document assigned to Automation, Test
+[STEP] 2026-08-24T08:48:14.216Z - Opening patient chart from global search for: Spencer, Tanner
+[INFO] 2026-08-24T08:48:15.714Z - Patient chart opened from global search for: Spencer, Tanner

@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T09:47:44.057Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T09:47:44.026+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T09:47:44.406Z - Login to Provider Portal
+[INFO] 2026-08-24T09:47:46.274Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T09:47:47.262Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T09:47:47.277Z - Creating patient via UI: Jast, Kerry
+[STEP] 2026-08-24T09:47:47.277Z - Opening New Patient drawer
+[INFO] 2026-08-24T09:47:48.302Z - Patient details drawer opened
+[STEP] 2026-08-24T09:47:48.302Z - Filling demographics for Kerry Jast
+[STEP] 2026-08-24T09:47:51.117Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T09:47:51.567Z - Setting location: Automation
+[STEP] 2026-08-24T09:47:52.047Z - Setting Self Pay = true
+[STEP] 2026-08-24T09:47:52.542Z - Clicking Save & Next
+[INFO] 2026-08-24T09:47:54.316Z - [createPatientViaUI] created "Jast, Kerry"
+[STEP] 2026-08-24T09:47:54.316Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:48:09.403Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:48:09.404Z - Adding new enrollment
+[INFO] 2026-08-24T09:48:12.146Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:48:12.866Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T09:48:12.866Z - Patient: Jast, Kerry | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:48:13.375Z - Validating enrollment result
+[INFO] 2026-08-24T09:48:13.375Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T09:48:13.375Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T09:48:13.377Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T09:48:13.393Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T09:48:13.393Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T09:48:13.393Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T09:48:13.393Z - Final enrollment details:
+[INFO] 2026-08-24T09:48:13.393Z -   Patient: Jast, Kerry
+[INFO] 2026-08-24T09:48:13.393Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:48:13.394Z -   Provider: Anny Vate
+[INFO] 2026-08-24T09:48:13.394Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T09:48:13.394Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T09:48:13.394Z - Enrolled Jast, Kerry in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:48:13.394Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:48:28.538Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:48:28.538Z - Applying status filter: New
+[STEP] 2026-08-24T09:48:29.025Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:48:29.544Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T09:48:29.544Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:48:29.902Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:48:30.471Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T09:48:30.472Z - Moving enrollment to Active for "Jast" (RTM)
+[STEP] 2026-08-24T09:48:30.472Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T09:48:30.473Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T09:48:30.617Z - Date filter applied successfully
+[STEP] 2026-08-24T09:48:30.618Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:48:31.551Z - "Move to Active" confirmed for "Jast"
+[INFO] 2026-08-24T09:48:31.551Z - Moved Jast, Kerry to Active
+[INFO] 2026-08-24T09:48:31.551Z - [monitoring-03] seeded ACTIVE RTM patient: Jast, Kerry
+[STEP] 2026-08-24T09:48:31.552Z - Opening patient chart from global search for: Jast, Kerry
+[INFO] 2026-08-24T09:48:33.943Z - Patient chart opened from global search for: Jast, Kerry
+[STEP] 2026-08-24T09:48:35.634Z - Navigating to Vitals tab
+[INFO] 2026-08-24T09:48:35.772Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T09:48:35.772Z - Adding vital: Pain Scale with value 26
+[STEP] 2026-08-24T09:48:35.772Z - Clicking Add Vital button
+[INFO] 2026-08-24T09:48:35.886Z - Add Vital form opened
+[STEP] 2026-08-24T09:48:35.889Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T09:48:36.262Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T09:48:36.262Z - Entering vital value: 26
+[INFO] 2026-08-24T09:48:36.304Z - Successfully entered vital value: 26
+[STEP] 2026-08-24T09:48:36.305Z - Saving vital
+[INFO] 2026-08-24T09:48:36.376Z - Successfully saved vital
+[INFO] 2026-08-24T09:48:36.376Z - Successfully added vital: Pain Scale with value 26
+[INFO] 2026-08-24T09:48:36.376Z - beforeEach: Abnormal Pain Scale (26) added for Jast, Kerry — polling Alerts counter
+[STEP] 2026-08-24T09:48:36.383Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:48:36.383Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:48:36.908Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:48:36.912Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T09:48:40.782Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T09:48:45.141Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:48:45.141Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:48:46.190Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:48:46.190Z - Getting count for Alerts
+[INFO] 2026-08-24T09:48:46.197Z - Alerts count: 0
+[STEP] 2026-08-24T09:48:51.199Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:48:51.199Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:48:51.706Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:48:52.214Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:48:52.214Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:48:53.251Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:48:53.251Z - Getting count for Alerts
+[INFO] 2026-08-24T09:48:53.259Z - Alerts count: 0
+[STEP] 2026-08-24T09:49:01.260Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:49:01.261Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:49:01.767Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:49:02.274Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:49:02.274Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:49:03.314Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:49:03.314Z - Getting count for Alerts
+[INFO] 2026-08-24T09:49:03.320Z - Alerts count: 0
+[STEP] 2026-08-24T09:49:13.322Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:49:13.322Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:49:13.827Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:49:14.334Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:49:14.334Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:49:15.362Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:49:15.362Z - Getting count for Alerts
+[INFO] 2026-08-24T09:49:15.368Z - Alerts count: 0
+[STEP] 2026-08-24T09:49:25.370Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:49:25.370Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:49:25.881Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:49:26.391Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:49:26.391Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:49:27.439Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:49:27.439Z - Getting count for Alerts
+[INFO] 2026-08-24T09:49:27.447Z - Alerts count: 0
+[STEP] 2026-08-24T09:49:37.449Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:49:37.449Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:49:37.958Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:49:38.469Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:49:38.469Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:49:39.518Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:49:39.518Z - Getting count for Alerts
+[INFO] 2026-08-24T09:49:39.525Z - Alerts count: 0
+[STEP] 2026-08-24T09:49:49.527Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:49:49.527Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:49:50.038Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:49:50.548Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:49:50.548Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:49:51.580Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:49:51.580Z - Getting count for Alerts
+[INFO] 2026-08-24T09:49:51.588Z - Alerts count: 0
+[STEP] 2026-08-24T09:50:01.590Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:50:01.591Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:50:02.098Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:50:02.605Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:50:02.606Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:50:03.646Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:50:03.646Z - Getting count for Alerts
+[INFO] 2026-08-24T09:50:03.659Z - Alerts count: 0

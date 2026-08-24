@@ -1,0 +1,41 @@
+[STEP] 2026-08-24T08:45:15.329Z - Login to Provider Portal
+[INFO] 2026-08-24T08:45:17.884Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:45:19.912Z - Test: Verify note field works during reassignment
+[STEP] 2026-08-24T08:45:19.913Z - Navigating to Task page
+[INFO] 2026-08-24T08:45:28.770Z - Navigated to Task page
+[STEP] 2026-08-24T08:45:28.771Z - Creating task: ReassignNote 1787561128771
+[STEP] 2026-08-24T08:45:28.772Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:45:32.886Z - Add Task form opened
+[INFO] 2026-08-24T08:45:49.828Z - Task "ReassignNote 1787561128771" created successfully
+[STEP] 2026-08-24T08:45:49.828Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:45:51.719Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:45:51.719Z - Setting status filter to: All
+[INFO] 2026-08-24T08:45:52.580Z - Status filter set to: All
+[STEP] 2026-08-24T08:45:52.581Z - Searching for: ReassignNote 1787561128771
+[INFO] 2026-08-24T08:45:53.714Z - Search completed for: ReassignNote 1787561128771
+[STEP] 2026-08-24T08:45:53.715Z - Opening Edit Task form
+[STEP] 2026-08-24T08:45:53.715Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:45:54.834Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:45:54.834Z - Clicking action menu item: Edit
+[INFO] 2026-08-24T08:45:56.554Z - Clicked: Edit
+[INFO] 2026-08-24T08:45:56.575Z - Edit Task form opened
+[STEP] 2026-08-24T08:45:56.598Z - Filling edit note: Reassignment note - 1787561156598
+[STEP] 2026-08-24T08:45:57.048Z - Changing assignee to: a
+[INFO] 2026-08-24T08:45:59.355Z - Assignee changed to: a
+[STEP] 2026-08-24T08:45:59.355Z - Saving edited task
+[INFO] 2026-08-24T08:45:59.367Z - Save locator "this.saveButton": count=1, visible=true
+[INFO] 2026-08-24T08:45:59.374Z - Save locator "XPath h6": count=1, visible=true
+[INFO] 2026-08-24T08:45:59.390Z - Save locator "CSS has": count=1, visible=true
+[INFO] 2026-08-24T08:45:59.406Z - Save locator "getByRole": count=1, visible=true
+[INFO] 2026-08-24T08:45:59.420Z - Save locator "type=submit": count=1, visible=true
+[STEP] 2026-08-24T08:45:59.420Z - Reading all edit form pre-filled values
+[INFO] 2026-08-24T08:45:59.486Z - Edit form values: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"ReassignNote 1787561128771","assignee":"Anny Vate ","priority":"HIGH","dueDate":"31 August 2026 ","note":"Reassignment note - 1787561156598"}
+[INFO] 2026-08-24T08:45:59.486Z - Form state before save: {"service":"RPM","patient":"Charlotte Beahan ","action":"CALL","taskName":"ReassignNote 1787561128771","assignee":"Anny Vate ","priority":"HIGH","dueDate":"31 August 2026 ","note":"Reassignment note - 1787561156598"}
+[INFO] 2026-08-24T08:45:59.495Z - Validation errors before save: []
+[INFO] 2026-08-24T08:46:01.626Z - Save API: 200 https://api.stage.unityhealthwallet.com/api/master/v1/tasks/id
+[INFO] 2026-08-24T08:46:02.656Z - Edit task saved (drawer closed: true)
+[STEP] 2026-08-24T08:46:02.656Z - Searching for: ReassignNote 1787561128771
+[INFO] 2026-08-24T08:46:03.282Z - Search completed for: ReassignNote 1787561128771
+[STEP] 2026-08-24T08:46:03.282Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:46:04.299Z - TASK values: ReassignNote 1787561128771
+[INFO] 2026-08-24T08:46:04.300Z - Reassignment with note "Reassignment note - 1787561156598" saved successfully

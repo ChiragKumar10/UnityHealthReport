@@ -1,0 +1,109 @@
+[STEP] 2026-08-24T08:38:20.243Z - Login to Provider Portal
+[INFO] 2026-08-24T08:38:24.426Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:38:24.456Z - Test: Upload → Assign to 5 patients → Verify in each patient chart
+[STEP] 2026-08-24T08:38:24.456Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:38:24.541Z - Creating patient via UI: Kohler, Mathias
+[STEP] 2026-08-24T08:38:24.544Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:38:28.824Z - Patient details drawer opened
+[STEP] 2026-08-24T08:38:28.824Z - Filling demographics for Mathias Kohler
+[STEP] 2026-08-24T08:38:36.177Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:38:38.088Z - Setting location: Automation
+[STEP] 2026-08-24T08:38:38.975Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:38:40.483Z - Clicking Save & Next
+[INFO] 2026-08-24T08:38:44.232Z - [createPatientViaUI] created "Kohler, Mathias"
+[STEP] 2026-08-24T08:38:44.234Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:38:59.574Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:38:59.576Z - Adding new enrollment
+[INFO] 2026-08-24T08:39:03.141Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:39:04.300Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:39:04.300Z - Patient: Kohler, Mathias | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:05.012Z - Validating enrollment result
+[INFO] 2026-08-24T08:39:05.012Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:39:05.012Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:39:05.012Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:39:05.096Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:39:05.096Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:39:05.096Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:39:05.096Z - Final enrollment details:
+[INFO] 2026-08-24T08:39:05.096Z -   Patient: Kohler, Mathias
+[INFO] 2026-08-24T08:39:05.096Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:39:05.096Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:39:05.096Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:39:05.096Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:39:05.096Z - Enrolled Kohler, Mathias in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:05.097Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:39:20.279Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:39:20.279Z - Applying status filter: New
+[STEP] 2026-08-24T08:39:20.731Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:21.281Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:39:21.281Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:39:21.445Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:21.963Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:39:21.963Z - Moving enrollment to Active for "Kohler" (CCM)
+[STEP] 2026-08-24T08:39:21.963Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:39:21.963Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:39:22.215Z - Date filter applied successfully
+[STEP] 2026-08-24T08:39:22.215Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:39:23.194Z - "Move to Active" confirmed for "Kohler"
+[INFO] 2026-08-24T08:39:23.194Z - Moved Kohler, Mathias to Active
+[STEP] 2026-08-24T08:39:23.194Z - Navigating to Document Library
+[INFO] 2026-08-24T08:39:25.379Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:39:25.379Z - Clicking folder: Education
+[INFO] 2026-08-24T08:39:26.932Z - Opened folder: Education
+[STEP] 2026-08-24T08:39:26.933Z - Uploading document: MultiAssign 1787560766933
+[STEP] 2026-08-24T08:39:26.933Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:39:28.564Z - Upload Material form opened
+[STEP] 2026-08-24T08:39:28.564Z - Selecting tag: Education
+[INFO] 2026-08-24T08:39:29.980Z - Tag selected: Education
+[STEP] 2026-08-24T08:39:29.980Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:39:31.443Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:39:31.443Z - Filling file name: MultiAssign 1787560766933
+[STEP] 2026-08-24T08:39:31.766Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[INFO] 2026-08-24T08:39:31.805Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:39:32.842Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4-mb-example-file (1).pdf
+[STEP] 2026-08-24T08:39:32.843Z - Filling description: Document for multi-patient assignment
+[STEP] 2026-08-24T08:39:33.172Z - Clicking Upload button
+[INFO] 2026-08-24T08:39:33.181Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:39:36.257Z - Upload completed
+[INFO] 2026-08-24T08:39:36.257Z - Document "MultiAssign 1787560766933" uploaded successfully
+[INFO] 2026-08-24T08:39:36.257Z - Step 1 ✓: Document "MultiAssign 1787560766933" uploaded
+[STEP] 2026-08-24T08:39:36.257Z - Step 2: Assigning document to 5 patients simultaneously
+[STEP] 2026-08-24T08:39:36.257Z - Navigating to Document Library
+[INFO] 2026-08-24T08:39:37.849Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:39:37.849Z - Clicking folder: Education
+[INFO] 2026-08-24T08:39:39.387Z - Opened folder: Education
+[STEP] 2026-08-24T08:39:39.388Z - Searching document: MultiAssign 1787560766933
+[INFO] 2026-08-24T08:39:41.482Z - Search completed: MultiAssign 1787560766933
+[STEP] 2026-08-24T08:39:41.487Z - Assigning document (row 0) to 5 patients
+[STEP] 2026-08-24T08:39:41.488Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:39:42.635Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:39:42.635Z - Clicking action item: Assign
+[INFO] 2026-08-24T08:39:44.227Z - Clicked: Assign
+[INFO] 2026-08-24T08:39:44.240Z - Selecting patient 1/5: Kohler
+[INFO] 2026-08-24T08:39:47.534Z - Selecting patient 2/5: Carter
+[INFO] 2026-08-24T08:39:50.776Z - Selecting patient 3/5: Crist
+[INFO] 2026-08-24T08:39:53.984Z - Selecting patient 4/5: Collins
+[INFO] 2026-08-24T08:39:57.348Z - Selecting patient 5/5: Emmerich
+[INFO] 2026-08-24T08:40:00.709Z - All 5 patients selected
+[INFO] 2026-08-24T08:40:03.991Z - Document assigned to 5 patients
+[INFO] 2026-08-24T08:40:03.992Z - Step 2 ✓: Document assigned to 5 patients
+[STEP] 2026-08-24T08:40:03.992Z - Step 3: Verifying document in each patient chart
+[STEP] 2026-08-24T08:40:03.992Z - Verifying document in Kohler's chart
+[STEP] 2026-08-24T08:40:03.992Z - Navigating to Document Library
+[INFO] 2026-08-24T08:40:05.755Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:40:05.765Z - Opening patient chart from global search for: Kohler
+[INFO] 2026-08-24T08:40:07.706Z - Patient chart opened from global search for: Kohler
+[INFO] 2026-08-24T08:40:12.150Z - ✓ Document found in Kohler's chart
+[STEP] 2026-08-24T08:40:12.150Z - Verifying document in Crist's chart
+[STEP] 2026-08-24T08:40:12.150Z - Navigating to Document Library
+[INFO] 2026-08-24T08:40:13.843Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:40:13.848Z - Opening patient chart from global search for: Crist
+[INFO] 2026-08-24T08:40:16.186Z - Patient chart opened from global search for: Crist
+[INFO] 2026-08-24T08:40:18.338Z - ✓ Document found in Crist's chart
+[INFO] 2026-08-24T08:40:18.338Z - === MULTI-PATIENT ASSIGN RESULTS ===
+[INFO] 2026-08-24T08:40:18.338Z -   Kohler: ✓ Found
+[INFO] 2026-08-24T08:40:18.338Z -   Crist: ✓ Found
+[INFO] 2026-08-24T08:40:18.338Z - Verified: 2/2 patient charts checked
+[INFO] 2026-08-24T08:40:18.339Z - AUT_DOC_006 PASSED: Document assigned to 5 patients, verified in 2 patient charts

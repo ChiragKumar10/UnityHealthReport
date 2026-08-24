@@ -1,0 +1,76 @@
+[STEP] 2026-08-24T08:41:26.033Z - Login to Provider Portal as Chirag
+[INFO] 2026-08-24T08:41:32.883Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:41:32.891Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:41:32.901Z - Creating patient via UI: Witting, Julius
+[STEP] 2026-08-24T08:41:32.904Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:41:38.312Z - Patient details drawer opened
+[STEP] 2026-08-24T08:41:38.313Z - Filling demographics for Julius Witting
+[STEP] 2026-08-24T08:41:44.276Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:41:45.711Z - Setting location: Automation
+[STEP] 2026-08-24T08:41:46.780Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:41:47.853Z - Clicking Save & Next
+[INFO] 2026-08-24T08:41:53.477Z - [createPatientViaUI] created "Witting, Julius"
+[STEP] 2026-08-24T08:41:53.481Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:42:08.876Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:42:08.876Z - Adding new enrollment
+[INFO] 2026-08-24T08:42:13.004Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:42:14.242Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:42:14.242Z - Patient: Witting, Julius | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:42:15.528Z - Validating enrollment result
+[INFO] 2026-08-24T08:42:15.528Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:42:15.528Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:42:15.528Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:42:16.118Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:42:16.118Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:42:16.118Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:42:16.118Z - Final enrollment details:
+[INFO] 2026-08-24T08:42:16.118Z -   Patient: Witting, Julius
+[INFO] 2026-08-24T08:42:16.118Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:42:16.118Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:42:16.118Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:42:16.118Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:42:16.118Z - Enrolled Witting, Julius in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:42:16.118Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:42:32.263Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:42:32.263Z - Applying status filter: New
+[STEP] 2026-08-24T08:42:33.146Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:34.466Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:42:34.466Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:42:35.516Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:36.644Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:42:36.644Z - Moving enrollment to Active for "Witting" (CCM)
+[STEP] 2026-08-24T08:42:36.644Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:42:36.644Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:42:37.415Z - Date filter applied successfully
+[STEP] 2026-08-24T08:42:37.415Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:42:38.828Z - "Move to Active" confirmed for "Witting"
+[INFO] 2026-08-24T08:42:38.829Z - Moved Witting, Julius to Active
+[STEP] 2026-08-24T08:42:38.842Z - Test: Create task for patient Automation,Test and verify in Patient Charting
+[STEP] 2026-08-24T08:42:38.842Z - Navigating to Task page
+[INFO] 2026-08-24T08:42:41.109Z - Navigated to Task page
+[STEP] 2026-08-24T08:42:41.109Z - Creating task: PatientChart 1787560961109
+[STEP] 2026-08-24T08:42:41.109Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:42:41.718Z - Add Task form opened
+[INFO] 2026-08-24T08:43:05.998Z - Task "PatientChart 1787560961109" created successfully
+[INFO] 2026-08-24T08:43:05.998Z - Task "PatientChart 1787560961109" created with CCM service for patient Automation, Test
+[STEP] 2026-08-24T08:43:05.999Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:43:07.915Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:43:07.915Z - Setting status filter to: All
+[INFO] 2026-08-24T08:43:08.730Z - Status filter set to: All
+[STEP] 2026-08-24T08:43:08.730Z - Searching for: PatientChart 1787560961109
+[INFO] 2026-08-24T08:43:09.997Z - Search completed for: PatientChart 1787560961109
+[STEP] 2026-08-24T08:43:09.997Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:43:11.030Z - TASK values: PatientChart 1787560961109
+[INFO] 2026-08-24T08:43:11.038Z - Task verified in task list
+[STEP] 2026-08-24T08:43:11.038Z - Opening patient chart for Automation, Test
+[STEP] 2026-08-24T08:43:11.039Z - Opening patient chart from global search for: Witting, Julius
+[INFO] 2026-08-24T08:43:13.074Z - Patient chart opened from global search for: Witting, Julius
+[STEP] 2026-08-24T08:43:13.079Z - Selecting CCM service tab
+[STEP] 2026-08-24T08:43:13.250Z - Clicking Tasks tab in patient chart
+[STEP] 2026-08-24T08:43:16.751Z - Filtering by ToDo status in patient charting
+[INFO] 2026-08-24T08:43:17.545Z - Status filter set to ToDo
+[STEP] 2026-08-24T08:43:17.545Z - Filtering by Call action in patient charting
+[INFO] 2026-08-24T08:43:18.713Z - Action filter set to Call
+[INFO] 2026-08-24T08:43:19.092Z - Tasks in patient charting: 

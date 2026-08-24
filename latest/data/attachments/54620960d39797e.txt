@@ -1,0 +1,58 @@
+[STEP] 2026-08-24T08:45:56.740Z - Login to Provider Portal
+[INFO] 2026-08-24T08:46:00.671Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:46:00.676Z - Test: Create task with each reminder medium and verify success
+[STEP] 2026-08-24T08:46:00.677Z - Navigating to Task page
+[INFO] 2026-08-24T08:46:08.801Z - Navigated to Task page
+[STEP] 2026-08-24T08:46:08.802Z - Creating task with reminder: NotifyEmail 1787561168802
+[STEP] 2026-08-24T08:46:08.802Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:46:10.914Z - Add Task form opened
+[STEP] 2026-08-24T08:46:24.932Z - Selecting "Email" from combobox index 7
+[INFO] 2026-08-24T08:46:26.353Z - Selected "Email" from combobox 7
+[STEP] 2026-08-24T08:46:26.353Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:46:27.861Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:46:31.077Z - Task "NotifyEmail 1787561168802" with reminder created successfully
+[INFO] 2026-08-24T08:46:31.077Z - Created: NotifyEmail 1787561168802
+[STEP] 2026-08-24T08:46:31.077Z - Creating task with reminder: NotifyMessage 1787561168802
+[STEP] 2026-08-24T08:46:31.077Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:46:31.723Z - Add Task form opened
+[STEP] 2026-08-24T08:46:46.905Z - Selecting "Message" from combobox index 7
+[INFO] 2026-08-24T08:46:48.465Z - Selected "Message" from combobox 7
+[STEP] 2026-08-24T08:46:48.465Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:46:49.975Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:46:53.182Z - Task "NotifyMessage 1787561168802" with reminder created successfully
+[INFO] 2026-08-24T08:46:53.182Z - Created: NotifyMessage 1787561168802
+[STEP] 2026-08-24T08:46:53.182Z - Creating task with reminder: NotifySMS 1787561168802
+[STEP] 2026-08-24T08:46:53.183Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:46:53.721Z - Add Task form opened
+[STEP] 2026-08-24T08:47:08.658Z - Selecting "SMS" from combobox index 7
+[INFO] 2026-08-24T08:47:10.243Z - Selected "SMS" from combobox 7
+[STEP] 2026-08-24T08:47:10.245Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:47:11.798Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:47:14.976Z - Task "NotifySMS 1787561168802" with reminder created successfully
+[INFO] 2026-08-24T08:47:14.976Z - Created: NotifySMS 1787561168802
+[STEP] 2026-08-24T08:47:14.976Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:47:16.794Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:47:16.795Z - Setting status filter to: All
+[INFO] 2026-08-24T08:47:17.344Z - Status filter set to: All
+[STEP] 2026-08-24T08:47:17.344Z - Searching for: NotifyEmail 1787561168802
+[INFO] 2026-08-24T08:47:18.206Z - Search completed for: NotifyEmail 1787561168802
+[STEP] 2026-08-24T08:47:18.207Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:47:19.221Z - TASK values: NotifyEmail 1787561168802
+[INFO] 2026-08-24T08:47:19.224Z - Task with Email reminder verified
+[STEP] 2026-08-24T08:47:19.226Z - Clearing search
+[INFO] 2026-08-24T08:47:27.546Z - Search cleared
+[STEP] 2026-08-24T08:47:27.546Z - Searching for: NotifyMessage 1787561168802
+[INFO] 2026-08-24T08:47:27.792Z - Search completed for: NotifyMessage 1787561168802
+[STEP] 2026-08-24T08:47:27.792Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:47:28.802Z - TASK values: NotifyMessage 1787561168802
+[INFO] 2026-08-24T08:47:28.809Z - Task with Message reminder verified
+[STEP] 2026-08-24T08:47:28.809Z - Clearing search
+[INFO] 2026-08-24T08:47:37.166Z - Search cleared
+[STEP] 2026-08-24T08:47:37.166Z - Searching for: NotifySMS 1787561168802
+[INFO] 2026-08-24T08:47:37.327Z - Search completed for: NotifySMS 1787561168802
+[STEP] 2026-08-24T08:47:37.327Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:47:38.332Z - TASK values: NotifySMS 1787561168802
+[INFO] 2026-08-24T08:47:38.333Z - Task with SMS reminder verified
+[STEP] 2026-08-24T08:47:38.333Z - Clearing search
+[INFO] 2026-08-24T08:47:46.460Z - Search cleared
+[INFO] 2026-08-24T08:47:46.460Z - All 3 reminder mediums verified: Email, Message, SMS

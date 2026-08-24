@@ -1,0 +1,208 @@
+[STEP] 2026-08-24T08:34:41.989Z - Phase 1: Chirag logs in and charts an abnormal Blood Glucose
+[INFO] 2026-08-24T08:34:44.406Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:34:44.407Z - Seeding alert by saving Blood Glucose 200 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:34:44.407Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:34:48.609Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:34:48.674Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:34:51.890Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:34:51.890Z - Adding vital: Blood Glucose with value 200
+[STEP] 2026-08-24T08:34:51.891Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:34:52.424Z - Add Vital form opened
+[STEP] 2026-08-24T08:34:52.425Z - Selecting vital type: Blood Glucose
+[INFO] 2026-08-24T08:34:52.993Z - Successfully selected vital type: Blood Glucose
+[STEP] 2026-08-24T08:34:52.993Z - Entering vital value: 200
+[INFO] 2026-08-24T08:34:53.072Z - Successfully entered vital value: 200
+[STEP] 2026-08-24T08:34:53.072Z - Saving vital
+[INFO] 2026-08-24T08:34:53.200Z - Successfully saved vital
+[INFO] 2026-08-24T08:34:53.201Z - Successfully added vital: Blood Glucose with value 200
+[INFO] 2026-08-24T08:34:53.201Z - Abnormal Blood Glucose (200) saved — waiting 45000ms for backend alert generation
+[STEP] 2026-08-24T08:35:38.206Z - Phase 1: Verify the alert in Monitoring → RPM → Alerts (current date)
+[STEP] 2026-08-24T08:35:38.206Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:35:38.207Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:35:38.207Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:35:38.826Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:35:38.845Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:35:47.181Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:35:55.353Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:35:55.353Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:35:57.974Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:35:57.975Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:35:59.580Z - Setting date filter to today
+[INFO] 2026-08-24T08:35:59.640Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:36:01.004Z - Date filter set to: 08-24-2026
+[INFO] 2026-08-24T08:36:01.004Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:36:01.004Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:36:01.164Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:36:02.827Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:36:02.827Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:36:02.864Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:36:02.940Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:36:02.940Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:36:02.940Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:02.940Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:03.473Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:04.002Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:04.002Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:36:05.119Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:36:05.119Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:36:06.308Z - Setting date filter to today
+[INFO] 2026-08-24T08:36:06.349Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:36:06.349Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:36:06.349Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:36:06.532Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:36:08.176Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:36:08.178Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:36:08.202Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:36:18.232Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:36:18.232Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:36:18.233Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:18.233Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:18.739Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:19.245Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:19.245Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:36:20.298Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:36:20.298Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:36:21.363Z - Setting date filter to today
+[INFO] 2026-08-24T08:36:21.369Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:36:21.369Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:36:21.369Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:36:21.411Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:36:22.994Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:36:22.994Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:36:23.013Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:36:33.033Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:36:33.034Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:36:33.035Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:33.035Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:33.556Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:34.080Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:34.080Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:36:35.254Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:36:35.254Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:36:36.414Z - Setting date filter to today
+[INFO] 2026-08-24T08:36:36.435Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:36:36.435Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:36:36.435Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:36:36.536Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:36:38.152Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:36:38.154Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:36:38.179Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:36:53.192Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:36:53.192Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:36:53.192Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:36:53.192Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:36:53.700Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:36:54.209Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:36:54.209Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:36:55.282Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:36:55.282Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:36:56.441Z - Setting date filter to today
+[INFO] 2026-08-24T08:36:56.461Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:36:56.461Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:36:56.461Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:36:56.557Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:36:58.145Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:36:58.145Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:36:58.188Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:37:13.214Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:37:13.214Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:37:13.214Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:37:13.214Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:37:13.736Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:37:14.260Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:37:14.260Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:37:15.333Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:37:15.333Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:37:16.423Z - Setting date filter to today
+[INFO] 2026-08-24T08:37:16.433Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:37:16.434Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:37:16.434Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:37:16.477Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:37:18.042Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:37:18.042Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:37:18.062Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:37:33.102Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:37:33.109Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:37:33.109Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:37:33.109Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:37:33.641Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:37:34.187Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:37:34.187Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:37:35.365Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:37:35.365Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:37:36.578Z - Setting date filter to today
+[INFO] 2026-08-24T08:37:36.603Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:37:36.603Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:37:36.603Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:37:36.725Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:37:38.327Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:37:38.328Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:37:38.355Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:37:53.372Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:37:53.372Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:37:53.372Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:37:53.373Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:37:53.881Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:37:54.394Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:37:54.394Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:37:55.443Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:37:55.443Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:37:56.500Z - Setting date filter to today
+[INFO] 2026-08-24T08:37:56.508Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:37:56.508Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:37:56.508Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:37:56.542Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:37:58.131Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:37:58.131Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:37:58.141Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:38:13.158Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:38:13.158Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:38:13.158Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:38:13.158Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:38:13.698Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:38:14.234Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:38:14.235Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:38:15.290Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:38:15.290Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:38:16.437Z - Setting date filter to today
+[INFO] 2026-08-24T08:38:16.457Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:38:16.457Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:38:16.457Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:38:16.571Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:38:18.214Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:38:18.214Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:38:18.240Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:38:33.270Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:38:33.271Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:38:33.271Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:38:33.271Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:38:33.783Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:38:34.326Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:38:34.326Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:38:35.575Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:38:35.575Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:38:36.750Z - Setting date filter to today
+[INFO] 2026-08-24T08:38:36.776Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:38:36.776Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:38:36.776Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:38:36.866Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:38:38.543Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:38:38.544Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:38:38.590Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:38:53.637Z - Alert not yet in Monitoring "Not Resolved" view — re-opening Monitoring → RPM → Alerts
+[STEP] 2026-08-24T08:38:53.637Z - Opening Monitoring → RPM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:38:53.637Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:38:53.637Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:38:54.144Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:38:54.651Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:38:54.651Z - Selecting program tab: RPM
+[INFO] 2026-08-24T08:38:55.697Z - Successfully selected RPM tab
+[STEP] 2026-08-24T08:38:55.697Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:38:56.745Z - Setting date filter to today
+[INFO] 2026-08-24T08:38:56.757Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:38:56.760Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:38:56.761Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:38:56.818Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:38:58.393Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:38:58.393Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:38:58.418Z - No non-default Provider filter to clear

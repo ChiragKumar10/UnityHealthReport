@@ -1,0 +1,20 @@
+[STEP] 2026-08-24T08:25:56.235Z - === Re-enrolled patient data syncs to Profile ===
+[STEP] 2026-08-24T08:25:56.235Z - Phase 0: Login + find or seed a Closed enrollment
+[INFO] 2026-08-24T08:26:01.730Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:01.730Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:26:18.852Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:26:18.854Z - Applying status filter: Closed
+[STEP] 2026-08-24T08:26:19.624Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:26:20.710Z - Status filter 'Closed' applied successfully
+[INFO] 2026-08-24T08:26:20.969Z - Phase 0 ✓ Closed enrollment ready → Doyle, Dorian (RTM)
+[STEP] 2026-08-24T08:26:20.969Z - Phase 1: Activate enrollment for "Doyle, Dorian"
+[INFO] 2026-08-24T08:26:22.167Z - Phase 1 ✓ Activate confirmed
+[STEP] 2026-08-24T08:26:22.168Z - Phase 2: Open patient chart and click Profile
+[STEP] 2026-08-24T08:26:22.171Z - Opening patient chart from global search for: Doyle, Dorian
+[INFO] 2026-08-24T08:26:25.839Z - Patient chart opened from global search for: Doyle, Dorian
+[INFO] 2026-08-24T08:26:31.840Z - Phase 2 ✓ Profile opened
+[STEP] 2026-08-24T08:26:31.841Z - Phase 3: Verify Profile contains patient name, program, and today's enrollment date
+[INFO] 2026-08-24T08:26:31.906Z - Phase 3a ✓ Patient name "Doyle, Dorian" visible on Profile
+[INFO] 2026-08-24T08:26:31.963Z - Phase 3b ✓ Program "RTM" visible on Profile
+[INFO] 2026-08-24T08:26:32.006Z - Phase 3c ✓ Today's enrollment date "08-24-2026" visible on Profile
+[INFO] 2026-08-24T08:26:32.006Z - === Re-enrolled patient data sync to Profile verified ===

@@ -1,0 +1,118 @@
+[STEP] 2026-08-24T08:29:47.525Z - === AUT_PW_RES_005: resolution note visible via View Resolved Note ===
+[STEP] 2026-08-24T08:29:47.670Z - Phase 0: Provider logs in and seeds an alert
+[INFO] 2026-08-24T08:29:49.366Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:49.366Z - Seeding alert by saving Pain Scale 15 for patient "Block, Micheal"
+[STEP] 2026-08-24T08:29:49.366Z - Opening patient chart from global search for: Block, Micheal
+[INFO] 2026-08-24T08:29:53.553Z - Patient chart opened from global search for: Block, Micheal
+[STEP] 2026-08-24T08:29:53.623Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:29:56.571Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:29:56.571Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:29:56.571Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:29:56.909Z - Add Vital form opened
+[STEP] 2026-08-24T08:29:56.909Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:29:57.322Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:29:57.322Z - Entering vital value: 15
+[INFO] 2026-08-24T08:29:57.396Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:29:57.396Z - Saving vital
+[INFO] 2026-08-24T08:29:57.663Z - Successfully saved vital
+[INFO] 2026-08-24T08:29:57.665Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:29:57.665Z - Abnormal Pain Scale (15) saved — waiting 30000ms for backend alert generation
+[INFO] 2026-08-24T08:30:27.674Z - Phase 0 ✓ Alert seeded
+[STEP] 2026-08-24T08:30:27.674Z - Phase 1: Resolve the alert with note: "RES_005 view-resolved-note check — aut1787560187501"
+[STEP] 2026-08-24T08:30:27.674Z - Opening Monitoring → RTM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:30:27.674Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:30:27.674Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:30:28.190Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:30:28.202Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:30:34.536Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:30:42.733Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:30:42.733Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:30:43.962Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:30:43.964Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:30:45.135Z - Setting date filter to today
+[INFO] 2026-08-24T08:30:45.159Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:30:46.782Z - Date filter set to: 08-24-2026
+[INFO] 2026-08-24T08:30:46.782Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:30:46.782Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:30:46.915Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:30:48.609Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:30:48.609Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:30:48.621Z - No non-default Provider filter to clear
+[STEP] 2026-08-24T08:30:48.627Z - Polling for "Block, Micheal" in Monitoring → RTM → Alerts (status="Not Resolved")
+[INFO] 2026-08-24T08:30:48.635Z - Patient not yet in Alerts view, reloading and re-applying filters
+[STEP] 2026-08-24T08:30:50.158Z - Opening Monitoring → RTM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:30:50.158Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:30:50.158Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:30:51.153Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:30:51.773Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:30:51.773Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:30:53.075Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:30:53.075Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:30:56.204Z - Setting date filter to today
+[INFO] 2026-08-24T08:30:56.236Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:30:57.563Z - Date filter set to: 08-24-2026
+[INFO] 2026-08-24T08:30:57.563Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:30:57.563Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:30:57.735Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:30:59.353Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:30:59.353Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:30:59.372Z - No non-default Provider filter to clear
+[INFO] 2026-08-24T08:31:04.394Z - Patient not yet in Alerts view, reloading and re-applying filters
+[STEP] 2026-08-24T08:31:06.601Z - Opening Monitoring → RTM → Alerts (status="Not Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:31:06.601Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:31:06.601Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:31:07.240Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:31:07.795Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:31:07.795Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:31:08.842Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:31:08.842Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:31:09.999Z - Setting date filter to today
+[INFO] 2026-08-24T08:31:10.015Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:31:11.220Z - Date filter set to: 08-24-2026
+[INFO] 2026-08-24T08:31:11.220Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:31:11.220Z - Setting alert status filter to: Not Resolved
+[INFO] 2026-08-24T08:31:11.291Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:31:12.827Z - Alert status filter set to: Not Resolved
+[STEP] 2026-08-24T08:31:12.827Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:31:12.839Z - No non-default Provider filter to clear
+[STEP] 2026-08-24T08:31:17.847Z - Resolving alert from Monitoring for "Block, Micheal" with note: "RES_005 view-resolved-note check — aut1787560187501"
+[STEP] 2026-08-24T08:31:17.847Z - Resolving alert from action menu for: Block, Micheal
+[STEP] 2026-08-24T08:31:17.847Z - Opening action menu for: Block, Micheal
+[INFO] 2026-08-24T08:31:18.955Z - Action menu clicked for: Block, Micheal (attempt 1)
+[STEP] 2026-08-24T08:31:21.122Z - Filling resolve form and saving
+[INFO] 2026-08-24T08:31:21.132Z - Resolve drawer visible: true
+[INFO] 2026-08-24T08:31:21.228Z - Resolution note filled: "RES_005 view-resolved-note check — aut1787560187501"
+[INFO] 2026-08-24T08:31:21.240Z - Clicking Resolve to open time entries section
+[INFO] 2026-08-24T08:31:23.369Z - MANUAL TIME ENTRIES form visible: true
+[INFO] 2026-08-24T08:31:24.456Z - Resolve button exists for final click: true
+[INFO] 2026-08-24T08:31:24.456Z - Using evaluate() to click Resolve button directly (bypass overlap)
+[INFO] 2026-08-24T08:31:27.524Z - Post-resolve toast: "Alert Resolved Successfully"
+[INFO] 2026-08-24T08:31:27.539Z - Post-resolve open drawers: 3
+[INFO] 2026-08-24T08:31:27.539Z - Drawer still open after resolve — dismissing
+[STEP] 2026-08-24T08:31:27.539Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:31:28.319Z - Found 2 backdrop(s) — attempting to dismiss
+[INFO] 2026-08-24T08:31:31.683Z - Drawer closed via Cancel button
+[INFO] 2026-08-24T08:31:31.684Z - Resolve form completed
+[INFO] 2026-08-24T08:31:31.685Z - Alert resolved from action for: Block, Micheal
+[INFO] 2026-08-24T08:31:31.687Z - Phase 1 ✓ Alert resolved with unique note
+[STEP] 2026-08-24T08:31:31.687Z - Phase 2: Open Resolved view and view the resolution note via action menu
+[STEP] 2026-08-24T08:31:31.689Z - Opening Monitoring → RTM → Alerts (status="Resolved") for patient "Block" (clearProviderFilter=true, skipSearch=false)
+[STEP] 2026-08-24T08:31:31.689Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:31:31.689Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:31:32.212Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:31:32.741Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:31:32.741Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:31:33.849Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:31:33.849Z - Clicking monitoring category: Alerts
+[STEP] 2026-08-24T08:31:35.308Z - Setting date filter to today
+[INFO] 2026-08-24T08:31:35.349Z - Date filter already set to today: 08-24-2026
+[INFO] 2026-08-24T08:31:35.349Z - Switched to Alerts monitoring view
+[STEP] 2026-08-24T08:31:35.349Z - Setting alert status filter to: Resolved
+[INFO] 2026-08-24T08:31:35.520Z - Clicked status combobox (current: "Not Resolved")
+[INFO] 2026-08-24T08:31:37.421Z - Alert status filter set to: Resolved
+[STEP] 2026-08-24T08:31:37.421Z - Clearing Provider filter (if applied)
+[INFO] 2026-08-24T08:31:37.463Z - No non-default Provider filter to clear
+[STEP] 2026-08-24T08:31:37.478Z - Polling for "Block, Micheal" in Monitoring → RTM → Resolved view
+[INFO] 2026-08-24T08:31:38.107Z - Clicked "View Resolved Note"
+[INFO] 2026-08-24T08:31:38.121Z - Phase 2 ✓ Resolution note visible: "RES_005 view-resolved-note check — aut1787560187501"
+[INFO] 2026-08-24T08:31:38.496Z - === AUT_PW_RES_005 verified: View Resolved Note exposes the resolution note ===

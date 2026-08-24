@@ -1,0 +1,31 @@
+[STEP] 2026-08-24T08:45:53.928Z - Login to Provider Portal
+[INFO] 2026-08-24T08:45:56.057Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:45:57.653Z - Test: E2E Add Task with all mandatory fields + Note
+[STEP] 2026-08-24T08:45:57.653Z - Navigating to Task page
+[INFO] 2026-08-24T08:46:05.719Z - Navigated to Task page
+[INFO] 2026-08-24T08:46:06.168Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:46:06.168Z - Creating task: E2E Task 1787561165719
+[STEP] 2026-08-24T08:46:06.168Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:46:08.840Z - Add Task form opened
+[INFO] 2026-08-24T08:46:25.394Z - Task "E2E Task 1787561165719" created successfully
+[STEP] 2026-08-24T08:46:25.394Z - Navigating to Task page
+[INFO] 2026-08-24T08:46:25.593Z - Navigated to Task page
+[STEP] 2026-08-24T08:46:25.593Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:46:27.223Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:46:27.223Z - Setting status filter to: All
+[INFO] 2026-08-24T08:46:35.717Z - Status filter set to: All
+[STEP] 2026-08-24T08:46:35.717Z - Searching for: E2E Task 1787561165719
+[INFO] 2026-08-24T08:46:36.128Z - Search completed for: E2E Task 1787561165719
+[STEP] 2026-08-24T08:46:36.128Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:46:37.144Z - TASK values: E2E Task 1787561165719
+[STEP] 2026-08-24T08:46:37.149Z - Fetching column values for: SERVICE
+[INFO] 2026-08-24T08:46:38.157Z - SERVICE values: RPM
+[STEP] 2026-08-24T08:46:38.158Z - Fetching column values for: PRIORITY
+[INFO] 2026-08-24T08:46:39.178Z - PRIORITY values: HIGH
+[STEP] 2026-08-24T08:46:39.181Z - Fetching column values for: TASK STATUS
+[INFO] 2026-08-24T08:46:40.192Z - TASK STATUS values: ToDo
+[STEP] 2026-08-24T08:46:40.193Z - Fetching column values for: DUE DATE
+[INFO] 2026-08-24T08:46:41.197Z - DUE DATE values: 08/31/2026
+[STEP] 2026-08-24T08:46:41.198Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:46:42.203Z - ASSIGNED TO values: Jemes Cory
+[INFO] 2026-08-24T08:46:42.203Z - E2E task "E2E Task 1787561165719" verified with all fields: Service=RPM, Priority=HIGH, Status=ToDo

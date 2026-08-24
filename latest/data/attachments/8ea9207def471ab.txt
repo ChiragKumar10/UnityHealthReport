@@ -1,0 +1,41 @@
+[STEP] 2026-08-24T08:48:31.631Z - Login to Provider Portal
+[INFO] 2026-08-24T08:48:33.264Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:48:34.233Z - Test: Create task for one user, verify assignment filter
+[STEP] 2026-08-24T08:48:34.233Z - Navigating to Task page
+[INFO] 2026-08-24T08:48:36.752Z - Navigated to Task page
+[INFO] 2026-08-24T08:48:36.791Z - Logged-in user: Jemes Cory
+[STEP] 2026-08-24T08:48:36.791Z - Creating task with reminder: ReassignMe 1787561316791
+[STEP] 2026-08-24T08:48:36.791Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:48:36.981Z - Add Task form opened
+[STEP] 2026-08-24T08:48:50.477Z - Selecting "Email" from combobox index 7
+[INFO] 2026-08-24T08:48:51.871Z - Selected "Email" from combobox 7
+[STEP] 2026-08-24T08:48:51.873Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:48:53.318Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:48:56.458Z - Task "ReassignMe 1787561316791" with reminder created successfully
+[STEP] 2026-08-24T08:48:56.458Z - Creating task with reminder: ReassignOther 1787561316791
+[STEP] 2026-08-24T08:48:56.458Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:48:56.905Z - Add Task form opened
+[STEP] 2026-08-24T08:49:10.568Z - Selecting "SMS" from combobox index 7
+[INFO] 2026-08-24T08:49:12.009Z - Selected "SMS" from combobox 7
+[STEP] 2026-08-24T08:49:12.009Z - Selecting "5 Days" from combobox index 8
+[INFO] 2026-08-24T08:49:13.397Z - Selected "5 Days" from combobox 8
+[INFO] 2026-08-24T08:49:16.470Z - Task "ReassignOther 1787561316791" with reminder created successfully
+[STEP] 2026-08-24T08:49:16.470Z - Navigating to Task page
+[INFO] 2026-08-24T08:49:16.621Z - Navigated to Task page
+[STEP] 2026-08-24T08:49:16.621Z - Searching for: 1787561316791
+[INFO] 2026-08-24T08:49:16.911Z - Search completed for: 1787561316791
+[STEP] 2026-08-24T08:49:16.911Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:49:17.916Z - TASK values: ReassignMe 1787561316791
+[STEP] 2026-08-24T08:49:17.916Z - Fetching column values for: ASSIGNED TO
+[INFO] 2026-08-24T08:49:18.921Z - ASSIGNED TO values: Jemes Cory
+[STEP] 2026-08-24T08:49:18.922Z - Clearing search
+[INFO] 2026-08-24T08:49:26.948Z - Search cleared
+[STEP] 2026-08-24T08:49:26.949Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:49:28.581Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:49:28.583Z - Setting status filter to: All
+[INFO] 2026-08-24T08:49:28.847Z - Status filter set to: All
+[STEP] 2026-08-24T08:49:28.847Z - Searching for: 1787561316791
+[INFO] 2026-08-24T08:49:29.266Z - Search completed for: 1787561316791
+[STEP] 2026-08-24T08:49:29.269Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:49:30.276Z - TASK values: ReassignOther 1787561316791, ReassignMe 1787561316791
+[INFO] 2026-08-24T08:49:30.278Z - Reassignment filter verified — My Tasks shows only assigned user tasks

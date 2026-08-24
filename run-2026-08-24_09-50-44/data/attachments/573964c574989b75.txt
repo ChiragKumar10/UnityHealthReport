@@ -1,0 +1,87 @@
+[STEP] 2026-08-24T08:23:13.859Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:20.663Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:20.693Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:23:20.847Z - Creating patient via UI: Ullrich, Becky
+[STEP] 2026-08-24T08:23:20.851Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:29.884Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:29.884Z - Filling demographics for Becky Ullrich
+[STEP] 2026-08-24T08:23:45.292Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:46.594Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:47.828Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:50.133Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:55.897Z - [createPatientViaUI] created "Ullrich, Becky"
+[STEP] 2026-08-24T08:23:55.897Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:11.274Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:11.275Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:15.824Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:17.995Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:17.996Z - Patient: Ullrich, Becky | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:19.828Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:19.828Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:19.828Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:19.828Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:20.739Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:20.741Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:20.741Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:20.741Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:20.741Z -   Patient: Ullrich, Becky
+[INFO] 2026-08-24T08:24:20.741Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:20.741Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:20.742Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:20.742Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:20.742Z - Enrolled Ullrich, Becky in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:20.742Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:36.920Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:36.921Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:37.608Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:38.404Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:38.404Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:39.215Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:40.281Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:24:40.286Z - Moving enrollment to Active for "Ullrich" (RTM)
+[STEP] 2026-08-24T08:24:40.286Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:40.286Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:40.741Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:40.741Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:42.375Z - "Move to Active" confirmed for "Ullrich"
+[INFO] 2026-08-24T08:24:42.375Z - Moved Ullrich, Becky to Active
+[STEP] 2026-08-24T08:24:42.389Z - Open patient chart and switch to RTM program
+[STEP] 2026-08-24T08:24:42.391Z - Opening patient chart from global search for: Ullrich, Becky
+[INFO] 2026-08-24T08:24:45.309Z - Patient chart opened from global search for: Ullrich, Becky
+[STEP] 2026-08-24T08:24:46.355Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:24:46.591Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:24:46.660Z - Adding vital: Pain Scale with value 15
+[STEP] 2026-08-24T08:24:46.660Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:24:46.790Z - Add Vital form opened
+[STEP] 2026-08-24T08:24:46.790Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:24:47.158Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:24:47.158Z - Entering vital value: 15
+[INFO] 2026-08-24T08:24:47.232Z - Successfully entered vital value: 15
+[STEP] 2026-08-24T08:24:47.233Z - Saving vital
+[INFO] 2026-08-24T08:24:47.339Z - Successfully saved vital
+[INFO] 2026-08-24T08:24:47.340Z - Successfully added vital: Pain Scale with value 15
+[INFO] 2026-08-24T08:24:47.342Z - Pain Scale = 15 recorded on patient chart
+[INFO] 2026-08-24T08:24:48.737Z - Latest Reading on chart shows Pain Scale = 15
+[STEP] 2026-08-24T08:24:48.738Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:24:48.739Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:24:49.266Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:24:49.270Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:24:53.573Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:24:59.440Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:24:59.443Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:25:00.609Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:25:00.609Z - Clicking monitoring category: Data
+[STEP] 2026-08-24T08:25:02.005Z - Setting date filter to today
+[INFO] 2026-08-24T08:25:02.027Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:25:03.320Z - Date filter set to: 08-24-2026
+[STEP] 2026-08-24T08:25:03.321Z - Clearing status filter
+[INFO] 2026-08-24T08:25:03.384Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-08-24T08:25:04.086Z - MUI Menu options: 3
+[INFO] 2026-08-24T08:25:04.099Z -   Option [0]: "Clear Selection"
+[INFO] 2026-08-24T08:25:05.590Z - Status filter cleared
+[INFO] 2026-08-24T08:25:05.592Z - Switched to Data monitoring view
+[STEP] 2026-08-24T08:25:05.593Z - Checking if patient "Ullrich, Becky" is in the list
+[INFO] 2026-08-24T08:25:05.627Z - Patient "Ullrich, Becky" found in list
+[INFO] 2026-08-24T08:25:05.634Z - Ullrich, Becky visible in Care Team Work List > RTM > Monitoring > Data

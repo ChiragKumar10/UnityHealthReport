@@ -1,0 +1,51 @@
+[STEP] 2026-08-24T08:49:25.371Z - Login to Provider Portal with Practice Admin
+[INFO] 2026-08-24T08:49:27.143Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:49:28.059Z - Test: Verify inactive provider login restriction
+[STEP] 2026-08-24T08:49:28.059Z - Navigating to Settings page
+[INFO] 2026-08-24T08:49:30.537Z - Navigated to Settings page
+[STEP] 2026-08-24T08:49:30.539Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:49:32.108Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:49:33.596Z - Status filter set to All
+[STEP] 2026-08-24T08:49:33.596Z - Adding Unity User: Autofirstzjahso Autolastzjahso
+[STEP] 2026-08-24T08:49:33.596Z - Clicking Add Unity User button
+[INFO] 2026-08-24T08:49:34.740Z - Add Unity User form opened
+[STEP] 2026-08-24T08:49:34.741Z - Filling Unity User form for: Autofirstzjahso Autolastzjahso
+[STEP] 2026-08-24T08:49:34.741Z - Selecting role: Care coordinator
+[INFO] 2026-08-24T08:49:35.800Z - Selected role chip for: Care coordinator
+[INFO] 2026-08-24T08:49:35.934Z - Optional field not present in form — skipping
+[INFO] 2026-08-24T08:49:35.959Z - Form filled for: Autofirstzjahso Autolastzjahso
+[STEP] 2026-08-24T08:49:35.960Z - Clicking Save button
+[INFO] 2026-08-24T08:49:38.077Z - Save button clicked
+[INFO] 2026-08-24T08:49:38.083Z - Unity User 'Autofirstzjahso Autolastzjahso' added — form closed
+[STEP] 2026-08-24T08:49:38.083Z - Verifying user 'Autofirstzjahso Autolastzjahso' is visible in the list
+[STEP] 2026-08-24T08:49:38.083Z - Searching for user: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:39.144Z - Search completed for: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:39.251Z - User 'Autofirstzjahso Autolastzjahso' is visible in the list
+[INFO] 2026-08-24T08:49:39.251Z - User created for inactive login test
+[STEP] 2026-08-24T08:49:39.251Z - Searching for user: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:40.267Z - Search completed for: Autofirstzjahso Autolastzjahso
+[STEP] 2026-08-24T08:49:40.268Z - Toggling status for: Autofirstzjahso Autolastzjahso
+[STEP] 2026-08-24T08:49:40.268Z - Getting status for: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:41.275Z - User 'Autofirstzjahso Autolastzjahso' status: Active
+[STEP] 2026-08-24T08:49:41.275Z - Opening action menu for: Autofirstzjahso Autolastzjahso
+[STEP] 2026-08-24T08:49:41.275Z - Searching for user: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:42.289Z - Search completed for: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:43.120Z - Action menu opened
+[INFO] 2026-08-24T08:49:45.462Z - Status toggled for: Autofirstzjahso Autolastzjahso (was Active)
+[STEP] 2026-08-24T08:49:45.462Z - Getting status for: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:49:46.469Z - User 'Autofirstzjahso Autolastzjahso' status: Inactive
+[INFO] 2026-08-24T08:49:46.470Z - User deactivated
+[STEP] 2026-08-24T08:49:46.470Z - Attempting login with username: autouser1787561368059
+[STEP] 2026-08-24T08:49:59.703Z - afterAll: Cleanup — deleting all created Unity Users
+[INFO] 2026-08-24T08:50:01.184Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:50:02.209Z - Navigating to Settings page
+[INFO] 2026-08-24T08:50:04.430Z - Navigated to Settings page
+[STEP] 2026-08-24T08:50:04.430Z - Clicking Unity Users tab
+[INFO] 2026-08-24T08:50:05.942Z - Unity Users tab clicked
+[INFO] 2026-08-24T08:50:07.430Z - Status filter set to All
+[STEP] 2026-08-24T08:50:07.431Z - Searching for user: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:50:08.495Z - Search completed for: Autofirstzjahso Autolastzjahso
+[INFO] 2026-08-24T08:50:08.503Z - afterAll: Skipped 'Autofirstzjahso Autolastzjahso' (not found)
+[STEP] 2026-08-24T08:50:08.503Z - Clearing search box
+[INFO] 2026-08-24T08:50:09.024Z - Search cleared
+[INFO] 2026-08-24T08:50:09.024Z - afterAll: Cleanup completed. Processed 1 users.

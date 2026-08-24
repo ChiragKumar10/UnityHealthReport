@@ -1,0 +1,60 @@
+[INFO] 2026-08-24T08:23:10.981Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:10.915+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:23:12.621Z - Login to Provider Portal
+[INFO] 2026-08-24T08:23:20.763Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:20.774Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:23:20.979Z - Creating patient via UI: Murazik, Kiera
+[STEP] 2026-08-24T08:23:20.979Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:30.649Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:30.649Z - Filling demographics for Kiera Murazik
+[STEP] 2026-08-24T08:23:42.715Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:43.912Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:45.275Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:47.194Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:53.088Z - [createPatientViaUI] created "Murazik, Kiera"
+[STEP] 2026-08-24T08:23:53.089Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:08.628Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:08.632Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:17.039Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:20.421Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:20.423Z - Patient: Murazik, Kiera | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:21.579Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:21.579Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:21.579Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:21.579Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:21.671Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:21.671Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:21.671Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:21.671Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:21.671Z -   Patient: Murazik, Kiera
+[INFO] 2026-08-24T08:24:21.671Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:24:21.671Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:21.671Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:21.671Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:21.671Z - Enrolled Murazik, Kiera in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:21.672Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:37.155Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:37.155Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:38.143Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:39.419Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:39.419Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:24:40.204Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:41.244Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:24:41.245Z - Moving enrollment to Active for "Murazik" (RTM)
+[STEP] 2026-08-24T08:24:41.245Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:41.245Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:42.012Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:42.012Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:43.537Z - "Move to Active" confirmed for "Murazik"
+[INFO] 2026-08-24T08:24:43.537Z - Moved Murazik, Kiera to Active
+[INFO] 2026-08-24T08:24:43.537Z - [interaction-week1] seeded Active RTM patient: Murazik, Kiera
+[STEP] 2026-08-24T08:24:43.537Z - Navigate to RTM > Week 1
+[STEP] 2026-08-24T08:24:43.542Z - Navigating to RTM tab
+[INFO] 2026-08-24T08:24:50.505Z - Successfully navigated to RTM tab
+[STEP] 2026-08-24T08:24:50.507Z - Selecting Week 1
+[INFO] 2026-08-24T08:24:51.905Z - Successfully selected Week 1
+[STEP] 2026-08-24T08:24:51.906Z - Checking if patient "Murazik, Kiera" is in the interaction list
+[INFO] 2026-08-24T08:24:56.674Z - Patient "Murazik, Kiera" not found in interaction list
+[INFO] 2026-08-24T08:24:56.675Z - Patient "Murazik, Kiera" not in Week 1 — week-specific assertions will soft-pass
+[INFO] 2026-08-24T08:24:56.680Z - Skipping body — test patient not in Week 1 this run

@@ -1,0 +1,139 @@
+[STEP] 2026-08-24T08:54:43.510Z - Login to Provider Portal
+[INFO] 2026-08-24T08:54:45.260Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:54:46.648Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:54:46.650Z - Creating patient via UI: McGlynn, Irene
+[STEP] 2026-08-24T08:54:46.651Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:54:47.602Z - Patient details drawer opened
+[STEP] 2026-08-24T08:54:47.602Z - Filling demographics for Irene McGlynn
+[STEP] 2026-08-24T08:54:50.175Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:54:50.702Z - Setting location: Automation
+[STEP] 2026-08-24T08:54:51.084Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:54:51.616Z - Clicking Save & Next
+[INFO] 2026-08-24T08:54:53.528Z - [createPatientViaUI] created "McGlynn, Irene"
+[STEP] 2026-08-24T08:54:53.528Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:55:08.615Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:55:08.615Z - Adding new enrollment
+[INFO] 2026-08-24T08:55:11.682Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:55:12.958Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:55:12.958Z - Patient: McGlynn, Irene | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:55:13.797Z - Validating enrollment result
+[INFO] 2026-08-24T08:55:13.797Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:55:13.797Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:55:13.797Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:55:13.827Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:55:13.827Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:55:13.827Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:55:13.827Z - Final enrollment details:
+[INFO] 2026-08-24T08:55:13.827Z -   Patient: McGlynn, Irene
+[INFO] 2026-08-24T08:55:13.827Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:55:13.827Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:55:13.827Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:55:13.827Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:55:13.827Z - Enrolled McGlynn, Irene in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:55:13.827Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:55:29.091Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:55:29.091Z - Applying status filter: New
+[STEP] 2026-08-24T08:55:29.470Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:55:29.984Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:55:29.984Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:55:30.139Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:55:30.669Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:55:30.669Z - Moving enrollment to Active for "McGlynn" (RTM)
+[STEP] 2026-08-24T08:55:30.669Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:55:30.669Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:55:30.828Z - Date filter applied successfully
+[STEP] 2026-08-24T08:55:30.828Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:55:31.766Z - "Move to Active" confirmed for "McGlynn"
+[INFO] 2026-08-24T08:55:31.767Z - Moved McGlynn, Irene to Active
+[INFO] 2026-08-24T08:55:31.767Z - [monitoring-02] seeded ACTIVE RTM patient: McGlynn, Irene
+[STEP] 2026-08-24T08:55:31.769Z - Opening patient chart from global search for: McGlynn, Irene
+[INFO] 2026-08-24T08:55:34.184Z - Patient chart opened from global search for: McGlynn, Irene
+[STEP] 2026-08-24T08:55:36.048Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:55:36.283Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:55:36.289Z - Adding vital: Pain Scale with value 31
+[STEP] 2026-08-24T08:55:36.289Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:55:36.502Z - Add Vital form opened
+[STEP] 2026-08-24T08:55:36.503Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:55:36.891Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:55:36.892Z - Entering vital value: 31
+[INFO] 2026-08-24T08:55:36.938Z - Successfully entered vital value: 31
+[STEP] 2026-08-24T08:55:36.939Z - Saving vital
+[INFO] 2026-08-24T08:55:37.010Z - Successfully saved vital
+[INFO] 2026-08-24T08:55:37.010Z - Successfully added vital: Pain Scale with value 31
+[INFO] 2026-08-24T08:55:37.010Z - beforeEach: seeded Pain Scale vital (31) for McGlynn, Irene
+[STEP] 2026-08-24T08:55:37.015Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:55:37.015Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:55:37.576Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:55:37.584Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:55:42.232Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:55:46.839Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:55:46.839Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:55:47.908Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:55:47.908Z - Getting count for Data
+[INFO] 2026-08-24T08:55:47.916Z - Data count: 0
+[STEP] 2026-08-24T08:55:50.918Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:55:50.918Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:55:51.424Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:55:51.932Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:55:51.932Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:55:52.993Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:55:52.993Z - Getting count for Data
+[INFO] 2026-08-24T08:55:53.003Z - Data count: 0
+[STEP] 2026-08-24T08:55:58.005Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:55:58.005Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:55:58.516Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:55:59.032Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:55:59.032Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:56:00.092Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:56:00.092Z - Getting count for Data
+[INFO] 2026-08-24T08:56:00.100Z - Data count: 0
+[STEP] 2026-08-24T08:56:08.102Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:56:08.102Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:56:08.623Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:56:09.148Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:56:09.148Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:56:10.265Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:56:10.265Z - Getting count for Data
+[INFO] 2026-08-24T08:56:10.271Z - Data count: 0
+[STEP] 2026-08-24T08:56:20.276Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:56:20.276Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:56:20.781Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:56:21.289Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:56:21.289Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:56:22.345Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:56:22.345Z - Getting count for Data
+[INFO] 2026-08-24T08:56:22.352Z - Data count: 0
+[STEP] 2026-08-24T08:56:37.356Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:56:37.356Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:56:37.867Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:56:38.376Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:56:38.376Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:56:39.426Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:56:39.426Z - Getting count for Data
+[INFO] 2026-08-24T08:56:39.436Z - Data count: 0
+[STEP] 2026-08-24T08:56:54.440Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:56:54.441Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:56:54.952Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:56:55.468Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:56:55.468Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:56:56.535Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:56:56.536Z - Getting count for Data
+[INFO] 2026-08-24T08:56:56.546Z - Data count: 0
+[STEP] 2026-08-24T08:57:11.549Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:57:11.549Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:57:12.057Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:57:12.572Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:57:12.572Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:57:13.673Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:57:13.673Z - Getting count for Data
+[INFO] 2026-08-24T08:57:13.684Z - Data count: 0
+[STEP] 2026-08-24T08:57:28.690Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:57:28.690Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:57:29.199Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T08:57:29.708Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:57:29.709Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:57:30.782Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:57:30.782Z - Getting count for Data
+[INFO] 2026-08-24T08:57:30.828Z - Data count: 0

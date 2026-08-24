@@ -1,0 +1,69 @@
+[STEP] 2026-08-24T08:23:14.240Z - Step 1: Login to Provider Portal
+[INFO] 2026-08-24T08:23:21.529Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:21.529Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:23:21.693Z - Creating patient via UI: Hilpert, Juan
+[STEP] 2026-08-24T08:23:21.700Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:30.236Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:30.237Z - Filling demographics for Juan Hilpert
+[STEP] 2026-08-24T08:23:44.095Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:45.432Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:46.984Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:48.925Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:53.975Z - [createPatientViaUI] created "Hilpert, Juan"
+[STEP] 2026-08-24T08:23:53.975Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:09.456Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:09.456Z - Adding new enrollment
+[INFO] 2026-08-24T08:24:13.046Z - Selected specified program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:24:15.283Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:24:15.283Z - Patient: Hilpert, Juan | Program: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:24:16.726Z - Validating enrollment result
+[INFO] 2026-08-24T08:24:16.727Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:24:16.727Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:24:16.727Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:24:17.355Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:24:17.355Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:24:17.356Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:24:17.356Z - Final enrollment details:
+[INFO] 2026-08-24T08:24:17.356Z -   Patient: Hilpert, Juan
+[INFO] 2026-08-24T08:24:17.356Z -   Program: Remote Patient Monitoring (RPM)
+[INFO] 2026-08-24T08:24:17.356Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:24:17.356Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:24:17.356Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:24:17.356Z - Enrolled Hilpert, Juan in Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:24:17.356Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:33.769Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:33.769Z - Applying status filter: New
+[STEP] 2026-08-24T08:24:34.491Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:35.395Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:24:35.395Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:24:36.103Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:36.645Z - Program filter 'Remote Patient Monitoring (RPM)' applied successfully
+[STEP] 2026-08-24T08:24:36.646Z - Moving enrollment to Active for "Hilpert" (RPM)
+[STEP] 2026-08-24T08:24:36.646Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:24:36.651Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:24:37.167Z - Date filter applied successfully
+[STEP] 2026-08-24T08:24:37.167Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:38.747Z - "Move to Active" confirmed for "Hilpert"
+[INFO] 2026-08-24T08:24:38.747Z - Moved Hilpert, Juan to Active
+[STEP] 2026-08-24T08:24:38.747Z - Step 2: Locate the seeded ACTIVE enrollment
+[STEP] 2026-08-24T08:24:38.747Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:53.951Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:24:53.951Z - Applying status filter: Active
+[STEP] 2026-08-24T08:24:54.521Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:24:55.074Z - Status filter 'Active' applied successfully
+[STEP] 2026-08-24T08:24:55.074Z - Applying program filter: Remote Patient Monitoring (RPM)
+[STEP] 2026-08-24T08:25:05.092Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:25:05.092Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:25:05.357Z - Date filter applied successfully
+[STEP] 2026-08-24T08:25:05.357Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:25:06.008Z - Operating on active enrollment for Hilpert, Juan (RPM)
+[STEP] 2026-08-24T08:25:06.008Z - Step 3: Open Close Enrollment form
+[INFO] 2026-08-24T08:25:06.833Z - Close Enrollment form opened
+[STEP] 2026-08-24T08:25:06.834Z - Step 4: Fill termination details (Updated By and Reason)
+[INFO] 2026-08-24T08:25:07.650Z - Termination details filled
+[STEP] 2026-08-24T08:25:07.650Z - Step 5: Click Cancel to close the form without saving
+[INFO] 2026-08-24T08:25:08.272Z - Terminate Enrollment form closed without saving
+[STEP] 2026-08-24T08:25:08.272Z - Step 6: Verify enrollment status remains ACTIVE
+[INFO] 2026-08-24T08:25:08.344Z - Enrollment status verified — remains ACTIVE (not terminated)

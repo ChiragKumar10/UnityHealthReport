@@ -1,0 +1,17 @@
+[STEP] 2026-08-24T08:23:14.591Z - Test: Verify patient search and auto-fill in enrollment form
+[INFO] 2026-08-24T08:23:22.714Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:22.714Z - Seeding patient (no enrollment) via UI onboarding (single session)
+[STEP] 2026-08-24T08:23:23.013Z - Creating patient via UI: Blick, Lew
+[STEP] 2026-08-24T08:23:23.025Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:23:31.729Z - Patient details drawer opened
+[STEP] 2026-08-24T08:23:31.730Z - Filling demographics for Lew Blick
+[STEP] 2026-08-24T08:23:46.031Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:23:47.080Z - Setting location: Automation
+[STEP] 2026-08-24T08:23:48.521Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:23:50.984Z - Clicking Save & Next
+[INFO] 2026-08-24T08:23:57.358Z - [createPatientViaUI] created "Blick, Lew"
+[INFO] 2026-08-24T08:23:57.358Z - Seeded patient via UI: Blick, Lew
+[STEP] 2026-08-24T08:23:57.362Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:24:12.972Z - Navigated to Enrollment section
+[INFO] 2026-08-24T08:24:16.711Z - Selected seeded patient: Blick, Lew
+[INFO] 2026-08-24T08:24:17.256Z - Auto-fill verified — phone: 734-601-3655, dob: 07-21-2024

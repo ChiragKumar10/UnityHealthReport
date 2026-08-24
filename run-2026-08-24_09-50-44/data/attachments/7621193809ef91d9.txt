@@ -1,0 +1,113 @@
+[INFO] 2026-08-24T08:25:59.673Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:25:59.635+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:26:02.889Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:04.082Z - Opening CCM Library
+[INFO] 2026-08-24T08:26:05.237Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:26:05.238Z - Opening Care Plan section
+[INFO] 2026-08-24T08:26:10.235Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:26:10.235Z - Creating minimal care plan: CP001 1787559959307
+[STEP] 2026-08-24T08:26:10.236Z - Clicking Create Care Plan button
+[INFO] 2026-08-24T08:26:12.654Z - Create Care Plan form opened
+[STEP] 2026-08-24T08:26:12.655Z - Selecting diagnosis code: D3190
+[INFO] 2026-08-24T08:26:17.241Z - Diagnosis code 'D3190' selected
+[STEP] 2026-08-24T08:26:17.244Z - Filling care plan name: CP001 1787559959307
+[INFO] 2026-08-24T08:26:17.427Z - Care plan name filled: CP001 1787559959307
+[STEP] 2026-08-24T08:26:17.427Z - Selecting section: Overview
+[INFO] 2026-08-24T08:26:17.980Z - Section 'Overview' selected
+[STEP] 2026-08-24T08:26:17.981Z - Selecting section: Long Term Goals
+[INFO] 2026-08-24T08:26:18.457Z - Section 'Long Term Goals' selected
+[STEP] 2026-08-24T08:26:18.458Z - Clicking Next button
+[INFO] 2026-08-24T08:26:20.722Z - Next button clicked
+[STEP] 2026-08-24T08:26:20.723Z - Filling Overview section
+[INFO] 2026-08-24T08:26:20.821Z - Care Plan header filled
+[INFO] 2026-08-24T08:26:21.044Z - Care Plan footer filled
+[STEP] 2026-08-24T08:26:21.045Z - Clicking Next button
+[INFO] 2026-08-24T08:26:23.385Z - Next button clicked
+[STEP] 2026-08-24T08:26:23.385Z - Filling goal section - Title: Seed Goal, Type: Single Select
+[INFO] 2026-08-24T08:26:23.422Z - Section note filled
+[INFO] 2026-08-24T08:26:23.530Z - Goal title filled: Seed Goal
+[INFO] 2026-08-24T08:26:25.523Z - Goal type selected: Single Select
+[STEP] 2026-08-24T08:26:25.523Z - Filling Single Select with 3 options
+[INFO] 2026-08-24T08:26:25.642Z - Single Select option 1 filled
+[INFO] 2026-08-24T08:26:26.603Z - Single Select option 2 filled
+[INFO] 2026-08-24T08:26:27.645Z - Single Select option 3 filled
+[INFO] 2026-08-24T08:26:27.645Z - Single Select - 3 options added
+[STEP] 2026-08-24T08:26:27.645Z - Clicking Finish button
+[INFO] 2026-08-24T08:26:29.952Z - Finish button clicked - Care plan saved
+[INFO] 2026-08-24T08:26:29.952Z - Minimal care plan 'CP001 1787559959307' created
+[INFO] 2026-08-24T08:26:29.952Z - Seed care plan template created: CP001 1787559959307
+[INFO] 2026-08-24T08:26:36.785Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:26:36.790Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:26:36.903Z - Creating patient via UI: Weissnat, Baby
+[STEP] 2026-08-24T08:26:36.903Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:26:43.353Z - Patient details drawer opened
+[STEP] 2026-08-24T08:26:43.353Z - Filling demographics for Baby Weissnat
+[STEP] 2026-08-24T08:26:50.849Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:26:51.363Z - Setting location: Automation
+[STEP] 2026-08-24T08:26:52.171Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:26:53.009Z - Clicking Save & Next
+[INFO] 2026-08-24T08:26:55.738Z - [createPatientViaUI] created "Weissnat, Baby"
+[STEP] 2026-08-24T08:26:55.739Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:10.972Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:10.976Z - Adding new enrollment
+[INFO] 2026-08-24T08:27:15.776Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:27:17.600Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:27:17.601Z - Patient: Weissnat, Baby | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:18.810Z - Validating enrollment result
+[INFO] 2026-08-24T08:27:18.811Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:27:18.811Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:27:18.811Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:27:18.880Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:27:18.880Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:27:18.880Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:27:18.880Z - Final enrollment details:
+[INFO] 2026-08-24T08:27:18.880Z -   Patient: Weissnat, Baby
+[INFO] 2026-08-24T08:27:18.880Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:27:18.880Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:27:18.880Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:27:18.880Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:27:18.880Z - Enrolled Weissnat, Baby in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:18.880Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:27:34.965Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:27:34.966Z - Applying status filter: New
+[STEP] 2026-08-24T08:27:35.550Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:36.727Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:27:36.730Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:27:37.352Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:38.090Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:27:38.090Z - Moving enrollment to Active for "Weissnat" (CCM)
+[STEP] 2026-08-24T08:27:38.091Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:27:38.091Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:27:38.447Z - Date filter applied successfully
+[STEP] 2026-08-24T08:27:38.447Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:27:39.833Z - "Move to Active" confirmed for "Weissnat"
+[INFO] 2026-08-24T08:27:39.833Z - Moved Weissnat, Baby to Active
+[STEP] 2026-08-24T08:27:39.838Z - Opening patient chart from global search for: Weissnat, Baby
+[INFO] 2026-08-24T08:27:42.929Z - Patient chart opened from global search for: Weissnat, Baby
+[STEP] 2026-08-24T08:27:49.321Z - Assigning Care Plan "CP001 1787559959307" to patient
+[INFO] 2026-08-24T08:28:08.969Z - Assignment complete: "CP001 1787559959307"
+[INFO] 2026-08-24T08:28:08.992Z - AUT_CP_001 PASSED
+[INFO] 2026-08-24T08:28:12.357Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:28:22.369Z - Opening patient chart from global search for: Weissnat, Baby
+[INFO] 2026-08-24T08:28:28.893Z - Patient chart opened from global search for: Weissnat, Baby
+[STEP] 2026-08-24T08:28:28.893Z - Closing assigned Care Plan "CP001 1787559959307"
+[INFO] 2026-08-24T08:28:59.649Z - Closed: CP001 1787559959307
+[STEP] 2026-08-24T08:29:03.980Z - Opening CCM Library
+[INFO] 2026-08-24T08:29:05.758Z - Successfully opened CCM Library
+[STEP] 2026-08-24T08:29:05.758Z - Opening Care Plan section
+[INFO] 2026-08-24T08:29:06.900Z - Successfully opened Care Plan section
+[STEP] 2026-08-24T08:29:06.900Z - Deleting care plan: CP001 1787559959307
+[STEP] 2026-08-24T08:29:06.900Z - Clicking Delete for: CP001 1787559959307
+[STEP] 2026-08-24T08:29:06.901Z - Searching for care plan: CP001 1787559959307
+[INFO] 2026-08-24T08:29:07.457Z - Search completed for care plan: CP001 1787559959307
+[STEP] 2026-08-24T08:29:07.458Z - Opening action menu for: CP001 1787559959307
+[INFO] 2026-08-24T08:29:08.569Z - Action menu not visible on attempt 1, retrying...
+[INFO] 2026-08-24T08:29:10.160Z - Action menu opened
+[INFO] 2026-08-24T08:29:11.278Z - Delete dialog opened
+[STEP] 2026-08-24T08:29:11.279Z - Confirming delete
+[STEP] 2026-08-24T08:29:13.375Z - Clearing search box
+[INFO] 2026-08-24T08:29:13.966Z - Search cleared
+[INFO] 2026-08-24T08:29:13.966Z - Delete confirmed
+[INFO] 2026-08-24T08:29:13.966Z - Care plan 'CP001 1787559959307' deleted
+[INFO] 2026-08-24T08:29:13.966Z - Deleted template: CP001 1787559959307

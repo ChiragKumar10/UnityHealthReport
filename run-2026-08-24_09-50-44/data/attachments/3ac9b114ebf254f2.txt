@@ -1,0 +1,103 @@
+[INFO] 2026-08-24T08:31:50.415Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:50.424Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:31:50.426Z - Creating patient via UI: Morar, Moshe
+[STEP] 2026-08-24T08:31:50.426Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:31:52.229Z - Patient details drawer opened
+[STEP] 2026-08-24T08:31:52.231Z - Filling demographics for Moshe Morar
+[STEP] 2026-08-24T08:31:59.517Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:32:00.761Z - Setting location: Automation
+[STEP] 2026-08-24T08:32:01.238Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:32:02.135Z - Clicking Save & Next
+[INFO] 2026-08-24T08:32:04.844Z - [createPatientViaUI] created "Morar, Moshe"
+[STEP] 2026-08-24T08:32:04.844Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:32:20.089Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:20.089Z - Adding new enrollment
+[INFO] 2026-08-24T08:32:24.514Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:32:26.936Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:32:26.936Z - Patient: Morar, Moshe | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:32:27.798Z - Validating enrollment result
+[INFO] 2026-08-24T08:32:27.798Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:32:27.799Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:32:27.799Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:32:27.821Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:32:27.822Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:32:27.822Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:32:27.822Z - Final enrollment details:
+[INFO] 2026-08-24T08:32:27.822Z -   Patient: Morar, Moshe
+[INFO] 2026-08-24T08:32:27.822Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:32:27.822Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:32:27.822Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:32:27.822Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:32:27.822Z - Enrolled Morar, Moshe in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:32:27.822Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:32:43.103Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:43.103Z - Applying status filter: New
+[STEP] 2026-08-24T08:32:43.706Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:44.809Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:32:44.809Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:32:45.446Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:46.474Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:32:46.474Z - Moving enrollment to Active for "Morar" (RTM)
+[STEP] 2026-08-24T08:32:46.474Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:32:46.474Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:32:46.844Z - Date filter applied successfully
+[STEP] 2026-08-24T08:32:46.844Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:48.091Z - "Move to Active" confirmed for "Morar"
+[INFO] 2026-08-24T08:32:48.101Z - Moved Morar, Moshe to Active
+[STEP] 2026-08-24T08:32:48.101Z - Step 1: Add Pain Scale vital from patient chart
+[STEP] 2026-08-24T08:32:48.101Z - Opening patient chart from global search for: Morar, Moshe
+[INFO] 2026-08-24T08:32:51.241Z - Patient chart opened from global search for: Morar, Moshe
+[STEP] 2026-08-24T08:32:51.257Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:32:53.475Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:32:53.475Z - Adding vital: Pain Scale with value 22
+[STEP] 2026-08-24T08:32:53.475Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:32:53.803Z - Add Vital form opened
+[STEP] 2026-08-24T08:32:53.803Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:32:54.320Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:32:54.320Z - Entering vital value: 22
+[INFO] 2026-08-24T08:32:54.417Z - Successfully entered vital value: 22
+[STEP] 2026-08-24T08:32:54.417Z - Saving vital
+[INFO] 2026-08-24T08:32:54.531Z - Successfully saved vital
+[INFO] 2026-08-24T08:32:54.531Z - Successfully added vital: Pain Scale with value 22
+[INFO] 2026-08-24T08:32:54.531Z - Step 1 ✓: seeded Pain Scale vital (22) for Morar, Moshe
+[STEP] 2026-08-24T08:32:54.536Z - Step 2: Navigate to RTM Monitoring Data bucket
+[STEP] 2026-08-24T08:32:54.536Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T08:32:54.539Z - Dismissing any open drawer
+[INFO] 2026-08-24T08:32:55.173Z - Found 2 backdrop(s) — attempting to dismiss
+[INFO] 2026-08-24T08:32:55.736Z - Drawer closed via Escape
+[INFO] 2026-08-24T08:32:55.769Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T08:33:01.506Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T08:33:10.211Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T08:33:10.211Z - Selecting program tab: RTM
+[INFO] 2026-08-24T08:33:12.771Z - Successfully selected RTM tab
+[STEP] 2026-08-24T08:33:12.772Z - Clicking monitoring category: Data
+[STEP] 2026-08-24T08:33:14.187Z - Setting date filter to today
+[INFO] 2026-08-24T08:33:14.243Z - Changing date from "08-23-2026" to "08-24-2026"
+[INFO] 2026-08-24T08:33:15.586Z - Date filter set to: 08-24-2026
+[STEP] 2026-08-24T08:33:15.586Z - Clearing status filter
+[INFO] 2026-08-24T08:33:16.056Z - Current status filter: "Unreviewed" — opening dropdown
+[INFO] 2026-08-24T08:33:16.804Z - MUI Menu options: 3
+[INFO] 2026-08-24T08:33:16.820Z -   Option [0]: "Clear Selection"
+[INFO] 2026-08-24T08:33:18.116Z - Status filter cleared
+[INFO] 2026-08-24T08:33:18.116Z - Switched to Data monitoring view
+[STEP] 2026-08-24T08:33:18.121Z - Checking if patient "Morar, Moshe" is in the list
+[INFO] 2026-08-24T08:33:18.156Z - Patient "Morar, Moshe" found in list
+[INFO] 2026-08-24T08:33:18.158Z - Step 3 ✓: Morar, Moshe found in Data list
+[STEP] 2026-08-24T08:33:18.158Z - Step 4: Review the vital via action menu, then verify readings
+[STEP] 2026-08-24T08:33:18.158Z - Reviewing vital from action menu for: Morar, Moshe
+[STEP] 2026-08-24T08:33:18.164Z - Selecting action "Review" for: Morar, Moshe
+[STEP] 2026-08-24T08:33:18.165Z - Opening action menu for: Morar, Moshe
+[INFO] 2026-08-24T08:33:19.424Z - Action menu clicked for: Morar, Moshe (attempt 1)
+[INFO] 2026-08-24T08:33:20.749Z - Action "Review" selected for: Morar, Moshe
+[INFO] 2026-08-24T08:33:20.775Z - Filled review note
+[INFO] 2026-08-24T08:33:22.876Z - Dialog closed after Review click: false
+[INFO] 2026-08-24T08:33:24.505Z - Vital reviewed (with Save) from action menu for: Morar, Moshe
+[STEP] 2026-08-24T08:33:24.508Z - Closing all overlays
+[INFO] 2026-08-24T08:33:26.982Z - All overlays closed
+[STEP] 2026-08-24T08:33:26.982Z - Clicking Number of Readings for: Morar, Moshe
+[INFO] 2026-08-24T08:33:28.201Z - Opened readings for: Morar, Moshe
+[STEP] 2026-08-24T08:33:28.202Z - Getting visible row count
+[INFO] 2026-08-24T08:33:29.222Z - Visible row count: 18
+[INFO] 2026-08-24T08:33:29.224Z - Step 4 ✓: review submitted; 18 reading(s) listed

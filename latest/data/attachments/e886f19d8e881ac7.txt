@@ -1,0 +1,39 @@
+[STEP] 2026-08-24T08:40:18.467Z - Login to Provider Portal
+[INFO] 2026-08-24T08:40:22.624Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:40:22.639Z - Test: E2E Delete Task
+[STEP] 2026-08-24T08:40:22.652Z - Navigating to Task page
+[INFO] 2026-08-24T08:40:27.118Z - Navigated to Task page
+[STEP] 2026-08-24T08:40:27.121Z - Creating task: DeleteE2E 1787560827118
+[STEP] 2026-08-24T08:40:27.121Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:40:31.231Z - Add Task form opened
+[INFO] 2026-08-24T08:40:49.782Z - Task "DeleteE2E 1787560827118" created successfully
+[STEP] 2026-08-24T08:40:49.782Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:40:51.576Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:40:51.578Z - Setting status filter to: All
+[INFO] 2026-08-24T08:41:00.086Z - Status filter set to: All
+[STEP] 2026-08-24T08:41:00.089Z - Searching for: DeleteE2E 1787560827118
+[INFO] 2026-08-24T08:41:00.419Z - Search completed for: DeleteE2E 1787560827118
+[STEP] 2026-08-24T08:41:00.420Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:01.435Z - TASK values: DeleteE2E 1787560827118
+[INFO] 2026-08-24T08:41:01.443Z - Task found before delete: DeleteE2E 1787560827118
+[STEP] 2026-08-24T08:41:01.443Z - Deleting task
+[STEP] 2026-08-24T08:41:01.443Z - Opening delete confirmation dialog
+[STEP] 2026-08-24T08:41:01.444Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:41:02.536Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:41:02.536Z - Clicking action menu item: Delete
+[INFO] 2026-08-24T08:41:04.153Z - Clicked: Delete
+[INFO] 2026-08-24T08:41:04.161Z - Delete confirmation dialog opened
+[STEP] 2026-08-24T08:41:04.161Z - Clicking Delete to confirm deletion
+[INFO] 2026-08-24T08:41:07.261Z - Task deleted
+[STEP] 2026-08-24T08:41:07.261Z - Navigating to Task page
+[INFO] 2026-08-24T08:41:07.957Z - Navigated to Task page
+[STEP] 2026-08-24T08:41:07.959Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:41:08.013Z - My Tasks filter already unchecked
+[STEP] 2026-08-24T08:41:08.015Z - Setting status filter to: All
+[INFO] 2026-08-24T08:41:08.481Z - Status filter set to: All
+[STEP] 2026-08-24T08:41:08.482Z - Searching for: DeleteE2E 1787560827118
+[INFO] 2026-08-24T08:41:09.691Z - Search completed for: DeleteE2E 1787560827118
+[STEP] 2026-08-24T08:41:09.691Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:41:10.698Z - TASK values: 
+[INFO] 2026-08-24T08:41:10.707Z - No data found visible: true
+[INFO] 2026-08-24T08:41:10.709Z - E2E Delete complete: "DeleteE2E 1787560827118" removed from list

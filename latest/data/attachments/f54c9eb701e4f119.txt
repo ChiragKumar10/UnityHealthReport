@@ -1,0 +1,37 @@
+[STEP] 2026-08-24T08:30:44.179Z - Login to Admin Portal
+[STEP] 2026-08-24T08:30:44.179Z - Navigating to admin portal login page
+[INFO] 2026-08-24T08:30:45.983Z - Successfully navigated to admin portal login page
+[STEP] 2026-08-24T08:30:45.985Z - Attempting to login
+[INFO] 2026-08-24T08:30:46.842Z - Login attempt completed
+[STEP] 2026-08-24T08:30:47.287Z - Create condition with ICD code
+[STEP] 2026-08-24T08:30:47.287Z - Navigate directly to /admin/library
+[STEP] 2026-08-24T08:30:49.368Z - Navigating to Library -> Condition
+[INFO] 2026-08-24T08:30:51.922Z - Successfully navigated to Condition page
+[STEP] 2026-08-24T08:30:51.922Z - Clicking Add Condition button
+[INFO] 2026-08-24T08:30:53.464Z - Add Condition form opened
+[STEP] 2026-08-24T08:30:53.465Z - Entering ICD Code: T287.247
+[INFO] 2026-08-24T08:30:54.169Z - ICD Code entered: T287.247
+[STEP] 2026-08-24T08:30:54.169Z - Selecting ICD Code Type from dropdown
+[INFO] 2026-08-24T08:30:55.572Z - ICD Code Type selected: ICD 11 
+[STEP] 2026-08-24T08:30:55.573Z - Entering Condition Name: AutoCondition-1787560247287-843
+[INFO] 2026-08-24T08:30:56.241Z - Condition Name entered: AutoCondition-1787560247287-843
+[STEP] 2026-08-24T08:30:56.242Z - Entering Description: Automated condition for ICD relationship test.
+[INFO] 2026-08-24T08:30:56.798Z - Description entered: Automated condition for ICD relationship test.
+[STEP] 2026-08-24T08:30:56.799Z - Clicking Save button
+[INFO] 2026-08-24T08:30:58.002Z - Save button clicked
+[STEP] 2026-08-24T08:30:58.002Z - Verifying success message contains: "created successfully"
+[INFO] 2026-08-24T08:30:58.095Z - Success message verified: "Icd Code Created Successfully"
+[STEP] 2026-08-24T08:30:58.095Z - VIEW: list shows the entry with the ICD code
+[STEP] 2026-08-24T08:30:58.095Z - Searching for condition: T287.247
+[INFO] 2026-08-24T08:30:59.403Z - Search completed for: T287.247
+[STEP] 2026-08-24T08:30:59.455Z - EDIT: reopen entry and verify ICD field is still bound
+[STEP] 2026-08-24T08:30:59.455Z - Opening action menu
+[INFO] 2026-08-24T08:31:00.402Z - Action menu opened
+[STEP] 2026-08-24T08:31:00.402Z - Clicking Edit in action menu
+[INFO] 2026-08-24T08:31:01.679Z - Edit mode opened
+[STEP] 2026-08-24T08:31:01.703Z - Save the edit and verify the ICD relationship still holds
+[STEP] 2026-08-24T08:31:01.703Z - Clicking Save button
+[INFO] 2026-08-24T08:31:02.831Z - Save button clicked
+[STEP] 2026-08-24T08:31:02.831Z - Searching for condition: T287.247
+[INFO] 2026-08-24T08:31:04.769Z - Search completed for: T287.247
+[INFO] 2026-08-24T08:31:04.783Z - ICD T287.247 persists for condition 'AutoCondition-1787560247287-843' across view + edit

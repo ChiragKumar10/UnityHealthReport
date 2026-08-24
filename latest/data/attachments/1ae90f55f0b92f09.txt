@@ -1,0 +1,132 @@
+[INFO] 2026-08-24T09:02:30.984Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T09:02:30.941+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T09:02:31.366Z - Login to Provider Portal
+[INFO] 2026-08-24T09:02:33.237Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T09:02:34.670Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T09:02:34.687Z - Creating patient via UI: Howell, Tyson
+[STEP] 2026-08-24T09:02:34.687Z - Opening New Patient drawer
+[INFO] 2026-08-24T09:02:35.860Z - Patient details drawer opened
+[STEP] 2026-08-24T09:02:35.861Z - Filling demographics for Tyson Howell
+[STEP] 2026-08-24T09:02:38.726Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T09:02:38.971Z - Setting location: Automation
+[STEP] 2026-08-24T09:02:39.357Z - Setting Self Pay = true
+[STEP] 2026-08-24T09:02:39.891Z - Clicking Save & Next
+[INFO] 2026-08-24T09:02:41.756Z - [createPatientViaUI] created "Howell, Tyson"
+[STEP] 2026-08-24T09:02:41.757Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:02:56.861Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:02:56.862Z - Adding new enrollment
+[INFO] 2026-08-24T09:02:59.990Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:03:00.723Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T09:03:00.723Z - Patient: Howell, Tyson | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:03:01.201Z - Validating enrollment result
+[INFO] 2026-08-24T09:03:01.201Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T09:03:01.201Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T09:03:01.201Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T09:03:01.234Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T09:03:01.235Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T09:03:01.235Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T09:03:01.235Z - Final enrollment details:
+[INFO] 2026-08-24T09:03:01.235Z -   Patient: Howell, Tyson
+[INFO] 2026-08-24T09:03:01.235Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T09:03:01.235Z -   Provider: Anny Vate
+[INFO] 2026-08-24T09:03:01.235Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T09:03:01.235Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T09:03:01.235Z - Enrolled Howell, Tyson in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:03:01.235Z - Navigating to Enrollment section
+[INFO] 2026-08-24T09:03:16.345Z - Navigated to Enrollment section
+[STEP] 2026-08-24T09:03:16.346Z - Applying status filter: New
+[STEP] 2026-08-24T09:03:16.745Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:03:17.259Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T09:03:17.260Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T09:03:17.614Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:03:18.642Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T09:03:18.648Z - Moving enrollment to Active for "Howell" (RTM)
+[STEP] 2026-08-24T09:03:18.648Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T09:03:18.648Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T09:03:19.044Z - Date filter applied successfully
+[STEP] 2026-08-24T09:03:19.044Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T09:03:20.162Z - "Move to Active" confirmed for "Howell"
+[INFO] 2026-08-24T09:03:20.162Z - Moved Howell, Tyson to Active
+[INFO] 2026-08-24T09:03:20.162Z - [monitoring-03] seeded ACTIVE RTM patient: Howell, Tyson
+[STEP] 2026-08-24T09:03:20.163Z - Opening patient chart from global search for: Howell, Tyson
+[INFO] 2026-08-24T09:03:22.299Z - Patient chart opened from global search for: Howell, Tyson
+[STEP] 2026-08-24T09:03:23.968Z - Navigating to Vitals tab
+[INFO] 2026-08-24T09:03:24.212Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T09:03:24.212Z - Adding vital: Pain Scale with value 36
+[STEP] 2026-08-24T09:03:24.214Z - Clicking Add Vital button
+[INFO] 2026-08-24T09:03:24.449Z - Add Vital form opened
+[STEP] 2026-08-24T09:03:24.452Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T09:03:24.937Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T09:03:24.938Z - Entering vital value: 36
+[INFO] 2026-08-24T09:03:25.009Z - Successfully entered vital value: 36
+[STEP] 2026-08-24T09:03:25.009Z - Saving vital
+[INFO] 2026-08-24T09:03:25.097Z - Successfully saved vital
+[INFO] 2026-08-24T09:03:25.098Z - Successfully added vital: Pain Scale with value 36
+[INFO] 2026-08-24T09:03:25.098Z - beforeEach: Abnormal Pain Scale (36) added for Howell, Tyson — polling Alerts counter
+[STEP] 2026-08-24T09:03:25.112Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:03:25.113Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:03:25.732Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:03:25.774Z - Not on Care Team Work List — navigating via direct URL
+[INFO] 2026-08-24T09:03:30.936Z - Sidebar not visible — navigating to portal base URL
+[INFO] 2026-08-24T09:03:35.981Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:03:35.982Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:03:37.042Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:03:37.043Z - Getting count for Alerts
+[INFO] 2026-08-24T09:03:37.051Z - Alerts count: 0
+[STEP] 2026-08-24T09:03:42.054Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:03:42.054Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:03:42.563Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:03:43.073Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:03:43.073Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:03:44.127Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:03:44.127Z - Getting count for Alerts
+[INFO] 2026-08-24T09:03:44.136Z - Alerts count: 0
+[STEP] 2026-08-24T09:03:52.138Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:03:52.138Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:03:52.645Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:03:53.154Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:03:53.154Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:03:54.207Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:03:54.207Z - Getting count for Alerts
+[INFO] 2026-08-24T09:03:54.216Z - Alerts count: 0
+[STEP] 2026-08-24T09:04:04.218Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:04:04.218Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:04:04.726Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:04:05.234Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:04:05.234Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:04:06.274Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:04:06.274Z - Getting count for Alerts
+[INFO] 2026-08-24T09:04:06.283Z - Alerts count: 0
+[STEP] 2026-08-24T09:04:16.284Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:04:16.284Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:04:16.796Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:04:17.315Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:04:17.315Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:04:18.413Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:04:18.414Z - Getting count for Alerts
+[INFO] 2026-08-24T09:04:18.422Z - Alerts count: 0
+[STEP] 2026-08-24T09:04:28.423Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:04:28.423Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:04:28.933Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:04:29.443Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:04:29.443Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:04:30.496Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:04:30.497Z - Getting count for Alerts
+[INFO] 2026-08-24T09:04:30.507Z - Alerts count: 0
+[STEP] 2026-08-24T09:04:40.507Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:04:40.507Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:04:41.016Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:04:41.525Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:04:41.525Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:04:42.573Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:04:42.573Z - Getting count for Alerts
+[INFO] 2026-08-24T09:04:42.581Z - Alerts count: 0
+[STEP] 2026-08-24T09:04:52.582Z - Navigating to Work List > Care Team Work List
+[STEP] 2026-08-24T09:04:52.582Z - Dismissing any open drawer
+[INFO] 2026-08-24T09:04:53.089Z - No drawer backdrop in DOM
+[INFO] 2026-08-24T09:04:53.599Z - Successfully on Care Team Work List
+[STEP] 2026-08-24T09:04:53.600Z - Selecting program tab: RTM
+[INFO] 2026-08-24T09:04:54.645Z - Successfully selected RTM tab
+[STEP] 2026-08-24T09:04:54.645Z - Getting count for Alerts
+[INFO] 2026-08-24T09:04:54.655Z - Alerts count: 0

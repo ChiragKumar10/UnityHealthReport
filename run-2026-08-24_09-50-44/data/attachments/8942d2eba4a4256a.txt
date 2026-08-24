@@ -1,0 +1,99 @@
+[INFO] 2026-08-24T08:50:48.041Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:50:48.002+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:50:48.633Z - Login to Provider Portal
+[INFO] 2026-08-24T08:50:51.913Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:50:51.954Z - Test: Complete reassignment flow — provider accounts + patient charting
+[STEP] 2026-08-24T08:50:51.955Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:50:52.027Z - Creating patient via UI: Hyatt, Consuelo
+[STEP] 2026-08-24T08:50:52.027Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:50:54.576Z - Patient details drawer opened
+[STEP] 2026-08-24T08:50:54.578Z - Filling demographics for Consuelo Hyatt
+[STEP] 2026-08-24T08:51:00.777Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:51:03.711Z - Setting location: Automation
+[STEP] 2026-08-24T08:51:04.715Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:51:05.993Z - Clicking Save & Next
+[INFO] 2026-08-24T08:51:09.448Z - [createPatientViaUI] created "Hyatt, Consuelo"
+[STEP] 2026-08-24T08:51:09.449Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:51:24.741Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:51:24.742Z - Adding new enrollment
+[INFO] 2026-08-24T08:51:27.942Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:51:28.825Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:51:28.825Z - Patient: Hyatt, Consuelo | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:51:29.462Z - Validating enrollment result
+[INFO] 2026-08-24T08:51:29.463Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:51:29.463Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:51:29.463Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:51:29.514Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:51:29.517Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:51:29.517Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:51:29.517Z - Final enrollment details:
+[INFO] 2026-08-24T08:51:29.517Z -   Patient: Hyatt, Consuelo
+[INFO] 2026-08-24T08:51:29.517Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:51:29.517Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:51:29.517Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:51:29.517Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:51:29.517Z - Enrolled Hyatt, Consuelo in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:51:29.517Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:51:45.145Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:51:45.145Z - Applying status filter: New
+[STEP] 2026-08-24T08:51:45.738Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:51:46.312Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:51:46.313Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:51:46.697Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:51:47.392Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:51:47.393Z - Moving enrollment to Active for "Hyatt" (CCM)
+[STEP] 2026-08-24T08:51:47.394Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:51:47.394Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:51:47.739Z - Date filter applied successfully
+[STEP] 2026-08-24T08:51:47.739Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:51:49.206Z - "Move to Active" confirmed for "Hyatt"
+[INFO] 2026-08-24T08:51:49.206Z - Moved Hyatt, Consuelo to Active
+[STEP] 2026-08-24T08:51:49.206Z - Navigating to Task page
+[INFO] 2026-08-24T08:51:50.361Z - Navigated to Task page
+[INFO] 2026-08-24T08:51:50.436Z - Logged-in user: Jemes Cory
+[INFO] 2026-08-24T08:51:50.437Z - Reassign target (logged-in care manager): "Jemes Cory" (search: "Jemes")
+[STEP] 2026-08-24T08:51:50.437Z - Creating task: Reassign 1787561510437
+[STEP] 2026-08-24T08:51:50.437Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:51:51.127Z - Add Task form opened
+[INFO] 2026-08-24T08:52:10.858Z - Task "Reassign 1787561510437" created successfully
+[INFO] 2026-08-24T08:52:10.858Z - Step 1 ✓: Task "Reassign 1787561510437" created — assigned to John Doe
+[STEP] 2026-08-24T08:52:10.858Z - Step 2: Logging in as John Doe to verify task
+[STEP] 2026-08-24T08:52:10.858Z - Logging out from provider portal
+[INFO] 2026-08-24T08:52:13.752Z - Logout completed
+[INFO] 2026-08-24T08:52:13.753Z - Different user "john123" requested — clearing primary session for a real login
+[STEP] 2026-08-24T08:52:14.268Z - Performing provider login
+[STEP] 2026-08-24T08:52:14.268Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:52:15.094Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:52:20.419Z - Login completed
+[STEP] 2026-08-24T08:52:20.424Z - Navigating to Task page
+[INFO] 2026-08-24T08:52:20.795Z - Navigated to Task page
+[STEP] 2026-08-24T08:52:20.799Z - Setting status filter to: All
+[INFO] 2026-08-24T08:52:29.228Z - Status filter set to: All
+[STEP] 2026-08-24T08:52:29.229Z - Searching for: Reassign 1787561510437
+[INFO] 2026-08-24T08:52:29.750Z - Search completed for: Reassign 1787561510437
+[STEP] 2026-08-24T08:52:29.752Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:52:30.768Z - TASK values: Reassign 1787561510437
+[INFO] 2026-08-24T08:52:30.782Z - Step 2 ✓: Task found in John Doe's account
+[STEP] 2026-08-24T08:52:30.783Z - Step 3: Logging back as Chirag to reassign task
+[STEP] 2026-08-24T08:52:30.784Z - Logging out from provider portal
+[INFO] 2026-08-24T08:52:33.196Z - Logout completed
+[STEP] 2026-08-24T08:52:41.435Z - Performing provider login
+[STEP] 2026-08-24T08:52:41.435Z - Navigating to provider portal login page
+[INFO] 2026-08-24T08:52:41.821Z - Successfully navigated to provider portal login page
+[INFO] 2026-08-24T08:52:45.650Z - Login completed
+[STEP] 2026-08-24T08:52:45.655Z - Navigating to Task page
+[INFO] 2026-08-24T08:52:49.168Z - Navigated to Task page
+[STEP] 2026-08-24T08:52:49.168Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:52:50.749Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:52:50.749Z - Setting status filter to: All
+[INFO] 2026-08-24T08:52:59.282Z - Status filter set to: All
+[STEP] 2026-08-24T08:52:59.282Z - Searching for: Reassign 1787561510437
+[INFO] 2026-08-24T08:52:59.584Z - Search completed for: Reassign 1787561510437
+[STEP] 2026-08-24T08:52:59.584Z - Opening Edit Task form
+[STEP] 2026-08-24T08:52:59.585Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:53:00.647Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:53:00.647Z - Clicking action menu item: Edit
+[INFO] 2026-08-24T08:53:02.361Z - Clicked: Edit
+[INFO] 2026-08-24T08:53:02.366Z - Edit Task form opened
+[STEP] 2026-08-24T08:53:02.367Z - Changing assignee to: Jemes

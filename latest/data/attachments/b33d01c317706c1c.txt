@@ -1,0 +1,107 @@
+[INFO] 2026-08-24T08:43:10.182Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:43:10.101+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:43:17.865Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:43:17.877Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:43:17.966Z - Creating patient via UI: Hartmann, Dudley
+[STEP] 2026-08-24T08:43:17.966Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:43:23.971Z - Patient details drawer opened
+[STEP] 2026-08-24T08:43:23.971Z - Filling demographics for Dudley Hartmann
+[STEP] 2026-08-24T08:43:34.905Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:43:37.727Z - Setting location: Automation
+[STEP] 2026-08-24T08:43:39.174Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:43:41.395Z - Clicking Save & Next
+[INFO] 2026-08-24T08:43:45.910Z - [createPatientViaUI] created "Hartmann, Dudley"
+[STEP] 2026-08-24T08:43:45.910Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:44:01.216Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:44:01.227Z - Adding new enrollment
+[INFO] 2026-08-24T08:44:04.531Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:44:06.243Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:44:06.247Z - Patient: Hartmann, Dudley | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:44:07.258Z - Validating enrollment result
+[INFO] 2026-08-24T08:44:07.258Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:44:07.258Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:44:07.258Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:44:07.351Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:44:07.351Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:44:07.351Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:44:07.351Z - Final enrollment details:
+[INFO] 2026-08-24T08:44:07.351Z -   Patient: Hartmann, Dudley
+[INFO] 2026-08-24T08:44:07.351Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:44:07.352Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:44:07.352Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:44:07.352Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:44:07.352Z - Enrolled Hartmann, Dudley in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:44:07.352Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:44:22.881Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:44:22.882Z - Applying status filter: New
+[STEP] 2026-08-24T08:44:23.737Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:44:24.607Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:44:24.610Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:44:25.231Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:44:26.273Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:44:26.273Z - Moving enrollment to Active for "Hartmann" (CCM)
+[STEP] 2026-08-24T08:44:26.273Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:44:26.274Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:44:26.843Z - Date filter applied successfully
+[STEP] 2026-08-24T08:44:26.843Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:44:28.536Z - "Move to Active" confirmed for "Hartmann"
+[INFO] 2026-08-24T08:44:28.536Z - Moved Hartmann, Dudley to Active
+[STEP] 2026-08-24T08:44:28.555Z - Test: Delete task and verify removed from provider view and patient charting
+[STEP] 2026-08-24T08:44:28.555Z - Navigating to Task page
+[INFO] 2026-08-24T08:44:31.382Z - Navigated to Task page
+[STEP] 2026-08-24T08:44:31.385Z - Creating task: DeleteBoth 1787561071382
+[STEP] 2026-08-24T08:44:31.387Z - Clicking + Add Task button
+[INFO] 2026-08-24T08:44:32.213Z - Add Task form opened
+[INFO] 2026-08-24T08:44:56.524Z - Task "DeleteBoth 1787561071382" created successfully
+[INFO] 2026-08-24T08:44:56.525Z - Task "DeleteBoth 1787561071382" created
+[STEP] 2026-08-24T08:44:56.525Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:44:58.162Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:44:58.162Z - Setting status filter to: All
+[INFO] 2026-08-24T08:45:06.682Z - Status filter set to: All
+[STEP] 2026-08-24T08:45:06.682Z - Searching for: DeleteBoth 1787561071382
+[INFO] 2026-08-24T08:45:07.133Z - Search completed for: DeleteBoth 1787561071382
+[STEP] 2026-08-24T08:45:07.133Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:45:08.168Z - TASK values: DeleteBoth 1787561071382
+[INFO] 2026-08-24T08:45:08.193Z - Task verified in task list before delete
+[STEP] 2026-08-24T08:45:08.194Z - Verifying task in Patient Charting before delete
+[STEP] 2026-08-24T08:45:08.194Z - Opening patient chart from global search for: Hartmann, Dudley
+[INFO] 2026-08-24T08:45:10.058Z - Patient chart opened from global search for: Hartmann, Dudley
+[INFO] 2026-08-24T08:45:13.556Z - Task verified in Patient Charting before delete
+[STEP] 2026-08-24T08:45:13.556Z - Deleting the task
+[STEP] 2026-08-24T08:45:13.556Z - Navigating to Task page
+[INFO] 2026-08-24T08:45:14.008Z - Navigated to Task page
+[STEP] 2026-08-24T08:45:14.008Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:45:15.821Z - My Tasks filter unchecked
+[STEP] 2026-08-24T08:45:15.821Z - Setting status filter to: All
+[INFO] 2026-08-24T08:45:24.603Z - Status filter set to: All
+[STEP] 2026-08-24T08:45:24.603Z - Searching for: DeleteBoth 1787561071382
+[INFO] 2026-08-24T08:45:25.248Z - Search completed for: DeleteBoth 1787561071382
+[STEP] 2026-08-24T08:45:25.248Z - Deleting task
+[STEP] 2026-08-24T08:45:25.248Z - Opening delete confirmation dialog
+[STEP] 2026-08-24T08:45:25.248Z - Clicking action menu on row 0
+[INFO] 2026-08-24T08:45:26.424Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:45:26.425Z - Clicking action menu item: Delete
+[INFO] 2026-08-24T08:45:28.078Z - Clicked: Delete
+[INFO] 2026-08-24T08:45:28.098Z - Delete confirmation dialog opened
+[STEP] 2026-08-24T08:45:28.099Z - Clicking Delete to confirm deletion
+[INFO] 2026-08-24T08:45:31.354Z - Task deleted
+[INFO] 2026-08-24T08:45:31.354Z - Task deleted
+[STEP] 2026-08-24T08:45:31.354Z - VERIFY 1: Task should not be in provider task list
+[STEP] 2026-08-24T08:45:31.354Z - Navigating to Task page
+[INFO] 2026-08-24T08:45:31.758Z - Navigated to Task page
+[STEP] 2026-08-24T08:45:31.758Z - Unchecking My Tasks filter
+[INFO] 2026-08-24T08:45:31.788Z - My Tasks filter already unchecked
+[STEP] 2026-08-24T08:45:31.788Z - Setting status filter to: All
+[INFO] 2026-08-24T08:45:32.243Z - Status filter set to: All
+[STEP] 2026-08-24T08:45:32.243Z - Searching for: DeleteBoth 1787561071382
+[INFO] 2026-08-24T08:45:33.976Z - Search completed for: DeleteBoth 1787561071382
+[STEP] 2026-08-24T08:45:33.977Z - Fetching column values for: TASK
+[INFO] 2026-08-24T08:45:35.005Z - TASK values: 
+[INFO] 2026-08-24T08:45:35.032Z - No data found visible: true
+[INFO] 2026-08-24T08:45:35.041Z - ✓ VERIFY 1 PASSED: Deleted task not in provider task list
+[STEP] 2026-08-24T08:45:35.041Z - VERIFY 2: Task should not be in Patient Charting
+[STEP] 2026-08-24T08:45:35.042Z - Opening patient chart from global search for: Hartmann, Dudley
+[INFO] 2026-08-24T08:45:36.930Z - Patient chart opened from global search for: Hartmann, Dudley
+[INFO] 2026-08-24T08:45:40.416Z - ✓ VERIFY 2 PASSED: Deleted task not in Patient Charting
+[INFO] 2026-08-24T08:45:40.416Z - AUT_TSK_127 PASSED: Deleted task removed from BOTH provider task list and patient charting

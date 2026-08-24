@@ -1,0 +1,53 @@
+[INFO] 2026-08-24T08:29:24.580Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:29:24.494+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:29:30.272Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:29:30.294Z - Starting patient chart navigation test
+[STEP] 2026-08-24T08:29:30.296Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:29:30.394Z - Creating patient via UI: VonRueden, Lonny
+[STEP] 2026-08-24T08:29:30.394Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:29:34.008Z - Patient details drawer opened
+[STEP] 2026-08-24T08:29:34.008Z - Filling demographics for Lonny VonRueden
+[STEP] 2026-08-24T08:29:41.615Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:29:43.037Z - Setting location: Automation
+[STEP] 2026-08-24T08:29:44.382Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:29:46.138Z - Clicking Save & Next
+[INFO] 2026-08-24T08:29:49.271Z - [createPatientViaUI] created "VonRueden, Lonny"
+[STEP] 2026-08-24T08:29:49.272Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:04.494Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:04.497Z - Adding new enrollment
+[INFO] 2026-08-24T08:30:08.829Z - Selected specified program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:30:09.842Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:30:09.843Z - Patient: VonRueden, Lonny | Program: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:30:10.609Z - Validating enrollment result
+[INFO] 2026-08-24T08:30:10.609Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:30:10.609Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:30:10.609Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:30:10.671Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:30:10.671Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:30:10.672Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:30:10.672Z - Final enrollment details:
+[INFO] 2026-08-24T08:30:10.672Z -   Patient: VonRueden, Lonny
+[INFO] 2026-08-24T08:30:10.672Z -   Program: Remote Therapeutic Monitoring (RTM)
+[INFO] 2026-08-24T08:30:10.672Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:30:10.672Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:30:10.672Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:30:10.672Z - Enrolled VonRueden, Lonny in Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:30:10.672Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:30:25.963Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:30:25.963Z - Applying status filter: New
+[STEP] 2026-08-24T08:30:26.961Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:27.775Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:30:27.776Z - Applying program filter: Remote Therapeutic Monitoring (RTM)
+[STEP] 2026-08-24T08:30:28.378Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:30.008Z - Program filter 'Remote Therapeutic Monitoring (RTM)' applied successfully
+[STEP] 2026-08-24T08:30:30.008Z - Moving enrollment to Active for "VonRueden" (RTM)
+[STEP] 2026-08-24T08:30:30.008Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:30:30.009Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:30:30.604Z - Date filter applied successfully
+[STEP] 2026-08-24T08:30:30.604Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:30:31.784Z - "Move to Active" confirmed for "VonRueden"
+[INFO] 2026-08-24T08:30:31.784Z - Moved VonRueden, Lonny to Active
+[STEP] 2026-08-24T08:30:31.785Z - Opening patient chart from global search for: VonRueden, Lonny
+[INFO] 2026-08-24T08:30:34.069Z - Patient chart opened from global search for: VonRueden, Lonny
+[INFO] 2026-08-24T08:30:34.089Z - Patient chart navigation test completed successfully

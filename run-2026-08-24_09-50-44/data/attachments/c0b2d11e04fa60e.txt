@@ -1,0 +1,44 @@
+[INFO] 2026-08-24T08:23:24.632Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:23:24.490+00:00","code":"BAD_REQU
+[INFO] 2026-08-24T08:23:34.877Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:23:34.926Z - Navigating to Document Library
+[INFO] 2026-08-24T08:23:39.306Z - Navigated to Document Library via sidebar
+[STEP] 2026-08-24T08:23:39.306Z - Clicking folder: Education
+[INFO] 2026-08-24T08:23:49.620Z - Opened folder: Education
+[STEP] 2026-08-24T08:23:49.621Z - Uploading document: ArcDoc 1787559829621
+[STEP] 2026-08-24T08:23:49.621Z - Clicking Upload Material button
+[INFO] 2026-08-24T08:23:54.093Z - Upload Material form opened
+[STEP] 2026-08-24T08:23:54.093Z - Selecting tag: Education
+[INFO] 2026-08-24T08:23:56.028Z - Tag selected: Education
+[STEP] 2026-08-24T08:23:56.028Z - Selecting speciality: Cardiologist
+[INFO] 2026-08-24T08:23:58.063Z - Speciality selected: Cardiologist
+[STEP] 2026-08-24T08:23:58.063Z - Filling file name: ArcDoc 1787559829621
+[STEP] 2026-08-24T08:23:58.629Z - Uploading file: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.png
+[INFO] 2026-08-24T08:23:58.805Z - Waiting for file upload to complete...
+[INFO] 2026-08-24T08:23:59.953Z - File upload completed: /__w/Unity-Health-Automation/Unity-Health-Automation/fixtures/docs/4mb.png
+[STEP] 2026-08-24T08:23:59.953Z - Clicking Upload button
+[INFO] 2026-08-24T08:24:00.310Z - Upload button enabled — clicking
+[INFO] 2026-08-24T08:24:03.514Z - Upload completed
+[INFO] 2026-08-24T08:24:03.517Z - Document "ArcDoc 1787559829621" uploaded successfully
+[STEP] 2026-08-24T08:24:03.517Z - Navigating to Document Library
+[INFO] 2026-08-24T08:24:05.463Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:24:05.463Z - Clicking folder: Education
+[INFO] 2026-08-24T08:24:07.342Z - Opened folder: Education
+[STEP] 2026-08-24T08:24:07.351Z - Searching document: ArcDoc 1787559829621
+[INFO] 2026-08-24T08:24:09.663Z - Search completed: ArcDoc 1787559829621
+[STEP] 2026-08-24T08:24:09.728Z - Archiving document at row 0
+[STEP] 2026-08-24T08:24:09.730Z - Clicking action menu on document row 0
+[INFO] 2026-08-24T08:24:10.846Z - Action menu opened on row 0
+[STEP] 2026-08-24T08:24:10.846Z - Clicking action item: Archive
+[INFO] 2026-08-24T08:24:12.420Z - Clicked: Archive
+[INFO] 2026-08-24T08:24:15.449Z - Document archived
+[STEP] 2026-08-24T08:24:15.449Z - Navigating to Document Library
+[INFO] 2026-08-24T08:24:17.048Z - Navigated to Document Library via Home breadcrumb
+[STEP] 2026-08-24T08:24:17.048Z - Clicking folder: Education
+[INFO] 2026-08-24T08:24:18.948Z - Opened folder: Education
+[STEP] 2026-08-24T08:24:18.950Z - Searching document: ArcDoc 1787559829621
+[INFO] 2026-08-24T08:24:21.186Z - Search completed: ArcDoc 1787559829621
+[STEP] 2026-08-24T08:24:21.212Z - Toggling Show Archived checkbox
+[INFO] 2026-08-24T08:24:23.432Z - Show Archived toggled — checked: true
+[STEP] 2026-08-24T08:24:23.432Z - Searching document: ArcDoc 1787559829621
+[INFO] 2026-08-24T08:24:25.751Z - Search completed: ArcDoc 1787559829621
+[INFO] 2026-08-24T08:24:25.786Z - AUT_DOC_010 PASSED: Archive and Show Archived verified

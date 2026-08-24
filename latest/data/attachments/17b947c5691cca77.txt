@@ -1,0 +1,56 @@
+[STEP] 2026-08-24T08:39:47.304Z - Login to Provider Portal
+[INFO] 2026-08-24T08:39:49.428Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:39:51.401Z - Test: E2E - Resolve with note, then verify via View Resolved Note
+[STEP] 2026-08-24T08:39:51.401Z - Opening patient chart from global search for: Price, Ivah
+[INFO] 2026-08-24T08:39:54.804Z - Patient chart opened from global search for: Price, Ivah
+[STEP] 2026-08-24T08:39:54.835Z - Navigating to Vitals tab
+[INFO] 2026-08-24T08:39:56.310Z - Successfully navigated to Vitals tab
+[STEP] 2026-08-24T08:39:56.311Z - Adding vital: Pain Scale with value 178
+[STEP] 2026-08-24T08:39:56.311Z - Clicking Add Vital button
+[INFO] 2026-08-24T08:39:56.506Z - Add Vital form opened
+[STEP] 2026-08-24T08:39:56.506Z - Selecting vital type: Pain Scale
+[INFO] 2026-08-24T08:39:56.881Z - Successfully selected vital type: Pain Scale
+[STEP] 2026-08-24T08:39:56.881Z - Entering vital value: 178
+[INFO] 2026-08-24T08:39:56.927Z - Successfully entered vital value: 178
+[STEP] 2026-08-24T08:39:56.927Z - Saving vital
+[INFO] 2026-08-24T08:39:57.004Z - Successfully saved vital
+[INFO] 2026-08-24T08:39:57.004Z - Successfully added vital: Pain Scale with value 178
+[INFO] 2026-08-24T08:39:57.004Z - Pain Scale vital added with value: 178
+[STEP] 2026-08-24T08:39:57.004Z - Navigating to Alerts page
+[INFO] 2026-08-24T08:39:58.457Z - Navigated to Alerts page
+[STEP] 2026-08-24T08:39:58.458Z - Searching alerts for: Price
+[INFO] 2026-08-24T08:40:00.037Z - Search completed for: Price
+[STEP] 2026-08-24T08:40:00.038Z - Getting alert row count
+[INFO] 2026-08-24T08:40:01.044Z - Alert row count: 1
+[STEP] 2026-08-24T08:40:01.044Z - Resolving alert at row 1
+[STEP] 2026-08-24T08:40:01.045Z - Opening action menu for row 1
+[INFO] 2026-08-24T08:40:01.586Z - Action menu opened for row 1
+[STEP] 2026-08-24T08:40:01.586Z - Clicking Resolve from action menu
+[INFO] 2026-08-24T08:40:02.152Z - Resolve clicked
+[STEP] 2026-08-24T08:40:02.152Z - Filling resolve note and saving
+[INFO] 2026-08-24T08:40:03.250Z - Resolve note saved
+[STEP] 2026-08-24T08:40:03.250Z - Dismissing drawer/overlay
+[INFO] 2026-08-24T08:40:09.912Z - Page reloaded to clear overlays
+[INFO] 2026-08-24T08:40:09.912Z - Alert at row 1 resolved
+[INFO] 2026-08-24T08:40:09.912Z - Alert resolved with note: E2E resolved note - 1787560801044
+[STEP] 2026-08-24T08:40:09.912Z - Selecting status filter: All
+[INFO] 2026-08-24T08:40:12.091Z - Status filter set to: All
+[STEP] 2026-08-24T08:40:12.091Z - Searching alerts for: Price
+[INFO] 2026-08-24T08:40:13.660Z - Search completed for: Price
+[STEP] 2026-08-24T08:40:13.660Z - Finding first resolved row
+[STEP] 2026-08-24T08:40:13.660Z - Getting alert row count
+[INFO] 2026-08-24T08:40:14.665Z - Alert row count: 2
+[STEP] 2026-08-24T08:40:14.665Z - Getting cell text at row 1, column 8
+[INFO] 2026-08-24T08:40:14.674Z - Cell text: Resolved
+[INFO] 2026-08-24T08:40:14.674Z - First resolved row found at index: 1 (attempt 1)
+[STEP] 2026-08-24T08:40:14.675Z - Opening action menu for row 1
+[INFO] 2026-08-24T08:40:15.218Z - Action menu opened for row 1
+[STEP] 2026-08-24T08:40:15.219Z - Checking if View Resolved Note option is visible
+[INFO] 2026-08-24T08:40:15.222Z - View Resolved Note visible: true
+[STEP] 2026-08-24T08:40:15.222Z - Clicking View Resolved Note from action menu
+[INFO] 2026-08-24T08:40:16.279Z - View Resolved Note clicked
+[STEP] 2026-08-24T08:40:16.279Z - Getting resolved note text
+[INFO] 2026-08-24T08:40:16.785Z - Resolved note text (textarea): E2E resolved note - 1787560801044
+[INFO] 2026-08-24T08:40:16.785Z - E2E verified: Note contains "E2E resolved note - 1787560801044"
+[STEP] 2026-08-24T08:40:16.785Z - Dismissing resolved note dialog
+[INFO] 2026-08-24T08:40:17.297Z - Resolved note dialog dismissed

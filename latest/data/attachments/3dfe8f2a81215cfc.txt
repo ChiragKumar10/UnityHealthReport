@@ -1,0 +1,64 @@
+[INFO] 2026-08-24T08:31:00.587Z - [precondition] ensureSharedPatientActive skipped: API login failed (400): {"date":"2026-08-24T08:31:00.527+00:00","code":"BAD_REQU
+[STEP] 2026-08-24T08:31:01.418Z - Setup: login → patient chart → CCM → Documents
+[INFO] 2026-08-24T08:31:05.943Z - Reusing single saved provider session — no login performed
+[STEP] 2026-08-24T08:31:05.959Z - Seeding Active enrollment via UI (create → enroll → activate)
+[STEP] 2026-08-24T08:31:06.025Z - Creating patient via UI: Klein, Martina
+[STEP] 2026-08-24T08:31:06.027Z - Opening New Patient drawer
+[INFO] 2026-08-24T08:31:12.051Z - Patient details drawer opened
+[STEP] 2026-08-24T08:31:12.051Z - Filling demographics for Martina Klein
+[STEP] 2026-08-24T08:31:23.731Z - Filling primary address: 123 Test Street, Austin
+[STEP] 2026-08-24T08:31:24.734Z - Setting location: Automation
+[STEP] 2026-08-24T08:31:25.863Z - Setting Self Pay = true
+[STEP] 2026-08-24T08:31:27.510Z - Clicking Save & Next
+[INFO] 2026-08-24T08:31:31.805Z - [createPatientViaUI] created "Klein, Martina"
+[STEP] 2026-08-24T08:31:31.805Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:31:47.156Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:31:47.157Z - Adding new enrollment
+[INFO] 2026-08-24T08:31:52.011Z - Selected specified program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:31:53.519Z - 
+Enrollment attempt 1/5
+[INFO] 2026-08-24T08:31:53.520Z - Patient: Klein, Martina | Program: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:31:54.745Z - Validating enrollment result
+[INFO] 2026-08-24T08:31:54.747Z - 
+=== VALIDATING ENROLLMENT RESULT - DEBUG MODE ===
+[INFO] 2026-08-24T08:31:54.747Z - Looking for success message: "Documents mapped successfully!"
+[INFO] 2026-08-24T08:31:54.747Z - Looking for error message: "The Patient Is Already Newly Enrolled In This Program."
+[INFO] 2026-08-24T08:31:55.105Z - SUCCESS: Enrollment completed successfully.
+[INFO] 2026-08-24T08:31:55.105Z - Enrollment result: SUCCESS
+[INFO] 2026-08-24T08:31:55.105Z - ✓ Enrollment created successfully!
+[INFO] 2026-08-24T08:31:55.105Z - Final enrollment details:
+[INFO] 2026-08-24T08:31:55.105Z -   Patient: Klein, Martina
+[INFO] 2026-08-24T08:31:55.105Z -   Program: Chronic Care Management (CCM)
+[INFO] 2026-08-24T08:31:55.105Z -   Provider: Anny Vate
+[INFO] 2026-08-24T08:31:55.105Z -   Care Manager: Autofirstarnnuw Autolastarnnuw
+[INFO] 2026-08-24T08:31:55.105Z - Enrollment form submitted successfully
+[INFO] 2026-08-24T08:31:55.105Z - Enrolled Klein, Martina in Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:31:55.105Z - Navigating to Enrollment section
+[INFO] 2026-08-24T08:32:11.138Z - Navigated to Enrollment section
+[STEP] 2026-08-24T08:32:11.138Z - Applying status filter: New
+[STEP] 2026-08-24T08:32:11.581Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:12.657Z - Status filter 'New' applied successfully
+[STEP] 2026-08-24T08:32:12.658Z - Applying program filter: Chronic Care Management (CCM)
+[STEP] 2026-08-24T08:32:13.245Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:14.344Z - Program filter 'Chronic Care Management (CCM)' applied successfully
+[STEP] 2026-08-24T08:32:14.348Z - Moving enrollment to Active for "Klein" (CCM)
+[STEP] 2026-08-24T08:32:14.348Z - Pinning enrollment date filter to today: 08-24-2026
+[STEP] 2026-08-24T08:32:14.348Z - Applying date filter: 08-24-2026 to 08-24-2026
+[INFO] 2026-08-24T08:32:14.783Z - Date filter applied successfully
+[STEP] 2026-08-24T08:32:14.783Z - Waiting for enrollment list to finish loading
+[INFO] 2026-08-24T08:32:16.194Z - "Move to Active" confirmed for "Klein"
+[INFO] 2026-08-24T08:32:16.194Z - Moved Klein, Martina to Active
+[STEP] 2026-08-24T08:32:16.195Z - Opening patient chart from global search for: Klein, Martina
+[INFO] 2026-08-24T08:32:19.608Z - Patient chart opened from global search for: Klein, Martina
+[INFO] 2026-08-24T08:32:22.520Z - Setup ✓: on patient-chart CCM → Documents
+[INFO] 2026-08-24T08:32:22.726Z - Scenario 1 ✓: root shows all 5 folders
+[INFO] 2026-08-24T08:32:22.964Z - Scenario 3 ✓: Folder "Home Exercise" accessible
+[INFO] 2026-08-24T08:32:23.208Z - Scenario 3 ✓: Folder "Education" accessible
+[INFO] 2026-08-24T08:32:23.420Z - Scenario 3 ✓: Folder "Challenges" accessible
+[INFO] 2026-08-24T08:32:23.744Z - Scenario 3 ✓: Folder "Care Plan" accessible
+[INFO] 2026-08-24T08:32:24.160Z - Scenario 3 ✓: Folder "Consent" accessible
+[INFO] 2026-08-24T08:32:24.729Z - Scenario 2 ✓: all chart-context columns present (plus breadcrumb)
+[STEP] 2026-08-24T08:32:24.732Z - Uploading "PWDoc-JPG-1787560344731" to "Home Exercise"
+[INFO] 2026-08-24T08:33:28.931Z - Upload drawer did not close on first click — retrying
+[INFO] 2026-08-24T08:34:29.008Z - Uploaded "PWDoc-JPG-1787560344731" to "Home Exercise"
+[STEP] 2026-08-24T08:34:29.009Z - Uploading "PWDoc-PDF-1787560344731" to "Education"
